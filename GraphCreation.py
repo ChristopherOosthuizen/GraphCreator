@@ -48,12 +48,12 @@ def _chunkText(text):
 def _set_chunk(url, chunk,chunks, position):
     chun = format(chunk,url)
     chunks[position] = chun
-def _get_text_chunks(url):
-    chunks = _chunkText(_url_to_md(url))
+def _get_text_chunks(text):
+    chunks = _chunkText(text)
     print(len(chunks))
     threads = []
     for x in range(len(chunks)):
-        thread = threading.Thread(target=_set_chunk, args=(url,chunks[x],chunks,x))
+        thread = threading.Thread(target=_set_chunk, args=("",chunks[x],chunks,x))
         threads.append(thread)
         thread.start()
     for thread in threads:
@@ -450,9 +450,8 @@ def _combine_one(ont1, ont2, sum1,sum2, list, position, summaries):
     summaries[position] = sums
     list[position] = _combine_ontologies(ont1, ont2, sums)
 
-def _create_kg(url, repeats=5, converege=True):
+def _create_kg(chunks, repeats=5, converege=True):
     
-    chunks = _get_text_chunks(url)
     print(f"Number of chunks: {len(chunks)}")
     triplets = []
     combinations = [] 
@@ -529,8 +528,8 @@ Your focus is on delivering clear, concise answers without any unnecessary infor
     )
     return response.response
 
-def createKG(url, output_file="./output/"):
-    jsons = _create_kg(url, converege=False, repeats=4)
+def create_KG_from_text(text, output_file="./output/"):
+    jsons = _create_kg(_chunkText(text), converege=False, repeats=4)
     Graph = nx.Graph()
     for x in jsons:
         try:
@@ -548,3 +547,24 @@ def createKG(url, output_file="./output/"):
     nt.from_nx(Graph)
     nt.show(output_file+"graph.html", notebook=False)  
     return Graph
+
+def create_KG_from_url(url, output_file="./output/"):
+    jsons = _create_kg(_get_text_chunks(_url_to_md(url)), converege=False, repeats=4)
+    Graph = nx.Graph()
+    for x in jsons:
+        try:
+            x = json.loads(x)
+        except:
+            x = json.loads(_fix_format(x))
+        for y in x:
+            Graph.add_edge(y["node_1"],y["node_2"],label=y["edge"])
+
+    nx.write_graphml(Graph, output_file+"graph.graphml")
+    open(output_file+"graph.json","w").write(json.dumps(jsons))
+    from pyvis.network import Network
+    nx.draw(Graph, with_labels = True)
+    nt = Network('100%', '100%')
+    nt.from_nx(Graph)
+    nt.show(output_file+"graph.html", notebook=False)  
+    return Graph
+
