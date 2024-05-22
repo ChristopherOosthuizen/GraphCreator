@@ -529,7 +529,7 @@ Your focus is on delivering clear, concise answers without any unnecessary infor
     return response.response
 
 def create_KG_from_text(text, output_file="./output/"):
-    jsons = _create_kg(_chunkText(text), converege=False, repeats=4)
+    jsons = _create_kg(_get_text_chunks(text), converege=False, repeats=4)
     Graph = nx.Graph()
     for x in jsons:
         try:
@@ -549,22 +549,20 @@ def create_KG_from_text(text, output_file="./output/"):
     return Graph
 
 def create_KG_from_url(url, output_file="./output/"):
-    jsons = _create_kg(_get_text_chunks(_url_to_md(url)), converege=False, repeats=4)
-    Graph = nx.Graph()
-    for x in jsons:
-        try:
-            x = json.loads(x)
-        except:
-            x = json.loads(_fix_format(x))
-        for y in x:
-            Graph.add_edge(y["node_1"],y["node_2"],label=y["edge"])
+    text = _url_to_md(url)
+    jsons = create_KG_from_text(text, output_file)
+    return jsons
+from pdfminer.high_level import extract_text
 
-    nx.write_graphml(Graph, output_file+"graph.graphml")
-    open(output_file+"graph.json","w").write(json.dumps(jsons))
-    from pyvis.network import Network
-    nx.draw(Graph, with_labels = True)
-    nt = Network('100%', '100%')
-    nt.from_nx(Graph)
-    nt.show(output_file+"graph.html", notebook=False)  
-    return Graph
+def _convert_to_markdown(text):
+    lines = text.split("\\\\n")
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if stripped.isupper() and len(stripped) < 50:
+            lines[i] = f"## {stripped}"
+    return "\\\\n".join(lines)
 
+def create_KG_from_pdf(pdf, output_file="./output/"):
+    text = _convert_to_markdown(extract_text(pdf))
+    jsons = create_KG_from_text(text, output_file)
+    return jsons
