@@ -29,7 +29,6 @@ def set_chunk(url, chunk, chunks, position):
 
 def get_text_chunks(text):
     chunks = chunk_text(text)
-    print(len(chunks))
     threads = []
     for x in range(len(chunks)):
         thread = threading.Thread(target=set_chunk, args=("", chunks[x], chunks, x))
