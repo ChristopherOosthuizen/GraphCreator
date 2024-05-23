@@ -479,7 +479,7 @@ def _create_kg(chunks, repeats=5, converege=True):
         combinations = [""]*(int(len(combinations)/2)+len(combinations)%2)
         threads = []
         for x in range(1,len(old_combinations),2):
-            thread = threading.Thread(target=combine_one, args=(old_combinations[x-1],old_combinations[x],old_summaries[x-1],old_summaries[x],combinations,x//2,summaries))
+            thread = threading.Thread(target=_combine_one, args=(old_combinations[x-1],old_combinations[x],old_summaries[x-1],old_summaries[x],combinations,x//2,summaries))
             threads.append(thread)
             thread.start()
         for thread in threads:
