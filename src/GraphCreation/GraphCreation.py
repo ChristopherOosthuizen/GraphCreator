@@ -211,10 +211,10 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
 
 def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     text = textformatting.url_to_md(url)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked)
+    jsons = create_KG_from_text(text, output_file)
     return jsons
 
 def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     text = textformatting._convert_to_markdown(extract_text(pdf))
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats=2, chunks_precentage_linked=0.5)
     return jsons
