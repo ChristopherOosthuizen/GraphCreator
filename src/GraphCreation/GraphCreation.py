@@ -74,7 +74,6 @@ def new_summary_prompt(summary, text_chunk):
 
 def _make_one_triplet(list, position, chunk):
     chu = create_knowledge_triplets(text_chunk=chunk)
-    print(chu)
     list[position] = chu
 
 def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
@@ -112,7 +111,6 @@ def _create_kg(chunks, repeats=5, converge=True):
         threads.append(thread)
         thread.start()
     for thread in threads:
-        print(x/len(chunks))
         thread.join()
     combinations = triplets
     summaries = chunks    
@@ -129,14 +127,12 @@ def _create_kg(chunks, repeats=5, converge=True):
             threads.append(thread)
             thread.start()
         for thread in threads:
-            print(1/len(combinations))
             thread.join()
         if len(combinations)%2 == 1:
             combinations[-1] = old_combinations[-1]
             summaries[-1] = old_summaries[-1]
     if converge:
         while len(lp.ontologies_to_unconncected(combinations[0], combinations[0])) > 1:
-            print(len(lp.ontologies_to_unconncected(combinations[0], combinations[0])))
             combinations[0] = lp._fix_ontology(combinations[0], summaries[0])
         return combinations
     for x in range(len(combinations)-1, 0, -1):
@@ -193,7 +189,6 @@ def create_KG_from_text(text, output_file="./output/"):
         try:
             x = json.loads(x)
         except:
-            print(jsons)
             x = json.loads(lp.fix_format(x))
         for y in x:
             Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])
@@ -219,6 +214,5 @@ def create_KG_from_url(url, output_file="./output/"):
 
 def create_KG_from_pdf(pdf, output_file="./output/"):
     text = textformatting._convert_to_markdown(extract_text(pdf))
-    print(text)
     jsons = create_KG_from_text(text, output_file)
     return jsons
