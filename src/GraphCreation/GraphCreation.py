@@ -9,11 +9,12 @@ from openai import OpenAI
 import re
 import json
 import threading
-client = OpenAI()
+
 
 
 
 def _format(prompt,url):
+    client = OpenAI()
     response = client.chat.completions.create(
   model="gpt-4o",
   messages=[
@@ -26,6 +27,7 @@ After reviewing the content return nothing but the text unfiltered if there is n
     return response.choices[0].message.content
 
 def _generate(system_promt,user_prompt):
+    client = OpenAI()
     response = client.chat.completions.create(
   model="gpt-4o",
   messages=[
@@ -63,7 +65,7 @@ def _get_text_chunks(text):
             chunks.pop(x)
     return chunks
 
-def _create_knowledge_triplets(text_chunk, repeats=1):
+def _create_knowledge_triplets(text_chunk="", repeats=5):
     system_prompt = """You are an AI assistant trained in extracting ontologies and relationships between concepts from a given context using techniques from category theory and knowledge representation. Your task is to analyze a provided text passage (delimited by ```) and identify the key terms, entities, and concepts discussed, focusing on well-defined and widely used terminology related to materials, systems, processes and methods.
 For each pair of identified terms/concepts (up to around 10 pairs total), output a JSON object specifying the two terms as "node_1" and "node_2", and concisely describe the relationship or connection between them in the "edge" field. The goal is to produce a list of JSON objects representing a graph-like ontology, where the nodes are key concepts and the edges define their relationships as stated or implied by the given context.
 The output format should be a JSON list, with each element being an object like:
@@ -159,7 +161,7 @@ Please output the expanded ontology using the same JSON list format as the origi
 {...}
 ]
 The output should contain all of the original ontology triplets interleaved with the newly added ones, organized alphabetically by the "node_1" field. This will provide a more comprehensive knowledge graph capturing the main concepts and relationships discussed in the text."""
-        response = str(generate(system_prompt,prompt))
+        response = str(_generate(system_prompt,prompt))
     prompt = """Here is the prompt updated to insert additional triplets into the existing ontology:
 Read this context carefully and extract the key concepts and relationships discussed:"""+text_chunk+"""Here is the ontology graph generated from the above context:"""+response+"""Here's a prompt that expands on the previous one by adding triplets to connect all nodes in the ontology graph:
 Read this context carefully and extract the key concepts and relationships discussed:
@@ -209,7 +211,6 @@ The output should contain all of the original ontology triplets along with the n
     return response
 
 def _fix_format(input):
-    print(input)
     prompt = f"""given this json \nOriginal Json: {input}"""+"""
 
 Format: ```
@@ -239,7 +240,6 @@ Format: ```
 
 ensure that the existing JSON matching the template above. But contains all of the original ontology triplets."""
     response = str(_generate("",prompt))
-    print(response)
     response = response[response.find("["):response.find("]")+1]
     return response
 
@@ -456,13 +456,13 @@ def _create_kg(chunks, repeats=5, converege=True):
     triplets = []
     combinations = [] 
     if len(chunks) == 1:
-        return _create_knowledge_triplets("",chunks[0])
+        return [_create_knowledge_triplets(text_chunk=chunks[0])]
     combinations = []
     summaries = []
     threads = []
     triplets = [""]*len(chunks)
     for x in range(len(chunks)):
-        thread = threading.Thread(target=make_one_triplet, args=(triplets,x,chunks[x]))
+        thread = threading.Thread(target=_make_one_triplet, args=(triplets,x,chunks[x]))
         threads.append(thread)
         thread.start()
     for thread in threads:
@@ -529,12 +529,13 @@ Your focus is on delivering clear, concise answers without any unnecessary infor
     return response.response
 
 def create_KG_from_text(text, output_file="./output/"):
-    jsons = _create_kg(_get_text_chunks(text), converege=False, repeats=4)
+    jsons = _create_kg(_get_text_chunks(text), converege=False, repeats=1)
     Graph = nx.Graph()
     for x in jsons:
         try:
             x = json.loads(x)
         except:
+            print(jsons)
             x = json.loads(_fix_format(x))
         for y in x:
             Graph.add_edge(y["node_1"],y["node_2"],label=y["edge"])
@@ -564,5 +565,6 @@ def _convert_to_markdown(text):
 
 def create_KG_from_pdf(pdf, output_file="./output/"):
     text = _convert_to_markdown(extract_text(pdf))
+    print(text)
     jsons = create_KG_from_text(text, output_file)
     return jsons
