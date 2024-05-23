@@ -83,7 +83,7 @@ def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
 
 import concurrent.futures
 
-def _create_kg(chunks, repeats=5, converge=True):
+def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2):
     """
     Creates a knowledge graph from a list of text chunks.
 
@@ -101,7 +101,7 @@ def _create_kg(chunks, repeats=5, converge=True):
     triplets = []
     combinations = [] 
     if len(chunks) == 1:
-        return create_knowledge_triplets("",chunks[0])
+        return create_knowledge_triplets("",chunks[0], repeats=inital_repeats)
     combinations = []
     summaries = []
     threads = []
@@ -171,7 +171,7 @@ def graphquestions(graph, prompt):
     response = chat_engine.chat(prompt)
     return response.response
 
-def create_KG_from_text(text, output_file="./output/"):
+def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     """
     Creates a knowledge graph (KG) from the given text.
 
@@ -183,7 +183,9 @@ def create_KG_from_text(text, output_file="./output/"):
     nx.Graph: The created knowledge graph.
 
     """
-    jsons = _create_kg(textformatting.get_text_chunks(text), converge=False, repeats=1)
+    chunks = textformatting.get_text_chunks(text)
+    repeats = int(chunks_precentage_linked * len(chunks))
+    jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats)
     Graph = nx.Graph()
     for x in jsons:
         try:
@@ -207,12 +209,12 @@ def create_KG_from_text(text, output_file="./output/"):
     
     return Graph
 
-def create_KG_from_url(url, output_file="./output/"):
+def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     text = textformatting.url_to_md(url)
-    jsons = create_KG_from_text(text, output_file)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked)
     return jsons
 
-def create_KG_from_pdf(pdf, output_file="./output/"):
+def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     text = textformatting._convert_to_markdown(extract_text(pdf))
-    jsons = create_KG_from_text(text, output_file)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked)
     return jsons
