@@ -1,0 +1,28 @@
+
+
+Format: ```
+[
+  {
+    "node_1": "{response_original_concept_1}",
+    "node_2": "{response_original_concept_2}", 
+    "edge": "{response_original_relationship}"
+  },
+  {
+    "node_1": "{response_previously_isolated_concept}",
+    "node_2": "{response_existing_connected_concept}",
+    "edge": "{response_new_semantic_relationship}"
+  },
+  {
+    "node_1": "{response_another_original_concept}",
+    "node_2": "{response_related_original_concept}",
+    "edge": "{response_another_original_relationship}"
+  },
+  {
+    "node_1": "{response_new_bridging_concept}",
+    "node_2": "{response_existing_linked_concept}",
+    "edge": "{response_distant_graph_relationship}"
+  }
+]
+```
+
+ensure that the existing JSON matching the template above. But contains all of the original ontology triplets.

@@ -1,0 +1,18 @@
+Given an existing summary and a new chunk of text containing additional information, your task is to update the summary to seamlessly integrate the relevant details from the new text. The goal is to produce an enhanced summary that incorporates the most salient points from both the original summary and the new text chunk.
+Please follow these steps:
+
+Carefully read the existing summary to understand the key points and overall context.
+
+Identify specific details, facts, or concepts in the new text chunk that provide additional context, elaborate on key points, or introduce new relevant information not covered in the original summary.
+Revise the existing summary to incorporate the identified information from the new text chunk:
+
+Add new sentences or phrases to introduce additional details or context where appropriate.
+Modify existing sentences to accommodate the new information, ensuring the summary remains coherent and logical.
+If necessary, remove or condense less critical points from the original summary to maintain a concise and focused presentation.
+
+
+Ensure that the updated summary integrates the new information seamlessly, maintaining a coherent narrative flow and consistent style.
+Review the revised summary to check for clarity, coherence, and logical consistency. Make any necessary adjustments to improve readability and effectiveness.
+
+Please provide the updated summary that incorporates the relevant information from the new text chunk while preserving the most important points from the original summary.
+Updated summary:

@@ -1,0 +1,46 @@
+
+Carefully review each context chunk to understand the key concepts, entities, and their relationships within each individual ontology.
+Analyze the ontologies and their corresponding contexts to identify potential semantic relationships that could link nodes across different ontologies. Consider the following:
+
+Look for explicit mentions of relationships between nodes from different ontologies in their respective contexts.
+Infer implicit relationships based on the properties, attributes, or roles associated with nodes across ontologies.
+Consider domain-specific knowledge or common sense to establish meaningful connections. Also standaridize the terminology used in the ontologies to ensure consistency.
+Ensure that you provide addiotional triplets to connect all nodes in the ontology graph. Do not add comments to the JSON output.
+
+For each identified relationship, create new triplets in the following format to represent the connections between ontologies:
+{
+"node_1": "Node from ontology A",
+"node_2": "Node from ontology B",
+"edge": "Semantic relationship"
+}
+Ensure that the "edge" label accurately captures the nature of the relationship between the two nodes based on the information provided in the context chunks.
+If multiple relationships are identified between ontologies, create separate triplets for each relationship.
+Integrate the newly created linking triplets into the individual ontology graphs to form a unified ontology.
+Merge nodes that represent the same concept across different ontologies to avoid duplicates in the unified ontology. Also split long nodes into multiple nodes and edges if needed. To ensure connectivity, add intermediate nodes if necessary. 
+Organize the triplets in the unified ontology alphabetically by the "node_1" field.
+
+Please provide the unified ontology graph in the following JSON format:
+[
+{
+"node_1": "Original concept 1",
+"node_2": "Original concept 2",
+"edge": "Original relationship label"
+},
+{
+"node_1": "Previously isolated concept",
+"node_2": "Existing concept it connects to",
+"edge": "New semantic relationship linking them"
+},
+{
+"node_1": "Another original concept",
+"node_2": "Related original concept",
+"edge": "Original relationship label"
+},
+{
+"node_1": "New bridging concept",
+"node_2": "Existing concept it helps link",
+"edge": "Relationship connecting distant parts of the graph"
+},
+{...}
+]
+The output should contain all nodes from all the individual ontologies, along with the newly created edges linking them. The result will be a unified ontology graph that integrates the previously unconnected ontologies through meaningful semantic relationships based on their respective contexts.
