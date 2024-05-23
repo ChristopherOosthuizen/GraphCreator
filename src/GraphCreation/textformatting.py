@@ -3,6 +3,7 @@ import urllib.request
 import threading
 from markdown_text_splitter import MarkdownTextSplitter
 
+
 def format_text(prompt, url):
     client = OpenAI()
     response = client.chat.completions.create(
@@ -40,3 +41,11 @@ def get_text_chunks(text):
         if "<#notext#>" in chunks[x]:
             chunks.pop(x)
     return chunks
+
+def _convert_to_markdown(text):
+    lines = text.split("\\\\n")
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if stripped.isupper() and len(stripped) < 50:
+            lines[i] = f"## {stripped}"
+    return "\\\\n".join(lines)
