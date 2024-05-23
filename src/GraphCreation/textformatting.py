@@ -1,8 +1,8 @@
 import markdownify
 import urllib.request
 import threading
-from markdown_text_splitter import MarkdownTextSplitter
-
+from  langchain.text_splitter import MarkdownTextSplitter 
+from openai import OpenAI
 
 def format_text(prompt, url):
     client = OpenAI()

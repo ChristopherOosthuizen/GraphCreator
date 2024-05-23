@@ -2,6 +2,10 @@ import json
 import pandas as pd
 import networkx as nx
 from openai import OpenAI
+import os 
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
 def generate_chat_response(system_prompt, user_prompt):
     """
     Generates a chat response using OpenAI's GPT-4o model.
@@ -33,7 +37,7 @@ def fix_format(input):
     Returns:
         str: The fixed format of the input JSON.
     """
-    prompt = f"given this json \nOriginal Json: {input}" + open("prompts/TripletCreationSystem").read()
+    prompt = f"given this json \nOriginal Json: {input}" + open("../prompts/TripletCreationSystem").read()
     response = str(generate_chat_response("", prompt))
     response = response[response.find("["):response.find("]")+1]
     return response
@@ -41,7 +45,7 @@ def fix_format(input):
 def _triplets_to_json(triplets):
     df = pd.DataFrame({"node_1": [], "node_2": [], "edge": []})
     for triplet in triplets:
-        df = df.append({"node_1": triplet[0], "node_2": triplet[2], "edge": triplet[1]}, ignore_index=True)
+        df = df._append({"node_1": triplet[0], "node_2": triplet[2], "edge": triplet[1]}, ignore_index=True)
     return json.dumps(df.to_dict(orient="records")).replace(",", ",\n")
 
 def _ontologies_to_unconnected(ont1, ont2):
@@ -97,7 +101,7 @@ def _combine_ontologies(ont1, ont2, sums):
     prompt = f"""Here's a prompt that takes a series of unconnected ontology graphs and their corresponding context chunks, and generates a single unified ontology in JSON format that combines the individual ontologies with additional linking triplets:
 Given a series of unconnected ontology graphs extracted from their respective context chunks, your task is to analyze the contexts and identify potential relationships that could link these isolated ontologies to form a single, cohesive knowledge graph. The goal is to create a unified ontology where all the individual ontologies are connected through meaningful semantic relationships.
 Please provide the context chunks and their corresponding ontologies in the following format:
-Context chunk:""" + sums + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open("prompts/CombineOntologies").read()
+Context chunk:""" + sums + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open("../prompts/CombineOntologies").read()
 
     response = str(generate_chat_response("", prompt))
     response = response[response.find("["):response.find("]")+1].lower()
@@ -131,7 +135,7 @@ def _fix_ontology(ont, context):
     prompt = f"""Here's a prompt that takes a series of unconnected ontology graphs and their corresponding context chunks, and generates a single unified ontology in JSON format that combines the individual ontologies with additional linking triplets:
 Given a series of unconnected ontology graphs extracted from their respective context chunks, your task is to analyze the contexts and identify potential relationships that could link these isolated ontologies to form a single, cohesive knowledge graph. The goal is to create a unified ontology where all the individual ontologies are connected through meaningful semantic relationships.
 Please provide the context chunks and their corresponding ontologies in the following format:
-Context chunk:""" + context + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open("prompts/fixOntologies").read()
+Context chunk:""" + context + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open("../prompts/fixOntology").read()
     response = str(generate_chat_response("", prompt))
     response = response[response.find("["):response.find("]")+1].lower()
     return response

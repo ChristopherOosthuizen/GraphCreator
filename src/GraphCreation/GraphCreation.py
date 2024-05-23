@@ -1,4 +1,10 @@
 # Created by Christopher Oosthuizen on 06/22/2024
+import os
+
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 from openai import OpenAI
 import threading
 import networkx as nx
@@ -15,7 +21,6 @@ from llama_index.core.chat_engine import ContextChatEngine
 import textformatting
 import json
 import LinkPrediction as lp
-from concurrent.futures import ThreadPoolExecutor
 
 
 def create_knowledge_triplets(text_chunk="", repeats=5):
@@ -29,21 +34,21 @@ def create_knowledge_triplets(text_chunk="", repeats=5):
     Returns:
         str: The generated knowledge triplets in JSON format.
     """
-    system_prompt = open("prompts/TripletCreationSystem").read()
+    system_prompt = open("../prompts/TripletCreationSystem").read()
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(lp.generate_chat_response(system_prompt, prompt))
     
     for _ in range(repeats):
-        system_prompt = open("prompts/TripletCreationSystem").read()
+        system_prompt = open("../prompts/TripletCreationSystem").read()
         prompt = f"""Here is the prompt updated to insert additional triplets into the existing ontology:
 Read this context carefully and extract the key concepts and relationships discussed:
 {text_chunk}
 Here is the ontology graph generated from the above context:
 {response}
-{open("prompts/TripletIterationStandard").read()}"""
+{open("../prompts/TripletIterationStandard").read()}"""
         response = str(lp.generate_chat_response(system_prompt, prompt))
     
-    response = str(lp.fix_ontology(response))
+    response = str(lp._fix_ontology(response, text_chunk))
     response = response[response.find("["):response.find("]")+1]
     response = response.replace("node1", "node_1")
     response = response.replace("node2", "node_2")
@@ -63,17 +68,21 @@ def new_summary_prompt(summary, text_chunk):
     Returns:
         str: The generated summary.
     """
-    summary_prompt = open("prompts/summaryPrompt").read()
+    summary_prompt = open("../prompts/summaryPrompt").read()
     summary = lp.generate_chat_response(summary_prompt, f"existing_summary: {summary} new_text_chunk: {text_chunk}")
     return summary
 
 def _make_one_triplet(list, position, chunk):
-    list[position] = create_knowledge_triplets(text_chunk=chunk)
+    chu = create_knowledge_triplets(text_chunk=chunk)
+    print(chu)
+    list[position] = chu
 
 def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
     sums = new_summary_prompt(sum1, sum2)
     summaries[position] = sums
     list[position] = lp._combine_ontologies(ont1, ont2, sums)
+
+import concurrent.futures
 
 def _create_kg(chunks, repeats=5, converge=True):
     """
@@ -88,42 +97,52 @@ def _create_kg(chunks, repeats=5, converge=True):
         list: The generated knowledge graph.
 
     """
+    
     print(f"Number of chunks: {len(chunks)}")
-    triplets = {}
-    combinations = {}
+    triplets = []
+    combinations = [] 
     if len(chunks) == 1:
-        return [create_knowledge_triplets(text_chunk=chunks[0])]
-    
-    with ThreadPoolExecutor() as executor:
-        for i, chunk in enumerate(chunks):
-            executor.submit(_make_one_triplet, triplets, i, chunk)
-    
+        return create_knowledge_triplets("",chunks[0])
+    combinations = []
+    summaries = []
+    threads = []
+    triplets = [""]*len(chunks)
+    for x in range(len(chunks)):
+        thread = threading.Thread(target=_make_one_triplet, args=(triplets,x,chunks[x]))
+        threads.append(thread)
+        thread.start()
+    for thread in threads:
+        print(x/len(chunks))
+        thread.join()
     combinations = triplets
-    summaries = chunks
-    
-    for _ in range(repeats):
+    summaries = chunks    
+    for x in range(repeats):
         if len(combinations) == 1:
             break
-        
         old_combinations = combinations
         old_summaries = summaries
-        summaries = {}
-        combinations = {}
-        
-        with ThreadPoolExecutor() as executor:
-            for i in range(1, len(old_combinations), 2):
-                executor.submit(_combine_one, old_combinations[i - 1], old_combinations[i], old_summaries[i - 1], old_summaries[i], combinations, i // 2, summaries)
-        
-        if len(old_combinations) % 2 == 1:
-            combinations[len(old_combinations) // 2] = old_combinations[len(old_combinations) - 1]
-            summaries[len(old_combinations) // 2] = old_summaries[len(old_combinations) - 1]
-    
+        summaries = [""]*(int(len(combinations)/2)+len(combinations)%2)
+        combinations = [""]*(int(len(combinations)/2)+len(combinations)%2)
+        threads = []
+        for x in range(1,len(old_combinations),2):
+            thread = threading.Thread(target=_combine_one, args=(old_combinations[x-1],old_combinations[x],old_summaries[x-1],old_summaries[x],combinations,x//2,summaries))
+            threads.append(thread)
+            thread.start()
+        for thread in threads:
+            print(1/len(combinations))
+            thread.join()
+        if len(combinations)%2 == 1:
+            combinations[-1] = old_combinations[-1]
+            summaries[-1] = old_summaries[-1]
     if converge:
-        while len(lp._ontologies_to_unconnected(combinations[0], combinations[0])) > 1:
-            print(len(lp._ontologies_to_unconnected(combinations[0], combinations[0])))
+        while len(lp.ontologies_to_unconncected(combinations[0], combinations[0])) > 1:
+            print(len(lp.ontologies_to_unconncected(combinations[0], combinations[0])))
             combinations[0] = lp._fix_ontology(combinations[0], summaries[0])
-    
-    return list(combinations.values())
+        return combinations
+    for x in range(len(combinations)-1, 0, -1):
+        if combinations[x].strip() == "":
+            combinations.pop(x)
+    return combinations
 
 def graphquestions(graph, prompt):
     """
@@ -168,7 +187,7 @@ def create_KG_from_text(text, output_file="./output/"):
     nx.Graph: The created knowledge graph.
 
     """
-    jsons = _create_kg(textformatting._get_text_chunks(text), converge=False, repeats=1)
+    jsons = _create_kg(textformatting.get_text_chunks(text), converge=False, repeats=1)
     Graph = nx.Graph()
     for x in jsons:
         try:
@@ -194,7 +213,7 @@ def create_KG_from_text(text, output_file="./output/"):
     return Graph
 
 def create_KG_from_url(url, output_file="./output/"):
-    text = textformatting._url_to_md(url)
+    text = textformatting.url_to_md(url)
     jsons = create_KG_from_text(text, output_file)
     return jsons
 
