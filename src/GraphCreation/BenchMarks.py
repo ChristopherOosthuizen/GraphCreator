@@ -30,4 +30,17 @@ def follow_premise(answer, chunk):
 def llm_as_judge(response1, response2):
     system_prompt = open("../prompts/judgesys").read()
     user_prompt = f"response1: {response1} response2: {response2}"+open("../prompts/judgestandard").read()
-    return "[[A]]" in lm.generate_chat_response(system_prompt, user_prompt)
+    return 1 if "[[A]]" in lm.generate_chat_response(system_prompt, user_prompt) else 0
+
+def llm_benchmark(graph, chunks):
+    questions = chunks_to_questions(chunks)
+    results = {"Judges_over_base": [], "Follows_over_base": [], "Controdicts_over_base":[]}
+    for i,question in questions:
+        base_line = lm.generate_chat_response("", question)
+        graph_res = lm.graphquestions(graph, question)
+        probs_graph = follow_premise(graph_res,chunks[i])
+        probs_base = follow_premise(base_line,chunks[i])
+        results["Judges_over_base"].append(llm_as_judge(base_line,graph_res))
+        results["Follows_over_base"].append(probs_graph[1]-probs_base[1])
+        results["Controdicts_over_base"].append(-probs_graph[0]-probs_base[0])
+    return results
