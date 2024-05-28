@@ -1,5 +1,3 @@
-from llama_index.core import set_global_tokenizer
-from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.core.retrievers import KnowledgeGraphRAGRetriever
 from llama_index.core import StorageContext
 from llama_index.core.graph_stores import SimpleGraphStore
@@ -10,7 +8,6 @@ from transformers import pipeline
 import torch
 import os
 from llama_index.llms.huggingface import HuggingFaceLLM
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 pipeline = None
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 if "HF_HOME" in os.environ:
