@@ -21,5 +21,3 @@ def follow_premise(answer, chunk):
     logits = model_nli(**inputs).logits 
     probs = torch.softmax(logits, dim=-1)[0]
     return probs
-
-def 

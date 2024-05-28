@@ -6,6 +6,20 @@ from llama_index.core.graph_stores import SimpleGraphStore
 from llama_index.core import Settings
 from llama_index.core.chat_engine import ContextChatEngine
 from openai import OpenAI
+from transformers import pipeline
+import torch
+import os
+from llama_index.llms.huggingface import HuggingFaceLLM
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+pipeline = None
+model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
+if "HF_HOME" in os.environ:
+    pipeline = pipeline(
+    "text-generation",
+    model=model_id,
+    model_kwargs={"torch_dtype": torch.bfloat16},
+    device_map=0,
+    )
 
 def generate_chat_response(system_prompt, user_prompt):
     """
@@ -18,15 +32,38 @@ def generate_chat_response(system_prompt, user_prompt):
     Returns:
         str: The generated chat response.
     """
-    client = OpenAI()
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
+    messages = messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ]
+    if not "HF_HOME" in os.environ:
+        client = OpenAI()
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=messages,
+        )
+        return response.choices[0].message.content
+    
+    prompter = pipeline.tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True
     )
-    return response.choices[0].message.content
+
+    terminators = [
+        pipeline.tokenizer.eos_token_id,
+        pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+    ]
+    outputs = pipeline(
+        prompter,
+        max_new_tokens=3000,
+        eos_token_id=terminators,
+        do_sample=True,
+        temperature=0.01,
+        top_p=0.5,
+        repetition_penalty=1.1,
+    )
+    return outputs[0]["generated_text"][len(prompter):]
 
 def graphquestions(graph, prompt):
     """
@@ -39,6 +76,8 @@ def graphquestions(graph, prompt):
     Returns:
         str: The response to the question.
     """
+    if "HF_HOME" in os.environ:
+        Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
     graph_store = SimpleGraphStore()
     for node_1, node_2, data in graph.edges(data=True):
         graph_store.upsert_triplet(node_1, data['title'], node_2)
