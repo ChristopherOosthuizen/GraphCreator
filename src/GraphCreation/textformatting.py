@@ -2,18 +2,10 @@ import markdownify
 import urllib.request
 import threading
 from  langchain.text_splitter import MarkdownTextSplitter 
-from openai import OpenAI
-
+import LLMFunctions as LLM
 def format_text(prompt, url):
-    client = OpenAI()
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are a text filtration system, you are given a short blurb of text and its your job to determine weather this is irrelevant information from a text page for formatting or system headers or if its the main content of the webpage. given the url name. and content."},
-            {"role": "user", "content": f"url: {url} Prompt: {prompt}"}
-        ]
-    )
-    return response.choices[0].message.content
+    return LLM.generate_chat_response( "You are a text filtration system, you are given a short blurb of text and its your job to determine weather this is irrelevant information from a text page for formatting or system headers or if its the main content of the webpage. given the url name. and content.",f"url: {url} Prompt: {prompt}")
+
 
 def url_to_md(url):
     html = urllib.request.urlopen(url).read().decode('utf-8')

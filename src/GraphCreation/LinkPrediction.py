@@ -1,31 +1,15 @@
 import json
 import pandas as pd
 import networkx as nx
-from openai import OpenAI
+
 import os 
+import LLMFunctions as LLM
+
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
-def generate_chat_response(system_prompt, user_prompt):
-    """
-    Generates a chat response using OpenAI's GPT-4o model.
 
-    Args:
-        system_prompt (str): The system prompt for the chat.
-        user_prompt (str): The user prompt for the chat.
 
-    Returns:
-        str: The generated chat response.
-    """
-    client = OpenAI()
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ]
-    )
-    return response.choices[0].message.content
 
 def fix_format(input):
     """
@@ -38,7 +22,7 @@ def fix_format(input):
         str: The fixed format of the input JSON.
     """
     prompt = f"given this json \nOriginal Json: {input}" + open("../prompts/TripletCreationSystem").read()
-    response = str(generate_chat_response("", prompt))
+    response = str(LLM.generate_chat_response("", prompt))
     response = response[response.find("["):response.find("]")+1]
     return response
 
@@ -103,7 +87,7 @@ Given a series of unconnected ontology graphs extracted from their respective co
 Please provide the context chunks and their corresponding ontologies in the following format:
 Context chunk:""" + sums + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open("../prompts/CombineOntologies").read()
 
-    response = str(generate_chat_response("", prompt))
+    response = str(LLM.generate_chat_response("", prompt))
     response = response[response.find("["):response.find("]")+1].lower()
     return response
 
@@ -136,6 +120,6 @@ def _fix_ontology(ont, context):
 Given a series of unconnected ontology graphs extracted from their respective context chunks, your task is to analyze the contexts and identify potential relationships that could link these isolated ontologies to form a single, cohesive knowledge graph. The goal is to create a unified ontology where all the individual ontologies are connected through meaningful semantic relationships.
 Please provide the context chunks and their corresponding ontologies in the following format:
 Context chunk:""" + context + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open("../prompts/fixOntology").read()
-    response = str(generate_chat_response("", prompt))
+    response = str(LLM.generate_chat_response("", prompt))
     response = response[response.find("["):response.find("]")+1].lower()
     return response

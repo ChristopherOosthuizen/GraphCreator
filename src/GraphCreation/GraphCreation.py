@@ -11,17 +11,10 @@ import networkx as nx
 import pandas as pd
 from pyvis.network import Network
 from pdfminer.high_level import extract_text
-from llama_index.core import set_global_tokenizer
-from llama_index.core.query_engine import RetrieverQueryEngine
-from llama_index.core.retrievers import KnowledgeGraphRAGRetriever
-from llama_index.core import StorageContext
-from llama_index.core.graph_stores import SimpleGraphStore
-from llama_index.core import Settings
-from llama_index.core.chat_engine import ContextChatEngine
 import textformatting
 import json
 import LinkPrediction as lp
-
+import LLMFunctions as LLM
 
 def create_knowledge_triplets(text_chunk="", repeats=5):
     """
@@ -36,7 +29,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5):
     """
     system_prompt = open("../prompts/TripletCreationSystem").read()
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
-    response = str(lp.generate_chat_response(system_prompt, prompt))
+    response = str(LLM.generate_chat_response(system_prompt, prompt))
     
     for _ in range(repeats):
         system_prompt = open("../prompts/TripletCreationSystem").read()
@@ -46,7 +39,7 @@ Read this context carefully and extract the key concepts and relationships discu
 Here is the ontology graph generated from the above context:
 {response}
 {open("../prompts/TripletIterationStandard").read()}"""
-        response = str(lp.generate_chat_response(system_prompt, prompt))
+        response = str(LLM.generate_chat_response(system_prompt, prompt))
     
     response = str(lp._fix_ontology(response, text_chunk))
     response = response[response.find("["):response.find("]")+1]
@@ -69,7 +62,7 @@ def new_summary_prompt(summary, text_chunk):
         str: The generated summary.
     """
     summary_prompt = open("../prompts/summaryPrompt").read()
-    summary = lp.generate_chat_response(summary_prompt, f"existing_summary: {summary} new_text_chunk: {text_chunk}")
+    summary = LLM.generate_chat_response(summary_prompt, f"existing_summary: {summary} new_text_chunk: {text_chunk}")
     return summary
 
 def _make_one_triplet(list, position, chunk):
@@ -140,36 +133,6 @@ def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2):
             combinations.pop(x)
     return combinations
 
-def graphquestions(graph, prompt):
-    """
-    Function to ask questions about a graph.
-
-    Args:
-        graph (Graph): The graph to ask questions about.
-        prompt (str): The question prompt.
-
-    Returns:
-        str: The response to the question.
-    """
-    graph_store = SimpleGraphStore()
-    for node_1, node_2, data in graph.edges(data=True):
-        graph_store.upsert_triplet(node_1, data['title'], node_2)
-    
-    storage_context = StorageContext.from_defaults(graph_store=graph_store)
-    graph_rag_retriever = KnowledgeGraphRAGRetriever(
-        storage_context=storage_context,
-        verbose=False,
-    )
-    chat_engine = ContextChatEngine.from_defaults(
-        retriever=graph_rag_retriever,
-        verbose=False,
-        max_entities=30,
-        graph_traversal_depth=10,
-        max_knowledge_sequence=15,
-    )
-    
-    response = chat_engine.chat(prompt)
-    return response.response
 
 def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     """
