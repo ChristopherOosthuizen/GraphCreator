@@ -6,14 +6,11 @@ dname = os.path.dirname(abspath)
 os.chdir(dname)
 import LLMFunctions as lm
 
-tokenizer_question = T5Tokenizer.from_pretrained("iarfmoose/t5-base-question-generator")
-model_question = T5ForConditionalGeneration.from_pretrained("iarfmoose/t5-base-question-generator")
+
 def chunks_to_questions(chunks):
     result = []
     for chunk in chunks:
-        input_ids = tokenizer_question(chunk, return_tensors="pt").input_ids
-        outputs = model_question.generate(input_ids)
-        result.append(tokenizer_question.decode(outputs[0]))
+        result.append(lm.generate_chat_response("",chunk+" "+open("../prompts/questionGeneration").read()))
     return result
 
 tokenizer_nli = AutoTokenizer.from_pretrained("potsawee/deberta-v3-large-mnli")
@@ -34,13 +31,15 @@ def llm_as_judge(response1, response2):
 
 def llm_benchmark(graph, chunks):
     questions = chunks_to_questions(chunks)
+    print(questions)
     results = {"Judges_over_base": [], "Follows_over_base": [], "Controdicts_over_base":[]}
-    for i,question in questions:
+    for i in range(len(questions)):
+        question = questions[i]
         base_line = lm.generate_chat_response("", question)
         graph_res = lm.graphquestions(graph, question)
         probs_graph = follow_premise(graph_res,chunks[i])
         probs_base = follow_premise(base_line,chunks[i])
         results["Judges_over_base"].append(llm_as_judge(base_line,graph_res))
-        results["Follows_over_base"].append(probs_graph[1]-probs_base[1])
-        results["Controdicts_over_base"].append(-probs_graph[0]-probs_base[0])
+        results["Follows_over_base"].append((probs_graph[0].item()-probs_base[0].item()))
+        results["Controdicts_over_base"].append(-(probs_graph[1].item()-probs_base[1].item()))
     return results

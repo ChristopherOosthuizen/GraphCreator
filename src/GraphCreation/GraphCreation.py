@@ -170,7 +170,7 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
     nt.from_nx(Graph)
     nt.show(output_file + "graph.html", notebook=False)
     
-    return Graph
+    return chunks,Graph
 
 def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     text = textformatting.url_to_md(url)

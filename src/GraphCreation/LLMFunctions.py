@@ -77,7 +77,7 @@ def graphquestions(graph, prompt):
         Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
     graph_store = SimpleGraphStore()
     for node_1, node_2, data in graph.edges(data=True):
-        graph_store.upsert_triplet(node_1, data['title'], node_2)
+        graph_store.upsert_triplet(node_1, data['label'], node_2)
     
     storage_context = StorageContext.from_defaults(graph_store=graph_store)
     graph_rag_retriever = KnowledgeGraphRAGRetriever(
