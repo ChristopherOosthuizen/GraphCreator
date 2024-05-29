@@ -148,6 +148,9 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
 
     """
     chunks = textformatting.get_text_chunks(text)
+    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked)
+
+def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     repeats = int(chunks_precentage_linked * len(chunks))
     jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats)
     Graph = nx.Graph()
@@ -172,7 +175,6 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
     nt.show(output_file + "graph.html", notebook=False)
     
     return chunks,Graph
-
 def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     text = textformatting.url_to_md(url)
     jsons = create_KG_from_text(text, output_file)
