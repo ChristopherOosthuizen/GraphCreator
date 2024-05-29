@@ -90,3 +90,10 @@ def benchmark_to_score(benchmark):
     for i in range(len(priorities)):
         result += priorities[i]*prority_sums[i]
     return result
+
+def score(graph, chunks):
+    result = benchmark(graph, chunks)
+    score = benchmark_to_score(result)
+    for key in result:
+        result[key] = result[key][0]
+    return {"score":score, **result}
