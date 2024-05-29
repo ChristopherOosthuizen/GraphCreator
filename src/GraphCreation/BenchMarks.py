@@ -52,8 +52,12 @@ def networkx_statistics(graph):
     average_shortest_path = 0
     for x in connected_graphs:
         average_shortest_path += nx.average_shortest_path_length(graph.subgraph(x))
-    return {"number_of_unconneced_graphs": number_of_unconnected_graphs, "number_of_triangles": number_of_triangles, "number_of_nodes": graph.number_of_nodes(), "number_of_edges": graph.number_of_edges(), "average_clustering": nx.average_clustering(graph), "average_shortest_path": average_shortest_path/len(connected_graphs)}
-
+    ms= {"bridge_edges": len(list(nx.bridges(graph))), "articulation_points": len(list(nx.articulation_points(graph)))}
+    other = {"average_degree": sum(dict(graph.degree()).values())/graph.number_of_nodes(), "efficency": nx.global_efficiency(graph)}
+    function_metrics = {"average_betweenness": sum(nx.betweenness_centrality(graph).values())/graph.number_of_nodes(), "average_reaching": nx.global_reaching_centrality(graph), "connectivity": nx.node_connectivity(graph)}
+    basic_metrics = {"number_of_unconneced_graphs": number_of_unconnected_graphs, "number_of_triangles": number_of_triangles, "number_of_nodes": graph.number_of_nodes(), "number_of_edges": graph.number_of_edges(),}
+    right = { "average_clustering": nx.average_clustering(graph), "average_shortest_path": average_shortest_path/len(connected_graphs)}
+    return { **basic_metrics,**right, **function_metrics, **other, **ms}
 def benchmark(graph, chunks):
     llms = llm_benchmark(graph, chunks)
     average_judges = sum(llms["Judges_over_base"])/len(llms["Judges_over_base"])
