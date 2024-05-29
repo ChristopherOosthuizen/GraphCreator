@@ -15,7 +15,8 @@ import textformatting
 import json
 import LinkPrediction as lp
 import LLMFunctions as LLM
-
+from cdlib import algorithms 
+import random
 def create_knowledge_triplets(text_chunk="", repeats=5):
     """
     Creates knowledge triplets from a given text chunk.

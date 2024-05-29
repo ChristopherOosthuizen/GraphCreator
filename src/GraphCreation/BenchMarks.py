@@ -60,3 +60,5 @@ def benchmark(graph, chunks):
     average_follows = sum(llms["Follows_over_base"])/len(llms["Follows_over_base"])
     average_contradicts = sum(llms["Controdicts_over_base"])/len(llms["Controdicts_over_base"])
     return {"average_judges": average_judges, "average_follows": average_follows, "average_contradicts": average_contradicts, **networkx_statistics(graph)}
+
+
