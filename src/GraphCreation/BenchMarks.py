@@ -1,6 +1,7 @@
 from transformers import T5Tokenizer, T5ForConditionalGeneration, AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import os
+import networkx as nx
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
@@ -43,3 +44,19 @@ def llm_benchmark(graph, chunks):
         results["Follows_over_base"].append((probs_graph[0].item()-probs_base[0].item()))
         results["Controdicts_over_base"].append(-(probs_graph[1].item()-probs_base[1].item()))
     return results
+
+def networkx_statistics(graph):
+    number_of_triangles = sum(nx.triangles(graph).values()) / 3
+    number_of_unconnected_graphs = len([x for x in nx.connected_components(graph)])
+    connected_graphs = [x for x in nx.connected_components(graph)]
+    average_shortest_path = 0
+    for x in connected_graphs:
+        average_shortest_path += nx.average_shortest_path_length(graph.subgraph(x))
+    return {"number_of_unconneced_graphs": number_of_unconnected_graphs, "number_of_triangles": number_of_triangles, "number_of_nodes": graph.number_of_nodes(), "number_of_edges": graph.number_of_edges(), "average_clustering": nx.average_clustering(graph), "average_shortest_path": average_shortest_path/len(connected_graphs)}
+
+def benchmark(graph, chunks):
+    llms = llm_benchmark(graph, chunks)
+    average_judges = sum(llms["Judges_over_base"])/len(llms["Judges_over_base"])
+    average_follows = sum(llms["Follows_over_base"])/len(llms["Follows_over_base"])
+    average_contradicts = sum(llms["Controdicts_over_base"])/len(llms["Controdicts_over_base"])
+    return {"average_judges": average_judges, "average_follows": average_follows, "average_contradicts": average_contradicts, **networkx_statistics(graph)}

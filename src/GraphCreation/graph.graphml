@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="act" />
+    <node id="henry vi" />
+    <node id="british house of commons" />
+    <node id="county constituency" />
+    <node id="knight of the shire" />
+    <node id="simon de montfort's parliament" />
+    <node id="burgesses" />
+    <node id="knights of the shire" />
+    <node id="citations" />
+    <node id="further reading" />
+    <node id="historical events" />
+    <node id="conservative party backbenchers" />
+    <node id="rural constituencies" />
+    <node id="content" />
+    <node id="history and evolution" />
+    <node id="information" />
+    <node id="reader" />
+    <node id="role" />
+    <node id="webpage" />
+    <node id="evolution" />
+    <node id="english parliamentary system" />
+    <node id="evolution of the english parliamentary system" />
+    <node id="legislative acts" />
+    <node id="reforms" />
+    <node id="middle ages" />
+    <node id="history" />
+    <node id="modern usage" />
+    <node id="redistribution of seats act 1885" />
+    <node id="multiple-seat shires" />
+    <node id="division" />
+    <node id="two knights" />
+    <edge source="act" target="henry vi">
+      <data key="d0">established eligibility in 1444</data>
+    </edge>
+    <edge source="british house of commons" target="county constituency">
+      <data key="d0">representation</data>
+    </edge>
+    <edge source="british house of commons" target="knight of the shire">
+      <data key="d0">member of</data>
+    </edge>
+    <edge source="british house of commons" target="simon de montfort's parliament">
+      <data key="d0">preceded modern</data>
+    </edge>
+    <edge source="county constituency" target="knight of the shire">
+      <data key="d0">represents</data>
+    </edge>
+    <edge source="knight of the shire" target="knights of the shire">
+      <data key="d0">same as</data>
+    </edge>
+    <edge source="simon de montfort's parliament" target="knights of the shire">
+      <data key="d0">sent to in 1265</data>
+    </edge>
+    <edge source="simon de montfort's parliament" target="two knights">
+      <data key="d0">each shire sent in 1265</data>
+    </edge>
+    <edge source="burgesses" target="knights of the shire">
+      <data key="d0">had more prestige than</data>
+    </edge>
+    <edge source="knights of the shire" target="conservative party backbenchers">
+      <data key="d0">humorous reference to in modern context</data>
+    </edge>
+    <edge source="knights of the shire" target="content">
+      <data key="d0">covers the role of</data>
+    </edge>
+    <edge source="knights of the shire" target="middle ages">
+      <data key="d0">prominent in</data>
+    </edge>
+    <edge source="knights of the shire" target="modern usage">
+      <data key="d0">evolved into</data>
+    </edge>
+    <edge source="knights of the shire" target="redistribution of seats act 1885">
+      <data key="d0">ended</data>
+    </edge>
+    <edge source="citations" target="further reading">
+      <data key="d0">for</data>
+    </edge>
+    <edge source="citations" target="historical events">
+      <data key="d0">cite</data>
+    </edge>
+    <edge source="further reading" target="historical events">
+      <data key="d0">discusses in detail</data>
+    </edge>
+    <edge source="further reading" target="reforms">
+      <data key="d0">covers</data>
+    </edge>
+    <edge source="historical events" target="english parliamentary system">
+      <data key="d0">affected by</data>
+    </edge>
+    <edge source="historical events" target="middle ages">
+      <data key="d0">include</data>
+    </edge>
+    <edge source="conservative party backbenchers" target="rural constituencies">
+      <data key="d0">often represent</data>
+    </edge>
+    <edge source="content" target="history and evolution">
+      <data key="d0">discusses</data>
+    </edge>
+    <edge source="content" target="information">
+      <data key="d0">offers detailed</data>
+    </edge>
+    <edge source="content" target="reader">
+      <data key="d0">aimed at educating</data>
+    </edge>
+    <edge source="content" target="role">
+      <data key="d0">covers the</data>
+    </edge>
+    <edge source="content" target="webpage">
+      <data key="d0">is main</data>
+    </edge>
+    <edge source="history and evolution" target="english parliamentary system">
+      <data key="d0">includes</data>
+    </edge>
+    <edge source="role" target="two knights">
+      <data key="d0">sent to parliament in 1265</data>
+    </edge>
+    <edge source="evolution" target="english parliamentary system">
+      <data key="d0">of the</data>
+    </edge>
+    <edge source="english parliamentary system" target="evolution of the english parliamentary system">
+      <data key="d0">refers to</data>
+    </edge>
+    <edge source="english parliamentary system" target="legislative acts">
+      <data key="d0">related to</data>
+    </edge>
+    <edge source="english parliamentary system" target="reforms">
+      <data key="d0">impacted by</data>
+    </edge>
+    <edge source="evolution of the english parliamentary system" target="history">
+      <data key="d0">is part of</data>
+    </edge>
+    <edge source="reforms" target="modern usage">
+      <data key="d0">influenced by</data>
+    </edge>
+    <edge source="multiple-seat shires" target="division">
+      <data key="d0">led by population changes</data>
+    </edge>
+  </graph>
+</graphml>

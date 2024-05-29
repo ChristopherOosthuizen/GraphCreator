@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1000px;
+                 height: 1000px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "act", "label": "act", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "henry vi", "label": "henry vi", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "british house of commons", "label": "british house of commons", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "county constituency", "label": "county constituency", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "knight of the shire", "label": "knight of the shire", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "simon de montfort\u0027s parliament", "label": "simon de montfort\u0027s parliament", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "knights of the shire", "label": "knights of the shire", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "two knights", "label": "two knights", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "burgesses", "label": "burgesses", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "conservative party backbenchers", "label": "conservative party backbenchers", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "content", "label": "content", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "middle ages", "label": "middle ages", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "modern usage", "label": "modern usage", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "redistribution of seats act 1885", "label": "redistribution of seats act 1885", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "citations", "label": "citations", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "further reading", "label": "further reading", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "historical events", "label": "historical events", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "reforms", "label": "reforms", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "english parliamentary system", "label": "english parliamentary system", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rural constituencies", "label": "rural constituencies", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "history and evolution", "label": "history and evolution", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "information", "label": "information", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "reader", "label": "reader", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "role", "label": "role", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "webpage", "label": "webpage", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "evolution", "label": "evolution", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "evolution of the english parliamentary system", "label": "evolution of the english parliamentary system", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "legislative acts", "label": "legislative acts", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "history", "label": "history", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "multiple-seat shires", "label": "multiple-seat shires", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "division", "label": "division", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "act", "label": "established eligibility in 1444", "to": "henry vi", "width": 1}, {"from": "british house of commons", "label": "representation", "to": "county constituency", "width": 1}, {"from": "british house of commons", "label": "member of", "to": "knight of the shire", "width": 1}, {"from": "british house of commons", "label": "preceded modern", "to": "simon de montfort\u0027s parliament", "width": 1}, {"from": "county constituency", "label": "represents", "to": "knight of the shire", "width": 1}, {"from": "knight of the shire", "label": "same as", "to": "knights of the shire", "width": 1}, {"from": "simon de montfort\u0027s parliament", "label": "sent to in 1265", "to": "knights of the shire", "width": 1}, {"from": "simon de montfort\u0027s parliament", "label": "each shire sent in 1265", "to": "two knights", "width": 1}, {"from": "burgesses", "label": "had more prestige than", "to": "knights of the shire", "width": 1}, {"from": "knights of the shire", "label": "humorous reference to in modern context", "to": "conservative party backbenchers", "width": 1}, {"from": "knights of the shire", "label": "covers the role of", "to": "content", "width": 1}, {"from": "knights of the shire", "label": "prominent in", "to": "middle ages", "width": 1}, {"from": "knights of the shire", "label": "evolved into", "to": "modern usage", "width": 1}, {"from": "knights of the shire", "label": "ended", "to": "redistribution of seats act 1885", "width": 1}, {"from": "citations", "label": "for", "to": "further reading", "width": 1}, {"from": "citations", "label": "cite", "to": "historical events", "width": 1}, {"from": "further reading", "label": "discusses in detail", "to": "historical events", "width": 1}, {"from": "further reading", "label": "covers", "to": "reforms", "width": 1}, {"from": "historical events", "label": "affected by", "to": "english parliamentary system", "width": 1}, {"from": "historical events", "label": "include", "to": "middle ages", "width": 1}, {"from": "conservative party backbenchers", "label": "often represent", "to": "rural constituencies", "width": 1}, {"from": "content", "label": "discusses", "to": "history and evolution", "width": 1}, {"from": "content", "label": "offers detailed", "to": "information", "width": 1}, {"from": "content", "label": "aimed at educating", "to": "reader", "width": 1}, {"from": "content", "label": "covers the", "to": "role", "width": 1}, {"from": "content", "label": "is main", "to": "webpage", "width": 1}, {"from": "history and evolution", "label": "includes", "to": "english parliamentary system", "width": 1}, {"from": "role", "label": "sent to parliament in 1265", "to": "two knights", "width": 1}, {"from": "evolution", "label": "of the", "to": "english parliamentary system", "width": 1}, {"from": "english parliamentary system", "label": "refers to", "to": "evolution of the english parliamentary system", "width": 1}, {"from": "english parliamentary system", "label": "related to", "to": "legislative acts", "width": 1}, {"from": "english parliamentary system", "label": "impacted by", "to": "reforms", "width": 1}, {"from": "evolution of the english parliamentary system", "label": "is part of", "to": "history", "width": 1}, {"from": "reforms", "label": "influenced by", "to": "modern usage", "width": 1}, {"from": "multiple-seat shires", "label": "led by population changes", "to": "division", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
