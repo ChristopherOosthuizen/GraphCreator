@@ -135,7 +135,7 @@ def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2):
     return combinations
 
 
-def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
+def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, llm_formatting=True):
     """
     Creates a knowledge graph (KG) from the given text.
 
@@ -147,7 +147,11 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
     nx.Graph: The created knowledge graph.
 
     """
-    chunks = textformatting.get_text_chunks(text)
+    chunks = []
+    if llm_formatting:
+        chunks = textformatting.get_text_chunks(text)
+    else:
+        chunks = textformatting.chunk_text(text)
     return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked)
 
 def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
@@ -177,10 +181,10 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     return chunks,Graph
 def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     text = textformatting.url_to_md(url)
-    jsons = create_KG_from_text(text, output_file)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked)
     return jsons
 
 def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5):
     text = textformatting._convert_to_markdown(extract_text(pdf))
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats=2, chunks_precentage_linked=0.5)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked)
     return jsons

@@ -54,6 +54,7 @@ def generate_chat_response(system_prompt, user_prompt):
             messages=messages,
         )
         return response.choices[0].message.content
+    
     pipeline = pipeline_select()
     prompter = pipeline.tokenizer.apply_chat_template(
         messages,
