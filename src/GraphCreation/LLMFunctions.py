@@ -10,9 +10,11 @@ import os
 import numpy as np
 from llama_index.llms.huggingface import HuggingFaceLLM
 pipelines = []
-gpus = os.environ['KG_GPUS'].split(",")
-model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
+gpus = []
+model_id = ""
 if "HF_HOME" in os.environ:
+    gpus = os.environ['KG_GPUS'].split(",")
+    model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
     for x in gpus:
         pipelines.append(pipeline(
             "text-generation",
@@ -29,6 +31,7 @@ def pipeline_select():
     """
     memory_usage = [torch.cuda.memory_reserved(int(x))-torch.cuda.memory_allocated(int(x)) for x in gpus]
     return pipelines[np.argmin(memory_usage)]
+
 def generate_chat_response(system_prompt, user_prompt):
     """
     Generates a chat response using OpenAI's GPT-4o model.

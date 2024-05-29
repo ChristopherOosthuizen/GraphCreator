@@ -52,26 +52,41 @@ def networkx_statistics(graph):
     average_shortest_path = 0
     for x in connected_graphs:
         average_shortest_path += nx.average_shortest_path_length(graph.subgraph(x))
-    result = {"bridge_edges": len(list(nx.bridges(graph))), #Number of edges that can be removed to disconnect the graph/ Minimize
-               "articulation_points": len(list(nx.articulation_points(graph))), # Number of nodes that can be removed to connect the graph/ Minimize
-               "average_degree": sum(dict(graph.degree()).values())/graph.number_of_nodes(), # Average number of edges connected to a node/ Maximize
-                "efficency": nx.global_efficiency(graph), # Inverse of the average shortest path length/ Maximize
-                "average_betweenness": sum(nx.betweenness_centrality(graph).values())/graph.number_of_nodes(), # Average number of shortest paths that pass through a node/ Maximize
-                "average_reaching": nx.global_reaching_centrality(graph), # The average number of nodes that can be reached from a node/ Maximize
-                "connectivity": nx.node_connectivity(graph), # The minimum number of nodes that need to be removed to disconnect the graph/ Maximize
-                "number_of_unconneced_graphs": number_of_unconnected_graphs, # Number of unconnected graphs/ Minimize
-                "number_of_triangles": number_of_triangles, # Number of triangles in the graph/ Maximize
-                "number_of_nodes": graph.number_of_nodes(), # Number of nodes in the graph/ Maximize
-                "number_of_edges": graph.number_of_edges(), # Number of edges in the graph/ Maximize
-                "average_clustering": nx.average_clustering(graph), # The clustering coefficient of the graph/ Maximize
-                "average_shortest_path": average_shortest_path/len(connected_graphs) # The average shortest path length of the graph/ Minimize
+    result = {"bridge_edges": [len(list(nx.bridges(graph))), "Minimize", "Compress",1], #Number of edges that can be removed to disconnect the graph/ Minimize
+               "articulation_points": [len(list(nx.articulation_points(graph))), "Minimize", "Compress",1], # Number of nodes that can be removed to connect the graph/ Minimize
+               "average_degree": [sum(dict(graph.degree()).values())/graph.number_of_nodes(),"Maximize","Compress",2], # Average number of edges connected to a node/ Maximize
+                "efficency": [nx.global_efficiency(graph), "Maximize", "Standard",2], # Inverse of the average shortest path length/ Maximize
+                "average_betweenness": [sum(nx.betweenness_centrality(graph).values())/graph.number_of_nodes(),"Maximize", "Standard",2], # Average number of shortest paths that pass through a node/ Maximize
+                "average_reaching": [nx.global_reaching_centrality(graph), "Maximize","Standard",1], # The average number of nodes that can be reached from a node/ Maximize
+                "number_of_unconneced_graphs": [number_of_unconnected_graphs,"Minimize","Compress",1], # Number of unconnected graphs/ Minimize
+                "number_of_triangles": [number_of_triangles, "Maximize","Compress",1], # Number of triangles in the graph/ Maximize
+                "number_of_nodes": [graph.number_of_nodes(),"Maximize","Compress",3], # Number of nodes in the graph/ Maximize
+                "number_of_edges": [graph.number_of_edges(),"Maximize", "Compress",3], # Number of edges in the graph/ Maximize
+                "average_clustering": [nx.average_clustering(graph),"Maximize", "Compress",1], # The clustering coefficient of the graph/ Maximize
+                "average_shortest_path": [average_shortest_path/len(connected_graphs),"Minimize","Compress",2] # The average shortest path length of the graph/ Minimize
             }
     return result
 def benchmark(graph, chunks):
     llms = llm_benchmark(graph, chunks)
-    average_judges = sum(llms["Judges_over_base"])/len(llms["Judges_over_base"])# 1 if the graph is better than the base line, 0 if the base line is better/ Maximize
-    average_follows = sum(llms["Follows_over_base"])/len(llms["Follows_over_base"]) # The difference in the probability of the graph following the base line/ Maximize
-    average_contradicts = sum(llms["Controdicts_over_base"])/len(llms["Controdicts_over_base"]) # The difference in the probability of the graph contradicting the base line/ Maximize
+    average_judges = [sum(llms["Judges_over_base"])/len(llms["Judges_over_base"]),"Maximize","Standard",0]# 1 if the graph is better than the base line, 0 if the base line is better/ Maximize
+    average_follows = [sum(llms["Follows_over_base"])/len(llms["Follows_over_base"]),"Maximize", "Standard",0] # The difference in the probability of the graph following the base line/ Maximize
+    average_contradicts = [sum(llms["Controdicts_over_base"])/len(llms["Controdicts_over_base"]),"Maximize","Standard",0] # The difference in the probability of the graph contradicting the base line/ Maximize
     return {"average_judges": average_judges, "average_follows": average_follows, "average_contradicts": average_contradicts, **networkx_statistics(graph)}
 
-
+import math
+def benchmark_to_score(benchmark):
+    result = 0
+    priorities = [.5,.3,.15,.05]
+    prority_sums = [[]]*len(priorities)
+    for key in benchmark:
+        num = benchmark[key][0]
+        if benchmark[key][2] == "Compress":
+            num = 1/math.sqrt(num)
+        if benchmark[key][1] == "Minimize":
+            num = 1-num
+        prority_sums[benchmark[key][3]].append(num)
+    for i in range(len(prority_sums)):
+        prority_sums[i] = sum(prority_sums[i])/len(prority_sums[i])
+    for i in range(len(priorities)):
+        result += priorities[i]*prority_sums[i]
+    return result
