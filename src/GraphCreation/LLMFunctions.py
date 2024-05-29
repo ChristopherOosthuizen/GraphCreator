@@ -7,17 +7,28 @@ from openai import OpenAI
 from transformers import pipeline
 import torch
 import os
+import numpy as np
 from llama_index.llms.huggingface import HuggingFaceLLM
-pipeline = None
+pipelines = []
+gpus = os.environ['KG_GPUS'].split(",")
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 if "HF_HOME" in os.environ:
-    pipeline = pipeline(
-    "text-generation",
-    model=model_id,
-    model_kwargs={"torch_dtype": torch.bfloat16},
-    device_map=0,
-    )
+    for x in gpus:
+        pipelines.append(pipeline(
+            "text-generation",
+            model=model_id,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device_map=int(x),
+            ))
+def pipeline_select():
+    """
+    Selects a pipeline for the LLM.
 
+    Returns:
+        pipeline: The selected pipeline.
+    """
+    memory_usage = [torch.cuda.memory_reserved(int(x))-torch.cuda.memory_allocated(int(x)) for x in gpus]
+    return pipelines[np.argmin(memory_usage)]
 def generate_chat_response(system_prompt, user_prompt):
     """
     Generates a chat response using OpenAI's GPT-4o model.
@@ -51,6 +62,7 @@ def generate_chat_response(system_prompt, user_prompt):
         pipeline.tokenizer.eos_token_id,
         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
     ]
+    pipeline = pipeline_select()
     outputs = pipeline(
         prompter,
         max_new_tokens=3000,
@@ -74,6 +86,7 @@ def graphquestions(graph, prompt):
         str: The response to the question.
     """
     if "HF_HOME" in os.environ:
+        pipeline = pipeline_select()
         Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
     graph_store = SimpleGraphStore()
     for node_1, node_2, data in graph.edges(data=True):
