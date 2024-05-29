@@ -51,7 +51,7 @@ def generate_chat_response(system_prompt, user_prompt):
             messages=messages,
         )
         return response.choices[0].message.content
-    
+    pipeline = pipeline_select()
     prompter = pipeline.tokenizer.apply_chat_template(
         messages,
         tokenize=False,
@@ -62,7 +62,7 @@ def generate_chat_response(system_prompt, user_prompt):
         pipeline.tokenizer.eos_token_id,
         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
     ]
-    pipeline = pipeline_select()
+
     outputs = pipeline(
         prompter,
         max_new_tokens=3000,

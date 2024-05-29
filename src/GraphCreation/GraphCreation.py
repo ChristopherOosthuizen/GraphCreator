@@ -75,7 +75,7 @@ def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
     summaries[position] = sums
     list[position] = lp._combine_ontologies(ont1, ont2, sums)
 
-import concurrent.futures
+    
 
 def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2):
     """
