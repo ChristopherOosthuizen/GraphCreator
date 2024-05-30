@@ -18,7 +18,7 @@ import LLMFunctions as LLM
 from cdlib import algorithms 
 import random
 from flair.data import Sentence
-from flair.models import Classifier
+from flair.nn import Classifier
 tagger = Classifier.load('ner-ontonotes-large')
 def create_knowledge_triplets(text_chunk="", repeats=5, ner=False):
     """

@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="acts of parliament"/>
+<node id="english parliamentary system"/>
+<node id="figures"/>
+<node id="franchise criteria"/>
+<node id="historical context"/>
+<node id="historical development"/>
+<node id="modern usage"/>
+<node id="specific acts"/>
+<node id="text"/>
+<node id="url content"/>
+<node id="url name"/>
+<node id="allegiance"/>
+<node id="knight of the shire"/>
+<node id="arthur"/>
+<node id="british history"/>
+<node id="military service"/>
+<node id="feudal england"/>
+<node id="centuries"/>
+<node id="role and franchise criteria"/>
+<node id="constituency"/>
+<node id="franchise qualification"/>
+<node id="county constituencies"/>
+<node id="england"/>
+<node id="members of parliament"/>
+<node id="parliament"/>
+<node id="county representation"/>
+<node id="king"/>
+<node id="gradual obsolescence"/>
+<node id="high shire"/>
+<node id="county"/>
+<node id="historical documents"/>
+<node id="knights"/>
+<node id="land"/>
+<node id="latin"/>
+<node id="milites comitatus"/>
+<node id="peerage"/>
+<node id="role"/>
+<node id="significant acts"/>
+<node id="social roles"/>
+<node id="social status"/>
+<node id="title"/>
+<node id="voting rights"/>
+<node id="writ of summons"/>
+<node id="aristocracy"/>
+<node id="law making"/>
+<node id="legislation"/>
+<node id="detailed descriptions"/>
+<edge source="acts of parliament" target="english parliamentary system">
+  <data key="d0">were enacted by</data>
+</edge>
+<edge source="acts of parliament" target="figures">
+  <data key="d0">contributed to</data>
+</edge>
+<edge source="acts of parliament" target="franchise criteria">
+  <data key="d0">modified by</data>
+</edge>
+<edge source="acts of parliament" target="historical context">
+  <data key="d0">sets the stage for</data>
+</edge>
+<edge source="acts of parliament" target="historical development">
+  <data key="d0">was influenced by</data>
+</edge>
+<edge source="acts of parliament" target="modern usage">
+  <data key="d0">influences</data>
+</edge>
+<edge source="acts of parliament" target="specific acts">
+  <data key="d0">includes</data>
+</edge>
+<edge source="acts of parliament" target="text">
+  <data key="d0">detailed in</data>
+</edge>
+<edge source="acts of parliament" target="url content">
+  <data key="d0">mentions the</data>
+</edge>
+<edge source="acts of parliament" target="url name">
+  <data key="d0">summarized by</data>
+</edge>
+<edge source="acts of parliament" target="knight of the shire">
+  <data key="d0">affected the role of</data>
+</edge>
+<edge source="english parliamentary system" target="historical context">
+  <data key="d0">provides backdrop for</data>
+</edge>
+<edge source="english parliamentary system" target="historical development">
+  <data key="d0">includes</data>
+</edge>
+<edge source="english parliamentary system" target="knight of the shire">
+  <data key="d0">integrated into</data>
+</edge>
+<edge source="english parliamentary system" target="modern usage">
+  <data key="d0">is a component of the</data>
+</edge>
+<edge source="english parliamentary system" target="role and franchise criteria">
+  <data key="d0">were part of</data>
+</edge>
+<edge source="english parliamentary system" target="specific acts">
+  <data key="d0">is influenced by</data>
+</edge>
+<edge source="english parliamentary system" target="url content">
+  <data key="d0">discusses the</data>
+</edge>
+<edge source="figures" target="role and franchise criteria">
+  <data key="d0">influenced the</data>
+</edge>
+<edge source="franchise criteria" target="franchise qualification">
+  <data key="d0">defines</data>
+</edge>
+<edge source="franchise criteria" target="historical development">
+  <data key="d0">involves changes in</data>
+</edge>
+<edge source="franchise criteria" target="knight of the shire">
+  <data key="d0">pertains to the</data>
+</edge>
+<edge source="historical context" target="gradual obsolescence">
+  <data key="d0">is part of</data>
+</edge>
+<edge source="historical context" target="text">
+  <data key="d0">provides</data>
+</edge>
+<edge source="historical development" target="franchise qualification">
+  <data key="d0">involves</data>
+</edge>
+<edge source="historical development" target="knight of the shire">
+  <data key="d0">evolved through</data>
+</edge>
+<edge source="historical development" target="modern usage">
+  <data key="d0">led to changes in</data>
+</edge>
+<edge source="historical development" target="role and franchise criteria">
+  <data key="d0">involves changes in the</data>
+</edge>
+<edge source="historical development" target="specific acts">
+  <data key="d0">contributed to</data>
+</edge>
+<edge source="historical development" target="url content">
+  <data key="d0">narrates the</data>
+</edge>
+<edge source="modern usage" target="gradual obsolescence">
+  <data key="d0">led to</data>
+</edge>
+<edge source="modern usage" target="knight of the shire">
+  <data key="d0">related to</data>
+</edge>
+<edge source="specific acts" target="role and franchise criteria">
+  <data key="d0">shaped the</data>
+</edge>
+<edge source="specific acts" target="url content">
+  <data key="d0">references the</data>
+</edge>
+<edge source="text" target="detailed descriptions">
+  <data key="d0">contains</data>
+</edge>
+<edge source="text" target="url content">
+  <data key="d0">represents the</data>
+</edge>
+<edge source="allegiance" target="knight of the shire">
+  <data key="d0">indicates loyalty to</data>
+</edge>
+<edge source="knight of the shire" target="arthur">
+  <data key="d0">example from 17th century</data>
+</edge>
+<edge source="knight of the shire" target="constituency">
+  <data key="d0">represented area</data>
+</edge>
+<edge source="knight of the shire" target="county representation">
+  <data key="d0">part of system</data>
+</edge>
+<edge source="knight of the shire" target="gradual obsolescence">
+  <data key="d0">experienced decline</data>
+</edge>
+<edge source="knight of the shire" target="high shire">
+  <data key="d0">was higher rank than</data>
+</edge>
+<edge source="knight of the shire" target="king">
+  <data key="d0">appointed by</data>
+</edge>
+<edge source="knight of the shire" target="county">
+  <data key="d0">represented a</data>
+</edge>
+<edge source="knight of the shire" target="franchise qualification">
+  <data key="d0">elected by</data>
+</edge>
+<edge source="knight of the shire" target="historical documents">
+  <data key="d0">mentioned in</data>
+</edge>
+<edge source="knight of the shire" target="knights">
+  <data key="d0">related to</data>
+</edge>
+<edge source="knight of the shire" target="land">
+  <data key="d0">often governed</data>
+</edge>
+<edge source="knight of the shire" target="latin">
+  <data key="d0">known as in</data>
+</edge>
+<edge source="knight of the shire" target="members of parliament">
+  <data key="d0">historically included</data>
+</edge>
+<edge source="knight of the shire" target="milites comitatus">
+  <data key="d0">translated from</data>
+</edge>
+<edge source="knight of the shire" target="peerage">
+  <data key="d0">is a component of</data>
+</edge>
+<edge source="knight of the shire" target="role">
+  <data key="d0">involves changes in the</data>
+</edge>
+<edge source="knight of the shire" target="significant acts">
+  <data key="d0">references changes in</data>
+</edge>
+<edge source="knight of the shire" target="social roles">
+  <data key="d0">include</data>
+</edge>
+<edge source="knight of the shire" target="social status">
+  <data key="d0">is indicated by</data>
+</edge>
+<edge source="knight of the shire" target="title">
+  <data key="d0">specifies</data>
+</edge>
+<edge source="knight of the shire" target="voting rights">
+  <data key="d0">conferred to</data>
+</edge>
+<edge source="knight of the shire" target="writ of summons">
+  <data key="d0">was often accompanied by</data>
+</edge>
+<edge source="arthur" target="british history">
+  <data key="d0">was a significant figure in</data>
+</edge>
+<edge source="arthur" target="military service">
+  <data key="d0">performed in</data>
+</edge>
+<edge source="british history" target="feudal england">
+  <data key="d0">includes</data>
+</edge>
+<edge source="military service" target="king">
+  <data key="d0">overseen by</data>
+</edge>
+<edge source="feudal england" target="england">
+  <data key="d0">is part of</data>
+</edge>
+<edge source="feudal england" target="king">
+  <data key="d0">was ruled by</data>
+</edge>
+<edge source="centuries" target="role and franchise criteria">
+  <data key="d0">evolved over</data>
+</edge>
+<edge source="constituency" target="franchise qualification">
+  <data key="d0">influences eligibility in</data>
+</edge>
+<edge source="franchise qualification" target="role">
+  <data key="d0">involves changes in the</data>
+</edge>
+<edge source="county constituencies" target="england">
+  <data key="d0">contains</data>
+</edge>
+<edge source="county constituencies" target="members of parliament">
+  <data key="d0">are associated with</data>
+</edge>
+<edge source="county constituencies" target="parliament">
+  <data key="d0">includes representatives from</data>
+</edge>
+<edge source="members of parliament" target="county representation">
+  <data key="d0">includes</data>
+</edge>
+<edge source="members of parliament" target="law making">
+  <data key="d0">was a responsibility of</data>
+</edge>
+<edge source="members of parliament" target="legislation">
+  <data key="d0">participate in</data>
+</edge>
+<edge source="members of parliament" target="parliament">
+  <data key="d0">includes</data>
+</edge>
+<edge source="parliament" target="legislation">
+  <data key="d0">creates</data>
+</edge>
+<edge source="knights" target="aristocracy">
+  <data key="d0">includes</data>
+</edge>
+<edge source="latin" target="milites comitatus">
+  <data key="d0">is a term in</data>
+</edge>
+<edge source="writ of summons" target="legislation">
+  <data key="d0">was required for</data>
+</edge>
+</graph></graphml>

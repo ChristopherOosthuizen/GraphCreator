@@ -16,7 +16,7 @@ def chunk_text(text):
     splits = splitter.create_documents([text])
     for x in range(len(splits)):
         splits[x] = str(splits[x])
-    return 
+    return splits
 
 def set_chunk(url, chunk, chunks, position):
     chun = format_text(chunk, url)
