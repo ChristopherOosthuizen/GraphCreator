@@ -66,7 +66,7 @@ def generate_chat_response(system_prompt, user_prompt):
         pipeline.tokenizer.eos_token_id,
         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
     ]
-
+    print("starting llm prompt")
     outputs = pipeline(
         prompter,
         max_new_tokens=3000,
