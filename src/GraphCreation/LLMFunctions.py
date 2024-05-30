@@ -24,7 +24,7 @@ if "HF_HOME" in os.environ:
             ))
 
 
-def generate_chat_response(system_prompt, user_prompt, pipeline_id=0):
+def generate_chat_response(system_prompt, user_prompt, model_id=0):
     """
     Generates a chat response using OpenAI's GPT-4o model.
 
@@ -47,7 +47,7 @@ def generate_chat_response(system_prompt, user_prompt, pipeline_id=0):
         )
         return response.choices[0].message.content
     
-    pipeline = pipelines[pipeline_id]
+    pipeline = pipelines[model_id]
     prompter = pipeline.tokenizer.apply_chat_template(
         messages,
         tokenize=False,
