@@ -101,12 +101,12 @@ def score(graph, chunks):
         result[key] = result[key][0]
     return {"score":score, **result}
 
-def benchmark_params(text, args_list, output_file="./output/"):
-    if not os.path.exists(output_file):
-        os.makedirs(output_file)
+def benchmark_params(text, args_list, output="./output/"):
+    if not os.path.exists(output):
+        os.makedirs(output)
     results = []
     for x in range(len(args_list)):
-        chunks, graph = gc.create_KG_from_text(text,output_file=output_file+str(x)+"/", *args_list[x])
+        chunks, graph = gc.create_KG_from_text(text,output_file=(output+str(x)+"/"), *args_list[x])
         results.append({**score(graph, chunks),**args_list[x]})
     return pd.DataFrame(results)
 
