@@ -15,12 +15,11 @@ model_id = ""
 if "HF_HOME" in os.environ:
     gpus = os.environ['KG_GPUS'].split(",")
     model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-    for x in gpus:
-        pipelines.append(pipeline(
+    pipelines.append(pipeline(
             "text-generation",
             model=model_id,
             model_kwargs={"torch_dtype": torch.bfloat16},
-            device_map=int(x),
+            device_map='auto',
             ))
 def pipeline_select():
     """
@@ -29,10 +28,8 @@ def pipeline_select():
     Returns:
         pipeline: The selected pipeline.
     """
-    memory_usage = [torch.cuda.memory_reserved(int(x))-torch.cuda.memory_allocated(int(x)) for x in gpus]
-    print(memory_usage)
-    print(np.argmax(memory_usage))
-    return pipelines[np.argmax(memory_usage)]
+
+    return pipelines[0]
 
 def generate_chat_response(system_prompt, user_prompt):
     """
