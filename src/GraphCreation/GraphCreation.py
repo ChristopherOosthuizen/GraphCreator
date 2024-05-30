@@ -17,7 +17,10 @@ import LinkPrediction as lp
 import LLMFunctions as LLM
 from cdlib import algorithms 
 import random
-def create_knowledge_triplets(text_chunk="", repeats=5):
+from flair.data import Sentence
+from flair.models import Classifier
+tagger = Classifier.load('ner-ontonotes-large')
+def create_knowledge_triplets(text_chunk="", repeats=5, ner=False):
     """
     Creates knowledge triplets from a given text chunk.
 
@@ -28,7 +31,14 @@ def create_knowledge_triplets(text_chunk="", repeats=5):
     Returns:
         str: The generated knowledge triplets in JSON format.
     """
-    system_prompt = open("../prompts/TripletCreationSystem").read()
+    system_prompt = ""
+    if ner:
+        sentence= Sentence(text_chunk)
+        tagger.predict(sentence)
+        sentence = sentence.replace(text_chunk,"")
+        system_prompt = open("../prompts/NERTripletCreation").read()+sentence
+    else:
+        system_prompt = open("../prompts/TripletCreationSystem").read()
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt))
     
@@ -77,7 +87,7 @@ def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
 
     
 
-def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2):
+def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2, ner=False):
     """
     Creates a knowledge graph from a list of text chunks.
 
@@ -95,7 +105,7 @@ def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2):
     triplets = []
     combinations = [] 
     if len(chunks) == 1:
-        return create_knowledge_triplets("",chunks[0], repeats=inital_repeats)
+        return create_knowledge_triplets("",chunks[0], repeats=inital_repeats, ner=ner)
     combinations = []
     summaries = []
     threads = []
@@ -135,7 +145,7 @@ def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2):
     return combinations
 
 
-def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, llm_formatting=True):
+def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, llm_formatting=True, ner=False):
     """
     Creates a knowledge graph (KG) from the given text.
 
@@ -152,11 +162,11 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
         chunks = textformatting.get_text_chunks(text)
     else:
         chunks = textformatting.chunk_text(text)
-    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked)
+    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner)
 
-def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True):
+def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False):
     repeats = int(chunks_precentage_linked * len(chunks))
-    jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats)
+    jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner)
     Graph = nx.Graph()
     for x in jsons:
         try:
@@ -179,12 +189,12 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     nt.show(output_file + "graph.html", notebook=False)
     
     return chunks,Graph
-def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True):
+def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False):
     text = textformatting.url_to_md(url)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner)
     return jsons
 
-def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True):
+def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False):
     text = textformatting._convert_to_markdown(extract_text(pdf))
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner)
     return jsons

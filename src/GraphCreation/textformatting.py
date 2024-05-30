@@ -13,7 +13,10 @@ def url_to_md(url):
 
 def chunk_text(text):
     splitter = MarkdownTextSplitter(chunk_size=10000, chunk_overlap=200)
-    return splitter.create_documents([text])
+    splits = splitter.create_documents([text])
+    for x in range(len(splits)):
+        splits[x] = str(splits[x])
+    return 
 
 def set_chunk(url, chunk, chunks, position):
     chun = format_text(chunk, url)
