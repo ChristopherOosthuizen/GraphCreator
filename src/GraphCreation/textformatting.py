@@ -3,8 +3,9 @@ import urllib.request
 import threading
 from  langchain.text_splitter import MarkdownTextSplitter 
 import LLMFunctions as LLM
-def format_text(prompt, url):
-    return LLM.generate_chat_response( "You are a text filtration system, you are given a short blurb of text and its your job to determine weather this is irrelevant information from a text page for formatting or system headers or if its the main content of the webpage. given the url name. and content.",f"url: {url} Prompt: {prompt}")
+import os 
+def format_text(prompt, url, pipeline_id=0):
+    return LLM.generate_chat_response( "You are a text filtration system, you are given a short blurb of text and its your job to determine weather this is irrelevant information from a text page for formatting or system headers or if its the main content of the webpage. given the url name. and content.",f"url: {url} Prompt: {prompt}", pipeline_id)
 
 
 def url_to_md(url):
@@ -19,7 +20,8 @@ def chunk_text(text):
     return splits
 
 def set_chunk(url, chunk, chunks, position):
-    chun = format_text(chunk, url)
+    gpu_length = len(os.environ['KG_GPUS'].split(","))
+    chun = format_text(chunk, url, pipeline_id=position%gpu_length)
     chunks[position] = chun
 
 def get_text_chunks(text):

@@ -15,23 +15,16 @@ model_id = ""
 if "HF_HOME" in os.environ:
     gpus = os.environ['KG_GPUS'].split(",")
     model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-    pipelines.append(pipeline(
+    for x in gpus:
+        pipelines.append(pipeline(
             "text-generation",
             model=model_id,
             model_kwargs={"torch_dtype": torch.bfloat16},
-            device_map='auto',
+            device_map=int(x),
             ))
-def pipeline_select():
-    """
-    Selects a pipeline for the LLM.
 
-    Returns:
-        pipeline: The selected pipeline.
-    """
 
-    return pipelines[0]
-
-def generate_chat_response(system_prompt, user_prompt):
+def generate_chat_response(system_prompt, user_prompt, pipeline_id=0):
     """
     Generates a chat response using OpenAI's GPT-4o model.
 
@@ -54,7 +47,7 @@ def generate_chat_response(system_prompt, user_prompt):
         )
         return response.choices[0].message.content
     
-    pipeline = pipeline_select()
+    pipeline = pipelines[pipeline_id]
     prompter = pipeline.tokenizer.apply_chat_template(
         messages,
         tokenize=False,
@@ -76,7 +69,7 @@ def generate_chat_response(system_prompt, user_prompt):
     )
     return outputs[0]["generated_text"][len(prompter):]
 
-def graphquestions(graph, prompt):
+def graphquestions(graph, prompt, pipeline_id=0):
     """
     Function to ask questions about a graph.
 
@@ -88,7 +81,7 @@ def graphquestions(graph, prompt):
         str: The response to the question.
     """
     if "HF_HOME" in os.environ:
-        pipeline = pipeline_select()
+        pipeline = pipelines[pipeline_id]
         Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
     graph_store = SimpleGraphStore()
     for node_1, node_2, data in graph.edges(data=True):

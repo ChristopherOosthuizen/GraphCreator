@@ -19,7 +19,7 @@ import random
 from flair.data import Sentence
 from flair.nn import Classifier
 tagger = Classifier.load('ner-ontonotes-large')
-def create_knowledge_triplets(text_chunk="", repeats=5, ner=False):
+def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0):
     """
     Creates knowledge triplets from a given text chunk.
 
@@ -39,7 +39,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False):
     else:
         system_prompt = open("../prompts/TripletCreationSystem").read()
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
-    response = str(LLM.generate_chat_response(system_prompt, prompt))
+    response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     
     for _ in range(repeats):
         system_prompt = open("../prompts/TripletCreationSystem").read()
@@ -49,9 +49,9 @@ Read this context carefully and extract the key concepts and relationships discu
 Here is the ontology graph generated from the above context:
 {response}
 {open("../prompts/TripletIterationStandard").read()}"""
-        response = str(LLM.generate_chat_response(system_prompt, prompt))
+        response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     
-    response = str(lp._fix_ontology(response, text_chunk))
+    response = str(lp._fix_ontology(response, text_chunk, model_id=model_id))
     response = response[response.find("["):response.find("]")+1]
     response = response.replace("node1", "node_1")
     response = response.replace("node2", "node_2")
@@ -76,13 +76,16 @@ def new_summary_prompt(summary, text_chunk):
     return summary
 
 def _make_one_triplet(list, position, chunk):
-    chu = create_knowledge_triplets(text_chunk=chunk)
+    gpu_length = len(os.environ['KG_GPUS'].split(","))
+    chu = create_knowledge_triplets(text_chunk=chunk, model_id=position%gpu_length)
     list[position] = chu
 
 def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
-    sums = new_summary_prompt(sum1, sum2)
+    gpu_length = len(os.environ['KG_GPUS'].split(","))
+    model_id = position%gpu_length
+    sums = new_summary_prompt(sum1, sum2, model_id=model_id)
     summaries[position] = sums
-    list[position] = lp._combine_ontologies(ont1, ont2, sums)
+    list[position] = lp._combine_ontologies(ont1, ont2, sums, model_id=model_id)
 
     
 
