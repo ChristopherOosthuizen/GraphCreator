@@ -1,0 +1,23 @@
+Perform Named Entity Recognition on the following text. Extract and label the entities using the tags provided below. Output only the list of named entities in the format: <entity_type>entity</entity_type>
+
+Available tags:
+<person>: Names of people, including fictional characters
+<organization>: Companies, agencies, institutions, etc.
+<location>: Cities, states, countries, natural landmarks, etc.
+<date>: Absolute or relative dates or periods
+<time>: Times smaller than a day
+<money>: Monetary values, including unit
+<percent>: Percentage values
+<facility>: Buildings, airports, highways, bridges, etc.
+<geo-loc>: Geographical locations
+<product>: Objects, vehicles, foods, etc. (not services)
+<event>: Named hurricanes, battles, wars, sports events, etc.
+<work_of_art>: Titles of books, songs, etc.
+<law>: Named documents made into laws
+<language>: Any named language
+<quantity>: Measurements, as of weight or distance
+<ordinal>: "first", "second", etc.
+<cardinal>: Numerals that do not fall under another type
+<equation>: Mathematical and scientific equations, formulas, or expressions
+
+Text:
