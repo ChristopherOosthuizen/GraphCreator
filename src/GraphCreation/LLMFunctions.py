@@ -30,6 +30,8 @@ def pipeline_select():
         pipeline: The selected pipeline.
     """
     memory_usage = [torch.cuda.memory_reserved(int(x))-torch.cuda.memory_allocated(int(x)) for x in gpus]
+    print(memory_usage)
+    print(np.argmax(memory_usage))
     return pipelines[np.argmax(memory_usage)]
 
 def generate_chat_response(system_prompt, user_prompt):
