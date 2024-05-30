@@ -4,7 +4,6 @@ import os
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
-
 from openai import OpenAI
 import threading
 import networkx as nx
@@ -168,6 +167,8 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     repeats = int(chunks_precentage_linked * len(chunks))
     jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner)
     Graph = nx.Graph()
+    if not os.path.exists(output_file):
+        os.makedirs(output_file)
     for x in jsons:
         try:
             x = json.loads(x)
