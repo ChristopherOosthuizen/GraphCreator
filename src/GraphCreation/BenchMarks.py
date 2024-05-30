@@ -68,7 +68,7 @@ def networkx_statistics(graph):
     return result
 def benchmark(graph, chunks):
     llms = llm_benchmark(graph, chunks)
-    average_judges = [sum(llms["Judges_over_base"])/len(llms["Judges_over_base"]),"Maximize","Standard",0]# 1 if the graph is better than the base line, 0 if the base line is better/ Maximize
+    average_judges = [sum(llms["Judges_over_base"])/len(llms["Judges_over_base"]),"Maximize","Standard",1]# 1 if the graph is better than the base line, 0 if the base line is better/ Maximize
     average_follows = [sum(llms["Follows_over_base"])/len(llms["Follows_over_base"]),"Maximize", "Standard",0] # The difference in the probability of the graph following the base line/ Maximize
     average_contradicts = [sum(llms["Controdicts_over_base"])/len(llms["Controdicts_over_base"]),"Maximize","Standard",0] # The difference in the probability of the graph contradicting the base line/ Maximize
     return {"average_judges": average_judges, "average_follows": average_follows, "average_contradicts": average_contradicts, **networkx_statistics(graph)}

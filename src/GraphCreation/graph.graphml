@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="act" />
+    <node id="henry vi" />
+    <node id="knight" />
+    <node id="yeoman" />
+    <node id="burgess" />
+    <node id="borough constituency" />
+    <node id="mp" />
+    <node id="british house of commons" />
+    <node id="county constituency" />
+    <node id="knight of the shire" />
+    <node id="city status" />
+    <node id="borough" />
+    <node id="conservative party" />
+    <node id="content" />
+    <node id="historical background" />
+    <node id="knights of the shire" />
+    <node id="parliamentary representation" />
+    <node id="core content" />
+    <node id="substance" />
+    <node id="county" />
+    <node id="cinque ports constituency" />
+    <node id="constituency" />
+    <node id="shire" />
+    <node id="details" />
+    <node id="historical explanations" />
+    <node id="english parliamentary system" />
+    <node id="medieval institutions" />
+    <node id="evolution of parliamentary representation" />
+    <node id="historical period" />
+    <node id="medieval england" />
+    <node id="legislative background" />
+    <node id="local governance" />
+    <node id="citizen" />
+    <node id="page formatting signals" />
+    <node id="citations" />
+    <node id="elements" />
+    <node id="representation of the shires" />
+    <node id="system headers" />
+    <node id="edit links" />
+    <node id="text" />
+    <node id="webpage" />
+    <edge source="act" target="henry vi">
+      <data key="d0">stipulated eligibility for knights</data>
+    </edge>
+    <edge source="act" target="knight">
+      <data key="d0">stipulated eligibility for</data>
+    </edge>
+    <edge source="act" target="yeoman">
+      <data key="d0">excluded from being</data>
+    </edge>
+    <edge source="burgess" target="borough constituency">
+      <data key="d0">was the title for mps in</data>
+    </edge>
+    <edge source="burgess" target="mp">
+      <data key="d0">title for those in borough constituency</data>
+    </edge>
+    <edge source="mp" target="knight of the shire">
+      <data key="d0">was the title for many</data>
+    </edge>
+    <edge source="mp" target="british house of commons">
+      <data key="d0">member of</data>
+    </edge>
+    <edge source="mp" target="citizen">
+      <data key="d0">title for those in borough with city status</data>
+    </edge>
+    <edge source="british house of commons" target="county constituency">
+      <data key="d0">included representatives from</data>
+    </edge>
+    <edge source="british house of commons" target="knight of the shire">
+      <data key="d0">sent representatives to</data>
+    </edge>
+    <edge source="county constituency" target="county">
+      <data key="d0">formed a single</data>
+    </edge>
+    <edge source="county constituency" target="knight of the shire">
+      <data key="d0">represented</data>
+    </edge>
+    <edge source="knight of the shire" target="conservative party">
+      <data key="d0">used term for backbenchers</data>
+    </edge>
+    <edge source="knight of the shire" target="shire">
+      <data key="d0">represented by</data>
+    </edge>
+    <edge source="city status" target="borough">
+      <data key="d0">referred to when having</data>
+    </edge>
+    <edge source="content" target="historical background">
+      <data key="d0">focused on</data>
+    </edge>
+    <edge source="content" target="knights of the shire">
+      <data key="d0">includes information about</data>
+    </edge>
+    <edge source="content" target="parliamentary representation">
+      <data key="d0">includes details about</data>
+    </edge>
+    <edge source="content" target="legislative background">
+      <data key="d0">focused on</data>
+    </edge>
+    <edge source="historical background" target="english parliamentary system">
+      <data key="d0">is based on</data>
+    </edge>
+    <edge source="historical background" target="knights of the shire">
+      <data key="d0">related to</data>
+    </edge>
+    <edge source="historical background" target="medieval institutions">
+      <data key="d0">associated with</data>
+    </edge>
+    <edge source="historical background" target="substance">
+      <data key="d0">is part of</data>
+    </edge>
+    <edge source="knights of the shire" target="english parliamentary system">
+      <data key="d0">is relevant to</data>
+    </edge>
+    <edge source="knights of the shire" target="legislative background">
+      <data key="d0">related to</data>
+    </edge>
+    <edge source="knights of the shire" target="local governance">
+      <data key="d0">were integral to</data>
+    </edge>
+    <edge source="knights of the shire" target="medieval england">
+      <data key="d0">originated in</data>
+    </edge>
+    <edge source="knights of the shire" target="parliamentary representation">
+      <data key="d0">were participants in</data>
+    </edge>
+    <edge source="knights of the shire" target="representation of the shires">
+      <data key="d0">was performed by</data>
+    </edge>
+    <edge source="parliamentary representation" target="english parliamentary system">
+      <data key="d0">involves concept of</data>
+    </edge>
+    <edge source="parliamentary representation" target="evolution of parliamentary representation">
+      <data key="d0">is about</data>
+    </edge>
+    <edge source="parliamentary representation" target="representation of the shires">
+      <data key="d0">includes</data>
+    </edge>
+    <edge source="core content" target="substance">
+      <data key="d0">forms</data>
+    </edge>
+    <edge source="substance" target="details">
+      <data key="d0">comprises</data>
+    </edge>
+    <edge source="substance" target="historical explanations">
+      <data key="d0">is part of</data>
+    </edge>
+    <edge source="county" target="cinque ports constituency">
+      <data key="d0">was represented by baron</data>
+    </edge>
+    <edge source="county" target="constituency">
+      <data key="d0">formed a single</data>
+    </edge>
+    <edge source="county" target="shire">
+      <data key="d0">was another term for</data>
+    </edge>
+    <edge source="details" target="historical explanations">
+      <data key="d0">include</data>
+    </edge>
+    <edge source="english parliamentary system" target="medieval institutions">
+      <data key="d0">evolved from</data>
+    </edge>
+    <edge source="medieval institutions" target="local governance">
+      <data key="d0">included</data>
+    </edge>
+    <edge source="medieval institutions" target="medieval england">
+      <data key="d0">included</data>
+    </edge>
+    <edge source="historical period" target="medieval england">
+      <data key="d0">refers to</data>
+    </edge>
+    <edge source="page formatting signals" target="citations">
+      <data key="d0">include</data>
+    </edge>
+    <edge source="page formatting signals" target="elements">
+      <data key="d0">contain</data>
+    </edge>
+    <edge source="elements" target="system headers">
+      <data key="d0">contain</data>
+    </edge>
+    <edge source="system headers" target="edit links">
+      <data key="d0">include</data>
+    </edge>
+    <edge source="text" target="webpage">
+      <data key="d0">comprises main content of</data>
+    </edge>
+  </graph>
+</graphml>
