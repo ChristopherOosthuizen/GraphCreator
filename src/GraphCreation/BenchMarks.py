@@ -2,9 +2,11 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration, AutoTokenizer,
 import torch
 import os
 import networkx as nx
+import GraphCreation as gc
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
+import pandas as pd
 import LLMFunctions as lm
 
 
@@ -97,3 +99,12 @@ def score(graph, chunks):
     for key in result:
         result[key] = result[key][0]
     return {"score":score, **result}
+
+def benchmark_params(text, args_list, output_file="./output/"):
+    if not os.path.exists(output_file):
+        os.makedirs(output_file)
+    results = []
+    for x in range(len(args_list)):
+        chunks, graph = gc.create_KG_from_text(text,output_file=output_file+"x/" **args_list[x])
+        results.append({**score(graph, chunks),**args_list[x]})
+    return pd.DataFrame(results)
