@@ -80,7 +80,7 @@ def benchmark_to_score(benchmark):
     prority_sums = [[]]*len(priorities)
     for key in benchmark:
         num = benchmark[key][0]
-        if benchmark[key][2] == "Compress":
+        if benchmark[key][2] == "Compress" and num != 0:
             num = 1/math.sqrt(num)
         if benchmark[key][1] == "Minimize":
             num = 1-num
