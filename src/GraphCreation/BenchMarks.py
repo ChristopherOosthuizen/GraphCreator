@@ -108,3 +108,6 @@ def benchmark_params(text, args_list, output_file="./output/"):
         chunks, graph = gc.create_KG_from_text(text,output_file=output_file+"x/" **args_list[x])
         results.append({**score(graph, chunks),**args_list[x]})
     return pd.DataFrame(results)
+
+def benchmark_params_url(url, args_list, output_file="./output/"):
+    return benchmark_params(gc.url_to_md(url), args_list, output_file)
