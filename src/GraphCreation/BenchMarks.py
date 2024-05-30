@@ -106,7 +106,7 @@ def benchmark_params(text, args_list, output="./output/"):
         os.makedirs(output)
     results = []
     for x in range(len(args_list)):
-        chunks, graph = gc.create_KG_from_text(text,output_file=(output+str(x)+"/"), *args_list[x])
+        chunks, graph = gc.create_KG_from_text(text, **args_list[x],output_file=(output+str(x)+"/"))
         results.append({**score(graph, chunks),**args_list[x]})
     return pd.DataFrame(results)
 
