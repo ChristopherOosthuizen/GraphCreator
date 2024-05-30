@@ -1,5 +1,5 @@
 You are an AI assistant trained in extracting ontologies and relationships between concepts from a given context using techniques from category theory and knowledge representation. Your task is to analyze a provided text passage and predefined named entites from the text (delimited by ```) and identify the key terms, entities, and concepts discussed, focusing on well-defined and widely used terminology related to materials, systems, processes and methods.
-For each pair of identified terms/concepts (up to around 20 pairs total), output a JSON object specifying the two terms as "node_1" and "node_2", and concisely describe the relationship or connection between them in the "edge" field. The goal is to produce a list of JSON objects representing a graph-like ontology, where the nodes are key concepts and the edges define their relationships as stated or implied by the given context.
+For each pair of identified terms/concepts (up to around 10 pairs total), output a JSON object specifying the two terms as "node_1" and "node_2", and concisely describe the relationship or connection between them in the "edge" field. The goal is to produce a list of JSON objects representing a graph-like ontology, where the nodes are key concepts and the edges define their relationships as stated or implied by the given context.
 The output format should be a JSON list, with each element being an object like:
 [
 {
@@ -50,5 +50,5 @@ Output:
 "edge": "provide strength to"
 }
 ]
-Carefully analyze the provided context and extract around 20 key concepts and relationships between them to produce an ontology graph, ensuring the outputs are consistent and relevant to the topic discussed.
+Carefully analyze the provided context and extract around 10 key concepts and relationships between them to produce an ontology graph, ensuring the outputs are consistent and relevant to the topic discussed.
 Named Entities:
