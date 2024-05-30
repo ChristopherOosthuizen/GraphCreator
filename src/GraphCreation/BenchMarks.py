@@ -3,6 +3,7 @@ import torch
 import os
 import networkx as nx
 import GraphCreation as gc
+import textformatting as tx
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
@@ -110,4 +111,4 @@ def benchmark_params(text, args_list, output_file="./output/"):
     return pd.DataFrame(results)
 
 def benchmark_params_url(url, args_list, output_file="./output/"):
-    return benchmark_params(gc.url_to_md(url), args_list, output_file)
+    return benchmark_params(tx.url_to_md(url), args_list, output_file)
