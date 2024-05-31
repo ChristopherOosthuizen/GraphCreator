@@ -4,13 +4,14 @@ import os
 import networkx as nx
 import GraphCreation as gc
 import textformatting as tx
+from transformers import set_seed
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 import pandas as pd
 import LLMFunctions as lm
-
-
+import json
+import LinkPrediction as lp
 def chunks_to_questions(chunks):
     result = []
     for chunk in chunks:
@@ -121,3 +122,48 @@ def benchmark_params(text, args_list, output="./output/"):
 
 def benchmark_params_url(url, args_list, output_file="./output/"):
     return benchmark_params(tx.url_to_md(url), args_list, output_file)
+
+def create_DPO(file, output_file="./output/"):
+    result = pd.DataFrame()
+    chunks = tx.chunk_text(tx.pdf_to_md(file))
+    seeds = [0,100,200,300,400]
+    for x in range(len(chunks)):
+        outputs = []
+        for y in range(5):
+            try:
+                set_seed(seeds[y])
+                jsons = gc._create_kg(chunks=[chunks[x]], converge=False, repeats=0, inital_repeats=0, ner=True, ner_type="llm")
+                Graph = nx.Graph()
+                if not os.path.exists(output_file):
+                    os.makedirs(output_file)
+                for x in jsons:
+                    try:
+                        x = json.loads(x)
+                    except:
+                        x = json.loads(lp.fix_format(x))
+                    for y in x:
+                        Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])
+                
+                # Save graph as GraphML
+                nx.write_graphml(Graph, output_file + "graph.graphml")
+                
+                # Save graph as JSON
+                with open(output_file + "graph.json", "w") as json_file:
+                    json.dump(jsons, json_file)
+                outputs.append({**score(Graph, chunks), "seed": seeds[y], "output": jsons})
+            except:
+                print("error")
+        maxs = outputs[0]
+        mins = outputs[0]
+        for y in outputs:
+            if y["score"] > maxs["score"]:
+                maxs = y
+            if y["score"] < mins["score"]:
+                mins = y
+        inputs = open("../prompts/TripletCreationSystem").read()+ f"Context: ```{chunks[x]}``` \n\nOutput: "
+        result_output = {"input":inputs ,"taken":maxs['output'], "rejected":mins['output'], "taken_score":maxs["score"], "rejected_score":mins["score"]}
+        result._append(result_output, ignore_index=True)
+        result.to_csv(output_file+"results.csv")
+    return result
+    
+    

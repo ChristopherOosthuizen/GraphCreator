@@ -4,6 +4,7 @@ import threading
 from  langchain.text_splitter import MarkdownTextSplitter 
 import LLMFunctions as LLM
 import os 
+from pdfminer.high_level import extract_text
 def format_text(prompt, url, pipeline_id=0):
     return LLM.generate_chat_response( "Please format the following text by removing any unnecessary information commonly found in text from websites, such as edit links, reference markers, and other irrelevant data. Return the cleaned-up text without any additional comments."+prompt, pipeline_id)
 
@@ -11,7 +12,8 @@ def format_text(prompt, url, pipeline_id=0):
 def url_to_md(url):
     html = urllib.request.urlopen(url).read().decode('utf-8')
     return markdownify.markdownify(html, heading_style="ATX")
-
+def pdf_to_md(file):
+    return extract_text(file)
 def chunk_text(text):
     splitter = MarkdownTextSplitter(chunk_size=10000, chunk_overlap=200)
     splits = splitter.create_documents([text])
