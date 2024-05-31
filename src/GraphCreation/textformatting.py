@@ -5,7 +5,7 @@ from  langchain.text_splitter import MarkdownTextSplitter
 import LLMFunctions as LLM
 import os 
 def format_text(prompt, url, pipeline_id=0):
-    return LLM.generate_chat_response( "You are a text filtration system, you are given a short blurb of text and its your job to determine weather this is irrelevant information from a text page for formatting or system headers or if its the main content of the webpage. given the url name. and content.",f"url: {url} Prompt: {prompt}", pipeline_id)
+    return LLM.generate_chat_response( "Please format the following text by removing any unnecessary information commonly found in text from websites, such as edit links, reference markers, and other irrelevant data. Return the cleaned-up text without any additional comments."+prompt, pipeline_id)
 
 
 def url_to_md(url):
