@@ -20,6 +20,8 @@ def chunks_to_questions(chunks):
 tokenizer_nli = None
 model_nli = None
 def follow_premise(answer, chunk):
+    global tokenizer_nli
+    global model_nli
     if tokenizer_nli is None:
         tokenizer_nli = AutoTokenizer.from_pretrained("potsawee/deberta-v3-large-mnli")
         model_nli = AutoModelForSequenceClassification.from_pretrained("potsawee/deberta-v3-large-mnli")

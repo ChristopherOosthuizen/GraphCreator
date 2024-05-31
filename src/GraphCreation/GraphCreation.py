@@ -33,6 +33,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
     system_prompt = ""
     if ner:
         if ner_type == "flair":
+            global tagger
             if tagger is None:
                 tagger = Classifier.load("ner-ontonotes-fast")
             sentence= Sentence(text_chunk)
