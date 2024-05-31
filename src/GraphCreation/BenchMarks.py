@@ -111,9 +111,12 @@ def benchmark_params(text, args_list, output="./output/"):
         os.makedirs(output)
     results = pd.DataFrame()
     for x in range(len(args_list)):
-        chunks, graph = gc.create_KG_from_text(text, **args_list[x],output_file=(output+str(x)+"/"))
-        main = {**score(graph, chunks),**args_list[x]}
-        results._append(main, ignore_index=True)
+        try:
+            chunks, graph = gc.create_KG_from_text(text, **args_list[x],output_file=(output+str(x)+"/"))
+            main = {**score(graph, chunks),**args_list[x]}
+            results._append(main, ignore_index=True)
+        except:
+            results._append({**args_list[x], "score": 0}, ignore_index=True)
     return pd.DataFrame(results)
 
 def benchmark_params_url(url, args_list, output_file="./output/"):
