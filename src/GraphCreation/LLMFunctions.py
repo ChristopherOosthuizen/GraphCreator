@@ -34,7 +34,7 @@ def pick_gpu(index):
         int: The GPU picked.
     """
     gpu_length = len(os.environ['KG_GPUS'].split(","))
-    return x%gpu_length
+    return index%gpu_length
 
 def generate_chat_response(system_prompt, user_prompt, model_id=0):
     """
