@@ -62,7 +62,7 @@ def networkx_statistics(graph):
                 "average_betweenness": [sum(nx.betweenness_centrality(graph).values())/graph.number_of_nodes(),"Maximize", "Standard",2], # Average number of shortest paths that pass through a node/ Maximize
                 "average_reaching": [nx.global_reaching_centrality(graph), "Maximize","Standard",1], # The average number of nodes that can be reached from a node/ Maximize
                 "number_of_unconneced_graphs": [number_of_unconnected_graphs,"Minimize","Compress",1], # Number of unconnected graphs/ Minimize
-                "number_of_triangles": [number_of_triangles, "Maximize","Compress",1], # Number of triangles in the graph/ Maximize
+                "number_of_triangles": [number_of_triangles, "Maximize","Compress",0], # Number of triangles in the graph/ Maximize
                 "number_of_nodes": [graph.number_of_nodes(),"Maximize","Compress",3], # Number of nodes in the graph/ Maximize
                 "number_of_edges": [graph.number_of_edges(),"Maximize", "Compress",3], # Number of edges in the graph/ Maximize
                 "average_clustering": [nx.average_clustering(graph),"Maximize", "Compress",1], # The clustering coefficient of the graph/ Maximize
@@ -107,7 +107,7 @@ def benchmark_params(text, args_list, output="./output/"):
     results = pd.DataFrame()
     for x in range(len(args_list)):
         chunks, graph = gc.create_KG_from_text(text, **args_list[x],output_file=(output+str(x)+"/"))
-        main = {**score(graph, chunks),"Args":args_list[x]}
+        main = {**score(graph, chunks),**args_list[x]}
         results._append(main)
     return pd.DataFrame(results)
 
