@@ -67,8 +67,6 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
         top_p=0.5,
         repetition_penalty=1.1,
     )
-    print("\n\nPrompt: "+prompter)
-    print("\n\nOutput: "+outputs[0]["generated_text"][len(prompter):])
     return outputs[0]["generated_text"][len(prompter):]
 
 def graphquestions(graph, prompt, pipeline_id=0):
