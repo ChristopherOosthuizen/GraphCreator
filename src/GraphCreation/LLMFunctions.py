@@ -23,6 +23,18 @@ if "HF_HOME" in os.environ:
             device_map=int(x),
             ))
 
+def pick_gpu(index):
+    """
+    Function to pick a GPU for the pipeline.
+
+    Args:
+        index (int): The index of the GPU to pick.
+
+    Returns:
+        int: The GPU picked.
+    """
+    gpu_length = len(os.environ['KG_GPUS'].split(","))
+    return x%gpu_length
 
 def generate_chat_response(system_prompt, user_prompt, model_id=0):
     """

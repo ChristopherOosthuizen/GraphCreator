@@ -17,9 +17,12 @@ def chunks_to_questions(chunks):
         result.append(lm.generate_chat_response("",chunk+" "+open("../prompts/questionGeneration").read()))
     return result
 
-tokenizer_nli = AutoTokenizer.from_pretrained("potsawee/deberta-v3-large-mnli")
-model_nli = AutoModelForSequenceClassification.from_pretrained("potsawee/deberta-v3-large-mnli")
+tokenizer_nli = None
+model_nli = None
 def follow_premise(answer, chunk):
+    if tokenizer_nli is None:
+        tokenizer_nli = AutoTokenizer.from_pretrained("potsawee/deberta-v3-large-mnli")
+        model_nli = AutoModelForSequenceClassification.from_pretrained("potsawee/deberta-v3-large-mnli")
     inputs = tokenizer_nli.batch_encode_plus(
     batch_text_or_text_pairs=[(answer, chunk)],
     add_special_tokens=True, return_tensors="pt",
@@ -108,7 +111,7 @@ def benchmark_params(text, args_list, output="./output/"):
     for x in range(len(args_list)):
         chunks, graph = gc.create_KG_from_text(text, **args_list[x],output_file=(output+str(x)+"/"))
         main = {**score(graph, chunks),**args_list[x]}
-        results._append(main)
+        results._append(main, ignore_index=True)
     return pd.DataFrame(results)
 
 def benchmark_params_url(url, args_list, output_file="./output/"):

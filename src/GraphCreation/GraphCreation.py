@@ -18,7 +18,7 @@ from cdlib import algorithms
 import random
 from flair.data import Sentence
 from flair.nn import Classifier
-tagger = Classifier.load('ner-ontonotes-large')
+tagger = None
 def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, ner_type="flair"):
     """
     Creates knowledge triplets from a given text chunk.
@@ -33,6 +33,8 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
     system_prompt = ""
     if ner:
         if ner_type == "flair":
+            if tagger is None:
+                tagger = Classifier.load("ner-ontonotes-fast")
             sentence= Sentence(text_chunk)
             tagger.predict(sentence)
             sentence = sentence.replace(text_chunk,"")
@@ -79,13 +81,11 @@ def new_summary_prompt(summary, text_chunk,model_id=0):
     return summary
 
 def _make_one_triplet(list, position, chunk, ner=False, ner_type="flair"):
-    gpu_length = len(os.environ['KG_GPUS'].split(","))
-    chu = create_knowledge_triplets(text_chunk=chunk, model_id=position%gpu_length, ner=ner, ner_type=ner_type)
+    chu = create_knowledge_triplets(text_chunk=chunk, model_id=LLM.pick_gpu(position), ner=ner, ner_type=ner_type)
     list[position] = chu
 
 def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
-    gpu_length = len(os.environ['KG_GPUS'].split(","))
-    model_id = position%gpu_length
+    model_id = LLM.pick_gpu(position)
     sums = new_summary_prompt(sum1, sum2, model_id=model_id)
     summaries[position] = sums
     list[position] = lp._combine_ontologies(ont1, ont2, sums, model_id=model_id)
