@@ -156,7 +156,7 @@ def create_DPO(file, output_file="./output/"):
         pd.DataFrame(resulter).to_csv(output_file+"results.csv")
     return resulter
     
-def bench_mark__from_dataset(dataframe, source_column, answer_column, question_column,  output_file="./output/",eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair" ):
+def bench_mark_from_dataset(dataframe, source_column, answer_column, question_column,  output_file="./output/",eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair" ):
     result = []
     for x in range(len(dataframe)):
         url = dataframe[source_column][x]
