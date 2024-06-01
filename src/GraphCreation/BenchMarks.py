@@ -139,6 +139,8 @@ def create_DPO(file, output_file="./output/"):
         outputs = [""]*5
         threads = []
         for y in range(5):
+            if not os.path.exists(output_file):
+                os.makedirs(output_file)
             single_DPO(chunks[c], outputs, y, seeds[y])
         maxs = outputs[0]
         mins = outputs[0]
