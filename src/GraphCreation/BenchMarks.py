@@ -38,7 +38,7 @@ def llm_as_judge(response1, response2):
 def llm_benchmark(graph, chunks):
     questions = chunks_to_questions(chunks)
     print(questions)
-    results = {"Judges_over_base": [], "Follows_over_base": [], "Controdicts_over_base":[]}
+    results = {"Judges_over_base": [], "Follows_over_base": [], "Controdicts_over_base":[], "base_line": [], "graph": []}
     for i in range(len(questions)):
         question = questions[i]
         base_line = lm.generate_chat_response("", question)
@@ -48,6 +48,7 @@ def llm_benchmark(graph, chunks):
         results["Judges_over_base"].append(llm_as_judge(base_line,graph_res))
         results["Follows_over_base"].append((probs_graph[0].item()-probs_base[0].item()))
         results["Controdicts_over_base"].append(-(probs_graph[1].item()-probs_base[1].item()))
+        
     return results
 
 def networkx_statistics(graph):
@@ -155,4 +156,18 @@ def create_DPO(file, output_file="./output/"):
         pd.DataFrame(resulter).to_csv(output_file+"results.csv")
     return resulter
     
-    
+def bench_mark__from_dataset(dataframe, source_column, answer_column, question_column,  output_file="./output/",eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair" ):
+    result = []
+    for x in range(len(dataframe)):
+        url = dataframe[source_column][x]
+        chunks, graph = gc.create_KG_from_url(url, output_file+str(x), eliminate_all_islands=eliminate_all_islands, inital_repeats=inital_repeats, chunks_precentage_linked=chunks_precentage_linked, ner=ner, ner_type=ner_type)
+        question = dataframe[question_column][x]
+        answer = dataframe[answer_column][x]
+        base_line = lm.generate_chat_response("", question)
+        graph_res = lm.graphquestions(graph, question)
+        probs_graph = follow_premise(graph_res,chunks[0])
+        probs_base = follow_premise(base_line,chunks[0])
+        main = {"Judges_over_base": llm_as_judge(base_line,graph_res), "Follows_over_base": (probs_graph[0].item()-probs_base[0].item()), "Controdicts_over_base": -(probs_graph[1].item()-probs_base[1].item), "base_line": base_line, "graph": graph_res, "source": url, "answer": answer, "question": question}
+        result.append(main)
+        pd.DataFrame(result).to_csv(output_file+"results.csv")
+    return result

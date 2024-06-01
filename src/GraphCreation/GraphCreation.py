@@ -201,7 +201,6 @@ def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False
     text = textformatting.url_to_md(url)
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type)
     return jsons
-
 def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair"):
     text = textformatting._convert_to_markdown(extract_text(pdf))
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
