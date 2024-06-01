@@ -111,7 +111,7 @@ def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2, ner=False, ne
     triplets = []
     combinations = [] 
     if len(chunks) == 1:
-        return create_knowledge_triplets("",chunks[0], repeats=inital_repeats, ner=ner,ner_type=ner_type)
+        return [create_knowledge_triplets(chunks[0], repeats=inital_repeats, ner=ner,ner_type=ner_type)]
     combinations = []
     summaries = []
     threads = []
