@@ -12,20 +12,16 @@ import pandas as pd
 import LLMFunctions as lm
 import json
 import LinkPrediction as lp
+import threading
 def chunks_to_questions(chunks):
     result = []
     for chunk in chunks:
         result.append(lm.generate_chat_response("",chunk+" "+open("../prompts/questionGeneration").read()))
     return result
 
-tokenizer_nli = None
-model_nli = None
+tokenizer_nli = AutoTokenizer.from_pretrained("potsawee/deberta-v3-large-mnli")
+model_nli = AutoModelForSequenceClassification.from_pretrained("potsawee/deberta-v3-large-mnli")
 def follow_premise(answer, chunk):
-    global tokenizer_nli
-    global model_nli
-    if tokenizer_nli is None:
-        tokenizer_nli = AutoTokenizer.from_pretrained("potsawee/deberta-v3-large-mnli")
-        model_nli = AutoModelForSequenceClassification.from_pretrained("potsawee/deberta-v3-large-mnli")
     inputs = tokenizer_nli.batch_encode_plus(
     batch_text_or_text_pairs=[(answer, chunk)],
     add_special_tokens=True, return_tensors="pt",
@@ -123,40 +119,34 @@ def benchmark_params(text, args_list, output="./output/"):
 def benchmark_params_url(url, args_list, output_file="./output/"):
     return benchmark_params(tx.url_to_md(url), args_list, output_file)
 
+def single_DPO(text, list, index, seed):
+    set_seed(seed)
+    jsons = gc._create_kg(chunks=[text], converge=False, repeats=0, inital_repeats=0, ner=True, ner_type="llm")
+    Graph = nx.Graph()
+    for x in jsons:
+        try:
+            x = json.loads(x)
+        except:
+            x = json.loads(lp.fix_format(x))
+        for y in x:
+            Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])
+    list[index] = {**score(Graph, [text]), "output": jsons}
 def create_DPO(file, output_file="./output/"):
     resulter = []
     chunks = tx.chunk_text(tx.pdf_to_md(file))
     seeds = [0,100,200,300,400]
     for c in range(len(chunks)):
-        outputs = []
+        outputs = [""]*5
+        threads = []
         for y in range(5):
-            set_seed(seeds[y])
-            jsons = gc._create_kg(chunks=[chunks[c]], converge=False, repeats=0, inital_repeats=0, ner=True, ner_type="llm")
-            Graph = nx.Graph()
-            if not os.path.exists(output_file):
-                os.makedirs(output_file)
-            for x in jsons:
-                try:
-                    x = json.loads(x)
-                except:
-                    x = json.loads(lp.fix_format(x))
-                for y in x:
-                    Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])
-                
-                # Save graph as GraphML
-            nx.write_graphml(Graph, output_file + "graph.graphml")
-                
-                # Save graph as JSON
-            with open(output_file + "graph.json", "w") as json_file:
-                json.dump(jsons, json_file)
-            outputs.append({**score(Graph, chunks), "output": jsons})
+            single_DPO(chunks[c], outputs, y, seeds[y])
         maxs = outputs[0]
         mins = outputs[0]
-        for y in outputs:
-            if y["score"] > maxs["score"]:
-                maxs = y
-            if y["score"] < mins["score"]:
-                mins = y
+        for z in outputs:
+            if z["score"] > maxs["score"]:
+                maxs = z
+            if z["score"] < mins["score"]:
+                mins = z
         inputs = open("../prompts/TripletCreationSystem").read()+ f"Context: ```{chunks[c]}``` \n\nOutput: "
         result_output = {"input":inputs ,"taken":maxs['output'], "rejected":mins['output'], "taken_score":maxs["score"], "rejected_score":mins["score"]}
         resulter.append(result_output)

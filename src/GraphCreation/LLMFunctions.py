@@ -35,7 +35,7 @@ def pick_gpu(index):
     """
     gpu_length = len(os.environ['KG_GPUS'].split(","))
     return index%gpu_length
-
+index = 0
 def generate_chat_response(system_prompt, user_prompt, model_id=0):
     """
     Generates a chat response using OpenAI's GPT-4o model.
@@ -47,6 +47,7 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
     Returns:
         str: The generated chat response.
     """
+
     messages = messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
@@ -58,7 +59,9 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
             messages=messages,
         )
         return response.choices[0].message.content
-    
+    global index
+    model_id = pick_gpu(index)
+    index += 1
     pipeline = pipelines[model_id]
     prompter = pipeline.tokenizer.apply_chat_template(
         messages,
@@ -93,6 +96,9 @@ def graphquestions(graph, prompt, pipeline_id=0):
         str: The response to the question.
     """
     if "HF_HOME" in os.environ:
+        global index
+        pipeline_id = pick_gpu(index)
+        index += 1
         pipeline = pipelines[pipeline_id]
         Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
     graph_store = SimpleGraphStore()
