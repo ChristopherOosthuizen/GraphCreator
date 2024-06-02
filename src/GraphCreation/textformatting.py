@@ -6,7 +6,7 @@ import LLMFunctions as LLM
 import os 
 from pdfminer.high_level import extract_text
 def format_text(prompt, url, pipeline_id=0):
-    return LLM.generate_chat_response( "Please format the following text by removing any unnecessary information commonly found in text from websites, such as edit links, reference markers, and other irrelevant data. Return the cleaned-up text without any additional comments."+prompt, pipeline_id)
+    return LLM.generate_chat_response( "Please format the following text by removing any unnecessary information commonly found in text from websites, such as edit links, reference markers, and other irrelevant data. Return the cleaned-up text without any additional comments.",prompt, pipeline_id)
 
 
 def url_to_md(url):
@@ -22,6 +22,8 @@ def chunk_text(text):
     return splits
 
 def set_chunk(url, chunk, chunks, position):
+    if 'KG_GPUS' not in os.environ:
+        os.environ['KG_GPUS'] = '0'
     gpu_length = len(os.environ['KG_GPUS'].split(","))
     chun = format_text(chunk, url, pipeline_id=position%gpu_length)
     chunks[position] = chun
