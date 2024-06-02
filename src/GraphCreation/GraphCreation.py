@@ -142,7 +142,7 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
             combinations[-1] = old_combinations[-1]
             summaries[-1] = old_summaries[-1]
     if converge:
-        while len(lp.ontologies_to_unconncected(combinations[0], combinations[0])) > 1:
+        while len(lp._ontologies_to_unconncected(combinations[0], combinations[0])) > 1:
             combinations[0] = lp._fix_ontology(combinations[0], summaries[0])
         return combinations
     for x in range(len(combinations)-1, 0, -1):
@@ -205,3 +205,16 @@ def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False
     text = textformatting._convert_to_markdown(extract_text(pdf))
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
     return jsons
+
+def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair"):
+    files = os.listdir(folder)
+    text = ""
+    for file in files:
+        if file.endswith(".pdf"):
+            create_KG_from_pdf(folder + file, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
+        elif file.endswith(".html"):
+            create_KG_from_url(folder + file, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
+        else:
+            with open(folder + file, "r") as f:
+                text = f.read()
+                create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
