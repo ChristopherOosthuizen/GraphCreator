@@ -107,14 +107,14 @@ def score(graph, chunks):
 def benchmark_params(text, args_list, output="./output/"):
     if not os.path.exists(output):
         os.makedirs(output)
-    results = pd.DataFrame()
+    results = []
     for x in range(len(args_list)):
         try:
             chunks, graph = gc.create_KG_from_text(text, **args_list[x],output_file=(output+str(x)+"/"))
             main = {**score(graph, chunks),**args_list[x]}
-            results._append(main, ignore_index=True)
+            results.append(main)
         except:
-            results._append({**args_list[x], "score": 0}, ignore_index=True)
+            results.append({**args_list[x], "score": 0})
     return pd.DataFrame(results)
 
 def benchmark_params_url(url, args_list, output_file="./output/"):
