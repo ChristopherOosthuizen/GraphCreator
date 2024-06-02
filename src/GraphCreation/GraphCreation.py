@@ -93,7 +93,7 @@ def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
 
     
 
-def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2, ner=False, ner_type="flair"):
+def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, ner_type="flair"):
     """
     Creates a knowledge graph from a list of text chunks.
 
@@ -124,7 +124,7 @@ def _create_kg(chunks, repeats=5, converge=True, inital_repeats=2, ner=False, ne
         thread.join()
     combinations = triplets
     summaries = chunks    
-    for x in range(repeats):
+    while len(combinations) > len(chunks)*repeats:
         if len(combinations) == 1:
             break
         old_combinations = combinations
@@ -171,7 +171,7 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
     return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type)
 
 def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair"):
-    repeats = int(chunks_precentage_linked * len(chunks))
+    repeats = chunks_precentage_linked
     jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner, ner_type=ner_type)
     Graph = nx.Graph()
     if not os.path.exists(output_file):
