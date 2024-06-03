@@ -18,6 +18,7 @@ from cdlib import algorithms
 import random
 from flair.data import Sentence
 from flair.nn import Classifier
+import math
 tagger = None
 def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, ner_type="flair"):
     """
@@ -123,14 +124,14 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     for thread in threads:
         thread.join()
     combinations = triplets
-    summaries = chunks    
-    while len(combinations) > len(chunks)*repeats:
+    summaries = chunks
+    for x in range((math.ceil(math.log2(len(chunks)))+1)*repeats):
         if len(combinations) == 1:
             break
         old_combinations = combinations
         old_summaries = summaries
-        summaries = [""]*(int(len(combinations)/2)+len(combinations)%2)
-        combinations = [""]*(int(len(combinations)/2)+len(combinations)%2)
+        summaries = [""]*(int(len(combinations)/2))
+        combinations = [""]*(int(len(combinations)/2))
         threads = []
         for x in range(1,len(old_combinations),2):
             thread = threading.Thread(target=_combine_one, args=(old_combinations[x-1],old_combinations[x],old_summaries[x-1],old_summaries[x],combinations,x//2,summaries))
@@ -138,16 +139,18 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
             thread.start()
         for thread in threads:
             thread.join()
+
         if len(combinations)%2 == 1:
-            combinations[-1] = old_combinations[-1]
-            summaries[-1] = old_summaries[-1]
-    if converge:
-        while len(lp._ontologies_to_unconncected(combinations[0], combinations[0])) > 1:
-            combinations[0] = lp._fix_ontology(combinations[0], summaries[0])
-        return combinations
+            combinations.append(old_combinations[-1])
+            summaries.append(old_summaries[-1])
+        print(len(combinations))
     for x in range(len(combinations)-1, 0, -1):
         if combinations[x].strip() == "":
             combinations.pop(x)
+    if converge:
+        while len(lp._ontologies_to_unconnected(combinations[0], combinations[0])) > 1:
+            print(len(lp._ontologies_to_unconnected(combinations[0], combinations[0])))
+            combinations[0] = lp._fix_ontology(combinations[0], summaries[0])
     return combinations
 
 
@@ -180,6 +183,7 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
         try:
             x = json.loads(x)
         except:
+            print(x)
             x = json.loads(lp.fix_format(x))
         for y in x:
             Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])

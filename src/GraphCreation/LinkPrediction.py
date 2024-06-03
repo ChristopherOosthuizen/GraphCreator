@@ -115,11 +115,13 @@ def _one_switch(ont):
     return result
 
 def _fix_ontology(ont, context,model_id=0):
-    disconnected = "\n\n".join(_one_switch(ont))
-    prompt = f"""Here's a prompt that takes a series of unconnected ontology graphs and their corresponding context chunks, and generates a single unified ontology in JSON format that combines the individual ontologies with additional linking triplets:
-Given a series of unconnected ontology graphs extracted from their respective context chunks, your task is to analyze the contexts and identify potential relationships that could link these isolated ontologies to form a single, cohesive knowledge graph. The goal is to create a unified ontology where all the individual ontologies are connected through meaningful semantic relationships.
-Please provide the context chunks and their corresponding ontologies in the following format:
-Context chunk:""" + context + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open("../prompts/fixOntology").read()
-    response = str(LLM.generate_chat_response("", prompt,model_id=model_id))
+    chunks = _one_switch(ont)
+    if len(chunks) == 1:
+        return ont
+    result = "Conext: "+context+"\n\n"
+    for x in range(len(chunks)):
+        result += "Chunk "+str(x+1)+":\n"+chunks[x]+"\n\n"
+    prompt = result
+    response = str(LLM.generate_chat_response(open("../prompts/Fusionsys").read(), prompt,model_id=model_id))
     response = response[response.find("["):response.find("]")+1].lower()
     return response

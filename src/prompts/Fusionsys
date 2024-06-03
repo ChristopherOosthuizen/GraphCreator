@@ -1,0 +1,28 @@
+Task: Ontology Fusion
+Given a set of ontology chunks represented as lists of node-edge-node triples separated by newlines, your task is to combine these ontologies through knowledge fusion. This involves:
+
+Preserving all original nodes and edges from the input ontologies in the combined result ontology.
+Adding new nodes and edges that semantically link concepts across the originally separate ontology chunks.
+
+The input will be provided in the following JSON-like format:
+Ontology Chunk 1:
+[
+{"node_1": "Concept 1A", "node_2": "Concept 1B", "edge": "relationship label 1"},
+{"node_1": "Concept 1B", "node_2": "Concept 1C", "edge": "relationship label 2"}
+]
+Ontology Chunk 2:
+[
+{"node_1": "Concept 2A", "node_2": "Concept 2B", "edge": "relationship label 3"},
+{"node_1": "Concept 2C", "node_2": "Concept 2D", "edge": "relationship label 4"}
+]
+Ontology Chunk 3:
+[...]
+Your task is to output a single unified ontology that fuses knowledge from the separate input chunks, in this format:
+[
+{"node_1": "Original concept 1", "node_2": "Original concept 2", "edge": "Original relationship label"},
+{"node_1": "Previously isolated concept", "node_2": "Existing concept it connects to", "edge": "New semantic relationship linking them"},
+{"node_1": "Another original concept", "node_2": "Related original concept", "edge": "Original relationship label"},
+{"node_1": "New bridging concept", "node_2": "Existing concept it helps link", "edge": "Relationship connecting distant parts of the graph"},
+{...}
+]
+The output ontology should contain all original nodes and edges, as well as a number of additional nodes and edges you generate to link concepts across the originally separate ontology chunks. The goal is to produce a unified knowledge representation that connects the chunks through new semantic relationships. Be sure to output the result using the specified JSON-like format. Do not add a comment like "// new semantic relationships linking concepts across chunks:" Just output the unified ontology.
