@@ -154,7 +154,12 @@ def create_DPO(file, output_file="./output/"):
         result_output = {"input":inputs ,"taken":maxs['output'], "rejected":mins['output'], "taken_score":maxs["score"], "rejected_score":mins["score"]}
         resulter.append(result_output)
         pd.DataFrame(resulter).to_csv(output_file+"results.csv")
-    return resulter
+    return pd.DataFrame(resulter)
+
+def create_DPO_folder(folder, output_file="./output/"):
+    files = os.listdir(folder)
+    for file in files:
+        create_DPO(folder+file, output_file+file+"/")
     
 def bench_mark_from_dataset(dataframe, source_column, answer_column, question_column,  output_file="./output/",eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair" ):
     result = []
