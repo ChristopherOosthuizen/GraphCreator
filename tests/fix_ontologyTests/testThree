@@ -1,0 +1,36 @@
+Ontology Chunk 1:
+[
+{"node_1": "bicycle", "node_2": "vehicle", "edge": "is a"},
+{"node_1": "bicycle", "node_2": "two wheels", "edge": "has"},
+{"node_1": "bicycle", "node_2": "human-powered", "edge": "is"}
+]
+Ontology Chunk 2:
+[
+{"node_1": "car", "node_2": "vehicle", "edge": "is a"},
+{"node_1": "car", "node_2": "four wheels", "edge": "has"},
+{"node_1": "car", "node_2": "motor", "edge": "has a"}
+]
+Ontology Chunk 3:
+[
+{"node_1": "motorcycle", "node_2": "vehicle", "edge": "is a"},
+{"node_1": "motorcycle", "node_2": "two wheels", "edge": "has"},
+{"node_1": "motorcycle", "node_2": "motor", "edge": "has a"}
+]
+Ontology Chunk 4:
+[
+{"node_1": "steering wheel", "node_2": "car", "edge": "is part of a"},
+{"node_1": "steering wheel", "node_2": "driver", "edge": "controlled by"},
+{"node_1": "driver", "node_2": "person", "edge": "is a"}
+]
+Ontology Chunk 5:
+[
+{"node_1": "handlebars", "node_2": "bicycle", "edge": "is part of a"},
+{"node_1": "handlebars", "node_2": "rider", "edge": "controlled by"},
+{"node_1": "rider", "node_2": "person", "edge": "is a"}
+]
+Ontology Chunk 6:
+[
+{"node_1": "motor", "node_2": "gasoline", "edge": "runs on"},
+{"node_1": "motor", "node_2": "mechanical energy", "edge": "converts to"},
+{"node_1": "gasoline", "node_2": "fuel", "edge": "is a"}
+]

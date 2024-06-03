@@ -1,9 +1,7 @@
 Task: Ontology Fusion
 Given a set of ontology chunks represented as lists of node-edge-node triples separated by newlines, your task is to combine these ontologies through knowledge fusion. This involves:
-
 Preserving all original nodes and edges from the input ontologies in the combined result ontology.
 Adding new nodes and edges that semantically link concepts across the originally separate ontology chunks.
-
 The input will be provided in the following JSON-like format:
 Ontology Chunk 1:
 [

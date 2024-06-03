@@ -1,0 +1,48 @@
+Ontology Chunk 1:
+[
+{"node_1": "tree", "node_2": "plant", "edge": "is a"},
+{"node_1": "tree", "node_2": "leaves", "edge": "has"},
+{"node_1": "tree", "node_2": "trunk", "edge": "has a"}
+]
+Ontology Chunk 2:
+[
+{"node_1": "leaves", "node_2": "green", "edge": "are"},
+{"node_1": "leaves", "node_2": "photosynthesis", "edge": "perform"},
+{"node_1": "photosynthesis", "node_2": "sunlight", "edge": "requires"}
+]
+Ontology Chunk 3:
+[
+{"node_1": "roots", "node_2": "tree", "edge": "are part of a"},
+{"node_1": "roots", "node_2": "soil", "edge": "grow in"},
+{"node_1": "roots", "node_2": "water", "edge": "absorb"}
+]
+Ontology Chunk 4:
+[
+{"node_1": "flower", "node_2": "plant", "edge": "is a part of a"},
+{"node_1": "flower", "node_2": "petals", "edge": "has"},
+{"node_1": "flower", "node_2": "reproduction", "edge": "is for"}
+]
+Ontology Chunk 5:
+[
+{"node_1": "fruit", "node_2": "tree", "edge": "grows on a"},
+{"node_1": "fruit", "node_2": "seeds", "edge": "contains"},
+{"node_1": "seeds", "node_2": "reproduction", "edge": "are for"}
+]
+Ontology Chunk 6:
+[
+{"node_1": "branch", "node_2": "tree", "edge": "is part of a"},
+{"node_1": "branch", "node_2": "leaves", "edge": "has"},
+{"node_1": "branch", "node_2": "fruit", "edge": "can have"}
+]
+Ontology Chunk 7:
+[
+{"node_1": "bark", "node_2": "tree", "edge": "is part of a"},
+{"node_1": "bark", "node_2": "trunk", "edge": "covers the"},
+{"node_1": "bark", "node_2": "protection", "edge": "provides"}
+]
+Ontology Chunk 8:
+[
+{"node_1": "wood", "node_2": "trunk", "edge": "is inside the"},
+{"node_1": "wood", "node_2": "support", "edge": "provides"},
+{"node_1": "wood", "node_2": "resource", "edge": "is a"}
+]

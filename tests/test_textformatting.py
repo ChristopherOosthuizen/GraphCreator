@@ -36,4 +36,3 @@ def test_case():
         actual_output=tx.format_text(input_one, ""),
     )
     assert_test(modern_case, [presion_metric])
-    
