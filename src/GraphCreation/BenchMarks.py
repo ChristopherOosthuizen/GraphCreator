@@ -2,21 +2,20 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration, AutoTokenizer,
 import torch
 import os
 import networkx as nx
-import GraphCreation as gc
-import textformatting as tx
 from transformers import set_seed
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-os.chdir(dname)
 import pandas as pd
-import LLMFunctions as lm
 import json
-import LinkPrediction as lp
 import threading
+from . import GraphCreation as gc
+from . import LLMFunctions as lm
+from . import textformatting as tx
+current_file_path = os.path.abspath(__file__)
+current_dir = os.path.dirname(current_file_path)
+prompts_dir = os.path.join(current_dir, '..', 'prompts')
 def chunks_to_questions(chunks):
     result = []
     for chunk in chunks:
-        result.append(lm.generate_chat_response("",chunk+" "+open("../prompts/questionGeneration").read()))
+        result.append(lm.generate_chat_response("",chunk+" "+open(os.path.join(prompts_dir,"questionGeneration")).read()))
     return result
 
 tokenizer_nli = AutoTokenizer.from_pretrained("potsawee/deberta-v3-large-mnli")

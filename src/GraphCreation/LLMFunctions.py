@@ -6,12 +6,12 @@ from llama_index.core.chat_engine import ContextChatEngine
 from openai import OpenAI
 from transformers import pipeline
 import torch
-import os
 import numpy as np
 from llama_index.llms.huggingface import HuggingFaceLLM
 pipelines = []
 gpus = []
 model_id = ""
+import os
 if "HF_HOME" in os.environ:
     gpus = os.environ['KG_GPUS'].split(",")
     model_id = "meta-llama/Meta-Llama-3-8B-Instruct"

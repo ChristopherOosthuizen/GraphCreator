@@ -3,13 +3,10 @@ import pandas as pd
 import networkx as nx
 
 import os 
-import LLMFunctions as LLM
-
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-os.chdir(dname)
-
-
+from . import LLMFunctions as LLM
+current_file_path = os.path.abspath(__file__)
+current_dir = os.path.dirname(current_file_path)
+prompts_dir = os.path.join(current_dir, '..', 'prompts')
 
 def fix_format(input, model_id=0):
     """
@@ -21,7 +18,7 @@ def fix_format(input, model_id=0):
     Returns:
         str: The fixed format of the input JSON.
     """
-    prompt = f"given this json \nOriginal Json: {input}" + open("../prompts/TripletCreationSystem").read()
+    prompt = f"given this json \nOriginal Json: {input}" + open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
     response = str(LLM.generate_chat_response("", prompt, model_id=model_id))
     response = response[response.find("["):response.find("]")+1]
     return response
@@ -85,7 +82,7 @@ def _combine_ontologies(ont1, ont2, sums, model_id=0):
     prompt = f"""Here's a prompt that takes a series of unconnected ontology graphs and their corresponding context chunks, and generates a single unified ontology in JSON format that combines the individual ontologies with additional linking triplets:
 Given a series of unconnected ontology graphs extracted from their respective context chunks, your task is to analyze the contexts and identify potential relationships that could link these isolated ontologies to form a single, cohesive knowledge graph. The goal is to create a unified ontology where all the individual ontologies are connected through meaningful semantic relationships.
 Please provide the context chunks and their corresponding ontologies in the following format:
-Context chunk:""" + sums + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open("../prompts/CombineOntologies").read()
+Context chunk:""" + sums + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open(os.path.join(prompts_dir,"CombineOntologies")).read()
 
     response = str(LLM.generate_chat_response("", prompt, model_id=model_id))
     response = response[response.find("["):response.find("]")+1].lower()
@@ -122,6 +119,6 @@ def _fix_ontology(ont, context,model_id=0):
     for x in range(len(chunks)):
         result += "Chunk "+str(x+1)+":\n"+chunks[x]+"\n\n"
     prompt = result
-    response = str(LLM.generate_chat_response(open("../prompts/Fusionsys").read(), prompt,model_id=model_id))
+    response = str(LLM.generate_chat_response(open(os.path.join(prompts_dir,"Fusionsys")).read(), prompt,model_id=model_id))
     response = response[response.find("["):response.find("]")+1].lower()
     return response

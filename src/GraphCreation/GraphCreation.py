@@ -1,24 +1,23 @@
 # Created by Christopher Oosthuizen on 06/22/2024
 import os
-
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-os.chdir(dname)
 from openai import OpenAI
 import threading
 import networkx as nx
 import pandas as pd
 from pyvis.network import Network
 from pdfminer.high_level import extract_text
-import textformatting
 import json
-import LinkPrediction as lp
-import LLMFunctions as LLM
 from cdlib import algorithms 
 import random
 from flair.data import Sentence
 from flair.nn import Classifier
 import math
+from . import textformatting
+from . import LinkPrediction as lp
+from . import LLMFunctions as LLM
+current_file_path = os.path.abspath(__file__)
+current_dir = os.path.dirname(current_file_path)
+prompts_dir = os.path.join(current_dir, '..', 'prompts')
 tagger = None
 def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, ner_type="flair"):
     """
@@ -40,22 +39,22 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             sentence= Sentence(text_chunk)
             tagger.predict(sentence)
             sentence = sentence.replace(text_chunk,"")
-            system_prompt = open("../prompts/NERTripletCreation").read()+sentence
+            system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+sentence
         else:
-            system_prompt = open("../prompts/NERTripletCreation").read()+ LLM.generate_chat_response(open("../prompts/NERprompt").read(), text_chunk, model_id=model_id)
+            system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+ LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read(), text_chunk, model_id=model_id)
     else:
-        system_prompt = open("../prompts/TripletCreationSystem").read()
+        system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     
     for _ in range(repeats):
-        system_prompt = open("../prompts/TripletCreationSystem").read()
+        system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
         prompt = f"""Here is the prompt updated to insert additional triplets into the existing ontology:
 Read this context carefully and extract the key concepts and relationships discussed:
 {text_chunk}
 Here is the ontology graph generated from the above context:
 {response}
-{open("../prompts/TripletIterationStandard").read()}"""
+{open(os.path.join(prompts_dir,"TripletIterationStandard")).read()}"""
         response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     
     response = str(lp._fix_ontology(response, text_chunk, model_id=model_id))
@@ -78,7 +77,7 @@ def new_summary_prompt(summary, text_chunk,model_id=0):
     Returns:
         str: The generated summary.
     """
-    summary_prompt = open("../prompts/summaryPrompt").read()
+    summary_prompt = open(os.path.join(prompts_dir,"summaryPrompt")).read()
     summary = LLM.generate_chat_response(summary_prompt, f"existing_summary: {summary} new_text_chunk: {text_chunk}", model_id=model_id)
     return summary
 

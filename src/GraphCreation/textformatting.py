@@ -2,11 +2,14 @@ import markdownify
 import urllib.request
 import threading
 from  langchain.text_splitter import MarkdownTextSplitter 
-import LLMFunctions as LLM
 import os 
 from pdfminer.high_level import extract_text
+from . import LLMFunctions as LLM
+current_file_path = os.path.abspath(__file__)
+current_dir = os.path.dirname(current_file_path)
+prompts_dir = os.path.join(current_dir, '..', 'prompts')
 def format_text(prompt, url, pipeline_id=0):
-    return LLM.generate_chat_response( "Please format the following text by removing any unnecessary information commonly found in text from websites, such as edit links, reference markers, and other irrelevant data. Return the cleaned-up text without any additional comments.",prompt, pipeline_id)
+    return LLM.generate_chat_response( open( os.path.join(prompts_dir,"formatting")).read(),prompt, pipeline_id)
 
 
 def url_to_md(url):
@@ -41,11 +44,3 @@ def get_text_chunks(text):
         if "<#notext#>" in chunks[x]:
             chunks.pop(x)
     return chunks
-
-def _convert_to_markdown(text):
-    lines = text.split("\\\\n")
-    for i, line in enumerate(lines):
-        stripped = line.strip()
-        if stripped.isupper() and len(stripped) < 50:
-            lines[i] = f"## {stripped}"
-    return "\\\\n".join(lines)
