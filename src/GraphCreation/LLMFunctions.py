@@ -78,8 +78,7 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
         max_new_tokens=3000,
         eos_token_id=terminators,
         do_sample=True,
-        temperature=0.01,
-        top_p=0.5,
+        temperature=0.2,
         repetition_penalty=1.1,
     )
     return outputs[0]["generated_text"][len(prompter):]
