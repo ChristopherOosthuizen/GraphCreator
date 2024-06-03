@@ -158,8 +158,10 @@ def create_DPO(file, output_file="./output/"):
 
 def create_DPO_folder(folder, output_file="./output/"):
     files = os.listdir(folder)
+    results = []
     for file in files:
-        create_DPO(folder+file, output_file+file+"/")
+        results.append(create_DPO(folder+file, output_file+file+"/"))
+    return pd.concat(results)
     
 def bench_mark_from_dataset(dataframe, source_column, answer_column, question_column,  output_file="./output/",eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair" ):
     result = []
