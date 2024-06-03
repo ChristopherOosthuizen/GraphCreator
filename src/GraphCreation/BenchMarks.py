@@ -160,7 +160,7 @@ def create_DPO_folder(folder, output_file="./output/"):
     files = os.listdir(folder)
     results = []
     for file in files:
-        results.append(create_DPO(folder+file, output_file+file+"/"))
+        results.append(create_DPO(folder+"/"+file, output_file+file+"/"))
     resulter = pd.concat(results)
     pd.DataFrame(resulter).to_csv(output_file+"results.csv")
     return resulter
