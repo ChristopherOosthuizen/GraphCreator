@@ -3,7 +3,7 @@ import pytest
 from deepeval.metrics import ContextualPrecisionMetric
 from deepeval.test_case import LLMTestCase
 
-import src.GraphCreation.textformatting as tx
+from ..src import textformatting as tx
 
 
 input_one = open("src/prompts/formatting").read()+" "+"""<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Knight_of_the_shire&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Knight_of_the_shire&amp;printable=yes" title="Printable version of this page [ctrl-option-p]" accesskey="p"><span>Printable version</span></a></li>
@@ -53,9 +53,9 @@ input_one = open("src/prompts/formatting").read()+" "+"""<li id="coll-download-a
 def test_case():
     presion_metric = ContextualPrecisionMetric()
     test_case = LLMTestCase(
-        
-        input_text=input_one,
+        input=input_one,
         expected_output="From Wikipedia, the free encyclopedia\n\nFormal title of MPs from county constituencies\n\nKnight of the shire (Latin: milites comitatus)[1] was the formal title for a member of parliament (MP) representing a county constituency in the British House of Commons, from its origins in the medieval Parliament of England until the Redistribution of Seats Act 1885 ended the practice of each county (or shire) forming a single constituency. The corresponding titles for other MPs were burgess in a borough constituency (or citizen if the borough had city status) and baron for a Cinque Ports constituency. Knights of the shire had more prestige than burgesses, and sitting burgesses often stood for election for the shire in the hope of increasing their standing in Parliament.\nThe name \"knight of the shire\" originally implied that the representative had to be a knight, and the writ of election referred to a belted knight until the 19th century;[1] but by the 14th century but men who were not knights were commonly elected. An act of Henry VI (23 Hen. 6. c. 14) stipulated that those eligible for election were knights and \"such notable esquires and gentlemen as have estates sufficient to be knights, and by no means of the degree of yeoman\".[3]",
+        retrieval_context=["From Wikipedia, the free encyclopedia\n\nFormal title of MPs from county constituencies\n\nKnight of the shire (Latin: milites comitatus)[1] was the formal title for a member of parliament (MP) representing a county constituency in the British House of Commons, from its origins in the medieval Parliament of England until the Redistribution of Seats Act 1885 ended the practice of each county (or shire) forming a single constituency. The corresponding titles for other MPs were burgess in a borough constituency (or citizen if the borough had city status) and baron for a Cinque Ports constituency. Knights of the shire had more prestige than burgesses, and sitting burgesses often stood for election for the shire in the hope of increasing their standing in Parliament.\nThe name \"knight of the shire\" originally implied that the representative had to be a knight, and the writ of election referred to a belted knight until the 19th century;[1] but by the 14th century but men who were not knights were commonly elected. An act of Henry VI (23 Hen. 6. c. 14) stipulated that those eligible for election were knights and \"such notable esquires and gentlemen as have estates sufficient to be knights, and by no means of the degree of yeoman\".[3]"],
         actual_output=tx.format_text(input_one, ""),
     )
-    assert_test([test_case], [presion_metric])
+    assert_test(test_case, [presion_metric])
