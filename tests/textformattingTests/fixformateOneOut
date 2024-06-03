@@ -1,0 +1,22 @@
+[
+  {
+    "node_1": "apple",
+    "node_2": "fruit", 
+    "edge": "is_a"
+  },
+  {
+    "node_1": "a",
+    "node_2": "fruit",
+    "edge": "grows_on"
+  },
+  {
+    "node_1": "apple_pie",
+    "node_2": "dessert",
+    "edge": "is_a"
+  },
+  {
+    "node_1": "sugar",
+    "node_2": "apple_pie",
+    "edge": "ingredient_in"
+  }
+]

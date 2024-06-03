@@ -1,0 +1,12 @@
+[
+  {
+    "node_1": "car",
+    "node_2": "vehicle", 
+    "edge": "is_a"
+  },
+  {
+    "node_1": "wheel",
+    "node_2": "car",
+    "edge": "part_of"
+  }
+]

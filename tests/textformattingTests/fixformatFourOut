@@ -1,0 +1,12 @@
+[
+  {
+    "node_1": "book",
+    "node_2": "knowledge", 
+    "edge": "contains"
+  },
+  {
+    "node_1": "library",
+    "node_2": "book",
+    "edge": "stores"
+  }
+]

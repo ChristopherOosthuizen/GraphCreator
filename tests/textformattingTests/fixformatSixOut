@@ -1,0 +1,12 @@
+[
+  {
+    "node_1": "pizza",
+    "node_2": "food", 
+    "edge": "is_a"
+  },
+  {
+    "node_1": "cheese",
+    "node_2": "pizza",
+    "edge": "topping_on"
+  }
+]

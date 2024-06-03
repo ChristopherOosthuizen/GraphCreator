@@ -1,0 +1,12 @@
+[
+  {
+    'node_1': 'water',
+    'node_2': 'life', 
+    'edge': 'essential_for'
+  },
+  {
+    'node_1': 'ocean',
+    'node_2': 'water',
+    'edge': 'contains'
+  }
+]

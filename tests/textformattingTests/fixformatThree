@@ -1,0 +1,12 @@
+[
+  {
+    node_1: "bird",
+    "node_2": "animal", 
+    "edge": "is_a"
+  },
+  {
+    "node_1": "wing",
+    "node_2": "bird",
+    "edge": "part_of"
+  }
+]
