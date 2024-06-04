@@ -70,27 +70,14 @@ def _ontologies_to_unconnected(ont1, ont2):
     return result
 
 def _combine_ontologies(ont1, ont2, sums, model_id=0):
-    """
-    Combines two ontologies into a single unified ontology.
-
-    Args:
-        ont1: The first ontology.
-        ont2: The second ontology.
-        sums: The context chunks and their corresponding ontologies.
-
-    Returns:
-        The unified ontology in JSON format.
-
-    Raises:
-        None.
-    """
-    disconnected = "\n\n".join(_ontologies_to_unconnected(ont1, ont2))
-    prompt = f"""Here's a prompt that takes a series of unconnected ontology graphs and their corresponding context chunks, and generates a single unified ontology in JSON format that combines the individual ontologies with additional linking triplets:
-Given a series of unconnected ontology graphs extracted from their respective context chunks, your task is to analyze the contexts and identify potential relationships that could link these isolated ontologies to form a single, cohesive knowledge graph. The goal is to create a unified ontology where all the individual ontologies are connected through meaningful semantic relationships.
-Please provide the context chunks and their corresponding ontologies in the following format:
-Context chunk:""" + sums + """Ontologys:""" + disconnected + """Please follow these steps to create the unified ontology:""" + open(os.path.join(prompts_dir,"CombineOntologies")).read()
-
-    response = str(LLM.generate_chat_response("", prompt, model_id=model_id))
+    chunks = _one_switch(ont1)+_one_switch(ont2)
+    if len(chunks) == 1:
+        return _ontologies_to_unconnected(ont1, ont2)[0]
+    result = "Conext: "+sums+"\n\n"
+    for x in range(len(chunks)):
+        result += "Chunk "+str(x+1)+":\n"+chunks[x]+"\n\n"
+    prompt = result
+    response = str(LLM.generate_chat_response(open(os.path.join(prompts_dir,"Fusionsys")).read(), prompt,model_id=model_id))
     response = response[response.find("["):response.find("]")+1].lower()
     response = strip_json(response)
     return response
