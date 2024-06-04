@@ -52,12 +52,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     for _ in range(repeats):
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
-        prompt = f"""Here is the prompt updated to insert additional triplets into the existing ontology:
-Read this context carefully and extract the key concepts and relationships discussed:
-{text_chunk}
-Here is the ontology graph generated from the above context:
-{response}
-{open(os.path.join(prompts_dir,"TripletIterationStandard")).read()}"""
+        prompt = f"Context Chunk: {text_chunk} Ontology: {response} \n\nOutput: "
         response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     
     response = str(lp._fix_ontology(response, text_chunk, model_id=model_id))

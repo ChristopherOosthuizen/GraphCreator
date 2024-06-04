@@ -1,283 +1,146 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="eligibility for election"/>
-<node id="act"/>
-<node id="henry vi"/>
-<node id="parliamentary elections act 1444"/>
-<node id="parliament"/>
-<node id="electors of knights of the shire act 1432"/>
-<node id="county"/>
-<node id="borough constituency"/>
-<node id="entire england"/>
-<node id="knights of the shire"/>
-<node id="county constituency"/>
-<node id="burgesses"/>
-<node id="cinque ports constituency"/>
-<node id="knights of buckinghamshire"/>
-<node id="electoral practice"/>
-<node id="electors of knights of the shires act 1429"/>
-<node id="19th century"/>
-<node id="belted knight"/>
-<node id="writ of election"/>
-<node id="knight of the shire"/>
-<node id="constituency"/>
-<node id="redistribution of seats act 1885"/>
-<node id="single constituency"/>
-<node id="shire"/>
-<node id="house of commons"/>
-<node id="multiple-seat shire"/>
-<node id="two knights"/>
-<node id="conservative party backbenchers"/>
-<node id="prestige"/>
-<node id="mp"/>
-<node id="latin term milites comitatus"/>
-<node id="representation of the people act 1832"/>
-<node id="parliamentary elections"/>
-<node id="house of lords"/>
-<node id="commons' representative voice"/>
-<node id="office of speaker"/>
-<node id="magnum concilium"/>
-<node id="burgess"/>
-<node id="citizen"/>
-<node id="borough with city status"/>
-<node id="baron"/>
-<node id="statutory eligibility criteria"/>
-<node id="larger populations"/>
-<node id="number of knights"/>
-<node id="county franchise"/>
-<node id="free inhabitant householders"/>
-<node id="forty-shilling freehold"/>
-<node id="voter qualification"/>
-<node id="household suffrage"/>
-<node id="1432"/>
-<node id="speaker of the house of commons"/>
-<node id="edward iii"/>
-<node id="great council"/>
-<node id="parliamentary system"/>
-<node id="sir peter de la mare"/>
-<node id="imprisoned"/>
-<node id="1376"/>
-<node id="parliament of england"/>
-<node id="bicameral structure"/>
-<node id="de la mare"/>
-<node id="legislated county franchise"/>
-<node id="the model parliament"/>
-<node id="legislative powers"/>
-<node id="1386-1421"/>
-<edge source="eligibility for election" target="act">
-  <data key="d0">stipulated eligibility criteria for</data>
-</edge>
-<edge source="act" target="henry vi">
-  <data key="d0">stipulated through an</data>
-</edge>
-<edge source="henry vi" target="parliamentary elections act 1444">
-  <data key="d0">act of</data>
-</edge>
-<edge source="henry vi" target="parliament">
-  <data key="d0">influenced</data>
-</edge>
-<edge source="henry vi" target="electors of knights of the shire act 1432">
-  <data key="d0">ruled during enactment of</data>
-</edge>
-<edge source="parliament" target="county">
-  <data key="d0">represented a</data>
-</edge>
-<edge source="parliament" target="borough constituency">
-  <data key="d0">included</data>
-</edge>
-<edge source="parliament" target="entire england">
-  <data key="d0">represented by knights</data>
-</edge>
-<edge source="parliament" target="knights of the shire">
-  <data key="d0">had representation from</data>
-</edge>
-<edge source="parliament" target="county constituency">
-  <data key="d0">included</data>
-</edge>
-<edge source="parliament" target="burgesses">
-  <data key="d0">often stood for election for the shire</data>
-</edge>
-<edge source="parliament" target="cinque ports constituency">
-  <data key="d0">represented a</data>
-</edge>
-<edge source="parliament" target="knights of buckinghamshire">
-  <data key="d0">served in</data>
+<graph edgedefault="undirected"><node id="knowledge graph generator"/>
+<node id="python"/>
+<node id="networkx"/>
+<node id="cougar cs, university of houston"/>
+<node id="christopher oosthuizen"/>
+<node id="c++"/>
+<node id="children aged 5-12"/>
+<node id="bachelor of science, computer science"/>
+<node id="university of houston"/>
+<node id="structures and artificial intelligence lab"/>
+<node id="code ninjas"/>
+<node id="programming language"/>
+<node id="git"/>
+<node id="pytorch"/>
+<node id="houston, tx"/>
+<node id="virtual machine"/>
+<node id="knowledge graphs"/>
+<node id="deep learning pipeline"/>
+<node id="hallucinations"/>
+<node id="unstructured text data"/>
+<node id="graph retrieval-augmented generation"/>
+<node id="self-rewarding language models"/>
+<node id="constitutional ai (cai)"/>
+<node id="cai cpo training"/>
+<node id="output quality"/>
+<node id="react"/>
+<node id="website"/>
+<node id="graph neural networks"/>
+<node id="link prediction"/>
+<node id="graph structure"/>
+<node id="relationships"/>
+<node id="python-like syntax"/>
+<node id="general-purpose language"/>
+<node id="ucla hacks coding competition"/>
+<node id="full-stack web application"/>
+<node id="google cloud api"/>
+<node id="flood risks"/>
+<node id="post-processing"/>
+<node id="quality"/>
+<node id="high quality knowledge graphs"/>
+<node id="hallucination reduction"/>
+<edge source="knowledge graph generator" target="python">
+  <data key="d0">implemented using</data>
+</edge>
+<edge source="knowledge graph generator" target="networkx">
+  <data key="d0">implemented using</data>
+</edge>
+<edge source="python" target="christopher oosthuizen">
+  <data key="d0">has used technology</data>
+</edge>
+<edge source="cougar cs, university of houston" target="christopher oosthuizen">
+  <data key="d0">worked as web developer</data>
+</edge>
+<edge source="christopher oosthuizen" target="c++">
+  <data key="d0">has skill in</data>
+</edge>
+<edge source="christopher oosthuizen" target="children aged 5-12">
+  <data key="d0">were taught by</data>
+</edge>
+<edge source="christopher oosthuizen" target="university of houston">
+  <data key="d0">is a student at</data>
+</edge>
+<edge source="christopher oosthuizen" target="structures and artificial intelligence lab">
+  <data key="d0">works as undergraduate research assistant</data>
+</edge>
+<edge source="christopher oosthuizen" target="code ninjas">
+  <data key="d0">worked as coding instructor</data>
+</edge>
+<edge source="christopher oosthuizen" target="programming language">
+  <data key="d0">developed by</data>
+</edge>
+<edge source="christopher oosthuizen" target="git">
+  <data key="d0">has skill in</data>
+</edge>
+<edge source="christopher oosthuizen" target="pytorch">
+  <data key="d0">has used technology</data>
+</edge>
+<edge source="christopher oosthuizen" target="knowledge graphs">
+  <data key="d0">generated by</data>
+</edge>
+<edge source="christopher oosthuizen" target="constitutional ai (cai)">
+  <data key="d0">utilizes</data>
+</edge>
+<edge source="christopher oosthuizen" target="google cloud api">
+  <data key="d0">uses</data>
+</edge>
+<edge source="christopher oosthuizen" target="high quality knowledge graphs">
+  <data key="d0">produces</data>
+</edge>
+<edge source="christopher oosthuizen" target="hallucination reduction">
+  <data key="d0">enhances</data>
+</edge>
+<edge source="bachelor of science, computer science" target="university of houston">
+  <data key="d0">offers a degree in</data>
+</edge>
+<edge source="structures and artificial intelligence lab" target="houston, tx">
+  <data key="d0">is located in</data>
+</edge>
+<edge source="programming language" target="virtual machine">
+  <data key="d0">is engineered for</data>
+</edge>
+<edge source="knowledge graphs" target="deep learning pipeline">
+  <data key="d0">generates</data>
 </edge>
-<edge source="parliament" target="electoral practice">
-  <data key="d0">shaped through</data>
+<edge source="knowledge graphs" target="hallucinations">
+  <data key="d0">is reduced by 20% in</data>
 </edge>
-<edge source="electors of knights of the shire act 1432" target="electors of knights of the shires act 1429">
-  <data key="d0">amended and re-enacted</data>
+<edge source="knowledge graphs" target="post-processing">
+  <data key="d0">optimized using</data>
 </edge>
-<edge source="county" target="constituency">
-  <data key="d0">also called a</data>
+<edge source="knowledge graphs" target="quality">
+  <data key="d0">measures</data>
 </edge>
-<edge source="county" target="redistribution of seats act 1885">
-  <data key="d0">destroyed</data>
+<edge source="deep learning pipeline" target="unstructured text data">
+  <data key="d0">processes</data>
 </edge>
-<edge source="county" target="single constituency">
-  <data key="d0">formed a</data>
+<edge source="deep learning pipeline" target="graph retrieval-augmented generation">
+  <data key="d0">is a technique used in</data>
 </edge>
-<edge source="county" target="shire">
-  <data key="d0">is also referred to as a</data>
+<edge source="self-rewarding language models" target="constitutional ai (cai)">
+  <data key="d0">is used for training</data>
 </edge>
-<edge source="county" target="knights of the shire">
-  <data key="d0">sent two until 1826</data>
+<edge source="cai cpo training" target="output quality">
+  <data key="d0">optimizes</data>
 </edge>
-<edge source="county" target="knight of the shire">
-  <data key="d0">represented</data>
+<edge source="react" target="website">
+  <data key="d0">used to build</data>
 </edge>
-<edge source="county" target="house of commons">
-  <data key="d0">represented in past by</data>
+<edge source="graph neural networks" target="link prediction">
+  <data key="d0">enabled for</data>
 </edge>
-<edge source="borough constituency" target="burgess">
-  <data key="d0">was the title for an mp from a</data>
+<edge source="graph structure" target="relationships">
+  <data key="d0">helps infer</data>
 </edge>
-<edge source="knights of the shire" target="burgesses">
-  <data key="d0">had more prestige than</data>
+<edge source="python-like syntax" target="general-purpose language">
+  <data key="d0">has</data>
 </edge>
-<edge source="knights of the shire" target="two knights">
-  <data key="d0">sent by each shire since simon de montfort's parliament</data>
+<edge source="ucla hacks coding competition" target="full-stack web application">
+  <data key="d0">built for</data>
 </edge>
-<edge source="county constituency" target="shire">
-  <data key="d0">synonymous for</data>
-</edge>
-<edge source="county constituency" target="mp">
-  <data key="d0">represented a</data>
-</edge>
-<edge source="cinque ports constituency" target="baron">
-  <data key="d0">was represented by a</data>
-</edge>
-<edge source="electoral practice" target="1386-1421">
-  <data key="d0">period discussed in</data>
-</edge>
-<edge source="electors of knights of the shires act 1429" target="county franchise">
-  <data key="d0">legislated</data>
-</edge>
-<edge source="19th century" target="belted knight">
-  <data key="d0">referred to in writ of election until</data>
-</edge>
-<edge source="belted knight" target="writ of election">
-  <data key="d0">referred to until the 19th century</data>
-</edge>
-<edge source="writ of election" target="knight of the shire">
-  <data key="d0">was referenced in until the 19th century</data>
-</edge>
-<edge source="knight of the shire" target="conservative party backbenchers">
-  <data key="d0">term used tongue-in-cheek for</data>
-</edge>
-<edge source="knight of the shire" target="prestige">
-  <data key="d0">attached to holding the title of</data>
-</edge>
-<edge source="knight of the shire" target="mp">
-  <data key="d0">was the formal title for</data>
-</edge>
-<edge source="knight of the shire" target="latin term milites comitatus">
-  <data key="d0">referred to as</data>
-</edge>
-<edge source="knight of the shire" target="representation of the people act 1832">
-  <data key="d0">standardized by</data>
-</edge>
-<edge source="knight of the shire" target="parliamentary elections">
-  <data key="d0">played a role in</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="multiple-seat shire">
-  <data key="d0">split by</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="shire">
-  <data key="d0">ended the practice of</data>
-</edge>
-<edge source="house of commons" target="house of lords">
-  <data key="d0">are parts of bicameral structure</data>
-</edge>
-<edge source="house of commons" target="commons' representative voice">
-  <data key="d0">was created for</data>
-</edge>
-<edge source="house of commons" target="office of speaker">
-  <data key="d0">created</data>
-</edge>
-<edge source="house of commons" target="magnum concilium">
-  <data key="d0">evolved into part of</data>
-</edge>
-<edge source="prestige" target="mp">
-  <data key="d0">enhanced by election to</data>
-</edge>
-<edge source="mp" target="statutory eligibility criteria">
-  <data key="d0">defined for</data>
-</edge>
-<edge source="representation of the people act 1832" target="larger populations">
-  <data key="d0">allowed counties with larger populations to send more knights</data>
-</edge>
-<edge source="representation of the people act 1832" target="number of knights">
-  <data key="d0">increased</data>
-</edge>
-<edge source="representation of the people act 1832" target="county franchise">
-  <data key="d0">affected by</data>
-</edge>
-<edge source="commons' representative voice" target="speaker of the house of commons">
-  <data key="d0">was created for</data>
-</edge>
-<edge source="office of speaker" target="edward iii">
-  <data key="d0">created during reign of</data>
-</edge>
-<edge source="magnum concilium" target="great council">
-  <data key="d0">is</data>
-</edge>
-<edge source="magnum concilium" target="parliamentary system">
-  <data key="d0">precursor to</data>
-</edge>
-<edge source="burgess" target="citizen">
-  <data key="d0">title changes based on borough's status</data>
-</edge>
-<edge source="citizen" target="borough with city status">
-  <data key="d0">was the title for an mp from a</data>
-</edge>
-<edge source="county franchise" target="free inhabitant householders">
-  <data key="d0">originally included</data>
-</edge>
-<edge source="county franchise" target="forty-shilling freehold">
-  <data key="d0">required</data>
-</edge>
-<edge source="forty-shilling freehold" target="voter qualification">
-  <data key="d0">was</data>
-</edge>
-<edge source="forty-shilling freehold" target="household suffrage">
-  <data key="d0">replaced by</data>
-</edge>
-<edge source="forty-shilling freehold" target="1432">
-  <data key="d0">considered essential by</data>
-</edge>
-<edge source="speaker of the house of commons" target="sir peter de la mare">
-  <data key="d0">became</data>
-</edge>
-<edge source="speaker of the house of commons" target="de la mare">
-  <data key="d0">was first</data>
-</edge>
-<edge source="edward iii" target="sir peter de la mare">
-  <data key="d0">imprisoned</data>
-</edge>
-<edge source="edward iii" target="1376">
-  <data key="d0">during whose reign complaints were made</data>
-</edge>
-<edge source="edward iii" target="parliament of england">
-  <data key="d0">split by</data>
-</edge>
-<edge source="edward iii" target="bicameral structure">
-  <data key="d0">split parliament into</data>
-</edge>
-<edge source="parliamentary system" target="legislative powers">
-  <data key="d0">gained in 1295</data>
-</edge>
-<edge source="sir peter de la mare" target="imprisoned">
-  <data key="d0">was</data>
-</edge>
-<edge source="parliament of england" target="legislated county franchise">
-  <data key="d0">in</data>
-</edge>
-<edge source="bicameral structure" target="the model parliament">
-  <data key="d0">preceded</data>
-</edge>
-<edge source="the model parliament" target="legislative powers">
-  <data key="d0">gained</data>
+<edge source="google cloud api" target="flood risks">
+  <data key="d0">assesses</data>
 </edge>
 </graph></graphml>
