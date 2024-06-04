@@ -18,6 +18,7 @@ from . import LLMFunctions as LLM
 from cdlib import algorithms
 import random
 import re
+import colorsys
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
@@ -175,6 +176,19 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
         chunks = textformatting.chunk_text(text)
     return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num)
 
+    # Assign colors to nodes based on clusters
+def generate_colors(num_clusters):
+    colors = []
+    for i in range(num_clusters):
+        hue = i / num_clusters
+        saturation = 0.5 + (i % 2) * 0.2
+        value = 0.8 - (i % 3) * 0.1
+        rgb = colorsys.hsv_to_rgb(hue, saturation, value)
+        color = "#{:02x}{:02x}{:02x}".format(int(rgb[0] * 255), int(rgb[1] * 255), int(rgb[2] * 255))
+        colors.append(color)
+    return colors
+    
+
 def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair",num=10):
     repeats = chunks_precentage_linked
     jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner, ner_type=ner_type,num=num)
@@ -205,13 +219,11 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     # Cluster nodes using Leiden algorithm
     leiden_communities = algorithms.leiden(Graph)
 
-    # Assign colors to nodes based on clusters
     num_clusters = len(leiden_communities.communities)
-    colors = [f"#{random.randint(0, 0xFFFFFF):06x}" for _ in range(num_clusters)]
+    colors = generate_colors(num_clusters)
     for i, community in enumerate(leiden_communities.communities):
         for o, node in enumerate(community):
             nt.get_node(node)['color'] = colors[i % num_clusters]
-
     # Save clustered graph as HTML
     nt.show(output_file + "clustered_graph.html", notebook=False)
     

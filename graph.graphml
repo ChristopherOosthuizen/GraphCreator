@@ -1,314 +1,155 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="ablaze"/>
-<node id="c++"/>
+<graph edgedefault="undirected"><node id="ablaze - programming language"/>
 <node id="christopher oosthuizen"/>
-<node id="programming languages"/>
 <node id="bachelor of science, computer science"/>
-<node id="coding instructor"/>
 <node id="code ninjas"/>
-<node id="computer science"/>
-<node id="cougar cs 2024 website"/>
-<node id="data science i"/>
-<node id="data structures"/>
-<node id="deep learning pipeline"/>
-<node id="education"/>
-<node id="express.js"/>
-<node id="flair"/>
+<node id="cougar cs"/>
 <node id="github"/>
-<node id="houston, tx"/>
-<node id="jupyter notebook"/>
+<node id="gpa 3.14"/>
+<node id="houston,tx"/>
 <node id="knowledge graph generator"/>
-<node id="leadership"/>
-<node id="llamaindex"/>
 <node id="machine learning research assistant"/>
-<node id="pytorch"/>
-<node id="react"/>
-<node id="research assistant"/>
-<node id="rust"/>
-<node id="september 2023"/>
 <node id="structures and artificial intelligence lab"/>
-<node id="undergraduate research assistant"/>
-<node id="university of houston"/>
+<node id="cougar cs website"/>
+<node id="langchain"/>
+<node id="linkedin"/>
 <node id="aws"/>
 <node id="developer tools"/>
 <node id="git"/>
-<node id="google test"/>
-<node id="linux"/>
-<node id="computer architecture"/>
-<node id="cougar cs"/>
-<node id="knowledge graphs"/>
-<node id="rising tides"/>
-<node id="django"/>
-<node id="technologies/frameworks"/>
+<node id="university of houston"/>
+<node id="hugging face transformers"/>
 <node id="graph neural networks"/>
-<node id="python"/>
 <node id="networkx"/>
+<node id="pytorch"/>
 <node id="spacy"/>
-<node id="google cloud api"/>
-<node id="sql"/>
-<node id="ucla hacks 2021"/>
-<node id="langchain"/>
-<node id="neo4j"/>
-<node id="pandas"/>
-<node id="bash"/>
-<node id="c"/>
-<node id="java"/>
+<node id="rust"/>
+<node id="programming languages"/>
 <node id="javascript"/>
-<node id="mysql"/>
-<node id="scala"/>
-<node id="modern website"/>
-<node id="self-rewarding language models"/>
-<node id="constitutional ai (cai)"/>
-<node id="reducing hallucinations"/>
-<node id="graph retrieval-augmented generation"/>
-<node id="20% hallucination reduction"/>
-<node id="knowledge graph quality"/>
-<node id="novel application"/>
-<edge source="ablaze" target="c++">
-  <data key="d0">developed with</data>
-</edge>
-<edge source="ablaze" target="christopher oosthuizen">
-  <data key="d0">developed by</data>
-</edge>
-<edge source="c++" target="programming languages">
-  <data key="d0">includes</data>
+<node id="coding"/>
+<node id="children"/>
+<node id="knowledge graphs"/>
+<node id="deep learning pipeline"/>
+<node id="unstructured text data"/>
+<node id="technologies/frameworks"/>
+<node id="django"/>
+<node id="express.js"/>
+<node id="pandas"/>
+<node id="react"/>
+<node id="cpo training"/>
+<node id="output quality"/>
+<edge source="ablaze - programming language" target="christopher oosthuizen">
+  <data key="d0">was developed by</data>
 </edge>
 <edge source="christopher oosthuizen" target="bachelor of science, computer science">
-  <data key="d0">earned by</data>
-</edge>
-<edge source="christopher oosthuizen" target="coding instructor">
-  <data key="d0">role of</data>
+  <data key="d0">earned degree in</data>
 </edge>
 <edge source="christopher oosthuizen" target="code ninjas">
-  <data key="d0">employed by</data>
+  <data key="d0">works as a coding instructor at</data>
 </edge>
-<edge source="christopher oosthuizen" target="computer science">
-  <data key="d0">studies</data>
-</edge>
-<edge source="christopher oosthuizen" target="cougar cs 2024 website">
-  <data key="d0">developed by</data>
-</edge>
-<edge source="christopher oosthuizen" target="data science i">
-  <data key="d0">took course in</data>
-</edge>
-<edge source="christopher oosthuizen" target="data structures">
-  <data key="d0">took course in</data>
-</edge>
-<edge source="christopher oosthuizen" target="deep learning pipeline">
-  <data key="d0">developed by</data>
-</edge>
-<edge source="christopher oosthuizen" target="education">
-  <data key="d0">section in</data>
-</edge>
-<edge source="christopher oosthuizen" target="express.js">
-  <data key="d0">used</data>
-</edge>
-<edge source="christopher oosthuizen" target="flair">
-  <data key="d0">utilized</data>
+<edge source="christopher oosthuizen" target="cougar cs">
+  <data key="d0">serves as a web developer at</data>
 </edge>
 <edge source="christopher oosthuizen" target="github">
-  <data key="d0">uses</data>
+  <data key="d0">has repositories at</data>
 </edge>
-<edge source="christopher oosthuizen" target="houston, tx">
-  <data key="d0">located in</data>
+<edge source="christopher oosthuizen" target="gpa 3.14">
+  <data key="d0">has</data>
 </edge>
-<edge source="christopher oosthuizen" target="jupyter notebook">
-  <data key="d0">used by</data>
+<edge source="christopher oosthuizen" target="houston,tx">
+  <data key="d0">is located at</data>
 </edge>
 <edge source="christopher oosthuizen" target="knowledge graph generator">
-  <data key="d0">developed</data>
-</edge>
-<edge source="christopher oosthuizen" target="leadership">
-  <data key="d0">section in</data>
-</edge>
-<edge source="christopher oosthuizen" target="llamaindex">
-  <data key="d0">utilized by</data>
+  <data key="d0">was developed by</data>
 </edge>
 <edge source="christopher oosthuizen" target="machine learning research assistant">
-  <data key="d0">position held</data>
-</edge>
-<edge source="christopher oosthuizen" target="pytorch">
-  <data key="d0">used by</data>
-</edge>
-<edge source="christopher oosthuizen" target="react">
-  <data key="d0">utilized by</data>
-</edge>
-<edge source="christopher oosthuizen" target="research assistant">
-  <data key="d0">role of</data>
-</edge>
-<edge source="christopher oosthuizen" target="rust">
-  <data key="d0">uses</data>
-</edge>
-<edge source="christopher oosthuizen" target="september 2023">
-  <data key="d0">started role</data>
+  <data key="d0">holds the position of</data>
 </edge>
 <edge source="christopher oosthuizen" target="structures and artificial intelligence lab">
-  <data key="d0">employed</data>
+  <data key="d0">works as an undergraduate research assistant at</data>
 </edge>
-<edge source="christopher oosthuizen" target="undergraduate research assistant">
-  <data key="d0">role of</data>
+<edge source="christopher oosthuizen" target="cougar cs website">
+  <data key="d0">was developed by</data>
 </edge>
-<edge source="christopher oosthuizen" target="university of houston">
-  <data key="d0">attended</data>
+<edge source="christopher oosthuizen" target="langchain">
+  <data key="d0">was utilized by</data>
 </edge>
-<edge source="programming languages" target="python">
-  <data key="d0">includes</data>
+<edge source="christopher oosthuizen" target="linkedin">
+  <data key="d0">profile belongs to</data>
 </edge>
-<edge source="programming languages" target="bash">
-  <data key="d0">includes</data>
+<edge source="christopher oosthuizen" target="cpo training">
+  <data key="d0">utilizes</data>
 </edge>
-<edge source="programming languages" target="c">
-  <data key="d0">includes</data>
+<edge source="christopher oosthuizen" target="deep learning pipeline">
+  <data key="d0">developed</data>
 </edge>
-<edge source="programming languages" target="java">
+<edge source="christopher oosthuizen" target="output quality">
+  <data key="d0">improved using</data>
+</edge>
+<edge source="christopher oosthuizen" target="unstructured text data">
+  <data key="d0">processed into knowledge graphs</data>
+</edge>
+<edge source="christopher oosthuizen" target="technologies/frameworks">
+  <data key="d0">utilized various</data>
+</edge>
+<edge source="bachelor of science, computer science" target="university of houston">
+  <data key="d0">offered by</data>
+</edge>
+<edge source="cougar cs" target="university of houston">
+  <data key="d0">is associated with</data>
+</edge>
+<edge source="github" target="developer tools">
+  <data key="d0">is part of</data>
+</edge>
+<edge source="knowledge graph generator" target="hugging face transformers">
+  <data key="d0">utilizes</data>
+</edge>
+<edge source="knowledge graph generator" target="graph neural networks">
+  <data key="d0">utilizes for link prediction</data>
+</edge>
+<edge source="knowledge graph generator" target="networkx">
+  <data key="d0">utilizes</data>
+</edge>
+<edge source="knowledge graph generator" target="pytorch">
+  <data key="d0">utilizes</data>
+</edge>
+<edge source="knowledge graph generator" target="spacy">
+  <data key="d0">utilizes</data>
+</edge>
+<edge source="structures and artificial intelligence lab" target="rust">
+  <data key="d0">utilized in</data>
+</edge>
+<edge source="aws" target="developer tools">
+  <data key="d0">is part of</data>
+</edge>
+<edge source="developer tools" target="git">
+  <data key="d0">is part of</data>
+</edge>
+<edge source="rust" target="programming languages">
   <data key="d0">includes</data>
 </edge>
 <edge source="programming languages" target="javascript">
   <data key="d0">includes</data>
 </edge>
-<edge source="programming languages" target="mysql">
-  <data key="d0">includes</data>
+<edge source="coding" target="children">
+  <data key="d0">taught to</data>
 </edge>
-<edge source="programming languages" target="rust">
-  <data key="d0">includes</data>
+<edge source="knowledge graphs" target="deep learning pipeline">
+  <data key="d0">transforms into</data>
 </edge>
-<edge source="programming languages" target="scala">
-  <data key="d0">includes</data>
+<edge source="deep learning pipeline" target="unstructured text data">
+  <data key="d0">processes</data>
 </edge>
-<edge source="bachelor of science, computer science" target="university of houston">
-  <data key="d0">offered by</data>
+<edge source="technologies/frameworks" target="django">
+  <data key="d0">is part of</data>
 </edge>
-<edge source="cougar cs 2024 website" target="express.js">
-  <data key="d0">used in</data>
-</edge>
-<edge source="cougar cs 2024 website" target="react">
-  <data key="d0">used to build</data>
-</edge>
-<edge source="data science i" target="university of houston">
-  <data key="d0">taught at</data>
-</edge>
-<edge source="data structures" target="university of houston">
-  <data key="d0">taught at</data>
-</edge>
-<edge source="deep learning pipeline" target="knowledge graphs">
-  <data key="d0">processes into</data>
-</edge>
-<edge source="deep learning pipeline" target="graph retrieval-augmented generation">
-  <data key="d0">interconnected with</data>
-</edge>
-<edge source="deep learning pipeline" target="self-rewarding language models">
-  <data key="d0">related through</data>
-</edge>
-<edge source="deep learning pipeline" target="constitutional ai (cai)">
-  <data key="d0">used for training</data>
-</edge>
-<edge source="express.js" target="technologies/frameworks">
-  <data key="d0">contains</data>
-</edge>
-<edge source="github" target="developer tools">
-  <data key="d0">part of</data>
-</edge>
-<edge source="github" target="knowledge graph generator">
-  <data key="d0">hosted on</data>
-</edge>
-<edge source="github" target="rising tides">
-  <data key="d0">hosts</data>
-</edge>
-<edge source="knowledge graph generator" target="django">
-  <data key="d0">used in</data>
-</edge>
-<edge source="knowledge graph generator" target="graph neural networks">
-  <data key="d0">uses for link prediction</data>
-</edge>
-<edge source="knowledge graph generator" target="python">
-  <data key="d0">implemented with</data>
-</edge>
-<edge source="knowledge graph generator" target="networkx">
-  <data key="d0">used in</data>
-</edge>
-<edge source="knowledge graph generator" target="pytorch">
-  <data key="d0">used in</data>
-</edge>
-<edge source="knowledge graph generator" target="spacy">
-  <data key="d0">used in</data>
-</edge>
-<edge source="llamaindex" target="knowledge graphs">
-  <data key="d0">used for building</data>
-</edge>
-<edge source="llamaindex" target="technologies/frameworks">
-  <data key="d0">contains</data>
-</edge>
-<edge source="pytorch" target="technologies/frameworks">
-  <data key="d0">contains</data>
-</edge>
-<edge source="react" target="rising tides">
-  <data key="d0">built with</data>
-</edge>
-<edge source="react" target="technologies/frameworks">
-  <data key="d0">contains</data>
-</edge>
-<edge source="react" target="modern website">
-  <data key="d0">used to build</data>
-</edge>
-<edge source="university of houston" target="computer architecture">
-  <data key="d0">taught at</data>
-</edge>
-<edge source="university of houston" target="cougar cs">
-  <data key="d0">hosts</data>
-</edge>
-<edge source="aws" target="developer tools">
-  <data key="d0">part of</data>
-</edge>
-<edge source="developer tools" target="git">
-  <data key="d0">part of</data>
-</edge>
-<edge source="developer tools" target="google test">
-  <data key="d0">part of</data>
-</edge>
-<edge source="developer tools" target="linux">
-  <data key="d0">part of</data>
-</edge>
-<edge source="knowledge graphs" target="graph neural networks">
-  <data key="d0">used for enhancing</data>
-</edge>
-<edge source="knowledge graphs" target="novel application">
-  <data key="d0">benchmarked and scored by</data>
-</edge>
-<edge source="rising tides" target="google cloud api">
-  <data key="d0">used for assessing flood risks</data>
-</edge>
-<edge source="rising tides" target="sql">
-  <data key="d0">uses</data>
-</edge>
-<edge source="rising tides" target="ucla hacks 2021">
-  <data key="d0">developed for</data>
-</edge>
-<edge source="django" target="technologies/frameworks">
-  <data key="d0">contains</data>
-</edge>
-<edge source="technologies/frameworks" target="langchain">
-  <data key="d0">contains</data>
-</edge>
-<edge source="technologies/frameworks" target="neo4j">
-  <data key="d0">contains</data>
-</edge>
-<edge source="technologies/frameworks" target="networkx">
-  <data key="d0">contains</data>
+<edge source="technologies/frameworks" target="express.js">
+  <data key="d0">is part of</data>
 </edge>
 <edge source="technologies/frameworks" target="pandas">
-  <data key="d0">contains</data>
+  <data key="d0">is part of</data>
 </edge>
-<edge source="self-rewarding language models" target="constitutional ai (cai)">
-  <data key="d0">optimizes output quality using</data>
-</edge>
-<edge source="reducing hallucinations" target="graph retrieval-augmented generation">
-  <data key="d0">achieved through</data>
-</edge>
-<edge source="graph retrieval-augmented generation" target="20% hallucination reduction">
-  <data key="d0">achieves</data>
-</edge>
-<edge source="graph retrieval-augmented generation" target="knowledge graph quality">
-  <data key="d0">enhances</data>
+<edge source="technologies/frameworks" target="react">
+  <data key="d0">is part of</data>
 </edge>
 </graph></graphml>
