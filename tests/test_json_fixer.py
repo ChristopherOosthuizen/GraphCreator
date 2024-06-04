@@ -64,3 +64,12 @@ def test_function():
         actual_output=ont,
         )
     assert_test(knight_case, [presion_metric])
+
+    ont = lp.fix_format(open(os.path.join(current_dir,"textformattingTests/fixformatSeven")).read())
+    knight_case = LLMTestCase(
+        input=open(os.path.join(current_dir,"textformattingTests/fixformatSeven")).read(),
+        expected_output=open(os.path.join(current_dir,"textformattingTests/fixformatSevenOut")).read(),
+        retrieval_context=["Since the context is not none it should output a empty list like []"],
+        actual_output=ont,
+        )
+    assert_test(knight_case, [presion_metric])

@@ -1,200 +1,109 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="1832"/>
-<node id="1832 reform act"/>
-<node id="electoral reform in england and wales"/>
-<node id="representation of the people act 1832"/>
-<node id="text"/>
-<node id="chronological table of the statutes: part 1 1235-1962"/>
-<node id="charles seymour"/>
-<node id="england and wales"/>
-<node id="redistribution of seats act 1885"/>
-<node id="county franchise"/>
-<node id="1235-1962"/>
-<node id="the stationery office ltd"/>
-<node id="the statutes: revised edition, vol. i henry iii to james ii"/>
-<node id="david &amp; charles reprints"/>
-<node id="knight of the shire"/>
-<node id="county"/>
-<node id="bicameral structure"/>
-<node id="edward iii"/>
-<node id="house of commons"/>
-<node id="house of lords"/>
-<node id="parliament of england"/>
-<node id="magnum concilium"/>
-<node id="british house of commons"/>
-<node id="simon de montfort"/>
-<node id="writ of election"/>
-<node id="medieval parliament of england"/>
-<node id="medium population counties"/>
-<node id="parliamentary elections act 1444"/>
-<node id="additional knights"/>
-<node id="henry vi"/>
-<node id="election process"/>
-<node id="henry iii"/>
-<node id="james ii"/>
-<node id="shire"/>
-<node id="residence requirement"/>
-<node id="forty-shilling freeholders"/>
-<node id="electors of knights of the shires act 1432"/>
-<node id="electral rules"/>
-<node id="franchise rules"/>
-<node id="parliament"/>
-<node id="king"/>
-<node id="act of 1430"/>
-<node id="electors of knights of the shires act 1429"/>
-<node id="united kingdom"/>
-<edge source="1832" target="1832 reform act">
-  <data key="d0">year of legislation</data>
+<graph edgedefault="undirected"><node id="machine learning research assistant"/>
+<node id="christopher oosthuizen"/>
+<node id="structures and artificial intelligence lab"/>
+<node id="university of houston"/>
+<node id="bachelor of science"/>
+<node id="coding instructor"/>
+<node id="deep learning pipeline"/>
+<node id="knowledge graphs"/>
+<node id="reducing hallucinations"/>
+<node id="graph retrieval-augmented generation"/>
+<node id="react"/>
+<node id="django"/>
+<node id="language models"/>
+<node id="constitutional ai (cai) cpo training"/>
+<node id="cougar cs"/>
+<node id="web developer"/>
+<node id="sql"/>
+<node id="flood risks assessment"/>
+<node id="pytorch"/>
+<node id="graph neural networks"/>
+<node id="networkx"/>
+<node id="hugging face"/>
+<edge source="machine learning research assistant" target="christopher oosthuizen">
+  <data key="d0">is a</data>
 </edge>
-<edge source="1832 reform act" target="electoral reform in england and wales">
-  <data key="d0">focuses on related reforms</data>
+<edge source="machine learning research assistant" target="structures and artificial intelligence lab">
+  <data key="d0">worked at</data>
 </edge>
-<edge source="1832 reform act" target="representation of the people act 1832">
-  <data key="d0">mentioned in</data>
+<edge source="machine learning research assistant" target="knowledge graphs">
+  <data key="d0">developed using</data>
 </edge>
-<edge source="1832 reform act" target="text">
-  <data key="d0">context of</data>
+<edge source="christopher oosthuizen" target="university of houston">
+  <data key="d0">studied at</data>
 </edge>
-<edge source="1832 reform act" target="chronological table of the statutes: part 1 1235-1962">
-  <data key="d0">included in historical records</data>
+<edge source="christopher oosthuizen" target="coding instructor">
+  <data key="d0">worked as</data>
 </edge>
-<edge source="electoral reform in england and wales" target="charles seymour">
-  <data key="d0">authored by</data>
+<edge source="christopher oosthuizen" target="graph retrieval-augmented generation">
+  <data key="d0">worked on</data>
 </edge>
-<edge source="electoral reform in england and wales" target="england and wales">
-  <data key="d0">relevant to</data>
+<edge source="christopher oosthuizen" target="knowledge graphs">
+  <data key="d0">developed using</data>
 </edge>
-<edge source="electoral reform in england and wales" target="act of 1430">
-  <data key="d0">context of</data>
+<edge source="christopher oosthuizen" target="pytorch">
+  <data key="d0">used for graph neural networks</data>
 </edge>
-<edge source="representation of the people act 1832" target="redistribution of seats act 1885">
-  <data key="d0">preceded</data>
+<edge source="christopher oosthuizen" target="networkx">
+  <data key="d0">utilized in projects</data>
 </edge>
-<edge source="representation of the people act 1832" target="county franchise">
-  <data key="d0">restructured</data>
+<edge source="christopher oosthuizen" target="hugging face">
+  <data key="d0">utilized in projects</data>
 </edge>
-<edge source="chronological table of the statutes: part 1 1235-1962" target="1235-1962">
-  <data key="d0">covers period</data>
+<edge source="christopher oosthuizen" target="react">
+  <data key="d0">used as a web developer</data>
 </edge>
-<edge source="chronological table of the statutes: part 1 1235-1962" target="the stationery office ltd">
-  <data key="d0">published by</data>
+<edge source="christopher oosthuizen" target="django">
+  <data key="d0">used in projects</data>
 </edge>
-<edge source="chronological table of the statutes: part 1 1235-1962" target="the statutes: revised edition, vol. i henry iii to james ii">
-  <data key="d0">complementary publications</data>
+<edge source="christopher oosthuizen" target="sql">
+  <data key="d0">used in projects</data>
 </edge>
-<edge source="charles seymour" target="david &amp; charles reprints">
-  <data key="d0">work published by</data>
+<edge source="structures and artificial intelligence lab" target="deep learning pipeline">
+  <data key="d0">developed at</data>
 </edge>
-<edge source="england and wales" target="united kingdom">
-  <data key="d0">part of</data>
+<edge source="university of houston" target="bachelor of science">
+  <data key="d0">awarded degree</data>
 </edge>
-<edge source="redistribution of seats act 1885" target="knight of the shire">
-  <data key="d0">ended</data>
+<edge source="university of houston" target="cougar cs">
+  <data key="d0">related to</data>
 </edge>
-<edge source="redistribution of seats act 1885" target="county">
-  <data key="d0">redefined constituency boundaries</data>
+<edge source="deep learning pipeline" target="knowledge graphs">
+  <data key="d0">processed by</data>
 </edge>
-<edge source="county franchise" target="forty-shilling freeholders">
-  <data key="d0">were specified in</data>
+<edge source="deep learning pipeline" target="reducing hallucinations">
+  <data key="d0">aims at</data>
 </edge>
-<edge source="county franchise" target="franchise rules">
-  <data key="d0">includes</data>
+<edge source="knowledge graphs" target="reducing hallucinations">
+  <data key="d0">used for</data>
 </edge>
-<edge source="the statutes: revised edition, vol. i henry iii to james ii" target="henry iii">
-  <data key="d0">covers period starting from</data>
+<edge source="knowledge graphs" target="graph retrieval-augmented generation">
+  <data key="d0">enhances quality of</data>
 </edge>
-<edge source="the statutes: revised edition, vol. i henry iii to james ii" target="james ii">
-  <data key="d0">covers period ending with</data>
+<edge source="reducing hallucinations" target="graph retrieval-augmented generation">
+  <data key="d0">achieves</data>
 </edge>
-<edge source="knight of the shire" target="parliament of england">
-  <data key="d0">represented in</data>
+<edge source="react" target="django">
+  <data key="d0">are technologies used by</data>
 </edge>
-<edge source="knight of the shire" target="british house of commons">
-  <data key="d0">was an mp in</data>
+<edge source="react" target="web developer">
+  <data key="d0">uses</data>
 </edge>
-<edge source="knight of the shire" target="parliamentary elections act 1444">
-  <data key="d0">defined criteria for</data>
+<edge source="django" target="web developer">
+  <data key="d0">uses</data>
 </edge>
-<edge source="knight of the shire" target="simon de montfort">
-  <data key="d0">initiated sending</data>
+<edge source="language models" target="constitutional ai (cai) cpo training">
+  <data key="d0">optimizes quality of</data>
 </edge>
-<edge source="knight of the shire" target="writ of election">
-  <data key="d0">required to be</data>
+<edge source="cougar cs" target="web developer">
+  <data key="d0">role at</data>
 </edge>
-<edge source="knight of the shire" target="additional knights">
-  <data key="d0">referred to as</data>
+<edge source="sql" target="flood risks assessment">
+  <data key="d0">used for</data>
 </edge>
-<edge source="county" target="shire">
-  <data key="d0">is equivalent to</data>
-</edge>
-<edge source="bicameral structure" target="edward iii">
-  <data key="d0">split parliament into</data>
-</edge>
-<edge source="bicameral structure" target="house of commons">
-  <data key="d0">includes</data>
-</edge>
-<edge source="bicameral structure" target="house of lords">
-  <data key="d0">includes</data>
-</edge>
-<edge source="edward iii" target="house of commons">
-  <data key="d0">established</data>
-</edge>
-<edge source="house of commons" target="parliament of england">
-  <data key="d0">formation</data>
-</edge>
-<edge source="house of commons" target="magnum concilium">
-  <data key="d0">originated from</data>
-</edge>
-<edge source="house of lords" target="parliament of england">
-  <data key="d0">formation</data>
-</edge>
-<edge source="parliament of england" target="british house of commons">
-  <data key="d0">was a part of</data>
-</edge>
-<edge source="parliament of england" target="simon de montfort">
-  <data key="d0">summoned</data>
-</edge>
-<edge source="parliament of england" target="writ of election">
-  <data key="d0">used</data>
-</edge>
-<edge source="parliament of england" target="medieval parliament of england">
-  <data key="d0">evolved from</data>
-</edge>
-<edge source="magnum concilium" target="simon de montfort">
-  <data key="d0">directed by</data>
-</edge>
-<edge source="magnum concilium" target="parliament">
-  <data key="d0">evolved into</data>
-</edge>
-<edge source="magnum concilium" target="king">
-  <data key="d0">provided advice to</data>
-</edge>
-<edge source="british house of commons" target="medium population counties">
-  <data key="d0">representation</data>
-</edge>
-<edge source="writ of election" target="parliamentary elections act 1444">
-  <data key="d0">dictated by</data>
-</edge>
-<edge source="medium population counties" target="additional knights">
-  <data key="d0">sent until 1885</data>
-</edge>
-<edge source="parliamentary elections act 1444" target="henry vi">
-  <data key="d0">enacted</data>
-</edge>
-<edge source="parliamentary elections act 1444" target="election process">
-  <data key="d0">standardized</data>
-</edge>
-<edge source="residence requirement" target="forty-shilling freeholders">
-  <data key="d0">initially required</data>
-</edge>
-<edge source="forty-shilling freeholders" target="electors of knights of the shires act 1432">
-  <data key="d0">clarified requirements for</data>
-</edge>
-<edge source="electral rules" target="franchise rules">
-  <data key="d0">evolved</data>
-</edge>
-<edge source="act of 1430" target="electors of knights of the shires act 1429">
-  <data key="d0">preceded</data>
+<edge source="pytorch" target="graph neural networks">
+  <data key="d0">used in</data>
 </edge>
 </graph></graphml>

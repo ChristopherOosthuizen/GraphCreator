@@ -25,4 +25,4 @@ Format: ```
 ]
 ```
 
-ensure that the existing JSON matching the template above. But contains all of the original ontology triplets.
+ensure that the existing JSON matching the template above. But contains all of the original ontology triplets. If no context is given simply return [].

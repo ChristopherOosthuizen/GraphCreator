@@ -30,13 +30,14 @@ def _triplets_to_json(triplets):
     return json.dumps(df.to_dict(orient="records")).replace(",", ",\n")
 
 def _ontologies_to_unconnected(ont1, ont2):
-    if ont1.strip() == "":
+    if ont1.isspace():
         return ont2
-    if ont2.strip() == "":
+    if ont2.isspace():
         return ont1
     try:
         ont1 = json.loads(ont1)
     except:
+        print(ont1)
         ont1 = json.loads(fix_format(ont1))
     try:
         ont2 = json.loads(ont2)

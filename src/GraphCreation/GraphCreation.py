@@ -15,6 +15,8 @@ import math
 from . import textformatting
 from . import LinkPrediction as lp
 from . import LLMFunctions as LLM
+from cdlib import algorithms
+import random
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
@@ -195,17 +197,30 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
         json.dump(jsons, json_file)
     
     # Draw and save graph as HTML
-    nt = Network('1000px', '1000px', notebook=False)
+    nt = Network(height="1000px",width="100%",bgcolor="#222222",font_color="white", notebook=False)
     nt.from_nx(Graph)
     nt.show(output_file + "graph.html", notebook=False)
     
-    return chunks,Graph
+    # Cluster nodes using Leiden algorithm
+    leiden_communities = algorithms.leiden(Graph)
+
+    # Assign colors to nodes based on clusters
+    num_clusters = len(leiden_communities.communities)
+    colors = [f"#{random.randint(0, 0xFFFFFF):06x}" for _ in range(num_clusters)]
+    for i, community in enumerate(leiden_communities.communities):
+        for o, node in enumerate(community):
+            nt.get_node(node)['color'] = colors[i % num_clusters]
+
+    # Save clustered graph as HTML
+    nt.show(output_file + "clustered_graph.html", notebook=False)
+    
+    return chunks, Graph
 def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair"):
     text = textformatting.url_to_md(url)
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type)
     return jsons
 def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair"):
-    text = textformatting._convert_to_markdown(extract_text(pdf))
+    text = textformatting.pdf_to_md(pdf)
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
     return jsons
 
