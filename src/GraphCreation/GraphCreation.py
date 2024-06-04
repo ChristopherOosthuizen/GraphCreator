@@ -17,6 +17,7 @@ from . import LinkPrediction as lp
 from . import LLMFunctions as LLM
 from cdlib import algorithms
 import random
+import re
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
@@ -48,7 +49,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
-    
+    print(response)
     for _ in range(repeats):
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
         prompt = f"""Here is the prompt updated to insert additional triplets into the existing ontology:
@@ -63,8 +64,8 @@ Here is the ontology graph generated from the above context:
     response = response[response.find("["):response.find("]")+1]
     response = response.replace("node1", "node_1")
     response = response.replace("node2", "node_2")
+    return lp.strip_json(response)
     
-    return response
 
 
 
@@ -80,7 +81,7 @@ def new_summary_prompt(summary, text_chunk,model_id=0):
         str: The generated summary.
     """
     summary_prompt = open(os.path.join(prompts_dir,"summaryPrompt")).read()
-    summary = LLM.generate_chat_response(summary_prompt, f"existing_summary: {summary} new_text_chunk: {text_chunk}", model_id=model_id)
+    summary = LLM.generate_chat_response(summary_prompt, f"summary1: {summary}\n\n summary2: {text_chunk}", model_id=model_id)
     return summary
 
 def _make_one_triplet(list, position, chunk, ner=False, ner_type="flair",num=10):

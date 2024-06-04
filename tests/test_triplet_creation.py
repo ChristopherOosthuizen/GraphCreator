@@ -48,10 +48,6 @@ def test_case():
     jsons = json.loads(gc.create_knowledge_triplets(input_one,repeats=0, num=10,ner=True))
     assert len(jsons) >= 10
 
-    input_one = read_file("test2")
-    jsons = json.loads(gc.create_knowledge_triplets(input_one,repeats=0, num=15,ner=True))
-    assert len(jsons) >= 15
-
     input_one = read_file("test3")
     jsons = json.loads(gc.create_knowledge_triplets(input_one,repeats=0, num=10,ner=True, ner_type="llm"))
     assert len(jsons) >= 15

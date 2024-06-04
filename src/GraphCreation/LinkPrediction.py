@@ -7,7 +7,12 @@ from . import LLMFunctions as LLM
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
-
+import re
+def strip_json(jsons):
+    jsons = re.sub(r'(?m)^ *#.*\n', '', jsons)
+    jsons = re.sub(r'(?m)^ *//.*\n', '', jsons)
+    jsons.replace("\n\n","\n")
+    return jsons
 def fix_format(input, model_id=0):
     """
     Fixes the format of the input JSON.
@@ -87,6 +92,7 @@ Context chunk:""" + sums + """Ontologys:""" + disconnected + """Please follow th
 
     response = str(LLM.generate_chat_response("", prompt, model_id=model_id))
     response = response[response.find("["):response.find("]")+1].lower()
+    response = strip_json(response)
     return response
 
 def _one_switch(ont):
@@ -122,4 +128,5 @@ def _fix_ontology(ont, context,model_id=0):
     prompt = result
     response = str(LLM.generate_chat_response(open(os.path.join(prompts_dir,"Fusionsys")).read(), prompt,model_id=model_id))
     response = response[response.find("["):response.find("]")+1].lower()
+    response = strip_json(response)
     return response
