@@ -33,6 +33,8 @@ def pick_gpu(index):
     Returns:
         int: The GPU picked.
     """
+    if 'KG_GPUS' not in os.environ:
+        return 0
     gpu_length = len(os.environ['KG_GPUS'].split(","))
     return index%gpu_length
 index = 0

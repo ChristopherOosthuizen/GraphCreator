@@ -1,0 +1,143 @@
+[
+    {
+        "node_1": "1832 Reform Act",
+        "node_2": "The text of the 1832 Reform Act",
+        "edge": "source of information"
+    },
+    {
+        "node_1": "Statutes",
+        "node_2": "Chronological Table of the Statutes",
+        "edge": "listed in"
+    },
+    {
+        "node_1": "Electoral Reform in England and Wales",
+        "node_2": "Charles Seymour",
+        "edge": "author of"
+    },
+    {
+        "node_1": "The Statutes: Revised Edition",
+        "node_2": "Vol. I Henry III to James II",
+        "edge": "part of"
+    },
+    {
+        "node_1": "The Statutes: Second Revised Edition",
+        "node_2": "Vol. XVI 1884-1886",
+        "edge": "part of"
+    }
+]
+
+[
+    {
+        "node_1": "Magnum Concilium",
+        "node_2": "great council",
+        "edge": "is referred to as"
+    },
+    {
+        "node_1": "Magnum Concilium",
+        "node_2": "parliamentary system",
+        "edge": "is a precursor to"
+    },
+    {
+        "node_1": "Montfort's Parliament",
+        "node_2": "representatives",
+        "edge": "included"
+    },
+    {
+        "node_1": "Edward III",
+        "node_2": "Parliament",
+        "edge": "split into bicameral structure"
+    },
+    {
+        "node_1": "House of Commons",
+        "node_2": "Speaker",
+        "edge": "has an office of"
+    },
+    {
+        "node_1": "Electors of Knights of the Shires Act 1429",
+        "node_2": "county franchise",
+        "edge": "legislated"
+    },
+    {
+        "node_1": "Representation of the People Act 1832",
+        "node_2": "counties",
+        "edge": "increased the number of knights in some"
+    },
+    {
+        "node_1": "Redistribution of Seats Act 1885",
+        "node_2": "county constituencies",
+        "edge": "led to the destruction of"
+    },
+    {
+        "node_1": "Reform Act of 1884",
+        "node_2": "electorate",
+        "edge": "widened structure of"
+    },
+    {
+        "node_1": "Representation of the People Act 1918",
+        "node_2": "electorate",
+        "edge": "widened structure of"
+    }
+]
+
+[
+    {
+        "node_1": "Knight of the shire",
+        "node_2": "MP",
+        "edge": "formal title"
+    },
+    {
+        "node_1": "county constituency",
+        "node_2": "Knight of the shire",
+        "edge": "represented by"
+    },
+    {
+        "node_1": "MP",
+        "node_2": "burgess",
+        "edge": "corresponding title in borough constituency"
+    },
+    {
+        "node_1": "MP",
+        "node_2": "baron",
+        "edge": "corresponding title in Cinque Ports constituency"
+    },
+    {
+        "node_1": "Knight of the shire",
+        "node_2": "burgess",
+        "edge": "more prestige than"
+    },
+    {
+        "node_1": "election",
+        "node_2": "belted knight",
+        "edge": "originally referred to"
+    },
+    {
+        "node_1": "Henry VI",
+        "node_2": "act",
+        "edge": "stipulated eligibility"
+    },
+    {
+        "node_1": "Yeoman",
+        "node_2": "knight",
+        "edge": "not eligible to be"
+    },
+    {
+        "node_1": "Simon de Montfort's Parliament",
+        "node_2": "shire",
+        "edge": "sent two knights"
+    },
+    {
+        "node_1": "Representation of the People Act 1832",
+        "node_2": "counties",
+        "edge": "larger populations sent more knights"
+    },
+    {
+        "node_1": "Redistribution of Seats Act 1885",
+        "node_2": "shires",
+        "edge": "split into single-seat divisions"
+    },
+    {
+        "node_1": "Conservative Party backbenchers",
+        "node_2": "Knight of the shire",
+        "edge": "used tongue-in-cheek for"
+    }
+]
