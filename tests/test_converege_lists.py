@@ -9,13 +9,18 @@ current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 from ..src import GraphCreation as gc
 
-
+import json
 
 def read_file(file):
     return open(os.path.join(current_dir,"list_converge/"+file)).read()
 
 def test_case():
+    original_length = sum([len(json.loads(x)) for x in read_file("test1").split("\n\n")])
     list_one = read_file("test1").split("\n\n")
     summaries= read_file("summary_one1").split("\n\n")
     list_one,sums = gc._converge_lists(list_one, summaries= summaries,repeats=1)
     assert len(list_one) == 1
+    list_one = read_file("test1").split("\n\n")
+    summaries= read_file("summary_one1").split("\n\n")
+    list_one,sums = gc._converge_lists(list_one, summaries= summaries,repeats=0.5)
+    assert len(list_one) == 2

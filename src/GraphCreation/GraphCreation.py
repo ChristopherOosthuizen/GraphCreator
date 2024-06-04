@@ -50,7 +50,6 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
-    print(response)
     for _ in range(repeats):
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
         prompt = f"""Here is the prompt updated to insert additional triplets into the existing ontology:
@@ -148,8 +147,9 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     for thread in threads:
         thread.join()
     combinations = triplets
+    summaries = chunks
     for x in range(len(combinations)-1, 0, -1):
-        if combinations[x].strip() == "":
+        if combinations[x].isspace():
             combinations.pop(x)
 
     combinations, summaries = _converge_lists(combinations, summaries, repeats=repeats)
@@ -202,7 +202,6 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
         try:
             x = json.loads(x)
         except:
-            print(x)
             x = json.loads(lp.fix_format(x))
         for y in x:
             Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])
