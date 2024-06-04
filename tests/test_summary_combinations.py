@@ -6,5 +6,3 @@ import os
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 from ..src import GraphCreation as gc
-
-def test_function():

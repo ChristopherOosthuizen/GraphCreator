@@ -21,7 +21,7 @@ current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
 tagger = None
-def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, ner_type="flair"):
+def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, ner_type="flair", num=10):
     """
     Creates knowledge triplets from a given text chunk.
 
@@ -40,12 +40,12 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
                 tagger = Classifier.load("ner-ontonotes-fast")
             sentence= Sentence(text_chunk)
             tagger.predict(sentence)
-            sentence = sentence.replace(text_chunk,"")
-            system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+sentence
+            sentence = str(sentence).replace(text_chunk,"")
+            system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read().replace("<num>",str(num))+sentence
         else:
-            system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+ LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read(), text_chunk, model_id=model_id)
+            system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+ LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read().replace("<num>",str(num)), text_chunk, model_id=model_id)
     else:
-        system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
+        system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     
@@ -83,8 +83,8 @@ def new_summary_prompt(summary, text_chunk,model_id=0):
     summary = LLM.generate_chat_response(summary_prompt, f"existing_summary: {summary} new_text_chunk: {text_chunk}", model_id=model_id)
     return summary
 
-def _make_one_triplet(list, position, chunk, ner=False, ner_type="flair"):
-    chu = create_knowledge_triplets(text_chunk=chunk, model_id=LLM.pick_gpu(position), ner=ner, ner_type=ner_type)
+def _make_one_triplet(list, position, chunk, ner=False, ner_type="flair",num=10):
+    chu = create_knowledge_triplets(text_chunk=chunk, model_id=LLM.pick_gpu(position), ner=ner, ner_type=ner_type, num=num)
     list[position] = chu
 
 def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
@@ -95,7 +95,7 @@ def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
 
     
 
-def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, ner_type="flair"):
+def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, ner_type="flair",num=10):
     """
     Creates a knowledge graph from a list of text chunks.
 
@@ -113,13 +113,13 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     triplets = []
     combinations = [] 
     if len(chunks) == 1:
-        return [create_knowledge_triplets(chunks[0], repeats=inital_repeats, ner=ner,ner_type=ner_type)]
+        return [create_knowledge_triplets(chunks[0], repeats=inital_repeats, ner=ner,ner_type=ner_type,num=num)]
     combinations = []
     summaries = []
     threads = []
     triplets = [""]*len(chunks)
     for x in range(len(chunks)):
-        thread = threading.Thread(target=_make_one_triplet, args=(triplets,x,chunks[x],ner,ner_type))
+        thread = threading.Thread(target=_make_one_triplet, args=(triplets,x,chunks[x],ner,ner_type,num))
         threads.append(thread)
         thread.start()
     for thread in threads:
@@ -155,7 +155,7 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     return combinations
 
 
-def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, llm_formatting=True, ner=False, ner_type="flair"):
+def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, llm_formatting=True, ner=False, ner_type="flair",num=10):
     """
     Creates a knowledge graph (KG) from the given text.
 
@@ -172,11 +172,11 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
         chunks = textformatting.get_text_chunks(text)
     else:
         chunks = textformatting.chunk_text(text)
-    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type)
+    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num)
 
-def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair"):
+def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair",num=10):
     repeats = chunks_precentage_linked
-    jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner, ner_type=ner_type)
+    jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner, ner_type=ner_type,num=num)
     Graph = nx.Graph()
     if not os.path.exists(output_file):
         os.makedirs(output_file)
@@ -215,24 +215,24 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     nt.show(output_file + "clustered_graph.html", notebook=False)
     
     return chunks, Graph
-def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair"):
+def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
     text = textformatting.url_to_md(url)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num)
     return jsons
-def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair"):
+def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
     text = textformatting.pdf_to_md(pdf)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
     return jsons
 
-def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair"):
+def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
     files = os.listdir(folder)
     text = ""
     for file in files:
         if file.endswith(".pdf"):
-            create_KG_from_pdf(folder + file, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
+            create_KG_from_pdf(folder + file, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
         elif file.endswith(".html"):
-            create_KG_from_url(folder + file, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
+            create_KG_from_url(folder + file, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
         else:
             with open(folder + file, "r") as f:
                 text = f.read()
-                create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type)
+                create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
