@@ -195,7 +195,10 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     Graph = nx.Graph()
     for x in jsons:
         try:
-            x = json.loads(x)
+            if x == "":
+                x= "[]"
+            else:
+                x = json.loads(x)
         except:
             x = json.loads(lp.fix_format(x))
         for y in x:

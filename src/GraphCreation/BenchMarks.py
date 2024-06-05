@@ -155,7 +155,7 @@ def create_DPO(file, output_file="./output/"):
         resulter.append(result_output)
         pd.DataFrame(resulter).to_csv(output_file+"results.csv")
     return pd.DataFrame(resulter)
-
+ 
 def create_DPO_folder(folder, output_file="./output/"):
     files = os.listdir(folder)
     results = []
