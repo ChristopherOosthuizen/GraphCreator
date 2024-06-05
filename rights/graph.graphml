@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="ontology"/>
+<node id="ai assistant"/>
+<node id="knowledge representation"/>
+<node id="text passage"/>
+<node id="relationships"/>
+<node id="category theory"/>
+<node id="concepts"/>
+<node id="terminology"/>
+<node id="key terms"/>
+<node id="entities"/>
+<node id="materials"/>
+<node id="systems"/>
+<node id="processes"/>
+<node id="methods"/>
+<node id="first concept"/>
+<node id="well-defined and widely used"/>
+<node id="second concept"/>
+<node id="another concept"/>
+<node id="tom"/>
+<node id="store"/>
+<node id="different concept"/>
+<node id="apples"/>
+<node id="bananas"/>
+<node id="jerry"/>
+<node id="wikimedia foundation, inc."/>
+<node id="wikipedia®"/>
+<node id="non-profit organization"/>
+<node id="wikipedia"/>
+<node id="privacy policy"/>
+<node id="terms of use"/>
+<node id="text"/>
+<node id="creative commons attribution-sharealike license 4.0"/>
+<node id="1 june 2024"/>
+<node id="license"/>
+<node id="date"/>
+<node id="01:10 (utc)"/>
+<node id="time"/>
+<edge source="ontology" target="ai assistant">
+  <data key="d0">is trained in extracting</data>
+</edge>
+<edge source="ontology" target="knowledge representation">
+  <data key="d0">is a form of</data>
+</edge>
+<edge source="ontology" target="text passage">
+  <data key="d0">can be structured as</data>
+</edge>
+<edge source="ai assistant" target="relationships">
+  <data key="d0">is trained in identifying</data>
+</edge>
+<edge source="knowledge representation" target="category theory">
+  <data key="d0">is used in</data>
+</edge>
+<edge source="knowledge representation" target="terminology">
+  <data key="d0">is crucial to</data>
+</edge>
+<edge source="knowledge representation" target="creative commons attribution-sharealike license 4.0">
+  <data key="d0">regulates</data>
+</edge>
+<edge source="text passage" target="key terms">
+  <data key="d0">contains</data>
+</edge>
+<edge source="text passage" target="entities">
+  <data key="d0">contains</data>
+</edge>
+<edge source="text passage" target="concepts">
+  <data key="d0">contains</data>
+</edge>
+<edge source="text passage" target="materials">
+  <data key="d0">can discuss</data>
+</edge>
+<edge source="text passage" target="systems">
+  <data key="d0">can discuss</data>
+</edge>
+<edge source="text passage" target="processes">
+  <data key="d0">can discuss</data>
+</edge>
+<edge source="text passage" target="methods">
+  <data key="d0">can discuss</data>
+</edge>
+<edge source="text passage" target="wikipedia">
+  <data key="d0">can be a form of</data>
+</edge>
+<edge source="text passage" target="text">
+  <data key="d0">part of</data>
+</edge>
+<edge source="category theory" target="concepts">
+  <data key="d0">can be understood through</data>
+</edge>
+<edge source="concepts" target="first concept">
+  <data key="d0">can be exemplified by</data>
+</edge>
+<edge source="concepts" target="terms of use">
+  <data key="d0">specify</data>
+</edge>
+<edge source="terminology" target="well-defined and widely used">
+  <data key="d0">should be</data>
+</edge>
+<edge source="terminology" target="terms of use">
+  <data key="d0">includes definitions from</data>
+</edge>
+<edge source="entities" target="wikimedia foundation, inc.">
+  <data key="d0">organizational entity</data>
+</edge>
+<edge source="processes" target="1 june 2024">
+  <data key="d0">can be dated to</data>
+</edge>
+<edge source="first concept" target="second concept">
+  <data key="d0">relationship description</data>
+</edge>
+<edge source="first concept" target="another concept">
+  <data key="d0">is linked to</data>
+</edge>
+<edge source="first concept" target="tom">
+  <data key="d0">is related to</data>
+</edge>
+<edge source="second concept" target="store">
+  <data key="d0">can relate to</data>
+</edge>
+<edge source="another concept" target="different concept">
+  <data key="d0">another relationship</data>
+</edge>
+<edge source="tom" target="store">
+  <data key="d0">went to</data>
+</edge>
+<edge source="tom" target="apples">
+  <data key="d0">bought from store</data>
+</edge>
+<edge source="tom" target="bananas">
+  <data key="d0">bought from store</data>
+</edge>
+<edge source="store" target="jerry">
+  <data key="d0">is managed by</data>
+</edge>
+<edge source="different concept" target="jerry">
+  <data key="d0">may involve</data>
+</edge>
+<edge source="wikimedia foundation, inc." target="wikipedia®">
+  <data key="d0">registered trademark of</data>
+</edge>
+<edge source="wikimedia foundation, inc." target="non-profit organization">
+  <data key="d0">isa</data>
+</edge>
+<edge source="wikimedia foundation, inc." target="wikipedia">
+  <data key="d0">maintained by</data>
+</edge>
+<edge source="wikipedia®" target="non-profit organization">
+  <data key="d0">owned by</data>
+</edge>
+<edge source="wikipedia" target="privacy policy">
+  <data key="d0">agreed by using</data>
+</edge>
+<edge source="wikipedia" target="terms of use">
+  <data key="d0">agreed by using</data>
+</edge>
+<edge source="wikipedia" target="text">
+  <data key="d0">component of</data>
+</edge>
+<edge source="wikipedia" target="creative commons attribution-sharealike license 4.0">
+  <data key="d0">licensed under</data>
+</edge>
+<edge source="wikipedia" target="1 june 2024">
+  <data key="d0">last edited on</data>
+</edge>
+<edge source="privacy policy" target="terms of use">
+  <data key="d0">related to</data>
+</edge>
+<edge source="text" target="creative commons attribution-sharealike license 4.0">
+  <data key="d0">available under</data>
+</edge>
+<edge source="creative commons attribution-sharealike license 4.0" target="license">
+  <data key="d0">isa</data>
+</edge>
+<edge source="1 june 2024" target="date">
+  <data key="d0">isa</data>
+</edge>
+<edge source="1 june 2024" target="01:10 (utc)">
+  <data key="d0">time of</data>
+</edge>
+<edge source="01:10 (utc)" target="time">
+  <data key="d0">isa</data>
+</edge>
+</graph></graphml>

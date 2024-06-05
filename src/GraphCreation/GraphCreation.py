@@ -143,15 +143,27 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
         thread.join()
     combinations = triplets
     summaries = chunks
-    for x in range(len(combinations)-1, 0, -1):
-        if combinations[x].isspace():
-            combinations.pop(x)
-
+    new_combinations = [] 
+    new_summaries = []
+    for x in range(len(combinations)):
+        if combinations[x].strip() != "":
+            new_combinations.append(combinations[x])
+            new_summaries.append(summaries[x])
+    combinations = new_combinations
+    summaries = new_summaries
     combinations, summaries = _converge_lists(combinations, summaries, repeats=repeats)
     if converge:
         while len(lp._ontologies_to_unconnected(combinations[0], combinations[0])) > 1:
             print(len(lp._ontologies_to_unconnected(combinations[0], combinations[0])))
             combinations[0] = lp._fix_ontology(combinations[0], summaries[0])
+    new_combinations = [] 
+    new_summaries = []
+    for x in range(len(combinations)):
+        if combinations[x].strip() != "":
+            new_combinations.append(combinations[x])
+            new_summaries.append(summaries[x])
+    combinations = new_combinations
+    summaries = new_summaries
     return combinations
 
 

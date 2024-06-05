@@ -26,6 +26,8 @@ def fix_format(input, error="", model_id=0):
     prompt = f"given this error {error} and json \nOriginal Json: {input}" + open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
     response = str(LLM.generate_chat_response("", prompt, model_id=model_id))
     response = response[response.find("["):response.find("]")+1]
+    if response == "":
+        return "[]"
     return response
 
 def _triplets_to_json(triplets):
