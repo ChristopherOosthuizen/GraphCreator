@@ -35,9 +35,9 @@ def _triplets_to_json(triplets):
     return json.dumps(df.to_dict(orient="records")).replace(",", ",\n")
 
 def _ontologies_to_unconnected(ont1, ont2):
-    if ont1.isspace():
+    if not ont1.strip():
         return ont2
-    if ont2.isspace():
+    if not ont2.strip():
         return ont1
     try:
         ont1 = json.loads(ont1)
@@ -86,6 +86,8 @@ def _one_switch(ont):
     try:
         ont = json.loads(ont)
     except:
+        if ont.strip() == "":
+            return []
         ont = json.loads(fix_format(ont))
     df = pd.DataFrame(ont)
     G = nx.Graph()
