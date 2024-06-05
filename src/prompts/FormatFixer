@@ -1,4 +1,4 @@
-Please extract any JSON content from the text that follows this prompt, and return only the extracted JSON. The JSON should match the following format, but may contain errors:
+Please extract any JSON content from the text that follows this prompt, and return only the extracted JSON. The JSON should match the following format, but may contain errors you will also be given the specific error message that threw this:
 
 [
   {
@@ -36,4 +36,5 @@ The array may contain any number of objects, including 0.
 
 If no valid JSON matching the above format is found, simply return [].
 
-Do not include any text before or after the JSON - return only the extracted JSON array itself, or [] if no matching JSON is found.
+Do not include any text before or after the JSON - return only the extracted JSON array itself, or [] if no matching JSON is found. 
+Error:

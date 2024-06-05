@@ -13,7 +13,7 @@ def strip_json(jsons):
     jsons = re.sub(r'(?m)^ *//.*\n', '', jsons)
     jsons.replace("\n\n","\n")
     return jsons
-def fix_format(input, model_id=0):
+def fix_format(input, error="", model_id=0):
     """
     Fixes the format of the input JSON.
 
@@ -23,7 +23,7 @@ def fix_format(input, model_id=0):
     Returns:
         str: The fixed format of the input JSON.
     """
-    prompt = f"given this json \nOriginal Json: {input}" + open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
+    prompt = f"given this error {error} and json \nOriginal Json: {input}" + open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
     response = str(LLM.generate_chat_response("", prompt, model_id=model_id))
     response = response[response.find("["):response.find("]")+1]
     return response
@@ -41,13 +41,13 @@ def _ontologies_to_unconnected(ont1, ont2):
         return ont1
     try:
         ont1 = json.loads(ont1)
-    except:
+    except Exception as err:
         print(ont1)
-        ont1 = json.loads(fix_format(ont1))
+        ont1 = json.loads(fix_format(ont1, str(err)))
     try:
         ont2 = json.loads(ont2)
-    except:
-        ont2 = json.loads(fix_format(ont2))
+    except Exception as err:
+        ont2 = json.loads(fix_format(ont2, str(err)))
     for triplet in ont2:
         if triplet not in ont1:
             ont1.append(triplet)
@@ -85,10 +85,8 @@ def _combine_ontologies(ont1, ont2, sums, model_id=0):
 def _one_switch(ont):
     try:
         ont = json.loads(ont)
-    except:
-        if ont.strip() == "":
-            return []
-        ont = json.loads(fix_format(ont))
+    except Exception as err:
+        ont = json.loads(fix_format(ont, str(err)))
     df = pd.DataFrame(ont)
     G = nx.Graph()
     for x in df.iloc:

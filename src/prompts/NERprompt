@@ -12,12 +12,27 @@ Available tags:
 <geo-loc>: Geographical locations
 <product>: Objects, vehicles, foods, etc. (not services)
 <event>: Named hurricanes, battles, wars, sports events, etc.
-<work_of_art>: Titles of books, songs, etc.
-<law>: Named documents made into laws
+<work_of_art>: Titles of books, songs, movies, paintings, sculptures, etc.
+<law>: Named documents made into laws, treaties, constitutions, etc.
 <language>: Any named language
-<quantity>: Measurements, as of weight or distance
+<quantity>: Measurements, as of weight, distance, volume, etc.
 <ordinal>: "first", "second", etc.
 <cardinal>: Numerals that do not fall under another type
 <equation>: Mathematical and scientific equations, formulas, or expressions
+<animal>: Named animals, including species, breeds, etc.
+<plant>: Named plants, including species, varieties, etc.
+<material>: Named materials, substances, chemicals, etc.
+<disease>: Named diseases, disorders, conditions, etc.
+<award>: Names of awards, prizes, honorary titles, etc.
+<education>: Names of educational degrees, certifications, programs, etc.
+<nationality>: Nationalities, ethnicities, religious groups, etc.
+<god>: Names of deities, religious figures, mythological characters, etc.
+<internet>: Websites, apps, social media platforms, etc.
+<weapon>: Named weapons, including firearms, explosives, etc.
+<vehicle>: Named vehicles, including car models, aircraft, spacecraft, etc.
+<software>: Named software, operating systems, programming languages, etc.
+<game>: Named games, sports, esports, etc.
+<food>: Named foods, dishes, beverages, ingredients, etc.
+<holiday>: Named holidays, festivals, celebrations, etc.
 
 Text:

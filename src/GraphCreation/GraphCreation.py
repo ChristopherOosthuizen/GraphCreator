@@ -195,26 +195,24 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     Graph = nx.Graph()
     for x in jsons:
         try:
-            if x == "":
-                x= []
-            else:
-                x = json.loads(x)
-        except:
-            x = json.loads(lp.fix_format(x))
+
+            x = json.loads(x)
+        except Exception as err:
+            x = json.loads(lp.fix_format(x,str(err)))
         for y in x:
             Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])
     
     # Save graph as GraphML
-    nx.write_graphml(Graph, output_file + "graph.graphml")
+    nx.write_graphml(Graph, output_file + "/graph.graphml")
     
     # Save graph as JSON
-    with open(output_file + "graph.json", "w") as json_file:
+    with open(output_file + "/graph.json", "w") as json_file:
         json.dump(jsons, json_file)
     
     # Draw and save graph as HTML
     nt = Network(height="1000px",width="100%",bgcolor="#222222",font_color="white", notebook=False)
     nt.from_nx(Graph)
-    nt.show(output_file + "graph.html", notebook=False)
+    nt.show(output_file + "/graph.html", notebook=False)
     
     # Cluster nodes using Leiden algorithm
     leiden_communities = algorithms.leiden(Graph)
@@ -225,7 +223,7 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
         for o, node in enumerate(community):
             nt.get_node(node)['color'] = colors[i % num_clusters]
     # Save clustered graph as HTML
-    nt.show(output_file + "clustered_graph.html", notebook=False)
+    nt.show(output_file + "/clustered_graph.html", notebook=False)
     
     return chunks, Graph
 def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
