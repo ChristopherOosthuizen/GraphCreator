@@ -1,28 +1,39 @@
+Please extract any JSON content from the text that follows this prompt, and return only the extracted JSON. The JSON should match the following format, but may contain errors:
 
-
-Format: ```
 [
   {
-    "node_1": "{response_original_concept_1}",
-    "node_2": "{response_original_concept_2}", 
-    "edge": "{response_original_relationship}"
+    "node_1": "<any_string>",
+    "node_2": "<any_string>", 
+    "edge": "<any_string>"
   },
   {
-    "node_1": "{response_previously_isolated_concept}",
-    "node_2": "{response_existing_connected_concept}",
-    "edge": "{response_new_semantic_relationship}"
+    "node_1": "<any_string>",
+    "node_2": "<any_string>",
+    "edge": "<any_string>" 
   },
   {
-    "node_1": "{response_another_original_concept}",
-    "node_2": "{response_related_original_concept}",
-    "edge": "{response_another_original_relationship}"
+    "node_1": "<any_string>",
+    "node_2": "<any_string>",
+    "edge": "<any_string>"
   },
   {
-    "node_1": "{response_new_bridging_concept}",
-    "node_2": "{response_existing_linked_concept}",
-    "edge": "{response_distant_graph_relationship}"
+    "node_1": "<any_string>",
+    "node_2": "<any_string>",
+    "edge": "<any_string>"
   }
 ]
-```
 
-ensure that the existing JSON matching the template above. But contains all of the original ontology triplets. If no context is given simply return [].
+Each object in the array should contain exactly 3 key-value pairs: 
+- "node_1" with a string value
+- "node_2" with a string value
+- "edge" with a string value
+
+All keys and string values must be enclosed in double quotes.
+
+Remove any blank lines or comments from within the JSON.
+
+The array may contain any number of objects, including 0. 
+
+If no valid JSON matching the above format is found, simply return [].
+
+Do not include any text before or after the JSON - return only the extracted JSON array itself, or [] if no matching JSON is found.
