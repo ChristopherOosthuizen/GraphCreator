@@ -31,8 +31,8 @@ def follow_premise(answer, chunk):
     return probs
 
 def llm_as_judge(response1, response2):
-    system_prompt = open("../prompts/judgesys").read()
-    user_prompt = f"response1: {response1} response2: {response2}"+open("../prompts/judgestandard").read()
+    system_prompt = open(os.path.join(prompts_dir,"judgesys")).read()
+    user_prompt = f"response1: {response1} response2: {response2}"+open(os.path.join(prompts_dir,"judgestandard")).read()
     return 1 if "[[A]]" in lm.generate_chat_response(system_prompt, user_prompt) else 0
 
 def llm_benchmark(graph, chunks):
@@ -150,7 +150,7 @@ def create_DPO(file, output_file="./output/"):
                 maxs = z
             if z["score"] < mins["score"]:
                 mins = z
-        inputs = open("../prompts/TripletCreationSystem").read()+ f"Context: ```{chunks[c]}``` \n\nOutput: "
+        inputs = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()+ f"Context: ```{chunks[c]}``` \n\nOutput: "
         result_output = {"input":inputs ,"taken":maxs['output'], "rejected":mins['output'], "taken_score":maxs["score"], "rejected_score":mins["score"]}
         resulter.append(result_output)
         pd.DataFrame(resulter).to_csv(output_file+"results.csv")
