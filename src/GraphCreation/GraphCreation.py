@@ -196,7 +196,7 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     for x in jsons:
         try:
             if x == "":
-                x= "[]"
+                x= []
             else:
                 x = json.loads(x)
         except:
