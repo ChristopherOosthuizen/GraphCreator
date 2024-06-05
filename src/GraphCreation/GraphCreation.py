@@ -188,11 +188,11 @@ def generate_colors(num_clusters):
     
 
 def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair",num=10):
+    if not os.path.exists(output_file):
+        os.makedirs(output_file)
     repeats = chunks_precentage_linked
     jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner, ner_type=ner_type,num=num)
     Graph = nx.Graph()
-    if not os.path.exists(output_file):
-        os.makedirs(output_file)
     for x in jsons:
         try:
             x = json.loads(x)
