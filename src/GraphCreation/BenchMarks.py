@@ -58,9 +58,8 @@ def networkx_statistics(graph):
     average_shortest_path = 0
     for x in connected_graphs:
         average_shortest_path += nx.average_shortest_path_length(graph.subgraph(x))
-    result = {"bridge_edges": [len(list(nx.bridges(graph))), "Minimize", "Compress",1], #Number of edges that can be removed to disconnect the graph/ Minimize
-               "articulation_points": [len(list(nx.articulation_points(graph))), "Minimize", "Compress",1], # Number of nodes that can be removed to connect the graph/ Minimize
-               "average_degree": [sum(dict(graph.degree()).values())/graph.number_of_nodes(),"Maximize","Compress",4], # Average number of edges connected to a node/ Maximize
+    result = {"bridge_edges": [len(list(nx.bridges(graph))), "Minimize", "Compress",1], #Number of edges that can be removed to disconnect the graph/ Minimizeß
+               "average_degree": [sum(dict(graph.degree()).values())/graph.number_of_nodes(),"Maximize","Compress",2], # Average number of edges connected to a node/ Maximize
                 "efficency": [nx.global_efficiency(graph), "Maximize", "Standard",2], # Inverse of the average shortest path length/ Maximize
                 "average_betweenness": [sum(nx.betweenness_centrality(graph).values())/graph.number_of_nodes(),"Maximize", "Standard",3], # Average number of shortest paths that pass through a node/ Maximize
                 "average_reaching": [nx.global_reaching_centrality(graph), "Maximize","Standard",3], # The average number of nodes that can be reached from a node/ Maximize
@@ -68,7 +67,7 @@ def networkx_statistics(graph):
                 "number_of_triangles": [number_of_triangles, "Maximize","Compress",1], # Number of triangles in the graph/ Maximize
                 "number_of_nodes": [graph.number_of_nodes(),"Maximize","Compress",4], # Number of nodes in the graph/ Maximize
                 "number_of_edges": [graph.number_of_edges(),"Maximize", "Compress",4], # Number of edges in the graph/ Maximize
-                "average_clustering": [nx.average_clustering(graph),"Maximize", "Compress",3], # The clustering coefficient of the graph/ Maximize
+                "average_clustering": [nx.average_clustering(graph),"Maximize", "Compress",2], # The clustering coefficient of the graph/ Maximize
                 "average_shortest_path": [average_shortest_path/len(connected_graphs),"Minimize","Compress",4] # The average shortest path length of the graph/ Minimize
             }
     return result

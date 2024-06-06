@@ -77,7 +77,7 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
     ]
     outputs = pipeline(
         prompter,
-        max_new_tokens=7000,
+        max_new_tokens=5000,
         eos_token_id=terminators,
         do_sample=True,
         temperature=0.1,
