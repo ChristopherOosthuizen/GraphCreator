@@ -1,400 +1,598 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="mp"/>
-<node id="knight of the shire"/>
-<node id="british house of commons"/>
-<node id="parliament"/>
-<node id="wales"/>
-<node id="county constituency"/>
-<node id="title"/>
-<node id="parliamentary elections act 1444 (23 hen. 6. c. 14)"/>
-<node id="burgess"/>
-<node id="redistribution of seats act 1885"/>
-<node id="conservative party backbenchers"/>
-<node id="england"/>
-<node id="shire"/>
-<node id="yorkshire"/>
-<node id="two knights"/>
-<node id="disfranchisement"/>
-<node id="great council"/>
-<node id="belted knight"/>
-<node id="parliament of england"/>
-<node id="simon de montfort"/>
-<node id="1265"/>
-<node id="edward iii"/>
-<node id="bicameral structure"/>
-<node id="legislative powers"/>
-<node id="forty-shilling freeholders"/>
-<node id="writ of election"/>
-<node id="representation of the people act 1832"/>
-<node id="standardisation of the franchise"/>
-<node id="borough constituency"/>
-<node id="baron"/>
-<node id="county"/>
-<node id="counties"/>
-<node id="1826"/>
-<node id="knights of the shire"/>
-<node id="electors of knights of the shire act 1432"/>
-<node id="grampound"/>
-<node id="buckinghamshire"/>
-<node id="property"/>
-<node id="reform act of 1884"/>
-<node id="representation of the people act 1918"/>
-<node id="knights"/>
-<node id="cinque ports constituency"/>
-<node id="burgesses"/>
-<node id="advice chamber"/>
-<node id="king"/>
-<node id="peers"/>
-<node id="ecclesiastics"/>
-<node id="magnum concilium"/>
-<node id="house of commons"/>
-<node id="house of lords"/>
-<node id="electorate"/>
-<node id="sir peter de la mare"/>
-<node id="position created"/>
-<node id="members"/>
-<node id="resident"/>
-<node id="montfort's parliament"/>
-<node id="representatives from the boroughs"/>
-<node id="model for"/>
-<node id="act of 1430"/>
-<node id="county franchise"/>
-<node id="law"/>
-<node id="electors of knights of the shires act 1429"/>
-<node id="1432"/>
-<node id="1832 reform act"/>
-<node id="the text of the 1832 reform act"/>
-<node id="date"/>
-<node id="chronological table of the statutes: part 1 1235-1962"/>
-<node id="the stationery office ltd"/>
-<node id="1999"/>
-<node id="work_of_art"/>
-<node id="organization"/>
-<node id="electoral reform in england and wales"/>
-<node id="charles seymour"/>
-<node id="david &amp; charles reprints"/>
-<node id="1970"/>
-<node id="person"/>
-<node id="the statutes: revised edition, vol. i henry iii to james ii"/>
-<node id="authority"/>
-<node id="1876"/>
-<node id="the statutes: second revised edition, vol. xvi 1884-1886"/>
-<node id="1900"/>
-<node id="1235"/>
-<edge source="mp" target="knight of the shire">
-  <data key="d0">is the formal title for</data>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="election eligibility">
+  <data key="d0">election eligibility</data>
+</node>
+<node id="knight">
+  <data key="d0">knight</data>
+</node>
+<node id="parliamentary elections act 1444">
+  <data key="d0">parliamentary elections act 1444</data>
+</node>
+<node id="knight of the shire">
+  <data key="d0">knight of the shire</data>
+</node>
+<node id="henry vi">
+  <data key="d0">henry vi</data>
+</node>
+<node id="parliament">
+  <data key="d0">parliament</data>
+</node>
+<node id="mp">
+  <data key="d0">mp</data>
+</node>
+<node id="burgess">
+  <data key="d0">burgess</data>
+</node>
+<node id="redistribution of seats act 1885">
+  <data key="d0">redistribution of seats act 1885</data>
+</node>
+<node id="conservative party backbenchers">
+  <data key="d0">conservative party backbenchers</data>
+</node>
+<node id="sir peter de la mare">
+  <data key="d0">sir peter de la mare</data>
+</node>
+<node id="gentlemen">
+  <data key="d0">gentlemen</data>
+</node>
+<node id="notable esquires">
+  <data key="d0">notable esquires</data>
+</node>
+<node id="knighthood">
+  <data key="d0">knighthood</data>
+</node>
+<node id="edward iii">
+  <data key="d0">edward iii</data>
+</node>
+<node id="magnum concilium">
+  <data key="d0">magnum concilium</data>
+</node>
+<node id="legislative powers">
+  <data key="d0">legislative powers</data>
+</node>
+<node id="great council">
+  <data key="d0">great council</data>
+</node>
+<node id="electors of knights of the shires act 1429">
+  <data key="d0">electors of knights of the shires act 1429</data>
+</node>
+<node id="knight of the shire elections">
+  <data key="d0">knight of the shire elections</data>
+</node>
+<node id="voter qualification">
+  <data key="d0">voter qualification</data>
+</node>
+<node id="county constituency">
+  <data key="d0">county constituency</data>
+</node>
+<node id="citizen">
+  <data key="d0">citizen</data>
+</node>
+<node id="baron">
+  <data key="d0">baron</data>
+</node>
+<node id="borough constituency">
+  <data key="d0">borough constituency</data>
+</node>
+<node id="cinque ports constituency">
+  <data key="d0">cinque ports constituency</data>
+</node>
+<node id="parliament of england">
+  <data key="d0">parliament of england</data>
+</node>
+<node id="single constituency per shire">
+  <data key="d0">single constituency per shire</data>
+</node>
+<node id="multiple single-seat divisions">
+  <data key="d0">multiple single-seat divisions</data>
+</node>
+<node id="standardisation of the franchise">
+  <data key="d0">standardisation of the franchise</data>
+</node>
+<node id="representation of the people act 1832">
+  <data key="d0">representation of the people act 1832</data>
+</node>
+<node id="greater london">
+  <data key="d0">greater london</data>
+</node>
+<node id="grampound borough">
+  <data key="d0">grampound borough</data>
+</node>
+<node id="thomas edlyne tomlins">
+  <data key="d0">thomas edlyne tomlins</data>
+</node>
+<node id="thomas colpitts granger">
+  <data key="d0">thomas colpitts granger</data>
+</node>
+<node id="j. s. roskell">
+  <data key="d0">j. s. roskell</data>
+</node>
+<node id="forty-shilling freeholders">
+  <data key="d0">forty-shilling freeholders</data>
+</node>
+<node id="long service">
+  <data key="d0">long service</data>
+</node>
+<node id="house of commons">
+  <data key="d0">house of commons</data>
+</node>
+<node id="knights of the shire">
+  <data key="d0">knights of the shire</data>
+</node>
+<node id="king">
+  <data key="d0">king</data>
+</node>
+<node id="county franchise">
+  <data key="d0">county franchise</data>
+</node>
+<node id="electors of knights of the shire act 1432">
+  <data key="d0">electors of knights of the shire act 1432</data>
+</node>
+<node id="forty-shilling freeholder">
+  <data key="d0">forty-shilling freeholder</data>
+</node>
+<node id="british house of commons">
+  <data key="d0">british house of commons</data>
+</node>
+<node id="election expenses">
+  <data key="d0">election expenses</data>
+</node>
+<node id="returning officer">
+  <data key="d0">returning officer</data>
+</node>
+<node id="borough">
+  <data key="d0">borough</data>
+</node>
+<node id="larger counties">
+  <data key="d0">larger counties</data>
+</node>
+<node id="forty-shilling freehold">
+  <data key="d0">forty-shilling freehold</data>
+</node>
+<node id="disfranchisement">
+  <data key="d0">disfranchisement</data>
+</node>
+<node id="person">
+  <data key="d0">person</data>
+</node>
+<node id="the law-dictionary, explaining the rise progress and present state of the british law">
+  <data key="d0">the law-dictionary, explaining the rise progress and present state of the british law</data>
+</node>
+<node id="history of parliament online">
+  <data key="d0">history of parliament online</data>
+</node>
+<node id="the english parliament in the middle ages">
+  <data key="d0">the english parliament in the middle ages</data>
+</node>
+<node id="manchester university press">
+  <data key="d0">manchester university press</data>
+</node>
+<node id="house of lords">
+  <data key="d0">house of lords</data>
+</node>
+<node id="speaker of the house of commons">
+  <data key="d0">speaker of the house of commons</data>
+</node>
+<node id="yorkshire">
+  <data key="d0">yorkshire</data>
+</node>
+<node id="charles seymour">
+  <data key="d0">charles seymour</data>
+</node>
+<node id="city status">
+  <data key="d0">city status</data>
+</node>
+<node id="county">
+  <data key="d0">county</data>
+</node>
+<node id="william blackstone">
+  <data key="d0">william blackstone</data>
+</node>
+<node id="matthew engel">
+  <data key="d0">matthew engel</data>
+</node>
+<node id="chris given-wilson">
+  <data key="d0">chris given-wilson</data>
+</node>
+<node id="r.g. davies">
+  <data key="d0">r.g. davies</data>
+</node>
+<node id="j.h. denton">
+  <data key="d0">j.h. denton</data>
+</node>
+<node id="simon schama">
+  <data key="d0">simon schama</data>
+</node>
+<node id="organization">
+  <data key="d0">organization</data>
+</node>
+<node id="office">
+  <data key="d0">office</data>
+</node>
+<node id="1826">
+  <data key="d0">1826</data>
+</node>
+<node id="electoral reform in england and wales">
+  <data key="d0">electoral reform in england and wales</data>
+</node>
+<node id="yale university press">
+  <data key="d0">yale university press</data>
+</node>
+<node id="electoral reform in england and wales; the development and operation of the parliamentary franchise, 1832-1885">
+  <data key="d0">electoral reform in england and wales; the development and operation of the parliamentary franchise, 1832-1885</data>
+</node>
+<node id="david &amp; charles reprints">
+  <data key="d0">david &amp; charles reprints</data>
+</node>
+<node id="commentaries on the laws of england">
+  <data key="d0">commentaries on the laws of england</data>
+</node>
+<node id="the financial times">
+  <data key="d0">the financial times</data>
+</node>
+<node id="chronicles: the writing of history in medieval england">
+  <data key="d0">chronicles: the writing of history in medieval england</data>
+</node>
+<node id="continuum international publishing group">
+  <data key="d0">continuum international publishing group</data>
+</node>
+<node id="a history of britain 1: 3000 bc-ad 1603 at the edge of the world?">
+  <data key="d0">a history of britain 1: 3000 bc-ad 1603 at the edge of the world?</data>
+</node>
+<node id="bbc worldwide">
+  <data key="d0">bbc worldwide</data>
+</node>
+<node id="the stationery office ltd">
+  <data key="d0">the stationery office ltd</data>
+</node>
+<node id="chronological table of the statutes: part 1 1235-1962">
+  <data key="d0">chronological table of the statutes: part 1 1235-1962</data>
+</node>
+<node id="conservative backbenchers">
+  <data key="d0">conservative backbenchers</data>
+</node>
+<node id="burgesses">
+  <data key="d0">burgesses</data>
+</node>
+<node id="boroughs">
+  <data key="d0">boroughs</data>
+</node>
+<edge source="election eligibility" target="knight">
+  <data key="d1">required for</data>
 </edge>
-<edge source="mp" target="british house of commons">
-  <data key="d0">serves in</data>
+<edge source="election eligibility" target="parliamentary elections act 1444">
+  <data key="d1">defined eligibility requirements for</data>
 </edge>
-<edge source="mp" target="parliament">
-  <data key="d0">member of</data>
+<edge source="knight" target="knight of the shire">
+  <data key="d1">title originally implied</data>
 </edge>
-<edge source="knight of the shire" target="wales">
-  <data key="d0">represent in</data>
+<edge source="parliamentary elections act 1444" target="henry vi">
+  <data key="d1">proclaimed</data>
 </edge>
-<edge source="knight of the shire" target="county constituency">
-  <data key="d0">represents</data>
+<edge source="parliamentary elections act 1444" target="parliament">
+  <data key="d1">regulated election law with</data>
 </edge>
-<edge source="knight of the shire" target="title">
-  <data key="d0">isa</data>
-</edge>
-<edge source="knight of the shire" target="parliamentary elections act 1444 (23 hen. 6. c. 14)">
-  <data key="d0">stipulated election eligibility for</data>
+<edge source="knight of the shire" target="mp">
+  <data key="d1">is the formal title for</data>
 </edge>
 <edge source="knight of the shire" target="burgess">
-  <data key="d0">has less prestige than</data>
+  <data key="d1">has more prestige than</data>
 </edge>
 <edge source="knight of the shire" target="redistribution of seats act 1885">
-  <data key="d0">ended the practice of</data>
+  <data key="d1">made term obsolete</data>
+</edge>
+<edge source="knight of the shire" target="parliament">
+  <data key="d1">elected members of</data>
 </edge>
 <edge source="knight of the shire" target="conservative party backbenchers">
-  <data key="d0">figuratively refers to</data>
+  <data key="d1">used tongue-in-cheek for</data>
 </edge>
-<edge source="knight of the shire" target="england">
-  <data key="d0">represent in</data>
+<edge source="knight of the shire" target="sir peter de la mare">
+  <data key="d1">was an early example of</data>
 </edge>
-<edge source="knight of the shire" target="shire">
-  <data key="d0">title associated with</data>
+<edge source="knight of the shire" target="gentlemen">
+  <data key="d1">included among</data>
 </edge>
-<edge source="knight of the shire" target="yorkshire">
-  <data key="d0">represent larger shire</data>
+<edge source="knight of the shire" target="notable esquires">
+  <data key="d1">included among</data>
 </edge>
-<edge source="knight of the shire" target="two knights">
-  <data key="d0">standard number until 1826</data>
-</edge>
-<edge source="knight of the shire" target="disfranchisement">
-  <data key="d0">change affected by</data>
-</edge>
-<edge source="knight of the shire" target="great council">
-  <data key="d0">consists of</data>
-</edge>
-<edge source="knight of the shire" target="belted knight">
-  <data key="d0">akin to</data>
-</edge>
-<edge source="knight of the shire" target="act of 1430">
-  <data key="d0">regulated by</data>
-</edge>
-<edge source="british house of commons" target="parliament of england">
-  <data key="d0">is part of</data>
-</edge>
-<edge source="british house of commons" target="parliament">
-  <data key="d0">includes</data>
-</edge>
-<edge source="parliament" target="simon de montfort">
-  <data key="d0">established</data>
-</edge>
-<edge source="parliament" target="1265">
-  <data key="d0">year established</data>
+<edge source="knight of the shire" target="knighthood">
+  <data key="d1">traditionally required</data>
 </edge>
 <edge source="parliament" target="edward iii">
-  <data key="d0">split</data>
+  <data key="d1">split into bicameral structure</data>
 </edge>
-<edge source="parliament" target="bicameral structure">
-  <data key="d0">split into</data>
+<edge source="parliament" target="magnum concilium">
+  <data key="d1">evolved to</data>
 </edge>
 <edge source="parliament" target="legislative powers">
-  <data key="d0">gained</data>
+  <data key="d1">gained in 1295</data>
 </edge>
-<edge source="parliament" target="forty-shilling freeholders">
-  <data key="d0">participated in</data>
+<edge source="parliament" target="great council">
+  <data key="d1">evolved to</data>
 </edge>
-<edge source="county constituency" target="redistribution of seats act 1885">
-  <data key="d0">restructured</data>
+<edge source="parliament" target="electors of knights of the shires act 1429">
+  <data key="d1">established voter eligibility changes</data>
 </edge>
-<edge source="county constituency" target="writ of election">
-  <data key="d0">organizes elections for</data>
+<edge source="parliament" target="knight of the shire elections">
+  <data key="d1">for representation in</data>
 </edge>
-<edge source="parliamentary elections act 1444 (23 hen. 6. c. 14)" target="representation of the people act 1832">
-  <data key="d0">historical evolution</data>
+<edge source="parliament" target="voter qualification">
+  <data key="d1">impacts election results in</data>
 </edge>
-<edge source="parliamentary elections act 1444 (23 hen. 6. c. 14)" target="parliament of england">
-  <data key="d0">historic regulation</data>
+<edge source="mp" target="county constituency">
+  <data key="d1">represents</data>
 </edge>
-<edge source="parliamentary elections act 1444 (23 hen. 6. c. 14)" target="standardisation of the franchise">
-  <data key="d0">preceded by</data>
+<edge source="mp" target="burgess">
+  <data key="d1">is the formal title for mps in borough constituencies</data>
 </edge>
-<edge source="parliamentary elections act 1444 (23 hen. 6. c. 14)" target="law">
-  <data key="d0">related to</data>
+<edge source="mp" target="citizen">
+  <data key="d1">is the corresponding title for mps in city status boroughs</data>
+</edge>
+<edge source="mp" target="baron">
+  <data key="d1">is the formal title for mps in cinque ports constituencies</data>
+</edge>
+<edge source="mp" target="burgesses">
+  <data key="d1">title applies similarly to</data>
 </edge>
 <edge source="burgess" target="borough constituency">
-  <data key="d0">corresponds to</data>
+  <data key="d1">is the formal title for mps in</data>
 </edge>
-<edge source="burgess" target="baron">
-  <data key="d0">similar to</data>
+<edge source="burgess" target="cinque ports constituency">
+  <data key="d1">is a different title compared to</data>
 </edge>
-<edge source="redistribution of seats act 1885" target="county">
-  <data key="d0">affected</data>
+<edge source="redistribution of seats act 1885" target="county constituency">
+  <data key="d1">split into multiple single-seat divisions by</data>
+</edge>
+<edge source="redistribution of seats act 1885" target="parliament of england">
+  <data key="d1">practice ended by</data>
+</edge>
+<edge source="redistribution of seats act 1885" target="single constituency per shire">
+  <data key="d1">ended practice of</data>
+</edge>
+<edge source="redistribution of seats act 1885" target="multiple single-seat divisions">
+  <data key="d1">split shires into</data>
 </edge>
 <edge source="redistribution of seats act 1885" target="standardisation of the franchise">
-  <data key="d0">concomitantly caused</data>
+  <data key="d1">implemented</data>
 </edge>
-<edge source="redistribution of seats act 1885" target="borough constituency">
-  <data key="d0">also restructured</data>
+<edge source="redistribution of seats act 1885" target="representation of the people act 1832">
+  <data key="d1">reformed structure by</data>
 </edge>
-<edge source="redistribution of seats act 1885" target="counties">
-  <data key="d0">destroyed</data>
+<edge source="redistribution of seats act 1885" target="greater london">
+  <data key="d1">increased representation for densely populated areas</data>
 </edge>
-<edge source="shire" target="two knights">
-  <data key="d0">sent</data>
+<edge source="redistribution of seats act 1885" target="grampound borough">
+  <data key="d1">influenced by disfranchisement of</data>
 </edge>
-<edge source="yorkshire" target="1826">
-  <data key="d0">gained additional knights in</data>
+<edge source="redistribution of seats act 1885" target="thomas edlyne tomlins">
+  <data key="d1">researched by</data>
 </edge>
-<edge source="yorkshire" target="knights of the shire">
-  <data key="d0">elected</data>
+<edge source="redistribution of seats act 1885" target="thomas colpitts granger">
+  <data key="d1">researched by</data>
 </edge>
-<edge source="yorkshire" target="county">
-  <data key="d0">is a</data>
+<edge source="redistribution of seats act 1885" target="j. s. roskell">
+  <data key="d1">analyzed by</data>
 </edge>
-<edge source="yorkshire" target="electors of knights of the shire act 1432">
-  <data key="d0">applied to</data>
+<edge source="redistribution of seats act 1885" target="forty-shilling freeholders">
+  <data key="d1">standardised franchise for</data>
 </edge>
-<edge source="disfranchisement" target="grampound">
-  <data key="d0">was affected by</data>
+<edge source="conservative party backbenchers" target="long service">
+  <data key="d1">recognized for</data>
 </edge>
-<edge source="great council" target="burgesses">
-  <data key="d0">included</data>
+<edge source="sir peter de la mare" target="edward iii">
+  <data key="d1">imprisoned for complaints against</data>
 </edge>
-<edge source="great council" target="advice chamber">
-  <data key="d0">is an</data>
+<edge source="sir peter de la mare" target="house of commons">
+  <data key="d1">conveyed complaints to lords on behalf of</data>
 </edge>
-<edge source="great council" target="king">
-  <data key="d0">advised</data>
+<edge source="gentlemen" target="notable esquires">
+  <data key="d1">have sufficient estates to be knights</data>
 </edge>
-<edge source="great council" target="peers">
-  <data key="d0">consists of</data>
+<edge source="knighthood" target="conservative backbenchers">
+  <data key="d1">often possess</data>
 </edge>
-<edge source="great council" target="ecclesiastics">
-  <data key="d0">consists of</data>
+<edge source="magnum concilium" target="knights of the shire">
+  <data key="d1">summoned to</data>
 </edge>
-<edge source="great council" target="knights of the shire">
-  <data key="d0">consists of</data>
+<edge source="magnum concilium" target="king">
+  <data key="d1">advice chamber to</data>
 </edge>
-<edge source="great council" target="magnum concilium">
-  <data key="d0">is</data>
+<edge source="magnum concilium" target="great council">
+  <data key="d1">precursor to the english parliamentary system</data>
 </edge>
-<edge source="belted knight" target="writ of election">
-  <data key="d0">referred to</data>
+<edge source="electors of knights of the shires act 1429" target="county franchise">
+  <data key="d1">legislated new uniform</data>
 </edge>
-<edge source="edward iii" target="king">
-  <data key="d0">was</data>
+<edge source="electors of knights of the shires act 1429" target="electors of knights of the shire act 1432">
+  <data key="d1">amended and re-enacted the law</data>
 </edge>
-<edge source="bicameral structure" target="house of commons">
-  <data key="d0">includes</data>
+<edge source="electors of knights of the shires act 1429" target="forty-shilling freeholder">
+  <data key="d1">term defined by</data>
 </edge>
-<edge source="bicameral structure" target="house of lords">
-  <data key="d0">includes</data>
+<edge source="knight of the shire elections" target="forty-shilling freeholders">
+  <data key="d1">became restricted to before 1430</data>
 </edge>
-<edge source="forty-shilling freeholders" target="electorate">
-  <data key="d0">restricted to</data>
+<edge source="voter qualification" target="forty-shilling freeholders">
+  <data key="d1">requirement for</data>
 </edge>
-<edge source="representation of the people act 1832" target="county">
-  <data key="d0">allowed larger populations to send more knights from</data>
+<edge source="county constituency" target="british house of commons">
+  <data key="d1">is a part of</data>
 </edge>
-<edge source="representation of the people act 1832" target="reform act of 1884">
-  <data key="d0">paved the way for</data>
+<edge source="county constituency" target="borough constituency">
+  <data key="d1">differ only slightly from</data>
 </edge>
-<edge source="representation of the people act 1832" target="representation of the people act 1918">
-  <data key="d0">precursor of</data>
+<edge source="county constituency" target="election expenses">
+  <data key="d1">differ in terms of</data>
 </edge>
-<edge source="representation of the people act 1832" target="knights">
-  <data key="d0">raised number</data>
+<edge source="county constituency" target="returning officer">
+  <data key="d1">differ in type of</data>
 </edge>
-<edge source="representation of the people act 1832" target="county franchise">
-  <data key="d0">affected by</data>
-</edge>
-<edge source="borough constituency" target="cinque ports constituency">
-  <data key="d0">merged with</data>
+<edge source="citizen" target="borough">
+  <data key="d1">is the corresponding title for mps if</data>
 </edge>
 <edge source="baron" target="cinque ports constituency">
-  <data key="d0">corresponds to</data>
+  <data key="d1">is the title for mps in</data>
 </edge>
-<edge source="county" target="buckinghamshire">
-  <data key="d0">is a</data>
+<edge source="borough constituency" target="standardisation of the franchise">
+  <data key="d1">differentiated from county constituency prior to</data>
 </edge>
-<edge source="county" target="property">
-  <data key="d0">includes different types of</data>
+<edge source="representation of the people act 1832" target="larger counties">
+  <data key="d1">allowed more knights for</data>
 </edge>
-<edge source="knights of the shire" target="buckinghamshire">
-  <data key="d0">elected</data>
+<edge source="representation of the people act 1832" target="knights of the shire">
+  <data key="d1">increased number sent by populous counties</data>
 </edge>
-<edge source="electors of knights of the shire act 1432" target="resident">
-  <data key="d0">required</data>
+<edge source="representation of the people act 1832" target="forty-shilling freehold">
+  <data key="d1">extended franchise to</data>
 </edge>
-<edge source="reform act of 1884" target="electorate">
-  <data key="d0">widened structure of</data>
+<edge source="grampound borough" target="disfranchisement">
+  <data key="d1">led to</data>
 </edge>
-<edge source="representation of the people act 1918" target="electorate">
-  <data key="d0">widened structure of</data>
+<edge source="thomas edlyne tomlins" target="person">
+  <data key="d1">isa</data>
 </edge>
-<edge source="house of commons" target="sir peter de la mare">
-  <data key="d0">appointed</data>
+<edge source="thomas edlyne tomlins" target="thomas colpitts granger">
+  <data key="d1">collaborated on 'knights of the shire'</data>
 </edge>
-<edge source="house of commons" target="position created">
-  <data key="d0">speaker of</data>
+<edge source="thomas edlyne tomlins" target="the law-dictionary, explaining the rise progress and present state of the british law">
+  <data key="d1">is author of</data>
 </edge>
-<edge source="house of commons" target="electorate">
-  <data key="d0">served by</data>
+<edge source="thomas colpitts granger" target="person">
+  <data key="d1">isa</data>
 </edge>
-<edge source="house of commons" target="members">
-  <data key="d0">composed of</data>
+<edge source="thomas colpitts granger" target="the law-dictionary, explaining the rise progress and present state of the british law">
+  <data key="d1">is author of</data>
 </edge>
-<edge source="house of lords" target="sir peter de la mare">
-  <data key="d0">received complaints from</data>
+<edge source="j. s. roskell" target="person">
+  <data key="d1">isa</data>
 </edge>
-<edge source="electorate" target="resident">
-  <data key="d0">belong to</data>
+<edge source="j. s. roskell" target="history of parliament online">
+  <data key="d1">is author of</data>
 </edge>
-<edge source="members" target="montfort's parliament">
-  <data key="d0">elected</data>
+<edge source="j. s. roskell" target="the english parliament in the middle ages">
+  <data key="d1">is co-author of</data>
 </edge>
-<edge source="montfort's parliament" target="representatives from the boroughs">
-  <data key="d0">included</data>
+<edge source="j. s. roskell" target="manchester university press">
+  <data key="d1">is published by</data>
 </edge>
-<edge source="montfort's parliament" target="model for">
-  <data key="d0">parliament</data>
+<edge source="long service" target="conservative backbenchers">
+  <data key="d1">usually referenced for</data>
 </edge>
-<edge source="act of 1430" target="county franchise">
-  <data key="d0">determined by</data>
+<edge source="house of commons" target="house of lords">
+  <data key="d1">bicameral structure components</data>
 </edge>
-<edge source="county franchise" target="electors of knights of the shires act 1429">
-  <data key="d0">standardized</data>
+<edge source="house of commons" target="speaker of the house of commons">
+  <data key="d1">led by the office of</data>
 </edge>
-<edge source="law" target="electors of knights of the shires act 1429">
-  <data key="d0">isa</data>
+<edge source="knights of the shire" target="yorkshire">
+  <data key="d1">increased representation in</data>
 </edge>
-<edge source="electors of knights of the shires act 1429" target="1432">
-  <data key="d0">amended</data>
+<edge source="county franchise" target="charles seymour">
+  <data key="d1">discussed</data>
 </edge>
-<edge source="1832 reform act" target="the text of the 1832 reform act">
-  <data key="d0">can be found at</data>
+<edge source="borough" target="city status">
+  <data key="d1">has</data>
 </edge>
-<edge source="1832 reform act" target="date">
-  <data key="d0">isa</data>
+<edge source="forty-shilling freehold" target="county">
+  <data key="d1">voter qualification</data>
 </edge>
-<edge source="date" target="1999">
-  <data key="d0">isa</data>
+<edge source="person" target="charles seymour">
+  <data key="d1">isa</data>
 </edge>
-<edge source="date" target="1970">
-  <data key="d0">isa</data>
+<edge source="person" target="william blackstone">
+  <data key="d1">isa</data>
 </edge>
-<edge source="date" target="1876">
-  <data key="d0">isa</data>
+<edge source="person" target="matthew engel">
+  <data key="d1">isa</data>
 </edge>
-<edge source="date" target="1900">
-  <data key="d0">isa</data>
+<edge source="person" target="chris given-wilson">
+  <data key="d1">isa</data>
 </edge>
-<edge source="chronological table of the statutes: part 1 1235-1962" target="the stationery office ltd">
-  <data key="d0">published by</data>
+<edge source="person" target="r.g. davies">
+  <data key="d1">isa</data>
 </edge>
-<edge source="chronological table of the statutes: part 1 1235-1962" target="1999">
-  <data key="d0">published in</data>
+<edge source="person" target="j.h. denton">
+  <data key="d1">isa</data>
 </edge>
-<edge source="chronological table of the statutes: part 1 1235-1962" target="work_of_art">
-  <data key="d0">isa</data>
+<edge source="person" target="simon schama">
+  <data key="d1">isa</data>
 </edge>
-<edge source="chronological table of the statutes: part 1 1235-1962" target="1235">
-  <data key="d0">starts from</data>
+<edge source="the english parliament in the middle ages" target="r.g. davies">
+  <data key="d1">is co-author of</data>
 </edge>
-<edge source="the stationery office ltd" target="organization">
-  <data key="d0">isa</data>
+<edge source="the english parliament in the middle ages" target="j.h. denton">
+  <data key="d1">is co-author of</data>
 </edge>
-<edge source="work_of_art" target="electoral reform in england and wales">
-  <data key="d0">isa</data>
+<edge source="manchester university press" target="r.g. davies">
+  <data key="d1">is published by</data>
 </edge>
-<edge source="work_of_art" target="the statutes: revised edition, vol. i henry iii to james ii">
-  <data key="d0">isa</data>
+<edge source="manchester university press" target="j.h. denton">
+  <data key="d1">is published by</data>
 </edge>
-<edge source="work_of_art" target="the statutes: second revised edition, vol. xvi 1884-1886">
-  <data key="d0">isa</data>
+<edge source="manchester university press" target="organization">
+  <data key="d1">isa</data>
+</edge>
+<edge source="speaker of the house of commons" target="office">
+  <data key="d1">created for representative voice</data>
+</edge>
+<edge source="yorkshire" target="1826">
+  <data key="d1">gained additional knights in</data>
+</edge>
+<edge source="charles seymour" target="electoral reform in england and wales">
+  <data key="d1">is author of</data>
+</edge>
+<edge source="charles seymour" target="yale university press">
+  <data key="d1">is published by</data>
+</edge>
+<edge source="charles seymour" target="electoral reform in england and wales; the development and operation of the parliamentary franchise, 1832-1885">
+  <data key="d1">is author of</data>
+</edge>
+<edge source="charles seymour" target="david &amp; charles reprints">
+  <data key="d1">is published by</data>
+</edge>
+<edge source="william blackstone" target="commentaries on the laws of england">
+  <data key="d1">is author of</data>
+</edge>
+<edge source="matthew engel" target="the financial times">
+  <data key="d1">is published in</data>
+</edge>
+<edge source="chris given-wilson" target="chronicles: the writing of history in medieval england">
+  <data key="d1">is author of</data>
+</edge>
+<edge source="chris given-wilson" target="continuum international publishing group">
+  <data key="d1">is published by</data>
+</edge>
+<edge source="simon schama" target="a history of britain 1: 3000 bc-ad 1603 at the edge of the world?">
+  <data key="d1">is author of</data>
+</edge>
+<edge source="simon schama" target="bbc worldwide">
+  <data key="d1">is published by</data>
+</edge>
+<edge source="organization" target="yale university press">
+  <data key="d1">isa</data>
 </edge>
 <edge source="organization" target="david &amp; charles reprints">
-  <data key="d0">isa</data>
+  <data key="d1">isa</data>
 </edge>
-<edge source="electoral reform in england and wales" target="charles seymour">
-  <data key="d0">written by</data>
+<edge source="organization" target="the financial times">
+  <data key="d1">isa</data>
 </edge>
-<edge source="electoral reform in england and wales" target="david &amp; charles reprints">
-  <data key="d0">published by</data>
+<edge source="organization" target="continuum international publishing group">
+  <data key="d1">isa</data>
 </edge>
-<edge source="electoral reform in england and wales" target="1970">
-  <data key="d0">published in</data>
+<edge source="organization" target="bbc worldwide">
+  <data key="d1">isa</data>
 </edge>
-<edge source="charles seymour" target="person">
-  <data key="d0">isa</data>
+<edge source="organization" target="the stationery office ltd">
+  <data key="d1">isa</data>
 </edge>
-<edge source="the statutes: revised edition, vol. i henry iii to james ii" target="authority">
-  <data key="d0">printed by</data>
+<edge source="the stationery office ltd" target="chronological table of the statutes: part 1 1235-1962">
+  <data key="d1">published</data>
 </edge>
-<edge source="the statutes: revised edition, vol. i henry iii to james ii" target="1876">
-  <data key="d0">printed in</data>
-</edge>
-<edge source="authority" target="the statutes: second revised edition, vol. xvi 1884-1886">
-  <data key="d0">printed by</data>
-</edge>
-<edge source="the statutes: second revised edition, vol. xvi 1884-1886" target="1900">
-  <data key="d0">printed in</data>
+<edge source="burgesses" target="boroughs">
+  <data key="d1">represented by</data>
 </edge>
 </graph></graphml>

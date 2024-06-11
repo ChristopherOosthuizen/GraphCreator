@@ -211,7 +211,10 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
             x = json.loads(x)
         except Exception as err:
             x = json.loads(lp.fix_format(x,str(err)))
+        
         for y in x:
+            Graph.add_node(y["node_1"],label=y["node_1"])
+            Graph.add_node(y["node_2"],label=y["node_2"])
             Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])
     
     # Save graph as GraphML
