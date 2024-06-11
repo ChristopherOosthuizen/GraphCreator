@@ -5,7 +5,7 @@ Ensure any new nodes use standard, unambiguous terminology specific to the mater
 For new edges, concisely describe the semantic relationships between concepts as conveyed by the context. Aim for clarity and specificity.
 Add the new triplets to the existing JSON list, maintaining alphabetical order of the "node_1" field for readability.
 Preserve all of the original ontology triplets in the output, even if some nodes or edges seem redundant with the newly added ones.
-The goal is to produce an augmented ontology graph that captures as much of the key knowledge from the context as possible, while avoiding tangential or irrelevant concepts. Try to also create a bridgeless graph with many triangles.
+The goal is to produce an augmented ontology graph that captures all the key knowledge from the context.
 
 Please output the expanded ontology using the same JSON list format as the original, with each dictionary representing a semantic link between two concepts:
 [

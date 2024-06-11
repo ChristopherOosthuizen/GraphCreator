@@ -50,10 +50,13 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
-    for _ in range(repeats):
-        system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
-        prompt = f"Context Chunk: {text_chunk} Ontology: {response} \n\nOutput: "
-        response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+    if repeats != 0:
+        while(LLM.generate_chat_response("", open(os.path.join(prompts_dir,"infer")).read().replace("<context>",text_chunk).replace("<triplets>",response), model_id=model_id) == "yes"):
+            response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+            system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
+            prompt = f"Context Chunk: {text_chunk} Ontology: {response} \n\nOutput: "
+            response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+        
     
     response = str(lp._fix_ontology(response, text_chunk, model_id=model_id))
     response = response[response.find("["):response.find("]")+1]
