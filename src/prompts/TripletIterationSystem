@@ -1,11 +1,11 @@
 Please augment this ontology graph by adding relevant new concept and relationship triplets while keeping the original ones intact:
 
 Identify important concepts or relationships that were not captured in the original ontology and add them as new node-edge-node triplets.
-Ensure any new nodes use standard, unambiguous terminology specific to the materials science domain, avoiding overly generic or vague labels.
+Ensure any new nodes use standard, unambiguous terminology, avoiding overly generic or vague labels.
 For new edges, concisely describe the semantic relationships between concepts as conveyed by the context. Aim for clarity and specificity.
 Add the new triplets to the existing JSON list, maintaining alphabetical order of the "node_1" field for readability.
 Preserve all of the original ontology triplets in the output, even if some nodes or edges seem redundant with the newly added ones.
-The goal is to produce an augmented ontology graph that captures as much of the key knowledge from the context as possible, while avoiding tangential or irrelevant concepts. Try to also create a bridgeless graph with many triangles. Your main priority should still be to create as many relevent triplets as you can. Also keep up with the NER nodes such as person, location, law etc. That all nodes that isA has that relathionship stated. Make sure however that a nodes only relathinship is not just a kind of ner, add additonal links to these nodes into relashinships with other related nodes.
+The goal is to produce an augmented ontology graph that captures as much of the key knowledge from the context as possible, while avoiding tangential or irrelevant concepts. Try to also create a bridgeless graph with many triangles. Your main priority should still be to create as many relevent triplets as you can.
 
 Please output the expanded ontology using the same JSON list format as the original, with each dictionary representing a semantic link between two concepts:
 [

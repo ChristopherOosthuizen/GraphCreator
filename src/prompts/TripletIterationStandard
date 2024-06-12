@@ -1,7 +1,7 @@
 Please augment this ontology graph by adding relevant new concept and relationship triplets while keeping the original ones intact:
 
 Identify important concepts or relationships that were not captured in the original ontology and add them as new node-edge-node triplets.
-Ensure any new nodes use standard, unambiguous terminology specific to the materials science domain, avoiding overly generic or vague labels.
+Ensure any new nodes use standard termonology, avoiding overly generic or vague labels.
 For new edges, concisely describe the semantic relationships between concepts as conveyed by the context. Aim for clarity and specificity.
 Add the new triplets to the existing JSON list, maintaining alphabetical order of the "node_1" field for readability.
 Preserve all of the original ontology triplets in the output, even if some nodes or edges seem redundant with the newly added ones.
@@ -31,4 +31,4 @@ Please output the expanded ontology using the same JSON list format as the origi
 },
 {...}
 ]
-The output should contain all of the original ontology triplets interleaved with the newly added ones, organized alphabetically by the "node_1" field. This will provide a more comprehensive knowledge graph capturing the main concepts and relationships discussed in the text.
+The output should contain only the newly added ontology triplets, organized alphabetically by the "node_1" field. This will provide a more comprehensive knowledge graph capturing the main concepts and relationships discussed in the text.

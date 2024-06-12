@@ -50,12 +50,33 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+    response = response[response.find("["):response.find("]")+1]
+    response = response.replace("node1", "node_1")
+    response = response.replace("node2", "node_2")
+    times = 0
     if repeats != 0:
-        while(LLM.generate_chat_response("", open(os.path.join(prompts_dir,"infer")).read().replace("<context>",text_chunk).replace("<triplets>",response), model_id=model_id) == "yes"):
-            response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+        while(LLM.generate_chat_response("", open(os.path.join(prompts_dir,"infer")).read().replace("<context>",text_chunk).replace("<triplets>",response), model_id=model_id) == "yes" and times < repeats):
             system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
             prompt = f"Context Chunk: {text_chunk} Ontology: {response} \n\nOutput: "
-            response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+            new_edges = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+            new_edges = new_edges[new_edges.find("["):new_edges.find("]")+1]
+            new_edges = new_edges.replace("node1", "node_1")
+            new_edges = new_edges.replace("node2", "node_2")
+            new_edges = new_edges.replace("\'", "\"")
+            new_edges = new_edges.replace("}\n", "},\n")
+            new_edges = re.sub('^{', '[\n{', new_edges)
+            new_edges = re.sub('}$', '\n]', new_edges)
+            new_edges = re.sub('},\n]', '}\n]', new_edges)
+            response = "["+",\n".join(str(x) for x in (json.loads(response) +json.loads(new_edges)))+"]"
+            response = response[response.find("["):response.find("]")+1]
+            response = response.replace("node1", "node_1")
+            response = response.replace("node2", "node_2")
+            response = response.replace("\'", "\"")
+            response = response.replace("}\n", "},\n")
+            response = re.sub('^{', '[\n{', response)
+            response = re.sub('}$', '\n]', response)
+            response = re.sub('},\n]', '}\n]', response)
+            times += 1
         
     
     response = str(lp._fix_ontology(response, text_chunk, model_id=model_id))
