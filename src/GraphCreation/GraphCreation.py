@@ -81,12 +81,13 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             response = re.sub('}$', '}\n]', response)
             response = re.sub('},\n]', '}\n]', response)
             times += 1
-        
-    
-    response = str(lp._fix_ontology(response, text_chunk, model_id=model_id))
     response = response[response.find("["):response.find("]")+1]
     response = response.replace("node1", "node_1")
     response = response.replace("node2", "node_2")
+    response = response.replace("}\n", "},\n")
+    response = re.sub('^{', '[\n{', response)
+    response = re.sub('}$', '}\n]', response)
+    response = re.sub('},\n]', '}\n]', response)
     return lp.strip_json(response)
     
 
@@ -121,24 +122,20 @@ def _combine_one(ont1, ont2, sum1, sum2, list, position, summaries):
 def _converge_lists(lists, summaries, repeats=.5):
     combinations = lists
     length = len(lists)
-    num_iterations = math.ceil(math.log2(length) * repeats)
-    for _ in range(num_iterations):
-        if len(combinations) == 1:
-            break
-        old_combinations = combinations
-        old_summaries = summaries
-        summaries = [""] * ((len(combinations) // 2) + (len(combinations) % 2))
-        combinations = [""] * ((len(combinations) // 2) + (len(combinations) % 2))
-        threads = []
-        for x in range(1, len(old_combinations), 2):
-            thread = threading.Thread(target=_combine_one, args=(old_combinations[x - 1], old_combinations[x], old_summaries[x - 1], old_summaries[x], combinations, x // 2, summaries))
-            threads.append(thread)
-            thread.start()
-        if len(old_combinations) % 2 != 0:
-            combinations[-1] = old_combinations[-1]
-            summaries[-1] = old_summaries[-1]
-        for thread in threads:
-            thread.join()
+    old_combinations = combinations
+    old_summaries = summaries
+    summaries = [""] * (len(combinations)-1)
+    combinations = [""] *(len(combinations)-1)
+    threads = []
+    for x in range(1, len(old_combinations)):
+        thread = threading.Thread(target=_combine_one, args=(old_combinations[x - 1], old_combinations[x], old_summaries[x - 1], old_summaries[x], combinations, x-1, summaries))
+        threads.append(thread)
+        thread.start()
+    if len(old_combinations) % 2 != 0:
+        combinations[-1] = old_combinations[-1]
+        summaries[-1] = old_summaries[-1]
+    for thread in threads:
+        thread.join()
     return combinations, summaries
 def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, ner_type="flair",num=10):
     """
