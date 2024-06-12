@@ -83,7 +83,7 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
         temperature=0.1,
         repetition_penalty=1.1,
     )
-    return outputs[0]["generated_text"][len(prompter):]
+    return outputs[0]["generated_text"][len(prompter):].lower().strip()
 
 def graphquestions(graph, prompt, pipeline_id=0):
     """
