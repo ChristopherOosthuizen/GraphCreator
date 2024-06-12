@@ -60,7 +60,7 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
             model="gpt-4o",
             messages=messages,
         )
-        return response.choices[0].message.content
+        return response.choices[0].message.content.lower().strip()
     global index
     model_id = pick_gpu(index)
     index += 1

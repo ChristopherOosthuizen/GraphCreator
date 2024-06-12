@@ -18,6 +18,11 @@ def url_to_md(url):
 def pdf_to_md(file):
     return extract_text(file)
 def chunk_text(text):
+    text = text.replace("\n\n", "\n")
+    text = text.replace("[", " ")
+    text = text.replace("]", " ")
+    text = text.replace("{", " ")
+    text = text.replace("}", " ")
     splitter = MarkdownTextSplitter(chunk_size=600, chunk_overlap=200)
     splits = splitter.create_documents([text])
     for x in range(len(splits)):
