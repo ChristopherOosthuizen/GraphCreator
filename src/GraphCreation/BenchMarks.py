@@ -175,7 +175,7 @@ def bench_mark_from_dataset(dataframe, source_column, answer_column, question_co
         graph_res = lm.graphquestions(graph, question)
         probs_graph = follow_premise(graph_res,chunks[0])
         probs_base = follow_premise(base_line,chunks[0])
-        main = {"Judges_over_base": llm_as_judge(base_line,graph_res), "Follows_over_base": (probs_graph[0].item()-probs_base[0].item()), "Controdicts_over_base": -(probs_graph[1].item()-probs_base[1].item), "base_line": base_line, "graph": graph_res, "source": url, "answer": answer, "question": question}
+        main = {"Judges_over_base": llm_as_judge(base_line,graph_res), "Follows_over_base": (probs_graph[0].item()-probs_base[0].item()), "Controdicts_over_base": -(probs_graph[1].item()-probs_base[1].item()), "base_line": base_line, "graph": graph_res, "source": url, "answer": answer, "question": question}
         result.append(main)
         pd.DataFrame(result).to_csv(output_file+"results.csv")
     return result

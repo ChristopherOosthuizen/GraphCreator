@@ -1,0 +1,1219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="christopher oosthuizen">
+  <data key="d0">christopher oosthuizen</data>
+</node>
+<node id="person">
+  <data key="d0">person</data>
+</node>
+<node id="university of houston">
+  <data key="d0">university of houston</data>
+</node>
+<node id="programmer">
+  <data key="d0">programmer</data>
+</node>
+<node id="machine learning research assistant">
+  <data key="d0">machine learning research assistant</data>
+</node>
+<node id="c/c++">
+  <data key="d0">c/c++</data>
+</node>
+<node id="python">
+  <data key="d0">python</data>
+</node>
+<node id="javascript">
+  <data key="d0">javascript</data>
+</node>
+<node id="java">
+  <data key="d0">java</data>
+</node>
+<node id="mysql">
+  <data key="d0">mysql</data>
+</node>
+<node id="bash">
+  <data key="d0">bash</data>
+</node>
+<node id="rust">
+  <data key="d0">rust</data>
+</node>
+<node id="react">
+  <data key="d0">react</data>
+</node>
+<node id="svelte">
+  <data key="d0">svelte</data>
+</node>
+<node id="express.js">
+  <data key="d0">express.js</data>
+</node>
+<node id="django">
+  <data key="d0">django</data>
+</node>
+<node id="pytorch">
+  <data key="d0">pytorch</data>
+</node>
+<node id="pandas">
+  <data key="d0">pandas</data>
+</node>
+<node id="llama index">
+  <data key="d0">llama index</data>
+</node>
+<node id="langchain">
+  <data key="d0">langchain</data>
+</node>
+<node id="neo4j">
+  <data key="d0">neo4j</data>
+</node>
+<node id="networkx">
+  <data key="d0">networkx</data>
+</node>
+<node id="pytorch geometric">
+  <data key="d0">pytorch geometric</data>
+</node>
+<node id="ncurses">
+  <data key="d0">ncurses</data>
+</node>
+<node id="git">
+  <data key="d0">git</data>
+</node>
+<node id="github">
+  <data key="d0">github</data>
+</node>
+<node id="linux">
+  <data key="d0">linux</data>
+</node>
+<node id="macos">
+  <data key="d0">macos</data>
+</node>
+<node id="jupyter notebook">
+  <data key="d0">jupyter notebook</data>
+</node>
+<node id="google test">
+  <data key="d0">google test</data>
+</node>
+<node id="deepeval">
+  <data key="d0">deepeval</data>
+</node>
+<node id="google cloud">
+  <data key="d0">google cloud</data>
+</node>
+<node id="docker">
+  <data key="d0">docker</data>
+</node>
+<node id="organization">
+  <data key="d0">organization</data>
+</node>
+<node id="software">
+  <data key="d0">software</data>
+</node>
+<node id="developer tools">
+  <data key="d0">developer tools</data>
+</node>
+<node id="category">
+  <data key="d0">category</data>
+</node>
+<node id="structures and artificial intelligence lab">
+  <data key="d0">structures and artificial intelligence lab</data>
+</node>
+<node id="internet">
+  <data key="d0">internet</data>
+</node>
+<node id="internet service">
+  <data key="d0">internet service</data>
+</node>
+<node id="education">
+  <data key="d0">education</data>
+</node>
+<node id="computer science">
+  <data key="d0">computer science</data>
+</node>
+<node id="houston, tx">
+  <data key="d0">houston, tx</data>
+</node>
+<node id="undergraduate research fellowship">
+  <data key="d0">undergraduate research fellowship</data>
+</node>
+<node id="institution">
+  <data key="d0">institution</data>
+</node>
+<node id="expected may 2026">
+  <data key="d0">expected may 2026</data>
+</node>
+<node id="bachelor of science">
+  <data key="d0">bachelor of science</data>
+</node>
+<node id="intro to programming">
+  <data key="d0">intro to programming</data>
+</node>
+<node id="algorithms and data structures">
+  <data key="d0">algorithms and data structures</data>
+</node>
+<node id="computer architecture">
+  <data key="d0">computer architecture</data>
+</node>
+<node id="data science i">
+  <data key="d0">data science i</data>
+</node>
+<node id="natural language processing">
+  <data key="d0">natural language processing</data>
+</node>
+<node id="deep learning">
+  <data key="d0">deep learning</data>
+</node>
+<node id="field of study">
+  <data key="d0">field of study</data>
+</node>
+<node id="degree">
+  <data key="d0">degree</data>
+</node>
+<node id="location">
+  <data key="d0">location</data>
+</node>
+<node id="date">
+  <data key="d0">date</data>
+</node>
+<node id="undergraduate research assistant">
+  <data key="d0">undergraduate research assistant</data>
+</node>
+<node id="lab">
+  <data key="d0">lab</data>
+</node>
+<node id="role">
+  <data key="d0">role</data>
+</node>
+<node id="money">
+  <data key="d0">money</data>
+</node>
+<node id="award">
+  <data key="d0">award</data>
+</node>
+<node id="course">
+  <data key="d0">course</data>
+</node>
+<node id="data science">
+  <data key="d0">data science</data>
+</node>
+<node id="computer science concepts">
+  <data key="d0">computer science concepts</data>
+</node>
+<node id="research">
+  <data key="d0">research</data>
+</node>
+<node id="unstructured text data">
+  <data key="d0">unstructured text data</data>
+</node>
+<node id="deep learning pipeline">
+  <data key="d0">deep learning pipeline</data>
+</node>
+<node id="knowledge graphs">
+  <data key="d0">knowledge graphs</data>
+</node>
+<node id="language models">
+  <data key="d0">language models</data>
+</node>
+<node id="hallucinations">
+  <data key="d0">hallucinations</data>
+</node>
+<node id="graph retrieval-augmented generation">
+  <data key="d0">graph retrieval-augmented generation</data>
+</node>
+<node id="advanced techniques">
+  <data key="d0">advanced techniques</data>
+</node>
+<node id="constitutional ai (cai) cpo training">
+  <data key="d0">constitutional ai (cai) cpo training</data>
+</node>
+<node id="self-rewarding language models">
+  <data key="d0">self-rewarding language models</data>
+</node>
+<node id="classification">
+  <data key="d0">classification</data>
+</node>
+<node id="performance">
+  <data key="d0">performance</data>
+</node>
+<node id="output quality">
+  <data key="d0">output quality</data>
+</node>
+<node id="september 2023 - present">
+  <data key="d0">september 2023 - present</data>
+</node>
+<node id="43%">
+  <data key="d0">43%</data>
+</node>
+<node id="percent">
+  <data key="d0">percent</data>
+</node>
+<node id="constitutional ai (cai)">
+  <data key="d0">constitutional ai (cai)</data>
+</node>
+<node id="cpo training">
+  <data key="d0">cpo training</data>
+</node>
+<node id="knowledge graph generation quality">
+  <data key="d0">knowledge graph generation quality</data>
+</node>
+<node id="existing methods">
+  <data key="d0">existing methods</data>
+</node>
+<node id="undergraduates">
+  <data key="d0">undergraduates</data>
+</node>
+<node id="team">
+  <data key="d0">team</data>
+</node>
+<node id="mentored">
+  <data key="d0">mentored</data>
+</node>
+<node id="project milestones">
+  <data key="d0">project milestones</data>
+</node>
+<node id="fine-tuning">
+  <data key="d0">fine-tuning</data>
+</node>
+<node id="large language models">
+  <data key="d0">large language models</data>
+</node>
+<node id="training">
+  <data key="d0">training</data>
+</node>
+<node id="graph neural networks">
+  <data key="d0">graph neural networks</data>
+</node>
+<node id="train graph neural networks">
+  <data key="d0">train graph neural networks</data>
+</node>
+<node id="linux cluster">
+  <data key="d0">linux cluster</data>
+</node>
+<node id="fine-tune">
+  <data key="d0">fine-tune</data>
+</node>
+<node id="train">
+  <data key="d0">train</data>
+</node>
+<node id="high-compute">
+  <data key="d0">high-compute</data>
+</node>
+<node id="fine-tune large language models">
+  <data key="d0">fine-tune large language models</data>
+</node>
+<node id="coding instructor">
+  <data key="d0">coding instructor</data>
+</node>
+<node id="job">
+  <data key="d0">job</data>
+</node>
+<node id="code ninjas">
+  <data key="d0">code ninjas</data>
+</node>
+<node id="june 2020">
+  <data key="d0">june 2020</data>
+</node>
+<node id="august 2022">
+  <data key="d0">august 2022</data>
+</node>
+<node id="high-compute linux cluster">
+  <data key="d0">high-compute linux cluster</data>
+</node>
+<node id="created lesson plans">
+  <data key="d0">created lesson plans</data>
+</node>
+<node id="held weekly classes">
+  <data key="d0">held weekly classes</data>
+</node>
+<node id="communicated with parents">
+  <data key="d0">communicated with parents</data>
+</node>
+<node id="achieved a 95% retention rate">
+  <data key="d0">achieved a 95% retention rate</data>
+</node>
+<node id="lesson plans">
+  <data key="d0">lesson plans</data>
+</node>
+<node id="weekly classes">
+  <data key="d0">weekly classes</data>
+</node>
+<node id="95% retention rate">
+  <data key="d0">95% retention rate</data>
+</node>
+<node id="cougar cs, university of houston">
+  <data key="d0">cougar cs, university of houston</data>
+</node>
+<node id="tutor">
+  <data key="d0">tutor</data>
+</node>
+<node id="leadership">
+  <data key="d0">leadership</data>
+</node>
+<node id="web developer">
+  <data key="d0">web developer</data>
+</node>
+<node id="present">
+  <data key="d0">present</data>
+</node>
+<node id="august 2023">
+  <data key="d0">august 2023</data>
+</node>
+<node id="2024">
+  <data key="d0">2024</data>
+</node>
+<node id="95%">
+  <data key="d0">95%</data>
+</node>
+<node id="2024 cougarcs website">
+  <data key="d0">2024 cougarcs website</data>
+</node>
+<node id="development and launch">
+  <data key="d0">development and launch</data>
+</node>
+<node id="website">
+  <data key="d0">website</data>
+</node>
+<node id="four members">
+  <data key="d0">four members</data>
+</node>
+<node id="august 2023 - present">
+  <data key="d0">august 2023 - present</data>
+</node>
+<node id="january 2024 - march 2024">
+  <data key="d0">january 2024 - march 2024</data>
+</node>
+<node id="date range">
+  <data key="d0">date range</data>
+</node>
+<node id="cougarcs website">
+  <data key="d0">cougarcs website</data>
+</node>
+<node id="development">
+  <data key="d0">development</data>
+</node>
+<node id="launch">
+  <data key="d0">launch</data>
+</node>
+<node id="user experience">
+  <data key="d0">user experience</data>
+</node>
+<node id="functionality">
+  <data key="d0">functionality</data>
+</node>
+<node id="cougarcs">
+  <data key="d0">cougarcs</data>
+</node>
+<node id="knowledge graph generator">
+  <data key="d0">knowledge graph generator</data>
+</node>
+<node id="hallucinations in language models">
+  <data key="d0">hallucinations in language models</data>
+</node>
+<node id="project experience">
+  <data key="d0">project experience</data>
+</node>
+<node id="product">
+  <data key="d0">product</data>
+</node>
+<node id="quantity">
+  <data key="d0">quantity</data>
+</node>
+<node id="over 50">
+  <data key="d0">over 50</data>
+</node>
+<node id="cardinal">
+  <data key="d0">cardinal</data>
+</node>
+<node id="students">
+  <data key="d0">students</data>
+</node>
+<node id="freshman to junior level cs classes">
+  <data key="d0">freshman to junior level cs classes</data>
+</node>
+<node id="reduction in hallucinations">
+  <data key="d0">reduction in hallucinations</data>
+</node>
+<node id="improvement in test scores">
+  <data key="d0">improvement in test scores</data>
+</node>
+<node id="30%">
+  <data key="d0">30%</data>
+</node>
+<node id="personalized tutoring">
+  <data key="d0">personalized tutoring</data>
+</node>
+<node id="location of">
+  <data key="d0">location of</data>
+</node>
+<node id="innovative deep learning pipeline">
+  <data key="d0">innovative deep learning pipeline</data>
+</node>
+<node id="implemented">
+  <data key="d0">implemented</data>
+</node>
+<node id="end-to-end system">
+  <data key="d0">end-to-end system</data>
+</node>
+<node id="spacy">
+  <data key="d0">spacy</data>
+</node>
+<node id="hugging face transformers">
+  <data key="d0">hugging face transformers</data>
+</node>
+<node id="ablaze">
+  <data key="d0">ablaze</data>
+</node>
+<node id="programming language">
+  <data key="d0">programming language</data>
+</node>
+<node id="python-like syntax">
+  <data key="d0">python-like syntax</data>
+</node>
+<node id="execution speed">
+  <data key="d0">execution speed</data>
+</node>
+<node id="faster than python">
+  <data key="d0">faster than python</data>
+</node>
+<node id="108% faster than python">
+  <data key="d0">108% faster than python</data>
+</node>
+<node id="users">
+  <data key="d0">users</data>
+</node>
+<node id="worldwide">
+  <data key="d0">worldwide</data>
+</node>
+<node id="30% improvement in test scores">
+  <data key="d0">30% improvement in test scores</data>
+</node>
+<node id="functional improvement">
+  <data key="d0">functional improvement</data>
+</node>
+<edge source="christopher oosthuizen" target="person">
+  <data key="d1">isa</data>
+</edge>
+<edge source="christopher oosthuizen" target="university of houston">
+  <data key="d1">is educated at</data>
+</edge>
+<edge source="christopher oosthuizen" target="programmer">
+  <data key="d1">has occupation</data>
+</edge>
+<edge source="christopher oosthuizen" target="machine learning research assistant">
+  <data key="d1">holds position</data>
+</edge>
+<edge source="christopher oosthuizen" target="c/c++">
+  <data key="d1">knows programming language</data>
+</edge>
+<edge source="christopher oosthuizen" target="python">
+  <data key="d1">knows programming language</data>
+</edge>
+<edge source="christopher oosthuizen" target="javascript">
+  <data key="d1">knows programming language</data>
+</edge>
+<edge source="christopher oosthuizen" target="java">
+  <data key="d1">knows programming language</data>
+</edge>
+<edge source="christopher oosthuizen" target="mysql">
+  <data key="d1">knows programming language</data>
+</edge>
+<edge source="christopher oosthuizen" target="bash">
+  <data key="d1">knows programming language</data>
+</edge>
+<edge source="christopher oosthuizen" target="rust">
+  <data key="d1">knows programming language</data>
+</edge>
+<edge source="christopher oosthuizen" target="react">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="svelte">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="express.js">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="django">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="pytorch">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="pandas">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="llama index">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="langchain">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="neo4j">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="networkx">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="pytorch geometric">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="ncurses">
+  <data key="d1">knows framework</data>
+</edge>
+<edge source="christopher oosthuizen" target="git">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="github">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="linux">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="macos">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="jupyter notebook">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="google test">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="deepeval">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="google cloud">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="docker">
+  <data key="d1">uses developer tool</data>
+</edge>
+<edge source="christopher oosthuizen" target="undergraduate research fellowship">
+  <data key="d1">is awarded</data>
+</edge>
+<edge source="christopher oosthuizen" target="structures and artificial intelligence lab">
+  <data key="d1">works at</data>
+</edge>
+<edge source="christopher oosthuizen" target="data science">
+  <data key="d1">is studying</data>
+</edge>
+<edge source="christopher oosthuizen" target="research">
+  <data key="d1">conducts</data>
+</edge>
+<edge source="person" target="undergraduate research assistant">
+  <data key="d1">isa</data>
+</edge>
+<edge source="university of houston" target="organization">
+  <data key="d1">isa</data>
+</edge>
+<edge source="university of houston" target="education">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="university of houston" target="computer science">
+  <data key="d1">offers degree in</data>
+</edge>
+<edge source="university of houston" target="houston, tx">
+  <data key="d1">is location of</data>
+</edge>
+<edge source="university of houston" target="structures and artificial intelligence lab">
+  <data key="d1">is lab within</data>
+</edge>
+<edge source="university of houston" target="undergraduate research fellowship">
+  <data key="d1">awarded by</data>
+</edge>
+<edge source="university of houston" target="institution">
+  <data key="d1">is a</data>
+</edge>
+<edge source="python" target="end-to-end system">
+  <data key="d1">implemented in</data>
+</edge>
+<edge source="python" target="pytorch">
+  <data key="d1">using</data>
+</edge>
+<edge source="python" target="networkx">
+  <data key="d1">using</data>
+</edge>
+<edge source="python" target="spacy">
+  <data key="d1">using</data>
+</edge>
+<edge source="python" target="hugging face transformers">
+  <data key="d1">using</data>
+</edge>
+<edge source="python" target="software">
+  <data key="d1">isa</data>
+</edge>
+<edge source="python" target="development">
+  <data key="d1">involved</data>
+</edge>
+<edge source="pytorch" target="software">
+  <data key="d1">isa</data>
+</edge>
+<edge source="networkx" target="software">
+  <data key="d1">isa</data>
+</edge>
+<edge source="networkx" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="pytorch geometric" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="pytorch geometric" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="ncurses" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="ncurses" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="git" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="git" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="github" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="github" target="internet">
+  <data key="d1">isa</data>
+</edge>
+<edge source="github" target="internet service">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="linux" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="linux" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="macos" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="macos" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="jupyter notebook" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="jupyter notebook" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="google test" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="google test" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="deepeval" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="deepeval" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="google cloud" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="google cloud" target="internet">
+  <data key="d1">isa</data>
+</edge>
+<edge source="google cloud" target="internet service">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="docker" target="software">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="docker" target="developer tools">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="organization" target="developer tools">
+  <data key="d1">isa</data>
+</edge>
+<edge source="organization" target="structures and artificial intelligence lab">
+  <data key="d1">isa</data>
+</edge>
+<edge source="organization" target="code ninjas">
+  <data key="d1">isa</data>
+</edge>
+<edge source="organization" target="cougar cs, university of houston">
+  <data key="d1">isa</data>
+</edge>
+<edge source="organization" target="cougarcs">
+  <data key="d1">is</data>
+</edge>
+<edge source="software" target="spacy">
+  <data key="d1">isa</data>
+</edge>
+<edge source="software" target="hugging face transformers">
+  <data key="d1">isa</data>
+</edge>
+<edge source="software" target="ablaze">
+  <data key="d1">isa</data>
+</edge>
+<edge source="developer tools" target="category">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="structures and artificial intelligence lab" target="undergraduate research assistant">
+  <data key="d1">work relationship</data>
+</edge>
+<edge source="structures and artificial intelligence lab" target="lab">
+  <data key="d1">is a</data>
+</edge>
+<edge source="structures and artificial intelligence lab" target="deep learning">
+  <data key="d1">researches at</data>
+</edge>
+<edge source="structures and artificial intelligence lab" target="graph retrieval-augmented generation">
+  <data key="d1">develops at</data>
+</edge>
+<edge source="structures and artificial intelligence lab" target="deep learning pipeline">
+  <data key="d1">is developed at</data>
+</edge>
+<edge source="education" target="expected may 2026">
+  <data key="d1">is graduation date for</data>
+</edge>
+<edge source="computer science" target="bachelor of science">
+  <data key="d1">is field within</data>
+</edge>
+<edge source="computer science" target="intro to programming">
+  <data key="d1">is course in</data>
+</edge>
+<edge source="computer science" target="algorithms and data structures">
+  <data key="d1">is course in</data>
+</edge>
+<edge source="computer science" target="computer architecture">
+  <data key="d1">is course in</data>
+</edge>
+<edge source="computer science" target="data science i">
+  <data key="d1">is course in</data>
+</edge>
+<edge source="computer science" target="natural language processing">
+  <data key="d1">is course in</data>
+</edge>
+<edge source="computer science" target="deep learning">
+  <data key="d1">is course in</data>
+</edge>
+<edge source="computer science" target="field of study">
+  <data key="d1">is a</data>
+</edge>
+<edge source="houston, tx" target="location">
+  <data key="d1">is in the</data>
+</edge>
+<edge source="houston, tx" target="undergraduate research assistant">
+  <data key="d1">location of work</data>
+</edge>
+<edge source="houston, tx" target="coding instructor">
+  <data key="d1">based in</data>
+</edge>
+<edge source="houston, tx" target="code ninjas">
+  <data key="d1">location of</data>
+</edge>
+<edge source="houston, tx" target="tutor">
+  <data key="d1">location</data>
+</edge>
+<edge source="houston, tx" target="cougar cs, university of houston">
+  <data key="d1">location of</data>
+</edge>
+<edge source="houston, tx" target="august 2023 - present">
+  <data key="d1">location during timeframe</data>
+</edge>
+<edge source="houston, tx" target="location of">
+  <data key="d1">cougar cs, university of houston</data>
+</edge>
+<edge source="houston, tx" target="cougarcs website">
+  <data key="d1">developed in</data>
+</edge>
+<edge source="undergraduate research fellowship" target="money">
+  <data key="d1">awarded</data>
+</edge>
+<edge source="undergraduate research fellowship" target="award">
+  <data key="d1">is a</data>
+</edge>
+<edge source="expected may 2026" target="date">
+  <data key="d1">is a</data>
+</edge>
+<edge source="bachelor of science" target="degree">
+  <data key="d1">is a</data>
+</edge>
+<edge source="intro to programming" target="course">
+  <data key="d1">is a</data>
+</edge>
+<edge source="algorithms and data structures" target="course">
+  <data key="d1">is a</data>
+</edge>
+<edge source="algorithms and data structures" target="computer science concepts">
+  <data key="d1">teaches</data>
+</edge>
+<edge source="computer architecture" target="course">
+  <data key="d1">is a</data>
+</edge>
+<edge source="computer architecture" target="computer science concepts">
+  <data key="d1">teaches</data>
+</edge>
+<edge source="data science i" target="course">
+  <data key="d1">is a</data>
+</edge>
+<edge source="natural language processing" target="course">
+  <data key="d1">is a</data>
+</edge>
+<edge source="natural language processing" target="data science">
+  <data key="d1">is a field of</data>
+</edge>
+<edge source="natural language processing" target="deep learning">
+  <data key="d1">related topics</data>
+</edge>
+<edge source="natural language processing" target="undergraduate research assistant">
+  <data key="d1">works on</data>
+</edge>
+<edge source="natural language processing" target="deep learning pipeline">
+  <data key="d1">utilizes</data>
+</edge>
+<edge source="natural language processing" target="unstructured text data">
+  <data key="d1">related to</data>
+</edge>
+<edge source="deep learning" target="course">
+  <data key="d1">is a</data>
+</edge>
+<edge source="deep learning" target="data science">
+  <data key="d1">is a field of</data>
+</edge>
+<edge source="deep learning" target="self-rewarding language models">
+  <data key="d1">leverages</data>
+</edge>
+<edge source="deep learning" target="graph neural networks">
+  <data key="d1">used in</data>
+</edge>
+<edge source="field of study" target="computer science concepts">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="date" target="september 2023 - present">
+  <data key="d1">isa</data>
+</edge>
+<edge source="date" target="june 2020">
+  <data key="d1">isa</data>
+</edge>
+<edge source="date" target="august 2022">
+  <data key="d1">isa</data>
+</edge>
+<edge source="date" target="present">
+  <data key="d1">isa</data>
+</edge>
+<edge source="date" target="august 2023">
+  <data key="d1">isa</data>
+</edge>
+<edge source="date" target="2024">
+  <data key="d1">isa</data>
+</edge>
+<edge source="date" target="january 2024 - march 2024">
+  <data key="d1">isa</data>
+</edge>
+<edge source="date" target="august 2023 - present">
+  <data key="d1">is during</data>
+</edge>
+<edge source="undergraduate research assistant" target="role">
+  <data key="d1">is a</data>
+</edge>
+<edge source="lab" target="research">
+  <data key="d1">conducts</data>
+</edge>
+<edge source="course" target="data science">
+  <data key="d1">includes topics</data>
+</edge>
+<edge source="unstructured text data" target="deep learning pipeline">
+  <data key="d1">is processed by</data>
+</edge>
+<edge source="unstructured text data" target="knowledge graphs">
+  <data key="d1">are generated from</data>
+</edge>
+<edge source="deep learning pipeline" target="knowledge graphs">
+  <data key="d1">processed unstructured text data into</data>
+</edge>
+<edge source="deep learning pipeline" target="language models">
+  <data key="d1">optimizes</data>
+</edge>
+<edge source="deep learning pipeline" target="hallucinations">
+  <data key="d1">reduces</data>
+</edge>
+<edge source="deep learning pipeline" target="development">
+  <data key="d1">in volves</data>
+</edge>
+<edge source="deep learning pipeline" target="hallucinations in language models">
+  <data key="d1">reduces</data>
+</edge>
+<edge source="deep learning pipeline" target="knowledge graph generator">
+  <data key="d1">is an element of</data>
+</edge>
+<edge source="knowledge graphs" target="self-rewarding language models">
+  <data key="d1">improve</data>
+</edge>
+<edge source="knowledge graphs" target="knowledge graph generation quality">
+  <data key="d1">benefits</data>
+</edge>
+<edge source="knowledge graphs" target="hallucinations">
+  <data key="d1">reduced by 43%</data>
+</edge>
+<edge source="knowledge graphs" target="30% improvement in test scores">
+  <data key="d1">result in</data>
+</edge>
+<edge source="language models" target="hallucinations">
+  <data key="d1">suffers from</data>
+</edge>
+<edge source="language models" target="self-rewarding language models">
+  <data key="d1">a type of</data>
+</edge>
+<edge source="hallucinations" target="graph retrieval-augmented generation">
+  <data key="d1">reduces</data>
+</edge>
+<edge source="advanced techniques" target="constitutional ai (cai) cpo training">
+  <data key="d1">includes</data>
+</edge>
+<edge source="advanced techniques" target="self-rewarding language models">
+  <data key="d1">include</data>
+</edge>
+<edge source="advanced techniques" target="constitutional ai (cai)">
+  <data key="d1">include</data>
+</edge>
+<edge source="advanced techniques" target="cpo training">
+  <data key="d1">include</data>
+</edge>
+<edge source="constitutional ai (cai) cpo training" target="classification">
+  <data key="d1">isa</data>
+</edge>
+<edge source="self-rewarding language models" target="output quality">
+  <data key="d1">optimize</data>
+</edge>
+<edge source="self-rewarding language models" target="performance">
+  <data key="d1">enhance</data>
+</edge>
+<edge source="self-rewarding language models" target="knowledge graph generation quality">
+  <data key="d1">optimize</data>
+</edge>
+<edge source="performance" target="output quality">
+  <data key="d1">enhances</data>
+</edge>
+<edge source="performance" target="constitutional ai (cai)">
+  <data key="d1">enhance</data>
+</edge>
+<edge source="performance" target="cpo training">
+  <data key="d1">enhance</data>
+</edge>
+<edge source="performance" target="high-compute linux cluster">
+  <data key="d1">enhanced by</data>
+</edge>
+<edge source="output quality" target="constitutional ai (cai)">
+  <data key="d1">optimize</data>
+</edge>
+<edge source="output quality" target="cpo training">
+  <data key="d1">optimize</data>
+</edge>
+<edge source="output quality" target="knowledge graph generation quality">
+  <data key="d1">improvement aspect</data>
+</edge>
+<edge source="43%" target="percent">
+  <data key="d1">isa</data>
+</edge>
+<edge source="43%" target="quantity">
+  <data key="d1">isa</data>
+</edge>
+<edge source="43%" target="reduction in hallucinations">
+  <data key="d1">is by</data>
+</edge>
+<edge source="percent" target="95%">
+  <data key="d1">isa</data>
+</edge>
+<edge source="percent" target="30%">
+  <data key="d1">isa</data>
+</edge>
+<edge source="knowledge graph generation quality" target="existing methods">
+  <data key="d1">improvement compared to</data>
+</edge>
+<edge source="undergraduates" target="team">
+  <data key="d1">consisted of</data>
+</edge>
+<edge source="undergraduates" target="four members">
+  <data key="d1">number of</data>
+</edge>
+<edge source="team" target="mentored">
+  <data key="d1">led</data>
+</edge>
+<edge source="team" target="project milestones">
+  <data key="d1">achieved by</data>
+</edge>
+<edge source="team" target="four members">
+  <data key="d1">consisted of</data>
+</edge>
+<edge source="fine-tuning" target="large language models">
+  <data key="d1">using linux cluster for</data>
+</edge>
+<edge source="large language models" target="fine-tune">
+  <data key="d1">using linux cluster to</data>
+</edge>
+<edge source="large language models" target="linux cluster">
+  <data key="d1">used to fine-tune</data>
+</edge>
+<edge source="large language models" target="high-compute linux cluster">
+  <data key="d1">used to fine-tune</data>
+</edge>
+<edge source="training" target="graph neural networks">
+  <data key="d1">using linux cluster for</data>
+</edge>
+<edge source="graph neural networks" target="train">
+  <data key="d1">using linux cluster to</data>
+</edge>
+<edge source="graph neural networks" target="linux cluster">
+  <data key="d1">used to train</data>
+</edge>
+<edge source="graph neural networks" target="high-compute linux cluster">
+  <data key="d1">used to train</data>
+</edge>
+<edge source="train graph neural networks" target="linux cluster">
+  <data key="d1">used to</data>
+</edge>
+<edge source="linux cluster" target="high-compute">
+  <data key="d1">utilized for</data>
+</edge>
+<edge source="linux cluster" target="fine-tune large language models">
+  <data key="d1">used to</data>
+</edge>
+<edge source="coding instructor" target="job">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="coding instructor" target="code ninjas">
+  <data key="d1">works at</data>
+</edge>
+<edge source="coding instructor" target="created lesson plans">
+  <data key="d1">action performed by</data>
+</edge>
+<edge source="coding instructor" target="held weekly classes">
+  <data key="d1">action performed by</data>
+</edge>
+<edge source="coding instructor" target="communicated with parents">
+  <data key="d1">action performed by</data>
+</edge>
+<edge source="coding instructor" target="achieved a 95% retention rate">
+  <data key="d1">result achieved by</data>
+</edge>
+<edge source="coding instructor" target="lesson plans">
+  <data key="d1">created by</data>
+</edge>
+<edge source="coding instructor" target="weekly classes">
+  <data key="d1">held by</data>
+</edge>
+<edge source="coding instructor" target="95% retention rate">
+  <data key="d1">achieved by</data>
+</edge>
+<edge source="june 2020" target="august 2022">
+  <data key="d1">time period of employment</data>
+</edge>
+<edge source="high-compute linux cluster" target="cougar cs, university of houston">
+  <data key="d1">associated with via projects</data>
+</edge>
+<edge source="cougar cs, university of houston" target="leadership">
+  <data key="d1">role at</data>
+</edge>
+<edge source="cougar cs, university of houston" target="web developer">
+  <data key="d1">works at</data>
+</edge>
+<edge source="tutor" target="students">
+  <data key="d1">provided personalized tutoring to</data>
+</edge>
+<edge source="present" target="august 2023">
+  <data key="d1">time period of employment</data>
+</edge>
+<edge source="2024 cougarcs website" target="development and launch">
+  <data key="d1">action performed on</data>
+</edge>
+<edge source="2024 cougarcs website" target="website">
+  <data key="d1">isa</data>
+</edge>
+<edge source="2024 cougarcs website" target="user experience">
+  <data key="d1">improves</data>
+</edge>
+<edge source="2024 cougarcs website" target="development">
+  <data key="d1">contributed to</data>
+</edge>
+<edge source="2024 cougarcs website" target="functionality">
+  <data key="d1">improves</data>
+</edge>
+<edge source="2024 cougarcs website" target="launch">
+  <data key="d1">contributed to</data>
+</edge>
+<edge source="august 2023 - present" target="date range">
+  <data key="d1">is during</data>
+</edge>
+<edge source="january 2024 - march 2024" target="date range">
+  <data key="d1">is during</data>
+</edge>
+<edge source="cougarcs website" target="development">
+  <data key="d1">involves</data>
+</edge>
+<edge source="cougarcs website" target="launch">
+  <data key="d1">involves</data>
+</edge>
+<edge source="cougarcs website" target="user experience">
+  <data key="d1">improves</data>
+</edge>
+<edge source="cougarcs website" target="functionality">
+  <data key="d1">enhances</data>
+</edge>
+<edge source="cougarcs website" target="cougarcs">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="cougarcs website" target="project experience">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="development" target="launch">
+  <data key="d1">is related to</data>
+</edge>
+<edge source="development" target="knowledge graph generator">
+  <data key="d1">requires</data>
+</edge>
+<edge source="development" target="innovative deep learning pipeline">
+  <data key="d1">led the</data>
+</edge>
+<edge source="knowledge graph generator" target="project experience">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="knowledge graph generator" target="product">
+  <data key="d1">isa</data>
+</edge>
+<edge source="quantity" target="over 50">
+  <data key="d1">isa</data>
+</edge>
+<edge source="over 50" target="cardinal">
+  <data key="d1">isa</data>
+</edge>
+<edge source="over 50" target="students">
+  <data key="d1">refers to the number of</data>
+</edge>
+<edge source="students" target="freshman to junior level cs classes">
+  <data key="d1">are tutored in</data>
+</edge>
+<edge source="students" target="functional improvement">
+  <data key="d1">benefit from</data>
+</edge>
+<edge source="students" target="improvement in test scores">
+  <data key="d1">achieved by</data>
+</edge>
+<edge source="improvement in test scores" target="30%">
+  <data key="d1">leads to</data>
+</edge>
+<edge source="improvement in test scores" target="personalized tutoring">
+  <data key="d1">leads to 30% improvement in</data>
+</edge>
+<edge source="implemented" target="end-to-end system">
+  <data key="d1">is</data>
+</edge>
+<edge source="ablaze" target="programming language">
+  <data key="d1">is an</data>
+</edge>
+<edge source="ablaze" target="python-like syntax">
+  <data key="d1">has</data>
+</edge>
+<edge source="ablaze" target="execution speed">
+  <data key="d1">achieves</data>
+</edge>
+<edge source="execution speed" target="faster than python">
+  <data key="d1">108%</data>
+</edge>
+<edge source="execution speed" target="108% faster than python">
+  <data key="d1">is</data>
+</edge>
+<edge source="users" target="worldwide">
+  <data key="d1">are</data>
+</edge>
+</graph></graphml>
