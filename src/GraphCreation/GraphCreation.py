@@ -51,8 +51,8 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
     prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     response = response[response.find("["):response.find("]")+1]
-    response = response.replace("node1", "node_1")
-    response = response.replace("node2", "node_2")
+    response = response.replace("node1", "n1")
+    response = response.replace("node2", "n2")
     times = 0
     if repeats != 0:
         while(LLM.generate_chat_response("", open(os.path.join(prompts_dir,"infer")).read().replace("<context>",text_chunk).replace("<triplets>",response), model_id=model_id) == "yes" and times < repeats):
@@ -63,8 +63,8 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             end = re.search(r"}\s*\]", new_edges).end()
             new_edges = new_edges[start:end]
 
-            new_edges = new_edges.replace("node1", "node_1")
-            new_edges = new_edges.replace("node2", "node_2")
+            new_edges = new_edges.replace("node1", "n1")
+            new_edges = new_edges.replace("node2", "n2")
             new_edges = new_edges.replace("}\n", "},\n")
             new_edges = re.sub('^{', '[\n{', new_edges)
             new_edges = re.sub('}$', '}\n]', new_edges)
@@ -79,8 +79,8 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             end = re.search(r"}\s*\]", response).end()
             response = response[start:end]
             response = response[response.find("["):response.find("]")+1]
-            response = response.replace("node1", "node_1")
-            response = response.replace("node2", "node_2")
+            response = response.replace("node1", "n1")
+            response = response.replace("node2", "n2")
             response = response.replace("}\n", "},\n")
             response = re.sub('^{', '[\n{', response)
             response = re.sub('}$', '}\n]', response)
@@ -89,8 +89,8 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
     start = re.search(r"\[\s*{", response).start()
     end = re.search(r"}\s*\]", response).end()
     response = response[start:end]
-    response = response.replace("node1", "node_1")
-    response = response.replace("node2", "node_2")
+    response = response.replace("node1", "n1")
+    response = response.replace("node2", "n2")
     response = response.replace("}\n", "},\n")
     response = re.sub('^{', '[\n{', response)
     response = re.sub('}$', '}\n]', response)
@@ -245,9 +245,9 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
             x = json.loads(lp.fix_format(x,str(err)))
         
         for y in x:
-            Graph.add_node(y["node_1"],label=y["node_1"])
-            Graph.add_node(y["node_2"],label=y["node_2"])
-            Graph.add_edge(y["node_1"], y["node_2"], label=y["edge"])
+            Graph.add_node(y["n1"],label=y["n1"])
+            Graph.add_node(y["n2"],label=y["n2"])
+            Graph.add_edge(y["n1"], y["n2"], label=y["ed"])
     
     # Save graph as GraphML
     nx.write_graphml(Graph, output_file + "/graph.graphml")

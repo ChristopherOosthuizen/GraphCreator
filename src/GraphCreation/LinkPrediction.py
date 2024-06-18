@@ -31,9 +31,9 @@ def fix_format(input, error="", model_id=0):
     return response
 
 def _triplets_to_json(triplets):
-    df = pd.DataFrame({"node_1": [], "node_2": [], "edge": []})
+    df = pd.DataFrame({"n1": [], "n2": [], "ed": []})
     for triplet in triplets:
-        df = df._append({"node_1": triplet[0], "node_2": triplet[2], "edge": triplet[1]}, ignore_index=True)
+        df = df._append({"n1": triplet[0], "n2": triplet[2], "ed": triplet[1]}, ignore_index=True)
     return json.dumps(df.to_dict(orient="records")).replace(",", ",\n")
 
 def _ontologies_to_unconnected(ont1, ont2):
@@ -92,7 +92,7 @@ def _one_switch(ont):
     df = pd.DataFrame(ont)
     G = nx.Graph()
     for x in df.iloc:
-        G.add_edge(x["node_1"], x["node_2"], label=x["edge"])
+        G.add_edge(x["n1"], x["n2"], label=x["ed"])
     dis = [G.subgraph(c).copy() for c in nx.connected_components(G)]
     result = []
     disconnected = []

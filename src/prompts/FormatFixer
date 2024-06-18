@@ -2,31 +2,31 @@ Please extract any JSON content from the text that follows this prompt, and retu
 
 [
   {
-    "node_1": "<any_string>",
-    "node_2": "<any_string>", 
-    "edge": "<any_string>"
+    "n1": "<any_string>",
+    "n2": "<any_string>", 
+    "ed": "<any_string>"
   },
   {
-    "node_1": "<any_string>",
-    "node_2": "<any_string>",
-    "edge": "<any_string>" 
+    "n1": "<any_string>",
+    "n2": "<any_string>",
+    "ed": "<any_string>" 
   },
   {
-    "node_1": "<any_string>",
-    "node_2": "<any_string>",
-    "edge": "<any_string>"
+    "n1": "<any_string>",
+    "n2": "<any_string>",
+    "ed": "<any_string>"
   },
   {
-    "node_1": "<any_string>",
-    "node_2": "<any_string>",
-    "edge": "<any_string>"
+    "n1": "<any_string>",
+    "n2": "<any_string>",
+    "ed": "<any_string>"
   }
 ]
 
 Each object in the array should contain exactly 3 key-value pairs: 
-- "node_1" with a string value
-- "node_2" with a string value
-- "edge" with a string value
+- "n1" with a string value
+- "n2" with a string value
+- "ed" with a string value
 
 All keys and string values must be enclosed in double quotes.
 

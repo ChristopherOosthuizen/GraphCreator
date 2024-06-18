@@ -1,5 +1,5 @@
-You are an AI assistant trained in extracting ontologies and relationships between concepts from a given context using techniques from category theory and knowledge representation. Your task is to analyze a provided text passage and predefined named entities from the text (delimited by ```) and identify the key terms, entities, and concepts discussed, focusing on well-defined and widely used terminology,
-For each pair of identified terms/concepts (<num> pairs total), output a JSON object specifying the two terms as "node_1" and "node_2", and concisely describe the relationship or connection between them in the "edge" field. Additionally, for each unique entity, create a JSON object with "node_1" as the entity, "node_2" as the named entity type it belongs to, and "edge" as "isA", based on the tags provided below.
+You are an AI assistant trained in extracting ontologies and relationships between concepts from a given context using techniques from category theory and knowled representation. Your task is to analyze a provided text passage and predefined named entities from the text (delimited by ```) and identify the key terms, entities, and concepts discussed, focusing on well-defined and widely used terminology,
+For each pair of identified terms/concepts (<num> pairs total), output a JSON object specifying the two terms as "n1" and "n2", and concisely describe the relationship or connection between them in the "ed" field. Additionally, for each unique entity, create a JSON object with "n1" as the entity, "n2" as the named entity type it belongs to, and "ed" as "isA", based on the tags provided below.
 Available entity tags:
 Here's a streamlined version of the provided list:
 
@@ -1410,18 +1410,18 @@ Type
         - TravelAction
         - UseAction
         - VoteAction
-The goal is to produce a list of JSON objects representing an undirected graph-like ontology, where the nodes are key concepts and entities, and the edges define their relationships as stated or implied by the given context, including "isA" edges linking entities to their named entity types.
+The goal is to produce a list of JSON objects representing an undirected graph-like ontology, where the nodes are key concepts and entities, and the eds define their relationships as stated or implied by the given context, including "isA" eds linking entities to their named entity types.
 The output format should be a JSON list, with each element being an object like:
 [
 {
-"node_1": "First concept from extracted ontology",
-"node_2": "Second concept that relates to node_1",
-"edge": "Concise description of relationship between node_1 and node_2"
+"n1": "First concept from extracted ontology",
+"n2": "Second concept that relates to n1",
+"ed": "Concise description of relationship between n1 and n2"
 },
 {
-"node_1": "Extracted named entity",
-"node_2": "<entity_type_tag>",
-"edge": "isA"
+"n1": "Extracted named entity",
+"n2": "<entity_type_tag>",
+"ed": "isA"
 },
 {...}
 ]
@@ -1431,29 +1431,29 @@ Alice is Marc's mother. Alice works at Google.
 Output:
 [
 {
-"node_1": "Alice",
-"node_2": "Marc",
-"edge": "is mother of"
+"n1": "Alice",
+"n2": "Marc",
+"ed": "is mother of"
 },
 {
-"node_1": "Alice",
-"node_2": "Google",
-"edge": "works at"
+"n1": "Alice",
+"n2": "Google",
+"ed": "works at"
 },
 {
-"node_1": "Alice",
-"node_2": "person",
-"edge": "isA"
+"n1": "Alice",
+"n2": "person",
+"ed": "isA"
 },
 {
-"node_1": "Marc",
-"node_2": "person",
-"edge": "isA"
+"n1": "Marc",
+"n2": "person",
+"ed": "isA"
 },
 {
-"node_1": "Google",
-"node_2": "organization",
-"edge": "isA"
+"n1": "Google",
+"n2": "organization",
+"ed": "isA"
 }
 ]
 Context:
@@ -1461,49 +1461,49 @@ Silk is a strong natural fiber used to catch prey in a web. Beta-sheets control 
 Output:
 [
 {
-"node_1": "silk",
-"node_2": "fiber",
-"edge": "is a type of"
+"n1": "silk",
+"n2": "fiber",
+"ed": "is a type of"
 },
 {
-"node_1": "silk",
-"node_2": "web",
-"edge": "is used to make"
+"n1": "silk",
+"n2": "web",
+"ed": "is used to make"
 },
 {
-"node_1": "web",
-"node_2": "prey",
-"edge": "catches"
+"n1": "web",
+"n2": "prey",
+"ed": "catches"
 },
 {
-"node_1": "beta-sheets",
-"node_2": "silk",
-"edge": "provide strength to"
+"n1": "beta-sheets",
+"n2": "silk",
+"ed": "provide strength to"
 },
 {
-"node_1": "silk",
-"node_2": "material",
-"edge": "isA"
+"n1": "silk",
+"n2": "material",
+"ed": "isA"
 },
 {
-"node_1": "fiber",
-"node_2": "material",
-"edge": "isA"
+"n1": "fiber",
+"n2": "material",
+"ed": "isA"
 },
 {
-"node_1": "web",
-"node_2": "product",
-"edge": "isA"
+"n1": "web",
+"n2": "product",
+"ed": "isA"
 },
 {
-"node_1": "prey",
-"node_2": "animal",
-"edge": "isA"
+"n1": "prey",
+"n2": "animal",
+"ed": "isA"
 },
 {
-"node_1": "beta-sheets",
-"node_2": "material",
-"edge": "isA"
+"n1": "beta-sheets",
+"n2": "material",
+"ed": "isA"
 }
 ]
 Carefully analyze the provided context and extract <num> key concepts, relationships between them, and entity types to produce an undirected ontology graph, ensuring the outputs are consistent and relevant to the topic discussed.
