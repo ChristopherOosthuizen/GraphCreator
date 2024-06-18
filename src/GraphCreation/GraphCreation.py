@@ -59,10 +59,8 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
             prompt = f"Context Chunk: {text_chunk} Ontology: {response} \n\nOutput: "
             new_edges = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
-            start = re.search(r"\[\s*{", new_edges).start()
-            end = re.search(r"}\s*\]", new_edges).end()
-            new_edges = new_edges[start:end]
-
+            new_edges = new_edges[new_edges.find("["):new_edges.find("]")+1]
+            new_edges = new_edges.replace("\n\n","\n")
             new_edges = new_edges.replace("node1", "n1")
             new_edges = new_edges.replace("node2", "n2")
             new_edges = new_edges.replace("}\n", "},\n")
@@ -72,13 +70,11 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             try:
                 response = "["+",\n".join(json.dumps(x) for x in (json.loads(response) +json.loads(new_edges)))+"]"
             except:
-                print(response)
-                print(new_edges)
+                response = lp.fix_format(response)
+                new_edges = lp.fix_format(new_edges)
                 response = "["+",\n".join(json.dumps(x) for x in (json.loads(response) +json.loads(new_edges)))+"]"
-            start = re.search(r"\[\s*{", response).start()
-            end = re.search(r"}\s*\]", response).end()
-            response = response[start:end]
             response = response[response.find("["):response.find("]")+1]
+            response = response.replace("\n\n","\n")
             response = response.replace("node1", "n1")
             response = response.replace("node2", "n2")
             response = response.replace("}\n", "},\n")
@@ -86,9 +82,8 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             response = re.sub('}$', '}\n]', response)
             response = re.sub('},\n]', '}\n]', response)
             times += 1
-    start = re.search(r"\[\s*{", response).start()
-    end = re.search(r"}\s*\]", response).end()
-    response = response[start:end]
+    response = response[response.find("["):response.find("]")+1]
+    response = response.replace("\n\n","\n")
     response = response.replace("node1", "n1")
     response = response.replace("node2", "n2")
     response = response.replace("}\n", "},\n")
@@ -242,6 +237,7 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
 
             x = json.loads(x)
         except Exception as err:
+            print(x)
             x = json.loads(lp.fix_format(x,str(err)))
         
         for y in x:

@@ -1,6 +1,4 @@
-Task: Fuse ontology chunks by combining node-ed-node triples. Preserve original nodes and edges while adding new links to connect concepts across chunks. Input format:
-
-```json
+Fuse ontology chunks by combining node-ed-node triples. Preserve original nodes and edges while adding new links to connect concepts across chunks. Input format:
 Chunk 1:
 [
   {"n1": "C1A", "n2": "C1B", "ed": "rel1"},
@@ -13,18 +11,13 @@ Chunk 2:
 ]
 Chunk 3:
 [...]
-```
-
 Output a single unified ontology in this format:
-
-```json
 [
   {"n1": "Orig1", "n2": "Orig2", "ed": "OrigRel"},
   {"n1": "Isolated", "n2": "Existing", "ed": "NewRel"},
   {"n1": "AnotherOrig", "n2": "RelatedOrig", "ed": "OrigRel"},
   {"n1": "NewConcept", "n2": "LinkedConcept", "ed": "ConnectRel"}
 ]
-```
 
 Ensure the unified ontology includes:
 - Original nodes and edges.

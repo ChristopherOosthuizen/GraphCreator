@@ -56,7 +56,7 @@ def _ontologies_to_unconnected(ont1, ont2):
     df = pd.DataFrame(ont1)
     G = nx.Graph()
     for x in df.iloc:
-        G.add_edge(x["node_1"], x["node_2"], label=x["edge"])
+        G.add_edge(x["n1"], x["n2"], label=x["ed"])
     dis = [G.subgraph(c).copy() for c in nx.connected_components(G)]
     result = []
     disconnected = []

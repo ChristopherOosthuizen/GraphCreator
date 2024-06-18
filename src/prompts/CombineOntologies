@@ -1,4 +1,4 @@
-Task: Combine ontology chunks as node-ed-node triples. Preserve original nodes and edges, adding new links to connect concepts across chunks. Use meaningful edge labels describing relationships (e.g., "is type of" or "is part of"). Identify semantically related concepts to create a cohesive ontology. Avoid redundant or less informative edges, and introduce new nodes to improve coherence.
+Combine ontology chunks as node-ed-node triples. Preserve original nodes and edges, adding new links to connect concepts across chunks. Use meaningful edge labels describing relationships (e.g., "is type of" or "is part of"). Identify semantically related concepts to create a cohesive ontology. Avoid redundant or less informative edges, and introduce new nodes to improve coherence.
 Input format:
 Ontology Chunk 1:
 [
@@ -19,4 +19,4 @@ Output a unified ontology in this format:
   {"n1": "AnotherOrig", "n2": "RelatedOrig", "ed": "OrigRel"},
   {"n1": "NewConcept", "n2": "LinkedConcept", "ed": "ConnectingRel"}
 ]
-Ensure the output includes original nodes and edges, and new semantic relationships linking concepts across chunks. Use JSON-like format and add comments for new relationships.
+Ensure the output includes original nodes and edges, and new semantic relationships linking concepts across chunks. Use JSON-like format.

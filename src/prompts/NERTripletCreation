@@ -1,4 +1,4 @@
-Task: Analyze a text passage to extract named entities and relationships between concepts using category theory representation. Identify key terms, entities, and concepts using predefined terminology. For each identified term/concept pair, output a JSON object with "n1" and "n2" fields describing the relationship in the "ed" field. For each unique entity, create a JSON object with "n1" as the entity, "n2" as the named entity type, and "ed" as "isA".
+Analyze a text passage to extract named entities and relationships between concepts using category theory representation. Identify key terms, entities, and concepts using predefined terminology. For each identified term/concept pair, output a JSON object with "n1" and "n2" fields describing the relationship in the "ed" field. For each unique entity, create a JSON object with "n1" as the entity, "n2" as the named entity type, and "ed" as "isA".
 Entity tags:
 Thing
 Action (e.g., AchieveAction, LoseAction, WinAction, etc.)
