@@ -1,34 +1,9 @@
-Please augment this ontology graph by adding relevant new concept and relationship triplets while keeping the original ones intact:
-
-Identify important concepts or relationships that were not captured in the original ontology and add them as new node-ed-node triplets.
-Ensure any new nodes use standard, unambiguous terminology, avoiding overly generic or vague labels.
-For new eds, concisely describe the semantic relationships between concepts as conveyed by the context. Aim for clarity and specificity.
-Add the new triplets to the existing JSON list, maintaining alphabetical order of the "n1" field for readability.
-Preserve all of the original ontology triplets in the output, even if some nodes or eds seem redundant with the newly added ones.
-The goal is to produce an augmented ontology graph that captures as much of the key knowled from the context as possible, while avoiding tangential or irrelevant concepts. Try to also create a bridgeless graph with many triangles. Your main priority should still be to create as many relevent triplets as you can.
-
-Please output the expanded ontology using the same JSON list format as the original, with each dictionary representing a semantic link between two concepts:
+augment ontology graph adding relevant concept relationship triplets keeping original intact Identify important concepts relationships not original ontology add new triplets new nodes use standard terminology generic labels describe semantic relationships between concepts Aim for clarity specificity Add new triplets to existing JSON list alphabetical order "n1" field readability Preserve original ontology triplets even redundant goal produce augmented ontology graph key context avoiding tangential irrelevant concepts create bridgeless graph with many triangles priority create many relevent triplets output expanded ontology same JSON list format original each dictionary representing semantic link between two concepts
 [
-{
-"n1": "First concept from original ontology",
-"n2": "Related original concept",
-"ed": "Original relationship label"
-},
-{
-"n1": "New concept to add to ontology",
-"n2": "Another new concept or existing one that relates to n1",
-"ed": "Semantic relationship between new n1 and n2"
-},
-{
-"n1": "Another original concept",
-"n2": "Related original concept",
-"ed": "Original relationship label"
-},
-{
-"n1": "Additional new concept to include",
-"n2": "Related new or existing concept",
-"ed": "Specific relationship based on context"
-},
-{...}
+  {"n1": "Orig1", "n2": "Rel1", "ed": "OrigRel"},
+  {"n1": "New1", "n2": "RelNew1", "ed": "NewRel"},
+  {"n1": "Orig2", "n2": "Rel2", "ed": "OrigRel"},
+  {"n1": "New2", "n2": "RelNew2", "ed": "NewRel"},
+  {...}
 ]
-The output should contain all of the original ontology triplets interleaved with the newly added ones, organized alphabetically by the "n1" field. This will provide a more comprehensive knowled graph capturing the main concepts and relationships discussed in the text.
+output contain original ontology triplets added ones organized alphabetically by "n1" field comprehensive graph capturing main concepts relationships text

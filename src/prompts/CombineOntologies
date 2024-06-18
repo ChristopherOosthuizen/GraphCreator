@@ -1,26 +1,14 @@
-Task: Ontology Fusion
-Given a set of ontology chunks represented as lists of node-ed-node triples separated by newlines, your task is to combine these ontologies through knowled fusion. This involves:
-Preserving all original nodes and eds from the input ontologies in the combined result ontology.
-Adding new nodes and eds that semantically link concepts across the originally separate ontology chunks.
-Linking two nodes means creating a new ed between them that represents a semantic relationship or connection. This relationship should be meaningful within the context of the domain and help to integrate the knowled from the separate ontology chunks into a cohesive whole. The ed label should clearly and concisely describe the nature of the relationship.
-For example, if one ontology chunk has the node "car" and another has "vehicle", you might add a new ed linking them with the label "is a type of", since a car is a specific type of vehicle. Similarly, if one chunk mentions "engine" and another "car", you could link them with an ed like "is a part of", indicating that an engine is a component of a car.
-When deciding which nodes to link and how, consider the following guidelines:
-
-Identify concepts that are semantically related or share a common category, even if they come from different input ontologies.
-Use ed labels that accurately capture the relationship between the nodes in a specific and unambiguous way.
-Aim to create a connected graph by linking nodes across the input ontology chunks, but avoid adding eds that are redundant or less informative.
-If needed, introduce new nodes that serve as bridges or umbrella terms to link disparate concepts and improve the overall ontology's coherence and conciseness.
-
+Task Ontology Fusion ontology chunks as node-ed-node triples separated by newlines, task combine ontologies through fusion involves Preserving original nodes eds in combined result ontology Adding new nodes eds link concepts across separate chunks Linking two nodes creating new ed semantic relationship relationship meaningful context domain integrate into cohesive whole ed label should describe nature relationship, one ontology chunk "car" another "vehicle", add new ed with label "is type of", car vehicle, one chunk mentions "engine" another "car", link with ed "is part of", engine component of car deciding nodes link, consider guidelines Identify concepts semantically related common category, different ontologies Use ed labels capture relationship Aim create connected linking nodes across, avoid adding eds redundant or less informative If, introduce new nodes umbrella terms link disparate concepts improve ontology coherence conciseness
 The input will be provided in the following JSON-like format:
 Ontology Chunk 1:
 [
-{"n1": "Concept 1A", "n2": "Concept 1B", "ed": "relationship label 1"},
-{"n1": "Concept 1B", "n2": "Concept 1C", "ed": "relationship label 2"}
+  {"n1": "C1A", "n2": "C1B", "ed": "rel1"},
+  {"n1": "C1B", "n2": "C1C", "ed": "rel2"}
 ]
 Ontology Chunk 2:
 [
-{"n1": "Concept 2A", "n2": "Concept 2B", "ed": "relationship label 3"},
-{"n1": "Concept 2C", "n2": "Concept 2D", "ed": "relationship label 4"}
+  {"n1": "C2A", "n2": "C2B", "ed": "rel3"},
+  {"n1": "C2C", "n2": "C2D", "ed": "rel4"}
 ]
 Ontology Chunk 3:
 [...]
@@ -28,11 +16,10 @@ Context Chunk:
 [Original text from which the ontology chunks were derived]
 Your task is to output a single unified ontology that fuses knowled from the separate input chunks, in this format:
 [
-{"n1": "Original concept 1", "n2": "Original concept 2", "ed": "Original relationship label"},
-{"n1": "Previously isolated concept", "n2": "Existing concept it connects to", "ed": "New semantic relationship linking them"},
-{"n1": "Another original concept", "n2": "Related original concept", "ed": "Original relationship label"},
-{"n1": "New bridging concept", "n2": "Existing concept it helps link", "ed": "Relationship connecting distant parts of the graph"},
-{...}
+  {"n1": "Orig1", "n2": "Orig2", "ed": "OrigRel"},
+  {"n1": "Isolated", "n2": "Existing", "ed": "NewRel"},
+  {"n1": "AnotherOrig", "n2": "RelatedOrig", "ed": "OrigRel"},
+  {"n1": "NewConcept", "n2": "LinkedConcept", "ed": "ConnectingRel"},
+  ...
 ]
-The output ontology should contain all original nodes and eds, as well as a number of additional nodes and eds you generate to link concepts across the originally separate ontology chunks. The goal is to produce a unified knowled representation that connects the chunks through new semantic relationships. Be sure to output the result using the specified JSON-like format. Do not add a comment like "// new semantic relationships linking concepts across chunks:" Just output the unified ontology.
-Input:
+output ontology contain original nodes eds, additional link concepts across separate chunks goal unified representation chunks new semantic relationships output result using JSON-like format add comment like new semantic relationships linking concepts across chunks output unified ontology Input:

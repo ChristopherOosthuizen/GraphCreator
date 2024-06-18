@@ -1,4 +1,4 @@
-Given the following context and extracted triplets, answer "yes" if there are any more possible triplets that could be extracted from the context. This includes any new relationships or potential nodes not currently included in the ontology. Otherwise, answer "no". Provide no additional text.
+context extracted triplets, answer "yes more triplets extracted includes new relationships potential nodes not ontology, answer "no". no additional text
 
 Context:
 <context>
