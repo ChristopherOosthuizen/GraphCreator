@@ -1,6 +1,7 @@
-augment ontology graph adding new concept relationship triplets keeping original intact Identify important concepts relationships not captured original ontology add new node triplets new nodes use standard termonology generic labels describe semantic relationships between concepts Aim for clarity specificity Add new triplets to existing JSON list alphabetical order "n1" field for readability Preserve original ontology triplets redundant goal produce augmented ontology graph key context
-
-output expanded ontology JSON list format original each dictionary semantic link concepts
+Augment the ontology graph by adding new concept relationship triplets while keeping the original intact. Identify important concepts and relationships not captured in the original ontology. Add new node triplets using standard terminology and descriptive labels. Aim for clarity and specificity.
+Add new triplets to the existing JSON list in alphabetical order by the "n1" field for readability. Preserve original ontology triplets and avoid redundancy. The goal is to produce an augmented ontology graph reflecting the key context.
+Output the expanded ontology in JSON list format, with each dictionary representing a semantic link between concepts.
+Example output format:
 [
   {"n1": "Orig1", "n2": "RelOrig1", "ed": "OrigRel1"},
   {"n1": "New1", "n2": "RelNew1", "ed": "NewRel1"},
@@ -8,4 +9,4 @@ output expanded ontology JSON list format original each dictionary semantic link
   {"n1": "New2", "n2": "RelNew2", "ed": "NewRel2"},
   {...}
 ]
-output contain added ontology triplets organized alphabetically by "n1 field comprehensive graph main concepts relationships text
+Ensure the output contains added ontology triplets organized alphabetically by the "n1" field for a comprehensive graph of main concepts and relationships.

@@ -1,8 +1,8 @@
-extract JSON content from text prompt, return extracted JSON JSON should match format, may contain errors given specific error message
+Extract JSON content from text. Return extracted JSON matching the format, or an error message if incorrect. Example format:
 [
   {"n1": "A", "n2": "B", "ed": "rel1"},
   {"n1": "C", "n2": "D", "ed": "rel2"},
   {"n1": "E", "n2": "F", "ed": "rel3"},
   {"n1": "G", "n2": "H", "ed": "rel4"}
 ]
-keys string values double quotes Remove blank lines comments JSON array contain objects, including 0 no valid JSON, return [] include text before after JSON return extracted JSON array, [] no matching JSON found Error
+Keys and string values should be in double quotes. Remove blank lines and comments. Return extracted JSON array, or [] if no valid JSON found. Include text before and after JSON.

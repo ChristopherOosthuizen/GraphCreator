@@ -1,5 +1,5 @@
-Task Ontology Fusion ontology chunks as node-ed-node triples separated by newlines, task combine ontologies through fusion involves Preserving original nodes eds in combined result ontology Adding new nodes eds link concepts across separate chunks Linking two nodes creating new ed semantic relationship relationship meaningful context domain integrate into cohesive whole ed label should describe nature relationship, one ontology chunk "car" another "vehicle", add new ed with label "is type of", car vehicle, one chunk mentions "engine" another "car", link with ed "is part of", engine component of car deciding nodes link, consider guidelines Identify concepts semantically related common category, different ontologies Use ed labels capture relationship Aim create connected linking nodes across, avoid adding eds redundant or less informative If, introduce new nodes umbrella terms link disparate concepts improve ontology coherence conciseness
-The input will be provided in the following JSON-like format:
+Task: Combine ontology chunks as node-ed-node triples. Preserve original nodes and edges, adding new links to connect concepts across chunks. Use meaningful edge labels describing relationships (e.g., "is type of" or "is part of"). Identify semantically related concepts to create a cohesive ontology. Avoid redundant or less informative edges, and introduce new nodes to improve coherence.
+Input format:
 Ontology Chunk 1:
 [
   {"n1": "C1A", "n2": "C1B", "ed": "rel1"},
@@ -12,14 +12,11 @@ Ontology Chunk 2:
 ]
 Ontology Chunk 3:
 [...]
-Context Chunk:
-[Original text from which the ontology chunks were derived]
-Your task is to output a single unified ontology that fuses knowled from the separate input chunks, in this format:
+Output a unified ontology in this format:
 [
   {"n1": "Orig1", "n2": "Orig2", "ed": "OrigRel"},
   {"n1": "Isolated", "n2": "Existing", "ed": "NewRel"},
   {"n1": "AnotherOrig", "n2": "RelatedOrig", "ed": "OrigRel"},
-  {"n1": "NewConcept", "n2": "LinkedConcept", "ed": "ConnectingRel"},
-  ...
+  {"n1": "NewConcept", "n2": "LinkedConcept", "ed": "ConnectingRel"}
 ]
-output ontology contain original nodes eds, additional link concepts across separate chunks goal unified representation chunks new semantic relationships output result using JSON-like format add comment like new semantic relationships linking concepts across chunks output unified ontology Input:
+Ensure the output includes original nodes and edges, and new semantic relationships linking concepts across chunks. Use JSON-like format and add comments for new relationships.

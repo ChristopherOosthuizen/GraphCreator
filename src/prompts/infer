@@ -1,9 +1,5 @@
-context extracted triplets, answer "yes more triplets extracted includes new relationships potential nodes not ontology, answer "no". no additional text
-
 Context:
 <context>
-
 Extracted Triplets:
 <triplets>
-
-Answer:
+Answer "yes" if new relationships or potential nodes are included; answer "no" otherwise. No additional text.
