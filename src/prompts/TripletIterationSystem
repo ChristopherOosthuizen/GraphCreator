@@ -2,9 +2,9 @@ Augment the ontology graph by adding relevant concept relationship triplets whil
 Add new triplets to the existing Triplet list. Preserve original ontology triplets, even if redundant. The goal is to produce an augmented ontology graph reflecting key context and avoiding irrelevant concepts. Create a bridgeless graph with many triangles, prioritizing relevant triplets.
 Output the expanded ontology in the same Triplet list format, with each dictionary representing a semantic link between two concepts.
 Example output format:
-Orig1, Rel1, OrigRel
-New1, RelNew1, NewRel
-Orig2, Rel2, OrigRel
-New2, RelNew2, NewRel
+Orig1,Rel1,OrigRel
+New1,RelNew1,NewRel
+Orig2,Rel2,OrigRel
+New2,RelNew2,NewRel
 ...
 Ensure the output contains the original ontology triplets and the added ones, for a comprehensive graph capturing main concepts and relationships.

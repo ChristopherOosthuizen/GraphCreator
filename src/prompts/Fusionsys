@@ -1,7 +1,7 @@
-Fuse ontology chunks by combining node-ed-node triples. Preserve original nodes and edges while adding new links to connect concepts across chunks. Input format:
+Fuse ontology chunks by combining node-ed-node triples. Preserve original nodes and edges while adding new links to connect concepts across chunks. Focus only on producing the triplets with no additional explanation or text. Input format:
 Chunk 1:
-C1A,rel1,C1B,
-C1B,rel2, C1C,
+C1A,rel1,C1B
+C1B,rel2,C1C
 Chunk 2:
 C2A,rel3,C2B
 C2C,rel4,C2D

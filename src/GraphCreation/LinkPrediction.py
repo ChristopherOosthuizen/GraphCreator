@@ -13,50 +13,21 @@ def strip_json(jsons):
     jsons = re.sub(r'(?m)^ *//.*\n', '', jsons)
     jsons.replace("\n\n","\n")
     return jsons
-def fix_format(input, error="", model_id=0):
-    """
-    Fixes the format of the input JSON.
-
-    Args:
-        input (str): The input JSON to fix the format of.
-
-    Returns:
-        str: The fixed format of the input JSON.
-    """
-    prompt = f"given this error {error} and json \nOriginal Json: {input}" + open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
-    response = str(LLM.generate_chat_response("", prompt, model_id=model_id))
-    response = response[response.find("["):response.find("]")+1]
-    if response == "":
-        return "[]"
-    return response
 
 def _triplets_to_json(triplets):
-    df = pd.DataFrame({"n1": [], "n2": [], "ed": []})
+    data = []
     for triplet in triplets:
-        df = df._append({"n1": triplet[0], "n2": triplet[2], "ed": triplet[1]}, ignore_index=True)
-    return json.dumps(df.to_dict(orient="records")).replace(",", ",\n")
+        data.append(triplet[0]+","+triplet[1]+","+triplet[2])
+    return "\n".join(data)
 
 def _ontologies_to_unconnected(ont1, ont2):
-    if not ont1.strip():
-        return ont2
-    if not ont2.strip():
-        return ont1
-    try:
-        ont1 = json.loads(ont1)
-    except Exception as err:
-        print(ont1)
-        ont1 = json.loads(fix_format(ont1, str(err)))
-    try:
-        ont2 = json.loads(ont2)
-    except Exception as err:
-        ont2 = json.loads(fix_format(ont2, str(err)))
-    for triplet in ont2:
-        if triplet not in ont1:
-            ont1.append(triplet)
-    df = pd.DataFrame(ont1)
     G = nx.Graph()
-    for x in df.iloc:
-        G.add_edge(x["n1"], x["n2"], label=x["ed"])
+    for x in ont1.split("\n"):
+        objects = x.split(",")
+        G.add_edge(objects[0], objects[2], label=objects[1])
+    for x in ont2.split("\n"):
+        objects = x.split(",")
+        G.add_edge(objects[0], objects[2], label=objects[1])
     dis = [G.subgraph(c).copy() for c in nx.connected_components(G)]
     result = []
     disconnected = []
@@ -85,14 +56,10 @@ def _combine_ontologies(ont1, ont2, sums, model_id=0):
     return response
 
 def _one_switch(ont):
-    try:
-        ont = json.loads(ont)
-    except Exception as err:
-        ont = json.loads(fix_format(ont, str(err)))
-    df = pd.DataFrame(ont)
     G = nx.Graph()
-    for x in df.iloc:
-        G.add_edge(x["n1"], x["n2"], label=x["ed"])
+    for x in ont.split("\n"):
+        objects = x.split(",")
+        G.add_edge(objects[0], objects[2], label=objects[1])
     dis = [G.subgraph(c).copy() for c in nx.connected_components(G)]
     result = []
     disconnected = []

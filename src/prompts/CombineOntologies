@@ -1,7 +1,7 @@
 Combine ontology chunks as node-ed-node triples. Preserve original nodes and edges, adding new links to connect concepts across chunks. Use meaningful edge labels describing relationships (e.g., "typeOf" or "partOf"). Identify semantically related concepts to create a cohesive ontology. Avoid redundant or less informative edges, and introduce new nodes to improve coherence.
 Input format:
 Chunk 1:
-C1A,rel1,C1B,
+C1A,rel1,C1B
 C1B,rel2,C1C
 Chunk 2:
 C2A,rel3,C2B
