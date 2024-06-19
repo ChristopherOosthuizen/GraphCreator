@@ -1,8 +1,6 @@
-Extract JSON content from text. Return extracted JSON matching the format, or an error message if incorrect. Example format:
-[
-  {"n1": "A", "n2": "B", "ed": "rel1"},
-  {"n1": "C", "n2": "D", "ed": "rel2"},
-  {"n1": "E", "n2": "F", "ed": "rel3"},
-  {"n1": "G", "n2": "H", "ed": "rel4"}
-]
-Keys and string values should be in double quotes. Remove blank lines and comments. Return extracted JSON array, or [] if no valid JSON found. Include text before and after JSON.
+Extract Triplet content from text. Return extracted Triplet matching the format, or an error message if incorrect. Example format:
+A,rel1,B
+C,rel2,D
+E,rel3,F
+G,rel4,H
+Keys and string values should be in double quotes. Remove blank lines and comments. Return extracted Triplet array, or [] if no valid Triplet found. Include text before and after Triplet.

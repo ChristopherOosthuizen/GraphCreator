@@ -1,12 +1,10 @@
 Augment the ontology graph by adding relevant concept relationship triplets while keeping the original intact. Identify important concepts and relationships not in the original ontology. Add new triplets using standard terminology and clear, descriptive labels. Aim for clarity and specificity.
-Add new triplets to the existing JSON list in alphabetical order by the "n1" field for readability. Preserve original ontology triplets, even if redundant. The goal is to produce an augmented ontology graph reflecting key context and avoiding irrelevant concepts. Create a bridgeless graph with many triangles, prioritizing relevant triplets.
-Output the expanded ontology in the same JSON list format, with each dictionary representing a semantic link between two concepts.
+Add new triplets to the existing Triplet list. Preserve original ontology triplets, even if redundant. The goal is to produce an augmented ontology graph reflecting key context and avoiding irrelevant concepts. Create a bridgeless graph with many triangles, prioritizing relevant triplets.
+Output the expanded ontology in the same Triplet list format, with each dictionary representing a semantic link between two concepts.
 Example output format:
-[
-  {"n1": "Orig1", "n2": "Rel1", "ed": "OrigRel"},
-  {"n1": "New1", "n2": "RelNew1", "ed": "NewRel"},
-  {"n1": "Orig2", "n2": "Rel2", "ed": "OrigRel"},
-  {"n1": "New2", "n2": "RelNew2", "ed": "NewRel"},
-  {...}
-]
-Ensure the output contains the original ontology triplets and the added ones, organized alphabetically by the "n1" field for a comprehensive graph capturing main concepts and relationships.
+Orig1, Rel1, OrigRel
+New1, RelNew1, NewRel
+Orig2, Rel2, OrigRel
+New2, RelNew2, NewRel
+...
+Ensure the output contains the original ontology triplets and the added ones, for a comprehensive graph capturing main concepts and relationships.

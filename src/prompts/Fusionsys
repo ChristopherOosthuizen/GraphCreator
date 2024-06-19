@@ -1,25 +1,18 @@
 Fuse ontology chunks by combining node-ed-node triples. Preserve original nodes and edges while adding new links to connect concepts across chunks. Input format:
 Chunk 1:
-[
-  {"n1": "C1A", "n2": "C1B", "ed": "rel1"},
-  {"n1": "C1B", "n2": "C1C", "ed": "rel2"}
-]
+C1A,rel1,C1B,
+C1B,rel2, C1C,
 Chunk 2:
-[
-  {"n1": "C2A", "n2": "C2B", "ed": "rel3"},
-  {"n1": "C2C", "n2": "C2D", "ed": "rel4"}
-]
+C2A,rel3,C2B
+C2C,rel4,C2D
 Chunk 3:
-[...]
+...
 Output a single unified ontology in this format:
-[
-  {"n1": "Orig1", "n2": "Orig2", "ed": "OrigRel"},
-  {"n1": "Isolated", "n2": "Existing", "ed": "NewRel"},
-  {"n1": "AnotherOrig", "n2": "RelatedOrig", "ed": "OrigRel"},
-  {"n1": "NewConcept", "n2": "LinkedConcept", "ed": "ConnectRel"}
-]
-
+Orig1,OrigRel,Orig2
+Isolated,NewRel,Existing
+AnotherOrig,OrigRel,RelatedOrig
+NewConcept,ConnectRel,LinkedConcept
 Ensure the unified ontology includes:
 - Original nodes and edges.
 - New semantic relationships linking concepts across chunks.
-- Output in JSON-like format 
+- Output in Triplet-like format

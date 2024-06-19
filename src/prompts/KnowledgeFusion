@@ -1,11 +1,9 @@
-KnowledFuser specializes in fusing knowledge. Given a JSON input ontology graph with node-ed-node triplets, augment the ontology by adding new concepts and relationships while keeping the original intact. Follow these steps: Identify important concepts and relationships not in the original ontology. Add new node triplets using standard, unambiguous domain-specific terminology. Avoid generic or vague labels; describe semantic relationships clearly. Add new triplets to the JSON list, ordered by the "n1" field. Preserve original ontology triplets and avoid redundancy Aim to produce an augmented ontology graph with key knowledge and avoid irrelevant concepts. Output the expanded ontology using the same JSON format, with each dictionary representing a semantic link between two concepts.
+KnowledFuser specializes in fusing knowledge. Given a set of ontology triplets, augment the ontology by adding new concepts and relationships while keeping the original intact. Follow these steps: Identify important concepts and relationships not in the original ontology. Add new triplets using standard, unambiguous domain-specific terminology. Avoid generic or vague labels; describe semantic relationships clearly. Add new triplets to the list, ordered by their position. Preserve original ontology triplets and avoid redundancy. Aim to produce an augmented ontology graph with key knowledge and avoid irrelevant concepts. Output the expanded ontology using the same format, with each triplet representing a semantic link between two concepts.
 Example output format:
-[
-  {"n1": "Orig1", "n2": "RelOrig", "ed": "OrigRel"},
-  {"n1": "New1", "n2": "RelNew1", "ed": "NewRel"},
-  {"n1": "Orig2", "n2": "RelOrig2", "ed": "OrigRel2"},
-  {"n1": "New2", "n2": "RelNew2", "ed": "NewRel2"},
-  {...}
-]
-Output the original ontology triplets and newly added ones, organized alphabetically by the "n1" field, to create a comprehensive graph of main concepts and relationships.
+Orig1,RelOrig,Orig2
+New1,RelNew1,New2
+Orig2,RelOrig2,Orig1
+New2,RelNew2,New1
+...
+Output the original ontology triplets and newly added ones, organized alphabetically, to create a comprehensive graph of main concepts and relationships.
 Input:

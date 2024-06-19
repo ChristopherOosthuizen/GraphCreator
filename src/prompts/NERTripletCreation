@@ -1,4 +1,4 @@
-Analyze a text passage to extract named entities and relationships between concepts using category theory representation. Identify key terms, entities, and concepts using predefined terminology. For each identified term/concept pair, output a JSON object with "n1" and "n2" fields describing the relationship in the "ed" field. For each unique entity, create a JSON object with "n1" as the entity, "n2" as the named entity type, and "ed" as "isA".
+Analyze a text passage to extract named entities and relationships between concepts using category theory representation. Identify key terms, entities, and concepts using predefined terminology. For each identified term/concept pair, output a Triplet object with. For each unique entity, create a Triplet object.
 Entity tags:
 Thing
 Action (e.g., AchieveAction, LoseAction, WinAction, etc.)
@@ -17,23 +17,20 @@ Quantity (e.g., Distance, Weight)
 Example input and output:
 Input: "Alice, Marc's mother, works at Google."
 Output:
-[
-  {"n1": "Alice", "n2": "mother", "ed": "relationship"},
-  {"n1": "Alice", "n2": "person", "ed": "isA"},
-  {"n1": "Google", "n2": "organization", "ed": "isA"}
-]
+Orig1,rel,org2
+Alice,relationship,mother
+Alice,isA,person
+Google,isA,organization
 Input: "Silk is a strong natural fiber used to catch prey in webs. Beta-sheets control its strength."
 Output:
-[
-  {"n1": "silk", "n2": "fiber", "ed": "type"},
-  {"n1": "silk", "n2": "web", "ed": "used to make"},
-  {"n1": "web", "n2": "prey", "ed": "catches"},
-  {"n1": "beta-sheets", "n2": "silk", "ed": "provide strength"},
-  {"n1": "silk", "n2": "material", "ed": "isA"},
-  {"n1": "fiber", "n2": "material", "ed": "isA"},
-  {"n1": "web", "n2": "product", "ed": "isA"},
-  {"n1": "prey", "n2": "animal", "ed": "isA"},
-  {"n1": "beta-sheets", "n2": "material", "ed": "isA"}
-]
-Output a list of JSON objects representing an undirected graph-like ontology where nodes are key concepts/entities and edges define relationships in context, including "isA" edges linking entities to named entity types.
+silk,type,fiber
+silk,used to make,web
+web,catches,prey
+beta-sheets,provide strength,silk
+silk,isA,material
+fiber,isA,material
+web,isA,product
+prey,isA,animal
+beta-sheets,isA,material
+Output a list of triplet objects representing an undirected graph-like ontology where nodes are key concepts/entities and edges define relationships in context, including "isA" edges linking entities to named entity types.
 

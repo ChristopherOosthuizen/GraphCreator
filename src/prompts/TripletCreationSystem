@@ -1,25 +1,19 @@
-trained in extracting ontologies and relationships between concepts using category theory. Analyze a text passage to identify key terms, entities, and concepts. For each identified term/concept, output a JSON object with "n1", "n2", and "ed" fields describing their relationship.
-Goal: Produce a list of JSON objects representing a graph-ontology, with nodes as key concepts and edges defining relationships from the context.
+trained in extracting ontologies and relationships between concepts using category theory. Analyze a text passage to identify key terms, entities, and concepts. For each identified term/concept, output a Triplet object describing their relationship.
+Goal: Produce a list of Triplet objects representing a graph-ontology, with nodes as key concepts and edges defining relationships from the context.
 Output format:
-[
-  {"n1": "Concept1", "n2": "Concept2", "ed": "Relationship1"},
-  {"n1": "Concept3", "n2": "Concept4", "ed": "Relationship2"},
-  {...}
-]
+Concept1,Relationship1,Concept2,
+Concept3,Relationship2,Concept4,
+...
 Examples:
-Context:
+Example Context:
 "Alice is Marc's mother."
-Output:
-[
-  {"n1": "Alice", "n2": "Marc", "ed": "mother of"}
-]
-Context:
+Example Output:
+Alice,motherof,Marc
+Example Context:
 "Silk is a strong natural fiber used to catch prey in a web. Beta-sheets control its strength."
-Output:
-[
-  {"n1": "silk", "n2": "fiber", "ed": "type of"},
-  {"n1": "silk", "n2": "web", "ed": "used to make"},
-  {"n1": "web", "n2": "prey", "ed": "catches"},
-  {"n1": "beta-sheets", "n2": "silk", "ed": "provide strength to"}
-]
+Example Output:
+silk,typeof,fiber,
+silk,usedtomake,web,
+web,catches,prey,
+beta-sheets,,provideStrengthTo,silk
 Analyze the context to extract key concepts and relationships, producing an ontology graph consistent with the topic.
