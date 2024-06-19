@@ -11,10 +11,34 @@ prompts_dir = os.path.join(current_dir, '..', 'prompts')
 def format_text(prompt, url, pipeline_id=0):
     return LLM.generate_chat_response( open( os.path.join(prompts_dir,"formatting")).read(),prompt, pipeline_id)
 
+def extract_relevant_text(html: str) -> str:
+    from bs4 import BeautifulSoup
+
+    # Parse the HTML
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # Extract the relevant text
+    relevant_text = []
+
+    # Check for the specific text of interest
+    site_sub = soup.find(id='siteSub')
+    content_text = soup.find(id='mw-content-text')
+
+    if site_sub:
+        relevant_text.append(site_sub.get_text(strip=False))
+
+    if content_text:
+        paragraphs = content_text.find_all('p')
+        for p in paragraphs:
+            relevant_text.append(p.get_text(strip=False))  # Add a space after each extracted text segment
+
+    result_text = " ".join(relevant_text)
+    return result_text
 
 def url_to_md(url):
     html = urllib.request.urlopen(url).read().decode('utf-8')
-    return markdownify.markdownify(html, heading_style="ATX")
+    html= extract_relevant_text(html)
+    return html
 def pdf_to_md(file):
     return extract_text(file)
 def chunk_text(text):
