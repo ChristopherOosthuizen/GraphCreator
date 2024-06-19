@@ -48,7 +48,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+ LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read().replace("<num>",str(num)), text_chunk, model_id=model_id)
     else:
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
-    prompt = f"Context: ```{text_chunk}``` \n\nOutput: "
+    prompt = f"Context:{text_chunk}\n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
     times = 0
     if repeats != 0:
@@ -57,7 +57,6 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             prompt = f"Context Chunk: {text_chunk} Ontology: {response} \n\nOutput: "
             new_edges = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
             response = response+new_edges
-            print(response)
             times += 1
     return response
     
@@ -205,6 +204,9 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
         splits = x.split("\n")
         for y in splits:
             objects = y.split(",")
+            if len(objects) < 3:
+                print(objects)
+                continue
             Graph.add_node(objects[0],label=objects[1])
             Graph.add_node(objects[2],label=objects[1])
             Graph.add_edge(objects[0],objects[2], label=objects[1])

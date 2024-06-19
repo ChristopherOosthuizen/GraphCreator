@@ -8,12 +8,6 @@ current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
 import re
-def strip_json(jsons):
-    jsons = re.sub(r'(?m)^ *#.*\n', '', jsons)
-    jsons = re.sub(r'(?m)^ *//.*\n', '', jsons)
-    jsons.replace("\n\n","\n")
-    return jsons
-
 def _triplets_to_json(triplets):
     data = []
     for triplet in triplets:
@@ -24,9 +18,15 @@ def _ontologies_to_unconnected(ont1, ont2):
     G = nx.Graph()
     for x in ont1.split("\n"):
         objects = x.split(",")
+        if len(objects) < 3:
+            print(objects)
+            continue
         G.add_edge(objects[0], objects[2], label=objects[1])
     for x in ont2.split("\n"):
         objects = x.split(",")
+        if len(objects) < 3:
+            print(objects)
+            continue
         G.add_edge(objects[0], objects[2], label=objects[1])
     dis = [G.subgraph(c).copy() for c in nx.connected_components(G)]
     result = []
@@ -51,14 +51,15 @@ def _combine_ontologies(ont1, ont2, sums, model_id=0):
         result += "Chunk "+str(x+1)+":\n"+chunks[x]+"\n\n"
     prompt = result
     response = str(LLM.generate_chat_response(open(os.path.join(prompts_dir,"Fusionsys")).read(), prompt,model_id=model_id))
-    response = response[response.find("["):response.find("]")+1].lower()
-    response = strip_json(response)
     return response
 
 def _one_switch(ont):
     G = nx.Graph()
     for x in ont.split("\n"):
         objects = x.split(",")
+        if len(objects) < 3:
+            print(objects)
+            continue
         G.add_edge(objects[0], objects[2], label=objects[1])
     dis = [G.subgraph(c).copy() for c in nx.connected_components(G)]
     result = []
@@ -83,6 +84,4 @@ def _fix_ontology(ont, context,model_id=0):
         result += "Chunk "+str(x+1)+":\n"+chunks[x]+"\n\n"
     prompt = result
     response = str(LLM.generate_chat_response(open(os.path.join(prompts_dir,"Fusionsys")).read(), prompt,model_id=model_id))
-    response = response[response.find("["):response.find("]")+1].lower()
-    response = strip_json(response)
     return response

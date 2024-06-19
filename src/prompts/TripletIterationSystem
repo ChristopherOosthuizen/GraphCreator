@@ -7,4 +7,4 @@ New1,RelNew1,NewRel
 Orig2,Rel2,OrigRel
 New2,RelNew2,NewRel
 ...
-Ensure the output contains the original ontology triplets and the added ones, for a comprehensive graph capturing main concepts and relationships.
+Ensure the output contains the original ontology triplets and the added ones, for a comprehensive graph capturing main concepts and relationships. If there are no triplets or not enough context, output nothing. No extra text or explanation.

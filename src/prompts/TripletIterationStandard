@@ -7,4 +7,4 @@ New1,RelNew1,NewRel1
 Orig2,RelOrig2,OrigRel2
 New2,RelNew2,NewRel2
 ...
-Ensure the output contains added ontology triplets organized alphabetically for a comprehensive graph of main concepts and relationships. With no extra text or explination.
+Ensure the output contains added ontology triplets organized alphabetically for a comprehensive graph of main concepts and relationships. If there are no triplets or not enough context, output nothing. No extra text or explanation.
