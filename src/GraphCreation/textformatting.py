@@ -8,6 +8,7 @@ from . import LLMFunctions as LLM
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
+import tiktoken
 def format_text(prompt, url, pipeline_id=0):
     return LLM.generate_chat_response( open( os.path.join(prompts_dir,"formatting")).read(),prompt, pipeline_id)
 
@@ -47,6 +48,7 @@ def chunk_text(text):
     text = text.replace("]", " ")
     text = text.replace("{", " ")
     text = text.replace("}", " ")
+    text = text.replace("-", "−")
     splitter = MarkdownTextSplitter(chunk_size=600, chunk_overlap=200)
     splits = splitter.create_documents([text])
     for x in range(len(splits)):
@@ -73,3 +75,26 @@ def get_text_chunks(text):
         if "<#notext#>" in chunks[x]:
             chunks.pop(x)
     return chunks
+
+enc = tiktoken.encoding_for_model("gpt-4o")
+def token_compression(text_list):
+    tokens = []
+    words = []
+    taken = {}
+    for x in range(len(text_list)):
+        encoding = enc.encode(text_list[x].replace(" ",""))
+        if len(encoding) == 1:
+            taken[encoding[0]] = text_list[x]
+        else:
+            tokens.append(encoding)
+            words.append(text_list[x])
+    
+    for x in range(len(tokens)):
+        for y in range(len(tokens[x])):
+            if not tokens[x][y] in taken:
+                taken[tokens[x][y]] = words[x]
+                break
+    reformatted = {}
+    for x in taken:
+        reformatted[enc.decode([x])] = taken[x]
+    return reformatted
