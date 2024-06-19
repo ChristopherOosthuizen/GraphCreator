@@ -13,4 +13,4 @@ Orig1,OrigRel,Orig2
 Isolated,NewRel,Existing
 AnotherOrig,OrigRel,RelatedOrig
 NewConcept,ConnectingRel,LinkedConcept
-Ensure the output includes original nodes and edges, and new semantic relationships linking concepts across chunks. Use Triplet-like format. Output only the unified ontology with no extra lines or explanations.
+Ensure the output includes original nodes and edges, and new semantic relationships linking concepts across chunks. Use Triplet-like format. Do not add lines that label the seperate chunks so under no conditions have lines that say "Chunk 1:" or "unifed ontology:". Output only the unified ontology with no extra lines or explanations.
