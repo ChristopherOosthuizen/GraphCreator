@@ -58,7 +58,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             new_edges = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
             response = response+new_edges
             times += 1
-    return response
+    return str(lp._fix_ontology(response,context=text_chunk))
     
 
 
@@ -207,8 +207,8 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
             if len(objects) < 3:
                 print(objects)
                 continue
-            Graph.add_node(objects[0],label=objects[1])
-            Graph.add_node(objects[2],label=objects[1])
+            Graph.add_node(objects[0],label=objects[0])
+            Graph.add_node(objects[2],label=objects[2])
             Graph.add_edge(objects[0],objects[2], label=objects[1])
     
     # Save graph as GraphML

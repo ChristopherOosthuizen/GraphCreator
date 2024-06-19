@@ -8,12 +8,12 @@ Examples:
 Example Context:
 "Alice is Marc's mother."
 Example Output:
-Alice,motherof,Marc
+Alice,mother of,Marc
 Example Context:
 "Silk is a strong natural fiber used to catch prey in a web. Beta-sheets control its strength."
 Example Output:
 silk,typeof,fiber
-silk,usedtomake,web
+silk,used to make,web
 web,catches,prey
 beta-sheets,provideStrengthTo,silk
 Analyze the context to extract key concepts and relationships, producing an ontology graph consistent with the topic. With no extra text or explination. If there are no triplets or not enough context, output nothing. No extra text or explanation.

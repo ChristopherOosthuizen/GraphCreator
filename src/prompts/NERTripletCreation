@@ -32,5 +32,5 @@ fiber,isA,material
 web,isA,product
 prey,isA,animal
 beta-sheets,isA,material
-Output a list of triplet objects representing an undirected graph-like ontology where nodes are key concepts/entities and edges define relationships in context, including "isA" edges linking entities to named entity types. If there are no triplets or not enough context, output nothing. No extra text or explanation.
+Output triplets representing an undirected graph-like ontology where nodes are key concepts/entities and edges define relationships in context, including "isA" edges linking entities to named entity types. If there are no triplets or not enough context, output nothing. No extra text or explanation.
 
