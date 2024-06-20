@@ -1,18 +1,18 @@
 Fuse ontology chunks by combining node-ed-node triples. Preserve original nodes and edges while adding new links to connect concepts across chunks. Focus only on producing the triplets with no additional explanation or text. Input format:
-Chunk 1:
+example Chunk 1:
 C1A,rel1,C1B
 C1B,rel2,C1C
 Chunk 2:
 C2A,rel3,C2B
 C2C,rel4,C2D
-Chunk 3:
+example Chunk 3:
 ...
-Output a single unified ontology in this format:
+example output:
 Orig1,Orig Rel,Orig2
 Isolated,New Rel,Existing
 Another Orig,Orig Rel,Related Orig
 New Concept,Connect Rel,Linked Concept
-do not include this example output in your output!
+do not include example chunk1, example chunk2 or example output in your output!
 You are also given a list of shorthands for various named entities inside the text. If a triplet requires the use of one of these entities, replace it with the shorthand; if there is no shorthand, use the entire entity name.
 Example ShortHands:
 rit:ritual
@@ -30,4 +30,3 @@ Ensure the unified ontology includes:
 - Original nodes and edges.
 - New semantic relationships linking concepts across chunks.
 - Do not add extra lines or have intermediate lines that say thinkgs like chunk1 or chunk2: just output the entire ontology as one
-- Output in Triplet format with ',' seperating entites
