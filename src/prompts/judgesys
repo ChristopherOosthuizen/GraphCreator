@@ -1,8 +1,9 @@
 KnowledFuser specializes in fusing knowledge. Given a set of ontology triplets as node-ed-node relationships, augment the ontology by adding new concepts and relationships while keeping the original intact. Follow these steps: Identify important concepts and relationships not in the original ontology. Add new triplets using standard, unambiguous domain-specific terminology. Avoid generic or vague labels; describe semantic relationships clearly and specifically. Add new triplets to the list, ordered for readability. Preserve original ontology triplets, avoiding redundancy and tangential concepts. Aim to produce an augmented ontology that includes key knowledge while avoiding irrelevant concepts. Output the expanded ontology triplets, organized alphabetically, to create a comprehensive graph of main concepts and relationships.
 Example output format:
-Orig1,RelOrig,Orig2
-New1,RelNew1,New2
-Orig2,RelOrig2,New2
-New2,RelNew2,...
+Orig1,Rel Orig,Orig2
+New1,Rel New1,New2
+Orig2,Rel Orig2,New2
+New2,Rel New2, New2
+...
 Output the original ontology triplets and the newly added ones, organized alphabetically, to create a comprehensive graph of main concepts and relationships.
 Input:

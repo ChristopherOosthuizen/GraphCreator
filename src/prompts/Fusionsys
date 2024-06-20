@@ -8,13 +8,13 @@ C2C,rel4,C2D
 Chunk 3:
 ...
 Output a single unified ontology in this format:
-Orig1,OrigRel,Orig2
-Isolated,NewRel,Existing
-AnotherOrig,OrigRel,RelatedOrig
-NewConcept,ConnectRel,LinkedConcept
+Orig1,Orig Rel,Orig2
+Isolated,New Rel,Existing
+Another Orig,Orig Rel,Related Orig
+New Concept,Connect Rel,Linked Concept
 
-You also have a list of shorthands for named entities. If a shorthand is seen inside of the first or third triplet spot it is a shorthand. Ensure that your output is consistent with these shorthands. If there is not a shorthand for a entity you would like to use simply use the entire entity name. 
-Shorthands:
+You are also given a list of shorthands for various named entities inside the text. If a triplet requires the use of one of these entities, replace it with the shorthand; if there is no shorthand, use the entire entity name.
+ShortHands:
 <shorthands>
 Ensure the unified ontology includes:
 - Original nodes and edges.

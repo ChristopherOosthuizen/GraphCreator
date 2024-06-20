@@ -12,11 +12,11 @@ Alice,mother of,Marc
 Example Context:
 "Silk is a strong natural fiber used to catch prey in a web. Beta-sheets control its strength."
 Example Output:
-silk,typeof,fiber
+silk,type of,fiber
 silk,used to make,web
 web,catches,prey
-beta-sheets,provideStrengthTo,silk
+beta-sheets,provide strength to,silk
 Analyze the context to extract key concepts and relationships, producing an ontology graph consistent with the topic. With no extra text or explination. If there are no triplets or not enough context, output nothing. No extra text or explanation.
-You are also given a list of shorthand's for various named entitles inside the text, if a triplet requires the use of one of these entites instead replace it with the shorthand, if there is not shorthand simply use the whole entity name.
+You are also given a list of shorthands for various named entities inside the text. If a triplet requires the use of one of these entities, replace it with the shorthand; if there is no shorthand, use the entire entity name.
 ShortHands:
 <shorthands>

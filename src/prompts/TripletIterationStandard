@@ -8,6 +8,6 @@ Orig 2,Rel Orig 2,Orig Rel 2
 New 2,Rel New 2,New Rel 2
 ...
 Ensure the output contains added ontology triplets organized alphabetically for a comprehensive graph of main concepts and relationships. If there are no triplets or not enough context, output nothing. No extra text or explanation. 
-You are also given a list of shorthand's for various named entitles inside the text, if a triplet requires the use of one of these entites instead replace it with the shorthand, if there is not shorthand simply use the whole entity name.
+You are also given a list of shorthands for various named entities inside the text. If a triplet requires the use of one of these entities, replace it with the shorthand; if there is no shorthand, use the entire entity name.
 ShortHands:
 <shorthands>
