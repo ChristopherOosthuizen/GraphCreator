@@ -98,3 +98,22 @@ def token_compression(text_list):
     for x in taken:
         reformatted[enc.decode([x])] = taken[x]
     return reformatted
+
+def decompress(text, token_dict):
+    result = []
+    for x in text.split("\n"):
+        objects = x.split(",")
+        if len(objects) == 3:
+            obj1 = ""
+            if objects[0] in token_dict:
+                obj1 = token_dict[objects[0]]
+            else:
+                obj1 = objects[0]
+            obj2 = ""
+            if objects[2] in token_dict:
+                obj2 = token_dict[objects[2]]
+            else:
+                obj2 = objects[2]
+            result.append(f"{obj1},{objects[1]},{obj2}")
+    return "\n".join(result)
+                

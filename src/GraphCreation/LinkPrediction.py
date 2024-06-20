@@ -75,7 +75,7 @@ def _one_switch(ont):
         result.append(_triplets_to_json(x))
     return result
 
-def _fix_ontology(ont, context,model_id=0):
+def _fix_ontology(ont, context, shorthands="",model_id=0):
     chunks = _one_switch(ont)
     if len(chunks) == 1:
         return ont
@@ -83,5 +83,5 @@ def _fix_ontology(ont, context,model_id=0):
     for x in range(len(chunks)):
         result += "Chunk "+str(x+1)+":\n"+chunks[x]+"\n\n"
     prompt = result
-    response = str(LLM.generate_chat_response(open(os.path.join(prompts_dir,"Fusionsys")).read(), prompt,model_id=model_id))
+    response = str(LLM.generate_chat_response(open(os.path.join(prompts_dir,"Fusionsys")).read().replace("<shorthands>",shorthands), prompt,model_id=model_id))
     return response

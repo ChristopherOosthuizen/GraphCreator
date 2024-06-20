@@ -48,17 +48,25 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+ LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read().replace("<num>",str(num)), text_chunk, model_id=model_id)
     else:
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
+    shorthands = textformatting.token_compression(LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read(), text_chunk, model_id=model_id).split("\n"))
+    shorthand_dict = shorthands
+    shorthands = [x+":"+shorthands[x] for x in shorthands.keys()]
+    shorthands = "\n".join(shorthands)
+    system_prompt = system_prompt.replace("<shorthands>",shorthands)
     prompt = f"Context:{text_chunk}\n\nOutput: "
-    response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+    response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id)).replace("```","").strip()
     times = 0
     if repeats != 0:
         while(LLM.generate_chat_response("", open(os.path.join(prompts_dir,"infer")).read().replace("<context>",text_chunk).replace("<triplets>",response), model_id=model_id) == "yes" and times < repeats):
-            system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read()
+            system_prompt = open(os.path.join(prompts_dir,"TripletIterationStandard")).read()
+            system_prompt = system_prompt.replace("<shorthands>",shorthands)
             prompt = f"Context Chunk: {text_chunk} Ontology: {response} \n\nOutput: "
-            new_edges = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id))
+            new_edges = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id)).replace("```","").strip()
             response = response+new_edges
             times += 1
-    return str(lp._fix_ontology(response,context=text_chunk))
+    response = str(lp._fix_ontology(response,context=text_chunk, shorthands=shorthands)).strip()
+    response = textformatting.decompress(response,shorthand_dict).strip()
+    return response
     
 
 

@@ -12,7 +12,12 @@ Orig1,OrigRel,Orig2
 Isolated,NewRel,Existing
 AnotherOrig,OrigRel,RelatedOrig
 NewConcept,ConnectRel,LinkedConcept
+
+You also have a list of shorthands for named entities. If a shorthand is seen inside of the first or third triplet spot it is a shorthand. Ensure that your output is consistent with these shorthands. If there is not a shorthand for a entity you would like to use simply use the entire entity name. 
+Shorthands:
+<shorthands>
 Ensure the unified ontology includes:
 - Original nodes and edges.
 - New semantic relationships linking concepts across chunks.
+- Do not add extra lines or have intermediate lines that say thinkgs like chunk1 or chunk2: just output the entire ontology as one
 - Output in Triplet-like format
