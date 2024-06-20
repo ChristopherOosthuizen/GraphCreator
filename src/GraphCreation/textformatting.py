@@ -96,7 +96,7 @@ def token_compression(text_list):
                 break
     reformatted = {}
     for x in taken:
-        reformatted[enc.decode([x])] = taken[x]
+        reformatted[enc.decode([x])] = taken[x].replace("\\","").strip()
     return reformatted
 
 def decompress(text, token_dict):
