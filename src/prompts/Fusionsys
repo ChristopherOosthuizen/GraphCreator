@@ -30,4 +30,4 @@ Ensure the unified ontology includes:
 - Original nodes and edges.
 - New semantic relationships linking concepts across chunks.
 - Do not add extra lines or have intermediate lines that say thinkgs like chunk1 or chunk2: just output the entire ontology as one
-- Output in Triplet format
+- Output in Triplet format with ',' seperating entites

@@ -1,29 +1,41 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="wikipedia">
+<graph edgedefault="undirected"><node id="from wikipedia">
+  <data key="d0">from wikipedia</data>
+</node>
+<node id="the free encyclopedia">
+  <data key="d0">the free encyclopedia</data>
+</node>
+<node id="wikipedia">
   <data key="d0">wikipedia</data>
 </node>
-<node id="encyclopedia">
-  <data key="d0">encyclopedia</data>
+<node id="c2b">
+  <data key="d0">c2b</data>
 </node>
-<node id="knight of the shire">
-  <data key="d0">knight of the shire</data>
+<node id="c2a">
+  <data key="d0">c2a</data>
+</node>
+<node id="c2c">
+  <data key="d0">c2c</data>
+</node>
+<node id="c2d">
+  <data key="d0">c2d</data>
 </node>
 <node id="mp">
   <data key="d0">mp</data>
 </node>
-<node id="burgess">
-  <data key="d0">burgess</data>
+<node id="county constituency">
+  <data key="d0">county constituency</data>
 </node>
-<node id="county">
-  <data key="d0">county</data>
+<node id="knight of the shire">
+  <data key="d0">knight of the shire</data>
 </node>
 <node id="british house of commons">
   <data key="d0">british house of commons</data>
 </node>
-<node id="parliament of england">
-  <data key="d0">parliament of england</data>
+<node id="burgess">
+  <data key="d0">burgess</data>
 </node>
 <node id="citizen">
   <data key="d0">citizen</data>
@@ -31,38 +43,107 @@
 <node id="baron">
   <data key="d0">baron</data>
 </node>
-<node id="county forming_single constituency">
-  <data key="d0">county forming_single constituency</data>
+<node id="medieval">
+  <data key="d0">medieval</data>
 </node>
-<node id="redistribution of seats act 1885">
-  <data key="d0">redistribution of seats act 1885</data>
+<node id="milites comitatus">
+  <data key="d0">milites comitatus</data>
+</node>
+<node id="parliament of england">
+  <data key="d0">parliament of england</data>
+</node>
+<node id="cinque ports">
+  <data key="d0">cinque ports</data>
+</node>
+<node id="county constituency  ">
+  <data key="d0">county constituency  </data>
+</node>
+<node id="knight of the shire  ">
+  <data key="d0">knight of the shire  </data>
+</node>
+<node id="british house of commons  ">
+  <data key="d0">british house of commons  </data>
+</node>
+<node id="burgess  ">
+  <data key="d0">burgess  </data>
+</node>
+<node id="citizen  ">
+  <data key="d0">citizen  </data>
+</node>
+<node id="baron  ">
+  <data key="d0">baron  </data>
+</node>
+<node id="medieval  ">
+  <data key="d0">medieval  </data>
+</node>
+<node id="milites comitatus  ">
+  <data key="d0">milites comitatus  </data>
+</node>
+<node id="parliament of england  ">
+  <data key="d0">parliament of england  </data>
+</node>
+<node id="cinque ports  ">
+  <data key="d0">cinque ports  </data>
 </node>
 <node id="borough constituency">
   <data key="d0">borough constituency</data>
 </node>
+<node id="borough  ">
+  <data key="d0">borough  </data>
+</node>
 <node id="borough">
   <data key="d0">borough</data>
 </node>
-<node id="city">
-  <data key="d0">city</data>
+<node id="borough with city status  ">
+  <data key="d0">borough with city status  </data>
 </node>
-<node id="cinque ports constituency">
-  <data key="d0">cinque ports constituency</data>
-</node>
-<node id="knights of the shire">
-  <data key="d0">knights of the shire</data>
+<node id="borough constituency  ">
+  <data key="d0">borough constituency  </data>
 </node>
 <node id="parliament">
   <data key="d0">parliament</data>
 </node>
+<node id="burgesses  ">
+  <data key="d0">burgesses  </data>
+</node>
 <node id="burgesses">
   <data key="d0">burgesses</data>
+</node>
+<node id="knights  ">
+  <data key="d0">knights  </data>
+</node>
+<node id="shire  ">
+  <data key="d0">shire  </data>
 </node>
 <node id="shire">
   <data key="d0">shire</data>
 </node>
-<node id="henry vi">
-  <data key="d0">henry vi</data>
+<node id="borough part of">
+  <data key="d0">borough part of</data>
+</node>
+<node id="borough with city status">
+  <data key="d0">borough with city status</data>
+</node>
+<node id="knights">
+  <data key="d0">knights</data>
+</node>
+<node id="quinquennial election">
+  <data key="d0">quinquennial election</data>
+</node>
+<node id="knight">
+  <data key="d0">knight</data>
+</node>
+<node id="19th century">
+  <data key="d0">19th century</data>
+</node>
+<node id="gentlemen">
+  <data key="d0">gentlemen</data>
+</node>
+<node id="14th century">
+  <data key="d0">14th century</data>
+</node>
+<node id="not knights">
+  <data key="d0">not knights</data>
 </node>
 <node id="23 hen. 6. c. 14">
   <data key="d0">23 hen. 6. c. 14</data>
@@ -70,110 +151,143 @@
 <node id="yeomanesquires">
   <data key="d0">yeomanesquires</data>
 </node>
-<node id="yeoman">
-  <data key="d0">yeoman</data>
+<node id="henry vi">
+  <data key="d0">henry vi</data>
 </node>
-<node id="writ of election">
-  <data key="d0">writ of election</data>
-</node>
-<node id="14th century">
-  <data key="d0">14th century</data>
-</node>
-<node id="gentlemen">
-  <data key="d0">gentlemen</data>
-</node>
-<node id="adequate estates">
-  <data key="d0">adequate estates</data>
-</node>
-<node id="not lower than yeoman">
-  <data key="d0">not lower than yeoman</data>
-</node>
-<node id="not lower than yeomanhen">
-  <data key="d0">not lower than yeomanhen</data>
-</node>
-<node id="esquires">
-  <data key="d0">esquires</data>
-</node>
-<node id="sufficiently esteemed">
-  <data key="d0">sufficiently esteemed</data>
+<node id="included not knights">
+  <data key="d0">included not knights</data>
 </node>
 <node id="simon de montfort">
   <data key="d0">simon de montfort</data>
 </node>
-<node id="in 126">
-  <data key="d0">in 126</data>
+<node id="distribution of seats">
+  <data key="d0">distribution of seats</data>
 </node>
-<node id="number of knights">
-  <data key="d0">number of knights</data>
-</node>
-<node id="standardised">
-  <data key="d0">standardised</data>
-</node>
-<node id="knights">
-  <data key="d0">knights</data>
-</node>
-<node id="knights til 182">
-  <data key="d0">knights til 182</data>
-</node>
-<node id="singleseat divisionsboroug">
-  <data key="d0">singleseat divisionsboroug</data>
-</node>
-<node id="yorkshire">
-  <data key="d0">yorkshire</data>
+<node id="1265">
+  <data key="d0">1265</data>
 </node>
 <node id="representation of the people act 1832">
   <data key="d0">representation of the people act 1832</data>
 </node>
-<node id="singleseat divisions">
-  <data key="d0">singleseat divisions</data>
+<node id="yorkshire">
+  <data key="d0">yorkshire</data>
 </node>
-<node id="knights after disfranchisement of grampound">
-  <data key="d0">knights after disfranchisement of grampound</data>
+<node id="election">
+  <data key="d0">election</data>
 </node>
-<node id="franchise">
-  <data key="d0">franchise</data>
+<node id="number">
+  <data key="d0">number</data>
 </node>
-<node id="multiple singleseat divisions">
-  <data key="d0">multiple singleseat divisions</data>
+<node id="1826">
+  <data key="d0">1826</data>
 </node>
-<node id="divisions">
-  <data key="d0">divisions</data>
+<node id="disfranchisement">
+  <data key="d0">disfranchisement</data>
+</node>
+<node id="grampound">
+  <data key="d0">grampound</data>
+</node>
+<node id="shires">
+  <data key="d0">shires</data>
+</node>
+<node id="redistribution of seats act 1885">
+  <data key="d0">redistribution of seats act 1885</data>
 </node>
 <node id="constituencies">
   <data key="d0">constituencies</data>
 </node>
-<node id="changes">
-  <data key="d0">changes</data>
-</node>
-<node id="standardisation of franchise">
-  <data key="d0">standardisation of franchise</data>
+<node id="county">
+  <data key="d0">county</data>
 </node>
 <node id="borough constituencies">
   <data key="d0">borough constituencies</data>
 </node>
-<node id="type of returning officer">
-  <data key="d0">type of returning officer</data>
+<node id="constituencies  ">
+  <data key="d0">constituencies  </data>
 </node>
-<node id="election expenses">
-  <data key="d0">election expenses</data>
+<node id="borough constituencies  ">
+  <data key="d0">borough constituencies  </data>
 </node>
-<node id="rural constituencies">
-  <data key="d0">rural constituencies</data>
+<node id="rural areasbackbenchers">
+  <data key="d0">rural areasbackbenchers</data>
+</node>
+<node id="the term  ">
+  <data key="d0">the term  </data>
+</node>
+<node id="senior con backbenchers  ">
+  <data key="d0">senior con backbenchers  </data>
+</node>
+<node id="rural areas  ">
+  <data key="d0">rural areas  </data>
+</node>
+<node id="england  ">
+  <data key="d0">england  </data>
+</node>
+<node id="backbenchers">
+  <data key="d0">backbenchers</data>
+</node>
+<node id="conservative party  ">
+  <data key="d0">conservative party  </data>
+</node>
+<node id="constituencies in eng  ">
+  <data key="d0">constituencies in eng  </data>
+</node>
+<node id="constituencies in w  ">
+  <data key="d0">constituencies in w  </data>
+</node>
+<node id="kn in con  ">
+  <data key="d0">kn in con  </data>
 </node>
 <node id="conservative party">
   <data key="d0">conservative party</data>
 </node>
+<node id="eng and  ">
+  <data key="d0">eng and  </data>
+</node>
+<node id="eng and">
+  <data key="d0">eng and</data>
+</node>
+<node id="constituencies located in">
+  <data key="d0">constituencies located in</data>
+</node>
+<node id="wales  ">
+  <data key="d0">wales  </data>
+</node>
+<node id="election expenses  ">
+  <data key="d0">election expenses  </data>
+</node>
+<node id="type of returning officer  ">
+  <data key="d0">type of returning officer  </data>
+</node>
+<node id="type of returning officer">
+  <data key="d0">type of returning officer</data>
+</node>
+<node id="the term">
+  <data key="d0">the term</data>
+</node>
+<node id="senior con backbenchers">
+  <data key="d0">senior con backbenchers</data>
+</node>
+<node id="rural areas">
+  <data key="d0">rural areas</data>
+</node>
 <node id="england">
   <data key="d0">england</data>
+</node>
+<node id="constituencies in eng">
+  <data key="d0">constituencies in eng</data>
+</node>
+<node id="constituencies in w">
+  <data key="d0">constituencies in w</data>
+</node>
+<node id="kn in con">
+  <data key="d0">kn in con</data>
 </node>
 <node id="wales">
   <data key="d0">wales</data>
 </node>
 <node id="magnum concilium">
   <data key="d0">magnum concilium</data>
-</node>
-<node id="parliamentary system">
-  <data key="d0">parliamentary system</data>
 </node>
 <node id="king">
   <data key="d0">king</data>
@@ -184,47 +298,56 @@
 <node id="ecclesiastics">
   <data key="d0">ecclesiastics</data>
 </node>
+<node id="knights of the shire">
+  <data key="d0">knights of the shire</data>
+</node>
 <node id="montforts parliament">
   <data key="d0">montforts parliament</data>
+</node>
+<node id="1264">
+  <data key="d0">1264</data>
+</node>
+<node id="model parliament">
+  <data key="d0">model parliament</data>
+</node>
+<node id="1295">
+  <data key="d0">1295</data>
+</node>
+<node id="1341">
+  <data key="d0">1341</data>
+</node>
+<node id="house">
+  <data key="d0">house</data>
 </node>
 <node id="edward iii">
   <data key="d0">edward iii</data>
 </node>
-<node id="bills">
-  <data key="d0">bills</data>
-</node>
-<node id="advice">
-  <data key="d0">advice</data>
-</node>
-<node id="members">
-  <data key="d0">members</data>
-</node>
-<node id="boroughs">
-  <data key="d0">boroughs</data>
+<node id="house of commons">
+  <data key="d0">house of commons</data>
 </node>
 <node id="house of lords">
   <data key="d0">house of lords</data>
 </node>
-<node id="house of commons">
-  <data key="d0">house of commons</data>
-</node>
-<node id="bicameral">
-  <data key="d0">bicameral</data>
-</node>
-<node id="the model parliament">
-  <data key="d0">the model parliament</data>
-</node>
 <node id="legislative powers">
   <data key="d0">legislative powers</data>
 </node>
-<node id="house of">
-  <data key="d0">house of</data>
+<node id="commons">
+  <data key="d0">commons</data>
 </node>
 <node id="bicameral structure">
   <data key="d0">bicameral structure</data>
 </node>
-<node id="1295">
-  <data key="d0">1295</data>
+<node id="de la mare">
+  <data key="d0">de la mare</data>
+</node>
+<node id="actions">
+  <data key="d0">actions</data>
+</node>
+<node id="imprisoned">
+  <data key="d0">imprisoned</data>
+</node>
+<node id="1376">
+  <data key="d0">1376</data>
 </node>
 <node id="sir peter de la mare">
   <data key="d0">sir peter de la mare</data>
@@ -232,149 +355,167 @@
 <node id="lords">
   <data key="d0">lords</data>
 </node>
-<node id="actions">
-  <data key="d0">actions</data>
-</node>
-<node id="commons">
-  <data key="d0">commons</data>
-</node>
-<node id="single representative voice">
-  <data key="d0">single representative voice</data>
+<node id="accounting of royal expenditures">
+  <data key="d0">accounting of royal expenditures</data>
 </node>
 <node id="complaints">
   <data key="d0">complaints</data>
 </node>
-<node id="kings management of military">
-  <data key="d0">kings management of military</data>
-</node>
-<node id="royal expenditures">
-  <data key="d0">royal expenditures</data>
-</node>
 <node id="taxes">
   <data key="d0">taxes</data>
 </node>
-<node id="representative voice">
-  <data key="d0">representative voice</data>
+<node id="kings management of military">
+  <data key="d0">kings management of military</data>
 </node>
-<node id="de la mare">
-  <data key="d0">de la mare</data>
+<node id="resulted in">
+  <data key="d0">resulted in</data>
 </node>
-<node id="speaker of the house">
-  <data key="d0">speaker of the house</data>
+<node id="representative">
+  <data key="d0">representative</data>
+</node>
+<node id="boroughs">
+  <data key="d0">boroughs</data>
+</node>
+<node id="office of the representative">
+  <data key="d0">office of the representative</data>
+</node>
+<node id="king's management of military">
+  <data key="d0">king's management of military</data>
+</node>
+<node id="kings">
+  <data key="d0">kings</data>
+</node>
+<node id="management of military">
+  <data key="d0">management of military</data>
 </node>
 <node id="speaker of the house of commons">
   <data key="d0">speaker of the house of commons</data>
 </node>
-<node id="office of">
-  <data key="d0">office of</data>
+<node id="office">
+  <data key="d0">office</data>
 </node>
-<node id="1377">
-  <data key="d0">1377</data>
+<node id="office of speaker">
+  <data key="d0">office of speaker</data>
 </node>
-<node id="1430">
-  <data key="d0">1430</data>
+<node id="imprisonment of de la mare">
+  <data key="d0">imprisonment of de la mare</data>
 </node>
-<node id="before">
-  <data key="d0">before</data>
+<node id="creation of office">
+  <data key="d0">creation of office</data>
+</node>
+<node id="before 1430">
+  <data key="d0">before 1430</data>
 </node>
 <node id="elections">
   <data key="d0">elections</data>
 </node>
-<node id="fortyshilling freeholders">
-  <data key="d0">fortyshilling freeholders</data>
+<node id="free inhabitant householders">
+  <data key="d0">free inhabitant householders</data>
 </node>
-<node id="resiance">
-  <data key="d0">resiance</data>
-</node>
-<node id="act of 1430">
-  <data key="d0">act of 1430</data>
-</node>
-<node id="county franchise">
-  <data key="d0">county franchise</data>
+<node id="reason for par action">
+  <data key="d0">reason for par action</data>
 </node>
 <node id="charles seymour">
   <data key="d0">charles seymour</data>
 </node>
-<node id="parliamentary qualification">
-  <data key="d0">parliamentary qualification</data>
+<node id="residence qualification">
+  <data key="d0">residence qualification</data>
+</node>
+<node id="concept of idence">
+  <data key="d0">concept of idence</data>
+</node>
+<node id="county franchise legislation">
+  <data key="d0">county franchise legislation</data>
+</node>
+<node id="fortyshilling freeholders">
+  <data key="d0">fortyshilling freeholders</data>
+</node>
+<node id="county franchise clarification">
+  <data key="d0">county franchise clarification</data>
 </node>
 <node id="county court">
   <data key="d0">county court</data>
 </node>
-<node id="electorate">
-  <data key="d0">electorate</data>
-</node>
-<node id="residence qualification">
-  <data key="d0">residence qualification</data>
-</node>
-<node id="legislate">
-  <data key="d0">legislate</data>
+<node id="the act of 1430">
+  <data key="d0">the act of 1430</data>
 </node>
 <node id="elections crowded">
   <data key="d0">elections crowded</data>
 </node>
-<node id="the act of 1430">
-  <data key="d0">the act of 1430</data>
-</node>
-<node id="confusion">
-  <data key="d0">confusion</data>
-</node>
-<node id="qualified persons">
-  <data key="d0">qualified persons</data>
+<node id="county franchise">
+  <data key="d0">county franchise</data>
 </node>
 <node id="suffrage">
   <data key="d0">suffrage</data>
 </node>
-<node id="the parliament of england">
-  <data key="d0">the parliament of england</data>
+<node id="persons qualified by a freehold of 40">
+  <data key="d0">persons qualified by a freehold of 40</data>
 </node>
-<node id="uniform county franchise">
-  <data key="d0">uniform county franchise</data>
+<node id="suffrage restrictions">
+  <data key="d0">suffrage restrictions</data>
 </node>
-<node id="electors of knights of the shires act 1429">
-  <data key="d0">electors of knights of the shires act 1429</data>
-</node>
-<node id="knights of the shires act 1429">
-  <data key="d0">knights of the shires act 1429</data>
-</node>
-<node id="8 hen. 6. c. 7">
-  <data key="d0">8 hen. 6. c. 7</data>
-</node>
-<node id="10 hen. 6. c. 2">
-  <data key="d0">10 hen. 6. c. 2</data>
-</node>
-<node id="electors of knights of the shires act 1432">
-  <data key="d0">electors of knights of the shires act 1432</data>
-</node>
-<node id="1430 law">
-  <data key="d0">1430 law</data>
-</node>
-<node id="voter">
-  <data key="d0">voter</data>
-</node>
-<node id="resident of a county">
-  <data key="d0">resident of a county</data>
-</node>
-<node id="fortyshilling freehold">
-  <data key="d0">fortyshilling freehold</data>
-</node>
-<node id="property">
-  <data key="d0">property</data>
-</node>
-<node id="knights of the shires act 1430">
-  <data key="d0">knights of the shires act 1430</data>
-</node>
-<node id="residence requirement">
-  <data key="d0">residence requirement</data>
-</node>
-<node id="fortyshilling freeholds">
-  <data key="d0">fortyshilling freeholds</data>
+<node id="elections influenced">
+  <data key="d0">elections influenced</data>
 </node>
 <node id="electors of knights of the shire act 1432">
   <data key="d0">electors of knights of the shire act 1432</data>
 </node>
+<node id="uniform county franchise">
+  <data key="d0">uniform county franchise</data>
+</node>
+<node id="1430">
+  <data key="d0">1430</data>
+</node>
+<node id="recital in">
+  <data key="d0">recital in</data>
+</node>
+<node id="voter">
+  <data key="d0">voter</data>
+</node>
+<node id="fortyshilling freeholds">
+  <data key="d0">fortyshilling freeholds</data>
+</node>
+<node id="residence requirement">
+  <data key="d0">residence requirement</data>
+</node>
 <node id="authorities">
   <data key="d0">authorities</data>
+</node>
+<node id="fortyshilling">
+  <data key="d0">fortyshilling</data>
+</node>
+<node id="great number">
+  <data key="d0">great number</data>
+</node>
+<node id="8 hen. 6. c. 7">
+  <data key="d0">8 hen. 6. c. 7</data>
+</node>
+<node id="number of knights">
+  <data key="d0">number of knights</data>
+</node>
+<node id="different property types">
+  <data key="d0">different property types</data>
+</node>
+<node id="_">
+  <data key="d0">_</data>
+</node>
+<node id="influences">
+  <data key="d0">influences</data>
+</node>
+<node id="election method">
+  <data key="d0">election method</data>
+</node>
+<node id="four">
+  <data key="d0">four</data>
+</node>
+<node id="change over time">
+  <data key="d0">change over time</data>
+</node>
+<node id="sixrepresentation">
+  <data key="d0">sixrepresentation</data>
+</node>
+<node id="1832 act">
+  <data key="d0">1832 act</data>
 </node>
 <node id="counties">
   <data key="d0">counties</data>
@@ -382,29 +523,29 @@
 <node id="term">
   <data key="d0">term</data>
 </node>
+<node id="county constituencies">
+  <data key="d0">county constituencies</data>
+</node>
+<node id="representation of the people act 1918">
+  <data key="d0">representation of the people act 1918</data>
+</node>
+<node id="third great reform act">
+  <data key="d0">third great reform act</data>
+</node>
 <node id="20th century">
   <data key="d0">20th century</data>
 </node>
 <node id="reform act of 1884">
   <data key="d0">reform act of 1884</data>
 </node>
-<node id="third great reform act">
-  <data key="d0">third great reform act</data>
-</node>
-<node id="representation of the people act 1918">
-  <data key="d0">representation of the people act 1918</data>
+<node id="electorate">
+  <data key="d0">electorate</data>
 </node>
 <node id="members of parliament">
   <data key="d0">members of parliament</data>
 </node>
-<node id="county constituencies">
-  <data key="d0">county constituencies</data>
-</node>
-<node id="the term">
-  <data key="d0">the term</data>
-</node>
-<node id="conservative">
-  <data key="d0">conservative</data>
+<node id="journalese">
+  <data key="d0">journalese</data>
 </node>
 <node id="elderly members">
   <data key="d0">elderly members</data>
@@ -415,254 +556,290 @@
 <node id="knighthood">
   <data key="d0">knighthood</data>
 </node>
-<edge source="wikipedia" target="encyclopedia">
-  <data key="d1">is a source of</data>
+<node id="long service">
+  <data key="d0">long service</data>
+</node>
+<node id="conservative">
+  <data key="d0">conservative</data>
+</node>
+<edge source="from wikipedia" target="the free encyclopedia">
+  <data key="d1">rel1</data>
 </edge>
-<edge source="knight of the shire" target="mp">
-  <data key="d1">isentitled</data>
+<edge source="the free encyclopedia" target="wikipedia">
+  <data key="d1">rel1</data>
+</edge>
+<edge source="c2b" target="c2a">
+  <data key="d1">rel3</data>
+</edge>
+<edge source="c2b" target="burgess">
+  <data key="d1">analogous to</data>
+</edge>
+<edge source="c2a" target="knight of the shire">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="c2c" target="c2d">
+  <data key="d1">rel4</data>
+</edge>
+<edge source="c2c" target="mp">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="c2d" target="british house of commons">
+  <data key="d1">linked to</data>
+</edge>
+<edge source="mp" target="county constituency">
+  <data key="d1">represents</data>
+</edge>
+<edge source="mp" target="knight of the shire">
+  <data key="d1">formal title of</data>
+</edge>
+<edge source="mp" target="british house of commons">
+  <data key="d1">part of</data>
+</edge>
+<edge source="mp" target="burgess">
+  <data key="d1">other titles include</data>
+</edge>
+<edge source="mp" target="citizen">
+  <data key="d1">other titles include</data>
+</edge>
+<edge source="mp" target="baron">
+  <data key="d1">other titles include</data>
+</edge>
+<edge source="mp" target="county constituency  ">
+  <data key="d1">represents</data>
+</edge>
+<edge source="mp" target="knight of the shire  ">
+  <data key="d1">formal title of</data>
+</edge>
+<edge source="mp" target="british house of commons  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="mp" target="burgess  ">
+  <data key="d1">other titles include</data>
+</edge>
+<edge source="mp" target="citizen  ">
+  <data key="d1">other titles include</data>
+</edge>
+<edge source="mp" target="baron  ">
+  <data key="d1">other titles include</data>
 </edge>
 <edge source="knight of the shire" target="burgess">
-  <data key="d1">had_more prestige than</data>
+  <data key="d1">higher prestige than</data>
 </edge>
-<edge source="knight of the shire" target="county">
-  <data key="d1">is often from</data>
+<edge source="knight of the shire" target="medieval">
+  <data key="d1">used in</data>
 </edge>
-<edge source="knight of the shire" target="county forming_single constituency">
-  <data key="d1">connected with</data>
+<edge source="knight of the shire" target="milites comitatus">
+  <data key="d1">translation of</data>
 </edge>
-<edge source="knight of the shire" target="redistribution of seats act 1885">
-  <data key="d1">affected</data>
+<edge source="knight of the shire" target="burgess  ">
+  <data key="d1">higher prestige than</data>
 </edge>
-<edge source="knight of the shire" target="borough constituency">
-  <data key="d1">involves</data>
+<edge source="knight of the shire" target="medieval  ">
+  <data key="d1">used in</data>
 </edge>
-<edge source="knight of the shire" target="23 hen. 6. c. 14">
-  <data key="d1">stipulated election eligibility based on</data>
+<edge source="knight of the shire" target="milites comitatus  ">
+  <data key="d1">translation of</data>
 </edge>
-<edge source="knight of the shire" target="writ of election">
-  <data key="d1">referred to</data>
+<edge source="knight of the shire" target="shire  ">
+  <data key="d1">part of</data>
 </edge>
-<edge source="knight of the shire" target="14th century">
-  <data key="d1">included nonknights in</data>
+<edge source="knight of the shire" target="quinquennial election">
+  <data key="d1">made eligible</data>
+</edge>
+<edge source="knight of the shire" target="knight">
+  <data key="d1">represented by</data>
+</edge>
+<edge source="knight of the shire" target="19th century">
+  <data key="d1">included till</data>
 </edge>
 <edge source="knight of the shire" target="gentlemen">
   <data key="d1">related to</data>
 </edge>
 <edge source="knight of the shire" target="burgesses">
-  <data key="d1">elevates</data>
+  <data key="d1">shift to</data>
 </edge>
-<edge source="knight of the shire" target="parliament">
-  <data key="d1">discussed</data>
+<edge source="knight of the shire" target="included not knights">
+  <data key="d1">change over time</data>
 </edge>
-<edge source="knight of the shire" target="singleseat divisions">
-  <data key="d1">related to</data>
+<edge source="knight of the shire" target="the term  ">
+  <data key="d1">used for</data>
 </edge>
-<edge source="knight of the shire" target="shire">
-  <data key="d1">elected by</data>
+<edge source="knight of the shire" target="senior con backbenchers  ">
+  <data key="d1">status of</data>
 </edge>
-<edge source="knight of the shire" target="rural constituencies">
-  <data key="d1">represents</data>
-</edge>
-<edge source="knight of the shire" target="conservative party">
-  <data key="d1">used by</data>
-</edge>
-<edge source="knight of the shire" target="standardisation of franchise">
-  <data key="d1">influenced by</data>
-</edge>
-<edge source="mp" target="county">
+<edge source="knight of the shire" target="rural areas  ">
   <data key="d1">represent</data>
 </edge>
-<edge source="mp" target="british house of commons">
-  <data key="d1">member of parliament</data>
+<edge source="knight of the shire" target="england  ">
+  <data key="d1">part of</data>
 </edge>
-<edge source="mp" target="parliament of england">
-  <data key="d1">belong to</data>
+<edge source="knight of the shire" target="rural areasbackbenchers">
+  <data key="d1">represent</data>
 </edge>
-<edge source="mp" target="burgess">
-  <data key="d1">isentitled</data>
+<edge source="knight of the shire" target="the term">
+  <data key="d1">used for</data>
 </edge>
-<edge source="mp" target="citizen">
-  <data key="d1">isentitled</data>
+<edge source="knight of the shire" target="senior con backbenchers">
+  <data key="d1">status of</data>
 </edge>
-<edge source="mp" target="baron">
-  <data key="d1">isentitled</data>
+<edge source="knight of the shire" target="rural areas">
+  <data key="d1">represent</data>
 </edge>
-<edge source="county" target="parliament of england">
-  <data key="d1">belong to</data>
+<edge source="knight of the shire" target="england">
+  <data key="d1">part of</data>
 </edge>
-<edge source="county" target="county forming_single constituency">
-  <data key="d1">linked to</data>
+<edge source="knight of the shire" target="magnum concilium">
+  <data key="d1">formed from</data>
 </edge>
-<edge source="county" target="borough constituency">
-  <data key="d1">node share</data>
+<edge source="knight of the shire" target="model parliament">
+  <data key="d1">evolved into</data>
 </edge>
-<edge source="county" target="standardisation of franchise">
-  <data key="d1">influences</data>
+<edge source="knight of the shire" target="montforts parliament">
+  <data key="d1">elects</data>
 </edge>
-<edge source="county" target="borough constituencies">
-  <data key="d1">differs from</data>
-</edge>
-<edge source="county" target="constituencies">
-  <data key="d1">link to</data>
-</edge>
-<edge source="county" target="fortyshilling freeholds">
-  <data key="d1">related to</data>
-</edge>
-<edge source="county" target="representation of the people act 1832">
-  <data key="d1">influenced</data>
-</edge>
-<edge source="county" target="knights">
-  <data key="d1">sent</data>
-</edge>
-<edge source="county" target="county constituencies">
-  <data key="d1">connected to</data>
+<edge source="knight of the shire" target="house of commons">
+  <data key="d1">members include</data>
 </edge>
 <edge source="british house of commons" target="parliament of england">
+  <data key="d1">originates in</data>
+</edge>
+<edge source="british house of commons" target="parliament of england  ">
+  <data key="d1">originates in</data>
+</edge>
+<edge source="citizen" target="borough with city status  ">
+  <data key="d1">role in</data>
+</edge>
+<edge source="citizen" target="borough constituency  ">
+  <data key="d1">associates with</data>
+</edge>
+<edge source="citizen" target="borough with city status">
+  <data key="d1">role in</data>
+</edge>
+<edge source="citizen" target="borough constituency">
+  <data key="d1">associates with</data>
+</edge>
+<edge source="baron" target="cinque ports">
+  <data key="d1">role in</data>
+</edge>
+<edge source="baron" target="cinque ports  ">
   <data key="d1">part of</data>
+</edge>
+<edge source="medieval" target="parliament of england">
+  <data key="d1">part of</data>
+</edge>
+<edge source="parliament of england" target="medieval  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="parliament of england" target="parliament">
+  <data key="d1">connected to</data>
 </edge>
 <edge source="parliament of england" target="uniform county franchise">
   <data key="d1">legislated</data>
 </edge>
-<edge source="parliament of england" target="knights of the shires act 1429">
+<edge source="cinque ports" target="baron  ">
+  <data key="d1">role in</data>
+</edge>
+<edge source="knight of the shire  " target="rural areasbackbenchers">
+  <data key="d1">represent</data>
+</edge>
+<edge source="parliament of england  " target="uniform county franchise">
   <data key="d1">legislated</data>
 </edge>
-<edge source="parliament of england" target="electors of knights of the shires act 1432">
-  <data key="d1">legislated</data>
-</edge>
-<edge source="parliament of england" target="property">
-  <data key="d1">influenced</data>
-</edge>
-<edge source="parliament of england" target="residence requirement">
-  <data key="d1">disappeared</data>
-</edge>
-<edge source="citizen" target="borough constituency">
-  <data key="d1">includes</data>
-</edge>
-<edge source="citizen" target="burgesses">
-  <data key="d1">are part of</data>
-</edge>
-<edge source="baron" target="cinque ports constituency">
+<edge source="borough constituency" target="borough  ">
   <data key="d1">part of</data>
 </edge>
-<edge source="county forming_single constituency" target="redistribution of seats act 1885">
-  <data key="d1">end the practice of</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="shire">
-  <data key="d1">split</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="singleseat divisions">
-  <data key="d1">created</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="election expenses">
-  <data key="d1">shaped</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="term">
-  <data key="d1">became obsolete because of</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="counties">
-  <data key="d1">caused destruction of</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="reform act of 1884">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="third great reform act">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="redistribution of seats act 1885" target="county constituencies">
-  <data key="d1">eliminated</data>
+<edge source="borough constituency" target="borough part of">
+  <data key="d1">representation</data>
 </edge>
 <edge source="borough constituency" target="borough">
-  <data key="d1">includes</data>
+  <data key="d1">part of</data>
 </edge>
-<edge source="borough constituency" target="city">
-  <data key="d1">is included in</data>
+<edge source="borough constituency" target="shire">
+  <data key="d1">compared with</data>
 </edge>
-<edge source="borough constituency" target="cinque ports constituency">
-  <data key="d1">related to</data>
+<edge source="borough" target="borough with city status  ">
+  <data key="d1">relates to</data>
 </edge>
-<edge source="borough constituency" target="knights of the shire">
-  <data key="d1">associated with</data>
+<edge source="borough" target="borough with city status">
+  <data key="d1">relates to</data>
 </edge>
-<edge source="borough constituency" target="parliament">
-  <data key="d1">included in</data>
+<edge source="parliament" target="burgesses  ">
+  <data key="d1">increase standing in</data>
 </edge>
-<edge source="knights of the shire" target="burgesses">
-  <data key="d1">have more prestige than</data>
-</edge>
-<edge source="knights of the shire" target="writ of election">
-  <data key="d1">are referred to by</data>
-</edge>
-<edge source="knights of the shire" target="magnum concilium">
-  <data key="d1">includes</data>
-</edge>
-<edge source="knights of the shire" target="king">
-  <data key="d1">summons</data>
-</edge>
-<edge source="knights of the shire" target="parliament">
-  <data key="d1">members of</data>
-</edge>
-<edge source="knights of the shire" target="elections">
-  <data key="d1">involves</data>
-</edge>
-<edge source="knights of the shire" target="electorate">
-  <data key="d1">elections</data>
-</edge>
-<edge source="parliament" target="shire">
-  <data key="d1">in 126</data>
+<edge source="parliament" target="burgesses">
+  <data key="d1">increase standing in</data>
 </edge>
 <edge source="parliament" target="simon de montfort">
-  <data key="d1">held</data>
+  <data key="d1">established</data>
 </edge>
-<edge source="parliament" target="knights">
-  <data key="d1">represented by</data>
+<edge source="parliament" target="representation of the people act 1832">
+  <data key="d1">implemented</data>
 </edge>
-<edge source="parliament" target="house of lords">
-  <data key="d1">includes</data>
+<edge source="parliament" target="23 hen. 6. c. 14">
+  <data key="d1">changed by</data>
+</edge>
+<edge source="parliament" target="number">
+  <data key="d1">linked to</data>
+</edge>
+<edge source="parliament" target="house">
+  <data key="d1">influences</data>
+</edge>
+<edge source="parliament" target="1341">
+  <data key="d1">split in</data>
+</edge>
+<edge source="parliament" target="edward iii">
+  <data key="d1">initiates</data>
+</edge>
+<edge source="parliament" target="legislative powers">
+  <data key="d1">obtained</data>
+</edge>
+<edge source="parliament" target="1295">
+  <data key="d1">gained powers in</data>
 </edge>
 <edge source="parliament" target="house of commons">
   <data key="d1">includes</data>
 </edge>
-<edge source="parliament" target="edward iii">
-  <data key="d1">split into bicameral structure by</data>
+<edge source="parliament" target="house of lords">
+  <data key="d1">includes</data>
 </edge>
-<edge source="parliament" target="bicameral">
-  <data key="d1">has structure</data>
+<edge source="parliament" target="model parliament">
+  <data key="d1">type of</data>
 </edge>
-<edge source="parliament" target="conservative party">
-  <data key="d1">connects to</data>
+<edge source="parliament" target="office of the representative">
+  <data key="d1">formalized</data>
 </edge>
-<edge source="parliament" target="1295">
-  <data key="d1">gained legislative powers in</data>
+<edge source="parliament" target="before 1430">
+  <data key="d1">influenced by</data>
 </edge>
-<edge source="parliament" target="sir peter de la mare">
-  <data key="d1">appointed</data>
+<edge source="parliament" target="concept of idence">
+  <data key="d1">clarifies</data>
 </edge>
-<edge source="parliament" target="legislative powers">
-  <data key="d1">influenced</data>
+<edge source="parliament" target="county franchise legislation">
+  <data key="d1">legislated on</data>
 </edge>
-<edge source="parliament" target="office of">
-  <data key="d1">created</data>
+<edge source="parliament" target="county franchise clarification">
+  <data key="d1">requires</data>
 </edge>
 <edge source="parliament" target="county franchise">
-  <data key="d1">decided for</data>
+  <data key="d1">decided to legislate</data>
 </edge>
-<edge source="parliament" target="legislate">
-  <data key="d1">decided to</data>
+<edge source="parliament" target="the act of 1430">
+  <data key="d1">enacted by</data>
 </edge>
-<edge source="parliament" target="elections">
-  <data key="d1">related to</data>
+<edge source="parliament" target="suffrage restrictions">
+  <data key="d1">influenced by</data>
 </edge>
-<edge source="parliament" target="act of 1430">
-  <data key="d1">established</data>
+<edge source="parliament" target="members of parliament">
+  <data key="d1">part of</data>
 </edge>
-<edge source="parliament" target="electors of knights of the shires act 1429">
-  <data key="d1">legislated</data>
+<edge source="burgesses" target="knights  ">
+  <data key="d1">compare with</data>
 </edge>
-<edge source="parliament" target="elderly members">
-  <data key="d1">belong to</data>
+<edge source="burgesses" target="shire  ">
+  <data key="d1">stand for election in</data>
 </edge>
-<edge source="parliament" target="conservative backbenchers">
-  <data key="d1">belong to</data>
+<edge source="burgesses" target="knights">
+  <data key="d1">compare with</data>
 </edge>
 <edge source="burgesses" target="shire">
   <data key="d1">stand for election in</data>
@@ -670,403 +847,502 @@
 <edge source="burgesses" target="montforts parliament">
   <data key="d1">includes</data>
 </edge>
-<edge source="burgesses" target="members">
+<edge source="knights  " target="shire">
   <data key="d1">elects</data>
-</edge>
-<edge source="burgesses" target="the model parliament">
-  <data key="d1">part of</data>
-</edge>
-<edge source="burgesses" target="commons">
-  <data key="d1">part of</data>
 </edge>
 <edge source="shire" target="knights">
-  <data key="d1">sent by</data>
-</edge>
-<edge source="shire" target="knights til 182">
   <data key="d1">sent</data>
 </edge>
-<edge source="shire" target="singleseat divisionsboroug">
+<edge source="shire" target="election">
+  <data key="d1">part of</data>
+</edge>
+<edge source="shire" target="redistribution of seats act 1885">
   <data key="d1">split into</data>
 </edge>
-<edge source="henry vi" target="23 hen. 6. c. 14">
-  <data key="d1">created</data>
-</edge>
-<edge source="23 hen. 6. c. 14" target="yeomanesquires">
-  <data key="d1">excluded from election</data>
-</edge>
-<edge source="23 hen. 6. c. 14" target="yeoman">
-  <data key="d1">excluded from election</data>
-</edge>
-<edge source="23 hen. 6. c. 14" target="number of knights">
-  <data key="d1">standardised</data>
-</edge>
-<edge source="23 hen. 6. c. 14" target="representation of the people act 1832">
+<edge source="shire" target="number">
   <data key="d1">linked to</data>
 </edge>
-<edge source="gentlemen" target="adequate estates">
-  <data key="d1">must have</data>
-</edge>
-<edge source="gentlemen" target="not lower than yeoman">
-  <data key="d1">was required to be</data>
-</edge>
-<edge source="gentlemen" target="not lower than yeomanhen">
-  <data key="d1">was required to be</data>
-</edge>
-<edge source="gentlemen" target="esquires">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="adequate estates" target="esquires">
-  <data key="d1">connected by</data>
-</edge>
-<edge source="not lower than yeoman" target="esquires">
-  <data key="d1">was required to be</data>
-</edge>
-<edge source="esquires" target="sufficiently esteemed">
-  <data key="d1">must be</data>
-</edge>
-<edge source="simon de montfort" target="in 126">
-  <data key="d1">held</data>
-</edge>
-<edge source="simon de montfort" target="number of knights">
-  <data key="d1">standardised</data>
-</edge>
-<edge source="simon de montfort" target="standardised">
-  <data key="d1">achievement of</data>
-</edge>
-<edge source="simon de montfort" target="standardisation of franchise">
-  <data key="d1">impacted</data>
-</edge>
-<edge source="knights" target="yorkshire">
-  <data key="d1">increased to</data>
+<edge source="knights" target="23 hen. 6. c. 14">
+  <data key="d1">made eligible for election</data>
 </edge>
 <edge source="knights" target="representation of the people act 1832">
-  <data key="d1">increased</data>
+  <data key="d1">changed distribution of</data>
 </edge>
-<edge source="knights" target="counties">
-  <data key="d1">sent</data>
+<edge source="knights" target="yorkshire">
+  <data key="d1">increased by</data>
 </edge>
-<edge source="yorkshire" target="knights after disfranchisement of grampound">
-  <data key="d1">gained</data>
+<edge source="knights" target="county">
+  <data key="d1">influenced by</data>
 </edge>
-<edge source="representation of the people act 1832" target="franchise">
-  <data key="d1">standardised</data>
+<edge source="quinquennial election" target="simon de montfort">
+  <data key="d1">influenced by</data>
 </edge>
-<edge source="representation of the people act 1832" target="residence requirement">
-  <data key="d1">disappeared</data>
+<edge source="14th century" target="not knights">
+  <data key="d1">included</data>
 </edge>
-<edge source="franchise" target="1430">
-  <data key="d1">defines</data>
+<edge source="23 hen. 6. c. 14" target="yeomanesquires">
+  <data key="d1">not eligible</data>
 </edge>
-<edge source="franchise" target="elections">
-  <data key="d1">involves</data>
+<edge source="23 hen. 6. c. 14" target="henry vi">
+  <data key="d1">stipulated in</data>
 </edge>
-<edge source="franchise" target="fortyshilling freeholders">
-  <data key="d1">was restricted to</data>
+<edge source="simon de montfort" target="distribution of seats">
+  <data key="d1">influenced</data>
 </edge>
-<edge source="multiple singleseat divisions" target="divisions">
-  <data key="d1">divides into</data>
+<edge source="simon de montfort" target="1265">
+  <data key="d1">linked to</data>
 </edge>
-<edge source="multiple singleseat divisions" target="constituencies">
-  <data key="d1">affects</data>
+<edge source="representation of the people act 1832" target="disfranchisement">
+  <data key="d1">linked to</data>
 </edge>
-<edge source="constituencies" target="borough constituencies">
-  <data key="d1">link to</data>
+<edge source="representation of the people act 1832" target="1826">
+  <data key="d1">affected by</data>
 </edge>
-<edge source="constituencies" target="type of returning officer">
-  <data key="d1">have</data>
+<edge source="representation of the people act 1832" target="number of knights">
+  <data key="d1">influenced</data>
 </edge>
-<edge source="constituencies" target="election expenses">
-  <data key="d1">differ slightly in</data>
-</edge>
-<edge source="constituencies" target="england">
-  <data key="d1">part of</data>
-</edge>
-<edge source="constituencies" target="wales">
-  <data key="d1">part of</data>
-</edge>
-<edge source="changes" target="standardisation of franchise">
-  <data key="d1">incorporates</data>
-</edge>
-<edge source="standardisation of franchise" target="borough constituencies">
+<edge source="representation of the people act 1832" target="elections">
   <data key="d1">influences</data>
 </edge>
-<edge source="rural constituencies" target="england">
-  <data key="d1">located in</data>
+<edge source="representation of the people act 1832" target="sixrepresentation">
+  <data key="d1">introduced</data>
 </edge>
-<edge source="rural constituencies" target="wales">
-  <data key="d1">located in</data>
+<edge source="yorkshire" target="disfranchisement">
+  <data key="d1">affected by</data>
 </edge>
-<edge source="magnum concilium" target="parliamentary system">
-  <data key="d1">predecessor of</data>
+<edge source="yorkshire" target="four">
+  <data key="d1">increased to</data>
 </edge>
-<edge source="magnum concilium" target="king">
-  <data key="d1">advice chamber to</data>
+<edge source="yorkshire" target="change over time">
+  <data key="d1">had number of knights</data>
 </edge>
-<edge source="magnum concilium" target="peers">
-  <data key="d1">includes</data>
+<edge source="election" target="constituencies">
+  <data key="d1">part of</data>
 </edge>
-<edge source="magnum concilium" target="ecclesiastics">
-  <data key="d1">includes</data>
+<edge source="number" target="1826">
+  <data key="d1">was standard until</data>
 </edge>
-<edge source="magnum concilium" target="montforts parliament">
-  <data key="d1">evolved from</data>
+<edge source="disfranchisement" target="grampound">
+  <data key="d1">affected by</data>
 </edge>
-<edge source="magnum concilium" target="edward iii">
-  <data key="d1">is connected to</data>
+<edge source="shires" target="redistribution of seats act 1885">
+  <data key="d1">split</data>
 </edge>
-<edge source="magnum concilium" target="bicameral structure">
-  <data key="d1">evolved from</data>
+<edge source="redistribution of seats act 1885" target="constituencies">
+  <data key="d1">updated</data>
 </edge>
-<edge source="king" target="bills">
-  <data key="d1">approves</data>
+<edge source="redistribution of seats act 1885" target="counties">
+  <data key="d1">destroyed</data>
 </edge>
-<edge source="king" target="advice">
-  <data key="d1">receives</data>
+<edge source="redistribution of seats act 1885" target="term">
+  <data key="d1">marked end of</data>
 </edge>
-<edge source="king" target="ecclesiastics">
-  <data key="d1">consults with</data>
+<edge source="redistribution of seats act 1885" target="county constituencies">
+  <data key="d1">destroyed</data>
 </edge>
-<edge source="montforts parliament" target="members">
-  <data key="d1">elects</data>
+<edge source="redistribution of seats act 1885" target="representation of the people act 1918">
+  <data key="d1">linked to</data>
 </edge>
-<edge source="edward iii" target="the model parliament">
-  <data key="d1">related to</data>
+<edge source="redistribution of seats act 1885" target="third great reform act">
+  <data key="d1">linked to</data>
 </edge>
-<edge source="edward iii" target="bicameral">
-  <data key="d1">advocated by</data>
+<edge source="redistribution of seats act 1885" target="fortyshilling freeholds">
+  <data key="d1">obsolete by</data>
 </edge>
-<edge source="edward iii" target="de la mare">
-  <data key="d1">released after death of</data>
+<edge source="constituencies" target="county">
+  <data key="d1">type of</data>
 </edge>
-<edge source="members" target="boroughs">
+<edge source="constituencies" target="borough constituencies">
+  <data key="d1">type of</data>
+</edge>
+<edge source="constituencies" target="borough constituencies  ">
+  <data key="d1">type of</data>
+</edge>
+<edge source="county" target="constituencies  ">
+  <data key="d1">type of</data>
+</edge>
+<edge source="county" target="election expenses  ">
+  <data key="d1">differ in</data>
+</edge>
+<edge source="county" target="type of returning officer">
+  <data key="d1">differ in</data>
+</edge>
+<edge source="county" target="election method">
+  <data key="d1">varied</data>
+</edge>
+<edge source="borough constituencies" target="election expenses  ">
+  <data key="d1">differ in</data>
+</edge>
+<edge source="borough constituencies" target="type of returning officer  ">
+  <data key="d1">differ in</data>
+</edge>
+<edge source="rural areas  " target="eng and">
+  <data key="d1">have</data>
+</edge>
+<edge source="england  " target="eng and">
+  <data key="d1">part of</data>
+</edge>
+<edge source="backbenchers" target="conservative party  ">
+  <data key="d1">members of</data>
+</edge>
+<edge source="backbenchers" target="constituencies in eng  ">
   <data key="d1">represent</data>
 </edge>
+<edge source="backbenchers" target="constituencies in w  ">
+  <data key="d1">represent</data>
+</edge>
+<edge source="backbenchers" target="kn in con  ">
+  <data key="d1">called as</data>
+</edge>
+<edge source="backbenchers" target="conservative party">
+  <data key="d1">members of</data>
+</edge>
+<edge source="backbenchers" target="constituencies in eng">
+  <data key="d1">represent</data>
+</edge>
+<edge source="backbenchers" target="constituencies in w">
+  <data key="d1">represent</data>
+</edge>
+<edge source="backbenchers" target="kn in con">
+  <data key="d1">called as</data>
+</edge>
+<edge source="conservative party" target="eng and  ">
+  <data key="d1">active in</data>
+</edge>
+<edge source="conservative party" target="eng and">
+  <data key="d1">active in</data>
+</edge>
+<edge source="eng and" target="rural areas">
+  <data key="d1">have</data>
+</edge>
+<edge source="eng and" target="england">
+  <data key="d1">part of</data>
+</edge>
+<edge source="constituencies located in" target="wales  ">
+  <data key="d1">eng and</data>
+</edge>
+<edge source="constituencies located in" target="wales">
+  <data key="d1">eng and</data>
+</edge>
+<edge source="the term" target="journalese">
+  <data key="d1">resurfaces in</data>
+</edge>
+<edge source="the term" target="long service">
+  <data key="d1">used in context with</data>
+</edge>
+<edge source="magnum concilium" target="king">
+  <data key="d1">advised by</data>
+</edge>
+<edge source="magnum concilium" target="peers">
+  <data key="d1">consists of</data>
+</edge>
+<edge source="magnum concilium" target="ecclesiastics">
+  <data key="d1">consists of</data>
+</edge>
+<edge source="magnum concilium" target="knights of the shire">
+  <data key="d1">consists of</data>
+</edge>
+<edge source="magnum concilium" target="montforts parliament">
+  <data key="d1">evolves from</data>
+</edge>
+<edge source="king" target="knights of the shire">
+  <data key="d1">summons</data>
+</edge>
+<edge source="knights of the shire" target="elections">
+  <data key="d1">elected by</data>
+</edge>
+<edge source="knights of the shire" target="free inhabitant householders">
+  <data key="d1">elected by</data>
+</edge>
+<edge source="montforts parliament" target="1264">
+  <data key="d1">elects</data>
+</edge>
+<edge source="montforts parliament" target="model parliament">
+  <data key="d1">precedes</data>
+</edge>
+<edge source="montforts parliament" target="boroughs">
+  <data key="d1">included representation in</data>
+</edge>
+<edge source="model parliament" target="1295">
+  <data key="d1">legislative powers</data>
+</edge>
+<edge source="model parliament" target="house of commons">
+  <data key="d1">split into</data>
+</edge>
+<edge source="model parliament" target="house of lords">
+  <data key="d1">split into</data>
+</edge>
+<edge source="model parliament" target="bicameral structure">
+  <data key="d1">split into</data>
+</edge>
+<edge source="1295" target="1341">
+  <data key="d1">precedes</data>
+</edge>
+<edge source="edward iii" target="bicameral structure">
+  <data key="d1">split in</data>
+</edge>
+<edge source="edward iii" target="house of commons">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="house of commons" target="commons">
+  <data key="d1">has representative voice</data>
+</edge>
 <edge source="house of lords" target="bicameral structure">
+  <data key="d1">includes</data>
+</edge>
+<edge source="commons" target="de la mare">
   <data key="d1">part of</data>
 </edge>
-<edge source="house of commons" target="bicameral structure">
-  <data key="d1">part of</data>
+<edge source="commons" target="representative">
+  <data key="d1">later represented by</data>
 </edge>
-<edge source="the model parliament" target="legislative powers">
-  <data key="d1">has</data>
-</edge>
-<edge source="house of" target="bicameral structure">
-  <data key="d1">includes</data>
-</edge>
-<edge source="bicameral structure" target="commons">
-  <data key="d1">includes</data>
-</edge>
-<edge source="bicameral structure" target="lords">
-  <data key="d1">includes</data>
-</edge>
-<edge source="sir peter de la mare" target="lords">
-  <data key="d1">conveyed complaints to</data>
-</edge>
-<edge source="sir peter de la mare" target="actions">
-  <data key="d1">imprisoned for</data>
-</edge>
-<edge source="sir peter de la mare" target="representative voice">
-  <data key="d1">highlighted importance of</data>
-</edge>
-<edge source="sir peter de la mare" target="office of">
-  <data key="d1">held</data>
-</edge>
-<edge source="lords" target="complaints">
-  <data key="d1">conveyed to</data>
-</edge>
-<edge source="actions" target="de la mare">
-  <data key="d1">was imprisoned for</data>
-</edge>
-<edge source="commons" target="single representative voice">
-  <data key="d1">value for</data>
-</edge>
-<edge source="commons" target="speaker of the house of commons">
+<edge source="commons" target="office">
   <data key="d1">created for</data>
 </edge>
-<edge source="commons" target="elections">
-  <data key="d1">evolves with</data>
+<edge source="commons" target="speaker of the house of commons">
+  <data key="d1">was</data>
 </edge>
-<edge source="complaints" target="kings management of military">
-  <data key="d1">about</data>
+<edge source="commons" target="bicameral structure">
+  <data key="d1">contains</data>
 </edge>
-<edge source="complaints" target="royal expenditures">
-  <data key="d1">about</data>
+<edge source="commons" target="lords">
+  <data key="d1">sent grievances to</data>
 </edge>
-<edge source="complaints" target="taxes">
-  <data key="d1">about</data>
+<edge source="de la mare" target="actions">
+  <data key="d1">imprisoned for</data>
 </edge>
-<edge source="de la mare" target="speaker of the house">
-  <data key="d1">became</data>
+<edge source="de la mare" target="imprisoned">
+  <data key="d1">was</data>
+</edge>
+<edge source="de la mare" target="kings">
+  <data key="d1">imprisoned by</data>
+</edge>
+<edge source="de la mare" target="management of military">
+  <data key="d1">imprisoned by</data>
 </edge>
 <edge source="de la mare" target="speaker of the house of commons">
   <data key="d1">became</data>
 </edge>
-<edge source="de la mare" target="electorate">
+<edge source="de la mare" target="creation of office">
   <data key="d1">part of</data>
 </edge>
-<edge source="speaker of the house" target="speaker of the house of commons">
-  <data key="d1">became</data>
+<edge source="actions" target="imprisonment of de la mare">
+  <data key="d1">led to</data>
 </edge>
-<edge source="speaker of the house" target="1377">
-  <data key="d1">year</data>
+<edge source="imprisoned" target="resulted in">
+  <data key="d1">de la mare</data>
 </edge>
-<edge source="speaker of the house" target="county franchise">
-  <data key="d1">historically related to</data>
+<edge source="1376" target="sir peter de la mare">
+  <data key="d1">appointed in</data>
 </edge>
-<edge source="speaker of the house of commons" target="office of">
-  <data key="d1">created</data>
-</edge>
-<edge source="speaker of the house of commons" target="1377">
-  <data key="d1">year</data>
-</edge>
-<edge source="speaker of the house of commons" target="electorate">
-  <data key="d1">emerged with</data>
-</edge>
-<edge source="office of" target="1377">
-  <data key="d1">year</data>
-</edge>
-<edge source="1430" target="before">
-  <data key="d1">occurred in</data>
-</edge>
-<edge source="1430" target="the parliament of england">
-  <data key="d1">required to amend</data>
-</edge>
-<edge source="1430" target="knights of the shires act 1429">
-  <data key="d1">amended</data>
-</edge>
-<edge source="1430" target="10 hen. 6. c. 2">
-  <data key="d1">amended</data>
-</edge>
-<edge source="elections" target="resiance">
+<edge source="1376" target="office of speaker">
   <data key="d1">related to</data>
 </edge>
-<edge source="elections" target="act of 1430">
-  <data key="d1">defined</data>
+<edge source="sir peter de la mare" target="lords">
+  <data key="d1">conveyed complaints to</data>
 </edge>
-<edge source="elections" target="county franchise">
-  <data key="d1">involves</data>
+<edge source="accounting of royal expenditures" target="complaints">
+  <data key="d1">demanded</data>
 </edge>
-<edge source="elections" target="confusion">
-  <data key="d1">resulted in</data>
+<edge source="complaints" target="taxes">
+  <data key="d1">about</data>
 </edge>
-<edge source="elections" target="qualified persons">
-  <data key="d1">link to</data>
+<edge source="complaints" target="kings management of military">
+  <data key="d1">criticized</data>
 </edge>
-<edge source="fortyshilling freeholders" target="the act of 1430">
-  <data key="d1">limits to</data>
+<edge source="complaints" target="king's management of military">
+  <data key="d1">criticized</data>
 </edge>
-<edge source="fortyshilling freeholders" target="act of 1430">
-  <data key="d1">defined by</data>
+<edge source="kings" target="management of military">
+  <data key="d1">managed</data>
 </edge>
-<edge source="resiance" target="residence qualification">
+<edge source="speaker of the house of commons" target="office">
+  <data key="d1">created by</data>
+</edge>
+<edge source="before 1430" target="elections">
+  <data key="d1">influenced by</data>
+</edge>
+<edge source="elections" target="elections crowded">
+  <data key="d1">affected by</data>
+</edge>
+<edge source="elections" target="county franchise clarification">
+  <data key="d1">decreased by</data>
+</edge>
+<edge source="reason for par action" target="charles seymour">
+  <data key="d1">proposes</data>
+</edge>
+<edge source="reason for par action" target="residence qualification">
+  <data key="d1">proposes</data>
+</edge>
+<edge source="reason for par action" target="the act of 1430">
+  <data key="d1">explains</data>
+</edge>
+<edge source="charles seymour" target="concept of idence">
+  <data key="d1">suggested</data>
+</edge>
+<edge source="charles seymour" target="county franchise legislation">
+  <data key="d1">clarifies</data>
+</edge>
+<edge source="charles seymour" target="the act of 1430">
+  <data key="d1">analyzed</data>
+</edge>
+<edge source="residence qualification" target="county court">
+  <data key="d1">requires</data>
+</edge>
+<edge source="county franchise legislation" target="fortyshilling freeholders">
+  <data key="d1">restricted to</data>
+</edge>
+<edge source="county franchise legislation" target="the act of 1430">
   <data key="d1">related to</data>
 </edge>
-<edge source="county franchise" target="charles seymour">
-  <data key="d1">discussed</data>
+<edge source="county franchise legislation" target="elections influenced">
+  <data key="d1">restricted by</data>
 </edge>
-<edge source="charles seymour" target="parliamentary qualification">
-  <data key="d1">mentioned by</data>
+<edge source="county franchise legislation" target="suffrage">
+  <data key="d1">influenced</data>
 </edge>
-<edge source="parliamentary qualification" target="county court">
-  <data key="d1">required by</data>
+<edge source="the act of 1430" target="elections crowded">
+  <data key="d1">declares</data>
 </edge>
-<edge source="electorate" target="third great reform act">
-  <data key="d1">widened structure of</data>
+<edge source="the act of 1430" target="county franchise">
+  <data key="d1">associated with</data>
 </edge>
-<edge source="electorate" target="reform act of 1884">
-  <data key="d1">widened structure of</data>
+<edge source="the act of 1430" target="suffrage">
+  <data key="d1">enacted</data>
 </edge>
-<edge source="electorate" target="representation of the people act 1918">
-  <data key="d1">widened structure of</data>
+<edge source="the act of 1430" target="1430">
+  <data key="d1">connected to</data>
 </edge>
-<edge source="electorate" target="counties">
-  <data key="d1">widened structure of</data>
+<edge source="the act of 1430" target="electors of knights of the shire act 1432">
+  <data key="d1">precursor to</data>
 </edge>
-<edge source="elections crowded" target="the act of 1430">
-  <data key="d1">declared</data>
-</edge>
-<edge source="the act of 1430" target="confusion">
-  <data key="d1">linked to</data>
-</edge>
-<edge source="qualified persons" target="suffrage">
+<edge source="county franchise" target="suffrage">
   <data key="d1">limited to</data>
 </edge>
-<edge source="qualified persons" target="voter">
-  <data key="d1">considered as</data>
+<edge source="suffrage" target="persons qualified by a freehold of 40">
+  <data key="d1">limited to</data>
 </edge>
-<edge source="the parliament of england" target="uniform county franchise">
-  <data key="d1">legislated</data>
+<edge source="suffrage" target="fortyshilling freeholds">
+  <data key="d1">included in</data>
 </edge>
-<edge source="uniform county franchise" target="electors of knights of the shires act 1429">
-  <data key="d1">part of</data>
+<edge source="persons qualified by a freehold of 40" target="voter">
+  <data key="d1">included in</data>
 </edge>
-<edge source="electors of knights of the shires act 1429" target="8 hen. 6. c. 7">
-  <data key="d1">part of</data>
+<edge source="electors of knights of the shire act 1432" target="uniform county franchise">
+  <data key="d1">included in</data>
 </edge>
-<edge source="electors of knights of the shires act 1429" target="10 hen. 6. c. 2">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="electors of knights of the shires act 1429" target="knights of the shires act 1430">
-  <data key="d1">related to</data>
-</edge>
-<edge source="knights of the shires act 1429" target="8 hen. 6. c. 7">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="10 hen. 6. c. 2" target="electors of knights of the shires act 1432">
-  <data key="d1">part of</data>
-</edge>
-<edge source="electors of knights of the shires act 1432" target="1430 law">
+<edge source="electors of knights of the shire act 1432" target="1430">
   <data key="d1">amended</data>
 </edge>
-<edge source="voter" target="resident of a county">
-  <data key="d1">required to be</data>
+<edge source="electors of knights of the shire act 1432" target="recital in">
+  <data key="d1">included in</data>
 </edge>
-<edge source="resident of a county" target="fortyshilling freehold">
-  <data key="d1">required to have</data>
+<edge source="1430" target="recital in">
+  <data key="d1">included in</data>
 </edge>
-<edge source="fortyshilling freehold" target="property">
-  <data key="d1">considered as</data>
+<edge source="recital in" target="fortyshilling freeholds">
+  <data key="d1">included in</data>
 </edge>
-<edge source="property" target="knights of the shires act 1430">
-  <data key="d1">influenced</data>
+<edge source="recital in" target="8 hen. 6. c. 7">
+  <data key="d1">amended</data>
 </edge>
-<edge source="residence requirement" target="fortyshilling freeholds">
-  <data key="d1">disappeared from</data>
+<edge source="recital in" target="sixrepresentation">
+  <data key="d1">influences</data>
 </edge>
-<edge source="residence requirement" target="electors of knights of the shire act 1432">
-  <data key="d1">related to</data>
+<edge source="voter" target="fortyshilling freeholds">
+  <data key="d1">needs</data>
 </edge>
-<edge source="residence requirement" target="authorities">
-  <data key="d1">influenced</data>
+<edge source="voter" target="residence requirement">
+  <data key="d1">applicable to</data>
 </edge>
 <edge source="fortyshilling freeholds" target="authorities">
+  <data key="d1">considered as</data>
+</edge>
+<edge source="fortyshilling freeholds" target="residence requirement">
+  <data key="d1">affected by</data>
+</edge>
+<edge source="fortyshilling freeholds" target="different property types">
+  <data key="d1">included</data>
+</edge>
+<edge source="residence requirement" target="_">
+  <data key="d1">disappeared</data>
+</edge>
+<edge source="residence requirement" target="influences">
+  <data key="d1">disappeared because of</data>
+</edge>
+<edge source="residence requirement" target="number of knights">
+  <data key="d1">disappeared</data>
+</edge>
+<edge source="authorities" target="fortyshilling">
   <data key="d1">considered</data>
 </edge>
-<edge source="counties" target="county constituencies">
-  <data key="d1">replaced by</data>
+<edge source="authorities" target="number of knights">
+  <data key="d1">considered as</data>
+</edge>
+<edge source="fortyshilling" target="great number">
+  <data key="d1">type of</data>
+</edge>
+<edge source="number of knights" target="sixrepresentation">
+  <data key="d1">increased by</data>
+</edge>
+<edge source="sixrepresentation" target="1832 act">
+  <data key="d1">increased number of knights to</data>
 </edge>
 <edge source="term" target="20th century">
-  <data key="d1">died out during</data>
+  <data key="d1">marked end of</data>
 </edge>
-<edge source="reform act of 1884" target="representation of the people act 1918">
-  <data key="d1">connected to</data>
+<edge source="county constituencies" target="third great reform act">
+  <data key="d1">impact on</data>
 </edge>
-<edge source="third great reform act" target="representation of the people act 1918">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="members of parliament" target="county constituencies">
+<edge source="county constituencies" target="members of parliament">
   <data key="d1">represent</data>
 </edge>
-<edge source="members of parliament" target="the term">
+<edge source="county constituencies" target="representation of the people act 1918">
+  <data key="d1">impact on</data>
+</edge>
+<edge source="representation of the people act 1918" target="electorate">
+  <data key="d1">widened</data>
+</edge>
+<edge source="representation of the people act 1918" target="members of parliament">
+  <data key="d1">impact on</data>
+</edge>
+<edge source="third great reform act" target="reform act of 1884">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="reform act of 1884" target="electorate">
+  <data key="d1">widened</data>
+</edge>
+<edge source="reform act of 1884" target="members of parliament">
+  <data key="d1">impact on</data>
+</edge>
+<edge source="reform act of 1884" target="journalese">
+  <data key="d1">significant for</data>
+</edge>
+<edge source="members of parliament" target="journalese">
   <data key="d1">describes</data>
 </edge>
-<edge source="members of parliament" target="conservative">
-  <data key="d1">belong to</data>
+<edge source="members of parliament" target="elderly members">
+  <data key="d1">usually includes</data>
 </edge>
-<edge source="conservative" target="elderly members">
-  <data key="d1">belong to</data>
+<edge source="members of parliament" target="long service">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="members of parliament" target="conservative">
+  <data key="d1">usually includes</data>
+</edge>
+<edge source="journalese" target="elderly members">
+  <data key="d1">describes</data>
+</edge>
+<edge source="elderly members" target="conservative backbenchers">
+  <data key="d1">refers to</data>
+</edge>
+<edge source="elderly members" target="knighthood">
+  <data key="d1">linked with</data>
 </edge>
 <edge source="conservative backbenchers" target="knighthood">
-  <data key="d1">possess</data>
+  <data key="d1">usually possess</data>
+</edge>
+<edge source="knighthood" target="long service">
+  <data key="d1">linked with</data>
 </edge>
 </graph></graphml>
