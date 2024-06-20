@@ -109,11 +109,66 @@ def decompress(text, token_dict):
                 obj1 = token_dict[objects[0]]
             else:
                 obj1 = objects[0]
+            obj0 = ""
+            if objects[1] in token_dict:
+                obj0 = token_dict[objects[1]]
+            else:
+                obj0 = objects[1]
             obj2 = ""
             if objects[2] in token_dict:
                 obj2 = token_dict[objects[2]]
             else:
                 obj2 = objects[2]
-            result.append(f"{obj1},{objects[1]},{obj2}")
+            result.append(f"{obj1},{obj0},{obj2}")
     return "\n".join(result)
-                
+def expand_compress(new_list, token_dict):
+    new_dict = {}
+    for x in token_dict.keys():
+        new_dict[enc.encode(x)[0]] = token_dict[x]
+
+    values = list(new_dict.values()) 
+    for x in range(len(new_list)):
+        if not new_list[x] in values and not new_list[x] in token_dict:
+            tokens = enc.encode(new_list[x].replace(" ",""))
+            for y in range(len(tokens)):
+                if not tokens[y] in new_dict:
+                    new_dict[tokens[y]] = new_list[x]
+                    break
+    reformatted = {}
+    for x in new_dict.keys():
+        reformatted[enc.decode([x])] = new_dict[x].replace("\\","").strip()
+
+    return reformatted
+
+def unroll_triplets(text):
+    result = []
+    for x in text.split("\n"):
+        objects = x.split(",")
+        if len(objects) == 3:
+            result.append(objects[0])
+            result.append(objects[1])
+            result.append(objects[2])
+
+    return "\n".join(result)
+def compress(text, token_dict):
+    result = []
+    for x in text.split("\n"):
+        objects = x.split(",")
+        if len(objects) == 3:
+            obj1 = ""
+            if objects[0] in token_dict.values():
+                obj1 = list(token_dict.keys())[list(token_dict.values()).index(objects[0])]
+            else:
+                obj1 = objects[0]
+            obj0 = ""
+            if objects[1] in token_dict.values():
+                obj0 = list(token_dict.keys())[list(token_dict.values()).index(objects[1])]
+            else:
+                obj0 = objects[1]
+            obj2 = ""
+            if objects[2] in token_dict.values():
+                obj2 = list(token_dict.keys())[list(token_dict.values()).index(objects[2])]
+            else:
+                obj2 = objects[2]
+            result.append(f"{obj1},{obj0},{obj2}")
+    return "\n".join(result)

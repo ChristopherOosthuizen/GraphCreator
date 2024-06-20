@@ -48,11 +48,13 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+ LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read().replace("<num>",str(num)), text_chunk, model_id=model_id)
     else:
         system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
-    shorthands = textformatting.token_compression(LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read(), text_chunk, model_id=model_id).split("\n"))
+    shorthand_list = LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read(), text_chunk, model_id=model_id).split("\n")
+    shorthands = textformatting.token_compression(shorthand_list)
     shorthand_dict = shorthands
     shorthands = [x+":"+shorthands[x] for x in shorthands.keys()]
     shorthands = "\n".join(shorthands)
     system_prompt = system_prompt.replace("<shorthands>",shorthands)
+
     prompt = f"Context:{text_chunk}\n\nOutput: "
     response = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id)).replace("```","").strip()
     times = 0
@@ -62,6 +64,10 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             system_prompt = system_prompt.replace("<shorthands>",shorthands)
             prompt = f"Context Chunk: {text_chunk} Ontology: {response} \n\nOutput: "
             new_edges = str(LLM.generate_chat_response(system_prompt, prompt, model_id=model_id)).replace("```","").strip()
+            unrolled = textformatting.unroll_triplets(new_edges).split("\n")
+            shorthand_dict = textformatting.expand_compress(unrolled,shorthand_dict)
+            shorthands = [x+":"+shorthand_dict[x] for x in shorthand_dict.keys()]
+            shorthands = "\n".join(shorthands)
             response = response+new_edges
             times += 1
     response = str(lp._fix_ontology(response,context=text_chunk, shorthands=shorthands)).strip()
