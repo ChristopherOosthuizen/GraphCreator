@@ -2,12 +2,23 @@ Augment the ontology graph by adding new concept relationship triplets while kee
 Add new triplets to the existing Triplet. Preserve original ontology triplets and avoid redundancy. The goal is to produce an augmented ontology graph reflecting the key context. With no extra text or explination.
 Output the expanded ontology in Triplet list format, with each dictionary representing a semantic link between concepts.
 Example output format:
-Orig 1,Rel Orig 1,Orig Rel 1
-New 1,Rel New 1,New Rel 1
-Orig 2,Rel Orig 2,Orig Rel 2
-New 2,Rel New 2,New Rel 2
+silk,type of,fiber
+silk,used to make,web
+web,catches,prey
+beta-sheets,provide strength to,silk
 ...
+do not include this example output in your output!
 Ensure the output contains added ontology triplets organized alphabetically for a comprehensive graph of main concepts and relationships. If there are no triplets or not enough context, output nothing. No extra text or explanation. 
 You are also given a list of shorthands for various named entities inside the text. If a triplet requires the use of one of these entities, replace it with the shorthand; if there is no shorthand, use the entire entity name.
+Example ShortHands:
+rit:ritual
+ri:right
+le:left
+Example Triplets using shorthands:
+rit,is a type of,ceremony
+le,opposite of,ri
+ritual of coss,istype,rit
+rights,opposite of,wrong ritual
+notice that while the shorthands is used when only the specific entity is mentioned, the full name is used when the entity is part of a larger concept.
 ShortHands:
 <shorthands>

@@ -48,7 +48,6 @@ def chunk_text(text):
     text = text.replace("]", " ")
     text = text.replace("{", " ")
     text = text.replace("}", " ")
-    text = text.replace("-", "−")
     splitter = MarkdownTextSplitter(chunk_size=600, chunk_overlap=200)
     splits = splitter.create_documents([text])
     for x in range(len(splits)):
@@ -82,6 +81,7 @@ def token_compression(text_list):
     words = []
     taken = {}
     for x in range(len(text_list)):
+        text_list[x] = text_list[x].replace("-","").replace("\"","").replace("\'","").strip()
         encoding = enc.encode(text_list[x].replace(" ",""))
         if len(encoding) == 1:
             taken[encoding[0]] = text_list[x]
@@ -102,8 +102,11 @@ def token_compression(text_list):
 def decompress(text, token_dict):
     result = []
     for x in text.split("\n"):
-        objects = x.split(",")
+        objects = x.replace("-","").replace("\"","").replace("\'","").strip().split(",")
         if len(objects) == 3:
+            objects[0] = objects[0].strip()
+            objects[1] = objects[1].strip()
+            objects[2] = objects[2].strip()
             obj1 = ""
             if objects[0] in token_dict:
                 obj1 = token_dict[objects[0]]
@@ -129,7 +132,7 @@ def expand_compress(new_list, token_dict):
     values = list(new_dict.values()) 
     for x in range(len(new_list)):
         if not new_list[x] in values and not new_list[x] in token_dict:
-            tokens = enc.encode(new_list[x].replace(" ",""))
+            tokens = enc.encode(new_list[x].replace(" ","").replace("\"","").replace("\"","").strip())
             for y in range(len(tokens)):
                 if not tokens[y] in new_dict:
                     new_dict[tokens[y]] = new_list[x]
@@ -156,17 +159,17 @@ def compress(text, token_dict):
         objects = x.split(",")
         if len(objects) == 3:
             obj1 = ""
-            if objects[0] in token_dict.values():
+            if objects[0].strip() in token_dict.values():
                 obj1 = list(token_dict.keys())[list(token_dict.values()).index(objects[0])]
             else:
                 obj1 = objects[0]
             obj0 = ""
-            if objects[1] in token_dict.values():
+            if objects[1].strip() in token_dict.values():
                 obj0 = list(token_dict.keys())[list(token_dict.values()).index(objects[1])]
             else:
                 obj0 = objects[1]
             obj2 = ""
-            if objects[2] in token_dict.values():
+            if objects[2].strip() in token_dict.values():
                 obj2 = list(token_dict.keys())[list(token_dict.values()).index(objects[2])]
             else:
                 obj2 = objects[2]

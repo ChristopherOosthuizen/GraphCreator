@@ -1,6 +1,0 @@
-Extract Triplet content from text. Return extracted Triplet matching the format, or an error message if incorrect. Example format:
-A,rel1,B
-C,rel2,D
-E,rel3,F
-G,rel4,H
-Keys and string values should be in double quotes. Remove blank lines and comments. Return extracted Triplets. Focus on producing only triplets without any other text.
