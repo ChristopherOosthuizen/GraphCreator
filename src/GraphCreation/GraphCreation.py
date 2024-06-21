@@ -70,7 +70,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             shorthands = "\n".join(shorthands)
             response = response+new_edges
             times += 1
-    response = str(lp._fix_ontology(response,context=text_chunk, shorthands=shorthands)).strip()
+    print(response)
     response = textformatting.decompress(response,shorthand_dict).strip()
     return response
     
