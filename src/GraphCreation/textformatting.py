@@ -48,7 +48,7 @@ def chunk_text(text):
     text = text.replace("]", " ")
     text = text.replace("{", " ")
     text = text.replace("}", " ")
-    splitter = MarkdownTextSplitter(chunk_size=600, chunk_overlap=200)
+    splitter = MarkdownTextSplitter(chunk_size=200, chunk_overlap=25)
     splits = splitter.create_documents([text])
     for x in range(len(splits)):
         splits[x] = str(splits[x])
