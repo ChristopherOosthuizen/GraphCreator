@@ -70,7 +70,6 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
             shorthands = "\n".join(shorthands)
             response = response+new_edges
             times += 1
-    print(response)
     response = textformatting.decompress(response,shorthand_dict).strip()
     return response
     

@@ -12,6 +12,15 @@ import tiktoken
 def format_text(prompt, url, pipeline_id=0):
     return LLM.generate_chat_response( open( os.path.join(prompts_dir,"formatting")).read(),prompt, pipeline_id)
 
+from llmlingua import PromptCompressor
+import torch 
+torch.set_default_device("mps")
+llm_lingua = PromptCompressor(
+    model_name="microsoft/llmlingua-2-xlm-roberta-large-meetingbank",
+    use_llmlingua2=True,
+    device_map="mps"
+)
+
 def extract_relevant_text(html: str) -> str:
     from bs4 import BeautifulSoup
 
@@ -32,9 +41,38 @@ def extract_relevant_text(html: str) -> str:
         paragraphs = content_text.find_all('p')
         for p in paragraphs:
             relevant_text.append(p.get_text(strip=False))  # Add a space after each extracted text segment
-
+        tables = content_text.find_all('table')
+        
+        for table in tables:
+            table_text = []
+            rows = table.find_all('tr')
+            rods = rows.pop(0).find_all(['td', 'th'])
+            initial = [x.get_text(strip=False) for x in rods]
+            for row in rows:
+                cells = row.find_all(['td', 'th'])
+                
+                row_text = [cell.get_text(strip=False) for cell in cells]
+                result = ""
+                for x in range(len(row_text)):
+                    if x >= len(initial):
+                        break
+                    result += f"{initial[x]}:{row_text[x]},"
+                table_text.append(result)
+            relevant_text.append('\n'.join(table_text))
+        print(table_text)
+    splitter = MarkdownTextSplitter(chunk_size=512, chunk_overlap=0)
     result_text = " ".join(relevant_text)
-    return result_text
+    splits = splitter.create_documents([result_text])
+    for x in range(len(splits)):
+        splits[x] = str(splits[x])
+    compressed_prompt = llm_lingua.compress_prompt(
+    context=list(splits),
+    rate=0.8,
+    force_tokens=["!", ".", "?", "\n"],
+    drop_consecutive=True,
+    )
+    prompt = "\n\n".join([compressed_prompt["compressed_prompt"]])
+    return prompt
 
 def url_to_md(url):
     html = urllib.request.urlopen(url).read().decode('utf-8')

@@ -1,0 +1,6 @@
+venv/
+__pycache__
+lib
+api_key
+.deepeval-cache.json
+pyprojedct.toml
