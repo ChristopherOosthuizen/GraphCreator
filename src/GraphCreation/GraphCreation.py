@@ -175,7 +175,7 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     return combinations
 
 
-def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, llm_formatting=True, ner=False, ner_type="flair",num=10):
+def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, llm_formatting=True, ner=False, ner_type="flair",num=10,additional=""):
     """
     Creates a knowledge graph (KG) from the given text.
 
@@ -192,7 +192,7 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
         chunks = textformatting.get_text_chunks(text)
     else:
         chunks = textformatting.chunk_text(text)
-    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num)
+    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num, additional)
 
     # Assign colors to nodes based on clusters
 def generate_colors(num_clusters):
@@ -207,11 +207,12 @@ def generate_colors(num_clusters):
     return colors
     
 
-def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair",num=10):
+def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair",num=10, additional=""):
     if not os.path.exists(output_file):
         os.makedirs(output_file)
     repeats = chunks_precentage_linked
     jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner, ner_type=ner_type,num=num)
+    jsons.append(additional)
     Graph = nx.Graph()
     for x in jsons:
         splits = x.split("\n")
@@ -250,7 +251,12 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     return chunks, Graph
 def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
     text = textformatting.url_to_md(url)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num)
+    table_data = textformatting.get_tables_from_url(url)
+    additional = ""
+    for table in table_data:
+        additional += textformatting.get_triplets_from_table(table)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num,additional=additional)
+
     return jsons
 def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
     text = textformatting.pdf_to_md(pdf)

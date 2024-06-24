@@ -9,6 +9,8 @@ current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
 import tiktoken
+from bs4 import BeautifulSoup
+import pandas as pd
 def format_text(prompt, url, pipeline_id=0):
     return LLM.generate_chat_response( open( os.path.join(prompts_dir,"formatting")).read(),prompt, pipeline_id)
 
@@ -22,7 +24,6 @@ llm_lingua = PromptCompressor(
 )
 
 def extract_relevant_text(html: str) -> str:
-    from bs4 import BeautifulSoup
 
     # Parse the HTML
     soup = BeautifulSoup(html, 'html.parser')
@@ -41,25 +42,6 @@ def extract_relevant_text(html: str) -> str:
         paragraphs = content_text.find_all('p')
         for p in paragraphs:
             relevant_text.append(p.get_text(strip=False))  # Add a space after each extracted text segment
-        tables = content_text.find_all('table')
-        
-        for table in tables:
-            table_text = []
-            rows = table.find_all('tr')
-            rods = rows.pop(0).find_all(['td', 'th'])
-            initial = [x.get_text(strip=False) for x in rods]
-            for row in rows:
-                cells = row.find_all(['td', 'th'])
-                
-                row_text = [cell.get_text(strip=False) for cell in cells]
-                result = ""
-                for x in range(len(row_text)):
-                    if x >= len(initial):
-                        break
-                    result += f"{initial[x]}:{row_text[x]},"
-                table_text.append(result)
-            relevant_text.append('\n'.join(table_text))
-        print(table_text)
     splitter = MarkdownTextSplitter(chunk_size=512, chunk_overlap=0)
     result_text = " ".join(relevant_text)
     splits = splitter.create_documents([result_text])
@@ -67,13 +49,40 @@ def extract_relevant_text(html: str) -> str:
         splits[x] = str(splits[x])
     compressed_prompt = llm_lingua.compress_prompt(
     context=list(splits),
-    rate=0.8,
+    rate=0.33,
     force_tokens=["!", ".", "?", "\n"],
     drop_consecutive=True,
     )
     prompt = "\n\n".join([compressed_prompt["compressed_prompt"]])
     return prompt
+def get_tables_from_url(url):
+    html = urllib.request.urlopen(url).read().decode('utf-8')
+    soup = BeautifulSoup(html, 'html.parser')
+    tables = soup.find_all("table")
 
+    # List to hold dataframes
+    dataframes = []
+
+    # Loop through all tables found and convert to DataFrame
+    for index, table in enumerate(tables):
+        df = pd.read_html(str(table))[0]
+        dataframes.append(df)
+
+    return dataframes
+
+def get_triplets_from_table(df):
+    triplets = []
+    for i, row in df.iterrows():
+        username= row[0]
+        if str(username) == "nan":
+            continue
+        for col in df.columns:
+            if str(row[col]) != "nan":
+                triplets.append(f"{username},{col},{row[col]}")
+                triplets.append(f"{username},positionInList,{i}")
+    
+    return "\n".join(triplets).lower()
+            
 def url_to_md(url):
     html = urllib.request.urlopen(url).read().decode('utf-8')
     html= extract_relevant_text(html)
