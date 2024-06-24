@@ -15,6 +15,7 @@ import math
 from . import textformatting
 from . import LinkPrediction as lp
 from . import LLMFunctions as LLM
+from . import BenchMarks as bm
 from cdlib import algorithms
 import random
 import re

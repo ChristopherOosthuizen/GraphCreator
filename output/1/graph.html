@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "white"}, "id": "parliament", "label": "parliament", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "shire milites comitatus", "label": "shire milites comitatus", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "house of commons", "label": "house of commons", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "british", "label": "british", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "1265", "label": "1265", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "simon montfort", "label": "simon montfort", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "knight", "label": "knight", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "election system", "label": "election system", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "representation people act", "label": "representation people act", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "commons", "label": "commons", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "lords", "label": "lords", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "bicameral", "label": "bicameral", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "uniform county franchise act", "label": "uniform county franchise act", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "elderly", "label": "elderly", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "members", "label": "members", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "knighthood", "label": "knighthood", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "constituency", "label": "constituency", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "county", "label": "county", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "two county", "label": "two county", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "baron", "label": "baron", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "medieval redistribution of seats act 1885", "label": "medieval redistribution of seats act 1885", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "citizen", "label": "citizen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "burgess", "label": "burgess", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "borough", "label": "borough", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "act", "label": "act", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "county borough", "label": "county borough", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "conservative party", "label": "conservative party", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "knight shire", "label": "knight shire", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "writ election", "label": "writ election", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "knights of estates", "label": "knights of estates", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "19th century", "label": "19th century", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "14th century", "label": "14th century", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "knights", "label": "knights", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ecclesiastics", "label": "ecclesiastics", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "henry vi", "label": "henry vi", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "0 law", "label": "0 law", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "degree", "label": "degree", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "yeoman", "label": "yeoman", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "shire", "label": "shire", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "two knights", "label": "two knights", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "senior", "label": "senior", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "1832", "label": "1832", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "representativess parliament", "label": "representativess parliament", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "counties", "label": "counties", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "redistribution seats act", "label": "redistribution seats act", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "yorkshire", "label": "yorkshire", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "grampound", "label": "grampound", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "1885", "label": "1885", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "split singleseat", "label": "split singleseat", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "standardisation franchise", "label": "standardisation franchise", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "election expenses", "label": "election expenses", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "returning officer", "label": "returning officer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "rural england", "label": "rural england", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "wales", "label": "wales", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "precursor", "label": "precursor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "magnum concilium", "label": "magnum concilium", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "council", "label": "council", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "king", "label": "king", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "parliamentary", "label": "parliamentary", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "legislative powers", "label": "legislative powers", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "model parliament", "label": "model parliament", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "1295", "label": "1295", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "1264", "label": "1264", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "1341", "label": "1341", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "peers", "label": "peers", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "edward iii", "label": "edward iii", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "page content", "label": "page content", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "release of peter de la mare", "label": "release of peter de la mare", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "peter de la mare", "label": "peter de la mare", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "military actions", "label": "military actions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "speaker of the commons", "label": "speaker of the commons", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "representatives", "label": "representatives", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "complaints", "label": "complaints", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "representative voice", "label": "representative voice", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "taxes", "label": "taxes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "royal expenditures", "label": "royal expenditures", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "accounting", "label": "accounting", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "content", "label": "content", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "1377", "label": "1377", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "england", "label": "england", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "fortyshilling freehold voters", "label": "fortyshilling freehold voters", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "voter", "label": "voter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "conservative", "label": "conservative", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "backbenchers", "label": "backbenchers", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "parliament", "label": "formal title for", "to": "shire milites comitatus", "width": 1}, {"from": "parliament", "label": "from", "to": "house of commons", "width": 1}, {"from": "parliament", "label": "belong to", "to": "british", "width": 1}, {"from": "parliament", "label": "occurred in", "to": "1265", "width": 1}, {"from": "parliament", "label": "organized", "to": "simon montfort", "width": 1}, {"from": "parliament", "label": "role in", "to": "knight", "width": 1}, {"from": "parliament", "label": "impacts", "to": "election system", "width": 1}, {"from": "parliament", "label": "involved in", "to": "representation people act", "width": 1}, {"from": "parliament", "label": "includes", "to": "commons", "width": 1}, {"from": "parliament", "label": "includes", "to": "lords", "width": 1}, {"from": "parliament", "label": "is", "to": "bicameral", "width": 1}, {"from": "parliament", "label": "legislated by", "to": "uniform county franchise act", "width": 1}, {"from": "parliament", "label": "members of", "to": "elderly", "width": 1}, {"from": "parliament", "label": "exist in", "to": "members", "width": 1}, {"from": "parliament", "label": "observes", "to": "knighthood", "width": 1}, {"from": "shire milites comitatus", "label": "from", "to": "constituency", "width": 1}, {"from": "constituency", "label": "from", "to": "county", "width": 1}, {"from": "county", "label": "includes", "to": "two county", "width": 1}, {"from": "baron", "label": "creates", "to": "medieval redistribution of seats act 1885", "width": 1}, {"from": "medieval redistribution of seats act 1885", "label": "creates", "to": "citizen", "width": 1}, {"from": "medieval redistribution of seats act 1885", "label": "creates", "to": "burgess", "width": 1}, {"from": "medieval redistribution of seats act 1885", "label": "creates", "to": "borough", "width": 1}, {"from": "medieval redistribution of seats act 1885", "label": "related to", "to": "act", "width": 1}, {"from": "borough", "label": "related to", "to": "county borough", "width": 1}, {"from": "borough", "label": "dominant in", "to": "conservative party", "width": 1}, {"from": "knight shire", "label": "implied", "to": "writ election", "width": 1}, {"from": "knight shire", "label": "related to", "to": "knights of estates", "width": 1}, {"from": "writ election", "label": "referred to", "to": "knight", "width": 1}, {"from": "19th century", "label": "elected in", "to": "knight", "width": 1}, {"from": "14th century", "label": "elected in", "to": "knights", "width": 1}, {"from": "knights", "label": "includes", "to": "ecclesiastics", "width": 1}, {"from": "knights", "label": "represented", "to": "two county", "width": 1}, {"from": "henry vi", "label": "associated with", "to": "act", "width": 1}, {"from": "act", "label": "amended", "to": "0 law", "width": 1}, {"from": "knights of estates", "label": "contain", "to": "degree", "width": 1}, {"from": "degree", "label": "related to", "to": "yeoman", "width": 1}, {"from": "1265", "label": "resulted in", "to": "shire", "width": 1}, {"from": "shire", "label": "sent", "to": "two knights", "width": 1}, {"from": "shire", "label": "used in", "to": "senior", "width": 1}, {"from": "shire", "label": "resulted in", "to": "1832", "width": 1}, {"from": "shire", "label": "historical aspect of", "to": "representativess parliament", "width": 1}, {"from": "shire", "label": "includes", "to": "counties", "width": 1}, {"from": "1832", "label": "enacted in", "to": "representation people act", "width": 1}, {"from": "representation people act", "label": "linked with", "to": "redistribution seats act", "width": 1}, {"from": "representation people act", "label": "influenced by", "to": "yorkshire", "width": 1}, {"from": "representation people act", "label": "influenced by", "to": "grampound", "width": 1}, {"from": "redistribution seats act", "label": "enacted in", "to": "1885", "width": 1}, {"from": "redistribution seats act", "label": "resulted in", "to": "split singleseat", "width": 1}, {"from": "redistribution seats act", "label": "involved", "to": "standardisation franchise", "width": 1}, {"from": "redistribution seats act", "label": "reformed by", "to": "election system", "width": 1}, {"from": "county borough", "label": "associated with", "to": "election expenses", "width": 1}, {"from": "county borough", "label": "handled by", "to": "returning officer", "width": 1}, {"from": "election expenses", "label": "supervises", "to": "returning officer", "width": 1}, {"from": "election expenses", "label": "related to", "to": "conservative party", "width": 1}, {"from": "returning officer", "label": "influenced by", "to": "senior", "width": 1}, {"from": "conservative party", "label": "part of", "to": "senior", "width": 1}, {"from": "conservative party", "label": "associated with", "to": "rural england", "width": 1}, {"from": "rural england", "label": "included in", "to": "wales", "width": 1}, {"from": "precursor", "label": "is a type of", "to": "magnum concilium", "width": 1}, {"from": "magnum concilium", "label": "evolved into", "to": "representativess parliament", "width": 1}, {"from": "magnum concilium", "label": "translated to", "to": "council", "width": 1}, {"from": "magnum concilium", "label": "formed", "to": "king", "width": 1}, {"from": "magnum concilium", "label": "influenced", "to": "parliamentary", "width": 1}, {"from": "parliamentary", "label": "is a type of", "to": "representativess parliament", "width": 1}, {"from": "parliamentary", "label": "evolved into", "to": "commons", "width": 1}, {"from": "representativess parliament", "label": "has powers", "to": "legislative powers", "width": 1}, {"from": "representativess parliament", "label": "formed by", "to": "model parliament", "width": 1}, {"from": "model parliament", "label": "becomes", "to": "1295", "width": 1}, {"from": "model parliament", "label": "evolved into", "to": "council", "width": 1}, {"from": "model parliament", "label": "initiated", "to": "1264", "width": 1}, {"from": "1295", "label": "preceded", "to": "1341", "width": 1}, {"from": "ecclesiastics", "label": "includes", "to": "peers", "width": 1}, {"from": "1264", "label": "includes", "to": "council", "width": 1}, {"from": "edward iii", "label": "formed under", "to": "1341", "width": 1}, {"from": "edward iii", "label": "created by", "to": "page content", "width": 1}, {"from": "edward iii", "label": "role during", "to": "release of peter de la mare", "width": 1}, {"from": "king", "label": "criticized", "to": "peter de la mare", "width": 1}, {"from": "king", "label": "conducted", "to": "military actions", "width": 1}, {"from": "commons", "label": "associated with", "to": "speaker of the commons", "width": 1}, {"from": "commons", "label": "representative of", "to": "peter de la mare", "width": 1}, {"from": "commons", "label": "part of", "to": "representatives", "width": 1}, {"from": "speaker of the commons", "label": "role", "to": "peter de la mare", "width": 1}, {"from": "peter de la mare", "label": "raised", "to": "complaints", "width": 1}, {"from": "peter de la mare", "label": "role", "to": "representative voice", "width": 1}, {"from": "peter de la mare", "label": "criticized by", "to": "military actions", "width": 1}, {"from": "representatives", "label": "includes", "to": "lords", "width": 1}, {"from": "complaints", "label": "related to", "to": "taxes", "width": 1}, {"from": "complaints", "label": "associated with", "to": "representative voice", "width": 1}, {"from": "taxes", "label": "related to", "to": "royal expenditures", "width": 1}, {"from": "royal expenditures", "label": "connected with", "to": "accounting", "width": 1}, {"from": "page content", "label": "related to", "to": "content", "width": 1}, {"from": "content", "label": "released in", "to": "1377", "width": 1}, {"from": "uniform county franchise act", "label": "occurred in", "to": "england", "width": 1}, {"from": "uniform county franchise act", "label": "amended", "to": "0 law", "width": 1}, {"from": "uniform county franchise act", "label": "related to", "to": "fortyshilling freehold voters", "width": 1}, {"from": "0 law", "label": "requires", "to": "fortyshilling freehold voters", "width": 1}, {"from": "fortyshilling freehold voters", "label": "is a type of", "to": "voter", "width": 1}, {"from": "fortyshilling freehold voters", "label": "is a type of", "to": "fortyshilling freehold voters", "width": 1}, {"from": "elderly", "label": "part of", "to": "members", "width": 1}, {"from": "elderly", "label": "recognizes", "to": "knighthood", "width": 1}, {"from": "elderly", "label": "is a type of", "to": "conservative", "width": 1}, {"from": "conservative", "label": "belong to", "to": "backbenchers", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

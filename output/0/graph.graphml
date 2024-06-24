@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="wikipedia">
+  <data key="d0">wikipedia</data>
+</node>
+<node id="american">
+  <data key="d0">american</data>
+</node>
+<node id="audiences">
+  <data key="d0">audiences</data>
+</node>
+<node id="ronda jampang">
+  <data key="d0">ronda jampang</data>
+</node>
+<node id="man of the law">
+  <data key="d0">man of the law</data>
+</node>
+<node id="populace">
+  <data key="d0">populace</data>
+</node>
+<node id="pitung">
+  <data key="d0">pitung</data>
+</node>
+<node id="batavia motion picture">
+  <data key="d0">batavia motion picture</data>
+</node>
+<node id="si tjonat">
+  <data key="d0">si tjonat</data>
+</node>
+<node id="1929">
+  <data key="d0">1929</data>
+</node>
+<node id="rampok preanger">
+  <data key="d0">rampok preanger</data>
+</node>
+<node id="wong brothers">
+  <data key="d0">wong brothers</data>
+</node>
+<node id="si pitung">
+  <data key="d0">si pitung</data>
+</node>
+<node id="releases">
+  <data key="d0">releases</data>
+</node>
+<node id="films">
+  <data key="d0">films</data>
+</node>
+<node id="heroic qualities">
+  <data key="d0">heroic qualities</data>
+</node>
+<node id="1929–1931">
+  <data key="d0">1929–1931</data>
+</node>
+<node id="wongs">
+  <data key="d0">wongs</data>
+</node>
+<node id="simple bandit">
+  <data key="d0">simple bandit</data>
+</node>
+<node id="robin hood">
+  <data key="d0">robin hood</data>
+</node>
+<node id="bandit films">
+  <data key="d0">bandit films</data>
+</node>
+<node id="wong brothers's films">
+  <data key="d0">wong brothers's films</data>
+</node>
+<node id="ronda">
+  <data key="d0">ronda</data>
+</node>
+<node id="lie tek swie">
+  <data key="d0">lie tek swie</data>
+</node>
+<node id="tanks film nja">
+  <data key="d0">tanks film nja</data>
+</node>
+<node id="njai dasima">
+  <data key="d0">njai dasima</data>
+</node>
+<node id="film">
+  <data key="d0">film</data>
+</node>
+<node id="bachtiar effendi">
+  <data key="d0">bachtiar effendi</data>
+</node>
+<node id="momo">
+  <data key="d0">momo</data>
+</node>
+<node id="loepias">
+  <data key="d0">loepias</data>
+</node>
+<node id="tan khoen yauw">
+  <data key="d0">tan khoen yauw</data>
+</node>
+<node id="lie">
+  <data key="d0">lie</data>
+</node>
+<node id="tan">
+  <data key="d0">tan</data>
+</node>
+<node id="effendi">
+  <data key="d0">effendi</data>
+</node>
+<node id="1932">
+  <data key="d0">1932</data>
+</node>
+<node id="doenia film">
+  <data key="d0">doenia film</data>
+</node>
+<node id="1941">
+  <data key="d0">1941</data>
+</node>
+<node id="tans standard film">
+  <data key="d0">tans standard film</data>
+</node>
+<node id="1950">
+  <data key="d0">1950</data>
+</node>
+<node id="katalog sinematek archives">
+  <data key="d0">katalog sinematek archives</data>
+</node>
+<node id="1978">
+  <data key="d0">1978</data>
+</node>
+<node id="fritz">
+  <data key="d0">fritz</data>
+</node>
+<node id="corrupt owners">
+  <data key="d0">corrupt owners</data>
+</node>
+<node id="colonial workers">
+  <data key="d0">colonial workers</data>
+</node>
+<node id="lenny marlina">
+  <data key="d0">lenny marlina</data>
+</node>
+<node id="schadt">
+  <data key="d0">schadt</data>
+</node>
+<node id="dicky zulkarnaen">
+  <data key="d0">dicky zulkarnaen</data>
+</node>
+<node id="karl heider">
+  <data key="d0">karl heider</data>
+</node>
+<node id="directed by">
+  <data key="d0">directed by</data>
+</node>
+<node id="0">
+  <data key="d0">0</data>
+</node>
+<node id="produced by">
+  <data key="d0">produced by</data>
+</node>
+<node id="1">
+  <data key="d0">1</data>
+</node>
+<node id="starring">
+  <data key="d0">starring</data>
+</node>
+<node id="2">
+  <data key="d0">2</data>
+</node>
+<node id="bachtiar effendi momo">
+  <data key="d0">bachtiar effendi momo</data>
+</node>
+<node id="cinematography">
+  <data key="d0">cinematography</data>
+</node>
+<node id="3">
+  <data key="d0">3</data>
+</node>
+<node id="a loepias">
+  <data key="d0">a loepias</data>
+</node>
+<node id="production company">
+  <data key="d0">production company</data>
+</node>
+<node id="4">
+  <data key="d0">4</data>
+</node>
+<node id="tan's film">
+  <data key="d0">tan's film</data>
+</node>
+<node id="release date">
+  <data key="d0">release date</data>
+</node>
+<node id="5">
+  <data key="d0">5</data>
+</node>
+<node id="1930 (dutch east indies)">
+  <data key="d0">1930 (dutch east indies)</data>
+</node>
+<node id="country">
+  <data key="d0">country</data>
+</node>
+<node id="6">
+  <data key="d0">6</data>
+</node>
+<node id="dutch east indies">
+  <data key="d0">dutch east indies</data>
+</node>
+<node id="6njai dasima (1929) nancy bikin pembalesan (1930) si ronda (1930) melati van agam (1931) ikan doejoeng (1941) siti noerbaja (1941)">
+  <data key="d0">6njai dasima (1929) nancy bikin pembalesan (1930) si ronda (1930) melati van agam (1931) ikan doejoeng (1941) siti noerbaja (1941)</data>
+</node>
+<node id="njai dasima (1929) nancy bikin pembalesan (1930) si ronda (1930) melati van agam (1931) ikan doejoeng (1941) siti noerbaja (1941)">
+  <data key="d0">njai dasima (1929) nancy bikin pembalesan (1930) si ronda (1930) melati van agam (1931) ikan doejoeng (1941) siti noerbaja (1941)</data>
+</node>
+<edge source="wikipedia" target="american">
+  <data key="d1">inspired</data>
+</edge>
+<edge source="wikipedia" target="si tjonat">
+  <data key="d1">details</data>
+</edge>
+<edge source="wikipedia" target="rampok preanger">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="wikipedia" target="si pitung">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="american" target="audiences">
+  <data key="d1">received</data>
+</edge>
+<edge source="american" target="ronda jampang">
+  <data key="d1">inspired by</data>
+</edge>
+<edge source="american" target="pitung">
+  <data key="d1">inspired by</data>
+</edge>
+<edge source="ronda jampang" target="man of the law">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="ronda jampang" target="populace">
+  <data key="d1">fought for</data>
+</edge>
+<edge source="ronda jampang" target="bandit films">
+  <data key="d1">adaptation of</data>
+</edge>
+<edge source="man of the law" target="pitung">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="populace" target="pitung">
+  <data key="d1">fought for</data>
+</edge>
+<edge source="pitung" target="wongs">
+  <data key="d1">adaptation of</data>
+</edge>
+<edge source="pitung" target="simple bandit">
+  <data key="d1">is a</data>
+</edge>
+<edge source="pitung" target="robin hood">
+  <data key="d1">not like</data>
+</edge>
+<edge source="pitung" target="bandit films">
+  <data key="d1">adaptation of</data>
+</edge>
+<edge source="batavia motion picture" target="si tjonat">
+  <data key="d1">created by</data>
+</edge>
+<edge source="batavia motion picture" target="1929">
+  <data key="d1">active in</data>
+</edge>
+<edge source="si tjonat" target="bandit films">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="1929" target="njai dasima">
+  <data key="d1">created in</data>
+</edge>
+<edge source="rampok preanger" target="wong brothers">
+  <data key="d1">created by</data>
+</edge>
+<edge source="wong brothers" target="si pitung">
+  <data key="d1">created by</data>
+</edge>
+<edge source="releases" target="films">
+  <data key="d1">quarter</data>
+</edge>
+<edge source="films" target="njai dasima">
+  <data key="d1">includes</data>
+</edge>
+<edge source="heroic qualities" target="1929–1931">
+  <data key="d1">contains</data>
+</edge>
+<edge source="heroic qualities" target="wong brothers's films">
+  <data key="d1">highlighted in</data>
+</edge>
+<edge source="ronda" target="lie tek swie">
+  <data key="d1">directed</data>
+</edge>
+<edge source="ronda" target="njai dasima">
+  <data key="d1">directed</data>
+</edge>
+<edge source="ronda" target="1978">
+  <data key="d1">was released</data>
+</edge>
+<edge source="ronda" target="fritz">
+  <data key="d1">directed</data>
+</edge>
+<edge source="ronda" target="corrupt owners">
+  <data key="d1">portrays</data>
+</edge>
+<edge source="ronda" target="colonial workers">
+  <data key="d1">portrays</data>
+</edge>
+<edge source="ronda" target="dicky zulkarnaen">
+  <data key="d1">experienced</data>
+</edge>
+<edge source="ronda" target="lenny marlina">
+  <data key="d1">involves</data>
+</edge>
+<edge source="lie tek swie" target="tanks film nja">
+  <data key="d1">produced</data>
+</edge>
+<edge source="lie tek swie" target="njai dasima">
+  <data key="d1">produced</data>
+</edge>
+<edge source="lie tek swie" target="directed by">
+  <data key="d1">si ronda.1</data>
+</edge>
+<edge source="njai dasima" target="tan khoen yauw">
+  <data key="d1">produced</data>
+</edge>
+<edge source="njai dasima" target="bachtiar effendi">
+  <data key="d1">starred</data>
+</edge>
+<edge source="njai dasima" target="momo">
+  <data key="d1">relation to</data>
+</edge>
+<edge source="njai dasima" target="loepias">
+  <data key="d1">cinematography by</data>
+</edge>
+<edge source="njai dasima" target="effendi">
+  <data key="d1">relation to</data>
+</edge>
+<edge source="film" target="bachtiar effendi">
+  <data key="d1">starred</data>
+</edge>
+<edge source="film" target="momo">
+  <data key="d1">starred</data>
+</edge>
+<edge source="film" target="loepias">
+  <data key="d1">cinematography by</data>
+</edge>
+<edge source="momo" target="tan">
+  <data key="d1">directed by</data>
+</edge>
+<edge source="momo" target="1941">
+  <data key="d1">year</data>
+</edge>
+<edge source="momo" target="tans standard film">
+  <data key="d1">type of</data>
+</edge>
+<edge source="momo" target="karl heider">
+  <data key="d1">involves</data>
+</edge>
+<edge source="tan khoen yauw" target="produced by">
+  <data key="d1">si ronda.1</data>
+</edge>
+<edge source="lie" target="tan">
+  <data key="d1">budget issue with</data>
+</edge>
+<edge source="tan" target="effendi">
+  <data key="d1">made by</data>
+</edge>
+<edge source="tan" target="katalog sinematek archives">
+  <data key="d1">has</data>
+</edge>
+<edge source="effendi" target="1932">
+  <data key="d1">year</data>
+</edge>
+<edge source="effendi" target="doenia film">
+  <data key="d1">type of</data>
+</edge>
+<edge source="1950" target="katalog sinematek archives">
+  <data key="d1">lost</data>
+</edge>
+<edge source="lenny marlina" target="schadt">
+  <data key="d1">starred</data>
+</edge>
+<edge source="schadt" target="dicky zulkarnaen">
+  <data key="d1">starred</data>
+</edge>
+<edge source="directed by" target="directed by">
+  <data key="d1">si ronda</data>
+</edge>
+<edge source="directed by" target="0">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="njai dasima (1929) nancy bikin pembalesan (1930) si ronda (1930) melati van agam (1931) ikan doejoeng (1941) siti noerbaja (1941)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="produced by" target="produced by">
+  <data key="d1">si ronda</data>
+</edge>
+<edge source="produced by" target="1">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="starring" target="starring">
+  <data key="d1">si ronda</data>
+</edge>
+<edge source="starring" target="2">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="starring" target="bachtiar effendi momo">
+  <data key="d1">si ronda.1</data>
+</edge>
+<edge source="cinematography" target="cinematography">
+  <data key="d1">si ronda</data>
+</edge>
+<edge source="cinematography" target="3">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="cinematography" target="a loepias">
+  <data key="d1">si ronda.1</data>
+</edge>
+<edge source="production company" target="production company">
+  <data key="d1">si ronda</data>
+</edge>
+<edge source="production company" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="production company" target="tan's film">
+  <data key="d1">si ronda.1</data>
+</edge>
+<edge source="release date" target="release date">
+  <data key="d1">si ronda</data>
+</edge>
+<edge source="release date" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="release date" target="1930 (dutch east indies)">
+  <data key="d1">si ronda.1</data>
+</edge>
+<edge source="country" target="country">
+  <data key="d1">si ronda</data>
+</edge>
+<edge source="country" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="country" target="dutch east indies">
+  <data key="d1">si ronda.1</data>
+</edge>
+<edge source="country" target="6njai dasima (1929) nancy bikin pembalesan (1930) si ronda (1930) melati van agam (1931) ikan doejoeng (1941) siti noerbaja (1941)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="njai dasima (1929) nancy bikin pembalesan (1930) si ronda (1930) melati van agam (1931) ikan doejoeng (1941) siti noerbaja (1941)" target="njai dasima (1929) nancy bikin pembalesan (1930) si ronda (1930) melati van agam (1931) ikan doejoeng (1941) siti noerbaja (1941)">
+  <data key="d1">vteworks by lie tek swie.1</data>
+</edge>
+</graph></graphml>

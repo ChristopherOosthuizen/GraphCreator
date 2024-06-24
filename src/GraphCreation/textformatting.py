@@ -24,7 +24,6 @@ llm_lingua = PromptCompressor(
 )
 
 def extract_relevant_text(html: str) -> str:
-
     # Parse the HTML
     soup = BeautifulSoup(html, 'html.parser')
 
@@ -33,25 +32,31 @@ def extract_relevant_text(html: str) -> str:
 
     # Check for the specific text of interest
     site_sub = soup.find(id='siteSub')
-    content_text = soup.find(id='mw-content-text')
 
     if site_sub:
         relevant_text.append(site_sub.get_text(strip=False))
 
-    if content_text:
-        paragraphs = content_text.find_all('p')
-        for p in paragraphs:
-            relevant_text.append(p.get_text(strip=False))  # Add a space after each extracted text segment
+    paragraphs = soup.find_all(['p',"h1",'h2','h3','h4','h5','h6','ol','dl'])
+    for p in paragraphs:
+        relevant_text.append(p.get_text(strip=False))  # Add a space after each extracted text segment
+
+    # Extract alt descriptions of images
+    images = soup.find_all('img')
+    for img in images:
+        alt = img.get('alt')
+        if alt:
+            relevant_text.append(alt)
+    print(relevant_text)
     splitter = MarkdownTextSplitter(chunk_size=512, chunk_overlap=0)
     result_text = " ".join(relevant_text)
     splits = splitter.create_documents([result_text])
     for x in range(len(splits)):
         splits[x] = str(splits[x])
     compressed_prompt = llm_lingua.compress_prompt(
-    context=list(splits),
-    rate=0.33,
-    force_tokens=["!", ".", "?", "\n"],
-    drop_consecutive=True,
+        context=list(splits),
+        rate=0.33,
+        force_tokens=["!", ".", "?", "\n"],
+        drop_consecutive=True,
     )
     prompt = "\n\n".join([compressed_prompt["compressed_prompt"]])
     return prompt
@@ -90,11 +95,6 @@ def url_to_md(url):
 def pdf_to_md(file):
     return extract_text(file)
 def chunk_text(text):
-    text = text.replace("\n\n", "\n")
-    text = text.replace("[", " ")
-    text = text.replace("]", " ")
-    text = text.replace("{", " ")
-    text = text.replace("}", " ")
     splitter = MarkdownTextSplitter(chunk_size=200, chunk_overlap=25)
     splits = splitter.create_documents([text])
     for x in range(len(splits)):

@@ -1,0 +1,982 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="ditch sixmile">
+  <data key="d0">ditch sixmile</data>
+</node>
+<node id="ashtonlyne stretford">
+  <data key="d0">ashtonlyne stretford</data>
+</node>
+<node id="defensive fortification">
+  <data key="d0">defensive fortification</data>
+</node>
+<node id="330yard">
+  <data key="d0">330yard</data>
+</node>
+<node id="300 denton golf course">
+  <data key="d0">300 denton golf course</data>
+</node>
+<node id="4–5 yards">
+  <data key="d0">4–5 yards</data>
+</node>
+<node id="5 feet">
+  <data key="d0">5 feet</data>
+</node>
+<node id="ancient monument">
+  <data key="d0">ancient monument</data>
+</node>
+<node id="greater manchester">
+  <data key="d0">greater manchester</data>
+</node>
+<node id="5th to 11th century">
+  <data key="d0">5th to 11th century</data>
+</node>
+<node id="audenshaw">
+  <data key="d0">audenshaw</data>
+</node>
+<node id="ditch">
+  <data key="d0">ditch</data>
+</node>
+<node id="1190">
+  <data key="d0">1190</data>
+</node>
+<node id="kersal cell">
+  <data key="d0">kersal cell</data>
+</node>
+<node id="magnum fossatum">
+  <data key="d0">magnum fossatum</data>
+</node>
+<node id="great ditch">
+  <data key="d0">great ditch</data>
+</node>
+<node id="ditch  ">
+  <data key="d0">ditch  </data>
+</node>
+<node id="1190  ">
+  <data key="d0">1190  </data>
+</node>
+<node id="kersal cell  ">
+  <data key="d0">kersal cell  </data>
+</node>
+<node id="great ditch  ">
+  <data key="d0">great ditch  </data>
+</node>
+<node id="nico ditch">
+  <data key="d0">nico ditch</data>
+</node>
+<node id="19th  ">
+  <data key="d0">19th  </data>
+</node>
+<node id="20th century  ">
+  <data key="d0">20th century  </data>
+</node>
+<node id="anglosaxon  ">
+  <data key="d0">anglosaxon  </data>
+</node>
+<node id="magnum fossatum  ">
+  <data key="d0">magnum fossatum  </data>
+</node>
+<node id="anglosaxon">
+  <data key="d0">anglosaxon</data>
+</node>
+<node id="hnickar  ">
+  <data key="d0">hnickar  </data>
+</node>
+<node id="micel  ">
+  <data key="d0">micel  </data>
+</node>
+<node id="nǽcan  ">
+  <data key="d0">nǽcan  </data>
+</node>
+<node id="hnickar">
+  <data key="d0">hnickar</data>
+</node>
+<node id="water spirit  ">
+  <data key="d0">water spirit  </data>
+</node>
+<node id="13th century  ">
+  <data key="d0">13th century  </data>
+</node>
+<node id="nico ditch  ">
+  <data key="d0">nico ditch  </data>
+</node>
+<node id="19th">
+  <data key="d0">19th</data>
+</node>
+<node id="20th century">
+  <data key="d0">20th century</data>
+</node>
+<node id="micel">
+  <data key="d0">micel</data>
+</node>
+<node id="nǽcan">
+  <data key="d0">nǽcan</data>
+</node>
+<node id="water spirit">
+  <data key="d0">water spirit</data>
+</node>
+<node id="13th century">
+  <data key="d0">13th century</data>
+</node>
+<node id="saxon">
+  <data key="d0">saxon</data>
+</node>
+<node id="verb">
+  <data key="d0">verb</data>
+</node>
+<node id="ashton hough">
+  <data key="d0">ashton hough</data>
+</node>
+<node id="moss east stretford">
+  <data key="d0">moss east stretford</data>
+</node>
+<node id="denton">
+  <data key="d0">denton</data>
+</node>
+<node id="reddish">
+  <data key="d0">reddish</data>
+</node>
+<node id="gorton">
+  <data key="d0">gorton</data>
+</node>
+<node id="levenshulme">
+  <data key="d0">levenshulme</data>
+</node>
+<node id="burnage">
+  <data key="d0">burnage</data>
+</node>
+<node id="rusholme">
+  <data key="d0">rusholme</data>
+</node>
+<node id="fallowfield">
+  <data key="d0">fallowfield</data>
+</node>
+<node id="withington">
+  <data key="d0">withington</data>
+</node>
+<node id="chorltonhardy">
+  <data key="d0">chorltonhardy</data>
+</node>
+<node id="manchester">
+  <data key="d0">manchester</data>
+</node>
+<node id="stockport">
+  <data key="d0">stockport</data>
+</node>
+<node id="tameside">
+  <data key="d0">tameside</data>
+</node>
+<node id="verb   ">
+  <data key="d0">verb   </data>
+</node>
+<node id="moss east stretford   ">
+  <data key="d0">moss east stretford   </data>
+</node>
+<node id="reddish   ">
+  <data key="d0">reddish   </data>
+</node>
+<node id="gorton   ">
+  <data key="d0">gorton   </data>
+</node>
+<node id="levenshulme   ">
+  <data key="d0">levenshulme   </data>
+</node>
+<node id="burnage   ">
+  <data key="d0">burnage   </data>
+</node>
+<node id="rusholme   ">
+  <data key="d0">rusholme   </data>
+</node>
+<node id="fallowfield   ">
+  <data key="d0">fallowfield   </data>
+</node>
+<node id="withington   ">
+  <data key="d0">withington   </data>
+</node>
+<node id="chorltonhardy   ">
+  <data key="d0">chorltonhardy   </data>
+</node>
+<node id="greater manchester   ">
+  <data key="d0">greater manchester   </data>
+</node>
+<node id="manchester   ">
+  <data key="d0">manchester   </data>
+</node>
+<node id="stockport   ">
+  <data key="d0">stockport   </data>
+</node>
+<node id="tameside   ">
+  <data key="d0">tameside   </data>
+</node>
+<node id="earthwork">
+  <data key="d0">earthwork</data>
+</node>
+<node id="roman rule   ">
+  <data key="d0">roman rule   </data>
+</node>
+<node id="norman conquest   ">
+  <data key="d0">norman conquest   </data>
+</node>
+<node id="1066   ">
+  <data key="d0">1066   </data>
+</node>
+<node id="could be defensive fortification   ">
+  <data key="d0">could be defensive fortification   </data>
+</node>
+<node id="could be administrative boundary   ">
+  <data key="d0">could be administrative boundary   </data>
+</node>
+<node id="7th century   ">
+  <data key="d0">7th century   </data>
+</node>
+<node id="anglosaxons   ">
+  <data key="d0">anglosaxons   </data>
+</node>
+<node id="9th century   ">
+  <data key="d0">9th century   </data>
+</node>
+<node id="mercia   ">
+  <data key="d0">mercia   </data>
+</node>
+<node id="northumbria   ">
+  <data key="d0">northumbria   </data>
+</node>
+<node id="administration   ">
+  <data key="d0">administration   </data>
+</node>
+<node id="defense   ">
+  <data key="d0">defense   </data>
+</node>
+<node id="medieval   ">
+  <data key="d0">medieval   </data>
+</node>
+<node id="greater manchester  ">
+  <data key="d0">greater manchester  </data>
+</node>
+<node id="earthwork  ">
+  <data key="d0">earthwork  </data>
+</node>
+<node id="boundary  ">
+  <data key="d0">boundary  </data>
+</node>
+<node id="anglosaxons  ">
+  <data key="d0">anglosaxons  </data>
+</node>
+<node id="mercia  ">
+  <data key="d0">mercia  </data>
+</node>
+<node id="northumbria  ">
+  <data key="d0">northumbria  </data>
+</node>
+<node id="med originsearthwork">
+  <data key="d0">med originsearthwork</data>
+</node>
+<node id="medieval  ">
+  <data key="d0">medieval  </data>
+</node>
+<node id="1066  ">
+  <data key="d0">1066  </data>
+</node>
+<node id="roman rule  ">
+  <data key="d0">roman rule  </data>
+</node>
+<node id="medieval">
+  <data key="d0">medieval</data>
+</node>
+<node id="roman">
+  <data key="d0">roman</data>
+</node>
+<node id="norman conquest">
+  <data key="d0">norman conquest</data>
+</node>
+<node id="1066">
+  <data key="d0">1066</data>
+</node>
+<node id="could be defensive fortification">
+  <data key="d0">could be defensive fortification</data>
+</node>
+<node id="could be administrative boundary">
+  <data key="d0">could be administrative boundary</data>
+</node>
+<node id="7th century">
+  <data key="d0">7th century</data>
+</node>
+<node id="anglosaxons">
+  <data key="d0">anglosaxons</data>
+</node>
+<node id="9th century">
+  <data key="d0">9th century</data>
+</node>
+<node id="mercia">
+  <data key="d0">mercia</data>
+</node>
+<node id="northumbria">
+  <data key="d0">northumbria</data>
+</node>
+<node id="administration">
+  <data key="d0">administration</data>
+</node>
+<node id="roman rule">
+  <data key="d0">roman rule</data>
+</node>
+<node id="defense">
+  <data key="d0">defense</data>
+</node>
+<node id="medieval anglosaxon">
+  <data key="d0">medieval anglosaxon</data>
+</node>
+<node id="dirty farmstead">
+  <data key="d0">dirty farmstead</data>
+</node>
+<node id="reedy ditch">
+  <data key="d0">reedy ditch</data>
+</node>
+<node id="historical scrutiny">
+  <data key="d0">historical scrutiny</data>
+</node>
+<node id="weathering ditch">
+  <data key="d0">weathering ditch</data>
+</node>
+<node id="45 yards">
+  <data key="d0">45 yards</data>
+</node>
+<node id="330 yards">
+  <data key="d0">330 yards</data>
+</node>
+<node id="denton golf course">
+  <data key="d0">denton golf course</data>
+</node>
+<node id="best preserved">
+  <data key="d0">best preserved</data>
+</node>
+<node id="platt fields park">
+  <data key="d0">platt fields park</data>
+</node>
+<node id="150 yards">
+  <data key="d0">150 yards</data>
+</node>
+<node id="unprotected">
+  <data key="d0">unprotected</data>
+</node>
+<node id="1997">
+  <data key="d0">1997</data>
+</node>
+<node id="platt fields">
+  <data key="d0">platt fields</data>
+</node>
+<node id="length of 330 yards">
+  <data key="d0">length of 330 yards</data>
+</node>
+<node id="length of 150 yards">
+  <data key="d0">length of 150 yards</data>
+</node>
+<node id="nico ditch running west near levenshulme">
+  <data key="d0">nico ditch running west near levenshulme</data>
+</node>
+<node id="0">
+  <data key="d0">0</data>
+</node>
+<node id="53°27′03″n 2°10′37″w﻿ / ﻿53.4508°n 2.1769°w">
+  <data key="d0">53°27′03″n 2°10′37″w﻿ / ﻿53.4508°n 2.1769°w</data>
+</node>
+<node id="2">
+  <data key="d0">2</data>
+</node>
+<node id="location">
+  <data key="d0">location</data>
+</node>
+<node id="3">
+  <data key="d0">3</data>
+</node>
+<node id="designer">
+  <data key="d0">designer</data>
+</node>
+<node id="4">
+  <data key="d0">4</data>
+</node>
+<node id="anglo-saxons">
+  <data key="d0">anglo-saxons</data>
+</node>
+<node id="type">
+  <data key="d0">type</data>
+</node>
+<node id="5">
+  <data key="d0">5</data>
+</node>
+<node id="ditch and earthwork">
+  <data key="d0">ditch and earthwork</data>
+</node>
+<node id="length">
+  <data key="d0">length</data>
+</node>
+<node id="6">
+  <data key="d0">6</data>
+</node>
+<node id="6 mi (9.7 km)">
+  <data key="d0">6 mi (9.7 km)</data>
+</node>
+<node id="width">
+  <data key="d0">width</data>
+</node>
+<node id="7">
+  <data key="d0">7</data>
+</node>
+<node id="4–5 yards (3.7–4.6 m)">
+  <data key="d0">4–5 yards (3.7–4.6 m)</data>
+</node>
+<node id="completion date">
+  <data key="d0">completion date</data>
+</node>
+<node id="8">
+  <data key="d0">8</data>
+</node>
+<node id="5th – 11th century">
+  <data key="d0">5th – 11th century</data>
+</node>
+<node id="dismantled date">
+  <data key="d0">dismantled date</data>
+</node>
+<node id="9">
+  <data key="d0">9</data>
+</node>
+<node id="large sections lost to urban expansion">
+  <data key="d0">large sections lost to urban expansion</data>
+</node>
+<edge source="ditch sixmile" target="ashtonlyne stretford">
+  <data key="d1">located in</data>
+</edge>
+<edge source="ditch sixmile" target="defensive fortification">
+  <data key="d1">served as</data>
+</edge>
+<edge source="ditch sixmile" target="330yard">
+  <data key="d1">measures</data>
+</edge>
+<edge source="ditch sixmile" target="300 denton golf course">
+  <data key="d1">within</data>
+</edge>
+<edge source="ditch sixmile" target="4–5 yards">
+  <data key="d1">has width</data>
+</edge>
+<edge source="ditch sixmile" target="5 feet">
+  <data key="d1">measures in depth</data>
+</edge>
+<edge source="ditch sixmile" target="ancient monument">
+  <data key="d1">designated as</data>
+</edge>
+<edge source="ditch sixmile" target="ditch">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="ashtonlyne stretford" target="greater manchester">
+  <data key="d1">part of</data>
+</edge>
+<edge source="defensive fortification" target="5th to 11th century">
+  <data key="d1">existed during</data>
+</edge>
+<edge source="defensive fortification" target="ditch">
+  <data key="d1">could be part of</data>
+</edge>
+<edge source="330yard" target="5 feet">
+  <data key="d1">has depth</data>
+</edge>
+<edge source="5 feet" target="weathering ditch">
+  <data key="d1">depth</data>
+</edge>
+<edge source="ancient monument" target="unprotected">
+  <data key="d1">status</data>
+</edge>
+<edge source="ancient monument" target="platt fields">
+  <data key="d1">is an</data>
+</edge>
+<edge source="ancient monument" target="weathering ditch">
+  <data key="d1">designated</data>
+</edge>
+<edge source="greater manchester" target="chorltonhardy">
+  <data key="d1">part of</data>
+</edge>
+<edge source="greater manchester" target="manchester">
+  <data key="d1">includes</data>
+</edge>
+<edge source="greater manchester" target="nico ditch">
+  <data key="d1">located in</data>
+</edge>
+<edge source="greater manchester" target="manchester   ">
+  <data key="d1">includes</data>
+</edge>
+<edge source="greater manchester" target="location">
+  <data key="d1">1</data>
+</edge>
+<edge source="audenshaw" target="ditch">
+  <data key="d1">contains</data>
+</edge>
+<edge source="audenshaw" target="ditch  ">
+  <data key="d1">contains</data>
+</edge>
+<edge source="ditch" target="1190">
+  <data key="d1">referenced in</data>
+</edge>
+<edge source="ditch" target="magnum fossatum">
+  <data key="d1">is also known as</data>
+</edge>
+<edge source="ditch" target="1190  ">
+  <data key="d1">referenced in</data>
+</edge>
+<edge source="ditch" target="magnum fossatum  ">
+  <data key="d1">also referred to as</data>
+</edge>
+<edge source="ditch" target="nico ditch  ">
+  <data key="d1">is possibly related to</data>
+</edge>
+<edge source="1190" target="kersal cell">
+  <data key="d1">related to</data>
+</edge>
+<edge source="1190" target="kersal cell  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="kersal cell" target="magnum fossatum  ">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="magnum fossatum" target="great ditch">
+  <data key="d1">means</data>
+</edge>
+<edge source="magnum fossatum" target="great ditch  ">
+  <data key="d1">means</data>
+</edge>
+<edge source="magnum fossatum" target="13th century  ">
+  <data key="d1">referred to as</data>
+</edge>
+<edge source="magnum fossatum" target="nico ditch">
+  <data key="d1">referred to as</data>
+</edge>
+<edge source="magnum fossatum" target="13th century">
+  <data key="d1">referred to as</data>
+</edge>
+<edge source="great ditch" target="anglosaxon">
+  <data key="d1">possible origin</data>
+</edge>
+<edge source="nico ditch" target="19th  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="nico ditch" target="20th century  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="nico ditch" target="anglosaxon  ">
+  <data key="d1">derived from</data>
+</edge>
+<edge source="nico ditch" target="magnum fossatum  ">
+  <data key="d1">referred to as</data>
+</edge>
+<edge source="nico ditch" target="19th">
+  <data key="d1">related to</data>
+</edge>
+<edge source="nico ditch" target="20th century">
+  <data key="d1">related to</data>
+</edge>
+<edge source="nico ditch" target="anglosaxon">
+  <data key="d1">derived from</data>
+</edge>
+<edge source="nico ditch" target="ashton hough">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="moss east stretford">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="denton">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="reddish">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="gorton">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="levenshulme">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="burnage">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="rusholme">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="fallowfield">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="withington">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="chorltonhardy">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="stockport">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="manchester">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="nico ditch" target="tameside">
+  <data key="d1">passes through</data>
+</edge>
+<edge source="anglosaxon" target="hnickar  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="anglosaxon" target="micel  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="anglosaxon" target="nǽcan  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="anglosaxon" target="hnickar">
+  <data key="d1">related to</data>
+</edge>
+<edge source="anglosaxon" target="micel">
+  <data key="d1">related to</data>
+</edge>
+<edge source="anglosaxon" target="nǽcan">
+  <data key="d1">related to</data>
+</edge>
+<edge source="anglosaxon" target="saxon">
+  <data key="d1">related to</data>
+</edge>
+<edge source="hnickar" target="water spirit  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="hnickar" target="water spirit">
+  <data key="d1">related to</data>
+</edge>
+<edge source="saxon" target="verb">
+  <data key="d1">includes</data>
+</edge>
+<edge source="saxon" target="verb   ">
+  <data key="d1">includes</data>
+</edge>
+<edge source="saxon" target="earthwork  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="ashton hough" target="moss east stretford">
+  <data key="d1">part of</data>
+</edge>
+<edge source="ashton hough" target="moss east stretford   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="ashton hough" target="greater manchester   ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="moss east stretford" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="denton" target="reddish">
+  <data key="d1">part of</data>
+</edge>
+<edge source="denton" target="reddish   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="denton" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="reddish" target="gorton">
+  <data key="d1">part of</data>
+</edge>
+<edge source="reddish" target="gorton   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="reddish" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="reddish" target="dirty farmstead">
+  <data key="d1">derives from</data>
+</edge>
+<edge source="reddish" target="reedy ditch">
+  <data key="d1">derives from</data>
+</edge>
+<edge source="gorton" target="levenshulme">
+  <data key="d1">part of</data>
+</edge>
+<edge source="gorton" target="levenshulme   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="gorton" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="levenshulme" target="burnage">
+  <data key="d1">part of</data>
+</edge>
+<edge source="levenshulme" target="burnage   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="levenshulme" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="burnage" target="rusholme">
+  <data key="d1">part of</data>
+</edge>
+<edge source="burnage" target="rusholme   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="burnage" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="rusholme" target="fallowfield">
+  <data key="d1">part of</data>
+</edge>
+<edge source="rusholme" target="fallowfield   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="rusholme" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="fallowfield" target="withington">
+  <data key="d1">part of</data>
+</edge>
+<edge source="fallowfield" target="withington   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="fallowfield" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="withington" target="chorltonhardy">
+  <data key="d1">part of</data>
+</edge>
+<edge source="withington" target="chorltonhardy   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="withington" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="chorltonhardy" target="greater manchester   ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="chorltonhardy" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="manchester" target="stockport">
+  <data key="d1">includes</data>
+</edge>
+<edge source="manchester" target="tameside">
+  <data key="d1">includes</data>
+</edge>
+<edge source="manchester" target="stockport   ">
+  <data key="d1">includes</data>
+</edge>
+<edge source="manchester" target="tameside   ">
+  <data key="d1">includes</data>
+</edge>
+<edge source="stockport" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="tameside" target="greater manchester  ">
+  <data key="d1">located in</data>
+</edge>
+<edge source="earthwork" target="roman rule   ">
+  <data key="d1">constructed during</data>
+</edge>
+<edge source="earthwork" target="norman conquest   ">
+  <data key="d1">created during</data>
+</edge>
+<edge source="earthwork" target="1066   ">
+  <data key="d1">constructed during</data>
+</edge>
+<edge source="earthwork" target="could be defensive fortification   ">
+  <data key="d1">purpose</data>
+</edge>
+<edge source="earthwork" target="could be administrative boundary   ">
+  <data key="d1">purpose</data>
+</edge>
+<edge source="earthwork" target="7th century   ">
+  <data key="d1">served as boundary in</data>
+</edge>
+<edge source="earthwork" target="anglosaxons   ">
+  <data key="d1">served as boundary for</data>
+</edge>
+<edge source="earthwork" target="9th century   ">
+  <data key="d1">served as boundary in</data>
+</edge>
+<edge source="earthwork" target="mercia   ">
+  <data key="d1">served as boundary for</data>
+</edge>
+<edge source="earthwork" target="northumbria   ">
+  <data key="d1">served as boundary for</data>
+</edge>
+<edge source="earthwork" target="administration   ">
+  <data key="d1">built for</data>
+</edge>
+<edge source="earthwork" target="defense   ">
+  <data key="d1">built for</data>
+</edge>
+<edge source="earthwork" target="medieval   ">
+  <data key="d1">has origins in</data>
+</edge>
+<edge source="earthwork" target="greater manchester  ">
+  <data key="d1">found in</data>
+</edge>
+<edge source="earthwork" target="boundary  ">
+  <data key="d1">functioned as</data>
+</edge>
+<edge source="earthwork" target="anglosaxons  ">
+  <data key="d1">used by</data>
+</edge>
+<edge source="earthwork" target="mercia  ">
+  <data key="d1">used by</data>
+</edge>
+<edge source="earthwork" target="northumbria  ">
+  <data key="d1">used by</data>
+</edge>
+<edge source="earthwork" target="1066  ">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="earthwork" target="roman rule  ">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="earthwork" target="medieval">
+  <data key="d1">has origins in</data>
+</edge>
+<edge source="earthwork" target="roman">
+  <data key="d1">constructed during</data>
+</edge>
+<edge source="earthwork" target="norman conquest">
+  <data key="d1">created during</data>
+</edge>
+<edge source="earthwork" target="1066">
+  <data key="d1">constructed during</data>
+</edge>
+<edge source="earthwork" target="could be defensive fortification">
+  <data key="d1">purpose</data>
+</edge>
+<edge source="earthwork" target="could be administrative boundary">
+  <data key="d1">purpose</data>
+</edge>
+<edge source="earthwork" target="7th century">
+  <data key="d1">served as boundary in</data>
+</edge>
+<edge source="earthwork" target="anglosaxons">
+  <data key="d1">holds significance for</data>
+</edge>
+<edge source="earthwork" target="9th century">
+  <data key="d1">served as boundary in</data>
+</edge>
+<edge source="earthwork" target="mercia">
+  <data key="d1">served as boundary for</data>
+</edge>
+<edge source="earthwork" target="northumbria">
+  <data key="d1">holds significance for</data>
+</edge>
+<edge source="earthwork" target="administration">
+  <data key="d1">built for</data>
+</edge>
+<edge source="earthwork" target="roman rule">
+  <data key="d1">created during</data>
+</edge>
+<edge source="earthwork" target="defense">
+  <data key="d1">built for</data>
+</edge>
+<edge source="earthwork" target="med originsearthwork">
+  <data key="d1">has origins in</data>
+</edge>
+<edge source="med originsearthwork" target="medieval  ">
+  <data key="d1">interpret as</data>
+</edge>
+<edge source="northumbria" target="medieval anglosaxon">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="northumbria" target="historical scrutiny">
+  <data key="d1">is studied under</data>
+</edge>
+<edge source="weathering ditch" target="45 yards">
+  <data key="d1">width</data>
+</edge>
+<edge source="weathering ditch" target="platt fields park">
+  <data key="d1">best preserved</data>
+</edge>
+<edge source="weathering ditch" target="length of 330 yards">
+  <data key="d1">preserved</data>
+</edge>
+<edge source="weathering ditch" target="length of 150 yards">
+  <data key="d1">preserved</data>
+</edge>
+<edge source="weathering ditch" target="unprotected">
+  <data key="d1">status</data>
+</edge>
+<edge source="330 yards" target="denton golf course">
+  <data key="d1">length</data>
+</edge>
+<edge source="best preserved" target="platt fields park">
+  <data key="d1">description</data>
+</edge>
+<edge source="platt fields park" target="150 yards">
+  <data key="d1">length</data>
+</edge>
+<edge source="1997" target="platt fields">
+  <data key="d1">charecteristic</data>
+</edge>
+<edge source="nico ditch running west near levenshulme" target="nico ditch running west near levenshulme">
+  <data key="d1">1</data>
+</edge>
+<edge source="nico ditch running west near levenshulme" target="0">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="53°27′03″n 2°10′37″w﻿ / ﻿53.4508°n 2.1769°w" target="53°27′03″n 2°10′37″w﻿ / ﻿53.4508°n 2.1769°w">
+  <data key="d1">1</data>
+</edge>
+<edge source="53°27′03″n 2°10′37″w﻿ / ﻿53.4508°n 2.1769°w" target="2">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="location" target="location">
+  <data key="d1">0</data>
+</edge>
+<edge source="location" target="3">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="designer" target="designer">
+  <data key="d1">0</data>
+</edge>
+<edge source="designer" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="designer" target="anglo-saxons">
+  <data key="d1">1</data>
+</edge>
+<edge source="type" target="type">
+  <data key="d1">0</data>
+</edge>
+<edge source="type" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="type" target="ditch and earthwork">
+  <data key="d1">1</data>
+</edge>
+<edge source="length" target="length">
+  <data key="d1">0</data>
+</edge>
+<edge source="length" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="length" target="6 mi (9.7 km)">
+  <data key="d1">1</data>
+</edge>
+<edge source="width" target="width">
+  <data key="d1">0</data>
+</edge>
+<edge source="width" target="7">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="width" target="4–5 yards (3.7–4.6 m)">
+  <data key="d1">1</data>
+</edge>
+<edge source="completion date" target="completion date">
+  <data key="d1">0</data>
+</edge>
+<edge source="completion date" target="8">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="completion date" target="5th – 11th century">
+  <data key="d1">1</data>
+</edge>
+<edge source="dismantled date" target="dismantled date">
+  <data key="d1">0</data>
+</edge>
+<edge source="dismantled date" target="9">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="dismantled date" target="large sections lost to urban expansion">
+  <data key="d1">1</data>
+</edge>
+</graph></graphml>

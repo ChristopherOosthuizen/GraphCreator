@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 1000px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#99894c", "font": {"color": "white"}, "id": "ditch sixmile", "label": "ditch sixmile", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "ashtonlyne stretford", "label": "ashtonlyne stretford", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "defensive fortification", "label": "defensive fortification", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "330yard", "label": "330yard", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "300 denton golf course", "label": "300 denton golf course", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "4\u20135 yards", "label": "4\u20135 yards", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "5 feet", "label": "5 feet", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "ancient monument", "label": "ancient monument", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "ditch", "label": "ditch", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "greater manchester", "label": "greater manchester", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "5th to 11th century", "label": "5th to 11th century", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "weathering ditch", "label": "weathering ditch", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "unprotected", "label": "unprotected", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "platt fields", "label": "platt fields", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "chorltonhardy", "label": "chorltonhardy", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "manchester", "label": "manchester", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "nico ditch", "label": "nico ditch", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "manchester   ", "label": "manchester   ", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "location", "label": "location", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "audenshaw", "label": "audenshaw", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "ditch  ", "label": "ditch  ", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "1190", "label": "1190", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "magnum fossatum", "label": "magnum fossatum", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "1190  ", "label": "1190  ", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "magnum fossatum  ", "label": "magnum fossatum  ", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "nico ditch  ", "label": "nico ditch  ", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "kersal cell", "label": "kersal cell", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "kersal cell  ", "label": "kersal cell  ", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "great ditch", "label": "great ditch", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "great ditch  ", "label": "great ditch  ", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "13th century  ", "label": "13th century  ", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "13th century", "label": "13th century", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "anglosaxon", "label": "anglosaxon", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "19th  ", "label": "19th  ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "20th century  ", "label": "20th century  ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "anglosaxon  ", "label": "anglosaxon  ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "19th", "label": "19th", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "20th century", "label": "20th century", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "ashton hough", "label": "ashton hough", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "moss east stretford", "label": "moss east stretford", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "denton", "label": "denton", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "reddish", "label": "reddish", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "gorton", "label": "gorton", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "levenshulme", "label": "levenshulme", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "burnage", "label": "burnage", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "rusholme", "label": "rusholme", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "fallowfield", "label": "fallowfield", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "withington", "label": "withington", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "stockport", "label": "stockport", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "tameside", "label": "tameside", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "hnickar  ", "label": "hnickar  ", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "micel  ", "label": "micel  ", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "n\u01fdcan  ", "label": "n\u01fdcan  ", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "hnickar", "label": "hnickar", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "micel", "label": "micel", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "n\u01fdcan", "label": "n\u01fdcan", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "saxon", "label": "saxon", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "water spirit  ", "label": "water spirit  ", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "water spirit", "label": "water spirit", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "verb", "label": "verb", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "verb   ", "label": "verb   ", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "earthwork  ", "label": "earthwork  ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "moss east stretford   ", "label": "moss east stretford   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "greater manchester   ", "label": "greater manchester   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "greater manchester  ", "label": "greater manchester  ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "reddish   ", "label": "reddish   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "gorton   ", "label": "gorton   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "dirty farmstead", "label": "dirty farmstead", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "reedy ditch", "label": "reedy ditch", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "levenshulme   ", "label": "levenshulme   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "burnage   ", "label": "burnage   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "rusholme   ", "label": "rusholme   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "fallowfield   ", "label": "fallowfield   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "withington   ", "label": "withington   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "chorltonhardy   ", "label": "chorltonhardy   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "stockport   ", "label": "stockport   ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "tameside   ", "label": "tameside   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "earthwork", "label": "earthwork", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "roman rule   ", "label": "roman rule   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "norman conquest   ", "label": "norman conquest   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1066   ", "label": "1066   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "could be defensive fortification   ", "label": "could be defensive fortification   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "could be administrative boundary   ", "label": "could be administrative boundary   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "7th century   ", "label": "7th century   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "anglosaxons   ", "label": "anglosaxons   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "9th century   ", "label": "9th century   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "mercia   ", "label": "mercia   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "northumbria   ", "label": "northumbria   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "administration   ", "label": "administration   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "defense   ", "label": "defense   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "medieval   ", "label": "medieval   ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "boundary  ", "label": "boundary  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "anglosaxons  ", "label": "anglosaxons  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "mercia  ", "label": "mercia  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "northumbria  ", "label": "northumbria  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1066  ", "label": "1066  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "roman rule  ", "label": "roman rule  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "medieval", "label": "medieval", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "roman", "label": "roman", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "norman conquest", "label": "norman conquest", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1066", "label": "1066", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "could be defensive fortification", "label": "could be defensive fortification", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "could be administrative boundary", "label": "could be administrative boundary", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "7th century", "label": "7th century", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "anglosaxons", "label": "anglosaxons", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "9th century", "label": "9th century", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "mercia", "label": "mercia", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "northumbria", "label": "northumbria", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "administration", "label": "administration", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "roman rule", "label": "roman rule", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "defense", "label": "defense", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "med originsearthwork", "label": "med originsearthwork", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "medieval  ", "label": "medieval  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "medieval anglosaxon", "label": "medieval anglosaxon", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "historical scrutiny", "label": "historical scrutiny", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "45 yards", "label": "45 yards", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "platt fields park", "label": "platt fields park", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "length of 330 yards", "label": "length of 330 yards", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "length of 150 yards", "label": "length of 150 yards", "shape": "dot", "size": 10}, {"color": "#b766cc", "font": {"color": "white"}, "id": "330 yards", "label": "330 yards", "shape": "dot", "size": 10}, {"color": "#b766cc", "font": {"color": "white"}, "id": "denton golf course", "label": "denton golf course", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "best preserved", "label": "best preserved", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "150 yards", "label": "150 yards", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "1997", "label": "1997", "shape": "dot", "size": 10}, {"color": "#b23599", "font": {"color": "white"}, "id": "nico ditch running west near levenshulme", "label": "nico ditch running west near levenshulme", "shape": "dot", "size": 10}, {"color": "#b23599", "font": {"color": "white"}, "id": "0", "label": "0", "shape": "dot", "size": 10}, {"color": "#994c6b", "font": {"color": "white"}, "id": "53\u00b027\u203203\u2033n 2\u00b010\u203237\u2033w\ufeff / \ufeff53.4508\u00b0n 2.1769\u00b0w", "label": "53\u00b027\u203203\u2033n 2\u00b010\u203237\u2033w\ufeff / \ufeff53.4508\u00b0n 2.1769\u00b0w", "shape": "dot", "size": 10}, {"color": "#994c6b", "font": {"color": "white"}, "id": "2", "label": "2", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "3", "label": "3", "shape": "dot", "size": 10}, {"color": "#66cc8e", "font": {"color": "white"}, "id": "designer", "label": "designer", "shape": "dot", "size": 10}, {"color": "#66cc8e", "font": {"color": "white"}, "id": "4", "label": "4", "shape": "dot", "size": 10}, {"color": "#66cc8e", "font": {"color": "white"}, "id": "anglo-saxons", "label": "anglo-saxons", "shape": "dot", "size": 10}, {"color": "#35b299", "font": {"color": "white"}, "id": "type", "label": "type", "shape": "dot", "size": 10}, {"color": "#35b299", "font": {"color": "white"}, "id": "5", "label": "5", "shape": "dot", "size": 10}, {"color": "#35b299", "font": {"color": "white"}, "id": "ditch and earthwork", "label": "ditch and earthwork", "shape": "dot", "size": 10}, {"color": "#4c8999", "font": {"color": "white"}, "id": "length", "label": "length", "shape": "dot", "size": 10}, {"color": "#4c8999", "font": {"color": "white"}, "id": "6", "label": "6", "shape": "dot", "size": 10}, {"color": "#4c8999", "font": {"color": "white"}, "id": "6\u00a0mi (9.7\u00a0km)", "label": "6\u00a0mi (9.7\u00a0km)", "shape": "dot", "size": 10}, {"color": "#3d76cc", "font": {"color": "white"}, "id": "width", "label": "width", "shape": "dot", "size": 10}, {"color": "#3d76cc", "font": {"color": "white"}, "id": "7", "label": "7", "shape": "dot", "size": 10}, {"color": "#3d76cc", "font": {"color": "white"}, "id": "4\u20135 yards (3.7\u20134.6\u00a0m)", "label": "4\u20135 yards (3.7\u20134.6\u00a0m)", "shape": "dot", "size": 10}, {"color": "#5959b2", "font": {"color": "white"}, "id": "completion\u00a0date", "label": "completion\u00a0date", "shape": "dot", "size": 10}, {"color": "#5959b2", "font": {"color": "white"}, "id": "8", "label": "8", "shape": "dot", "size": 10}, {"color": "#5959b2", "font": {"color": "white"}, "id": "5th \u2013 11th century", "label": "5th \u2013 11th century", "shape": "dot", "size": 10}, {"color": "#582d99", "font": {"color": "white"}, "id": "dismantled\u00a0date", "label": "dismantled\u00a0date", "shape": "dot", "size": 10}, {"color": "#582d99", "font": {"color": "white"}, "id": "9", "label": "9", "shape": "dot", "size": 10}, {"color": "#582d99", "font": {"color": "white"}, "id": "large sections lost to urban expansion", "label": "large sections lost to urban expansion", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "ditch sixmile", "label": "located in", "to": "ashtonlyne stretford", "width": 1}, {"from": "ditch sixmile", "label": "served as", "to": "defensive fortification", "width": 1}, {"from": "ditch sixmile", "label": "measures", "to": "330yard", "width": 1}, {"from": "ditch sixmile", "label": "within", "to": "300 denton golf course", "width": 1}, {"from": "ditch sixmile", "label": "has width", "to": "4\u20135 yards", "width": 1}, {"from": "ditch sixmile", "label": "measures in depth", "to": "5 feet", "width": 1}, {"from": "ditch sixmile", "label": "designated as", "to": "ancient monument", "width": 1}, {"from": "ditch sixmile", "label": "is a type of", "to": "ditch", "width": 1}, {"from": "ashtonlyne stretford", "label": "part of", "to": "greater manchester", "width": 1}, {"from": "defensive fortification", "label": "existed during", "to": "5th to 11th century", "width": 1}, {"from": "defensive fortification", "label": "could be part of", "to": "ditch", "width": 1}, {"from": "330yard", "label": "has depth", "to": "5 feet", "width": 1}, {"from": "5 feet", "label": "depth", "to": "weathering ditch", "width": 1}, {"from": "ancient monument", "label": "status", "to": "unprotected", "width": 1}, {"from": "ancient monument", "label": "is an", "to": "platt fields", "width": 1}, {"from": "ancient monument", "label": "designated", "to": "weathering ditch", "width": 1}, {"from": "greater manchester", "label": "part of", "to": "chorltonhardy", "width": 1}, {"from": "greater manchester", "label": "includes", "to": "manchester", "width": 1}, {"from": "greater manchester", "label": "located in", "to": "nico ditch", "width": 1}, {"from": "greater manchester", "label": "includes", "to": "manchester   ", "width": 1}, {"from": "greater manchester", "label": "1", "to": "location", "width": 1}, {"from": "audenshaw", "label": "contains", "to": "ditch", "width": 1}, {"from": "audenshaw", "label": "contains", "to": "ditch  ", "width": 1}, {"from": "ditch", "label": "referenced in", "to": "1190", "width": 1}, {"from": "ditch", "label": "is also known as", "to": "magnum fossatum", "width": 1}, {"from": "ditch", "label": "referenced in", "to": "1190  ", "width": 1}, {"from": "ditch", "label": "also referred to as", "to": "magnum fossatum  ", "width": 1}, {"from": "ditch", "label": "is possibly related to", "to": "nico ditch  ", "width": 1}, {"from": "1190", "label": "related to", "to": "kersal cell", "width": 1}, {"from": "1190", "label": "related to", "to": "kersal cell  ", "width": 1}, {"from": "kersal cell", "label": "connected to", "to": "magnum fossatum  ", "width": 1}, {"from": "magnum fossatum", "label": "means", "to": "great ditch", "width": 1}, {"from": "magnum fossatum", "label": "means", "to": "great ditch  ", "width": 1}, {"from": "magnum fossatum", "label": "referred to as", "to": "13th century  ", "width": 1}, {"from": "magnum fossatum", "label": "referred to as", "to": "nico ditch", "width": 1}, {"from": "magnum fossatum", "label": "referred to as", "to": "13th century", "width": 1}, {"from": "great ditch", "label": "possible origin", "to": "anglosaxon", "width": 1}, {"from": "nico ditch", "label": "related to", "to": "19th  ", "width": 1}, {"from": "nico ditch", "label": "related to", "to": "20th century  ", "width": 1}, {"from": "nico ditch", "label": "derived from", "to": "anglosaxon  ", "width": 1}, {"from": "nico ditch", "label": "referred to as", "to": "magnum fossatum  ", "width": 1}, {"from": "nico ditch", "label": "related to", "to": "19th", "width": 1}, {"from": "nico ditch", "label": "related to", "to": "20th century", "width": 1}, {"from": "nico ditch", "label": "derived from", "to": "anglosaxon", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "ashton hough", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "moss east stretford", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "denton", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "reddish", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "gorton", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "levenshulme", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "burnage", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "rusholme", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "fallowfield", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "withington", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "chorltonhardy", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "stockport", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "manchester", "width": 1}, {"from": "nico ditch", "label": "passes through", "to": "tameside", "width": 1}, {"from": "anglosaxon", "label": "related to", "to": "hnickar  ", "width": 1}, {"from": "anglosaxon", "label": "related to", "to": "micel  ", "width": 1}, {"from": "anglosaxon", "label": "related to", "to": "n\u01fdcan  ", "width": 1}, {"from": "anglosaxon", "label": "related to", "to": "hnickar", "width": 1}, {"from": "anglosaxon", "label": "related to", "to": "micel", "width": 1}, {"from": "anglosaxon", "label": "related to", "to": "n\u01fdcan", "width": 1}, {"from": "anglosaxon", "label": "related to", "to": "saxon", "width": 1}, {"from": "hnickar", "label": "related to", "to": "water spirit  ", "width": 1}, {"from": "hnickar", "label": "related to", "to": "water spirit", "width": 1}, {"from": "saxon", "label": "includes", "to": "verb", "width": 1}, {"from": "saxon", "label": "includes", "to": "verb   ", "width": 1}, {"from": "saxon", "label": "related to", "to": "earthwork  ", "width": 1}, {"from": "ashton hough", "label": "part of", "to": "moss east stretford", "width": 1}, {"from": "ashton hough", "label": "part of", "to": "moss east stretford   ", "width": 1}, {"from": "ashton hough", "label": "located in", "to": "greater manchester   ", "width": 1}, {"from": "moss east stretford", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "denton", "label": "part of", "to": "reddish", "width": 1}, {"from": "denton", "label": "part of", "to": "reddish   ", "width": 1}, {"from": "denton", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "reddish", "label": "part of", "to": "gorton", "width": 1}, {"from": "reddish", "label": "part of", "to": "gorton   ", "width": 1}, {"from": "reddish", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "reddish", "label": "derives from", "to": "dirty farmstead", "width": 1}, {"from": "reddish", "label": "derives from", "to": "reedy ditch", "width": 1}, {"from": "gorton", "label": "part of", "to": "levenshulme", "width": 1}, {"from": "gorton", "label": "part of", "to": "levenshulme   ", "width": 1}, {"from": "gorton", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "levenshulme", "label": "part of", "to": "burnage", "width": 1}, {"from": "levenshulme", "label": "part of", "to": "burnage   ", "width": 1}, {"from": "levenshulme", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "burnage", "label": "part of", "to": "rusholme", "width": 1}, {"from": "burnage", "label": "part of", "to": "rusholme   ", "width": 1}, {"from": "burnage", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "rusholme", "label": "part of", "to": "fallowfield", "width": 1}, {"from": "rusholme", "label": "part of", "to": "fallowfield   ", "width": 1}, {"from": "rusholme", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "fallowfield", "label": "part of", "to": "withington", "width": 1}, {"from": "fallowfield", "label": "part of", "to": "withington   ", "width": 1}, {"from": "fallowfield", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "withington", "label": "part of", "to": "chorltonhardy", "width": 1}, {"from": "withington", "label": "part of", "to": "chorltonhardy   ", "width": 1}, {"from": "withington", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "chorltonhardy", "label": "part of", "to": "greater manchester   ", "width": 1}, {"from": "chorltonhardy", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "manchester", "label": "includes", "to": "stockport", "width": 1}, {"from": "manchester", "label": "includes", "to": "tameside", "width": 1}, {"from": "manchester", "label": "includes", "to": "stockport   ", "width": 1}, {"from": "manchester", "label": "includes", "to": "tameside   ", "width": 1}, {"from": "stockport", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "tameside", "label": "located in", "to": "greater manchester  ", "width": 1}, {"from": "earthwork", "label": "constructed during", "to": "roman rule   ", "width": 1}, {"from": "earthwork", "label": "created during", "to": "norman conquest   ", "width": 1}, {"from": "earthwork", "label": "constructed during", "to": "1066   ", "width": 1}, {"from": "earthwork", "label": "purpose", "to": "could be defensive fortification   ", "width": 1}, {"from": "earthwork", "label": "purpose", "to": "could be administrative boundary   ", "width": 1}, {"from": "earthwork", "label": "served as boundary in", "to": "7th century   ", "width": 1}, {"from": "earthwork", "label": "served as boundary for", "to": "anglosaxons   ", "width": 1}, {"from": "earthwork", "label": "served as boundary in", "to": "9th century   ", "width": 1}, {"from": "earthwork", "label": "served as boundary for", "to": "mercia   ", "width": 1}, {"from": "earthwork", "label": "served as boundary for", "to": "northumbria   ", "width": 1}, {"from": "earthwork", "label": "built for", "to": "administration   ", "width": 1}, {"from": "earthwork", "label": "built for", "to": "defense   ", "width": 1}, {"from": "earthwork", "label": "has origins in", "to": "medieval   ", "width": 1}, {"from": "earthwork", "label": "found in", "to": "greater manchester  ", "width": 1}, {"from": "earthwork", "label": "functioned as", "to": "boundary  ", "width": 1}, {"from": "earthwork", "label": "used by", "to": "anglosaxons  ", "width": 1}, {"from": "earthwork", "label": "used by", "to": "mercia  ", "width": 1}, {"from": "earthwork", "label": "used by", "to": "northumbria  ", "width": 1}, {"from": "earthwork", "label": "connected to", "to": "1066  ", "width": 1}, {"from": "earthwork", "label": "connected to", "to": "roman rule  ", "width": 1}, {"from": "earthwork", "label": "has origins in", "to": "medieval", "width": 1}, {"from": "earthwork", "label": "constructed during", "to": "roman", "width": 1}, {"from": "earthwork", "label": "created during", "to": "norman conquest", "width": 1}, {"from": "earthwork", "label": "constructed during", "to": "1066", "width": 1}, {"from": "earthwork", "label": "purpose", "to": "could be defensive fortification", "width": 1}, {"from": "earthwork", "label": "purpose", "to": "could be administrative boundary", "width": 1}, {"from": "earthwork", "label": "served as boundary in", "to": "7th century", "width": 1}, {"from": "earthwork", "label": "holds significance for", "to": "anglosaxons", "width": 1}, {"from": "earthwork", "label": "served as boundary in", "to": "9th century", "width": 1}, {"from": "earthwork", "label": "served as boundary for", "to": "mercia", "width": 1}, {"from": "earthwork", "label": "holds significance for", "to": "northumbria", "width": 1}, {"from": "earthwork", "label": "built for", "to": "administration", "width": 1}, {"from": "earthwork", "label": "created during", "to": "roman rule", "width": 1}, {"from": "earthwork", "label": "built for", "to": "defense", "width": 1}, {"from": "earthwork", "label": "has origins in", "to": "med originsearthwork", "width": 1}, {"from": "med originsearthwork", "label": "interpret as", "to": "medieval  ", "width": 1}, {"from": "northumbria", "label": "is part of", "to": "medieval anglosaxon", "width": 1}, {"from": "northumbria", "label": "is studied under", "to": "historical scrutiny", "width": 1}, {"from": "weathering ditch", "label": "width", "to": "45 yards", "width": 1}, {"from": "weathering ditch", "label": "best preserved", "to": "platt fields park", "width": 1}, {"from": "weathering ditch", "label": "preserved", "to": "length of 330 yards", "width": 1}, {"from": "weathering ditch", "label": "preserved", "to": "length of 150 yards", "width": 1}, {"from": "weathering ditch", "label": "status", "to": "unprotected", "width": 1}, {"from": "330 yards", "label": "length", "to": "denton golf course", "width": 1}, {"from": "best preserved", "label": "description", "to": "platt fields park", "width": 1}, {"from": "platt fields park", "label": "length", "to": "150 yards", "width": 1}, {"from": "1997", "label": "charecteristic", "to": "platt fields", "width": 1}, {"from": "nico ditch running west near levenshulme", "label": "1", "to": "nico ditch running west near levenshulme", "width": 1}, {"from": "nico ditch running west near levenshulme", "label": "positioninlist", "to": "0", "width": 1}, {"from": "53\u00b027\u203203\u2033n 2\u00b010\u203237\u2033w\ufeff / \ufeff53.4508\u00b0n 2.1769\u00b0w", "label": "1", "to": "53\u00b027\u203203\u2033n 2\u00b010\u203237\u2033w\ufeff / \ufeff53.4508\u00b0n 2.1769\u00b0w", "width": 1}, {"from": "53\u00b027\u203203\u2033n 2\u00b010\u203237\u2033w\ufeff / \ufeff53.4508\u00b0n 2.1769\u00b0w", "label": "positioninlist", "to": "2", "width": 1}, {"from": "location", "label": "0", "to": "location", "width": 1}, {"from": "location", "label": "positioninlist", "to": "3", "width": 1}, {"from": "designer", "label": "0", "to": "designer", "width": 1}, {"from": "designer", "label": "positioninlist", "to": "4", "width": 1}, {"from": "designer", "label": "1", "to": "anglo-saxons", "width": 1}, {"from": "type", "label": "0", "to": "type", "width": 1}, {"from": "type", "label": "positioninlist", "to": "5", "width": 1}, {"from": "type", "label": "1", "to": "ditch and earthwork", "width": 1}, {"from": "length", "label": "0", "to": "length", "width": 1}, {"from": "length", "label": "positioninlist", "to": "6", "width": 1}, {"from": "length", "label": "1", "to": "6\u00a0mi (9.7\u00a0km)", "width": 1}, {"from": "width", "label": "0", "to": "width", "width": 1}, {"from": "width", "label": "positioninlist", "to": "7", "width": 1}, {"from": "width", "label": "1", "to": "4\u20135 yards (3.7\u20134.6\u00a0m)", "width": 1}, {"from": "completion\u00a0date", "label": "0", "to": "completion\u00a0date", "width": 1}, {"from": "completion\u00a0date", "label": "positioninlist", "to": "8", "width": 1}, {"from": "completion\u00a0date", "label": "1", "to": "5th \u2013 11th century", "width": 1}, {"from": "dismantled\u00a0date", "label": "0", "to": "dismantled\u00a0date", "width": 1}, {"from": "dismantled\u00a0date", "label": "positioninlist", "to": "9", "width": 1}, {"from": "dismantled\u00a0date", "label": "1", "to": "large sections lost to urban expansion", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
