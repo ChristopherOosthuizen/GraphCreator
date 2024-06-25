@@ -4,3 +4,5 @@ lib
 api_key
 .deepeval-cache.json
 pyprojedct.toml
+output/
+animals/
