@@ -28,4 +28,4 @@ include = ["*"]
 exclude = []
 
 [tool.setuptools.package-data]
-"prompts" = ["*"]
+"*" = ["*", "prompts/*"]
