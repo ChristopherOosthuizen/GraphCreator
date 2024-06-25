@@ -111,7 +111,7 @@ def _converge_lists(lists, summaries, repeats=.5):
 def threadsOptimized(triplets,x,chunks,ner,ner_type,num):
     threads = []
     for x in range(len(chunks)):
-        if x%10 == 0:
+        if x%5 == 0:
             for thread in threads:
                 thread.join()
             threads = []
