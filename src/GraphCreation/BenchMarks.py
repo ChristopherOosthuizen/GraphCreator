@@ -167,15 +167,18 @@ def create_DPO_folder(folder, output_file="./output/"):
 def bench_mark_from_dataset(dataframe, source_column, answer_column, question_column,  output_file="./output/",eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair" ):
     result = []
     for x in range(len(dataframe)):
-        url = dataframe[source_column][x]
+        url = dataframe[source_column].iloc[x]
         chunks, graph = gc.create_KG_from_url(url, output_file+str(x), eliminate_all_islands=eliminate_all_islands, inital_repeats=inital_repeats, chunks_precentage_linked=chunks_precentage_linked, ner=ner, ner_type=ner_type)
-        question = dataframe[question_column][x]
-        answer = dataframe[answer_column][x]
+        question = dataframe[question_column].iloc[x]
+        answer = dataframe[answer_column].iloc[x]
         base_line = lm.generate_chat_response("", question)
         graph_res = lm.graphquestions(graph, question)
+        rag_res = lm.doRag(url, question)
+        probs_rag = follow_premise(rag_res,chunks[0])
         probs_graph = follow_premise(graph_res,chunks[0])
         probs_base = follow_premise(base_line,chunks[0])
-        main = {"Judges_over_base": llm_as_judge(base_line,graph_res), "Follows_over_base": (probs_graph[0].item()-probs_base[0].item()), "Controdicts_over_base": -(probs_graph[1].item()-probs_base[1].item()), "base_line": base_line, "graph": graph_res, "source": url, "answer": answer, "question": question}
+
+        main = {"Judges_over_base": llm_as_judge(base_line,graph_res),"Follows_over_rag": (probs_graph[0].item()-probs_rag[0].item()), "Follows_over_base": (probs_graph[0].item()-probs_base[0].item()), "Judges_over_rag": llm_as_judge(rag_res,graph_res), "Controdicts_over_base": -(probs_graph[1].item()-probs_base[1].item()),"Controdicts_over_rag": -(probs_graph[1].item()-probs_rag[1].item()), "base_line": base_line, "graph": graph_res, "source": url, "answer": answer, "question": question}
         result.append(main)
         pd.DataFrame(result).to_csv(output_file+"results.csv")
     return result

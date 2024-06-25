@@ -1,562 +1,4576 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="parliament">
-  <data key="d0">parliament</data>
+<graph edgedefault="undirected"><node id="beauty and the beast">
+  <data key="d0">beauty and the beast</data>
 </node>
-<node id="shire milites comitatus">
-  <data key="d0">shire milites comitatus</data>
+<node id="disney">
+  <data key="d0">disney</data>
 </node>
-<node id="house of commons">
-  <data key="d0">house of commons</data>
+<node id="82nd academy awards">
+  <data key="d0">82nd academy awards</data>
 </node>
-<node id="british">
-  <data key="d0">british</data>
+<node id="animated feature">
+  <data key="d0">animated feature</data>
 </node>
-<node id="constituency">
-  <data key="d0">constituency</data>
+<node id="toy story 3">
+  <data key="d0">toy story 3</data>
 </node>
-<node id="county">
-  <data key="d0">county</data>
+<node id="best picture">
+  <data key="d0">best picture</data>
 </node>
-<node id="baron">
-  <data key="d0">baron</data>
+<node id="walle">
+  <data key="d0">walle</data>
 </node>
-<node id="medieval redistribution of seats act 1885">
-  <data key="d0">medieval redistribution of seats act 1885</data>
+<node id="backlash">
+  <data key="d0">backlash</data>
 </node>
-<node id="citizen">
-  <data key="d0">citizen</data>
+<node id="category">
+  <data key="d0">category</data>
 </node>
-<node id="burgess">
-  <data key="d0">burgess</data>
+<node id="2009">
+  <data key="d0">2009</data>
 </node>
-<node id="borough">
-  <data key="d0">borough</data>
+<node id="milestones">
+  <data key="d0">milestones</data>
 </node>
-<node id="knight shire">
-  <data key="d0">knight shire</data>
+<node id="studios">
+  <data key="d0">studios</data>
 </node>
-<node id="writ election">
-  <data key="d0">writ election</data>
+<node id="march">
+  <data key="d0">march</data>
 </node>
-<node id="19th century">
-  <data key="d0">19th century</data>
+<node id="usa">
+  <data key="d0">usa</data>
 </node>
-<node id="knight">
-  <data key="d0">knight</data>
+<node id="animated movies">
+  <data key="d0">animated movies</data>
 </node>
-<node id="14th century">
-  <data key="d0">14th century</data>
+<node id="superlatives">
+  <data key="d0">superlatives</data>
 </node>
-<node id="knights">
-  <data key="d0">knights</data>
+<node id="oscars">
+  <data key="d0">oscars</data>
 </node>
-<node id="henry vi">
-  <data key="d0">henry vi</data>
+<node id="screen rant">
+  <data key="d0">screen rant</data>
 </node>
-<node id="act">
-  <data key="d0">act</data>
+<node id="february 2017">
+  <data key="d0">february 2017</data>
 </node>
-<node id="knights of estates">
-  <data key="d0">knights of estates</data>
+<node id="wins">
+  <data key="d0">wins</data>
 </node>
-<node id="degree">
-  <data key="d0">degree</data>
+<node id="category expanded">
+  <data key="d0">category expanded</data>
 </node>
-<node id="yeoman">
-  <data key="d0">yeoman</data>
+<node id="superlativesmarkdown">
+  <data key="d0">superlativesmarkdown</data>
 </node>
-<node id="1265">
-  <data key="d0">1265</data>
+<node id="happened on">
+  <data key="d0">happened on</data>
 </node>
-<node id="simon montfort">
-  <data key="d0">simon montfort</data>
+<node id="march 25">
+  <data key="d0">march 25</data>
 </node>
-<node id="shire">
-  <data key="d0">shire</data>
+<node id="greatest movies">
+  <data key="d0">greatest movies</data>
 </node>
-<node id="two knights">
-  <data key="d0">two knights</data>
+<node id="entertainment weekly">
+  <data key="d0">entertainment weekly</data>
 </node>
-<node id="1832">
-  <data key="d0">1832</data>
+<node id="december 2009">
+  <data key="d0">december 2009</data>
 </node>
-<node id="representation people act">
-  <data key="d0">representation people act</data>
+<node id="seven animated feature film award">
+  <data key="d0">seven animated feature film award</data>
 </node>
-<node id="redistribution seats act">
-  <data key="d0">redistribution seats act</data>
+<node id="academy motion picture arts">
+  <data key="d0">academy motion picture arts</data>
 </node>
-<node id="1885">
-  <data key="d0">1885</data>
+<node id="june 5">
+  <data key="d0">june 5</data>
 </node>
-<node id="split singleseat">
-  <data key="d0">split singleseat</data>
+<node id="anniversary related to">
+  <data key="d0">anniversary related to</data>
 </node>
-<node id="standardisation franchise">
-  <data key="d0">standardisation franchise</data>
+<node id="beast">
+  <data key="d0">beast</data>
 </node>
-<node id="election system">
-  <data key="d0">election system</data>
+<node id="award ceremony">
+  <data key="d0">award ceremony</data>
 </node>
-<node id="county borough">
-  <data key="d0">county borough</data>
+<node id="osbourne">
+  <data key="d0">osbourne</data>
 </node>
-<node id="election expenses">
-  <data key="d0">election expenses</data>
+<node id="beauty">
+  <data key="d0">beauty</data>
 </node>
-<node id="returning officer">
-  <data key="d0">returning officer</data>
+<node id="academy">
+  <data key="d0">academy</data>
 </node>
-<node id="conservative party">
-  <data key="d0">conservative party</data>
+<node id="92nd oscars">
+  <data key="d0">92nd oscars</data>
 </node>
-<node id="senior">
-  <data key="d0">senior</data>
+<node id="fleischer camp dean">
+  <data key="d0">fleischer camp dean</data>
 </node>
-<node id="rural england">
-  <data key="d0">rural england</data>
+<node id="documentation">
+  <data key="d0">documentation</data>
 </node>
-<node id="wales">
-  <data key="d0">wales</data>
+<node id="eligibility requirements">
+  <data key="d0">eligibility requirements</data>
 </node>
-<node id="yorkshire">
-  <data key="d0">yorkshire</data>
+<node id="rules">
+  <data key="d0">rules</data>
 </node>
-<node id="grampound">
-  <data key="d0">grampound</data>
+<node id="animated feature film award">
+  <data key="d0">animated feature film award</data>
 </node>
-<node id="precursor">
-  <data key="d0">precursor</data>
+<node id="giardina camp carolyn">
+  <data key="d0">giardina camp carolyn</data>
 </node>
-<node id="magnum concilium">
-  <data key="d0">magnum concilium</data>
+<node id="keegan winters rebecca">
+  <data key="d0">keegan winters rebecca</data>
 </node>
-<node id="parliamentary">
-  <data key="d0">parliamentary</data>
+<node id="hollywood reporter">
+  <data key="d0">hollywood reporter</data>
 </node>
-<node id="representativess parliament">
-  <data key="d0">representativess parliament</data>
+<node id="bandyk matthew">
+  <data key="d0">bandyk matthew</data>
 </node>
-<node id="legislative powers">
-  <data key="d0">legislative powers</data>
+<node id="best oscar">
+  <data key="d0">best oscar</data>
 </node>
-<node id="model parliament">
-  <data key="d0">model parliament</data>
+<node id="oscar walle">
+  <data key="d0">oscar walle</data>
 </node>
-<node id="1295">
-  <data key="d0">1295</data>
+<node id="breznican anthony">
+  <data key="d0">breznican anthony</data>
 </node>
-<node id="ecclesiastics">
-  <data key="d0">ecclesiastics</data>
+<node id="usa today">
+  <data key="d0">usa today</data>
 </node>
-<node id="peers">
-  <data key="d0">peers</data>
+<node id="buchanan kyle">
+  <data key="d0">buchanan kyle</data>
 </node>
-<node id="two county">
-  <data key="d0">two county</data>
+<node id="oscar experiment">
+  <data key="d0">oscar experiment</data>
 </node>
-<node id="1264">
-  <data key="d0">1264</data>
+<node id="new york times">
+  <data key="d0">new york times</data>
 </node>
-<node id="council">
-  <data key="d0">council</data>
+<node id="8 2024">
+  <data key="d0">8 2024</data>
 </node>
-<node id="edward iii">
-  <data key="d0">edward iii</data>
+<node id="years oscar experiment">
+  <data key="d0">years oscar experiment</data>
 </node>
-<node id="1341">
-  <data key="d0">1341</data>
+<node id="oscar">
+  <data key="d0">oscar</data>
 </node>
-<node id="king">
-  <data key="d0">king</data>
+<node id="multiple sources">
+  <data key="d0">multiple sources</data>
 </node>
-<node id="counties">
-  <data key="d0">counties</data>
+<node id="oscar winner">
+  <data key="d0">oscar winner</data>
 </node>
-<node id="commons">
-  <data key="d0">commons</data>
+<node id="2023">
+  <data key="d0">2023</data>
 </node>
-<node id="speaker of the commons">
-  <data key="d0">speaker of the commons</data>
+<node id="russell">
+  <data key="d0">russell</data>
 </node>
-<node id="peter de la mare">
-  <data key="d0">peter de la mare</data>
+<node id="lasseter">
+  <data key="d0">lasseter</data>
 </node>
-<node id="representatives">
-  <data key="d0">representatives</data>
+<node id="75th academy awards">
+  <data key="d0">75th academy awards</data>
 </node>
-<node id="lords">
-  <data key="d0">lords</data>
+<node id="august 27">
+  <data key="d0">august 27</data>
 </node>
-<node id="bicameral">
-  <data key="d0">bicameral</data>
+<node id="date of event">
+  <data key="d0">date of event</data>
 </node>
-<node id="complaints">
-  <data key="d0">complaints</data>
+<node id="february 21">
+  <data key="d0">february 21</data>
 </node>
-<node id="representative voice">
-  <data key="d0">representative voice</data>
+<node id="nominations">
+  <data key="d0">nominations</data>
 </node>
-<node id="military actions">
-  <data key="d0">military actions</data>
+<node id="april 2015">
+  <data key="d0">april 2015</data>
 </node>
-<node id="taxes">
-  <data key="d0">taxes</data>
+<node id="wall-e">
+  <data key="d0">wall-e</data>
 </node>
-<node id="royal expenditures">
-  <data key="d0">royal expenditures</data>
-</node>
-<node id="page content">
-  <data key="d0">page content</data>
-</node>
-<node id="content">
-  <data key="d0">content</data>
-</node>
-<node id="1377">
-  <data key="d0">1377</data>
-</node>
-<node id="accounting">
-  <data key="d0">accounting</data>
-</node>
-<node id="release of peter de la mare">
-  <data key="d0">release of peter de la mare</data>
-</node>
-<node id="uniform county franchise act">
-  <data key="d0">uniform county franchise act</data>
-</node>
-<node id="england">
-  <data key="d0">england</data>
-</node>
-<node id="0 law">
-  <data key="d0">0 law</data>
-</node>
-<node id="fortyshilling freehold voters">
-  <data key="d0">fortyshilling freehold voters</data>
-</node>
-<node id="voter">
-  <data key="d0">voter</data>
-</node>
-<node id="elderly">
-  <data key="d0">elderly</data>
-</node>
-<node id="members">
-  <data key="d0">members</data>
-</node>
-<node id="knighthood">
-  <data key="d0">knighthood</data>
-</node>
-<node id="conservative">
-  <data key="d0">conservative</data>
-</node>
-<node id="backbenchers">
-  <data key="d0">backbenchers</data>
-</node>
-<edge source="parliament" target="shire milites comitatus">
-  <data key="d1">formal title for</data>
-</edge>
-<edge source="parliament" target="house of commons">
-  <data key="d1">from</data>
-</edge>
-<edge source="parliament" target="british">
-  <data key="d1">belong to</data>
-</edge>
-<edge source="parliament" target="1265">
-  <data key="d1">occurred in</data>
-</edge>
-<edge source="parliament" target="simon montfort">
-  <data key="d1">organized</data>
-</edge>
-<edge source="parliament" target="knight">
-  <data key="d1">role in</data>
-</edge>
-<edge source="parliament" target="election system">
-  <data key="d1">impacts</data>
-</edge>
-<edge source="parliament" target="representation people act">
-  <data key="d1">involved in</data>
-</edge>
-<edge source="parliament" target="commons">
-  <data key="d1">includes</data>
-</edge>
-<edge source="parliament" target="lords">
-  <data key="d1">includes</data>
-</edge>
-<edge source="parliament" target="bicameral">
-  <data key="d1">is</data>
-</edge>
-<edge source="parliament" target="uniform county franchise act">
-  <data key="d1">legislated by</data>
-</edge>
-<edge source="parliament" target="elderly">
-  <data key="d1">members of</data>
-</edge>
-<edge source="parliament" target="members">
-  <data key="d1">exist in</data>
-</edge>
-<edge source="parliament" target="knighthood">
-  <data key="d1">observes</data>
-</edge>
-<edge source="shire milites comitatus" target="constituency">
-  <data key="d1">from</data>
-</edge>
-<edge source="constituency" target="county">
-  <data key="d1">from</data>
-</edge>
-<edge source="county" target="two county">
-  <data key="d1">includes</data>
-</edge>
-<edge source="baron" target="medieval redistribution of seats act 1885">
-  <data key="d1">creates</data>
-</edge>
-<edge source="medieval redistribution of seats act 1885" target="citizen">
-  <data key="d1">creates</data>
-</edge>
-<edge source="medieval redistribution of seats act 1885" target="burgess">
-  <data key="d1">creates</data>
-</edge>
-<edge source="medieval redistribution of seats act 1885" target="borough">
-  <data key="d1">creates</data>
-</edge>
-<edge source="medieval redistribution of seats act 1885" target="act">
-  <data key="d1">related to</data>
-</edge>
-<edge source="borough" target="county borough">
-  <data key="d1">related to</data>
-</edge>
-<edge source="borough" target="conservative party">
-  <data key="d1">dominant in</data>
-</edge>
-<edge source="knight shire" target="writ election">
-  <data key="d1">implied</data>
-</edge>
-<edge source="knight shire" target="knights of estates">
-  <data key="d1">related to</data>
-</edge>
-<edge source="writ election" target="knight">
-  <data key="d1">referred to</data>
-</edge>
-<edge source="19th century" target="knight">
-  <data key="d1">elected in</data>
-</edge>
-<edge source="14th century" target="knights">
-  <data key="d1">elected in</data>
-</edge>
-<edge source="knights" target="ecclesiastics">
-  <data key="d1">includes</data>
-</edge>
-<edge source="knights" target="two county">
-  <data key="d1">represented</data>
-</edge>
-<edge source="henry vi" target="act">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="act" target="0 law">
-  <data key="d1">amended</data>
-</edge>
-<edge source="knights of estates" target="degree">
-  <data key="d1">contain</data>
-</edge>
-<edge source="degree" target="yeoman">
-  <data key="d1">related to</data>
-</edge>
-<edge source="1265" target="shire">
-  <data key="d1">resulted in</data>
-</edge>
-<edge source="shire" target="two knights">
-  <data key="d1">sent</data>
-</edge>
-<edge source="shire" target="senior">
-  <data key="d1">used in</data>
-</edge>
-<edge source="shire" target="1832">
-  <data key="d1">resulted in</data>
-</edge>
-<edge source="shire" target="representativess parliament">
-  <data key="d1">historical aspect of</data>
-</edge>
-<edge source="shire" target="counties">
-  <data key="d1">includes</data>
-</edge>
-<edge source="1832" target="representation people act">
-  <data key="d1">enacted in</data>
-</edge>
-<edge source="representation people act" target="redistribution seats act">
-  <data key="d1">linked with</data>
-</edge>
-<edge source="representation people act" target="yorkshire">
-  <data key="d1">influenced by</data>
-</edge>
-<edge source="representation people act" target="grampound">
-  <data key="d1">influenced by</data>
-</edge>
-<edge source="redistribution seats act" target="1885">
-  <data key="d1">enacted in</data>
-</edge>
-<edge source="redistribution seats act" target="split singleseat">
-  <data key="d1">resulted in</data>
-</edge>
-<edge source="redistribution seats act" target="standardisation franchise">
-  <data key="d1">involved</data>
-</edge>
-<edge source="redistribution seats act" target="election system">
-  <data key="d1">reformed by</data>
-</edge>
-<edge source="county borough" target="election expenses">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="county borough" target="returning officer">
-  <data key="d1">handled by</data>
-</edge>
-<edge source="election expenses" target="returning officer">
-  <data key="d1">supervises</data>
-</edge>
-<edge source="election expenses" target="conservative party">
-  <data key="d1">related to</data>
-</edge>
-<edge source="returning officer" target="senior">
-  <data key="d1">influenced by</data>
-</edge>
-<edge source="conservative party" target="senior">
-  <data key="d1">part of</data>
-</edge>
-<edge source="conservative party" target="rural england">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="rural england" target="wales">
-  <data key="d1">included in</data>
-</edge>
-<edge source="precursor" target="magnum concilium">
-  <data key="d1">is a type of</data>
-</edge>
-<edge source="magnum concilium" target="representativess parliament">
-  <data key="d1">evolved into</data>
-</edge>
-<edge source="magnum concilium" target="council">
-  <data key="d1">translated to</data>
-</edge>
-<edge source="magnum concilium" target="king">
-  <data key="d1">formed</data>
-</edge>
-<edge source="magnum concilium" target="parliamentary">
-  <data key="d1">influenced</data>
-</edge>
-<edge source="parliamentary" target="representativess parliament">
-  <data key="d1">is a type of</data>
-</edge>
-<edge source="parliamentary" target="commons">
-  <data key="d1">evolved into</data>
-</edge>
-<edge source="representativess parliament" target="legislative powers">
-  <data key="d1">has powers</data>
-</edge>
-<edge source="representativess parliament" target="model parliament">
-  <data key="d1">formed by</data>
-</edge>
-<edge source="model parliament" target="1295">
-  <data key="d1">becomes</data>
-</edge>
-<edge source="model parliament" target="council">
-  <data key="d1">evolved into</data>
-</edge>
-<edge source="model parliament" target="1264">
-  <data key="d1">initiated</data>
-</edge>
-<edge source="1295" target="1341">
-  <data key="d1">preceded</data>
-</edge>
-<edge source="ecclesiastics" target="peers">
-  <data key="d1">includes</data>
-</edge>
-<edge source="1264" target="council">
-  <data key="d1">includes</data>
-</edge>
-<edge source="edward iii" target="1341">
-  <data key="d1">formed under</data>
-</edge>
-<edge source="edward iii" target="page content">
+<node id="76th academy awards n 2004 n 77th academy awards n 2005">
+  <data key="d0">76th academy awards n 2004 n 77th academy awards n 2005</data>
+</node>
+<node id="2004">
+  <data key="d0">2004</data>
+</node>
+<node id="77">
+  <data key="d0">77</data>
+</node>
+<node id="2005">
+  <data key="d0">2005</data>
+</node>
+<node id="winners of 75th academy awards">
+  <data key="d0">winners of 75th academy awards</data>
+</node>
+<node id="77th academy awards">
+  <data key="d0">77th academy awards</data>
+</node>
+<node id="76th academy awards">
+  <data key="d0">76th academy awards</data>
+</node>
+<node id=" 2004">
+  <data key="d0"> 2004</data>
+</node>
+<node id=" 2005">
+  <data key="d0"> 2005</data>
+</node>
+<node id="78th academy awards">
+  <data key="d0">78th academy awards</data>
+</node>
+<node id=" 2006">
+  <data key="d0"> 2006</data>
+</node>
+<node id="79th academy awards">
+  <data key="d0">79th academy awards</data>
+</node>
+<node id=" 2007">
+  <data key="d0"> 2007</data>
+</node>
+<node id=" 77th academy awards">
+  <data key="d0"> 77th academy awards</data>
+</node>
+<node id=" 78th academy awards">
+  <data key="d0"> 78th academy awards</data>
+</node>
+<node id=" 79th academy awards">
+  <data key="d0"> 79th academy awards</data>
+</node>
+<node id="2006">
+  <data key="d0">2006</data>
+</node>
+<node id="2007">
+  <data key="d0">2007</data>
+</node>
+<node id="80th academy awards">
+  <data key="d0">80th academy awards</data>
+</node>
+<node id="winners">
+  <data key="d0">winners</data>
+</node>
+<node id="81st academy awards">
+  <data key="d0">81st academy awards</data>
+</node>
+<node id="includes">
+  <data key="d0">includes</data>
+</node>
+<node id="november 10">
+  <data key="d0">november 10</data>
+</node>
+<node id="2010">
+  <data key="d0">2010</data>
+</node>
+<node id="83rd academy awards">
+  <data key="d0">83rd academy awards</data>
+</node>
+<node id="2011">
+  <data key="d0">2011</data>
+</node>
+<node id="84th academy awards">
+  <data key="d0">84th academy awards</data>
+</node>
+<node id="2012">
+  <data key="d0">2012</data>
+</node>
+<node id="85th academy awards">
+  <data key="d0">85th academy awards</data>
+</node>
+<node id="2013">
+  <data key="d0">2013</data>
+</node>
+<node id="86th academy awards">
+  <data key="d0">86th academy awards</data>
+</node>
+<node id="2014">
+  <data key="d0">2014</data>
+</node>
+<node id="87th academy awards">
+  <data key="d0">87th academy awards</data>
+</node>
+<node id="2015">
+  <data key="d0">2015</data>
+</node>
+<node id="academy awards">
+  <data key="d0">academy awards</data>
+</node>
+<node id="year">
+  <data key="d0">year</data>
+</node>
+<node id="2016">
+  <data key="d0">2016</data>
+</node>
+<node id="88th academy awards">
+  <data key="d0">88th academy awards</data>
+</node>
+<node id="january 25">
+  <data key="d0">january 25</data>
+</node>
+<node id="2017">
+  <data key="d0">2017</data>
+</node>
+<node id="89th academy awards">
+  <data key="d0">89th academy awards</data>
+</node>
+<node id="march 3">
+  <data key="d0">march 3</data>
+</node>
+<node id="90th academy awards">
+  <data key="d0">90th academy awards</data>
+</node>
+<node id="2018">
+  <data key="d0">2018</data>
+</node>
+<node id="91st academy awards">
+  <data key="d0">91st academy awards</data>
+</node>
+<node id="april 1">
+  <data key="d0">april 1</data>
+</node>
+<node id="92nd academy awards">
+  <data key="d0">92nd academy awards</data>
+</node>
+<node id="nominees">
+  <data key="d0">nominees</data>
+</node>
+<node id="february 16">
+  <data key="d0">february 16</data>
+</node>
+<node id="93rd academy awards">
+  <data key="d0">93rd academy awards</data>
+</node>
+<node id="may 1">
+  <data key="d0">may 1</data>
+</node>
+<node id="94th academy awards">
+  <data key="d0">94th academy awards</data>
+</node>
+<node id="95th academy awards">
+  <data key="d0">95th academy awards</data>
+</node>
+<node id="march 2023">
+  <data key="d0">march 2023</data>
+</node>
+<node id="onward">
+  <data key="d0">onward</data>
+</node>
+<node id="pixar">
+  <data key="d0">pixar</data>
+</node>
+<node id="type of animated feature">
+  <data key="d0">type of animated feature</data>
+</node>
+<node id="beautiful mind">
+  <data key="d0">beautiful mind</data>
+</node>
+<node id="2002">
+  <data key="d0">2002</data>
+</node>
+<node id="dark knight">
+  <data key="d0">dark knight</data>
+</node>
+<node id="film">
+  <data key="d0">film</data>
+</node>
+<node id="national film registry">
+  <data key="d0">national film registry</data>
+</node>
+<node id="clockwork orange">
+  <data key="d0">clockwork orange</data>
+</node>
+<node id="joy luck club">
+  <data key="d0">joy luck club</data>
+</node>
+<node id="animated">
+  <data key="d0">animated</data>
+</node>
+<node id="documentary">
+  <data key="d0">documentary</data>
+</node>
+<node id="cartoon">
+  <data key="d0">cartoon</data>
+</node>
+<node id="25 films">
+  <data key="d0">25 films</data>
+</node>
+<node id="films">
+  <data key="d0">films</data>
+</node>
+<node id="international">
+  <data key="d0">international</data>
+</node>
+<node id="festival">
+  <data key="d0">festival</data>
+</node>
+<node id="jedi">
+  <data key="d0">jedi</data>
+</node>
+<node id="star wars">
+  <data key="d0">star wars</data>
+</node>
+<node id="animations">
+  <data key="d0">animations</data>
+</node>
+<node id="animated features">
+  <data key="d0">animated features</data>
+</node>
+<node id="boin adriano">
+  <data key="d0">boin adriano</data>
+</node>
+<node id="diario">
+  <data key="d0">diario</data>
+</node>
+<node id="march 13">
+  <data key="d0">march 13</data>
+</node>
+<node id="2023 co-recipient: hayao miyazaki">
+  <data key="d0">2023 co-recipient: hayao miyazaki</data>
+</node>
+<node id="0">
+  <data key="d0">0</data>
+</node>
+<node id="awarded for">
+  <data key="d0">awarded for</data>
+</node>
+<node id="1">
+  <data key="d0">1</data>
+</node>
+<node id="the best animated film with a running time of more than 40 minutes">
+  <data key="d0">the best animated film with a running time of more than 40 minutes</data>
+</node>
+<node id="country">
+  <data key="d0">country</data>
+</node>
+<node id="2">
+  <data key="d0">2</data>
+</node>
+<node id="united states">
+  <data key="d0">united states</data>
+</node>
+<node id="presented by">
+  <data key="d0">presented by</data>
+</node>
+<node id="3">
+  <data key="d0">3</data>
+</node>
+<node id="academy of motion picture arts and sciences (ampas)">
+  <data key="d0">academy of motion picture arts and sciences (ampas)</data>
+</node>
+<node id="first awarded">
+  <data key="d0">first awarded</data>
+</node>
+<node id="4">
+  <data key="d0">4</data>
+</node>
+<node id="shrek (2001)">
+  <data key="d0">shrek (2001)</data>
+</node>
+<node id="most recent winner">
+  <data key="d0">most recent winner</data>
+</node>
+<node id="5">
+  <data key="d0">5</data>
+</node>
+<node id="the boy and the heron (2023)">
+  <data key="d0">the boy and the heron (2023)</data>
+</node>
+<node id="most awards">
+  <data key="d0">most awards</data>
+</node>
+<node id="6">
+  <data key="d0">6</data>
+</node>
+<node id="pixar (11) / pete docter (3)">
+  <data key="d0">pixar (11) / pete docter (3)</data>
+</node>
+<node id="most nominations">
+  <data key="d0">most nominations</data>
+</node>
+<node id="7">
+  <data key="d0">7</data>
+</node>
+<node id="pixar (18) / pete docter and hayao miyazaki (4)">
+  <data key="d0">pixar (18) / pete docter and hayao miyazaki (4)</data>
+</node>
+<node id="website">
+  <data key="d0">website</data>
+</node>
+<node id="8">
+  <data key="d0">8</data>
+</node>
+<node id="oscars.org">
+  <data key="d0">oscars.org</data>
+</node>
+<node id="8indicates the winner">
+  <data key="d0">8indicates the winner</data>
+</node>
+<node id="indicates the winner">
+  <data key="d0">indicates the winner</data>
+</node>
+<node id="02001 (74th)">
+  <data key="d0">02001 (74th)</data>
+</node>
+<node id="2001 (74th)">
+  <data key="d0">2001 (74th)</data>
+</node>
+<node id="shrek">
+  <data key="d0">shrek</data>
+</node>
+<node id="aron warner">
+  <data key="d0">aron warner</data>
+</node>
+<node id="[12]">
+  <data key="d0">[12]</data>
+</node>
+<node id="jimmy neutron: boy genius">
+  <data key="d0">jimmy neutron: boy genius</data>
+</node>
+<node id="steve oedekerk and john a. davis">
+  <data key="d0">steve oedekerk and john a. davis</data>
+</node>
+<node id="monsters">
+  <data key="d0">monsters</data>
+</node>
+<node id="pete docter and john lasseter">
+  <data key="d0">pete docter and john lasseter</data>
+</node>
+<node id="2002 (75th)">
+  <data key="d0">2002 (75th)</data>
+</node>
+<node id="spirited away">
+  <data key="d0">spirited away</data>
+</node>
+<node id="hayao miyazaki">
+  <data key="d0">hayao miyazaki</data>
+</node>
+<node id="[25]">
+  <data key="d0">[25]</data>
+</node>
+<node id="ice age">
+  <data key="d0">ice age</data>
+</node>
+<node id="chris wedge">
+  <data key="d0">chris wedge</data>
+</node>
+<node id="lilo and stitch">
+  <data key="d0">lilo and stitch</data>
+</node>
+<node id="chris sanders">
+  <data key="d0">chris sanders</data>
+</node>
+<node id="spirit: stallion of the cimarron">
+  <data key="d0">spirit: stallion of the cimarron</data>
+</node>
+<node id="jeffrey katzenberg">
+  <data key="d0">jeffrey katzenberg</data>
+</node>
+<node id="treasure planet">
+  <data key="d0">treasure planet</data>
+</node>
+<node id="ron clements">
+  <data key="d0">ron clements</data>
+</node>
+<node id="2003 (76th)">
+  <data key="d0">2003 (76th)</data>
+</node>
+<node id="finding nemo">
+  <data key="d0">finding nemo</data>
+</node>
+<node id="andrew stanton">
+  <data key="d0">andrew stanton</data>
+</node>
+<node id="[26]">
+  <data key="d0">[26]</data>
+</node>
+<node id="9">
+  <data key="d0">9</data>
+</node>
+<node id="brother bear">
+  <data key="d0">brother bear</data>
+</node>
+<node id="aaron blaise and robert walker">
+  <data key="d0">aaron blaise and robert walker</data>
+</node>
+<node id="10">
+  <data key="d0">10</data>
+</node>
+<node id="the triplets of belleville">
+  <data key="d0">the triplets of belleville</data>
+</node>
+<node id="sylvain chomet">
+  <data key="d0">sylvain chomet</data>
+</node>
+<node id="2004 (77th)">
+  <data key="d0">2004 (77th)</data>
+</node>
+<node id="11">
+  <data key="d0">11</data>
+</node>
+<node id="the incredibles">
+  <data key="d0">the incredibles</data>
+</node>
+<node id="brad bird">
+  <data key="d0">brad bird</data>
+</node>
+<node id="[27]">
+  <data key="d0">[27]</data>
+</node>
+<node id="12">
+  <data key="d0">12</data>
+</node>
+<node id="shark tale">
+  <data key="d0">shark tale</data>
+</node>
+<node id="bill damaschke">
+  <data key="d0">bill damaschke</data>
+</node>
+<node id="13">
+  <data key="d0">13</data>
+</node>
+<node id="shrek 2">
+  <data key="d0">shrek 2</data>
+</node>
+<node id="andrew adamson">
+  <data key="d0">andrew adamson</data>
+</node>
+<node id="2005 (78th)">
+  <data key="d0">2005 (78th)</data>
+</node>
+<node id="14">
+  <data key="d0">14</data>
+</node>
+<node id="wallace &amp; gromit: the curse of the were-rabbit">
+  <data key="d0">wallace &amp; gromit: the curse of the were-rabbit</data>
+</node>
+<node id="nick park and steve box">
+  <data key="d0">nick park and steve box</data>
+</node>
+<node id="[28]">
+  <data key="d0">[28]</data>
+</node>
+<node id="15">
+  <data key="d0">15</data>
+</node>
+<node id="corpse bride">
+  <data key="d0">corpse bride</data>
+</node>
+<node id="mike johnson and tim burton">
+  <data key="d0">mike johnson and tim burton</data>
+</node>
+<node id="16">
+  <data key="d0">16</data>
+</node>
+<node id="howl's moving castle">
+  <data key="d0">howl's moving castle</data>
+</node>
+<node id="2006 (79th)">
+  <data key="d0">2006 (79th)</data>
+</node>
+<node id="17">
+  <data key="d0">17</data>
+</node>
+<node id="happy feet">
+  <data key="d0">happy feet</data>
+</node>
+<node id="george miller">
+  <data key="d0">george miller</data>
+</node>
+<node id="[29]">
+  <data key="d0">[29]</data>
+</node>
+<node id="18">
+  <data key="d0">18</data>
+</node>
+<node id="cars">
+  <data key="d0">cars</data>
+</node>
+<node id="john lasseter">
+  <data key="d0">john lasseter</data>
+</node>
+<node id="19">
+  <data key="d0">19</data>
+</node>
+<node id="monster house">
+  <data key="d0">monster house</data>
+</node>
+<node id="gil kenan">
+  <data key="d0">gil kenan</data>
+</node>
+<node id="2007 (80th)">
+  <data key="d0">2007 (80th)</data>
+</node>
+<node id="20">
+  <data key="d0">20</data>
+</node>
+<node id="ratatouille">
+  <data key="d0">ratatouille</data>
+</node>
+<node id="[30]">
+  <data key="d0">[30]</data>
+</node>
+<node id="21">
+  <data key="d0">21</data>
+</node>
+<node id="persepolis">
+  <data key="d0">persepolis</data>
+</node>
+<node id="marjane satrapi and vincent paronnaud">
+  <data key="d0">marjane satrapi and vincent paronnaud</data>
+</node>
+<node id="22">
+  <data key="d0">22</data>
+</node>
+<node id="surf's up">
+  <data key="d0">surf's up</data>
+</node>
+<node id="ash brannon and chris buck">
+  <data key="d0">ash brannon and chris buck</data>
+</node>
+<node id="2008 (81st)">
+  <data key="d0">2008 (81st)</data>
+</node>
+<node id="23">
+  <data key="d0">23</data>
+</node>
+<node id="[31]">
+  <data key="d0">[31]</data>
+</node>
+<node id="24">
+  <data key="d0">24</data>
+</node>
+<node id="bolt">
+  <data key="d0">bolt</data>
+</node>
+<node id="chris williams and byron howard">
+  <data key="d0">chris williams and byron howard</data>
+</node>
+<node id="25">
+  <data key="d0">25</data>
+</node>
+<node id="kung fu panda">
+  <data key="d0">kung fu panda</data>
+</node>
+<node id="john stevenson and mark osborne">
+  <data key="d0">john stevenson and mark osborne</data>
+</node>
+<node id="2009 (82nd)">
+  <data key="d0">2009 (82nd)</data>
+</node>
+<node id="26">
+  <data key="d0">26</data>
+</node>
+<node id="up">
+  <data key="d0">up</data>
+</node>
+<node id="pete docter">
+  <data key="d0">pete docter</data>
+</node>
+<node id="[32]">
+  <data key="d0">[32]</data>
+</node>
+<node id="27">
+  <data key="d0">27</data>
+</node>
+<node id="coraline">
+  <data key="d0">coraline</data>
+</node>
+<node id="henry selick">
+  <data key="d0">henry selick</data>
+</node>
+<node id="28">
+  <data key="d0">28</data>
+</node>
+<node id="fantastic mr. fox">
+  <data key="d0">fantastic mr. fox</data>
+</node>
+<node id="wes anderson">
+  <data key="d0">wes anderson</data>
+</node>
+<node id="29">
+  <data key="d0">29</data>
+</node>
+<node id="the princess and the frog">
+  <data key="d0">the princess and the frog</data>
+</node>
+<node id="john musker and ron clements">
+  <data key="d0">john musker and ron clements</data>
+</node>
+<node id="30">
+  <data key="d0">30</data>
+</node>
+<node id="the secret of kells">
+  <data key="d0">the secret of kells</data>
+</node>
+<node id="tomm moore">
+  <data key="d0">tomm moore</data>
+</node>
+<node id="302010 (83rd)">
+  <data key="d0">302010 (83rd)</data>
+</node>
+<node id="2010 (83rd)">
+  <data key="d0">2010 (83rd)</data>
+</node>
+<node id="lee unkrich">
+  <data key="d0">lee unkrich</data>
+</node>
+<node id="[33]">
+  <data key="d0">[33]</data>
+</node>
+<node id="how to train your dragon">
+  <data key="d0">how to train your dragon</data>
+</node>
+<node id="chris sanders and dean deblois">
+  <data key="d0">chris sanders and dean deblois</data>
+</node>
+<node id="the illusionist">
+  <data key="d0">the illusionist</data>
+</node>
+<node id="2011 (84th)">
+  <data key="d0">2011 (84th)</data>
+</node>
+<node id="rango">
+  <data key="d0">rango</data>
+</node>
+<node id="gore verbinski">
+  <data key="d0">gore verbinski</data>
+</node>
+<node id="[34]">
+  <data key="d0">[34]</data>
+</node>
+<node id="a cat in paris">
+  <data key="d0">a cat in paris</data>
+</node>
+<node id="alain gagnol and jean-loup felicioli">
+  <data key="d0">alain gagnol and jean-loup felicioli</data>
+</node>
+<node id="chico and rita">
+  <data key="d0">chico and rita</data>
+</node>
+<node id="fernando trueba and javier mariscal">
+  <data key="d0">fernando trueba and javier mariscal</data>
+</node>
+<node id="kung fu panda 2">
+  <data key="d0">kung fu panda 2</data>
+</node>
+<node id="jennifer yuh nelson">
+  <data key="d0">jennifer yuh nelson</data>
+</node>
+<node id="puss in boots">
+  <data key="d0">puss in boots</data>
+</node>
+<node id="chris miller">
+  <data key="d0">chris miller</data>
+</node>
+<node id="2012 (85th)">
+  <data key="d0">2012 (85th)</data>
+</node>
+<node id="brave">
+  <data key="d0">brave</data>
+</node>
+<node id="mark andrews and brenda chapman">
+  <data key="d0">mark andrews and brenda chapman</data>
+</node>
+<node id="[35]">
+  <data key="d0">[35]</data>
+</node>
+<node id="frankenweenie">
+  <data key="d0">frankenweenie</data>
+</node>
+<node id="tim burton">
+  <data key="d0">tim burton</data>
+</node>
+<node id="paranorman">
+  <data key="d0">paranorman</data>
+</node>
+<node id="sam fell and chris butler">
+  <data key="d0">sam fell and chris butler</data>
+</node>
+<node id="the pirates! band of misfits">
+  <data key="d0">the pirates! band of misfits</data>
+</node>
+<node id="peter lord">
+  <data key="d0">peter lord</data>
+</node>
+<node id="wreck-it ralph">
+  <data key="d0">wreck-it ralph</data>
+</node>
+<node id="rich moore">
+  <data key="d0">rich moore</data>
+</node>
+<node id="2013 (86th)">
+  <data key="d0">2013 (86th)</data>
+</node>
+<node id="frozen">
+  <data key="d0">frozen</data>
+</node>
+<node id="chris buck">
+  <data key="d0">chris buck</data>
+</node>
+<node id="[36]">
+  <data key="d0">[36]</data>
+</node>
+<node id="the croods">
+  <data key="d0">the croods</data>
+</node>
+<node id="despicable me 2">
+  <data key="d0">despicable me 2</data>
+</node>
+<node id="chris renaud">
+  <data key="d0">chris renaud</data>
+</node>
+<node id="ernest &amp; celestine">
+  <data key="d0">ernest &amp; celestine</data>
+</node>
+<node id="benjamin renner and didier brunner">
+  <data key="d0">benjamin renner and didier brunner</data>
+</node>
+<node id="the wind rises">
+  <data key="d0">the wind rises</data>
+</node>
+<node id="hayao miyazaki and toshio suzuki">
+  <data key="d0">hayao miyazaki and toshio suzuki</data>
+</node>
+<node id="2014 (87th)">
+  <data key="d0">2014 (87th)</data>
+</node>
+<node id="big hero 6">
+  <data key="d0">big hero 6</data>
+</node>
+<node id="don hall">
+  <data key="d0">don hall</data>
+</node>
+<node id="[37]">
+  <data key="d0">[37]</data>
+</node>
+<node id="the boxtrolls">
+  <data key="d0">the boxtrolls</data>
+</node>
+<node id="anthony stacchi">
+  <data key="d0">anthony stacchi</data>
+</node>
+<node id="how to train your dragon 2">
+  <data key="d0">how to train your dragon 2</data>
+</node>
+<node id="dean deblois and bonnie arnold">
+  <data key="d0">dean deblois and bonnie arnold</data>
+</node>
+<node id="song of the sea">
+  <data key="d0">song of the sea</data>
+</node>
+<node id="tomm moore and paul young">
+  <data key="d0">tomm moore and paul young</data>
+</node>
+<node id="the tale of the princess kaguya">
+  <data key="d0">the tale of the princess kaguya</data>
+</node>
+<node id="isao takahata and yoshiaki nishimura">
+  <data key="d0">isao takahata and yoshiaki nishimura</data>
+</node>
+<node id="2015 (88th)">
+  <data key="d0">2015 (88th)</data>
+</node>
+<node id="inside out">
+  <data key="d0">inside out</data>
+</node>
+<node id="pete docter and jonas rivera">
+  <data key="d0">pete docter and jonas rivera</data>
+</node>
+<node id="[38]">
+  <data key="d0">[38]</data>
+</node>
+<node id="anomalisa">
+  <data key="d0">anomalisa</data>
+</node>
+<node id="charlie kaufman">
+  <data key="d0">charlie kaufman</data>
+</node>
+<node id="boy and the world">
+  <data key="d0">boy and the world</data>
+</node>
+<node id="alê abreu">
+  <data key="d0">alê abreu</data>
+</node>
+<node id="shaun the sheep movie">
+  <data key="d0">shaun the sheep movie</data>
+</node>
+<node id="mark burton and richard starzak">
+  <data key="d0">mark burton and richard starzak</data>
+</node>
+<node id="when marnie was there">
+  <data key="d0">when marnie was there</data>
+</node>
+<node id="hiromasa yonebayashi and yoshiaki nishimura">
+  <data key="d0">hiromasa yonebayashi and yoshiaki nishimura</data>
+</node>
+<node id="2016 (89th)">
+  <data key="d0">2016 (89th)</data>
+</node>
+<node id="zootopia">
+  <data key="d0">zootopia</data>
+</node>
+<node id="byron howard">
+  <data key="d0">byron howard</data>
+</node>
+<node id="[39]">
+  <data key="d0">[39]</data>
+</node>
+<node id="kubo and the two strings">
+  <data key="d0">kubo and the two strings</data>
+</node>
+<node id="travis knight and arianne sutner">
+  <data key="d0">travis knight and arianne sutner</data>
+</node>
+<node id="moana">
+  <data key="d0">moana</data>
+</node>
+<node id="john musker">
+  <data key="d0">john musker</data>
+</node>
+<node id="31">
+  <data key="d0">31</data>
+</node>
+<node id="my life as a courgette">
+  <data key="d0">my life as a courgette</data>
+</node>
+<node id="claude barras and max karli">
+  <data key="d0">claude barras and max karli</data>
+</node>
+<node id="32">
+  <data key="d0">32</data>
+</node>
+<node id="the red turtle">
+  <data key="d0">the red turtle</data>
+</node>
+<node id="michaël dudok de wit and toshio suzuki">
+  <data key="d0">michaël dudok de wit and toshio suzuki</data>
+</node>
+<node id="2017 (90th)">
+  <data key="d0">2017 (90th)</data>
+</node>
+<node id="33">
+  <data key="d0">33</data>
+</node>
+<node id="coco">
+  <data key="d0">coco</data>
+</node>
+<node id="lee unkrich and darla k. anderson">
+  <data key="d0">lee unkrich and darla k. anderson</data>
+</node>
+<node id="[40]">
+  <data key="d0">[40]</data>
+</node>
+<node id="34">
+  <data key="d0">34</data>
+</node>
+<node id="the boss baby">
+  <data key="d0">the boss baby</data>
+</node>
+<node id="tom mcgrath and ramsey naito">
+  <data key="d0">tom mcgrath and ramsey naito</data>
+</node>
+<node id="35">
+  <data key="d0">35</data>
+</node>
+<node id="the breadwinner">
+  <data key="d0">the breadwinner</data>
+</node>
+<node id="nora twomey and anthony leo">
+  <data key="d0">nora twomey and anthony leo</data>
+</node>
+<node id="36">
+  <data key="d0">36</data>
+</node>
+<node id="ferdinand">
+  <data key="d0">ferdinand</data>
+</node>
+<node id="carlos saldanha and lori forte">
+  <data key="d0">carlos saldanha and lori forte</data>
+</node>
+<node id="37">
+  <data key="d0">37</data>
+</node>
+<node id="loving vincent">
+  <data key="d0">loving vincent</data>
+</node>
+<node id="dorota kobiela">
+  <data key="d0">dorota kobiela</data>
+</node>
+<node id="2018 (91st)">
+  <data key="d0">2018 (91st)</data>
+</node>
+<node id="38">
+  <data key="d0">38</data>
+</node>
+<node id="spider-man: into the spider-verse">
+  <data key="d0">spider-man: into the spider-verse</data>
+</node>
+<node id="bob persichetti">
+  <data key="d0">bob persichetti</data>
+</node>
+<node id="[41]">
+  <data key="d0">[41]</data>
+</node>
+<node id="39">
+  <data key="d0">39</data>
+</node>
+<node id="incredibles 2">
+  <data key="d0">incredibles 2</data>
+</node>
+<node id="40">
+  <data key="d0">40</data>
+</node>
+<node id="isle of dogs">
+  <data key="d0">isle of dogs</data>
+</node>
+<node id="41">
+  <data key="d0">41</data>
+</node>
+<node id="mirai">
+  <data key="d0">mirai</data>
+</node>
+<node id="mamoru hosoda and yuichiro saito">
+  <data key="d0">mamoru hosoda and yuichiro saito</data>
+</node>
+<node id="42">
+  <data key="d0">42</data>
+</node>
+<node id="ralph breaks the internet">
+  <data key="d0">ralph breaks the internet</data>
+</node>
+<node id="2019 (92nd)">
+  <data key="d0">2019 (92nd)</data>
+</node>
+<node id="43">
+  <data key="d0">43</data>
+</node>
+<node id="toy story 4">
+  <data key="d0">toy story 4</data>
+</node>
+<node id="josh cooley">
+  <data key="d0">josh cooley</data>
+</node>
+<node id="[42]">
+  <data key="d0">[42]</data>
+</node>
+<node id="44">
+  <data key="d0">44</data>
+</node>
+<node id="how to train your dragon: the hidden world">
+  <data key="d0">how to train your dragon: the hidden world</data>
+</node>
+<node id="dean deblois">
+  <data key="d0">dean deblois</data>
+</node>
+<node id="45">
+  <data key="d0">45</data>
+</node>
+<node id="i lost my body">
+  <data key="d0">i lost my body</data>
+</node>
+<node id="jérémy clapin and marc du pontavice">
+  <data key="d0">jérémy clapin and marc du pontavice</data>
+</node>
+<node id="46">
+  <data key="d0">46</data>
+</node>
+<node id="klaus">
+  <data key="d0">klaus</data>
+</node>
+<node id="sergio pablos">
+  <data key="d0">sergio pablos</data>
+</node>
+<node id="47">
+  <data key="d0">47</data>
+</node>
+<node id="missing link">
+  <data key="d0">missing link</data>
+</node>
+<node id="chris butler">
+  <data key="d0">chris butler</data>
+</node>
+<node id="472020 (93rd)">
+  <data key="d0">472020 (93rd)</data>
+</node>
+<node id="2020 (93rd)">
+  <data key="d0">2020 (93rd)</data>
+</node>
+<node id="soul">
+  <data key="d0">soul</data>
+</node>
+<node id="pete docter and dana murray">
+  <data key="d0">pete docter and dana murray</data>
+</node>
+<node id="[43]">
+  <data key="d0">[43]</data>
+</node>
+<node id="dan scanlon and kori rae">
+  <data key="d0">dan scanlon and kori rae</data>
+</node>
+<node id="over the moon">
+  <data key="d0">over the moon</data>
+</node>
+<node id="glen keane">
+  <data key="d0">glen keane</data>
+</node>
+<node id="a shaun the sheep movie: farmageddon">
+  <data key="d0">a shaun the sheep movie: farmageddon</data>
+</node>
+<node id="richard phelan">
+  <data key="d0">richard phelan</data>
+</node>
+<node id="wolfwalkers">
+  <data key="d0">wolfwalkers</data>
+</node>
+<node id="2021 (94th)">
+  <data key="d0">2021 (94th)</data>
+</node>
+<node id="encanto">
+  <data key="d0">encanto</data>
+</node>
+<node id="jared bush">
+  <data key="d0">jared bush</data>
+</node>
+<node id="[44]">
+  <data key="d0">[44]</data>
+</node>
+<node id="flee">
+  <data key="d0">flee</data>
+</node>
+<node id="jonas poher rasmussen">
+  <data key="d0">jonas poher rasmussen</data>
+</node>
+<node id="luca">
+  <data key="d0">luca</data>
+</node>
+<node id="enrico casarosa and andrea warren">
+  <data key="d0">enrico casarosa and andrea warren</data>
+</node>
+<node id="the mitchells vs. the machines">
+  <data key="d0">the mitchells vs. the machines</data>
+</node>
+<node id="mike rianda">
+  <data key="d0">mike rianda</data>
+</node>
+<node id="raya and the last dragon">
+  <data key="d0">raya and the last dragon</data>
+</node>
+<node id="2022 (95th)">
+  <data key="d0">2022 (95th)</data>
+</node>
+<node id="guillermo del toro's pinocchio">
+  <data key="d0">guillermo del toro's pinocchio</data>
+</node>
+<node id="guillermo del toro">
+  <data key="d0">guillermo del toro</data>
+</node>
+<node id="[45]">
+  <data key="d0">[45]</data>
+</node>
+<node id="marcel the shell with shoes on">
+  <data key="d0">marcel the shell with shoes on</data>
+</node>
+<node id="dean fleischer camp">
+  <data key="d0">dean fleischer camp</data>
+</node>
+<node id="puss in boots: the last wish">
+  <data key="d0">puss in boots: the last wish</data>
+</node>
+<node id="joel crawford and mark swift">
+  <data key="d0">joel crawford and mark swift</data>
+</node>
+<node id="the sea beast">
+  <data key="d0">the sea beast</data>
+</node>
+<node id="chris williams and jed schlanger">
+  <data key="d0">chris williams and jed schlanger</data>
+</node>
+<node id="turning red">
+  <data key="d0">turning red</data>
+</node>
+<node id="domee shi and lindsey collins">
+  <data key="d0">domee shi and lindsey collins</data>
+</node>
+<node id="2023 (96th)">
+  <data key="d0">2023 (96th)</data>
+</node>
+<node id="the boy and the heron">
+  <data key="d0">the boy and the heron</data>
+</node>
+<node id="[46]">
+  <data key="d0">[46]</data>
+</node>
+<node id="elemental">
+  <data key="d0">elemental</data>
+</node>
+<node id="peter sohn and denise ream">
+  <data key="d0">peter sohn and denise ream</data>
+</node>
+<node id="nimona">
+  <data key="d0">nimona</data>
+</node>
+<node id="nick bruno">
+  <data key="d0">nick bruno</data>
+</node>
+<node id="robot dreams">
+  <data key="d0">robot dreams</data>
+</node>
+<node id="pablo berger">
+  <data key="d0">pablo berger</data>
+</node>
+<node id="spider-man: across the spider-verse">
+  <data key="d0">spider-man: across the spider-verse</data>
+</node>
+<node id="kemp powers">
+  <data key="d0">kemp powers</data>
+</node>
+<node id="19multiple wins[edit] wins individual 3 pete docter 2 brad bird byron howard hayao miyazaki jonas rivera clark spencer andrew stanton lee unkrich">
+  <data key="d0">19multiple wins[edit] wins individual 3 pete docter 2 brad bird byron howard hayao miyazaki jonas rivera clark spencer andrew stanton lee unkrich</data>
+</node>
+<node id="multiple wins[edit] wins individual 3 pete docter 2 brad bird byron howard hayao miyazaki jonas rivera clark spencer andrew stanton lee unkrich">
+  <data key="d0">multiple wins[edit] wins individual 3 pete docter 2 brad bird byron howard hayao miyazaki jonas rivera clark spencer andrew stanton lee unkrich</data>
+</node>
+<node id="multiple nominations[edit] nominations individual 4 pete docter hayao miyazaki 3 brad bird ron clements dean deblois byron howard travis knight phil lord christopher miller rich moore tomm moore chris sanders clark spencer toshio suzuki chris williams 2 wes anderson bonnie arnold chris buck tim burton chris butler sylvain chomet don hall john lasseter john musker yoshiaki nishimura jonas rivera osnat shurer andrew stanton arianne sutner lee unkrich peter del vecho paul young">
+  <data key="d0">multiple nominations[edit] nominations individual 4 pete docter hayao miyazaki 3 brad bird ron clements dean deblois byron howard travis knight phil lord christopher miller rich moore tomm moore chris sanders clark spencer toshio suzuki chris williams 2 wes anderson bonnie arnold chris buck tim burton chris butler sylvain chomet don hall john lasseter john musker yoshiaki nishimura jonas rivera osnat shurer andrew stanton arianne sutner lee unkrich peter del vecho paul young</data>
+</node>
+<node id="individual">
+  <data key="d0">individual</data>
+</node>
+<node id="jonas rivera">
+  <data key="d0">jonas rivera</data>
+</node>
+<node id="clark spencer">
+  <data key="d0">clark spencer</data>
+</node>
+<node id="travis knight">
+  <data key="d0">travis knight</data>
+</node>
+<node id="phil lord">
+  <data key="d0">phil lord</data>
+</node>
+<node id="christopher miller">
+  <data key="d0">christopher miller</data>
+</node>
+<node id="toshio suzuki">
+  <data key="d0">toshio suzuki</data>
+</node>
+<node id="chris williams">
+  <data key="d0">chris williams</data>
+</node>
+<node id="bonnie arnold">
+  <data key="d0">bonnie arnold</data>
+</node>
+<node id="yoshiaki nishimura">
+  <data key="d0">yoshiaki nishimura</data>
+</node>
+<node id="osnat shurer">
+  <data key="d0">osnat shurer</data>
+</node>
+<node id="arianne sutner">
+  <data key="d0">arianne sutner</data>
+</node>
+<node id="peter del vecho">
+  <data key="d0">peter del vecho</data>
+</node>
+<node id="paul young">
+  <data key="d0">paul young</data>
+</node>
+<node id="423">
+  <data key="d0">423</data>
+</node>
+<node id="74">
+  <data key="d0">74</data>
+</node>
+<node id="31pixar">
+  <data key="d0">31pixar</data>
+</node>
+<node id="walt disney animation studios">
+  <data key="d0">walt disney animation studios</data>
+</node>
+<node id="lilo &amp; stitch">
+  <data key="d0">lilo &amp; stitch</data>
+</node>
+<node id="dreamworks animation">
+  <data key="d0">dreamworks animation</data>
+</node>
+<node id="studio ghibli">
+  <data key="d0">studio ghibli</data>
+</node>
+<node id="sony pictures animation">
+  <data key="d0">sony pictures animation</data>
+</node>
+<node id="netflix animation">
+  <data key="d0">netflix animation</data>
+</node>
+<node id="aardman">
+  <data key="d0">aardman</data>
+</node>
+<node id="nickelodeon">
+  <data key="d0">nickelodeon</data>
+</node>
+<node id="laika">
+  <data key="d0">laika</data>
+</node>
+<node id="cartoon saloon">
+  <data key="d0">cartoon saloon</data>
+</node>
+<node id="les armateurs">
+  <data key="d0">les armateurs</data>
+</node>
+<node id="blue sky studios">
+  <data key="d0">blue sky studios</data>
+</node>
+<node id="tim burton productions">
+  <data key="d0">tim burton productions</data>
+</node>
+<node id="american empirical">
+  <data key="d0">american empirical</data>
+</node>
+<node id="13toy story">
+  <data key="d0">13toy story</data>
+</node>
+<node id="toy story">
+  <data key="d0">toy story</data>
+</node>
+<node id="wallace and gromit">
+  <data key="d0">wallace and gromit</data>
+</node>
+<node id="spider-verse">
+  <data key="d0">spider-verse</data>
+</node>
+<node id="irish folklore trilogy">
+  <data key="d0">irish folklore trilogy</data>
+</node>
+<node id="8oldest winner">
+  <data key="d0">8oldest winner</data>
+</node>
+<node id="oldest winner">
+  <data key="d0">oldest winner</data>
+</node>
+<node id="83 years">
+  <data key="d0">83 years</data>
+</node>
+<node id="oldest nominee">
+  <data key="d0">oldest nominee</data>
+</node>
+<node id="youngest winner">
+  <data key="d0">youngest winner</data>
+</node>
+<node id="38 years">
+  <data key="d0">38 years</data>
+</node>
+<node id="youngest nominee">
+  <data key="d0">youngest nominee</data>
+</node>
+<node id="benjamin renner">
+  <data key="d0">benjamin renner</data>
+</node>
+<node id="30 years">
+  <data key="d0">30 years</data>
+</node>
+<node id="3academy of motion picture arts and sciences (ampas) records most wins per ceremony academy aperture 2025 oscar season oscar speech oscar bait governors awards nicholl fellowships in screenwriting pre-show">
+  <data key="d0">3academy of motion picture arts and sciences (ampas) records most wins per ceremony academy aperture 2025 oscar season oscar speech oscar bait governors awards nicholl fellowships in screenwriting pre-show</data>
+</node>
+<node id="academy of motion picture arts and sciences (ampas) records most wins per ceremony academy aperture 2025 oscar season oscar speech oscar bait governors awards nicholl fellowships in screenwriting pre-show">
+  <data key="d0">academy of motion picture arts and sciences (ampas) records most wins per ceremony academy aperture 2025 oscar season oscar speech oscar bait governors awards nicholl fellowships in screenwriting pre-show</data>
+</node>
+<node id="awards of merit">
+  <data key="d0">awards of merit</data>
+</node>
+<node id="picture director actor actress supporting actor supporting actress adapted screenplay original screenplay animated feature documentary feature film international feature film animated short film documentary short film live action short film cinematography costume design film editing makeup and hairstyling original score original song production design sound visual effects proposed awards popular film">
+  <data key="d0">picture director actor actress supporting actor supporting actress adapted screenplay original screenplay animated feature documentary feature film international feature film animated short film documentary short film live action short film cinematography costume design film editing makeup and hairstyling original score original song production design sound visual effects proposed awards popular film</data>
+</node>
+<node id="proposed awards">
+  <data key="d0">proposed awards</data>
+</node>
+<node id="popular film">
+  <data key="d0">popular film</data>
+</node>
+<node id="special awards">
+  <data key="d0">special awards</data>
+</node>
+<node id="governors awards academy honorary award irving g. thalberg memorial award jean hersholt humanitarian award special achievement academy award academy scientific and technical awards academy award of merit (non-competitive) scientific and engineering award technical achievement award john a. bonner medal of commendation gordon e. sawyer award student awards student academy award">
+  <data key="d0">governors awards academy honorary award irving g. thalberg memorial award jean hersholt humanitarian award special achievement academy award academy scientific and technical awards academy award of merit (non-competitive) scientific and engineering award technical achievement award john a. bonner medal of commendation gordon e. sawyer award student awards student academy award</data>
+</node>
+<node id="governors awards">
+  <data key="d0">governors awards</data>
+</node>
+<node id="academy honorary award irving g. thalberg memorial award jean hersholt humanitarian award special achievement academy award">
+  <data key="d0">academy honorary award irving g. thalberg memorial award jean hersholt humanitarian award special achievement academy award</data>
+</node>
+<node id="academy scientific and technical awards">
+  <data key="d0">academy scientific and technical awards</data>
+</node>
+<node id="academy award of merit (non-competitive) scientific and engineering award technical achievement award john a. bonner medal of commendation gordon e. sawyer award">
+  <data key="d0">academy award of merit (non-competitive) scientific and engineering award technical achievement award john a. bonner medal of commendation gordon e. sawyer award</data>
+</node>
+<node id="student awards">
+  <data key="d0">student awards</data>
+</node>
+<node id="student academy award">
+  <data key="d0">student academy award</data>
+</node>
+<node id="former awards">
+  <data key="d0">former awards</data>
+</node>
+<node id="merit awards assistant director dance direction sound editing story special awards academy juvenile award">
+  <data key="d0">merit awards assistant director dance direction sound editing story special awards academy juvenile award</data>
+</node>
+<node id="merit awards">
+  <data key="d0">merit awards</data>
+</node>
+<node id="assistant director dance direction sound editing story">
+  <data key="d0">assistant director dance direction sound editing story</data>
+</node>
+<node id="academy juvenile award">
+  <data key="d0">academy juvenile award</data>
+</node>
+<node id="ceremonies (years of film release)">
+  <data key="d0">ceremonies (years of film release)</data>
+</node>
+<node id="1927/28 1928/29 1929/30 1930/31 1931/32 1932/33 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 1958 1959 1960 1961 1962 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020/21 2021 2022 2023">
+  <data key="d0">1927/28 1928/29 1929/30 1930/31 1931/32 1932/33 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 1958 1959 1960 1961 1962 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020/21 2021 2022 2023</data>
+</node>
+<node id="11proposed awards">
+  <data key="d0">11proposed awards</data>
+</node>
+<node id="0governors awards">
+  <data key="d0">0governors awards</data>
+</node>
+<node id="2merit awards">
+  <data key="d0">2merit awards</data>
+</node>
+<node id="1shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)">
+  <data key="d0">1shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)</data>
+</node>
+<node id="shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)">
+  <data key="d0">shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)</data>
+</node>
+<node id="0companies and studiosactivemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d0">0companies and studiosactivemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika</data>
+</node>
+<node id="companies and studiosactivemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d0">companies and studiosactivemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika</data>
+</node>
+<node id=" inc. spindlehorse toons splash entertainment sprite animation studios stretch films stoopid buddy stoodios tau films threshold entertainment titmouse">
+  <data key="d0"> inc. spindlehorse toons splash entertainment sprite animation studios stretch films stoopid buddy stoodios tau films threshold entertainment titmouse</data>
+</node>
+<node id="companies and studios">
+  <data key="d0">companies and studios</data>
+</node>
+<node id="activemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d0">activemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika</data>
+</node>
+<node id="active">
+  <data key="d0">active</data>
+</node>
+<node id="majorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d0">majorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika</data>
+</node>
+<node id="majors">
+  <data key="d0">majors</data>
+</node>
+<node id="nbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks">
+  <data key="d0">nbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks</data>
+</node>
+<node id="nbcuniversal">
+  <data key="d0">nbcuniversal</data>
+</node>
+<node id="dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios">
+  <data key="d0">dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios</data>
+</node>
+<node id="paramount global">
+  <data key="d0">paramount global</data>
+</node>
+<node id="cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%)">
+  <data key="d0">cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%)</data>
+</node>
+<node id="disney entertainment">
+  <data key="d0">disney entertainment</data>
+</node>
+<node id="20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios">
+  <data key="d0">20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios</data>
+</node>
+<node id="warner bros.">
+  <data key="d0">warner bros.</data>
+</node>
+<node id="cartoon network studios warner bros. animation warner bros. pictures animation williams street">
+  <data key="d0">cartoon network studios warner bros. animation warner bros. pictures animation williams street</data>
+</node>
+<node id="sony pictures">
+  <data key="d0">sony pictures</data>
+</node>
+<node id="aniplex of america crunchyroll sony pictures animation sony pictures imageworks">
+  <data key="d0">aniplex of america crunchyroll sony pictures animation sony pictures imageworks</data>
+</node>
+<node id="former">
+  <data key="d0">former</data>
+</node>
+<node id="4kids entertainment 70/30 productions adelaide productions adventure cartoon productions allspark amblimation animation collective animation lab animation magic blue sky studios cambria productions cartoon pizza chorion circle 7 animation cookie jar copernicus studios crest animation productions curious pictures depatie–freleng enterprises dic entertainment disneytoon studios dna productions famous studios filmation fleischer studios format films fox animation studios golden films hanna-barbera hit entertainment jetlag productions justin roiland's solo vanity card productions! kroyer films laugh-o-gram studio little airplane productions marvel productions metro-goldwyn-mayer animation mgm animation/visual arts mgm cartoons mirari films moonscoop omation animation studio pacific data images porchlight entertainment prana studios radical axis rankin/bass animated entertainment rooster teeth animation ruby-spears saban entertainment screen gems skellington productions soup2nuts spümcø storyboard">
+  <data key="d0">4kids entertainment 70/30 productions adelaide productions adventure cartoon productions allspark amblimation animation collective animation lab animation magic blue sky studios cambria productions cartoon pizza chorion circle 7 animation cookie jar copernicus studios crest animation productions curious pictures depatie–freleng enterprises dic entertainment disneytoon studios dna productions famous studios filmation fleischer studios format films fox animation studios golden films hanna-barbera hit entertainment jetlag productions justin roiland's solo vanity card productions! kroyer films laugh-o-gram studio little airplane productions marvel productions metro-goldwyn-mayer animation mgm animation/visual arts mgm cartoons mirari films moonscoop omation animation studio pacific data images porchlight entertainment prana studios radical axis rankin/bass animated entertainment rooster teeth animation ruby-spears saban entertainment screen gems skellington productions soup2nuts spümcø storyboard</data>
+</node>
+<node id="industry associations the animation guild">
+  <data key="d0">industry associations the animation guild</data>
+</node>
+<node id="vteanimation industry in the united states">
+  <data key="d0">vteanimation industry in the united states</data>
+</node>
+<node id="positioninlist">
+  <data key="d0">positioninlist</data>
+</node>
+<node id="vteanimation industry in the united states.1">
+  <data key="d0">vteanimation industry in the united states.1</data>
+</node>
+<node id="industry associations">
+  <data key="d0">industry associations</data>
+</node>
+<node id="the animation guild">
+  <data key="d0">the animation guild</data>
+</node>
+<node id="other topicsawards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d0">other topicsawards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)</data>
+</node>
+<node id="other topics">
+  <data key="d0">other topics</data>
+</node>
+<node id="awards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d0">awards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)</data>
+</node>
+<node id="awards">
+  <data key="d0">awards</data>
+</node>
+<node id="academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation">
+  <data key="d0">academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation</data>
+</node>
+<node id="history">
+  <data key="d0">history</data>
+</node>
+<node id="silent era golden age world war ii television era modern era">
+  <data key="d0">silent era golden age world war ii television era modern era</data>
+</node>
+<node id="related">
+  <data key="d0">related</data>
+</node>
+<node id="animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d0">animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)</data>
+</node>
+<node id="20activemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d0">20activemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika</data>
+</node>
+<node id="companies and studios.1">
+  <data key="d0">companies and studios.1</data>
+</node>
+<node id="7majors">
+  <data key="d0">7majors</data>
+</node>
+<node id="5nbcuniversal">
+  <data key="d0">5nbcuniversal</data>
+</node>
+<node id="0paramount global">
+  <data key="d0">0paramount global</data>
+</node>
+<node id="0disney entertainment">
+  <data key="d0">0disney entertainment</data>
+</node>
+<node id="0warner bros.">
+  <data key="d0">0warner bros.</data>
+</node>
+<node id="0sony pictures">
+  <data key="d0">0sony pictures</data>
+</node>
+<node id="0industry associations the animation guild">
+  <data key="d0">0industry associations the animation guild</data>
+</node>
+<node id="industry associations.1">
+  <data key="d0">industry associations.1</data>
+</node>
+<node id="3awards">
+  <data key="d0">3awards</data>
+</node>
+<edge source="beauty and the beast" target="disney">
   <data key="d1">created by</data>
 </edge>
-<edge source="edward iii" target="release of peter de la mare">
-  <data key="d1">role during</data>
+<edge source="disney" target="lasseter">
+  <data key="d1">fired</data>
 </edge>
-<edge source="king" target="peter de la mare">
-  <data key="d1">criticized</data>
+<edge source="disney" target="75th academy awards">
+  <data key="d1">winners of</data>
 </edge>
-<edge source="king" target="military actions">
-  <data key="d1">conducted</data>
+<edge source="disney" target="wall-e">
+  <data key="d1">famous movie</data>
 </edge>
-<edge source="commons" target="speaker of the commons">
-  <data key="d1">associated with</data>
+<edge source="82nd academy awards" target="animated feature">
+  <data key="d1">nominated at</data>
 </edge>
-<edge source="commons" target="peter de la mare">
-  <data key="d1">representative of</data>
+<edge source="82nd academy awards" target="toy story 3">
+  <data key="d1">featured at</data>
 </edge>
-<edge source="commons" target="representatives">
-  <data key="d1">part of</data>
+<edge source="82nd academy awards" target="2010">
+  <data key="d1">happened in</data>
 </edge>
-<edge source="speaker of the commons" target="peter de la mare">
-  <data key="d1">role</data>
-</edge>
-<edge source="peter de la mare" target="complaints">
-  <data key="d1">raised</data>
-</edge>
-<edge source="peter de la mare" target="representative voice">
-  <data key="d1">role</data>
-</edge>
-<edge source="peter de la mare" target="military actions">
-  <data key="d1">criticized by</data>
-</edge>
-<edge source="representatives" target="lords">
+<edge source="82nd academy awards" target="winners">
   <data key="d1">includes</data>
 </edge>
-<edge source="complaints" target="taxes">
+<edge source="82nd academy awards" target="83rd academy awards">
+  <data key="d1">precedes</data>
+</edge>
+<edge source="animated feature" target="best picture">
+  <data key="d1">nominated for</data>
+</edge>
+<edge source="animated feature" target="oscars">
+  <data key="d1">award</data>
+</edge>
+<edge source="animated feature" target="wins">
+  <data key="d1">refers to</data>
+</edge>
+<edge source="animated feature" target="milestones">
+  <data key="d1">is related to</data>
+</edge>
+<edge source="animated feature" target="academy motion picture arts">
+  <data key="d1">awarded by</data>
+</edge>
+<edge source="toy story 3" target="best picture">
+  <data key="d1">nominated for</data>
+</edge>
+<edge source="toy story 3" target="oscars">
+  <data key="d1">highlighted in</data>
+</edge>
+<edge source="toy story 3" target="2010 (83rd)">
+  <data key="d1">film</data>
+</edge>
+<edge source="toy story 3" target="toy story">
+  <data key="d1">films</data>
+</edge>
+<edge source="best picture" target="walle">
+  <data key="d1">nominated for</data>
+</edge>
+<edge source="best picture" target="backlash">
+  <data key="d1">category expanded</data>
+</edge>
+<edge source="best picture" target="animated movies">
+  <data key="d1">competed for</data>
+</edge>
+<edge source="walle" target="oscars">
+  <data key="d1">won</data>
+</edge>
+<edge source="walle" target="best oscar">
+  <data key="d1">awarded</data>
+</edge>
+<edge source="walle" target="multiple sources">
+  <data key="d1">recognized by</data>
+</edge>
+<edge source="walle" target="oscar">
+  <data key="d1">winner</data>
+</edge>
+<edge source="walle" target="usa today">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="backlash" target="2009">
+  <data key="d1">influenced by</data>
+</edge>
+<edge source="backlash" target="category expanded">
+  <data key="d1">prompted by</data>
+</edge>
+<edge source="category" target="2009">
+  <data key="d1">expanded in</data>
+</edge>
+<edge source="category" target="category">
+  <data key="d1">vteanimation industry in the united states.1</data>
+</edge>
+<edge source="category" target="11">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="category" target="11proposed awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="category" target="20">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="category" target="20activemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="milestones" target="studios">
+  <data key="d1">is related to</data>
+</edge>
+<edge source="milestones" target="march">
+  <data key="d1">contain</data>
+</edge>
+<edge source="milestones" target="usa">
+  <data key="d1">occur in</data>
+</edge>
+<edge source="studios" target="animated movies">
+  <data key="d1">produce</data>
+</edge>
+<edge source="march" target="usa">
+  <data key="d1">recognized in</data>
+</edge>
+<edge source="usa" target="oscars">
+  <data key="d1">awarded in</data>
+</edge>
+<edge source="animated movies" target="superlatives">
+  <data key="d1">has</data>
+</edge>
+<edge source="animated movies" target="oscars">
+  <data key="d1">awarded in</data>
+</edge>
+<edge source="animated movies" target="seven animated feature film award">
+  <data key="d1">contain</data>
+</edge>
+<edge source="animated movies" target="russell">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="superlatives" target="oscars">
+  <data key="d1">mention</data>
+</edge>
+<edge source="superlatives" target="screen rant">
+  <data key="d1">mention</data>
+</edge>
+<edge source="oscars" target="seven animated feature film award">
   <data key="d1">related to</data>
 </edge>
-<edge source="complaints" target="representative voice">
-  <data key="d1">associated with</data>
+<edge source="oscars" target="giardina camp carolyn">
+  <data key="d1">attended</data>
 </edge>
-<edge source="taxes" target="royal expenditures">
-  <data key="d1">related to</data>
+<edge source="oscars" target="hollywood reporter">
+  <data key="d1">reviewed</data>
 </edge>
-<edge source="royal expenditures" target="accounting">
-  <data key="d1">connected with</data>
-</edge>
-<edge source="page content" target="content">
-  <data key="d1">related to</data>
-</edge>
-<edge source="content" target="1377">
-  <data key="d1">released in</data>
-</edge>
-<edge source="uniform county franchise act" target="england">
-  <data key="d1">occurred in</data>
-</edge>
-<edge source="uniform county franchise act" target="0 law">
-  <data key="d1">amended</data>
-</edge>
-<edge source="uniform county franchise act" target="fortyshilling freehold voters">
-  <data key="d1">related to</data>
-</edge>
-<edge source="0 law" target="fortyshilling freehold voters">
-  <data key="d1">requires</data>
-</edge>
-<edge source="fortyshilling freehold voters" target="voter">
-  <data key="d1">is a type of</data>
-</edge>
-<edge source="fortyshilling freehold voters" target="fortyshilling freehold voters">
-  <data key="d1">is a type of</data>
-</edge>
-<edge source="elderly" target="members">
+<edge source="oscars" target="animated feature film award">
   <data key="d1">part of</data>
 </edge>
-<edge source="elderly" target="knighthood">
-  <data key="d1">recognizes</data>
+<edge source="oscars" target="new york times">
+  <data key="d1">covered</data>
 </edge>
-<edge source="elderly" target="conservative">
-  <data key="d1">is a type of</data>
+<edge source="oscars" target="beautiful mind">
+  <data key="d1">won</data>
 </edge>
-<edge source="conservative" target="backbenchers">
-  <data key="d1">belong to</data>
+<edge source="oscars" target="pixar">
+  <data key="d1">award</data>
+</edge>
+<edge source="screen rant" target="february 2017">
+  <data key="d1">discuss</data>
+</edge>
+<edge source="screen rant" target="superlativesmarkdown">
+  <data key="d1">mention</data>
+</edge>
+<edge source="february 2017" target="wins">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="wins" target="wins">
+  <data key="d1">0</data>
+</edge>
+<edge source="wins" target="1">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="wins" target="individual">
+  <data key="d1">1</data>
+</edge>
+<edge source="happened on" target="march 25">
+  <data key="d1">2002</data>
+</edge>
+<edge source="happened on" target="april 1">
+  <data key="d1">2018</data>
+</edge>
+<edge source="greatest movies" target="entertainment weekly">
+  <data key="d1">published by</data>
+</edge>
+<edge source="greatest movies" target="december 2009">
+  <data key="d1">published on</data>
+</edge>
+<edge source="greatest movies" target="award ceremony">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="seven animated feature film award" target="academy motion picture arts">
+  <data key="d1">given by</data>
+</edge>
+<edge source="seven animated feature film award" target="june 5">
+  <data key="d1">occurred on</data>
+</edge>
+<edge source="seven animated feature film award" target="osbourne">
+  <data key="d1">winner from</data>
+</edge>
+<edge source="anniversary related to" target="beast">
+  <data key="d1">beauty</data>
+</edge>
+<edge source="anniversary related to" target="92nd oscars">
+  <data key="d1">event</data>
+</edge>
+<edge source="beast" target="beauty">
+  <data key="d1">anniversary related to</data>
+</edge>
+<edge source="beauty" target="academy">
+  <data key="d1">anniversary celebrated in</data>
+</edge>
+<edge source="92nd oscars" target="92nd oscars">
+  <data key="d1">announces</data>
+</edge>
+<edge source="92nd oscars" target="fleischer camp dean">
+  <data key="d1">fleischer camp dean</data>
+</edge>
+<edge source="92nd oscars" target="documentation">
+  <data key="d1">submit to</data>
+</edge>
+<edge source="92nd oscars" target="eligibility requirements">
+  <data key="d1">has requirements</data>
+</edge>
+<edge source="92nd oscars" target="animated feature film award">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="92nd oscars" target="rules">
+  <data key="d1">announces</data>
+</edge>
+<edge source="rules" target="animated feature film award">
+  <data key="d1">pertain to</data>
+</edge>
+<edge source="giardina camp carolyn" target="keegan winters rebecca">
+  <data key="d1">interacted with</data>
+</edge>
+<edge source="hollywood reporter" target="oscar winner">
+  <data key="d1">announced</data>
+</edge>
+<edge source="bandyk matthew" target="best oscar">
+  <data key="d1">awards</data>
+</edge>
+<edge source="bandyk matthew" target="oscar walle">
+  <data key="d1">topic for</data>
+</edge>
+<edge source="best oscar" target="oscar">
+  <data key="d1">relates to</data>
+</edge>
+<edge source="oscar walle" target="breznican anthony">
+  <data key="d1">topic for</data>
+</edge>
+<edge source="oscar walle" target="usa today">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="oscar walle" target="oscar">
+  <data key="d1">major event</data>
+</edge>
+<edge source="oscar walle" target="oscar experiment">
+  <data key="d1">part of</data>
+</edge>
+<edge source="breznican anthony" target="usa today">
+  <data key="d1">works for</data>
+</edge>
+<edge source="buchanan kyle" target="oscar experiment">
+  <data key="d1">writes about</data>
+</edge>
+<edge source="buchanan kyle" target="new york times">
+  <data key="d1">works for</data>
+</edge>
+<edge source="oscar experiment" target="8 2024">
+  <data key="d1">date is</data>
+</edge>
+<edge source="new york times" target="years oscar experiment">
+  <data key="d1">published on</data>
+</edge>
+<edge source="new york times" target="films">
+  <data key="d1">reports on</data>
+</edge>
+<edge source="new york times" target="star wars">
+  <data key="d1">reports on</data>
+</edge>
+<edge source="8 2024" target="oscar">
+  <data key="d1">yearly event</data>
+</edge>
+<edge source="years oscar experiment" target="oscar">
+  <data key="d1">involves</data>
+</edge>
+<edge source="oscar" target="onward">
+  <data key="d1">won</data>
+</edge>
+<edge source="oscar" target="2002">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="oscar" target="films">
+  <data key="d1">awarded to</data>
+</edge>
+<edge source="oscar" target="cartoon">
+  <data key="d1">awarded by</data>
+</edge>
+<edge source="oscar" target="documentary">
+  <data key="d1">awarded by</data>
+</edge>
+<edge source="oscar" target="animations">
+  <data key="d1">awarded</data>
+</edge>
+<edge source="oscar" target="animated features">
+  <data key="d1">highlights</data>
+</edge>
+<edge source="oscar" target="boin adriano">
+  <data key="d1">wins</data>
+</edge>
+<edge source="oscar" target="2023">
+  <data key="d1">won in</data>
+</edge>
+<edge source="2023" target="russell">
+  <data key="d1">year of event</data>
+</edge>
+<edge source="75th academy awards" target="nominations">
+  <data key="d1">had nominations</data>
+</edge>
+<edge source="75th academy awards" target="april 2015">
+  <data key="d1">discussed in</data>
+</edge>
+<edge source="75th academy awards" target="august 27">
+  <data key="d1">referencing</data>
+</edge>
+<edge source="august 27" target="date of event">
+  <data key="d1"> 2013</data>
+</edge>
+<edge source="august 27" target="includes">
+  <data key="d1"> 2013</data>
+</edge>
+<edge source="date of event" target="february 21">
+  <data key="d1"> 2014</data>
+</edge>
+<edge source="nominations" target="april 2015">
+  <data key="d1">date of event</data>
+</edge>
+<edge source="nominations" target="nominations">
+  <data key="d1">0</data>
+</edge>
+<edge source="nominations" target="10">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="nominations" target="individual">
+  <data key="d1">1</data>
+</edge>
+<edge source="april 2015" target="winners of 75th academy awards">
+  <data key="d1">discussed in</data>
+</edge>
+<edge source="wall-e" target="2008 (81st)">
+  <data key="d1">film</data>
+</edge>
+<edge source="76th academy awards n 2004 n 77th academy awards n 2005" target="2004">
+  <data key="d1">happened in</data>
+</edge>
+<edge source="77" target="2005">
+  <data key="d1">happened in</data>
+</edge>
+<edge source="2005" target="77th academy awards">
+  <data key="d1">details highlighted in</data>
+</edge>
+<edge source="77th academy awards" target=" 2005">
+  <data key="d1"> happened in</data>
+</edge>
+<edge source="77th academy awards" target=" 78th academy awards">
+  <data key="d1"> next in sequence</data>
+</edge>
+<edge source="76th academy awards" target=" 2004">
+  <data key="d1"> happened in</data>
+</edge>
+<edge source="76th academy awards" target=" 77th academy awards">
+  <data key="d1"> next in sequence</data>
+</edge>
+<edge source="78th academy awards" target=" 2006">
+  <data key="d1"> has year</data>
+</edge>
+<edge source="78th academy awards" target=" 79th academy awards">
+  <data key="d1"> next in sequence</data>
+</edge>
+<edge source="78th academy awards" target="2006">
+  <data key="d1">has year</data>
+</edge>
+<edge source="78th academy awards" target="79th academy awards">
+  <data key="d1">followed by</data>
+</edge>
+<edge source="79th academy awards" target=" 2007">
+  <data key="d1"> has year</data>
+</edge>
+<edge source="79th academy awards" target="2007">
+  <data key="d1">has year</data>
+</edge>
+<edge source="79th academy awards" target="80th academy awards">
+  <data key="d1">preceded by</data>
+</edge>
+<edge source="80th academy awards" target="winners">
+  <data key="d1">includes</data>
+</edge>
+<edge source="80th academy awards" target="81st academy awards">
+  <data key="d1">followed by</data>
+</edge>
+<edge source="winners" target="81st academy awards">
+  <data key="d1">includes</data>
+</edge>
+<edge source="winners" target="83rd academy awards">
+  <data key="d1">includes</data>
+</edge>
+<edge source="winners" target="90th academy awards">
+  <data key="d1">had nominees</data>
+</edge>
+<edge source="winners" target="91st academy awards">
+  <data key="d1">had nominees</data>
+</edge>
+<edge source="winners" target="92nd academy awards">
+  <data key="d1">includes</data>
+</edge>
+<edge source="winners" target="february 16">
+  <data key="d1">announced on</data>
+</edge>
+<edge source="winners" target="93rd academy awards">
+  <data key="d1">includes</data>
+</edge>
+<edge source="winners" target="may 1">
+  <data key="d1">announced on</data>
+</edge>
+<edge source="winners" target="95th academy awards">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="includes" target="november 10">
+  <data key="d1"> 2014</data>
+</edge>
+<edge source="83rd academy awards" target="2011">
+  <data key="d1">happened in</data>
+</edge>
+<edge source="83rd academy awards" target="84th academy awards">
+  <data key="d1">precedes</data>
+</edge>
+<edge source="84th academy awards" target="2012">
+  <data key="d1">occurred in</data>
+</edge>
+<edge source="84th academy awards" target="85th academy awards">
+  <data key="d1">preceded</data>
+</edge>
+<edge source="2012" target="2013">
+  <data key="d1">followed by</data>
+</edge>
+<edge source="85th academy awards" target="2013">
+  <data key="d1">occurred in</data>
+</edge>
+<edge source="85th academy awards" target="86th academy awards">
+  <data key="d1">preceded</data>
+</edge>
+<edge source="2013" target="2014">
+  <data key="d1">followed by</data>
+</edge>
+<edge source="86th academy awards" target="2014">
+  <data key="d1">for year</data>
+</edge>
+<edge source="86th academy awards" target="87th academy awards">
+  <data key="d1">preceded</data>
+</edge>
+<edge source="2014" target="2015">
+  <data key="d1">followed by</data>
+</edge>
+<edge source="87th academy awards" target="2015">
+  <data key="d1">for year</data>
+</edge>
+<edge source="87th academy awards" target="88th academy awards">
+  <data key="d1">follows</data>
+</edge>
+<edge source="2015" target="2016">
+  <data key="d1">before</data>
+</edge>
+<edge source="academy awards" target="year">
+  <data key="d1">occur annually</data>
+</edge>
+<edge source="2016" target="88th academy awards">
+  <data key="d1">happened in</data>
+</edge>
+<edge source="2016" target="january 25">
+  <data key="d1">is date of</data>
+</edge>
+<edge source="2016" target="2017">
+  <data key="d1">before</data>
+</edge>
+<edge source="88th academy awards" target="89th academy awards">
+  <data key="d1">follows</data>
+</edge>
+<edge source="2017" target="89th academy awards">
+  <data key="d1">happened in</data>
+</edge>
+<edge source="2017" target="march 3">
+  <data key="d1">is date of</data>
+</edge>
+<edge source="90th academy awards" target="2018">
+  <data key="d1">occurred in</data>
+</edge>
+<edge source="90th academy awards" target="91st academy awards">
+  <data key="d1">occurred after</data>
+</edge>
+<edge source="90th academy awards" target="april 1">
+  <data key="d1">occurred on</data>
+</edge>
+<edge source="2018" target="april 1">
+  <data key="d1">is date of</data>
+</edge>
+<edge source="april 1" target="94th academy awards">
+  <data key="d1">happened on</data>
+</edge>
+<edge source="92nd academy awards" target="nominees">
+  <data key="d1">includes</data>
+</edge>
+<edge source="nominees" target="february 16">
+  <data key="d1">announced on</data>
+</edge>
+<edge source="nominees" target="94th academy awards">
+  <data key="d1">related to</data>
+</edge>
+<edge source="94th academy awards" target="95th academy awards">
+  <data key="d1">follows</data>
+</edge>
+<edge source="95th academy awards" target="march 2023">
+  <data key="d1">happened on</data>
+</edge>
+<edge source="onward" target="pixar">
+  <data key="d1">created by</data>
+</edge>
+<edge source="onward" target="type of animated feature">
+  <data key="d1">is a</data>
+</edge>
+<edge source="onward" target="film">
+  <data key="d1">type of</data>
+</edge>
+<edge source="onward" target="2020 (93rd)">
+  <data key="d1">film</data>
+</edge>
+<edge source="pixar" target="films">
+  <data key="d1">created</data>
+</edge>
+<edge source="pixar" target="0">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="pixar" target="11">
+  <data key="d1">wins</data>
+</edge>
+<edge source="pixar" target="18">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="pixar" target="monsters">
+  <data key="d1">films</data>
+</edge>
+<edge source="beautiful mind" target="2002">
+  <data key="d1">won in</data>
+</edge>
+<edge source="beautiful mind" target="films">
+  <data key="d1">type of</data>
+</edge>
+<edge source="dark knight" target="film">
+  <data key="d1">type of</data>
+</edge>
+<edge source="dark knight" target="national film registry">
+  <data key="d1">included in</data>
+</edge>
+<edge source="film" target="clockwork orange">
+  <data key="d1">type of</data>
+</edge>
+<edge source="film" target="joy luck club">
+  <data key="d1">type of</data>
+</edge>
+<edge source="film" target="animated">
+  <data key="d1">type of</data>
+</edge>
+<edge source="film" target="documentary">
+  <data key="d1">type of</data>
+</edge>
+<edge source="film" target="cartoon">
+  <data key="d1">type of</data>
+</edge>
+<edge source="film" target="national film registry">
+  <data key="d1">included in</data>
+</edge>
+<edge source="national film registry" target="clockwork orange">
+  <data key="d1">included in</data>
+</edge>
+<edge source="national film registry" target="joy luck club">
+  <data key="d1">included in</data>
+</edge>
+<edge source="national film registry" target="25 films">
+  <data key="d1">includes</data>
+</edge>
+<edge source="national film registry" target="documentary">
+  <data key="d1">included in</data>
+</edge>
+<edge source="national film registry" target="star wars">
+  <data key="d1">included in</data>
+</edge>
+<edge source="animated" target="international">
+  <data key="d1">included in</data>
+</edge>
+<edge source="animated" target="festival">
+  <data key="d1">includes</data>
+</edge>
+<edge source="cartoon" target="international">
+  <data key="d1">included in</data>
+</edge>
+<edge source="25 films" target="films">
+  <data key="d1">includes</data>
+</edge>
+<edge source="films" target="international">
+  <data key="d1">includes</data>
+</edge>
+<edge source="films" target="star wars">
+  <data key="d1">type of</data>
+</edge>
+<edge source="international" target="festival">
+  <data key="d1">scope of</data>
+</edge>
+<edge source="festival" target="star wars">
+  <data key="d1">scope of</data>
+</edge>
+<edge source="jedi" target="star wars">
+  <data key="d1">character in</data>
+</edge>
+<edge source="boin adriano" target="diario">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="diario" target="march 13">
+  <data key="d1">published on</data>
+</edge>
+<edge source="2023 co-recipient: hayao miyazaki" target="2023 co-recipient: hayao miyazaki">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="2023 co-recipient: hayao miyazaki" target="0">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="2001 (74th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="2010 (83rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="2020 (93rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="multiple wins[edit] wins individual 3 pete docter 2 brad bird byron howard hayao miyazaki jonas rivera clark spencer andrew stanton lee unkrich">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="3">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="laika">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="cartoon saloon">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="les armateurs">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="blue sky studios">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="tim burton productions">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="american empirical">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="toy story">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="how to train your dragon">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="irish folklore trilogy">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="kung fu panda">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="wreck-it ralph">
+  <data key="d1">wins</data>
+</edge>
+<edge source="0" target="oldest winner">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="academy of motion picture arts and sciences (ampas) records most wins per ceremony academy aperture 2025 oscar season oscar speech oscar bait governors awards nicholl fellowships in screenwriting pre-show">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="proposed awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="governors awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="merit awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="active">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="majors">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="nbcuniversal">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="paramount global">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="disney entertainment">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="warner bros.">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="sony pictures">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="the animation guild">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="0" target="awards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="awarded for" target="awarded for">
+  <data key="d1">academy award for best animated feature</data>
+</edge>
+<edge source="awarded for" target="1">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="awarded for" target="the best animated film with a running time of more than 40 minutes">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="1" target="2001 (74th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="2010 (83rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="2020 (93rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="2">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="walt disney animation studios">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="sony pictures animation">
+  <data key="d1">wins</data>
+</edge>
+<edge source="1" target="netflix animation">
+  <data key="d1">wins</data>
+</edge>
+<edge source="1" target="aardman">
+  <data key="d1">wins</data>
+</edge>
+<edge source="1" target="nickelodeon">
+  <data key="d1">wins</data>
+</edge>
+<edge source="1" target="shrek">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="wallace and gromit">
+  <data key="d1">wins</data>
+</edge>
+<edge source="1" target="the incredibles">
+  <data key="d1">wins</data>
+</edge>
+<edge source="1" target="spider-verse">
+  <data key="d1">wins</data>
+</edge>
+<edge source="1" target="oldest nominee">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="awards of merit">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="academy scientific and technical awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="special awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="companies and studios">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="active">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="majors">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="nbcuniversal">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="industry associations the animation guild">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="1" target="industry associations">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="the animation guild">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="1" target="awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="history">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="country" target="country">
+  <data key="d1">academy award for best animated feature</data>
+</edge>
+<edge source="country" target="2">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="country" target="united states">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="2" target="2001 (74th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="2010 (83rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="2020 (93rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="3">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="2">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="brad bird">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="byron howard">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="hayao miyazaki">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="jonas rivera">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="7">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="clark spencer">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="8">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="andrew stanton">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="9">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="lee unkrich">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="26">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="wes anderson">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="27">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="bonnie arnold">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="28">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="chris buck">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="29">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="tim burton">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="30">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="chris butler">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="31">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="sylvain chomet">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="32">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="don hall">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="33">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="john lasseter">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="34">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="john musker">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="35">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="yoshiaki nishimura">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="36">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="37">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="osnat shurer">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="38">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="39">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="arianne sutner">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="40">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="41">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="peter del vecho">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="42">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="paul young">
+  <data key="d1">individual</data>
+</edge>
+<edge source="2" target="423">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="74">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="15">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="16">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="17">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="18">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="19">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="20">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="21">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="22">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="23">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="24">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="25">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="31pixar">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="dreamworks animation">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="studio ghibli">
+  <data key="d1">wins</data>
+</edge>
+<edge source="2" target="nickelodeon">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="tim burton productions">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="american empirical">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="toy story">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="wallace and gromit">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="the incredibles">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="spider-verse">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="kung fu panda">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="wreck-it ralph">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="2" target="youngest winner">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="proposed awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="student awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="majors">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="nbcuniversal">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="paramount global">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="history">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="related">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="presented by" target="presented by">
+  <data key="d1">academy award for best animated feature</data>
+</edge>
+<edge source="presented by" target="3">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="presented by" target="academy of motion picture arts and sciences (ampas)">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="3" target="2002 (75th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="2011 (84th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="2020 (93rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="3">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="3" target="pete docter">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="13">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="brad bird">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="14">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="ron clements">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="15">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="dean deblois">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="16">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="byron howard">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="17">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="travis knight">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="18">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="phil lord">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="19">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="christopher miller">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="20">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="rich moore">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="21">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="tomm moore">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="22">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="chris sanders">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="23">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="clark spencer">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="24">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="toshio suzuki">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="25">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="chris williams">
+  <data key="d1">individual</data>
+</edge>
+<edge source="3" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="7">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="8">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="9">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="10">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="11">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="12">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="studio ghibli">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="les armateurs">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="3" target="blue sky studios">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="3" target="wallace and gromit">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="3" target="the incredibles">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="how to train your dragon">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="3" target="irish folklore trilogy">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="3" target="youngest nominee">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="special awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="active">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="nbcuniversal">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="paramount global">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="disney entertainment">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="related">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="first awarded" target="first awarded">
+  <data key="d1">academy award for best animated feature</data>
+</edge>
+<edge source="first awarded" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="first awarded" target="shrek (2001)">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="4" target="2002 (75th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="2011 (84th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="2020 (93rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="4">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="4" target="11">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="pete docter">
+  <data key="d1">individual</data>
+</edge>
+<edge source="4" target="12">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="hayao miyazaki">
+  <data key="d1">individual</data>
+</edge>
+<edge source="4" target="walt disney animation studios">
+  <data key="d1">wins</data>
+</edge>
+<edge source="4" target="sony pictures animation">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="netflix animation">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="4" target="aardman">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="4" target="cartoon saloon">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="4" target="shrek">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="4" target="spider-verse">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="governors awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="majors">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="paramount global">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="disney entertainment">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="warner bros.">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="most recent winner" target="most recent winner">
+  <data key="d1">academy award for best animated feature</data>
+</edge>
+<edge source="most recent winner" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="most recent winner" target="the boy and the heron (2023)">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="5" target="2002 (75th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="2011 (84th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="2021 (94th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="sony pictures animation">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="5" target="netflix animation">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="how to train your dragon">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="academy scientific and technical awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="nbcuniversal">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="disney entertainment">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="warner bros.">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="sony pictures">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="most awards" target="most awards">
+  <data key="d1">academy award for best animated feature</data>
+</edge>
+<edge source="most awards" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="most awards" target="pixar (11) / pete docter (3)">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="6" target="2002 (75th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="2011 (84th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="2021 (94th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="aardman">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="laika">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="6" target="irish folklore trilogy">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="student awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="paramount global">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="warner bros.">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="sony pictures">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="most nominations" target="most nominations">
+  <data key="d1">academy award for best animated feature</data>
+</edge>
+<edge source="most nominations" target="7">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="most nominations" target="pixar (18) / pete docter and hayao miyazaki (4)">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="7" target="2002 (75th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="2011 (84th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="2021 (94th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="studio ghibli">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="7" target="nickelodeon">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="kung fu panda">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="former awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="disney entertainment">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="sony pictures">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="former">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="website" target="website">
+  <data key="d1">academy award for best animated feature</data>
+</edge>
+<edge source="website" target="8">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="website" target="oscars.org">
+  <data key="d1">academy award for best animated feature.1</data>
+</edge>
+<edge source="website" target="8indicates the winner">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="2003 (76th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="2012 (85th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="2021 (94th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="laika">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="wreck-it ralph">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="merit awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="warner bros.">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="former">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="indicates the winner" target="02001 (74th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2001 (74th)" target="shrek">
+  <data key="d1">film</data>
+</edge>
+<edge source="2001 (74th)" target="aron warner">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2001 (74th)" target="[12]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2001 (74th)" target="2001 (74th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2001 (74th)" target="jimmy neutron: boy genius">
+  <data key="d1">film</data>
+</edge>
+<edge source="2001 (74th)" target="steve oedekerk and john a. davis">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2001 (74th)" target="monsters">
+  <data key="d1">film</data>
+</edge>
+<edge source="2001 (74th)" target="pete docter and john lasseter">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="shrek" target="dreamworks animation">
+  <data key="d1">films</data>
+</edge>
+<edge source="shrek" target="shrek">
+  <data key="d1">films</data>
+</edge>
+<edge source="jimmy neutron: boy genius" target="nickelodeon">
+  <data key="d1">films</data>
+</edge>
+<edge source="2002 (75th)" target="2002 (75th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2002 (75th)" target="spirited away">
+  <data key="d1">film</data>
+</edge>
+<edge source="2002 (75th)" target="hayao miyazaki">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2002 (75th)" target="[25]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2002 (75th)" target="ice age">
+  <data key="d1">film</data>
+</edge>
+<edge source="2002 (75th)" target="chris wedge">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2002 (75th)" target="lilo and stitch">
+  <data key="d1">film</data>
+</edge>
+<edge source="2002 (75th)" target="chris sanders">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2002 (75th)" target="spirit: stallion of the cimarron">
+  <data key="d1">film</data>
+</edge>
+<edge source="2002 (75th)" target="jeffrey katzenberg">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2002 (75th)" target="treasure planet">
+  <data key="d1">film</data>
+</edge>
+<edge source="2002 (75th)" target="ron clements">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="spirited away" target="studio ghibli">
+  <data key="d1">films</data>
+</edge>
+<edge source="hayao miyazaki" target="2005 (78th)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="hayao miyazaki" target="oldest winner">
+  <data key="d1">director</data>
+</edge>
+<edge source="hayao miyazaki" target="oldest nominee">
+  <data key="d1">director</data>
+</edge>
+<edge source="ice age" target="blue sky studios">
+  <data key="d1">films</data>
+</edge>
+<edge source="chris sanders" target="2013 (86th)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2003 (76th)" target="2003 (76th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2003 (76th)" target="finding nemo">
+  <data key="d1">film</data>
+</edge>
+<edge source="2003 (76th)" target="andrew stanton">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2003 (76th)" target="[26]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2003 (76th)" target="9">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2003 (76th)" target="brother bear">
+  <data key="d1">film</data>
+</edge>
+<edge source="2003 (76th)" target="aaron blaise and robert walker">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2003 (76th)" target="10">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2003 (76th)" target="the triplets of belleville">
+  <data key="d1">film</data>
+</edge>
+<edge source="2003 (76th)" target="sylvain chomet">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="finding nemo" target="youngest winner">
+  <data key="d1">film</data>
+</edge>
+<edge source="andrew stanton" target="2008 (81st)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="andrew stanton" target="youngest winner">
+  <data key="d1">director</data>
+</edge>
+<edge source="9" target="2012 (85th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="9" target="2021 (94th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="9" target="cartoon saloon">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="9" target="special awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="9" target="sony pictures">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="10" target="2012 (85th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="10" target="2022 (95th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="10" target="les armateurs">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="10" target="ceremonies (years of film release)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="10" target="former">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="10" target="industry associations">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="the triplets of belleville" target="les armateurs">
+  <data key="d1">films</data>
+</edge>
+<edge source="sylvain chomet" target="2010 (83rd)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2004 (77th)" target="2004 (77th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2004 (77th)" target="11">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2004 (77th)" target="the incredibles">
+  <data key="d1">film</data>
+</edge>
+<edge source="2004 (77th)" target="brad bird">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2004 (77th)" target="[27]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2004 (77th)" target="12">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2004 (77th)" target="shark tale">
+  <data key="d1">film</data>
+</edge>
+<edge source="2004 (77th)" target="bill damaschke">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2004 (77th)" target="13">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2004 (77th)" target="shrek 2">
+  <data key="d1">film</data>
+</edge>
+<edge source="2004 (77th)" target="andrew adamson">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="11" target="2012 (85th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="11" target="2022 (95th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="11" target="blue sky studios">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="the incredibles" target="the incredibles">
+  <data key="d1">films</data>
+</edge>
+<edge source="brad bird" target="2007 (80th)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="brad bird" target="2018 (91st)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="12" target="2012 (85th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="12" target="2022 (95th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="12" target="tim burton productions">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="12" target="industry associations">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="13" target="2013 (86th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="13" target="2022 (95th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="13" target="walt disney animation studios">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="13" target="american empirical">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2005 (78th)" target="2005 (78th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2005 (78th)" target="14">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2005 (78th)" target="wallace &amp; gromit: the curse of the were-rabbit">
+  <data key="d1">film</data>
+</edge>
+<edge source="2005 (78th)" target="nick park and steve box">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2005 (78th)" target="[28]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2005 (78th)" target="15">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2005 (78th)" target="corpse bride">
+  <data key="d1">film</data>
+</edge>
+<edge source="2005 (78th)" target="mike johnson and tim burton">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2005 (78th)" target="16">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2005 (78th)" target="howl's moving castle">
+  <data key="d1">film</data>
+</edge>
+<edge source="14" target="2013 (86th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="14" target="2022 (95th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="14" target="dreamworks animation">
+  <data key="d1">nominations</data>
+</edge>
+<edge source="14" target="other topicsawards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="wallace &amp; gromit: the curse of the were-rabbit" target="aardman">
+  <data key="d1">films</data>
+</edge>
+<edge source="wallace &amp; gromit: the curse of the were-rabbit" target="wallace and gromit">
+  <data key="d1">films</data>
+</edge>
+<edge source="15" target="2013 (86th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="15" target="2023 (96th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="15" target="other topics">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="corpse bride" target="laika">
+  <data key="d1">films</data>
+</edge>
+<edge source="corpse bride" target="tim burton productions">
+  <data key="d1">films</data>
+</edge>
+<edge source="16" target="2013 (86th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="16" target="2023 (96th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="16" target="awards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2006 (79th)" target="2006 (79th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2006 (79th)" target="17">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2006 (79th)" target="happy feet">
+  <data key="d1">film</data>
+</edge>
+<edge source="2006 (79th)" target="george miller">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2006 (79th)" target="[29]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2006 (79th)" target="18">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2006 (79th)" target="cars">
+  <data key="d1">film</data>
+</edge>
+<edge source="2006 (79th)" target="john lasseter">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2006 (79th)" target="19">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2006 (79th)" target="monster house">
+  <data key="d1">film</data>
+</edge>
+<edge source="2006 (79th)" target="gil kenan">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="17" target="2013 (86th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="17" target="2023 (96th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="17" target="awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="18" target="2014 (87th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="18" target="2023 (96th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="18" target="history">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="19" target="2014 (87th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="19" target="2023 (96th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="19" target="related">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2007 (80th)" target="2007 (80th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2007 (80th)" target="20">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2007 (80th)" target="ratatouille">
+  <data key="d1">film</data>
+</edge>
+<edge source="2007 (80th)" target="[30]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2007 (80th)" target="21">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2007 (80th)" target="persepolis">
+  <data key="d1">film</data>
+</edge>
+<edge source="2007 (80th)" target="marjane satrapi and vincent paronnaud">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2007 (80th)" target="22">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2007 (80th)" target="surf's up">
+  <data key="d1">film</data>
+</edge>
+<edge source="2007 (80th)" target="ash brannon and chris buck">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="20" target="2014 (87th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="21" target="2014 (87th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="22" target="2014 (87th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="surf's up" target="sony pictures animation">
+  <data key="d1">films</data>
+</edge>
+<edge source="2008 (81st)" target="2008 (81st)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2008 (81st)" target="23">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2008 (81st)" target="[31]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2008 (81st)" target="24">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2008 (81st)" target="bolt">
+  <data key="d1">film</data>
+</edge>
+<edge source="2008 (81st)" target="chris williams and byron howard">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2008 (81st)" target="25">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2008 (81st)" target="kung fu panda">
+  <data key="d1">film</data>
+</edge>
+<edge source="2008 (81st)" target="john stevenson and mark osborne">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="23" target="2015 (88th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="24" target="2015 (88th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="25" target="2015 (88th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="kung fu panda" target="kung fu panda">
+  <data key="d1">films</data>
+</edge>
+<edge source="2009 (82nd)" target="2009 (82nd)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2009 (82nd)" target="26">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2009 (82nd)" target="up">
+  <data key="d1">film</data>
+</edge>
+<edge source="2009 (82nd)" target="pete docter">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2009 (82nd)" target="[32]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2009 (82nd)" target="27">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2009 (82nd)" target="coraline">
+  <data key="d1">film</data>
+</edge>
+<edge source="2009 (82nd)" target="henry selick">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2009 (82nd)" target="28">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2009 (82nd)" target="fantastic mr. fox">
+  <data key="d1">film</data>
+</edge>
+<edge source="2009 (82nd)" target="wes anderson">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2009 (82nd)" target="29">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2009 (82nd)" target="the princess and the frog">
+  <data key="d1">film</data>
+</edge>
+<edge source="2009 (82nd)" target="john musker and ron clements">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2009 (82nd)" target="30">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2009 (82nd)" target="the secret of kells">
+  <data key="d1">film</data>
+</edge>
+<edge source="2009 (82nd)" target="tomm moore">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2009 (82nd)" target="302010 (83rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="26" target="2015 (88th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="27" target="2015 (88th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="28" target="2016 (89th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="fantastic mr. fox" target="american empirical">
+  <data key="d1">films</data>
+</edge>
+<edge source="wes anderson" target="2018 (91st)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="29" target="2016 (89th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="30" target="2016 (89th)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="the secret of kells" target="cartoon saloon">
+  <data key="d1">films</data>
+</edge>
+<edge source="the secret of kells" target="irish folklore trilogy">
+  <data key="d1">films</data>
+</edge>
+<edge source="tomm moore" target="2020 (93rd)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2010 (83rd)" target="lee unkrich">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2010 (83rd)" target="[33]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2010 (83rd)" target="2010 (83rd)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2010 (83rd)" target="how to train your dragon">
+  <data key="d1">film</data>
+</edge>
+<edge source="2010 (83rd)" target="chris sanders and dean deblois">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2010 (83rd)" target="the illusionist">
+  <data key="d1">film</data>
+</edge>
+<edge source="how to train your dragon" target="how to train your dragon">
+  <data key="d1">films</data>
+</edge>
+<edge source="2011 (84th)" target="2011 (84th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2011 (84th)" target="rango">
+  <data key="d1">film</data>
+</edge>
+<edge source="2011 (84th)" target="gore verbinski">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2011 (84th)" target="[34]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2011 (84th)" target="a cat in paris">
+  <data key="d1">film</data>
+</edge>
+<edge source="2011 (84th)" target="alain gagnol and jean-loup felicioli">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2011 (84th)" target="chico and rita">
+  <data key="d1">film</data>
+</edge>
+<edge source="2011 (84th)" target="fernando trueba and javier mariscal">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2011 (84th)" target="kung fu panda 2">
+  <data key="d1">film</data>
+</edge>
+<edge source="2011 (84th)" target="jennifer yuh nelson">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2011 (84th)" target="puss in boots">
+  <data key="d1">film</data>
+</edge>
+<edge source="2011 (84th)" target="chris miller">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2012 (85th)" target="2012 (85th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2012 (85th)" target="brave">
+  <data key="d1">film</data>
+</edge>
+<edge source="2012 (85th)" target="mark andrews and brenda chapman">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2012 (85th)" target="[35]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2012 (85th)" target="frankenweenie">
+  <data key="d1">film</data>
+</edge>
+<edge source="2012 (85th)" target="tim burton">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2012 (85th)" target="paranorman">
+  <data key="d1">film</data>
+</edge>
+<edge source="2012 (85th)" target="sam fell and chris butler">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2012 (85th)" target="the pirates! band of misfits">
+  <data key="d1">film</data>
+</edge>
+<edge source="2012 (85th)" target="peter lord">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2012 (85th)" target="wreck-it ralph">
+  <data key="d1">film</data>
+</edge>
+<edge source="2012 (85th)" target="rich moore">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="wreck-it ralph" target="wreck-it ralph">
+  <data key="d1">films</data>
+</edge>
+<edge source="wreck-it ralph" target="8oldest winner">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="rich moore" target="2018 (91st)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2013 (86th)" target="2013 (86th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2013 (86th)" target="frozen">
+  <data key="d1">film</data>
+</edge>
+<edge source="2013 (86th)" target="chris buck">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2013 (86th)" target="[36]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2013 (86th)" target="the croods">
+  <data key="d1">film</data>
+</edge>
+<edge source="2013 (86th)" target="despicable me 2">
+  <data key="d1">film</data>
+</edge>
+<edge source="2013 (86th)" target="chris renaud">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2013 (86th)" target="ernest &amp; celestine">
+  <data key="d1">film</data>
+</edge>
+<edge source="2013 (86th)" target="benjamin renner and didier brunner">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2013 (86th)" target="the wind rises">
+  <data key="d1">film</data>
+</edge>
+<edge source="2013 (86th)" target="hayao miyazaki and toshio suzuki">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="ernest &amp; celestine" target="youngest nominee">
+  <data key="d1">film</data>
+</edge>
+<edge source="hayao miyazaki and toshio suzuki" target="2023 (96th)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2014 (87th)" target="2014 (87th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2014 (87th)" target="big hero 6">
+  <data key="d1">film</data>
+</edge>
+<edge source="2014 (87th)" target="don hall">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2014 (87th)" target="[37]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2014 (87th)" target="the boxtrolls">
+  <data key="d1">film</data>
+</edge>
+<edge source="2014 (87th)" target="anthony stacchi">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2014 (87th)" target="how to train your dragon 2">
+  <data key="d1">film</data>
+</edge>
+<edge source="2014 (87th)" target="dean deblois and bonnie arnold">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2014 (87th)" target="song of the sea">
+  <data key="d1">film</data>
+</edge>
+<edge source="2014 (87th)" target="tomm moore and paul young">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2014 (87th)" target="the tale of the princess kaguya">
+  <data key="d1">film</data>
+</edge>
+<edge source="2014 (87th)" target="isao takahata and yoshiaki nishimura">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="don hall" target="2021 (94th)">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2015 (88th)" target="2015 (88th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2015 (88th)" target="inside out">
+  <data key="d1">film</data>
+</edge>
+<edge source="2015 (88th)" target="pete docter and jonas rivera">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2015 (88th)" target="[38]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2015 (88th)" target="anomalisa">
+  <data key="d1">film</data>
+</edge>
+<edge source="2015 (88th)" target="charlie kaufman">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2015 (88th)" target="boy and the world">
+  <data key="d1">film</data>
+</edge>
+<edge source="2015 (88th)" target="alê abreu">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2015 (88th)" target="shaun the sheep movie">
+  <data key="d1">film</data>
+</edge>
+<edge source="2015 (88th)" target="mark burton and richard starzak">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2015 (88th)" target="when marnie was there">
+  <data key="d1">film</data>
+</edge>
+<edge source="2015 (88th)" target="hiromasa yonebayashi and yoshiaki nishimura">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2016 (89th)" target="2016 (89th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2016 (89th)" target="zootopia">
+  <data key="d1">film</data>
+</edge>
+<edge source="2016 (89th)" target="byron howard">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2016 (89th)" target="[39]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2016 (89th)" target="kubo and the two strings">
+  <data key="d1">film</data>
+</edge>
+<edge source="2016 (89th)" target="travis knight and arianne sutner">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2016 (89th)" target="moana">
+  <data key="d1">film</data>
+</edge>
+<edge source="2016 (89th)" target="john musker">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2016 (89th)" target="31">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2016 (89th)" target="my life as a courgette">
+  <data key="d1">film</data>
+</edge>
+<edge source="2016 (89th)" target="claude barras and max karli">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2016 (89th)" target="32">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2016 (89th)" target="the red turtle">
+  <data key="d1">film</data>
+</edge>
+<edge source="2016 (89th)" target="michaël dudok de wit and toshio suzuki">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2017 (90th)" target="2017 (90th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2017 (90th)" target="33">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2017 (90th)" target="coco">
+  <data key="d1">film</data>
+</edge>
+<edge source="2017 (90th)" target="lee unkrich and darla k. anderson">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2017 (90th)" target="[40]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2017 (90th)" target="34">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2017 (90th)" target="the boss baby">
+  <data key="d1">film</data>
+</edge>
+<edge source="2017 (90th)" target="tom mcgrath and ramsey naito">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2017 (90th)" target="35">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2017 (90th)" target="the breadwinner">
+  <data key="d1">film</data>
+</edge>
+<edge source="2017 (90th)" target="nora twomey and anthony leo">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2017 (90th)" target="36">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2017 (90th)" target="ferdinand">
+  <data key="d1">film</data>
+</edge>
+<edge source="2017 (90th)" target="carlos saldanha and lori forte">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2017 (90th)" target="37">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2017 (90th)" target="loving vincent">
+  <data key="d1">film</data>
+</edge>
+<edge source="2017 (90th)" target="dorota kobiela">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2018 (91st)" target="2018 (91st)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2018 (91st)" target="38">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2018 (91st)" target="spider-man: into the spider-verse">
+  <data key="d1">film</data>
+</edge>
+<edge source="2018 (91st)" target="bob persichetti">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2018 (91st)" target="[41]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2018 (91st)" target="39">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2018 (91st)" target="incredibles 2">
+  <data key="d1">film</data>
+</edge>
+<edge source="2018 (91st)" target="40">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2018 (91st)" target="isle of dogs">
+  <data key="d1">film</data>
+</edge>
+<edge source="2018 (91st)" target="41">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2018 (91st)" target="mirai">
+  <data key="d1">film</data>
+</edge>
+<edge source="2018 (91st)" target="mamoru hosoda and yuichiro saito">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2018 (91st)" target="42">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2018 (91st)" target="ralph breaks the internet">
+  <data key="d1">film</data>
+</edge>
+<edge source="spider-man: into the spider-verse" target="spider-verse">
+  <data key="d1">films</data>
+</edge>
+<edge source="2019 (92nd)" target="2019 (92nd)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2019 (92nd)" target="43">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2019 (92nd)" target="toy story 4">
+  <data key="d1">film</data>
+</edge>
+<edge source="2019 (92nd)" target="josh cooley">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2019 (92nd)" target="[42]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2019 (92nd)" target="44">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2019 (92nd)" target="how to train your dragon: the hidden world">
+  <data key="d1">film</data>
+</edge>
+<edge source="2019 (92nd)" target="dean deblois">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2019 (92nd)" target="45">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2019 (92nd)" target="i lost my body">
+  <data key="d1">film</data>
+</edge>
+<edge source="2019 (92nd)" target="jérémy clapin and marc du pontavice">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2019 (92nd)" target="46">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2019 (92nd)" target="klaus">
+  <data key="d1">film</data>
+</edge>
+<edge source="2019 (92nd)" target="sergio pablos">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2019 (92nd)" target="47">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2019 (92nd)" target="missing link">
+  <data key="d1">film</data>
+</edge>
+<edge source="2019 (92nd)" target="chris butler">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2019 (92nd)" target="472020 (93rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="klaus" target="netflix animation">
+  <data key="d1">films</data>
+</edge>
+<edge source="2020 (93rd)" target="soul">
+  <data key="d1">film</data>
+</edge>
+<edge source="2020 (93rd)" target="pete docter and dana murray">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2020 (93rd)" target="[43]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2020 (93rd)" target="2020 (93rd)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2020 (93rd)" target="dan scanlon and kori rae">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2020 (93rd)" target="over the moon">
+  <data key="d1">film</data>
+</edge>
+<edge source="2020 (93rd)" target="glen keane">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2020 (93rd)" target="a shaun the sheep movie: farmageddon">
+  <data key="d1">film</data>
+</edge>
+<edge source="2020 (93rd)" target="richard phelan">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2020 (93rd)" target="wolfwalkers">
+  <data key="d1">film</data>
+</edge>
+<edge source="2021 (94th)" target="2021 (94th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2021 (94th)" target="encanto">
+  <data key="d1">film</data>
+</edge>
+<edge source="2021 (94th)" target="jared bush">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2021 (94th)" target="[44]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2021 (94th)" target="flee">
+  <data key="d1">film</data>
+</edge>
+<edge source="2021 (94th)" target="jonas poher rasmussen">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2021 (94th)" target="luca">
+  <data key="d1">film</data>
+</edge>
+<edge source="2021 (94th)" target="enrico casarosa and andrea warren">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2021 (94th)" target="the mitchells vs. the machines">
+  <data key="d1">film</data>
+</edge>
+<edge source="2021 (94th)" target="mike rianda">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2021 (94th)" target="raya and the last dragon">
+  <data key="d1">film</data>
+</edge>
+<edge source="2022 (95th)" target="2022 (95th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2022 (95th)" target="guillermo del toro's pinocchio">
+  <data key="d1">film</data>
+</edge>
+<edge source="2022 (95th)" target="guillermo del toro">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2022 (95th)" target="[45]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2022 (95th)" target="marcel the shell with shoes on">
+  <data key="d1">film</data>
+</edge>
+<edge source="2022 (95th)" target="dean fleischer camp">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2022 (95th)" target="puss in boots: the last wish">
+  <data key="d1">film</data>
+</edge>
+<edge source="2022 (95th)" target="joel crawford and mark swift">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2022 (95th)" target="the sea beast">
+  <data key="d1">film</data>
+</edge>
+<edge source="2022 (95th)" target="chris williams and jed schlanger">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2022 (95th)" target="turning red">
+  <data key="d1">film</data>
+</edge>
+<edge source="2022 (95th)" target="domee shi and lindsey collins">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2023 (96th)" target="2023 (96th)">
+  <data key="d1">year</data>
+</edge>
+<edge source="2023 (96th)" target="the boy and the heron">
+  <data key="d1">film</data>
+</edge>
+<edge source="2023 (96th)" target="[46]">
+  <data key="d1">ref.</data>
+</edge>
+<edge source="2023 (96th)" target="elemental">
+  <data key="d1">film</data>
+</edge>
+<edge source="2023 (96th)" target="peter sohn and denise ream">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2023 (96th)" target="nimona">
+  <data key="d1">film</data>
+</edge>
+<edge source="2023 (96th)" target="nick bruno">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2023 (96th)" target="robot dreams">
+  <data key="d1">film</data>
+</edge>
+<edge source="2023 (96th)" target="pablo berger">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2023 (96th)" target="spider-man: across the spider-verse">
+  <data key="d1">film</data>
+</edge>
+<edge source="2023 (96th)" target="kemp powers">
+  <data key="d1">nominees</data>
+</edge>
+<edge source="2023 (96th)" target="19multiple wins[edit] wins individual 3 pete docter 2 brad bird byron howard hayao miyazaki jonas rivera clark spencer andrew stanton lee unkrich">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="the boy and the heron" target="oldest winner">
+  <data key="d1">film</data>
+</edge>
+<edge source="the boy and the heron" target="oldest nominee">
+  <data key="d1">film</data>
+</edge>
+<edge source="multiple wins[edit] wins individual 3 pete docter 2 brad bird byron howard hayao miyazaki jonas rivera clark spencer andrew stanton lee unkrich" target="multiple nominations[edit] nominations individual 4 pete docter hayao miyazaki 3 brad bird ron clements dean deblois byron howard travis knight phil lord christopher miller rich moore tomm moore chris sanders clark spencer toshio suzuki chris williams 2 wes anderson bonnie arnold chris buck tim burton chris butler sylvain chomet don hall john lasseter john musker yoshiaki nishimura jonas rivera osnat shurer andrew stanton arianne sutner lee unkrich peter del vecho paul young">
+  <data key="d1">1</data>
+</edge>
+<edge source="walt disney animation studios" target="walt disney animation studios">
+  <data key="d1">studio</data>
+</edge>
+<edge source="walt disney animation studios" target="lilo &amp; stitch">
+  <data key="d1">films</data>
+</edge>
+<edge source="dreamworks animation" target="dreamworks animation">
+  <data key="d1">studio</data>
+</edge>
+<edge source="studio ghibli" target="studio ghibli">
+  <data key="d1">studio</data>
+</edge>
+<edge source="sony pictures animation" target="sony pictures animation">
+  <data key="d1">studio</data>
+</edge>
+<edge source="netflix animation" target="netflix animation">
+  <data key="d1">studio</data>
+</edge>
+<edge source="aardman" target="aardman">
+  <data key="d1">studio</data>
+</edge>
+<edge source="nickelodeon" target="nickelodeon">
+  <data key="d1">studio</data>
+</edge>
+<edge source="laika" target="laika">
+  <data key="d1">studio</data>
+</edge>
+<edge source="cartoon saloon" target="cartoon saloon">
+  <data key="d1">studio</data>
+</edge>
+<edge source="les armateurs" target="les armateurs">
+  <data key="d1">studio</data>
+</edge>
+<edge source="blue sky studios" target="blue sky studios">
+  <data key="d1">studio</data>
+</edge>
+<edge source="tim burton productions" target="tim burton productions">
+  <data key="d1">studio</data>
+</edge>
+<edge source="american empirical" target="american empirical">
+  <data key="d1">studio</data>
+</edge>
+<edge source="american empirical" target="13toy story">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="wallace and gromit" target="wallace and gromit">
+  <data key="d1">franchise</data>
+</edge>
+<edge source="spider-verse" target="spider-verse">
+  <data key="d1">franchise</data>
+</edge>
+<edge source="irish folklore trilogy" target="irish folklore trilogy">
+  <data key="d1">franchise</data>
+</edge>
+<edge source="oldest winner" target="83 years">
+  <data key="d1">age</data>
+</edge>
+<edge source="83 years" target="oldest nominee">
+  <data key="d1">age</data>
+</edge>
+<edge source="oldest nominee" target="oldest nominee">
+  <data key="d1">record</data>
+</edge>
+<edge source="youngest winner" target="youngest winner">
+  <data key="d1">record</data>
+</edge>
+<edge source="youngest winner" target="38 years">
+  <data key="d1">age</data>
+</edge>
+<edge source="youngest nominee" target="youngest nominee">
+  <data key="d1">record</data>
+</edge>
+<edge source="youngest nominee" target="benjamin renner">
+  <data key="d1">director</data>
+</edge>
+<edge source="youngest nominee" target="30 years">
+  <data key="d1">age</data>
+</edge>
+<edge source="youngest nominee" target="3academy of motion picture arts and sciences (ampas) records most wins per ceremony academy aperture 2025 oscar season oscar speech oscar bait governors awards nicholl fellowships in screenwriting pre-show">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="academy of motion picture arts and sciences (ampas) records most wins per ceremony academy aperture 2025 oscar season oscar speech oscar bait governors awards nicholl fellowships in screenwriting pre-show" target="academy of motion picture arts and sciences (ampas) records most wins per ceremony academy aperture 2025 oscar season oscar speech oscar bait governors awards nicholl fellowships in screenwriting pre-show">
+  <data key="d1">vteacademy awards.1</data>
+</edge>
+<edge source="awards of merit" target="awards of merit">
+  <data key="d1">vteacademy awards</data>
+</edge>
+<edge source="awards of merit" target="picture director actor actress supporting actor supporting actress adapted screenplay original screenplay animated feature documentary feature film international feature film animated short film documentary short film live action short film cinematography costume design film editing makeup and hairstyling original score original song production design sound visual effects proposed awards popular film">
+  <data key="d1">vteacademy awards.1</data>
+</edge>
+<edge source="proposed awards" target="proposed awards">
+  <data key="d1">vteacademy awards</data>
+</edge>
+<edge source="proposed awards" target="popular film">
+  <data key="d1">1</data>
+</edge>
+<edge source="proposed awards" target="0governors awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="special awards" target="special awards">
+  <data key="d1">0</data>
+</edge>
+<edge source="special awards" target="governors awards academy honorary award irving g. thalberg memorial award jean hersholt humanitarian award special achievement academy award academy scientific and technical awards academy award of merit (non-competitive) scientific and engineering award technical achievement award john a. bonner medal of commendation gordon e. sawyer award student awards student academy award">
+  <data key="d1">vteacademy awards.1</data>
+</edge>
+<edge source="special awards" target="academy juvenile award">
+  <data key="d1">1</data>
+</edge>
+<edge source="special awards" target="1shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="governors awards" target="governors awards">
+  <data key="d1">vteacademy awards</data>
+</edge>
+<edge source="governors awards" target="academy honorary award irving g. thalberg memorial award jean hersholt humanitarian award special achievement academy award">
+  <data key="d1">1</data>
+</edge>
+<edge source="academy scientific and technical awards" target="academy scientific and technical awards">
+  <data key="d1">0</data>
+</edge>
+<edge source="academy scientific and technical awards" target="academy award of merit (non-competitive) scientific and engineering award technical achievement award john a. bonner medal of commendation gordon e. sawyer award">
+  <data key="d1">1</data>
+</edge>
+<edge source="student awards" target="student awards">
+  <data key="d1">0</data>
+</edge>
+<edge source="student awards" target="student academy award">
+  <data key="d1">1</data>
+</edge>
+<edge source="student awards" target="2merit awards">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="former awards" target="former awards">
+  <data key="d1">vteacademy awards</data>
+</edge>
+<edge source="former awards" target="merit awards assistant director dance direction sound editing story special awards academy juvenile award">
+  <data key="d1">vteacademy awards.1</data>
+</edge>
+<edge source="merit awards" target="merit awards">
+  <data key="d1">vteacademy awards</data>
+</edge>
+<edge source="merit awards" target="assistant director dance direction sound editing story">
+  <data key="d1">1</data>
+</edge>
+<edge source="ceremonies (years of film release)" target="ceremonies (years of film release)">
+  <data key="d1">vteacademy awards</data>
+</edge>
+<edge source="ceremonies (years of film release)" target="1927/28 1928/29 1929/30 1930/31 1931/32 1932/33 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 1958 1959 1960 1961 1962 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020/21 2021 2022 2023">
+  <data key="d1">vteacademy awards.1</data>
+</edge>
+<edge source="shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)" target="shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)">
+  <data key="d1">vteacademy award for best animated feature.1</data>
+</edge>
+<edge source="shrek (2001) spirited away (2002) finding nemo (2003) the incredibles (2004) wallace &amp; gromit: the curse of the were-rabbit (2005) happy feet (2006) ratatouille (2007) wall-e (2008) up (2009) toy story 3 (2010) rango (2011) brave (2012) frozen (2013) big hero 6 (2014) inside out (2015) zootopia (2016) coco (2017) spider-man: into the spider-verse (2018) toy story 4 (2019) soul (2020) encanto (2021) guillermo del toro's pinocchio (2022) the boy and the heron (2023)" target="0companies and studiosactivemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="companies and studiosactivemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika" target=" inc. spindlehorse toons splash entertainment sprite animation studios stretch films stoopid buddy stoodios tau films threshold entertainment titmouse">
+  <data key="d1"> llc lee mendelson films lionsgate entertainment one media blasters melendez films man of action entertainment mattel television mexopolis mondo media 6 point harness netflix animation noble o entertainment parallax studio powerhouse animation studios psyop reel fx creative studios renegade animation rhythm and hues studios rough draft studios rovio animation screen novelties scholastic weston woods studios sd entertainment sentai filmworks shadowmachine skydance animation snee-oosh</data>
+</edge>
+<edge source=" inc. spindlehorse toons splash entertainment sprite animation studios stretch films stoopid buddy stoodios tau films threshold entertainment titmouse" target="activemajorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d1"> llc lee mendelson films lionsgate entertainment one media blasters melendez films man of action entertainment mattel television mexopolis mondo media 6 point harness netflix animation noble o entertainment parallax studio powerhouse animation studios psyop reel fx creative studios renegade animation rhythm and hues studios rough draft studios rovio animation screen novelties scholastic weston woods studios sd entertainment sentai filmworks shadowmachine skydance animation snee-oosh</data>
+</edge>
+<edge source="companies and studios" target="companies and studios">
+  <data key="d1">vteanimation industry in the united states.1</data>
+</edge>
+<edge source="companies and studios" target="industry associations the animation guild">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="companies and studios" target="the animation guild">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="active" target="active">
+  <data key="d1">companies and studios</data>
+</edge>
+<edge source="active" target="majorsnbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks 41 entertainment augenblick studios awesome inc. fox corporation bento box entertainment bandera entertainment billionfold inc. blur studio cartuna charlex cmcc cartoons dneg digital domain film roman phil roman entertainment floyd county productions fred wolf films fuzzy door productions hasbro entertainment joe murray productions kanbar animation kartoon studios wow unlimited media bolder media frederator studios frederator films kinofilm klasky csupo kurtz &amp; friends laika">
+  <data key="d1">1</data>
+</edge>
+<edge source="majors" target="majors">
+  <data key="d1">0</data>
+</edge>
+<edge source="majors" target="nbcuniversal dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios paramount global cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%) disney entertainment 20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios warner bros. cartoon network studios warner bros. animation warner bros. pictures animation williams street sony pictures aniplex of america crunchyroll sony pictures animation sony pictures imageworks">
+  <data key="d1">1</data>
+</edge>
+<edge source="nbcuniversal" target="nbcuniversal">
+  <data key="d1">0</data>
+</edge>
+<edge source="nbcuniversal" target="dreamworks animation dreamworks animation television dreamworks classics big idea entertainment harvey entertainment jay ward productions illumination universal animation studios">
+  <data key="d1">1</data>
+</edge>
+<edge source="nbcuniversal" target="0paramount global">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="paramount global" target="paramount global">
+  <data key="d1">0</data>
+</edge>
+<edge source="paramount global" target="cbs eye animation productions late night cartoons mtv animation nickelodeon animation studio nickelodeon digital nickelodeon movies paramount animation miramax animation (49%)">
+  <data key="d1">1</data>
+</edge>
+<edge source="paramount global" target="0disney entertainment">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="disney entertainment" target="disney entertainment">
+  <data key="d1">0</data>
+</edge>
+<edge source="disney entertainment" target="20th century animation 20th television animation disney television animation lucasfilm animation industrial light &amp; magic marvel animation pixar animation studios walt disney animation studios">
+  <data key="d1">1</data>
+</edge>
+<edge source="disney entertainment" target="0warner bros.">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="warner bros." target="warner bros.">
+  <data key="d1">0</data>
+</edge>
+<edge source="warner bros." target="cartoon network studios warner bros. animation warner bros. pictures animation williams street">
+  <data key="d1">1</data>
+</edge>
+<edge source="warner bros." target="0sony pictures">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="sony pictures" target="sony pictures">
+  <data key="d1">0</data>
+</edge>
+<edge source="sony pictures" target="aniplex of america crunchyroll sony pictures animation sony pictures imageworks">
+  <data key="d1">1</data>
+</edge>
+<edge source="sony pictures" target="5nbcuniversal">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="sony pictures" target="0industry associations the animation guild">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="former" target="former">
+  <data key="d1">0</data>
+</edge>
+<edge source="former" target="4kids entertainment 70/30 productions adelaide productions adventure cartoon productions allspark amblimation animation collective animation lab animation magic blue sky studios cambria productions cartoon pizza chorion circle 7 animation cookie jar copernicus studios crest animation productions curious pictures depatie–freleng enterprises dic entertainment disneytoon studios dna productions famous studios filmation fleischer studios format films fox animation studios golden films hanna-barbera hit entertainment jetlag productions justin roiland's solo vanity card productions! kroyer films laugh-o-gram studio little airplane productions marvel productions metro-goldwyn-mayer animation mgm animation/visual arts mgm cartoons mirari films moonscoop omation animation studio pacific data images porchlight entertainment prana studios radical axis rankin/bass animated entertainment rooster teeth animation ruby-spears saban entertainment screen gems skellington productions soup2nuts spümcø storyboard">
+  <data key="d1">1</data>
+</edge>
+<edge source="former" target="7majors">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="industry associations the animation guild" target="vteanimation industry in the united states">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="industry associations the animation guild" target="positioninlist">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="industry associations the animation guild" target="vteanimation industry in the united states.1">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="industry associations the animation guild" target="companies and studios.1">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="vteanimation industry in the united states" target="the animation guild">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="positioninlist" target="the animation guild">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="vteanimation industry in the united states.1" target="the animation guild">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="industry associations" target="industry associations">
+  <data key="d1">1</data>
+</edge>
+<edge source="the animation guild" target="companies and studios.1">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="the animation guild" target="industry associations.1">
+  <data key="d1"> iatse local 839 asifa-hollywood</data>
+</edge>
+<edge source="other topicsawards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)" target="other topicsawards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d1">vteanimation industry in the united states.1</data>
+</edge>
+<edge source="other topics" target="other topics">
+  <data key="d1">vteanimation industry in the united states.1</data>
+</edge>
+<edge source="awards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)" target="awards academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation history silent era golden age world war ii television era modern era related animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d1">other topics.1</data>
+</edge>
+<edge source="awards" target="awards">
+  <data key="d1">other topics</data>
+</edge>
+<edge source="awards" target="academy awards best animated feature annie awards emmy awards children's and family primetime nickelodeon kids' choice awards favorite cartoon animated movie naacp image awards motion picture series glaad media awards kids and family programming (animated) writers guild of america awards television animation">
+  <data key="d1">1</data>
+</edge>
+<edge source="history" target="history">
+  <data key="d1">0</data>
+</edge>
+<edge source="history" target="silent era golden age world war ii television era modern era">
+  <data key="d1">1</data>
+</edge>
+<edge source="related" target="related">
+  <data key="d1">0</data>
+</edge>
+<edge source="related" target="animated sitcom american comics history of american comics tijuana bible humorous phases of funny faces flash animation labor strikes fleischer studios (1937) disney (1941) multiple studios (1982)">
+  <data key="d1">1</data>
+</edge>
+<edge source="related" target="3awards">
+  <data key="d1">positioninlist</data>
 </edge>
 </graph></graphml>

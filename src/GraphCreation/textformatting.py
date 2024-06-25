@@ -52,6 +52,11 @@ def extract_relevant_text(html: str) -> str:
     splits = splitter.create_documents([result_text])
     for x in range(len(splits)):
         splits[x] = str(splits[x])
+    if len(splits) == 0:
+        return ""
+    
+    if len(splits) == 1:
+        return splits[0]
     compressed_prompt = llm_lingua.compress_prompt(
         context=list(splits),
         rate=0.33,
@@ -70,8 +75,11 @@ def get_tables_from_url(url):
 
     # Loop through all tables found and convert to DataFrame
     for index, table in enumerate(tables):
-        df = pd.read_html(str(table))[0]
-        dataframes.append(df)
+        try:
+            df = pd.read_html(str(table))[0]
+            dataframes.append(df)
+        except:
+            print(str(table))
 
     return dataframes
 

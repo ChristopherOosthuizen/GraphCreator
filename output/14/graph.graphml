@@ -1,0 +1,1924 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="24.8 billion">
+  <data key="d0">24.8 billion</data>
+</node>
+<node id="billion">
+  <data key="d0">billion</data>
+</node>
+<node id="256 billion">
+  <data key="d0">256 billion</data>
+</node>
+<node id="population">
+  <data key="d0">population</data>
+</node>
+<node id="milestones">
+  <data key="d0">milestones</data>
+</node>
+<node id="international database">
+  <data key="d0">international database</data>
+</node>
+<node id="july 1960">
+  <data key="d0">july 1960</data>
+</node>
+<node id="april 1974">
+  <data key="d0">april 1974</data>
+</node>
+<node id="census bureau">
+  <data key="d0">census bureau</data>
+</node>
+<node id="population division">
+  <data key="d0">population division</data>
+</node>
+<node id="population seven billion">
+  <data key="d0">population seven billion</data>
+</node>
+<node id="seven billion">
+  <data key="d0">seven billion</data>
+</node>
+<node id="31 october">
+  <data key="d0">31 october</data>
+</node>
+<node id="milestone">
+  <data key="d0">milestone</data>
+</node>
+<node id="milestone on 31 october">
+  <data key="d0">milestone on 31 october</data>
+</node>
+<node id="ban kimoon">
+  <data key="d0">ban kimoon</data>
+</node>
+<node id="united nations population fund">
+  <data key="d0">united nations population fund</data>
+</node>
+<node id="population reaching seven billion">
+  <data key="d0">population reaching seven billion</data>
+</node>
+<node id="secretary">
+  <data key="d0">secretary</data>
+</node>
+<node id="new york">
+  <data key="d0">new york</data>
+</node>
+<node id="speech">
+  <data key="d0">speech</data>
+</node>
+<node id="re reaching population">
+  <data key="d0">re reaching population</data>
+</node>
+<node id="population milestones">
+  <data key="d0">population milestones</data>
+</node>
+<node id="population 7 billion actions">
+  <data key="d0">population 7 billion actions</data>
+</node>
+<node id="baby nargis kumar">
+  <data key="d0">baby nargis kumar</data>
+</node>
+<node id="danica may camacho">
+  <data key="d0">danica may camacho</data>
+</node>
+<node id="wattalage muthumai">
+  <data key="d0">wattalage muthumai</data>
+</node>
+<node id="colombo">
+  <data key="d0">colombo</data>
+</node>
+<node id="population prospects 2010 revision">
+  <data key="d0">population prospects 2010 revision</data>
+</node>
+<node id="july 2014">
+  <data key="d0">july 2014</data>
+</node>
+<node id="vaclav smil">
+  <data key="d0">vaclav smil</data>
+</node>
+<node id="hopes">
+  <data key="d0">hopes</data>
+</node>
+<node id="concerns">
+  <data key="d0">concerns</data>
+</node>
+<node id="medicine">
+  <data key="d0">medicine</data>
+</node>
+<node id="global survival">
+  <data key="d0">global survival</data>
+</node>
+<node id="1998">
+  <data key="d0">1998</data>
+</node>
+<node id="november 2022">
+  <data key="d0">november 2022</data>
+</node>
+<node id="8bn">
+  <data key="d0">8bn</data>
+</node>
+<node id="world population 25">
+  <data key="d0">world population 25</data>
+</node>
+<node id="25">
+  <data key="d0">25</data>
+</node>
+<node id="31 january">
+  <data key="d0">31 january</data>
+</node>
+<node id="population size composition">
+  <data key="d0">population size composition</data>
+</node>
+<node id="summary">
+  <data key="d0">summary</data>
+</node>
+<node id="population prospects 2000 revision">
+  <data key="d0">population prospects 2000 revision</data>
+</node>
+<node id="population july 2010">
+  <data key="d0">population july 2010</data>
+</node>
+<node id="population prospects 2002 revision">
+  <data key="d0">population prospects 2002 revision</data>
+</node>
+<node id="united nations">
+  <data key="d0">united nations</data>
+</node>
+<node id="division">
+  <data key="d0">division</data>
+</node>
+<node id="29 may 2010">
+  <data key="d0">29 may 2010</data>
+</node>
+<node id="population trends from 1950 to 2050">
+  <data key="d0">population trends from 1950 to 2050</data>
+</node>
+<node id="world population data sheet">
+  <data key="d0">world population data sheet</data>
+</node>
+<node id="population bureau">
+  <data key="d0">population bureau</data>
+</node>
+<node id="22 april">
+  <data key="d0">22 april</data>
+</node>
+<node id="july 2010">
+  <data key="d0">july 2010</data>
+</node>
+<node id="washington">
+  <data key="d0">washington</data>
+</node>
+<node id="economic social">
+  <data key="d0">economic social</data>
+</node>
+<node id="16 october 2018">
+  <data key="d0">16 october 2018</data>
+</node>
+<node id="nations population division">
+  <data key="d0">nations population division</data>
+</node>
+<node id="prospects 2022 revision">
+  <data key="d0">prospects 2022 revision</data>
+</node>
+<node id="19 july 2022">
+  <data key="d0">19 july 2022</data>
+</node>
+<node id="alan boyle">
+  <data key="d0">alan boyle</data>
+</node>
+<node id="science editor">
+  <data key="d0">science editor</data>
+</node>
+<node id="nbc news">
+  <data key="d0">nbc news</data>
+</node>
+<node id="30 october 2011">
+  <data key="d0">30 october 2011</data>
+</node>
+<node id="log 7 billion">
+  <data key="d0">log 7 billion</data>
+</node>
+<node id="world population prospects 2008">
+  <data key="d0">world population prospects 2008</data>
+</node>
+<node id="united nations secretariat">
+  <data key="d0">united nations secretariat</data>
+</node>
+<node id="november 2010">
+  <data key="d0">november 2010</data>
+</node>
+<node id="january 2011">
+  <data key="d0">january 2011</data>
+</node>
+<node id="population milestone">
+  <data key="d0">population milestone</data>
+</node>
+<node id="rapid population growth">
+  <data key="d0">rapid population growth</data>
+</node>
+<node id="world">
+  <data key="d0">world</data>
+</node>
+<node id="population trends">
+  <data key="d0">population trends</data>
+</node>
+<node id="birth rates">
+  <data key="d0">birth rates</data>
+</node>
+<node id="mortality">
+  <data key="d0">mortality</data>
+</node>
+<node id="migration patterns">
+  <data key="d0">migration patterns</data>
+</node>
+<node id="future demographic changes">
+  <data key="d0">future demographic changes</data>
+</node>
+<node id="resources">
+  <data key="d0">resources</data>
+</node>
+<node id="economies">
+  <data key="d0">economies</data>
+</node>
+<node id="global policies">
+  <data key="d0">global policies</data>
+</node>
+<node id="challenges">
+  <data key="d0">challenges</data>
+</node>
+<node id="opportunities">
+  <data key="d0">opportunities</data>
+</node>
+<node id="world population prospects 2008 revision">
+  <data key="d0">world population prospects 2008 revision</data>
+</node>
+<node id="2015">
+  <data key="d0">2015</data>
+</node>
+<node id="7 billion">
+  <data key="d0">7 billion</data>
+</node>
+<node id="in ember">
+  <data key="d0">in ember</data>
+</node>
+<node id="unfpa">
+  <data key="d0">unfpa</data>
+</node>
+<node id="7 billion actions">
+  <data key="d0">7 billion actions</data>
+</node>
+<node id="october">
+  <data key="d0">october</data>
+</node>
+<node id="7 billion global population">
+  <data key="d0">7 billion global population</data>
+</node>
+<node id="challenges and opportunities">
+  <data key="d0">challenges and opportunities</data>
+</node>
+<node id="economic population division">
+  <data key="d0">economic population division</data>
+</node>
+<node id="world population prospects 2022 summary">
+  <data key="d0">world population prospects 2022 summary</data>
+</node>
+<node id="girl">
+  <data key="d0">girl</data>
+</node>
+<node id="manila">
+  <data key="d0">manila</data>
+</node>
+<node id="20 november 2022">
+  <data key="d0">20 november 2022</data>
+</node>
+<node id="armenia">
+  <data key="d0">armenia</data>
+</node>
+<node id="8 billionth">
+  <data key="d0">8 billionth</data>
+</node>
+<node id="24 million">
+  <data key="d0">24 million</data>
+</node>
+<node id="newborn">
+  <data key="d0">newborn</data>
+</node>
+<node id="drèze">
+  <data key="d0">drèze</data>
+</node>
+<node id="amartya">
+  <data key="d0">amartya</data>
+</node>
+<node id="participation">
+  <data key="d0">participation</data>
+</node>
+<node id="development">
+  <data key="d0">development</data>
+</node>
+<node id="oxford university">
+  <data key="d0">oxford university</data>
+</node>
+<node id="research">
+  <data key="d0">research</data>
+</node>
+<node id="february">
+  <data key="d0">february</data>
+</node>
+<node id="migrants">
+  <data key="d0">migrants</data>
+</node>
+<node id="kyrgyzstan">
+  <data key="d0">kyrgyzstan</data>
+</node>
+<node id="5 millionth citizen">
+  <data key="d0">5 millionth citizen</data>
+</node>
+<node id="#6">
+  <data key="d0">#6</data>
+</node>
+<node id="millionth citizen">
+  <data key="d0">millionth citizen</data>
+</node>
+<node id="premier liu chaoshiuan">
+  <data key="d0">premier liu chaoshiuan</data>
+</node>
+<node id="citizen certificate">
+  <data key="d0">citizen certificate</data>
+</node>
+<node id="event">
+  <data key="d0">event</data>
+</node>
+<node id="6 april 2016">
+  <data key="d0">6 april 2016</data>
+</node>
+<node id="devonport">
+  <data key="d0">devonport</data>
+</node>
+<node id="european conference">
+  <data key="d0">european conference</data>
+</node>
+<node id="language learning">
+  <data key="d0">language learning</data>
+</node>
+<node id="kazakhstan">
+  <data key="d0">kazakhstan</data>
+</node>
+<node id="thùy dung">
+  <data key="d0">thùy dung</data>
+</node>
+<node id="dân">
+  <data key="d0">dân</data>
+</node>
+<node id="90 triệu">
+  <data key="d0">90 triệu</data>
+</node>
+<node id="cent millions">
+  <data key="d0">cent millions</data>
+</node>
+<node id="philippines">
+  <data key="d0">philippines</data>
+</node>
+<node id="thanh niên">
+  <data key="d0">thanh niên</data>
+</node>
+<node id="april 2016">
+  <data key="d0">april 2016</data>
+</node>
+<node id="hoyle amanda">
+  <data key="d0">hoyle amanda</data>
+</node>
+<node id="scholarship">
+  <data key="d0">scholarship</data>
+</node>
+<node id="baby">
+  <data key="d0">baby</data>
+</node>
+<node id="wake county">
+  <data key="d0">wake county</data>
+</node>
+<node id="3millionth citizen">
+  <data key="d0">3millionth citizen</data>
+</node>
+<node id="january 2016">
+  <data key="d0">january 2016</data>
+</node>
+<node id="triangle business journal">
+  <data key="d0">triangle business journal</data>
+</node>
+<node id="ferghana">
+  <data key="d0">ferghana</data>
+</node>
+<node id="six millionth citizen girl">
+  <data key="d0">six millionth citizen girl</data>
+</node>
+<node id="egypt">
+  <data key="d0">egypt</data>
+</node>
+<node id="100 million">
+  <data key="d0">100 million</data>
+</node>
+<node id="walsh declan">
+  <data key="d0">walsh declan</data>
+</node>
+<node id="new york times">
+  <data key="d0">new york times</data>
+</node>
+<node id="continents">
+  <data key="d0">continents</data>
+</node>
+<node id="2012">
+  <data key="d0">2012</data>
+</node>
+<node id="regions">
+  <data key="d0">regions</data>
+</node>
+<node id="affairs">
+  <data key="d0">affairs</data>
+</node>
+<node id="foundation">
+  <data key="d0">foundation</data>
+</node>
+<node id="wikimedia foundation">
+  <data key="d0">wikimedia foundation</data>
+</node>
+<node id="eurasianet">
+  <data key="d0">eurasianet</data>
+</node>
+<node id="ferghana event">
+  <data key="d0">ferghana event</data>
+</node>
+<node id="declan walsh">
+  <data key="d0">declan walsh</data>
+</node>
+<node id="egypt milestone">
+  <data key="d0">egypt milestone</data>
+</node>
+<node id="year">
+  <data key="d0">year</data>
+</node>
+<node id=" 'population')">
+  <data key="d0"> 'population')</data>
+</node>
+<node id="0">
+  <data key="d0">0</data>
+</node>
+<node id=" '1')">
+  <data key="d0"> '1')</data>
+</node>
+<node id=" '2')">
+  <data key="d0"> '2')</data>
+</node>
+<node id=" '3')">
+  <data key="d0"> '3')</data>
+</node>
+<node id=" '4')">
+  <data key="d0"> '4')</data>
+</node>
+<node id=" '5')">
+  <data key="d0"> '5')</data>
+</node>
+<node id=" '6')">
+  <data key="d0"> '6')</data>
+</node>
+<node id=" '7')">
+  <data key="d0"> '7')</data>
+</node>
+<node id=" '8')">
+  <data key="d0"> '8')</data>
+</node>
+<node id=" '9')">
+  <data key="d0"> '9')</data>
+</node>
+<node id=" '10')">
+  <data key="d0"> '10')</data>
+</node>
+<node id="years elapsed">
+  <data key="d0">years elapsed</data>
+</node>
+<node id="1">
+  <data key="d0">1</data>
+</node>
+<node id="1year">
+  <data key="d0">1year</data>
+</node>
+<node id="1munich">
+  <data key="d0">1munich</data>
+</node>
+<node id="munich">
+  <data key="d0">munich</data>
+</node>
+<node id="1m">
+  <data key="d0">1m</data>
+</node>
+<node id="15 december 1957">
+  <data key="d0">15 december 1957</data>
+</node>
+<node id="thomas seehaus">
+  <data key="d0">thomas seehaus</data>
+</node>
+<node id="awarded by mayor thomas wimmer with a 1">
+  <data key="d0">awarded by mayor thomas wimmer with a 1</data>
+</node>
+<node id="[29]">
+  <data key="d0">[29]</data>
+</node>
+<node id="united states">
+  <data key="d0">united states</data>
+</node>
+<node id="200m">
+  <data key="d0">200m</data>
+</node>
+<node id="20 november 1967">
+  <data key="d0">20 november 1967</data>
+</node>
+<node id="robert ken woo jr">
+  <data key="d0">robert ken woo jr</data>
+</node>
+<node id="named by life magazine">
+  <data key="d0">named by life magazine</data>
+</node>
+<node id="[30][31]">
+  <data key="d0">[30][31]</data>
+</node>
+<node id="australia">
+  <data key="d0">australia</data>
+</node>
+<node id="2">
+  <data key="d0">2</data>
+</node>
+<node id="15m">
+  <data key="d0">15m</data>
+</node>
+<node id="29 january 1982">
+  <data key="d0">29 january 1982</data>
+</node>
+<node id="sally hodgson">
+  <data key="d0">sally hodgson</data>
+</node>
+<node id="awarded by minister for immigration and ethnic affairs ian macphee">
+  <data key="d0">awarded by minister for immigration and ethnic affairs ian macphee</data>
+</node>
+<node id="[32]">
+  <data key="d0">[32]</data>
+</node>
+<node id="indonesia">
+  <data key="d0">indonesia</data>
+</node>
+<node id="3">
+  <data key="d0">3</data>
+</node>
+<node id="4 february 1997">
+  <data key="d0">4 february 1997</data>
+</node>
+<node id="wahyu nusantara aji">
+  <data key="d0">wahyu nusantara aji</data>
+</node>
+<node id="complains that government promises of support were not kept. but">
+  <data key="d0">complains that government promises of support were not kept. but</data>
+</node>
+<node id="[33] [34]">
+  <data key="d0">[33] [34]</data>
+</node>
+<node id="india">
+  <data key="d0">india</data>
+</node>
+<node id="4">
+  <data key="d0">4</data>
+</node>
+<node id="1b">
+  <data key="d0">1b</data>
+</node>
+<node id="11 may 2000">
+  <data key="d0">11 may 2000</data>
+</node>
+<node id="aastha arora">
+  <data key="d0">aastha arora</data>
+</node>
+<node id="speculation re independence day 1999 till registrar demurred. complains that government promises of support were not kept.">
+  <data key="d0">speculation re independence day 1999 till registrar demurred. complains that government promises of support were not kept.</data>
+</node>
+<node id="[35][36][37]">
+  <data key="d0">[35][36][37]</data>
+</node>
+<node id="5">
+  <data key="d0">5</data>
+</node>
+<node id="5m">
+  <data key="d0">5m</data>
+</node>
+<node id="27 august 2002">
+  <data key="d0">27 august 2002</data>
+</node>
+<node id="tynchtykbek kuramayev">
+  <data key="d0">tynchtykbek kuramayev</data>
+</node>
+<node id="[38]">
+  <data key="d0">[38]</data>
+</node>
+<node id="6">
+  <data key="d0">6</data>
+</node>
+<node id="21m">
+  <data key="d0">21m</data>
+</node>
+<node id="29 june 2007">
+  <data key="d0">29 june 2007</data>
+</node>
+<node id="mia ruby templeton">
+  <data key="d0">mia ruby templeton</data>
+</node>
+<node id="awarded by treasurer peter costello">
+  <data key="d0">awarded by treasurer peter costello</data>
+</node>
+<node id="[39]">
+  <data key="d0">[39]</data>
+</node>
+<node id="taiwan">
+  <data key="d0">taiwan</data>
+</node>
+<node id="7">
+  <data key="d0">7</data>
+</node>
+<node id="23m">
+  <data key="d0">23m</data>
+</node>
+<node id="17 july 2008">
+  <data key="d0">17 july 2008</data>
+</node>
+<node id="wu cheng-en">
+  <data key="d0">wu cheng-en</data>
+</node>
+<node id="certificate from premier of the republic of china liu chao-shiuan">
+  <data key="d0">certificate from premier of the republic of china liu chao-shiuan</data>
+</node>
+<node id="[40]">
+  <data key="d0">[40]</data>
+</node>
+<node id="auckland region">
+  <data key="d0">auckland region</data>
+</node>
+<node id="country/nationality">
+  <data key="d0">country/nationality</data>
+</node>
+<node id="positioninlist">
+  <data key="d0">positioninlist</data>
+</node>
+<node id="born (date)">
+  <data key="d0">born (date)</data>
+</node>
+<node id="name">
+  <data key="d0">name</data>
+</node>
+<node id="notes">
+  <data key="d0">notes</data>
+</node>
+<node id="foot- notes">
+  <data key="d0">foot- notes</data>
+</node>
+<node id="9">
+  <data key="d0">9</data>
+</node>
+<node id="17m">
+  <data key="d0">17m</data>
+</node>
+<node id="17 may 2013">
+  <data key="d0">17 may 2013</data>
+</node>
+<node id="altynbek eskaraev алтынбек ескараев">
+  <data key="d0">altynbek eskaraev алтынбек ескараев</data>
+</node>
+<node id="[42][43]">
+  <data key="d0">[42][43]</data>
+</node>
+<node id="vietnam">
+  <data key="d0">vietnam</data>
+</node>
+<node id="10">
+  <data key="d0">10</data>
+</node>
+<node id="90m">
+  <data key="d0">90m</data>
+</node>
+<node id="1 november 2013">
+  <data key="d0">1 november 2013</data>
+</node>
+<node id="nguyễn thị thùy dung">
+  <data key="d0">nguyễn thị thùy dung</data>
+</node>
+<node id="randomly chosen by the general office of population and family planning from among two dozen babies born that day">
+  <data key="d0">randomly chosen by the general office of population and family planning from among two dozen babies born that day</data>
+</node>
+<node id="[44][45]">
+  <data key="d0">[44][45]</data>
+</node>
+<node id="11">
+  <data key="d0">11</data>
+</node>
+<node id="100m">
+  <data key="d0">100m</data>
+</node>
+<node id="27 july 2014">
+  <data key="d0">27 july 2014</data>
+</node>
+<node id="chonalyn sentino">
+  <data key="d0">chonalyn sentino</data>
+</node>
+<node id="awarded free philhealth lifetime coverage by the government and access to healthcare by the doh">
+  <data key="d0">awarded free philhealth lifetime coverage by the government and access to healthcare by the doh</data>
+</node>
+<node id="[46]">
+  <data key="d0">[46]</data>
+</node>
+<node id="mongolia">
+  <data key="d0">mongolia</data>
+</node>
+<node id="13">
+  <data key="d0">13</data>
+</node>
+<node id="3m">
+  <data key="d0">3m</data>
+</node>
+<node id="24 january 2015">
+  <data key="d0">24 january 2015</data>
+</node>
+<node id="mongoljin khatanbold">
+  <data key="d0">mongoljin khatanbold</data>
+</node>
+<node id="[48][49]">
+  <data key="d0">[48][49]</data>
+</node>
+<node id="silicon valley">
+  <data key="d0">silicon valley</data>
+</node>
+<node id="14">
+  <data key="d0">14</data>
+</node>
+<node id="5 may 2015">
+  <data key="d0">5 may 2015</data>
+</node>
+<node id="max danner">
+  <data key="d0">max danner</data>
+</node>
+<node id="[50]">
+  <data key="d0">[50]</data>
+</node>
+<node id="utah">
+  <data key="d0">utah</data>
+</node>
+<node id="15">
+  <data key="d0">15</data>
+</node>
+<node id="24 october 2015">
+  <data key="d0">24 october 2015</data>
+</node>
+<node id="sadie christensen">
+  <data key="d0">sadie christensen</data>
+</node>
+<node id="by governor gary herbert">
+  <data key="d0">by governor gary herbert</data>
+</node>
+<node id="[51]">
+  <data key="d0">[51]</data>
+</node>
+<node id="16">
+  <data key="d0">16</data>
+</node>
+<node id="6m">
+  <data key="d0">6m</data>
+</node>
+<node id="27 november 2015">
+  <data key="d0">27 november 2015</data>
+</node>
+<node id="aylin kojosheva">
+  <data key="d0">aylin kojosheva</data>
+</node>
+<node id="[52][53]">
+  <data key="d0">[52][53]</data>
+</node>
+<node id="17">
+  <data key="d0">17</data>
+</node>
+<node id="11 february 2020">
+  <data key="d0">11 february 2020</data>
+</node>
+<node id="yasmine rabie">
+  <data key="d0">yasmine rabie</data>
+</node>
+<node id="[54]">
+  <data key="d0">[54]</data>
+</node>
+<node id="17major topics">
+  <data key="d0">17major topics</data>
+</node>
+<node id="major topics">
+  <data key="d0">major topics</data>
+</node>
+<node id="demographics of the world demographic transition estimates of historical world population population growth population momentum projections of population growth world population">
+  <data key="d0">demographics of the world demographic transition estimates of historical world population population growth population momentum projections of population growth world population</data>
+</node>
+<node id="population biology">
+  <data key="d0">population biology</data>
+</node>
+<node id="population decline population density physiological density population dynamics population model population pyramid">
+  <data key="d0">population decline population density physiological density population dynamics population model population pyramid</data>
+</node>
+<node id="population ecology">
+  <data key="d0">population ecology</data>
+</node>
+<node id="biocapacity carrying capacity earth's energy budget i = p × a × t kaya identity malthusian growth model overshoot (population) world3 model">
+  <data key="d0">biocapacity carrying capacity earth's energy budget i = p × a × t kaya identity malthusian growth model overshoot (population) world3 model</data>
+</node>
+<node id="society and  population">
+  <data key="d0">society and  population</data>
+</node>
+<node id="eugenics human overpopulation malthusian catastrophe human population planning compulsory sterilization family planning one-child policy two-child policy overconsumption population ethics antinatalism reproductive rights sustainable population zero population growth">
+  <data key="d0">eugenics human overpopulation malthusian catastrophe human population planning compulsory sterilization family planning one-child policy two-child policy overconsumption population ethics antinatalism reproductive rights sustainable population zero population growth</data>
+</node>
+<node id="publications">
+  <data key="d0">publications</data>
+</node>
+<node id="population and environment population and development review">
+  <data key="d0">population and environment population and development review</data>
+</node>
+<node id="lists">
+  <data key="d0">lists</data>
+</node>
+<node id="population and housing censuses by country largest cities world population milestones 6 billion 7 8 population concern organizations">
+  <data key="d0">population and housing censuses by country largest cities world population milestones 6 billion 7 8 population concern organizations</data>
+</node>
+<node id="events and organizations">
+  <data key="d0">events and organizations</data>
+</node>
+<node id="7 billion actions church of euthanasia international conference on population and development population action international population connection population matters united nations population fund united nations world population conferences voluntary human extinction movement world population conference world population day world population foundation">
+  <data key="d0">7 billion actions church of euthanasia international conference on population and development population action international population connection population matters united nations population fund united nations world population conferences voluntary human extinction movement world population conference world population day world population foundation</data>
+</node>
+<node id="related topics">
+  <data key="d0">related topics</data>
+</node>
+<node id="bennett's law green revolution human impact on the environment migration sustainability">
+  <data key="d0">bennett's law green revolution human impact on the environment migration sustainability</data>
+</node>
+<node id="commons  category">
+  <data key="d0">commons  category</data>
+</node>
+<node id="8">
+  <data key="d0">8</data>
+</node>
+<edge source="24.8 billion" target="billion">
+  <data key="d1">represents</data>
+</edge>
+<edge source="billion" target="256 billion">
+  <data key="d1">represents</data>
+</edge>
+<edge source="billion" target="population">
+  <data key="d1">grows to</data>
+</edge>
+<edge source="population" target="united nations population fund">
+  <data key="d1">tracked by</data>
+</edge>
+<edge source="population" target="census bureau">
+  <data key="d1">tracked by</data>
+</edge>
+<edge source="population" target="24 million">
+  <data key="d1">new milestone</data>
+</edge>
+<edge source="population" target="migrants">
+  <data key="d1">affected by</data>
+</edge>
+<edge source="population" target="thanh niên">
+  <data key="d1">counted</data>
+</edge>
+<edge source="population" target="millionth citizen">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="population" target="auckland region">
+  <data key="d1"> new zealand</data>
+</edge>
+<edge source="population" target="wake county">
+  <data key="d1"> north carolina</data>
+</edge>
+<edge source="milestones" target="international database">
+  <data key="d1">tracked by</data>
+</edge>
+<edge source="milestones" target="july 1960">
+  <data key="d1">noted in</data>
+</edge>
+<edge source="milestones" target="april 1974">
+  <data key="d1">noted in</data>
+</edge>
+<edge source="milestones" target="population milestones">
+  <data key="d1">include hitting</data>
+</edge>
+<edge source="census bureau" target="population division">
+  <data key="d1">reported by</data>
+</edge>
+<edge source="census bureau" target="population seven billion">
+  <data key="d1">reported</data>
+</edge>
+<edge source="census bureau" target="seven billion">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="census bureau" target="31 october">
+  <data key="d1">measurement date</data>
+</edge>
+<edge source="census bureau" target="population trends from 1950 to 2050">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="census bureau" target="population bureau">
+  <data key="d1">cooperates with</data>
+</edge>
+<edge source="population division" target="31 october">
+  <data key="d1">measurement date</data>
+</edge>
+<edge source="population division" target="milestone">
+  <data key="d1">reached</data>
+</edge>
+<edge source="population division" target="milestone on 31 october">
+  <data key="d1">reached</data>
+</edge>
+<edge source="population division" target="population seven billion">
+  <data key="d1">reached</data>
+</edge>
+<edge source="population division" target="seven billion">
+  <data key="d1">highlighted event</data>
+</edge>
+<edge source="population division" target="ban kimoon">
+  <data key="d1">marked by</data>
+</edge>
+<edge source="population division" target="population 7 billion actions">
+  <data key="d1">related to</data>
+</edge>
+<edge source="population division" target="division">
+  <data key="d1">managed by</data>
+</edge>
+<edge source="population division" target="united nations">
+  <data key="d1">within</data>
+</edge>
+<edge source="population division" target="world population data sheet">
+  <data key="d1">informs</data>
+</edge>
+<edge source="population division" target="world population prospects 2008">
+  <data key="d1">related to</data>
+</edge>
+<edge source="population division" target="november 2010">
+  <data key="d1">report date</data>
+</edge>
+<edge source="population division" target="economic population division">
+  <data key="d1">related to</data>
+</edge>
+<edge source="population seven billion" target="31 october">
+  <data key="d1">measurement date</data>
+</edge>
+<edge source="population seven billion" target="united nations population fund">
+  <data key="d1">highlighted event</data>
+</edge>
+<edge source="population seven billion" target="population 7 billion actions">
+  <data key="d1">related to</data>
+</edge>
+<edge source="seven billion" target="31 october">
+  <data key="d1">census date</data>
+</edge>
+<edge source="seven billion" target="re reaching population">
+  <data key="d1">was milestone</data>
+</edge>
+<edge source="milestone" target="secretary">
+  <data key="d1">highlighted event in</data>
+</edge>
+<edge source="milestone" target="new york">
+  <data key="d1">highlighted event in</data>
+</edge>
+<edge source="milestone" target="ban kimoon">
+  <data key="d1">highlighted by</data>
+</edge>
+<edge source="milestone" target="november 2022">
+  <data key="d1">population</data>
+</edge>
+<edge source="ban kimoon" target="new york">
+  <data key="d1">highlighted event in</data>
+</edge>
+<edge source="ban kimoon" target="population 7 billion actions">
+  <data key="d1">part of</data>
+</edge>
+<edge source="ban kimoon" target="secretary">
+  <data key="d1">related to</data>
+</edge>
+<edge source="united nations population fund" target="population reaching seven billion">
+  <data key="d1">highlights</data>
+</edge>
+<edge source="secretary" target="new york">
+  <data key="d1">delivered speech in</data>
+</edge>
+<edge source="new york" target="speech">
+  <data key="d1">was milestone</data>
+</edge>
+<edge source="new york" target="population 7 billion actions">
+  <data key="d1">part of</data>
+</edge>
+<edge source="new york" target="united nations">
+  <data key="d1">location of</data>
+</edge>
+<edge source="population milestones" target="vaclav smil">
+  <data key="d1">discusses</data>
+</edge>
+<edge source="population milestones" target="8bn">
+  <data key="d1">predicts</data>
+</edge>
+<edge source="population milestones" target="world population 25">
+  <data key="d1">marks</data>
+</edge>
+<edge source="population milestones" target="population prospects 2000 revision">
+  <data key="d1">is related to</data>
+</edge>
+<edge source="population 7 billion actions" target="baby nargis kumar">
+  <data key="d1">part of</data>
+</edge>
+<edge source="population 7 billion actions" target="danica may camacho">
+  <data key="d1">part of</data>
+</edge>
+<edge source="population 7 billion actions" target="wattalage muthumai">
+  <data key="d1">part of</data>
+</edge>
+<edge source="population 7 billion actions" target="colombo">
+  <data key="d1">part of</data>
+</edge>
+<edge source="population 7 billion actions" target="population prospects 2010 revision">
+  <data key="d1">related to</data>
+</edge>
+<edge source="population 7 billion actions" target="vaclav smil">
+  <data key="d1">related to</data>
+</edge>
+<edge source="population prospects 2010 revision" target="july 2014">
+  <data key="d1">dated</data>
+</edge>
+<edge source="vaclav smil" target="hopes">
+  <data key="d1">discusses</data>
+</edge>
+<edge source="vaclav smil" target="concerns">
+  <data key="d1">discusses</data>
+</edge>
+<edge source="vaclav smil" target="medicine">
+  <data key="d1">discusses</data>
+</edge>
+<edge source="vaclav smil" target="global survival">
+  <data key="d1">discusses</data>
+</edge>
+<edge source="vaclav smil" target="1998">
+  <data key="d1">publication year</data>
+</edge>
+<edge source="vaclav smil" target="summary">
+  <data key="d1">discusses</data>
+</edge>
+<edge source="hopes" target="population size composition">
+  <data key="d1">are connected to</data>
+</edge>
+<edge source="concerns" target="population size composition">
+  <data key="d1">are influenced by</data>
+</edge>
+<edge source="november 2022" target="8bn">
+  <data key="d1">population</data>
+</edge>
+<edge source="november 2022" target="population prospects 2002 revision">
+  <data key="d1">is linked to</data>
+</edge>
+<edge source="november 2022" target="population july 2010">
+  <data key="d1">ties to</data>
+</edge>
+<edge source="world population 25" target="25">
+  <data key="d1">population</data>
+</edge>
+<edge source="world population 25" target="31 january">
+  <data key="d1">event</data>
+</edge>
+<edge source="population size composition" target="summary">
+  <data key="d1">is a part of</data>
+</edge>
+<edge source="summary" target="population prospects 2000 revision">
+  <data key="d1">is a part of</data>
+</edge>
+<edge source="summary" target="population july 2010">
+  <data key="d1">is a part of</data>
+</edge>
+<edge source="summary" target="population prospects 2002 revision">
+  <data key="d1">is a part of</data>
+</edge>
+<edge source="population prospects 2000 revision" target="united nations">
+  <data key="d1">provides insights</data>
+</edge>
+<edge source="united nations" target="economic social">
+  <data key="d1">organization</data>
+</edge>
+<edge source="united nations" target="population bureau">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="united nations" target="prospects 2022 revision">
+  <data key="d1">publishes</data>
+</edge>
+<edge source="united nations" target="unfpa">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="united nations" target="economic population division">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="united nations" target="affairs">
+  <data key="d1">handles</data>
+</edge>
+<edge source="united nations" target="wikimedia foundation">
+  <data key="d1">documented by</data>
+</edge>
+<edge source="division" target="29 may 2010">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="world population data sheet" target="population bureau">
+  <data key="d1">created by</data>
+</edge>
+<edge source="world population data sheet" target="22 april">
+  <data key="d1">published on</data>
+</edge>
+<edge source="world population data sheet" target="july 2010">
+  <data key="d1">updated in</data>
+</edge>
+<edge source="world population data sheet" target="prospects 2022 revision">
+  <data key="d1">related to</data>
+</edge>
+<edge source="population bureau" target="washington">
+  <data key="d1">located in</data>
+</edge>
+<edge source="population bureau" target="economic social">
+  <data key="d1">relates to</data>
+</edge>
+<edge source="economic social" target="16 october 2018">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="16 october 2018" target="19 july 2022">
+  <data key="d1">preceded by</data>
+</edge>
+<edge source="nations population division" target="prospects 2022 revision">
+  <data key="d1">published</data>
+</edge>
+<edge source="prospects 2022 revision" target="19 july 2022">
+  <data key="d1">examines</data>
+</edge>
+<edge source="alan boyle" target="science editor">
+  <data key="d1">role</data>
+</edge>
+<edge source="alan boyle" target="log 7 billion">
+  <data key="d1">highlighted by</data>
+</edge>
+<edge source="science editor" target="nbc news">
+  <data key="d1">works for</data>
+</edge>
+<edge source="nbc news" target="log 7 billion">
+  <data key="d1">reports on</data>
+</edge>
+<edge source="30 october 2011" target="log 7 billion">
+  <data key="d1">date</data>
+</edge>
+<edge source="log 7 billion" target="population milestone">
+  <data key="d1">significance</data>
+</edge>
+<edge source="world population prospects 2008" target="united nations secretariat">
+  <data key="d1">published by</data>
+</edge>
+<edge source="world population prospects 2008" target="november 2010">
+  <data key="d1">published in</data>
+</edge>
+<edge source="world population prospects 2008" target="january 2011">
+  <data key="d1">published in</data>
+</edge>
+<edge source="world population prospects 2008" target="population trends">
+  <data key="d1">provides analysis of</data>
+</edge>
+<edge source="world population prospects 2008" target="7 billion actions">
+  <data key="d1">related to</data>
+</edge>
+<edge source="november 2010" target="world population prospects 2008 revision">
+  <data key="d1">related to</data>
+</edge>
+<edge source="population milestone" target="rapid population growth">
+  <data key="d1">underscores</data>
+</edge>
+<edge source="population milestone" target="challenges">
+  <data key="d1">emphasizes</data>
+</edge>
+<edge source="population milestone" target="opportunities">
+  <data key="d1">emphasizes</data>
+</edge>
+<edge source="population milestone" target="hoyle amanda">
+  <data key="d1">reported by</data>
+</edge>
+<edge source="rapid population growth" target="world">
+  <data key="d1">has implications for</data>
+</edge>
+<edge source="population trends" target="birth rates">
+  <data key="d1">includes</data>
+</edge>
+<edge source="population trends" target="mortality">
+  <data key="d1">includes</data>
+</edge>
+<edge source="population trends" target="migration patterns">
+  <data key="d1">includes</data>
+</edge>
+<edge source="population trends" target="future demographic changes">
+  <data key="d1">projects</data>
+</edge>
+<edge source="future demographic changes" target="resources">
+  <data key="d1">impact</data>
+</edge>
+<edge source="future demographic changes" target="economies">
+  <data key="d1">impact</data>
+</edge>
+<edge source="future demographic changes" target="global policies">
+  <data key="d1">impact</data>
+</edge>
+<edge source="world population prospects 2008 revision" target="2015">
+  <data key="d1">revised in</data>
+</edge>
+<edge source="world population prospects 2008 revision" target="7 billion">
+  <data key="d1">size reached</data>
+</edge>
+<edge source="7 billion" target="7 billion actions">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="in ember" target="unfpa">
+  <data key="d1">published</data>
+</edge>
+<edge source="unfpa" target="7 billion actions">
+  <data key="d1">launched</data>
+</edge>
+<edge source="unfpa" target="7 billion global population">
+  <data key="d1">highlighted</data>
+</edge>
+<edge source="7 billion actions" target="october">
+  <data key="d1">started in</data>
+</edge>
+<edge source="7 billion actions" target="challenges and opportunities">
+  <data key="d1">address</data>
+</edge>
+<edge source="economic population division" target="world population prospects 2022 summary">
+  <data key="d1">published</data>
+</edge>
+<edge source="world population prospects 2022 summary" target="girl">
+  <data key="d1">includes</data>
+</edge>
+<edge source="girl" target="manila">
+  <data key="d1">is from</data>
+</edge>
+<edge source="girl" target="20 november 2022">
+  <data key="d1">born on</data>
+</edge>
+<edge source="girl" target="8 billionth">
+  <data key="d1">symbolized by</data>
+</edge>
+<edge source="armenia" target="8 billionth">
+  <data key="d1">symbolizes</data>
+</edge>
+<edge source="8 billionth" target="24 million">
+  <data key="d1">related to</data>
+</edge>
+<edge source="24 million" target="newborn">
+  <data key="d1">births</data>
+</edge>
+<edge source="drèze" target="amartya">
+  <data key="d1">written by</data>
+</edge>
+<edge source="drèze" target="development">
+  <data key="d1">emphasized by</data>
+</edge>
+<edge source="drèze" target="oxford university">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="drèze" target="participation">
+  <data key="d1">researched</data>
+</edge>
+<edge source="amartya" target="development">
+  <data key="d1">emphasized by</data>
+</edge>
+<edge source="amartya" target="oxford university">
+  <data key="d1">researched at</data>
+</edge>
+<edge source="participation" target="development">
+  <data key="d1">includes</data>
+</edge>
+<edge source="participation" target="oxford university">
+  <data key="d1">researched at</data>
+</edge>
+<edge source="development" target="february">
+  <data key="d1">researched in</data>
+</edge>
+<edge source="oxford university" target="5 millionth citizen">
+  <data key="d1">published work on</data>
+</edge>
+<edge source="research" target="february">
+  <data key="d1">conducted in</data>
+</edge>
+<edge source="kyrgyzstan" target="5 millionth citizen">
+  <data key="d1">celebrated</data>
+</edge>
+<edge source="kyrgyzstan" target="devonport">
+  <data key="d1">related to</data>
+</edge>
+<edge source="kyrgyzstan" target="kyrgyzstan">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="kyrgyzstan" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="kyrgyzstan" target="5m">
+  <data key="d1">population</data>
+</edge>
+<edge source="kyrgyzstan" target="27 august 2002">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="kyrgyzstan" target="tynchtykbek kuramayev">
+  <data key="d1">name</data>
+</edge>
+<edge source="kyrgyzstan" target="[38]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="kyrgyzstan" target="16">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="kyrgyzstan" target="6m">
+  <data key="d1">population</data>
+</edge>
+<edge source="kyrgyzstan" target="27 november 2015">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="kyrgyzstan" target="aylin kojosheva">
+  <data key="d1">name</data>
+</edge>
+<edge source="kyrgyzstan" target="[52][53]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="5 millionth citizen" target="#6">
+  <data key="d1">event</data>
+</edge>
+<edge source="5 millionth citizen" target="millionth citizen">
+  <data key="d1">related to</data>
+</edge>
+<edge source="5 millionth citizen" target="european conference">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="#6" target="language learning">
+  <data key="d1">event linked to</data>
+</edge>
+<edge source="millionth citizen" target="premier liu chaoshiuan">
+  <data key="d1">welcomed</data>
+</edge>
+<edge source="premier liu chaoshiuan" target="citizen certificate">
+  <data key="d1">issued</data>
+</edge>
+<edge source="premier liu chaoshiuan" target="event">
+  <data key="d1">attended</data>
+</edge>
+<edge source="event" target="6 april 2016">
+  <data key="d1">happened on</data>
+</edge>
+<edge source="event" target="devonport">
+  <data key="d1">held at</data>
+</edge>
+<edge source="event" target="european conference">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="6 april 2016" target="triangle business journal">
+  <data key="d1">published on</data>
+</edge>
+<edge source="devonport" target="philippines">
+  <data key="d1">located in</data>
+</edge>
+<edge source="european conference" target="language learning">
+  <data key="d1">focused on</data>
+</edge>
+<edge source="language learning" target="kazakhstan">
+  <data key="d1">relevant to</data>
+</edge>
+<edge source="kazakhstan" target="kazakhstan">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="kazakhstan" target="9">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="kazakhstan" target="17m">
+  <data key="d1">population</data>
+</edge>
+<edge source="kazakhstan" target="17 may 2013">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="kazakhstan" target="altynbek eskaraev алтынбек ескараев">
+  <data key="d1">name</data>
+</edge>
+<edge source="kazakhstan" target="[42][43]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="thùy dung" target="dân">
+  <data key="d1">population</data>
+</edge>
+<edge source="dân" target="90 triệu">
+  <data key="d1">counts</data>
+</edge>
+<edge source="90 triệu" target="cent millions">
+  <data key="d1">units</data>
+</edge>
+<edge source="90 triệu" target="philippines">
+  <data key="d1">demographic trend</data>
+</edge>
+<edge source="philippines" target="thanh niên">
+  <data key="d1">citizens of</data>
+</edge>
+<edge source="philippines" target="april 2016">
+  <data key="d1">event date</data>
+</edge>
+<edge source="philippines" target="philippines">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="philippines" target="11">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="philippines" target="100m">
+  <data key="d1">population</data>
+</edge>
+<edge source="philippines" target="27 july 2014">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="philippines" target="chonalyn sentino">
+  <data key="d1">name</data>
+</edge>
+<edge source="philippines" target="awarded free philhealth lifetime coverage by the government and access to healthcare by the doh">
+  <data key="d1">notes</data>
+</edge>
+<edge source="philippines" target="[46]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="hoyle amanda" target="scholarship">
+  <data key="d1">received</data>
+</edge>
+<edge source="hoyle amanda" target="baby">
+  <data key="d1">obtained</data>
+</edge>
+<edge source="hoyle amanda" target="wake county">
+  <data key="d1">resides in</data>
+</edge>
+<edge source="wake county" target="3millionth citizen">
+  <data key="d1">celebrated by</data>
+</edge>
+<edge source="wake county" target="january 2016">
+  <data key="d1">citizen milestone</data>
+</edge>
+<edge source="wake county" target="triangle business journal">
+  <data key="d1">reported by</data>
+</edge>
+<edge source="wake county" target="country/nationality">
+  <data key="d1"> north carolina</data>
+</edge>
+<edge source="wake county" target="positioninlist">
+  <data key="d1"> north carolina</data>
+</edge>
+<edge source="wake county" target="born (date)">
+  <data key="d1"> north carolina</data>
+</edge>
+<edge source="wake county" target="name">
+  <data key="d1"> north carolina</data>
+</edge>
+<edge source="wake county" target="notes">
+  <data key="d1"> north carolina</data>
+</edge>
+<edge source="wake county" target="foot- notes">
+  <data key="d1"> north carolina</data>
+</edge>
+<edge source="ferghana" target="six millionth citizen girl">
+  <data key="d1">welcomes</data>
+</edge>
+<edge source="egypt" target="100 million">
+  <data key="d1">population</data>
+</edge>
+<edge source="egypt" target="walsh declan">
+  <data key="d1">noted by</data>
+</edge>
+<edge source="egypt" target="egypt">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="egypt" target="17">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="egypt" target="100m">
+  <data key="d1">population</data>
+</edge>
+<edge source="egypt" target="11 february 2020">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="egypt" target="yasmine rabie">
+  <data key="d1">name</data>
+</edge>
+<edge source="egypt" target="[54]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="egypt" target="17major topics">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="walsh declan" target="new york times">
+  <data key="d1">published by</data>
+</edge>
+<edge source="continents" target="2012">
+  <data key="d1">projected populations</data>
+</edge>
+<edge source="continents" target="regions">
+  <data key="d1">projections</data>
+</edge>
+<edge source="foundation" target="wikimedia foundation">
+  <data key="d1">related to</data>
+</edge>
+<edge source="eurasianet" target="ferghana event">
+  <data key="d1">reported</data>
+</edge>
+<edge source="declan walsh" target="egypt milestone">
+  <data key="d1">published</data>
+</edge>
+<edge source="year" target=" 'population')">
+  <data key="d1">('world population milestones in billions (un estimates)[7]'</data>
+</edge>
+<edge source="year" target="0">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="year" target=" '1')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '2')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '3')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '4')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '5')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '6')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '7')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '8')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '9')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="year" target=" '10')">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" 'population')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="0" target="munich">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="major topics">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source=" '1')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '2')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '3')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '4')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '5')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '6')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '7')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '8')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '9')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source=" '10')" target="years elapsed">
+  <data key="d1">('world population milestones in billions (uscb estimates)'</data>
+</edge>
+<edge source="years elapsed" target="1">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="years elapsed" target="1year">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="years elapsed" target="1munich">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="united states">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="population biology">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="munich" target="1m">
+  <data key="d1">population</data>
+</edge>
+<edge source="munich" target="15 december 1957">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="munich" target="thomas seehaus">
+  <data key="d1">name</data>
+</edge>
+<edge source="munich" target="awarded by mayor thomas wimmer with a 1">
+  <data key="d1">notes</data>
+</edge>
+<edge source="munich" target="[29]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="united states" target="united states">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="united states" target="200m">
+  <data key="d1">population</data>
+</edge>
+<edge source="united states" target="20 november 1967">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="united states" target="robert ken woo jr">
+  <data key="d1">name</data>
+</edge>
+<edge source="united states" target="named by life magazine">
+  <data key="d1">notes</data>
+</edge>
+<edge source="united states" target="[30][31]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="200m" target="indonesia">
+  <data key="d1">population</data>
+</edge>
+<edge source="australia" target="australia">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="australia" target="2">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="australia" target="15m">
+  <data key="d1">population</data>
+</edge>
+<edge source="australia" target="29 january 1982">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="australia" target="sally hodgson">
+  <data key="d1">name</data>
+</edge>
+<edge source="australia" target="awarded by minister for immigration and ethnic affairs ian macphee">
+  <data key="d1">notes</data>
+</edge>
+<edge source="australia" target="[32]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="australia" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="australia" target="21m">
+  <data key="d1">population</data>
+</edge>
+<edge source="australia" target="29 june 2007">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="australia" target="mia ruby templeton">
+  <data key="d1">name</data>
+</edge>
+<edge source="australia" target="awarded by treasurer peter costello">
+  <data key="d1">notes</data>
+</edge>
+<edge source="australia" target="[39]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="2" target="population ecology">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="indonesia" target="indonesia">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="indonesia" target="3">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="indonesia" target="4 february 1997">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="indonesia" target="wahyu nusantara aji">
+  <data key="d1">name</data>
+</edge>
+<edge source="indonesia" target="complains that government promises of support were not kept. but">
+  <data key="d1">notes</data>
+</edge>
+<edge source="indonesia" target="[33] [34]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="3" target="society and  population">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="india" target="india">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="india" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="india" target="1b">
+  <data key="d1">population</data>
+</edge>
+<edge source="india" target="11 may 2000">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="india" target="aastha arora">
+  <data key="d1">name</data>
+</edge>
+<edge source="india" target="speculation re independence day 1999 till registrar demurred. complains that government promises of support were not kept.">
+  <data key="d1">notes</data>
+</edge>
+<edge source="india" target="[35][36][37]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="4" target="publications">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="lists">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="events and organizations">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="taiwan" target="taiwan">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="taiwan" target="7">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="taiwan" target="23m">
+  <data key="d1">population</data>
+</edge>
+<edge source="taiwan" target="17 july 2008">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="taiwan" target="wu cheng-en">
+  <data key="d1">name</data>
+</edge>
+<edge source="taiwan" target="certificate from premier of the republic of china liu chao-shiuan">
+  <data key="d1">notes</data>
+</edge>
+<edge source="taiwan" target="[40]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="7" target="related topics">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="auckland region" target="country/nationality">
+  <data key="d1"> new zealand</data>
+</edge>
+<edge source="auckland region" target="positioninlist">
+  <data key="d1"> new zealand</data>
+</edge>
+<edge source="auckland region" target="born (date)">
+  <data key="d1"> new zealand</data>
+</edge>
+<edge source="auckland region" target="name">
+  <data key="d1"> new zealand</data>
+</edge>
+<edge source="auckland region" target="notes">
+  <data key="d1"> new zealand</data>
+</edge>
+<edge source="auckland region" target="foot- notes">
+  <data key="d1"> new zealand</data>
+</edge>
+<edge source="vietnam" target="vietnam">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="vietnam" target="10">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="vietnam" target="90m">
+  <data key="d1">population</data>
+</edge>
+<edge source="vietnam" target="1 november 2013">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="vietnam" target="nguyễn thị thùy dung">
+  <data key="d1">name</data>
+</edge>
+<edge source="vietnam" target="randomly chosen by the general office of population and family planning from among two dozen babies born that day">
+  <data key="d1">notes</data>
+</edge>
+<edge source="vietnam" target="[44][45]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="mongolia" target="mongolia">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="mongolia" target="13">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="mongolia" target="3m">
+  <data key="d1">population</data>
+</edge>
+<edge source="mongolia" target="24 january 2015">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="mongolia" target="mongoljin khatanbold">
+  <data key="d1">name</data>
+</edge>
+<edge source="mongolia" target="[48][49]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="3m" target="silicon valley">
+  <data key="d1">population</data>
+</edge>
+<edge source="3m" target="utah">
+  <data key="d1">population</data>
+</edge>
+<edge source="silicon valley" target="silicon valley">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="silicon valley" target="14">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="silicon valley" target="5 may 2015">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="silicon valley" target="max danner">
+  <data key="d1">name</data>
+</edge>
+<edge source="silicon valley" target="[50]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="utah" target="utah">
+  <data key="d1">country/nationality</data>
+</edge>
+<edge source="utah" target="15">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="utah" target="24 october 2015">
+  <data key="d1">born (date)</data>
+</edge>
+<edge source="utah" target="sadie christensen">
+  <data key="d1">name</data>
+</edge>
+<edge source="utah" target="by governor gary herbert">
+  <data key="d1">notes</data>
+</edge>
+<edge source="utah" target="[51]">
+  <data key="d1">foot- notes</data>
+</edge>
+<edge source="major topics" target="demographics of the world demographic transition estimates of historical world population population growth population momentum projections of population growth world population">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="population biology" target="population biology">
+  <data key="d1">vtepopulation</data>
+</edge>
+<edge source="population biology" target="population decline population density physiological density population dynamics population model population pyramid">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="population ecology" target="population ecology">
+  <data key="d1">vtepopulation</data>
+</edge>
+<edge source="population ecology" target="biocapacity carrying capacity earth's energy budget i = p × a × t kaya identity malthusian growth model overshoot (population) world3 model">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="society and  population" target="society and  population">
+  <data key="d1">vtepopulation</data>
+</edge>
+<edge source="society and  population" target="eugenics human overpopulation malthusian catastrophe human population planning compulsory sterilization family planning one-child policy two-child policy overconsumption population ethics antinatalism reproductive rights sustainable population zero population growth">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="publications" target="publications">
+  <data key="d1">vtepopulation</data>
+</edge>
+<edge source="publications" target="population and environment population and development review">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="lists" target="lists">
+  <data key="d1">vtepopulation</data>
+</edge>
+<edge source="lists" target="population and housing censuses by country largest cities world population milestones 6 billion 7 8 population concern organizations">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="events and organizations" target="events and organizations">
+  <data key="d1">vtepopulation</data>
+</edge>
+<edge source="events and organizations" target="7 billion actions church of euthanasia international conference on population and development population action international population connection population matters united nations population fund united nations world population conferences voluntary human extinction movement world population conference world population day world population foundation">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="related topics" target="related topics">
+  <data key="d1">vtepopulation</data>
+</edge>
+<edge source="related topics" target="bennett's law green revolution human impact on the environment migration sustainability">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="commons  category" target="commons  category">
+  <data key="d1">vtepopulation.1</data>
+</edge>
+<edge source="commons  category" target="8">
+  <data key="d1">positioninlist</data>
+</edge>
+</graph></graphml>

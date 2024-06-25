@@ -8,6 +8,10 @@ from transformers import pipeline
 import torch
 import numpy as np
 from llama_index.llms.huggingface import HuggingFaceLLM
+
+from llama_index.core import SummaryIndex
+from llama_index.readers.web import SimpleWebPageReader
+
 pipelines = []
 gpus = []
 model_id = ""
@@ -120,4 +124,29 @@ def graphquestions(graph, prompt, pipeline_id=0):
     )
     
     response = chat_engine.chat(prompt)
+    return response.response
+
+def doRag(url, question, pipeline_id=0):
+    """
+    Function to ask questions about a graph.
+
+    Args:
+        url (str): The URL of the graph.
+        question (str): The question prompt.
+
+    Returns:
+        str: The response to the question.
+    """
+    if "HF_HOME" in os.environ:
+        global index
+        pipeline_id = pick_gpu(index)
+        index += 1
+        pipeline = pipelines[pipeline_id]
+        Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
+    documents = SimpleWebPageReader(html_to_text=True).load_data([url])
+    
+    index = SummaryIndex.from_documents(documents)
+    query_engine = index.as_query_engine()
+    
+    response = query_engine.query(question)
     return response.response

@@ -1,0 +1,3631 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="charli damelio">
+  <data key="d0">charli damelio</data>
+</node>
+<node id="khaby lame">
+  <data key="d0">khaby lame</data>
+</node>
+<node id="100 million followers">
+  <data key="d0">100 million followers</data>
+</node>
+<node id="loren gray">
+  <data key="d0">loren gray</data>
+</node>
+<node id="douyin">
+  <data key="d0">douyin</data>
+</node>
+<node id="tiktok">
+  <data key="d0">tiktok</data>
+</node>
+<node id="bytedance">
+  <data key="d0">bytedance</data>
+</node>
+<node id="ch users">
+  <data key="d0">ch users</data>
+</node>
+<node id="video service">
+  <data key="d0">video service</data>
+</node>
+<node id="techcrunch">
+  <data key="d0">techcrunch</data>
+</node>
+<node id="russell jon">
+  <data key="d0">russell jon</data>
+</node>
+<node id="28 december">
+  <data key="d0">28 december</data>
+</node>
+<node id="report">
+  <data key="d0">report</data>
+</node>
+<node id="sato mia">
+  <data key="d0">sato mia</data>
+</node>
+<node id="tiktoker">
+  <data key="d0">tiktoker</data>
+</node>
+<node id="the verge">
+  <data key="d0">the verge</data>
+</node>
+<node id="report from techcrunch">
+  <data key="d0">report from techcrunch</data>
+</node>
+<node id="tiktok merging">
+  <data key="d0">tiktok merging</data>
+</node>
+<node id="tiktok merging considerations">
+  <data key="d0">tiktok merging considerations</data>
+</node>
+<node id="talent juror">
+  <data key="d0">talent juror</data>
+</node>
+<node id="mrbeast">
+  <data key="d0">mrbeast</data>
+</node>
+<node id="damelio">
+  <data key="d0">damelio</data>
+</node>
+<node id="youtube">
+  <data key="d0">youtube</data>
+</node>
+<node id="$54myear">
+  <data key="d0">$54myear</data>
+</node>
+<node id="bianca poarch">
+  <data key="d0">bianca poarch</data>
+</node>
+<node id="philippines">
+  <data key="d0">philippines</data>
+</node>
+<node id="filipinos">
+  <data key="d0">filipinos</data>
+</node>
+<node id="jake skudder">
+  <data key="d0">jake skudder</data>
+</node>
+<node id="hotnewhiphop">
+  <data key="d0">hotnewhiphop</data>
+</node>
+<node id="king worth">
+  <data key="d0">king worth</data>
+</node>
+<node id="significant influencer">
+  <data key="d0">significant influencer</data>
+</node>
+<node id="turkish burak">
+  <data key="d0">turkish burak</data>
+</node>
+<node id="fraud">
+  <data key="d0">fraud</data>
+</node>
+<node id="jessica roiz">
+  <data key="d0">jessica roiz</data>
+</node>
+<node id="writer">
+  <data key="d0">writer</data>
+</node>
+<node id="tokyay menekse">
+  <data key="d0">tokyay menekse</data>
+</node>
+<node id="sanders laura">
+  <data key="d0">sanders laura</data>
+</node>
+<node id="dominik lipa">
+  <data key="d0">dominik lipa</data>
+</node>
+<node id="7 february 2024">
+  <data key="d0">7 february 2024</data>
+</node>
+<node id="smith">
+  <data key="d0">smith</data>
+</node>
+<node id="johnson">
+  <data key="d0">johnson</data>
+</node>
+<node id="eilish">
+  <data key="d0">eilish</data>
+</node>
+<node id="lentz kelsey ally">
+  <data key="d0">lentz kelsey ally</data>
+</node>
+<node id="members kpop supergroup">
+  <data key="d0">members kpop supergroup</data>
+</node>
+<node id="smith and johnson">
+  <data key="d0">smith and johnson</data>
+</node>
+<node id="recent updates">
+  <data key="d0">recent updates</data>
+</node>
+<node id="june 2023">
+  <data key="d0">june 2023</data>
+</node>
+<node id="polanco knight">
+  <data key="d0">polanco knight</data>
+</node>
+<node id="beatboxing">
+  <data key="d0">beatboxing</data>
+</node>
+<node id="influencer">
+  <data key="d0">influencer</data>
+</node>
+<node id="age">
+  <data key="d0">age</data>
+</node>
+<node id="followers">
+  <data key="d0">followers</data>
+</node>
+<node id="gomez">
+  <data key="d0">gomez</data>
+</node>
+<node id="jenner">
+  <data key="d0">jenner</data>
+</node>
+<node id="laura">
+  <data key="d0">laura</data>
+</node>
+<node id="sanders">
+  <data key="d0">sanders</data>
+</node>
+<node id="srivastava khushali">
+  <data key="d0">srivastava khushali</data>
+</node>
+<node id="younes zarou">
+  <data key="d0">younes zarou</data>
+</node>
+<node id="net worth">
+  <data key="d0">net worth</data>
+</node>
+<node id="khushali srivastava">
+  <data key="d0">khushali srivastava</data>
+</node>
+<node id="charli d'amelio">
+  <data key="d0">charli d'amelio</data>
+</node>
+<node id="laura sanders">
+  <data key="d0">laura sanders</data>
+</node>
+<node id="salim">
+  <data key="d0">salim</data>
+</node>
+<node id="social blade">
+  <data key="d0">social blade</data>
+</node>
+<node id="stats">
+  <data key="d0">stats</data>
+</node>
+<node id="carolyn twersky">
+  <data key="d0">carolyn twersky</data>
+</node>
+<node id="facts on seventeen">
+  <data key="d0">facts on seventeen</data>
+</node>
+<node id="anderson sarah">
+  <data key="d0">anderson sarah</data>
+</node>
+<node id="tiktokers">
+  <data key="d0">tiktokers</data>
+</node>
+<node id="daily hive">
+  <data key="d0">daily hive</data>
+</node>
+<node id="29 march 2023">
+  <data key="d0">29 march 2023</data>
+</node>
+<node id="37millionfollower">
+  <data key="d0">37millionfollower</data>
+</node>
+<node id="carolyn">
+  <data key="d0">carolyn</data>
+</node>
+<node id="twers">
+  <data key="d0">twers</data>
+</node>
+<node id="facts">
+  <data key="d0">facts</data>
+</node>
+<node id="seventeen">
+  <data key="d0">seventeen</data>
+</node>
+<node id="matt">
+  <data key="d0">matt</data>
+</node>
+<node id="usa today">
+  <data key="d0">usa today</data>
+</node>
+<node id="munson olivia">
+  <data key="d0">munson olivia</data>
+</node>
+<node id="february">
+  <data key="d0">february</data>
+</node>
+<node id="similar topics as daily hive">
+  <data key="d0">similar topics as daily hive</data>
+</node>
+<node id="carter brooke">
+  <data key="d0">carter brooke</data>
+</node>
+<node id="2018">
+  <data key="d0">2018</data>
+</node>
+<node id="riyaz aly">
+  <data key="d0">riyaz aly</data>
+</node>
+<node id="ali">
+  <data key="d0">ali</data>
+</node>
+<node id="4 tiktok influencers">
+  <data key="d0">4 tiktok influencers</data>
+</node>
+<node id="colombia">
+  <data key="d0">colombia</data>
+</node>
+<node id="photos">
+  <data key="d0">photos</data>
+</node>
+<node id="jojo siwa">
+  <data key="d0">jojo siwa</data>
+</node>
+<node id="wurzburger andrea">
+  <data key="d0">wurzburger andrea</data>
+</node>
+<node id="super stardom">
+  <data key="d0">super stardom</data>
+</node>
+<node id="february 2024">
+  <data key="d0">february 2024</data>
+</node>
+<node id="álvarez pongámoslo">
+  <data key="d0">álvarez pongámoslo</data>
+</node>
+<node id="pongámoslo">
+  <data key="d0">pongámoslo</data>
+</node>
+<node id="infant daughter">
+  <data key="d0">infant daughter</data>
+</node>
+<node id="fire">
+  <data key="d0">fire</data>
+</node>
+<node id="jet ski">
+  <data key="d0">jet ski</data>
+</node>
+<node id="youtuber">
+  <data key="d0">youtuber</data>
+</node>
+<node id="crone david">
+  <data key="d0">crone david</data>
+</node>
+<node id="bio">
+  <data key="d0">bio</data>
+</node>
+<node id="allmusic">
+  <data key="d0">allmusic</data>
+</node>
+<node id="david crone">
+  <data key="d0">david crone</data>
+</node>
+<node id="100m followers">
+  <data key="d0">100m followers</data>
+</node>
+<node id="tiktok influencers talent">
+  <data key="d0">tiktok influencers talent</data>
+</node>
+<node id="bbc">
+  <data key="d0">bbc</data>
+</node>
+<node id="business insider">
+  <data key="d0">business insider</data>
+</node>
+<node id="october">
+  <data key="d0">october</data>
+</node>
+<node id="31 may">
+  <data key="d0">31 may</data>
+</node>
+<node id="lena">
+  <data key="d0">lena</data>
+</node>
+<node id="april 2019">
+  <data key="d0">april 2019</data>
+</node>
+<node id="lisa">
+  <data key="d0">lisa</data>
+</node>
+<node id="october 2020">
+  <data key="d0">october 2020</data>
+</node>
+<node id="lisa lena">
+  <data key="d0">lisa lena</data>
+</node>
+<node id="april 2017">
+  <data key="d0">april 2017</data>
+</node>
+<node id="1">
+  <data key="d0">1</data>
+</node>
+<node id="0">
+  <data key="d0">0</data>
+</node>
+<node id="@khaby.lame">
+  <data key="d0">@khaby.lame</data>
+</node>
+<node id="162.5">
+  <data key="d0">162.5</data>
+</node>
+<node id="2.4">
+  <data key="d0">2.4</data>
+</node>
+<node id="social media personality">
+  <data key="d0">social media personality</data>
+</node>
+<node id="italy  senegal[5]">
+  <data key="d0">italy  senegal[5]</data>
+</node>
+<node id="2">
+  <data key="d0">2</data>
+</node>
+<node id="@charlidamelio">
+  <data key="d0">@charlidamelio</data>
+</node>
+<node id="154.5">
+  <data key="d0">154.5</data>
+</node>
+<node id="11.6">
+  <data key="d0">11.6</data>
+</node>
+<node id="dancer and social media personality">
+  <data key="d0">dancer and social media personality</data>
+</node>
+<node id="united states[6]">
+  <data key="d0">united states[6]</data>
+</node>
+<node id="3">
+  <data key="d0">3</data>
+</node>
+<node id="@mrbeast">
+  <data key="d0">@mrbeast</data>
+</node>
+<node id="96.5">
+  <data key="d0">96.5</data>
+</node>
+<node id="0.93">
+  <data key="d0">0.93</data>
+</node>
+<node id="united states[7]">
+  <data key="d0">united states[7]</data>
+</node>
+<node id="4">
+  <data key="d0">4</data>
+</node>
+<node id="@bellapoarch">
+  <data key="d0">@bellapoarch</data>
+</node>
+<node id="bella poarch">
+  <data key="d0">bella poarch</data>
+</node>
+<node id="94.2">
+  <data key="d0">94.2</data>
+</node>
+<node id="2.3">
+  <data key="d0">2.3</data>
+</node>
+<node id="singer and social media personality">
+  <data key="d0">singer and social media personality</data>
+</node>
+<node id="philippines  united states[8]">
+  <data key="d0">philippines  united states[8]</data>
+</node>
+<node id="5">
+  <data key="d0">5</data>
+</node>
+<node id="@addisonre">
+  <data key="d0">@addisonre</data>
+</node>
+<node id="addison rae">
+  <data key="d0">addison rae</data>
+</node>
+<node id="88.8">
+  <data key="d0">88.8</data>
+</node>
+<node id="5.8">
+  <data key="d0">5.8</data>
+</node>
+<node id="social media personality and dancer">
+  <data key="d0">social media personality and dancer</data>
+</node>
+<node id="united states[9]">
+  <data key="d0">united states[9]</data>
+</node>
+<node id="6">
+  <data key="d0">6</data>
+</node>
+<node id="@zachking">
+  <data key="d0">@zachking</data>
+</node>
+<node id="zach king">
+  <data key="d0">zach king</data>
+</node>
+<node id="82.1">
+  <data key="d0">82.1</data>
+</node>
+<node id="1.2">
+  <data key="d0">1.2</data>
+</node>
+<node id="united states[10]">
+  <data key="d0">united states[10]</data>
+</node>
+<node id="7">
+  <data key="d0">7</data>
+</node>
+<node id="@kimberly.loaiza">
+  <data key="d0">@kimberly.loaiza</data>
+</node>
+<node id="kimberly loaiza">
+  <data key="d0">kimberly loaiza</data>
+</node>
+<node id="81.2">
+  <data key="d0">81.2</data>
+</node>
+<node id="5.1">
+  <data key="d0">5.1</data>
+</node>
+<node id="mexico[11]">
+  <data key="d0">mexico[11]</data>
+</node>
+<node id="8">
+  <data key="d0">8</data>
+</node>
+<node id="@tiktok">
+  <data key="d0">@tiktok</data>
+</node>
+<node id="80.7">
+  <data key="d0">80.7</data>
+</node>
+<node id="0.32">
+  <data key="d0">0.32</data>
+</node>
+<node id="social media platform">
+  <data key="d0">social media platform</data>
+</node>
+<node id="china[12]">
+  <data key="d0">china[12]</data>
+</node>
+<node id="9">
+  <data key="d0">9</data>
+</node>
+<node id="@cznburak">
+  <data key="d0">@cznburak</data>
+</node>
+<node id="czn burak">
+  <data key="d0">czn burak</data>
+</node>
+<node id="75.2">
+  <data key="d0">75.2</data>
+</node>
+<node id="1.5">
+  <data key="d0">1.5</data>
+</node>
+<node id="turkey[13]">
+  <data key="d0">turkey[13]</data>
+</node>
+<node id="10">
+  <data key="d0">10</data>
+</node>
+<node id="@domelipa">
+  <data key="d0">@domelipa</data>
+</node>
+<node id="74.8">
+  <data key="d0">74.8</data>
+</node>
+<node id="4.7">
+  <data key="d0">4.7</data>
+</node>
+<node id="mexico[14]">
+  <data key="d0">mexico[14]</data>
+</node>
+<node id="11">
+  <data key="d0">11</data>
+</node>
+<node id="@willsmith">
+  <data key="d0">@willsmith</data>
+</node>
+<node id="will smith">
+  <data key="d0">will smith</data>
+</node>
+<node id="74.7">
+  <data key="d0">74.7</data>
+</node>
+<node id="0.54">
+  <data key="d0">0.54</data>
+</node>
+<node id="actor and film producer">
+  <data key="d0">actor and film producer</data>
+</node>
+<node id="united states[15]">
+  <data key="d0">united states[15]</data>
+</node>
+<node id="12">
+  <data key="d0">12</data>
+</node>
+<node id="@therock">
+  <data key="d0">@therock</data>
+</node>
+<node id="the rock">
+  <data key="d0">the rock</data>
+</node>
+<node id="74.4">
+  <data key="d0">74.4</data>
+</node>
+<node id="actor and former wrestler">
+  <data key="d0">actor and former wrestler</data>
+</node>
+<node id="united states[16]">
+  <data key="d0">united states[16]</data>
+</node>
+<node id="13">
+  <data key="d0">13</data>
+</node>
+<node id="@billieeilish">
+  <data key="d0">@billieeilish</data>
+</node>
+<node id="billie eilish">
+  <data key="d0">billie eilish</data>
+</node>
+<node id="65.5">
+  <data key="d0">65.5</data>
+</node>
+<node id="0.33">
+  <data key="d0">0.33</data>
+</node>
+<node id="singer and songwriter">
+  <data key="d0">singer and songwriter</data>
+</node>
+<node id="united states[17]">
+  <data key="d0">united states[17]</data>
+</node>
+<node id="14">
+  <data key="d0">14</data>
+</node>
+<node id="@bts_official_bighit">
+  <data key="d0">@bts_official_bighit</data>
+</node>
+<node id="bts">
+  <data key="d0">bts</data>
+</node>
+<node id="65.2">
+  <data key="d0">65.2</data>
+</node>
+<node id="1.4">
+  <data key="d0">1.4</data>
+</node>
+<node id="band">
+  <data key="d0">band</data>
+</node>
+<node id="south korea[18]">
+  <data key="d0">south korea[18]</data>
+</node>
+<node id="15">
+  <data key="d0">15</data>
+</node>
+<node id="@jasonderulo">
+  <data key="d0">@jasonderulo</data>
+</node>
+<node id="jason derulo">
+  <data key="d0">jason derulo</data>
+</node>
+<node id="59.4">
+  <data key="d0">59.4</data>
+</node>
+<node id="1.3">
+  <data key="d0">1.3</data>
+</node>
+<node id="singer">
+  <data key="d0">singer</data>
+</node>
+<node id="united states[19]">
+  <data key="d0">united states[19]</data>
+</node>
+<node id="16">
+  <data key="d0">16</data>
+</node>
+<node id="@selenagomez">
+  <data key="d0">@selenagomez</data>
+</node>
+<node id="selena gomez">
+  <data key="d0">selena gomez</data>
+</node>
+<node id="58.4">
+  <data key="d0">58.4</data>
+</node>
+<node id="0.62">
+  <data key="d0">0.62</data>
+</node>
+<node id="musician">
+  <data key="d0">musician</data>
+</node>
+<node id="united states[20]">
+  <data key="d0">united states[20]</data>
+</node>
+<node id="17">
+  <data key="d0">17</data>
+</node>
+<node id="@dixiedamelio">
+  <data key="d0">@dixiedamelio</data>
+</node>
+<node id="dixie d'amelio">
+  <data key="d0">dixie d'amelio</data>
+</node>
+<node id="56.1">
+  <data key="d0">56.1</data>
+</node>
+<node id="3.3">
+  <data key="d0">3.3</data>
+</node>
+<node id="united states[21]">
+  <data key="d0">united states[21]</data>
+</node>
+<node id="18">
+  <data key="d0">18</data>
+</node>
+<node id="@kyliejenner">
+  <data key="d0">@kyliejenner</data>
+</node>
+<node id="kylie jenner">
+  <data key="d0">kylie jenner</data>
+</node>
+<node id="model and socialite">
+  <data key="d0">model and socialite</data>
+</node>
+<node id="united states[22]">
+  <data key="d0">united states[22]</data>
+</node>
+<node id="19">
+  <data key="d0">19</data>
+</node>
+<node id="@youneszarou">
+  <data key="d0">@youneszarou</data>
+</node>
+<node id="55.4">
+  <data key="d0">55.4</data>
+</node>
+<node id="germany[23]">
+  <data key="d0">germany[23]</data>
+</node>
+<node id="20">
+  <data key="d0">20</data>
+</node>
+<node id="@spencerx">
+  <data key="d0">@spencerx</data>
+</node>
+<node id="spencer polanco knight">
+  <data key="d0">spencer polanco knight</data>
+</node>
+<node id="55.0">
+  <data key="d0">55.0</data>
+</node>
+<node id="beatboxer and social media personality">
+  <data key="d0">beatboxer and social media personality</data>
+</node>
+<node id="united states[24]">
+  <data key="d0">united states[24]</data>
+</node>
+<node id="21">
+  <data key="d0">21</data>
+</node>
+<node id="@bayashi.tiktok">
+  <data key="d0">@bayashi.tiktok</data>
+</node>
+<node id="bayashi">
+  <data key="d0">bayashi</data>
+</node>
+<node id="54.7">
+  <data key="d0">54.7</data>
+</node>
+<node id="1.7">
+  <data key="d0">1.7</data>
+</node>
+<node id="japan[25]">
+  <data key="d0">japan[25]</data>
+</node>
+<node id="22">
+  <data key="d0">22</data>
+</node>
+<node id="@williesalim">
+  <data key="d0">@williesalim</data>
+</node>
+<node id="willie salim">
+  <data key="d0">willie salim</data>
+</node>
+<node id="54.3">
+  <data key="d0">54.3</data>
+</node>
+<node id="0.92">
+  <data key="d0">0.92</data>
+</node>
+<node id="indonesia[26]">
+  <data key="d0">indonesia[26]</data>
+</node>
+<node id="23">
+  <data key="d0">23</data>
+</node>
+<node id="@lorengray">
+  <data key="d0">@lorengray</data>
+</node>
+<node id="53.8">
+  <data key="d0">53.8</data>
+</node>
+<node id="3.0">
+  <data key="d0">3.0</data>
+</node>
+<node id="united states[27]">
+  <data key="d0">united states[27]</data>
+</node>
+<node id="24">
+  <data key="d0">24</data>
+</node>
+<node id="@homm9k">
+  <data key="d0">@homm9k</data>
+</node>
+<node id="homa">
+  <data key="d0">homa</data>
+</node>
+<node id="53.0">
+  <data key="d0">53.0</data>
+</node>
+<node id="kazakhstan">
+  <data key="d0">kazakhstan</data>
+</node>
+<node id="25">
+  <data key="d0">25</data>
+</node>
+<node id="@karolg">
+  <data key="d0">@karolg</data>
+</node>
+<node id="karol g">
+  <data key="d0">karol g</data>
+</node>
+<node id="52.8">
+  <data key="d0">52.8</data>
+</node>
+<node id="0.43">
+  <data key="d0">0.43</data>
+</node>
+<node id="colombia[28]">
+  <data key="d0">colombia[28]</data>
+</node>
+<node id="26">
+  <data key="d0">26</data>
+</node>
+<node id="@justmaiko">
+  <data key="d0">@justmaiko</data>
+</node>
+<node id="michael le">
+  <data key="d0">michael le</data>
+</node>
+<node id="51.5">
+  <data key="d0">51.5</data>
+</node>
+<node id="united states">
+  <data key="d0">united states</data>
+</node>
+<node id="27">
+  <data key="d0">27</data>
+</node>
+<node id="@kallmekris">
+  <data key="d0">@kallmekris</data>
+</node>
+<node id="kallmekris">
+  <data key="d0">kallmekris</data>
+</node>
+<node id="50.6">
+  <data key="d0">50.6</data>
+</node>
+<node id="social media personality and hairdresser">
+  <data key="d0">social media personality and hairdresser</data>
+</node>
+<node id="canada[29]">
+  <data key="d0">canada[29]</data>
+</node>
+<node id="28">
+  <data key="d0">28</data>
+</node>
+<node id="@bp_tiktok">
+  <data key="d0">@bp_tiktok</data>
+</node>
+<node id="blackpink">
+  <data key="d0">blackpink</data>
+</node>
+<node id="48.5">
+  <data key="d0">48.5</data>
+</node>
+<node id="0.57">
+  <data key="d0">0.57</data>
+</node>
+<node id="south korea[30]">
+  <data key="d0">south korea[30]</data>
+</node>
+<node id="29">
+  <data key="d0">29</data>
+</node>
+<node id="@brentrivera">
+  <data key="d0">@brentrivera</data>
+</node>
+<node id="brent rivera">
+  <data key="d0">brent rivera</data>
+</node>
+<node id="48.0">
+  <data key="d0">48.0</data>
+</node>
+<node id="1.6">
+  <data key="d0">1.6</data>
+</node>
+<node id="united states[31]">
+  <data key="d0">united states[31]</data>
+</node>
+<node id="30">
+  <data key="d0">30</data>
+</node>
+<node id="@vilmeijuga">
+  <data key="d0">@vilmeijuga</data>
+</node>
+<node id="vilmei">
+  <data key="d0">vilmei</data>
+</node>
+<node id="47.9">
+  <data key="d0">47.9</data>
+</node>
+<node id="indonesia">
+  <data key="d0">indonesia</data>
+</node>
+<node id="31">
+  <data key="d0">31</data>
+</node>
+<node id="@riyaz.14">
+  <data key="d0">@riyaz.14</data>
+</node>
+<node id="46.6">
+  <data key="d0">46.6</data>
+</node>
+<node id="2.1">
+  <data key="d0">2.1</data>
+</node>
+<node id="india[32]">
+  <data key="d0">india[32]</data>
+</node>
+<node id="32">
+  <data key="d0">32</data>
+</node>
+<node id="@carlosferiag">
+  <data key="d0">@carlosferiag</data>
+</node>
+<node id="carlos feria">
+  <data key="d0">carlos feria</data>
+</node>
+<node id="46.3">
+  <data key="d0">46.3</data>
+</node>
+<node id="2.5">
+  <data key="d0">2.5</data>
+</node>
+<node id="colombia[33]">
+  <data key="d0">colombia[33]</data>
+</node>
+<node id="33">
+  <data key="d0">33</data>
+</node>
+<node id="@espn">
+  <data key="d0">@espn</data>
+</node>
+<node id="espn">
+  <data key="d0">espn</data>
+</node>
+<node id="46.1">
+  <data key="d0">46.1</data>
+</node>
+<node id="news agency">
+  <data key="d0">news agency</data>
+</node>
+<node id="34">
+  <data key="d0">34</data>
+</node>
+<node id="@itsjojosiwa">
+  <data key="d0">@itsjojosiwa</data>
+</node>
+<node id="45.8">
+  <data key="d0">45.8</data>
+</node>
+<node id="1.9">
+  <data key="d0">1.9</data>
+</node>
+<node id="united states[34]">
+  <data key="d0">united states[34]</data>
+</node>
+<node id="35">
+  <data key="d0">35</data>
+</node>
+<node id="@realmadrid">
+  <data key="d0">@realmadrid</data>
+</node>
+<node id="real madrid cf">
+  <data key="d0">real madrid cf</data>
+</node>
+<node id="45.4">
+  <data key="d0">45.4</data>
+</node>
+<node id="1.1">
+  <data key="d0">1.1</data>
+</node>
+<node id="professional football club">
+  <data key="d0">professional football club</data>
+</node>
+<node id="spain">
+  <data key="d0">spain</data>
+</node>
+<node id="36">
+  <data key="d0">36</data>
+</node>
+<node id="@pongamoslo_a_prueba">
+  <data key="d0">@pongamoslo_a_prueba</data>
+</node>
+<node id="pongámoslo a prueba">
+  <data key="d0">pongámoslo a prueba</data>
+</node>
+<node id="44.9">
+  <data key="d0">44.9</data>
+</node>
+<node id="mexico[35]">
+  <data key="d0">mexico[35]</data>
+</node>
+<node id="37">
+  <data key="d0">37</data>
+</node>
+<node id="@riaricis">
+  <data key="d0">@riaricis</data>
+</node>
+<node id="ria ricis">
+  <data key="d0">ria ricis</data>
+</node>
+<node id="44.6">
+  <data key="d0">44.6</data>
+</node>
+<node id="indonesia[36]">
+  <data key="d0">indonesia[36]</data>
+</node>
+<node id="38">
+  <data key="d0">38</data>
+</node>
+<node id="@junya1gou">
+  <data key="d0">@junya1gou</data>
+</node>
+<node id="junya gou">
+  <data key="d0">junya gou</data>
+</node>
+<node id="44.1">
+  <data key="d0">44.1</data>
+</node>
+<node id="0.71">
+  <data key="d0">0.71</data>
+</node>
+<node id="@joealbanese">
+  <data key="d0">@joealbanese</data>
+</node>
+<node id="joe albanese">
+  <data key="d0">joe albanese</data>
+</node>
+<node id="43.9">
+  <data key="d0">43.9</data>
+</node>
+<node id="40">
+  <data key="d0">40</data>
+</node>
+<node id="39">
+  <data key="d0">39</data>
+</node>
+<node id="@elrodcontreras">
+  <data key="d0">@elrodcontreras</data>
+</node>
+<node id="rod contreras">
+  <data key="d0">rod contreras</data>
+</node>
+<node id="43.3">
+  <data key="d0">43.3</data>
+</node>
+<node id="mexico">
+  <data key="d0">mexico</data>
+</node>
+<node id="41">
+  <data key="d0">41</data>
+</node>
+<node id="@roses_are_rosie">
+  <data key="d0">@roses_are_rosie</data>
+</node>
+<node id="rosé">
+  <data key="d0">rosé</data>
+</node>
+<node id="0.46">
+  <data key="d0">0.46</data>
+</node>
+<node id="new zealand  south korea[37]">
+  <data key="d0">new zealand  south korea[37]</data>
+</node>
+<node id="42">
+  <data key="d0">42</data>
+</node>
+<node id="@nianaguerrero">
+  <data key="d0">@nianaguerrero</data>
+</node>
+<node id="niana guerrero">
+  <data key="d0">niana guerrero</data>
+</node>
+<node id="43.1">
+  <data key="d0">43.1</data>
+</node>
+<node id="0.97">
+  <data key="d0">0.97</data>
+</node>
+<node id="43">
+  <data key="d0">43</data>
+</node>
+<node id="@psg">
+  <data key="d0">@psg</data>
+</node>
+<node id="paris saint-germain">
+  <data key="d0">paris saint-germain</data>
+</node>
+<node id="42.7">
+  <data key="d0">42.7</data>
+</node>
+<node id="0.65">
+  <data key="d0">0.65</data>
+</node>
+<node id="football club">
+  <data key="d0">football club</data>
+</node>
+<node id="france">
+  <data key="d0">france</data>
+</node>
+<node id="44">
+  <data key="d0">44</data>
+</node>
+<node id="@avani">
+  <data key="d0">@avani</data>
+</node>
+<node id="avani gregg">
+  <data key="d0">avani gregg</data>
+</node>
+<node id="42.4">
+  <data key="d0">42.4</data>
+</node>
+<node id="3.1">
+  <data key="d0">3.1</data>
+</node>
+<node id="45">
+  <data key="d0">45</data>
+</node>
+<node id="@xoteam">
+  <data key="d0">@xoteam</data>
+</node>
+<node id="xo team">
+  <data key="d0">xo team</data>
+</node>
+<node id="41.3">
+  <data key="d0">41.3</data>
+</node>
+<node id="pop group and social media personality">
+  <data key="d0">pop group and social media personality</data>
+</node>
+<node id="russia[38]">
+  <data key="d0">russia[38]</data>
+</node>
+<node id="46">
+  <data key="d0">46</data>
+</node>
+<node id="@championsleague">
+  <data key="d0">@championsleague</data>
+</node>
+<node id="champions league">
+  <data key="d0">champions league</data>
+</node>
+<node id="41.1">
+  <data key="d0">41.1</data>
+</node>
+<node id="annual club association football competition">
+  <data key="d0">annual club association football competition</data>
+</node>
+<node id="47">
+  <data key="d0">47</data>
+</node>
+<node id="@anokhinalz">
+  <data key="d0">@anokhinalz</data>
+</node>
+<node id="liza anokhina">
+  <data key="d0">liza anokhina</data>
+</node>
+<node id="40.3">
+  <data key="d0">40.3</data>
+</node>
+<node id="russia[39]">
+  <data key="d0">russia[39]</data>
+</node>
+<node id="48">
+  <data key="d0">48</data>
+</node>
+<node id="@noelgoescrazy">
+  <data key="d0">@noelgoescrazy</data>
+</node>
+<node id="noel robinson">
+  <data key="d0">noel robinson</data>
+</node>
+<node id="0.69">
+  <data key="d0">0.69</data>
+</node>
+<node id="dancer">
+  <data key="d0">dancer</data>
+</node>
+<node id="germany">
+  <data key="d0">germany</data>
+</node>
+<node id="49">
+  <data key="d0">49</data>
+</node>
+<node id="@gordonramsayofficial">
+  <data key="d0">@gordonramsayofficial</data>
+</node>
+<node id="gordon ramsay">
+  <data key="d0">gordon ramsay</data>
+</node>
+<node id="40.2">
+  <data key="d0">40.2</data>
+</node>
+<node id="0.67">
+  <data key="d0">0.67</data>
+</node>
+<node id="celebrity chef">
+  <data key="d0">celebrity chef</data>
+</node>
+<node id="united kingdom[40]">
+  <data key="d0">united kingdom[40]</data>
+</node>
+<node id="50">
+  <data key="d0">50</data>
+</node>
+<node id="@dobretwins">
+  <data key="d0">@dobretwins</data>
+</node>
+<node id="lucas and marcus">
+  <data key="d0">lucas and marcus</data>
+</node>
+<node id="39.2">
+  <data key="d0">39.2</data>
+</node>
+<node id="1.0">
+  <data key="d0">1.0</data>
+</node>
+<node id="social media personalities">
+  <data key="d0">social media personalities</data>
+</node>
+<node id="49@khaby.lame">
+  <data key="d0">49@khaby.lame</data>
+</node>
+<node id="khabane lame">
+  <data key="d0">khabane lame</data>
+</node>
+<node id="142.4">
+  <data key="d0">142.4</data>
+</node>
+<node id="22 june 2022">
+  <data key="d0">22 june 2022</data>
+</node>
+<node id="733">
+  <data key="d0">733</data>
+</node>
+<node id="[51]">
+  <data key="d0">[51]</data>
+</node>
+<node id="41.4">
+  <data key="d0">41.4</data>
+</node>
+<node id="25 march 2020">
+  <data key="d0">25 march 2020</data>
+</node>
+<node id="819">
+  <data key="d0">819</data>
+</node>
+<node id="[52]">
+  <data key="d0">[52]</data>
+</node>
+<node id="32.8">
+  <data key="d0">32.8</data>
+</node>
+<node id="31 march 2019">
+  <data key="d0">31 march 2019</data>
+</node>
+<node id="360">
+  <data key="d0">360</data>
+</node>
+<node id="[53]">
+  <data key="d0">[53]</data>
+</node>
+<node id="@lisaandlena">
+  <data key="d0">@lisaandlena</data>
+</node>
+<node id="lisa and lena">
+  <data key="d0">lisa and lena</data>
+</node>
+<node id="18.9">
+  <data key="d0">18.9</data>
+</node>
+<node id="27 april 2017">
+  <data key="d0">27 april 2017</data>
+</node>
+<node id="703">
+  <data key="d0">703</data>
+</node>
+<node id="[49][50]">
+  <data key="d0">[49][50]</data>
+</node>
+<node id="@babyariel">
+  <data key="d0">@babyariel</data>
+</node>
+<node id="baby ariel">
+  <data key="d0">baby ariel</data>
+</node>
+<node id="36.6">
+  <data key="d0">36.6</data>
+</node>
+<node id="—">
+  <data key="d0">—</data>
+</node>
+<node id="@rmrbxmt">
+  <data key="d0">@rmrbxmt</data>
+</node>
+<node id="people's daily">
+  <data key="d0">people's daily</data>
+</node>
+<node id="170">
+  <data key="d0">170</data>
+</node>
+<node id="china">
+  <data key="d0">china</data>
+</node>
+<node id="@cctvnews">
+  <data key="d0">@cctvnews</data>
+</node>
+<node id="china central television">
+  <data key="d0">china central television</data>
+</node>
+<node id="160">
+  <data key="d0">160</data>
+</node>
+<node id="@6182390">
+  <data key="d0">@6182390</data>
+</node>
+<node id="xiao yang">
+  <data key="d0">xiao yang</data>
+</node>
+<node id="100">
+  <data key="d0">100</data>
+</node>
+<node id="@andylau.9.27">
+  <data key="d0">@andylau.9.27</data>
+</node>
+<node id="andy lau">
+  <data key="d0">andy lau</data>
+</node>
+<node id="74.6">
+  <data key="d0">74.6</data>
+</node>
+<node id="hong kong">
+  <data key="d0">hong kong</data>
+</node>
+<node id="@cxldb001">
+  <data key="d0">@cxldb001</data>
+</node>
+<node id="chen xiang">
+  <data key="d0">chen xiang</data>
+</node>
+<node id="69.3">
+  <data key="d0">69.3</data>
+</node>
+<node id="@191433445">
+  <data key="d0">@191433445</data>
+</node>
+<node id="chen he">
+  <data key="d0">chen he</data>
+</node>
+<node id="64.3">
+  <data key="d0">64.3</data>
+</node>
+<node id="@dsmovie2019">
+  <data key="d0">@dsmovie2019</data>
+</node>
+<node id="ds movie">
+  <data key="d0">ds movie</data>
+</node>
+<node id="62.7">
+  <data key="d0">62.7</data>
+</node>
+<node id="@renminwang">
+  <data key="d0">@renminwang</data>
+</node>
+<node id="people's daily online">
+  <data key="d0">people's daily online</data>
+</node>
+<node id="59.7">
+  <data key="d0">59.7</data>
+</node>
+<node id="@xinhuashe">
+  <data key="d0">@xinhuashe</data>
+</node>
+<node id="xinhua news agency">
+  <data key="d0">xinhua news agency</data>
+</node>
+<node id="55.8">
+  <data key="d0">55.8</data>
+</node>
+<node id="@arescheng">
+  <data key="d0">@arescheng</data>
+</node>
+<node id="ares cheng">
+  <data key="d0">ares cheng</data>
+</node>
+<node id="52.7">
+  <data key="d0">52.7</data>
+</node>
+<node id="@71158770">
+  <data key="d0">@71158770</data>
+</node>
+<node id="li ziqi">
+  <data key="d0">li ziqi</data>
+</node>
+<node id="52.5">
+  <data key="d0">52.5</data>
+</node>
+<node id="@189251310">
+  <data key="d0">@189251310</data>
+</node>
+<node id="tu lei">
+  <data key="d0">tu lei</data>
+</node>
+<node id="51.9">
+  <data key="d0">51.9</data>
+</node>
+<node id="@douyin">
+  <data key="d0">@douyin</data>
+</node>
+<node id="51.2">
+  <data key="d0">51.2</data>
+</node>
+<node id="@xiaohan96">
+  <data key="d0">@xiaohan96</data>
+</node>
+<node id="xiaohan zhu">
+  <data key="d0">xiaohan zhu</data>
+</node>
+<node id="49.0">
+  <data key="d0">49.0</data>
+</node>
+<node id="@274110380">
+  <data key="d0">@274110380</data>
+</node>
+<node id="dilraba dilmurat">
+  <data key="d0">dilraba dilmurat</data>
+</node>
+<node id="47.8">
+  <data key="d0">47.8</data>
+</node>
+<node id="@yichan6666">
+  <data key="d0">@yichan6666</data>
+</node>
+<node id="monk yichan">
+  <data key="d0">monk yichan</data>
+</node>
+<node id="46.9">
+  <data key="d0">46.9</data>
+</node>
+<node id="@scgcnews">
+  <data key="d0">@scgcnews</data>
+</node>
+<node id="sichuan radio and television">
+  <data key="d0">sichuan radio and television</data>
+</node>
+<node id="@166902759">
+  <data key="d0">@166902759</data>
+</node>
+<node id="austin li">
+  <data key="d0">austin li</data>
+</node>
+<node id="44.7">
+  <data key="d0">44.7</data>
+</node>
+<node id="@857857xdl">
+  <data key="d0">@857857xdl</data>
+</node>
+<node id="crazy sisters">
+  <data key="d0">crazy sisters</data>
+</node>
+<node id="44.3">
+  <data key="d0">44.3</data>
+</node>
+<node id="@117908807">
+  <data key="d0">@117908807</data>
+</node>
+<node id="zhang da xian">
+  <data key="d0">zhang da xian</data>
+</node>
+<node id="as of 30 june 2022[needs update]">
+  <data key="d0">as of 30 june 2022[needs update]</data>
+</node>
+<node id="20people">
+  <data key="d0">20people</data>
+</node>
+<node id="people">
+  <data key="d0">people</data>
+</node>
+<node id="current shou zi chew (ceo) kelly zhang (coo) former zhang yiming (creator) mike godwin kevin a. mayer">
+  <data key="d0">current shou zi chew (ceo) kelly zhang (coo) former zhang yiming (creator) mike godwin kevin a. mayer</data>
+</node>
+<node id="current">
+  <data key="d0">current</data>
+</node>
+<node id="shou zi chew (ceo) kelly zhang (coo)">
+  <data key="d0">shou zi chew (ceo) kelly zhang (coo)</data>
+</node>
+<node id="former">
+  <data key="d0">former</data>
+</node>
+<node id="zhang yiming (creator) mike godwin kevin a. mayer">
+  <data key="d0">zhang yiming (creator) mike godwin kevin a. mayer</data>
+</node>
+<node id="culture">
+  <data key="d0">culture</data>
+</node>
+<node id="cultural impact of tiktok booktok dabloons e-girls and e-boys food trends libs of tiktok most-followed accounts soft girl">
+  <data key="d0">cultural impact of tiktok booktok dabloons e-girls and e-boys food trends libs of tiktok most-followed accounts soft girl</data>
+</node>
+<node id="criticism">
+  <data key="d0">criticism</data>
+</node>
+<node id="general censorship by tiktok censorship of tiktok lawsuits involving tiktok restrictions in the united states donald trump–tiktok controversy tiktok v. trump no tiktok on government devices act restrict act protecting americans from foreign adversary controlled applications act">
+  <data key="d0">general censorship by tiktok censorship of tiktok lawsuits involving tiktok restrictions in the united states donald trump–tiktok controversy tiktok v. trump no tiktok on government devices act restrict act protecting americans from foreign adversary controlled applications act</data>
+</node>
+<node id="general">
+  <data key="d0">general</data>
+</node>
+<node id="censorship by tiktok censorship of tiktok lawsuits involving tiktok">
+  <data key="d0">censorship by tiktok censorship of tiktok lawsuits involving tiktok</data>
+</node>
+<node id="restrictions in the united states">
+  <data key="d0">restrictions in the united states</data>
+</node>
+<node id="donald trump–tiktok controversy tiktok v. trump no tiktok on government devices act restrict act protecting americans from foreign adversary controlled applications act">
+  <data key="d0">donald trump–tiktok controversy tiktok v. trump no tiktok on government devices act restrict act protecting americans from foreign adversary controlled applications act</data>
+</node>
+<node id="events">
+  <data key="d0">events</data>
+</node>
+<node id="bud light boycott killing of paul schmidt tiktok awards night tiktok-a-thon for trans healthcare youtubers vs. tiktokers">
+  <data key="d0">bud light boycott killing of paul schmidt tiktok awards night tiktok-a-thon for trans healthcare youtubers vs. tiktokers</data>
+</node>
+<node id="related">
+  <data key="d0">related</data>
+</node>
+<node id="2023 united kingdom pupil protests bytedance musical.ly soundon">
+  <data key="d0">2023 united kingdom pupil protests bytedance musical.ly soundon</data>
+</node>
+<node id="category">
+  <data key="d0">category</data>
+</node>
+<node id="9current">
+  <data key="d0">9current</data>
+</node>
+<node id="1general">
+  <data key="d0">1general</data>
+</node>
+<node id="1accounts">
+  <data key="d0">1accounts</data>
+</node>
+<node id="accounts">
+  <data key="d0">accounts</data>
+</node>
+<node id="most-followed facebook pages most-followed instagram accounts most-followed tiktok accounts twitch channels most-followed most-subscribed most-followed twitter accounts youtube channels most-subscribed most-viewed">
+  <data key="d0">most-followed facebook pages most-followed instagram accounts most-followed tiktok accounts twitch channels most-followed most-subscribed most-followed twitter accounts youtube channels most-subscribed most-viewed</data>
+</node>
+<node id="posts and videos">
+  <data key="d0">posts and videos</data>
+</node>
+<node id="most-liked instagram posts tweets most-liked most-retweeted youtube videos most-liked most-viewed arabic music videos french music videos indian videos pakistani videos most-disliked">
+  <data key="d0">most-liked instagram posts tweets most-liked most-retweeted youtube videos most-liked most-viewed arabic music videos french music videos indian videos pakistani videos most-disliked</data>
+</node>
+<edge source="charli damelio" target="khaby lame">
+  <data key="d1">followed</data>
+</edge>
+<edge source="charli damelio" target="100 million followers">
+  <data key="d1">had</data>
+</edge>
+<edge source="charli damelio" target="tiktok">
+  <data key="d1">uses</data>
+</edge>
+<edge source="charli damelio" target="100m followers">
+  <data key="d1">has</data>
+</edge>
+<edge source="charli damelio" target="tiktok influencers talent">
+  <data key="d1">works with</data>
+</edge>
+<edge source="charli damelio" target="damelio">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="charli damelio" target="bbc">
+  <data key="d1">is on</data>
+</edge>
+<edge source="charli damelio" target="business insider">
+  <data key="d1">is on</data>
+</edge>
+<edge source="charli damelio" target="jojo siwa">
+  <data key="d1">similarly to</data>
+</edge>
+<edge source="charli damelio" target="october">
+  <data key="d1">exists during</data>
+</edge>
+<edge source="khaby lame" target="loren gray">
+  <data key="d1">surpassed</data>
+</edge>
+<edge source="khaby lame" target="tiktok">
+  <data key="d1">uses</data>
+</edge>
+<edge source="khaby lame" target="talent juror">
+  <data key="d1">expands career</data>
+</edge>
+<edge source="khaby lame" target="tiktoker">
+  <data key="d1">prominent</data>
+</edge>
+<edge source="khaby lame" target="1">
+  <data key="d1">owner</data>
+</edge>
+<edge source="loren gray" target="tiktok">
+  <data key="d1">uses</data>
+</edge>
+<edge source="loren gray" target="carolyn twersky">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="loren gray" target="facts on seventeen">
+  <data key="d1">topic of</data>
+</edge>
+<edge source="loren gray" target="facts">
+  <data key="d1">topic of</data>
+</edge>
+<edge source="loren gray" target="seventeen">
+  <data key="d1">bio on</data>
+</edge>
+<edge source="loren gray" target="carolyn">
+  <data key="d1">details compiled by</data>
+</edge>
+<edge source="loren gray" target="23">
+  <data key="d1">owner</data>
+</edge>
+<edge source="loren gray" target="@lorengray">
+  <data key="d1">owner</data>
+</edge>
+<edge source="douyin" target="tiktok">
+  <data key="d1">is similar to</data>
+</edge>
+<edge source="douyin" target="bytedance">
+  <data key="d1">is owned by</data>
+</edge>
+<edge source="douyin" target="russell jon">
+  <data key="d1">uses</data>
+</edge>
+<edge source="douyin" target="13">
+  <data key="d1">owner</data>
+</edge>
+<edge source="tiktok" target="ch users">
+  <data key="d1">is used by</data>
+</edge>
+<edge source="tiktok" target="bytedance">
+  <data key="d1">merging</data>
+</edge>
+<edge source="tiktok" target="video service">
+  <data key="d1">provides</data>
+</edge>
+<edge source="tiktok" target="report">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="tiktok" target="russell jon">
+  <data key="d1">uses</data>
+</edge>
+<edge source="tiktok" target="talent juror">
+  <data key="d1">joins</data>
+</edge>
+<edge source="tiktok" target="sato mia">
+  <data key="d1">platform</data>
+</edge>
+<edge source="tiktok" target="lena">
+  <data key="d1">löschen</data>
+</edge>
+<edge source="tiktok" target="lisa">
+  <data key="d1">stoppen</data>
+</edge>
+<edge source="tiktok" target="8">
+  <data key="d1">owner</data>
+</edge>
+<edge source="techcrunch" target="russell jon">
+  <data key="d1">reported by</data>
+</edge>
+<edge source="28 december" target="report">
+  <data key="d1">published on</data>
+</edge>
+<edge source="28 december" target="sato mia">
+  <data key="d1">mostfollowed on</data>
+</edge>
+<edge source="28 december" target="tiktok merging considerations">
+  <data key="d1">is the date of</data>
+</edge>
+<edge source="report" target="sato mia">
+  <data key="d1">the verge mentions</data>
+</edge>
+<edge source="sato mia" target="tiktoker">
+  <data key="d1">is a</data>
+</edge>
+<edge source="sato mia" target="the verge">
+  <data key="d1">reports on</data>
+</edge>
+<edge source="report from techcrunch" target="tiktok merging">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="mrbeast" target="damelio">
+  <data key="d1">youtube</data>
+</edge>
+<edge source="mrbeast" target="youtube">
+  <data key="d1">platform</data>
+</edge>
+<edge source="mrbeast" target="$54myear">
+  <data key="d1">generates</data>
+</edge>
+<edge source="mrbeast" target="significant influencer">
+  <data key="d1">is a</data>
+</edge>
+<edge source="mrbeast" target="3">
+  <data key="d1">owner</data>
+</edge>
+<edge source="damelio" target="net worth">
+  <data key="d1">related to</data>
+</edge>
+<edge source="damelio" target="followers">
+  <data key="d1">related to</data>
+</edge>
+<edge source="youtube" target="$54myear">
+  <data key="d1">generates</data>
+</edge>
+<edge source="youtube" target="salim">
+  <data key="d1">uses</data>
+</edge>
+<edge source="bianca poarch" target="philippines">
+  <data key="d1">is from</data>
+</edge>
+<edge source="bianca poarch" target="filipinos">
+  <data key="d1">love for</data>
+</edge>
+<edge source="bianca poarch" target="jessica roiz">
+  <data key="d1">mentioned by</data>
+</edge>
+<edge source="philippines" target="42">
+  <data key="d1">country</data>
+</edge>
+<edge source="jake skudder" target="hotnewhiphop">
+  <data key="d1">appeared in</data>
+</edge>
+<edge source="jake skudder" target="king worth">
+  <data key="d1">worth</data>
+</edge>
+<edge source="jake skudder" target="writer">
+  <data key="d1">is</data>
+</edge>
+<edge source="turkish burak" target="fraud">
+  <data key="d1">sues</data>
+</edge>
+<edge source="turkish burak" target="tokyay menekse">
+  <data key="d1">reported</data>
+</edge>
+<edge source="sanders laura" target="dominik lipa">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="7 february 2024">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="smith">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="johnson">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="eilish">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="lentz kelsey ally">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="members kpop supergroup">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="gomez">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="charli d'amelio">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sanders laura" target="laura">
+  <data key="d1">net worth of</data>
+</edge>
+<edge source="dominik lipa" target="10">
+  <data key="d1">owner</data>
+</edge>
+<edge source="7 february 2024" target="younes zarou">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="7 february 2024" target="jenner">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="eilish" target="smith and johnson">
+  <data key="d1">covered</data>
+</edge>
+<edge source="lentz kelsey ally" target="members kpop supergroup">
+  <data key="d1">related to</data>
+</edge>
+<edge source="members kpop supergroup" target="members kpop supergroup">
+  <data key="d1">belongs to</data>
+</edge>
+<edge source="members kpop supergroup" target="june 2023">
+  <data key="d1">lentz reviewed</data>
+</edge>
+<edge source="smith and johnson" target="recent updates">
+  <data key="d1">covered</data>
+</edge>
+<edge source="polanco knight" target="beatboxing">
+  <data key="d1">related to</data>
+</edge>
+<edge source="polanco knight" target="influencer">
+  <data key="d1">influencer type</data>
+</edge>
+<edge source="polanco knight" target="age">
+  <data key="d1">related to</data>
+</edge>
+<edge source="polanco knight" target="followers">
+  <data key="d1">related to</data>
+</edge>
+<edge source="influencer" target="gomez">
+  <data key="d1">related to</data>
+</edge>
+<edge source="influencer" target="jenner">
+  <data key="d1">related to</data>
+</edge>
+<edge source="influencer" target="laura">
+  <data key="d1">related to</data>
+</edge>
+<edge source="influencer" target="sanders">
+  <data key="d1">related to</data>
+</edge>
+<edge source="influencer" target="srivastava khushali">
+  <data key="d1">related to</data>
+</edge>
+<edge source="influencer" target="younes zarou">
+  <data key="d1">related to</data>
+</edge>
+<edge source="influencer" target="laura sanders">
+  <data key="d1">related to</data>
+</edge>
+<edge source="age" target="younes zarou">
+  <data key="d1">related to</data>
+</edge>
+<edge source="followers" target="gomez">
+  <data key="d1">related to</data>
+</edge>
+<edge source="followers" target="jenner">
+  <data key="d1">related to</data>
+</edge>
+<edge source="followers" target="laura">
+  <data key="d1">related to</data>
+</edge>
+<edge source="followers" target="sanders">
+  <data key="d1">related to</data>
+</edge>
+<edge source="followers" target="srivastava khushali">
+  <data key="d1">related to</data>
+</edge>
+<edge source="followers" target="khushali srivastava">
+  <data key="d1">related to</data>
+</edge>
+<edge source="followers" target="laura sanders">
+  <data key="d1">related to</data>
+</edge>
+<edge source="gomez" target="net worth">
+  <data key="d1">related to</data>
+</edge>
+<edge source="jenner" target="net worth">
+  <data key="d1">related to</data>
+</edge>
+<edge source="laura" target="net worth">
+  <data key="d1">related to</data>
+</edge>
+<edge source="sanders" target="net worth">
+  <data key="d1">related to</data>
+</edge>
+<edge source="srivastava khushali" target="net worth">
+  <data key="d1">related to</data>
+</edge>
+<edge source="younes zarou" target="net worth">
+  <data key="d1">related to</data>
+</edge>
+<edge source="younes zarou" target="19">
+  <data key="d1">owner</data>
+</edge>
+<edge source="net worth" target="khushali srivastava">
+  <data key="d1">related to</data>
+</edge>
+<edge source="net worth" target="laura sanders">
+  <data key="d1">related to</data>
+</edge>
+<edge source="charli d'amelio" target="2">
+  <data key="d1">owner</data>
+</edge>
+<edge source="charli d'amelio" target="@charlidamelio">
+  <data key="d1">owner</data>
+</edge>
+<edge source="salim" target="social blade">
+  <data key="d1">tracked on</data>
+</edge>
+<edge source="social blade" target="stats">
+  <data key="d1">provides</data>
+</edge>
+<edge source="anderson sarah" target="tiktokers">
+  <data key="d1">success on</data>
+</edge>
+<edge source="anderson sarah" target="daily hive">
+  <data key="d1">mentioned on</data>
+</edge>
+<edge source="anderson sarah" target="29 march 2023">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="anderson sarah" target="usa today">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="anderson sarah" target="riyaz aly">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="tiktokers" target="37millionfollower">
+  <data key="d1">has</data>
+</edge>
+<edge source="tiktokers" target="4 tiktok influencers">
+  <data key="d1">included in</data>
+</edge>
+<edge source="carolyn" target="twers">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="seventeen" target="matt">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="usa today" target="munson olivia">
+  <data key="d1">mentioned on</data>
+</edge>
+<edge source="munson olivia" target="february">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="munson olivia" target="similar topics as daily hive">
+  <data key="d1">covered</data>
+</edge>
+<edge source="munson olivia" target="riyaz aly">
+  <data key="d1">discussed by</data>
+</edge>
+<edge source="carter brooke" target="2018">
+  <data key="d1">net worth of</data>
+</edge>
+<edge source="riyaz aly" target="ali">
+  <data key="d1">has followers</data>
+</edge>
+<edge source="riyaz aly" target="31">
+  <data key="d1">owner</data>
+</edge>
+<edge source="4 tiktok influencers" target="colombia">
+  <data key="d1">from</data>
+</edge>
+<edge source="photos" target="jojo siwa">
+  <data key="d1">capture</data>
+</edge>
+<edge source="jojo siwa" target="wurzburger andrea">
+  <data key="d1">mother of</data>
+</edge>
+<edge source="jojo siwa" target="super stardom">
+  <data key="d1">achieved</data>
+</edge>
+<edge source="jojo siwa" target="february 2024">
+  <data key="d1">active in</data>
+</edge>
+<edge source="jojo siwa" target="david crone">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="jojo siwa" target="bio">
+  <data key="d1">provides context for</data>
+</edge>
+<edge source="jojo siwa" target="34">
+  <data key="d1">owner</data>
+</edge>
+<edge source="super stardom" target="allmusic">
+  <data key="d1">features</data>
+</edge>
+<edge source="álvarez pongámoslo" target="pongámoslo">
+  <data key="d1">created</data>
+</edge>
+<edge source="álvarez pongámoslo" target="jet ski">
+  <data key="d1">is used by</data>
+</edge>
+<edge source="infant daughter" target="fire">
+  <data key="d1">involves</data>
+</edge>
+<edge source="infant daughter" target="jet ski">
+  <data key="d1">uses</data>
+</edge>
+<edge source="fire" target="youtuber">
+  <data key="d1">challenged</data>
+</edge>
+<edge source="crone david" target="bio">
+  <data key="d1">wrote</data>
+</edge>
+<edge source="bio" target="allmusic">
+  <data key="d1">published on</data>
+</edge>
+<edge source="tiktok influencers talent" target="lena">
+  <data key="d1">includes</data>
+</edge>
+<edge source="bbc" target="lena">
+  <data key="d1">reports on</data>
+</edge>
+<edge source="october" target="31 may">
+  <data key="d1">is before</data>
+</edge>
+<edge source="october" target="october 2020">
+  <data key="d1">related to</data>
+</edge>
+<edge source="31 may" target="lisa">
+  <data key="d1">löschen</data>
+</edge>
+<edge source="lena" target="april 2019">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="april 2019" target="lisa">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="lisa" target="october 2020">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="lisa" target="lisa lena">
+  <data key="d1">is a part of</data>
+</edge>
+<edge source="lisa lena" target="april 2017">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="1" target="1">
+  <data key="d1">rank</data>
+</edge>
+<edge source="1" target="0">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="@khaby.lame">
+  <data key="d1">username</data>
+</edge>
+<edge source="1" target="162.5">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="1" target="2.4">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="1" target="social media personality">
+  <data key="d1">description</data>
+</edge>
+<edge source="1" target="italy  senegal[5]">
+  <data key="d1">country</data>
+</edge>
+<edge source="1" target="2">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="@charlidamelio">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="@rmrbxmt">
+  <data key="d1">username</data>
+</edge>
+<edge source="1" target="people's daily">
+  <data key="d1">owner</data>
+</edge>
+<edge source="1" target="170">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="1" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="1" target="current">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="former">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="restrictions in the united states">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="posts and videos">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="@khaby.lame">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="people">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="current">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="general">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="0" target="accounts">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="@khaby.lame" target="khabane lame">
+  <data key="d1">owner</data>
+</edge>
+<edge source="@khaby.lame" target="142.4">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="@khaby.lame" target="22 june 2022">
+  <data key="d1">date achieved</data>
+</edge>
+<edge source="@khaby.lame" target="733">
+  <data key="d1">days held</data>
+</edge>
+<edge source="@khaby.lame" target="[51]">
+  <data key="d1">ref(s)</data>
+</edge>
+<edge source="2.4" target="27">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="social media personality" target="3">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="6">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="9">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="10">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="19">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="21">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="22">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="24">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="29">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="30">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="31">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="36">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="37">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="38">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="40">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="42">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="44">
+  <data key="d1">description</data>
+</edge>
+<edge source="social media personality" target="47">
+  <data key="d1">description</data>
+</edge>
+<edge source="2" target="2">
+  <data key="d1">rank</data>
+</edge>
+<edge source="2" target="@charlidamelio">
+  <data key="d1">username</data>
+</edge>
+<edge source="2" target="154.5">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="2" target="11.6">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="2" target="dancer and social media personality">
+  <data key="d1">description</data>
+</edge>
+<edge source="2" target="united states[6]">
+  <data key="d1">country</data>
+</edge>
+<edge source="2" target="3">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="@lorengray">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2" target="@cctvnews">
+  <data key="d1">username</data>
+</edge>
+<edge source="2" target="china central television">
+  <data key="d1">owner</data>
+</edge>
+<edge source="2" target="160">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="2" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="2" target="former">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="@charlidamelio" target="@charlidamelio">
+  <data key="d1">username</data>
+</edge>
+<edge source="@charlidamelio" target="41.4">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="@charlidamelio" target="25 march 2020">
+  <data key="d1">date achieved</data>
+</edge>
+<edge source="@charlidamelio" target="819">
+  <data key="d1">days held</data>
+</edge>
+<edge source="@charlidamelio" target="[52]">
+  <data key="d1">ref(s)</data>
+</edge>
+<edge source="dancer and social media personality" target="26">
+  <data key="d1">description</data>
+</edge>
+<edge source="3" target="3">
+  <data key="d1">rank</data>
+</edge>
+<edge source="3" target="@mrbeast">
+  <data key="d1">username</data>
+</edge>
+<edge source="3" target="96.5">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="3" target="0.93">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="3" target="united states[7]">
+  <data key="d1">country</data>
+</edge>
+<edge source="3" target="4">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="@lisaandlena">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="@6182390">
+  <data key="d1">username</data>
+</edge>
+<edge source="3" target="xiao yang">
+  <data key="d1">owner</data>
+</edge>
+<edge source="3" target="100">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="3" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="3" target="culture">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="4">
+  <data key="d1">rank</data>
+</edge>
+<edge source="4" target="@bellapoarch">
+  <data key="d1">username</data>
+</edge>
+<edge source="4" target="bella poarch">
+  <data key="d1">owner</data>
+</edge>
+<edge source="4" target="94.2">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="4" target="2.3">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="4" target="singer and social media personality">
+  <data key="d1">description</data>
+</edge>
+<edge source="4" target="philippines  united states[8]">
+  <data key="d1">country</data>
+</edge>
+<edge source="4" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="@babyariel">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="4" target="@andylau.9.27">
+  <data key="d1">username</data>
+</edge>
+<edge source="4" target="andy lau">
+  <data key="d1">owner</data>
+</edge>
+<edge source="4" target="74.6">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="4" target="hong kong">
+  <data key="d1">region</data>
+</edge>
+<edge source="4" target="criticism">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="singer and social media personality" target="7">
+  <data key="d1">description</data>
+</edge>
+<edge source="singer and social media personality" target="17">
+  <data key="d1">description</data>
+</edge>
+<edge source="singer and social media personality" target="32">
+  <data key="d1">description</data>
+</edge>
+<edge source="5" target="5">
+  <data key="d1">rank</data>
+</edge>
+<edge source="5" target="@addisonre">
+  <data key="d1">username</data>
+</edge>
+<edge source="5" target="addison rae">
+  <data key="d1">owner</data>
+</edge>
+<edge source="5" target="88.8">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="5" target="5.8">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="5" target="social media personality and dancer">
+  <data key="d1">description</data>
+</edge>
+<edge source="5" target="united states[9]">
+  <data key="d1">country</data>
+</edge>
+<edge source="5" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5" target="@cxldb001">
+  <data key="d1">username</data>
+</edge>
+<edge source="5" target="chen xiang">
+  <data key="d1">owner</data>
+</edge>
+<edge source="5" target="69.3">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="5" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="5" target="general">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="6">
+  <data key="d1">rank</data>
+</edge>
+<edge source="6" target="@zachking">
+  <data key="d1">username</data>
+</edge>
+<edge source="6" target="zach king">
+  <data key="d1">owner</data>
+</edge>
+<edge source="6" target="82.1">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="6" target="1.2">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="6" target="united states[10]">
+  <data key="d1">country</data>
+</edge>
+<edge source="6" target="7">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="6" target="@191433445">
+  <data key="d1">username</data>
+</edge>
+<edge source="6" target="chen he">
+  <data key="d1">owner</data>
+</edge>
+<edge source="6" target="64.3">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="6" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="6" target="restrictions in the united states">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1.2" target="19">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="1.2" target="30">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="7" target="7">
+  <data key="d1">rank</data>
+</edge>
+<edge source="7" target="@kimberly.loaiza">
+  <data key="d1">username</data>
+</edge>
+<edge source="7" target="kimberly loaiza">
+  <data key="d1">owner</data>
+</edge>
+<edge source="7" target="81.2">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="7" target="5.1">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="7" target="mexico[11]">
+  <data key="d1">country</data>
+</edge>
+<edge source="7" target="8">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="7" target="@dsmovie2019">
+  <data key="d1">username</data>
+</edge>
+<edge source="7" target="ds movie">
+  <data key="d1">owner</data>
+</edge>
+<edge source="7" target="62.7">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="7" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="7" target="events">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="5.1" target="33">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="8" target="8">
+  <data key="d1">rank</data>
+</edge>
+<edge source="8" target="@tiktok">
+  <data key="d1">username</data>
+</edge>
+<edge source="8" target="80.7">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="8" target="0.32">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="8" target="social media platform">
+  <data key="d1">description</data>
+</edge>
+<edge source="8" target="china[12]">
+  <data key="d1">country</data>
+</edge>
+<edge source="8" target="9">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="8" target="@renminwang">
+  <data key="d1">username</data>
+</edge>
+<edge source="8" target="people's daily online">
+  <data key="d1">owner</data>
+</edge>
+<edge source="8" target="59.7">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="8" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="8" target="related">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="9" target="9">
+  <data key="d1">rank</data>
+</edge>
+<edge source="9" target="@cznburak">
+  <data key="d1">username</data>
+</edge>
+<edge source="9" target="czn burak">
+  <data key="d1">owner</data>
+</edge>
+<edge source="9" target="75.2">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="9" target="1.5">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="9" target="turkey[13]">
+  <data key="d1">country</data>
+</edge>
+<edge source="9" target="10">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="9" target="@xinhuashe">
+  <data key="d1">username</data>
+</edge>
+<edge source="9" target="xinhua news agency">
+  <data key="d1">owner</data>
+</edge>
+<edge source="9" target="55.8">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="9" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="9" target="category">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1.5" target="37">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="10" target="10">
+  <data key="d1">rank</data>
+</edge>
+<edge source="10" target="@domelipa">
+  <data key="d1">username</data>
+</edge>
+<edge source="10" target="74.8">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="10" target="4.7">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="10" target="mexico[14]">
+  <data key="d1">country</data>
+</edge>
+<edge source="10" target="11">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="10" target="@arescheng">
+  <data key="d1">username</data>
+</edge>
+<edge source="10" target="ares cheng">
+  <data key="d1">owner</data>
+</edge>
+<edge source="10" target="52.7">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="10" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="11" target="11">
+  <data key="d1">rank</data>
+</edge>
+<edge source="11" target="@willsmith">
+  <data key="d1">username</data>
+</edge>
+<edge source="11" target="will smith">
+  <data key="d1">owner</data>
+</edge>
+<edge source="11" target="74.7">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="11" target="0.54">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="11" target="actor and film producer">
+  <data key="d1">description</data>
+</edge>
+<edge source="11" target="united states[15]">
+  <data key="d1">country</data>
+</edge>
+<edge source="11" target="12">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="11" target="@71158770">
+  <data key="d1">username</data>
+</edge>
+<edge source="11" target="li ziqi">
+  <data key="d1">owner</data>
+</edge>
+<edge source="11" target="52.5">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="11" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="0.54" target="12">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="12" target="12">
+  <data key="d1">rank</data>
+</edge>
+<edge source="12" target="@therock">
+  <data key="d1">username</data>
+</edge>
+<edge source="12" target="the rock">
+  <data key="d1">owner</data>
+</edge>
+<edge source="12" target="74.4">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="12" target="actor and former wrestler">
+  <data key="d1">description</data>
+</edge>
+<edge source="12" target="united states[16]">
+  <data key="d1">country</data>
+</edge>
+<edge source="12" target="13">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="12" target="@189251310">
+  <data key="d1">username</data>
+</edge>
+<edge source="12" target="tu lei">
+  <data key="d1">owner</data>
+</edge>
+<edge source="12" target="51.9">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="12" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="13" target="13">
+  <data key="d1">rank</data>
+</edge>
+<edge source="13" target="@billieeilish">
+  <data key="d1">username</data>
+</edge>
+<edge source="13" target="billie eilish">
+  <data key="d1">owner</data>
+</edge>
+<edge source="13" target="65.5">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="13" target="0.33">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="13" target="singer and songwriter">
+  <data key="d1">description</data>
+</edge>
+<edge source="13" target="united states[17]">
+  <data key="d1">country</data>
+</edge>
+<edge source="13" target="14">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="13" target="@douyin">
+  <data key="d1">username</data>
+</edge>
+<edge source="13" target="51.2">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="13" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="singer and songwriter" target="25">
+  <data key="d1">description</data>
+</edge>
+<edge source="14" target="14">
+  <data key="d1">rank</data>
+</edge>
+<edge source="14" target="@bts_official_bighit">
+  <data key="d1">username</data>
+</edge>
+<edge source="14" target="bts">
+  <data key="d1">owner</data>
+</edge>
+<edge source="14" target="65.2">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="14" target="1.4">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="14" target="band">
+  <data key="d1">description</data>
+</edge>
+<edge source="14" target="south korea[18]">
+  <data key="d1">country</data>
+</edge>
+<edge source="14" target="15">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="14" target="@xiaohan96">
+  <data key="d1">username</data>
+</edge>
+<edge source="14" target="xiaohan zhu">
+  <data key="d1">owner</data>
+</edge>
+<edge source="14" target="49.0">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="14" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="1.4" target="18">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="1.4" target="26">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="1.4" target="46">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="1.4" target="47">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="band" target="28">
+  <data key="d1">description</data>
+</edge>
+<edge source="15" target="15">
+  <data key="d1">rank</data>
+</edge>
+<edge source="15" target="@jasonderulo">
+  <data key="d1">username</data>
+</edge>
+<edge source="15" target="jason derulo">
+  <data key="d1">owner</data>
+</edge>
+<edge source="15" target="59.4">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="15" target="1.3">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="15" target="singer">
+  <data key="d1">description</data>
+</edge>
+<edge source="15" target="united states[19]">
+  <data key="d1">country</data>
+</edge>
+<edge source="15" target="16">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="15" target="@274110380">
+  <data key="d1">username</data>
+</edge>
+<edge source="15" target="dilraba dilmurat">
+  <data key="d1">owner</data>
+</edge>
+<edge source="15" target="47.8">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="15" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="1.3" target="20">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="1.3" target="24">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="1.3" target="45">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="singer" target="23">
+  <data key="d1">description</data>
+</edge>
+<edge source="singer" target="34">
+  <data key="d1">description</data>
+</edge>
+<edge source="singer" target="41">
+  <data key="d1">description</data>
+</edge>
+<edge source="16" target="16">
+  <data key="d1">rank</data>
+</edge>
+<edge source="16" target="@selenagomez">
+  <data key="d1">username</data>
+</edge>
+<edge source="16" target="selena gomez">
+  <data key="d1">owner</data>
+</edge>
+<edge source="16" target="58.4">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="16" target="0.62">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="16" target="musician">
+  <data key="d1">description</data>
+</edge>
+<edge source="16" target="united states[20]">
+  <data key="d1">country</data>
+</edge>
+<edge source="16" target="17">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="16" target="@yichan6666">
+  <data key="d1">username</data>
+</edge>
+<edge source="16" target="monk yichan">
+  <data key="d1">owner</data>
+</edge>
+<edge source="16" target="46.9">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="16" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="17" target="17">
+  <data key="d1">rank</data>
+</edge>
+<edge source="17" target="@dixiedamelio">
+  <data key="d1">username</data>
+</edge>
+<edge source="17" target="dixie d'amelio">
+  <data key="d1">owner</data>
+</edge>
+<edge source="17" target="56.1">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="17" target="3.3">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="17" target="united states[21]">
+  <data key="d1">country</data>
+</edge>
+<edge source="17" target="18">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="17" target="@scgcnews">
+  <data key="d1">username</data>
+</edge>
+<edge source="17" target="sichuan radio and television">
+  <data key="d1">owner</data>
+</edge>
+<edge source="17" target="46.6">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="17" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="56.1" target="18">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="18" target="18">
+  <data key="d1">rank</data>
+</edge>
+<edge source="18" target="@kyliejenner">
+  <data key="d1">username</data>
+</edge>
+<edge source="18" target="kylie jenner">
+  <data key="d1">owner</data>
+</edge>
+<edge source="18" target="model and socialite">
+  <data key="d1">description</data>
+</edge>
+<edge source="18" target="united states[22]">
+  <data key="d1">country</data>
+</edge>
+<edge source="18" target="19">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="18" target="@166902759">
+  <data key="d1">username</data>
+</edge>
+<edge source="18" target="austin li">
+  <data key="d1">owner</data>
+</edge>
+<edge source="18" target="44.7">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="18" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="19" target="19">
+  <data key="d1">rank</data>
+</edge>
+<edge source="19" target="@youneszarou">
+  <data key="d1">username</data>
+</edge>
+<edge source="19" target="55.4">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="19" target="germany[23]">
+  <data key="d1">country</data>
+</edge>
+<edge source="19" target="20">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="19" target="@857857xdl">
+  <data key="d1">username</data>
+</edge>
+<edge source="19" target="crazy sisters">
+  <data key="d1">owner</data>
+</edge>
+<edge source="19" target="44.3">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="19" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="20" target="20">
+  <data key="d1">rank</data>
+</edge>
+<edge source="20" target="@spencerx">
+  <data key="d1">username</data>
+</edge>
+<edge source="20" target="spencer polanco knight">
+  <data key="d1">owner</data>
+</edge>
+<edge source="20" target="55.0">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="20" target="beatboxer and social media personality">
+  <data key="d1">description</data>
+</edge>
+<edge source="20" target="united states[24]">
+  <data key="d1">country</data>
+</edge>
+<edge source="20" target="21">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="20" target="@117908807">
+  <data key="d1">username</data>
+</edge>
+<edge source="20" target="zhang da xian">
+  <data key="d1">owner</data>
+</edge>
+<edge source="20" target="43.1">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="20" target="china">
+  <data key="d1">region</data>
+</edge>
+<edge source="20" target="as of 30 june 2022[needs update]">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="21" target="21">
+  <data key="d1">rank</data>
+</edge>
+<edge source="21" target="@bayashi.tiktok">
+  <data key="d1">username</data>
+</edge>
+<edge source="21" target="bayashi">
+  <data key="d1">owner</data>
+</edge>
+<edge source="21" target="54.7">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="21" target="1.7">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="21" target="japan[25]">
+  <data key="d1">country</data>
+</edge>
+<edge source="21" target="22">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1.7" target="38">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="japan[25]" target="38">
+  <data key="d1">country</data>
+</edge>
+<edge source="22" target="22">
+  <data key="d1">rank</data>
+</edge>
+<edge source="22" target="@williesalim">
+  <data key="d1">username</data>
+</edge>
+<edge source="22" target="willie salim">
+  <data key="d1">owner</data>
+</edge>
+<edge source="22" target="54.3">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="22" target="0.92">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="22" target="indonesia[26]">
+  <data key="d1">country</data>
+</edge>
+<edge source="22" target="23">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="23" target="23">
+  <data key="d1">rank</data>
+</edge>
+<edge source="23" target="@lorengray">
+  <data key="d1">username</data>
+</edge>
+<edge source="23" target="53.8">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="23" target="3.0">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="23" target="united states[27]">
+  <data key="d1">country</data>
+</edge>
+<edge source="23" target="24">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="@lorengray" target="@lorengray">
+  <data key="d1">username</data>
+</edge>
+<edge source="@lorengray" target="32.8">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="@lorengray" target="31 march 2019">
+  <data key="d1">date achieved</data>
+</edge>
+<edge source="@lorengray" target="360">
+  <data key="d1">days held</data>
+</edge>
+<edge source="@lorengray" target="[53]">
+  <data key="d1">ref(s)</data>
+</edge>
+<edge source="24" target="24">
+  <data key="d1">rank</data>
+</edge>
+<edge source="24" target="@homm9k">
+  <data key="d1">username</data>
+</edge>
+<edge source="24" target="homa">
+  <data key="d1">owner</data>
+</edge>
+<edge source="24" target="53.0">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="24" target="kazakhstan">
+  <data key="d1">country</data>
+</edge>
+<edge source="24" target="25">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="25" target="25">
+  <data key="d1">rank</data>
+</edge>
+<edge source="25" target="@karolg">
+  <data key="d1">username</data>
+</edge>
+<edge source="25" target="karol g">
+  <data key="d1">owner</data>
+</edge>
+<edge source="25" target="52.8">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="25" target="0.43">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="25" target="colombia[28]">
+  <data key="d1">country</data>
+</edge>
+<edge source="25" target="26">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="26" target="26">
+  <data key="d1">rank</data>
+</edge>
+<edge source="26" target="@justmaiko">
+  <data key="d1">username</data>
+</edge>
+<edge source="26" target="michael le">
+  <data key="d1">owner</data>
+</edge>
+<edge source="26" target="51.5">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="26" target="united states">
+  <data key="d1">country</data>
+</edge>
+<edge source="26" target="27">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="united states" target="33">
+  <data key="d1">country</data>
+</edge>
+<edge source="united states" target="38">
+  <data key="d1">country</data>
+</edge>
+<edge source="united states" target="44">
+  <data key="d1">country</data>
+</edge>
+<edge source="united states" target="50">
+  <data key="d1">country</data>
+</edge>
+<edge source="27" target="27">
+  <data key="d1">rank</data>
+</edge>
+<edge source="27" target="@kallmekris">
+  <data key="d1">username</data>
+</edge>
+<edge source="27" target="kallmekris">
+  <data key="d1">owner</data>
+</edge>
+<edge source="27" target="50.6">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="27" target="social media personality and hairdresser">
+  <data key="d1">description</data>
+</edge>
+<edge source="27" target="canada[29]">
+  <data key="d1">country</data>
+</edge>
+<edge source="27" target="28">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="28" target="28">
+  <data key="d1">rank</data>
+</edge>
+<edge source="28" target="@bp_tiktok">
+  <data key="d1">username</data>
+</edge>
+<edge source="28" target="blackpink">
+  <data key="d1">owner</data>
+</edge>
+<edge source="28" target="48.5">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="28" target="0.57">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="28" target="south korea[30]">
+  <data key="d1">country</data>
+</edge>
+<edge source="28" target="29">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="29" target="29">
+  <data key="d1">rank</data>
+</edge>
+<edge source="29" target="@brentrivera">
+  <data key="d1">username</data>
+</edge>
+<edge source="29" target="brent rivera">
+  <data key="d1">owner</data>
+</edge>
+<edge source="29" target="48.0">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="29" target="1.6">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="29" target="united states[31]">
+  <data key="d1">country</data>
+</edge>
+<edge source="29" target="30">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1.6" target="36">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="30" target="30">
+  <data key="d1">rank</data>
+</edge>
+<edge source="30" target="@vilmeijuga">
+  <data key="d1">username</data>
+</edge>
+<edge source="30" target="vilmei">
+  <data key="d1">owner</data>
+</edge>
+<edge source="30" target="47.9">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="30" target="indonesia">
+  <data key="d1">country</data>
+</edge>
+<edge source="30" target="31">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="31" target="31">
+  <data key="d1">rank</data>
+</edge>
+<edge source="31" target="@riyaz.14">
+  <data key="d1">username</data>
+</edge>
+<edge source="31" target="46.6">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="31" target="2.1">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="31" target="india[32]">
+  <data key="d1">country</data>
+</edge>
+<edge source="31" target="32">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="32" target="32">
+  <data key="d1">rank</data>
+</edge>
+<edge source="32" target="@carlosferiag">
+  <data key="d1">username</data>
+</edge>
+<edge source="32" target="carlos feria">
+  <data key="d1">owner</data>
+</edge>
+<edge source="32" target="46.3">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="32" target="2.5">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="32" target="colombia[33]">
+  <data key="d1">country</data>
+</edge>
+<edge source="32" target="33">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2.5" target="40">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="33" target="33">
+  <data key="d1">rank</data>
+</edge>
+<edge source="33" target="@espn">
+  <data key="d1">username</data>
+</edge>
+<edge source="33" target="espn">
+  <data key="d1">owner</data>
+</edge>
+<edge source="33" target="46.1">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="33" target="news agency">
+  <data key="d1">description</data>
+</edge>
+<edge source="33" target="34">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="34" target="34">
+  <data key="d1">rank</data>
+</edge>
+<edge source="34" target="@itsjojosiwa">
+  <data key="d1">username</data>
+</edge>
+<edge source="34" target="45.8">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="34" target="1.9">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="34" target="united states[34]">
+  <data key="d1">country</data>
+</edge>
+<edge source="34" target="35">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="35" target="35">
+  <data key="d1">rank</data>
+</edge>
+<edge source="35" target="@realmadrid">
+  <data key="d1">username</data>
+</edge>
+<edge source="35" target="real madrid cf">
+  <data key="d1">owner</data>
+</edge>
+<edge source="35" target="45.4">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="35" target="1.1">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="35" target="professional football club">
+  <data key="d1">description</data>
+</edge>
+<edge source="35" target="spain">
+  <data key="d1">country</data>
+</edge>
+<edge source="35" target="36">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="36" target="36">
+  <data key="d1">rank</data>
+</edge>
+<edge source="36" target="@pongamoslo_a_prueba">
+  <data key="d1">username</data>
+</edge>
+<edge source="36" target="pongámoslo a prueba">
+  <data key="d1">owner</data>
+</edge>
+<edge source="36" target="44.9">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="36" target="mexico[35]">
+  <data key="d1">country</data>
+</edge>
+<edge source="36" target="37">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="37" target="37">
+  <data key="d1">rank</data>
+</edge>
+<edge source="37" target="@riaricis">
+  <data key="d1">username</data>
+</edge>
+<edge source="37" target="ria ricis">
+  <data key="d1">owner</data>
+</edge>
+<edge source="37" target="44.6">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="37" target="indonesia[36]">
+  <data key="d1">country</data>
+</edge>
+<edge source="37" target="38">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="38" target="38">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="38" target="@junya1gou">
+  <data key="d1">username</data>
+</edge>
+<edge source="38" target="junya gou">
+  <data key="d1">owner</data>
+</edge>
+<edge source="38" target="44.1">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="38" target="0.71">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="38" target="@joealbanese">
+  <data key="d1">username</data>
+</edge>
+<edge source="38" target="joe albanese">
+  <data key="d1">owner</data>
+</edge>
+<edge source="38" target="43.9">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="40" target="40">
+  <data key="d1">rank</data>
+</edge>
+<edge source="40" target="39">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="40" target="@elrodcontreras">
+  <data key="d1">username</data>
+</edge>
+<edge source="40" target="rod contreras">
+  <data key="d1">owner</data>
+</edge>
+<edge source="40" target="43.3">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="40" target="mexico">
+  <data key="d1">country</data>
+</edge>
+<edge source="40" target="41">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="43.3" target="41">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="41" target="41">
+  <data key="d1">rank</data>
+</edge>
+<edge source="41" target="@roses_are_rosie">
+  <data key="d1">username</data>
+</edge>
+<edge source="41" target="rosé">
+  <data key="d1">owner</data>
+</edge>
+<edge source="41" target="0.46">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="41" target="new zealand  south korea[37]">
+  <data key="d1">country</data>
+</edge>
+<edge source="41" target="42">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="41" target="@babyariel">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="42" target="42">
+  <data key="d1">rank</data>
+</edge>
+<edge source="42" target="@nianaguerrero">
+  <data key="d1">username</data>
+</edge>
+<edge source="42" target="niana guerrero">
+  <data key="d1">owner</data>
+</edge>
+<edge source="42" target="43.1">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="42" target="0.97">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="42" target="43">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="43" target="43">
+  <data key="d1">rank</data>
+</edge>
+<edge source="43" target="@psg">
+  <data key="d1">username</data>
+</edge>
+<edge source="43" target="paris saint-germain">
+  <data key="d1">owner</data>
+</edge>
+<edge source="43" target="42.7">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="43" target="0.65">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="43" target="football club">
+  <data key="d1">description</data>
+</edge>
+<edge source="43" target="france">
+  <data key="d1">country</data>
+</edge>
+<edge source="43" target="44">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="44" target="44">
+  <data key="d1">rank</data>
+</edge>
+<edge source="44" target="@avani">
+  <data key="d1">username</data>
+</edge>
+<edge source="44" target="avani gregg">
+  <data key="d1">owner</data>
+</edge>
+<edge source="44" target="42.4">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="44" target="3.1">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="44" target="45">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="45" target="45">
+  <data key="d1">rank</data>
+</edge>
+<edge source="45" target="@xoteam">
+  <data key="d1">username</data>
+</edge>
+<edge source="45" target="xo team">
+  <data key="d1">owner</data>
+</edge>
+<edge source="45" target="41.3">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="45" target="pop group and social media personality">
+  <data key="d1">description</data>
+</edge>
+<edge source="45" target="russia[38]">
+  <data key="d1">country</data>
+</edge>
+<edge source="45" target="46">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="46" target="46">
+  <data key="d1">rank</data>
+</edge>
+<edge source="46" target="@championsleague">
+  <data key="d1">username</data>
+</edge>
+<edge source="46" target="champions league">
+  <data key="d1">owner</data>
+</edge>
+<edge source="46" target="41.1">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="46" target="annual club association football competition">
+  <data key="d1">description</data>
+</edge>
+<edge source="46" target="47">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="47" target="47">
+  <data key="d1">rank</data>
+</edge>
+<edge source="47" target="@anokhinalz">
+  <data key="d1">username</data>
+</edge>
+<edge source="47" target="liza anokhina">
+  <data key="d1">owner</data>
+</edge>
+<edge source="47" target="40.3">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="47" target="russia[39]">
+  <data key="d1">country</data>
+</edge>
+<edge source="47" target="48">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="40.3" target="48">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="48" target="48">
+  <data key="d1">rank</data>
+</edge>
+<edge source="48" target="@noelgoescrazy">
+  <data key="d1">username</data>
+</edge>
+<edge source="48" target="noel robinson">
+  <data key="d1">owner</data>
+</edge>
+<edge source="48" target="0.69">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="48" target="dancer">
+  <data key="d1">description</data>
+</edge>
+<edge source="48" target="germany">
+  <data key="d1">country</data>
+</edge>
+<edge source="48" target="49">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="49" target="49">
+  <data key="d1">rank</data>
+</edge>
+<edge source="49" target="@gordonramsayofficial">
+  <data key="d1">username</data>
+</edge>
+<edge source="49" target="gordon ramsay">
+  <data key="d1">owner</data>
+</edge>
+<edge source="49" target="40.2">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="49" target="0.67">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="49" target="celebrity chef">
+  <data key="d1">description</data>
+</edge>
+<edge source="49" target="united kingdom[40]">
+  <data key="d1">country</data>
+</edge>
+<edge source="49" target="50">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="50" target="50">
+  <data key="d1">rank</data>
+</edge>
+<edge source="50" target="@dobretwins">
+  <data key="d1">username</data>
+</edge>
+<edge source="50" target="lucas and marcus">
+  <data key="d1">owner</data>
+</edge>
+<edge source="50" target="39.2">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="50" target="1.0">
+  <data key="d1">likes (billions)</data>
+</edge>
+<edge source="50" target="social media personalities">
+  <data key="d1">description</data>
+</edge>
+<edge source="50" target="49@khaby.lame">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="@lisaandlena" target="@lisaandlena">
+  <data key="d1">username</data>
+</edge>
+<edge source="@lisaandlena" target="lisa and lena">
+  <data key="d1">owner</data>
+</edge>
+<edge source="@lisaandlena" target="18.9">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="@lisaandlena" target="27 april 2017">
+  <data key="d1">date achieved</data>
+</edge>
+<edge source="@lisaandlena" target="703">
+  <data key="d1">days held</data>
+</edge>
+<edge source="@lisaandlena" target="[49][50]">
+  <data key="d1">ref(s)</data>
+</edge>
+<edge source="[49][50]" target="@babyariel">
+  <data key="d1">ref(s)</data>
+</edge>
+<edge source="@babyariel" target="@babyariel">
+  <data key="d1">username</data>
+</edge>
+<edge source="@babyariel" target="baby ariel">
+  <data key="d1">owner</data>
+</edge>
+<edge source="@babyariel" target="36.6">
+  <data key="d1">followers (millions)</data>
+</edge>
+<edge source="@babyariel" target="—">
+  <data key="d1">days held</data>
+</edge>
+<edge source="as of 30 june 2022[needs update]" target="as of 30 june 2022[needs update]">
+  <data key="d1">region</data>
+</edge>
+<edge source="as of 30 june 2022[needs update]" target="20people">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="people" target="current shou zi chew (ceo) kelly zhang (coo) former zhang yiming (creator) mike godwin kevin a. mayer">
+  <data key="d1">vtetiktok.1</data>
+</edge>
+<edge source="current" target="current">
+  <data key="d1">vtetiktok</data>
+</edge>
+<edge source="current" target="shou zi chew (ceo) kelly zhang (coo)">
+  <data key="d1">1</data>
+</edge>
+<edge source="former" target="former">
+  <data key="d1">0</data>
+</edge>
+<edge source="former" target="zhang yiming (creator) mike godwin kevin a. mayer">
+  <data key="d1">1</data>
+</edge>
+<edge source="former" target="1general">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="culture" target="culture">
+  <data key="d1">vtetiktok</data>
+</edge>
+<edge source="culture" target="cultural impact of tiktok booktok dabloons e-girls and e-boys food trends libs of tiktok most-followed accounts soft girl">
+  <data key="d1">vtetiktok.1</data>
+</edge>
+<edge source="criticism" target="criticism">
+  <data key="d1">vtetiktok</data>
+</edge>
+<edge source="criticism" target="general censorship by tiktok censorship of tiktok lawsuits involving tiktok restrictions in the united states donald trump–tiktok controversy tiktok v. trump no tiktok on government devices act restrict act protecting americans from foreign adversary controlled applications act">
+  <data key="d1">vtetiktok.1</data>
+</edge>
+<edge source="general" target="general">
+  <data key="d1">vtetiktok</data>
+</edge>
+<edge source="general" target="censorship by tiktok censorship of tiktok lawsuits involving tiktok">
+  <data key="d1">1</data>
+</edge>
+<edge source="restrictions in the united states" target="restrictions in the united states">
+  <data key="d1">0</data>
+</edge>
+<edge source="restrictions in the united states" target="donald trump–tiktok controversy tiktok v. trump no tiktok on government devices act restrict act protecting americans from foreign adversary controlled applications act">
+  <data key="d1">1</data>
+</edge>
+<edge source="restrictions in the united states" target="1accounts">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="events" target="events">
+  <data key="d1">vtetiktok</data>
+</edge>
+<edge source="events" target="bud light boycott killing of paul schmidt tiktok awards night tiktok-a-thon for trans healthcare youtubers vs. tiktokers">
+  <data key="d1">vtetiktok.1</data>
+</edge>
+<edge source="related" target="related">
+  <data key="d1">vtetiktok</data>
+</edge>
+<edge source="related" target="2023 united kingdom pupil protests bytedance musical.ly soundon">
+  <data key="d1">vtetiktok.1</data>
+</edge>
+<edge source="category" target="category">
+  <data key="d1">vtetiktok.1</data>
+</edge>
+<edge source="category" target="9current">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="accounts" target="most-followed facebook pages most-followed instagram accounts most-followed tiktok accounts twitch channels most-followed most-subscribed most-followed twitter accounts youtube channels most-subscribed most-viewed">
+  <data key="d1">vtemost popular social media accounts and posts.1</data>
+</edge>
+<edge source="posts and videos" target="posts and videos">
+  <data key="d1">vtemost popular social media accounts and posts</data>
+</edge>
+<edge source="posts and videos" target="most-liked instagram posts tweets most-liked most-retweeted youtube videos most-liked most-viewed arabic music videos french music videos indian videos pakistani videos most-disliked">
+  <data key="d1">vtemost popular social media accounts and posts.1</data>
+</edge>
+</graph></graphml>

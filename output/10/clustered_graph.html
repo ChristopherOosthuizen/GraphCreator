@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#74b235", "font": {"color": "white"}, "id": "prime minister of new zealand", "label": "prime minister of new zealand", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "government", "label": "government", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "party", "label": "party", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "english wikipedia", "label": "english wikipedia", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "2023 general election", "label": "2023 general election", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "parliament", "label": "parliament", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "election", "label": "election", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "christopher luxon", "label": "christopher luxon", "shape": "dot", "size": 10}, {"color": "#843dcc", "font": {"color": "white"}, "id": "mike moore", "label": "mike moore", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "2023", "label": "2023", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "national party", "label": "national party", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "nationals", "label": "nationals", "shape": "dot", "size": 10}, {"color": "#74b235", "font": {"color": "white"}, "id": "new zealand", "label": "new zealand", "shape": "dot", "size": 10}, {"color": "#4c9999", "font": {"color": "white"}, "id": "global superpower", "label": "global superpower", "shape": "dot", "size": 10}, {"color": "#4c9999", "font": {"color": "white"}, "id": "international power", "label": "international power", "shape": "dot", "size": 10}, {"color": "#4c9999", "font": {"color": "white"}, "id": "largest economy by gdp", "label": "largest economy by gdp", "shape": "dot", "size": 10}, {"color": "#4c9999", "font": {"color": "white"}, "id": "president", "label": "president", "shape": "dot", "size": 10}, {"color": "#4c9999", "font": {"color": "white"}, "id": "larget economy by g", "label": "larget economy by g", "shape": "dot", "size": 10}, {"color": "#4c9999", "font": {"color": "white"}, "id": "united states", "label": "united states", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "prime minister", "label": "prime minister", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "geoffrey palmer", "label": "geoffrey palmer", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "jim bolger", "label": "jim bolger", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "jenny shipley", "label": "jenny shipley", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "helen clark", "label": "helen clark", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "john key", "label": "john key", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "jacinda ardern", "label": "jacinda ardern", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "hipkins", "label": "hipkins", "shape": "dot", "size": 10}, {"color": "#843dcc", "font": {"color": "white"}, "id": "71", "label": "71", "shape": "dot", "size": 10}, {"color": "#843dcc", "font": {"color": "white"}, "id": "february 2", "label": "february 2", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1942", "label": "1942", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1935", "label": "1935", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1952", "label": "1952", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1950", "label": "1950", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1961", "label": "1961", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1980", "label": "1980", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "1978", "label": "1978", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "prime minister of new zealand", "label": "head of entity", "to": "government", "width": 1}, {"from": "prime minister of new zealand", "label": "leader of", "to": "party", "width": 1}, {"from": "prime minister of new zealand", "label": "source of", "to": "english wikipedia", "width": 1}, {"from": "prime minister of new zealand", "label": "elected in", "to": "2023 general election", "width": 1}, {"from": "prime minister of new zealand", "label": "member of", "to": "parliament", "width": 1}, {"from": "prime minister of new zealand", "label": "source of", "to": "election", "width": 1}, {"from": "prime minister of new zealand", "label": "is of", "to": "christopher luxon", "width": 1}, {"from": "prime minister of new zealand", "label": "former leader of", "to": "mike moore", "width": 1}, {"from": "government", "label": "source of", "to": "english wikipedia", "width": 1}, {"from": "party", "label": "supported by", "to": "parliament", "width": 1}, {"from": "party", "label": "leader of", "to": "christopher luxon", "width": 1}, {"from": "english wikipedia", "label": "source of", "to": "parliament", "width": 1}, {"from": "english wikipedia", "label": "source of", "to": "christopher luxon", "width": 1}, {"from": "2023 general election", "label": "held in", "to": "2023", "width": 1}, {"from": "2023 general election", "label": "led to election of", "to": "christopher luxon", "width": 1}, {"from": "parliament", "label": "member of", "to": "national party", "width": 1}, {"from": "parliament", "label": "supported by", "to": "christopher luxon", "width": 1}, {"from": "parliament", "label": "source of", "to": "election", "width": 1}, {"from": "parliament", "label": "supported by", "to": "nationals", "width": 1}, {"from": "election", "label": "led to", "to": "christopher luxon", "width": 1}, {"from": "christopher luxon", "label": "year of appointment", "to": "2023", "width": 1}, {"from": "christopher luxon", "label": "member of", "to": "national party", "width": 1}, {"from": "christopher luxon", "label": "leader of", "to": "new zealand", "width": 1}, {"from": "national party", "label": "elected in", "to": "2023", "width": 1}, {"from": "global superpower", "label": "possesses", "to": "international power", "width": 1}, {"from": "global superpower", "label": "has", "to": "largest economy by gdp", "width": 1}, {"from": "global superpower", "label": "leader of", "to": "president", "width": 1}, {"from": "global superpower", "label": "has", "to": "larget economy by g", "width": 1}, {"from": "president", "label": "leader of", "to": "united states", "width": 1}, {"from": "prime minister", "label": "was a", "to": "mike moore", "width": 1}, {"from": "prime minister", "label": "was a", "to": "geoffrey palmer", "width": 1}, {"from": "prime minister", "label": "was a", "to": "jim bolger", "width": 1}, {"from": "prime minister", "label": "was a", "to": "jenny shipley", "width": 1}, {"from": "prime minister", "label": "was a", "to": "helen clark", "width": 1}, {"from": "prime minister", "label": "was a", "to": "john key", "width": 1}, {"from": "prime minister", "label": "was a", "to": "jacinda ardern", "width": 1}, {"from": "prime minister", "label": "was a", "to": "hipkins", "width": 1}, {"from": "mike moore", "label": "age", "to": "71", "width": 1}, {"from": "mike moore", "label": "referenced on", "to": "february 2", "width": 1}, {"from": "geoffrey palmer", "label": "born in", "to": "1942", "width": 1}, {"from": "jim bolger", "label": "born in", "to": "1935", "width": 1}, {"from": "jenny shipley", "label": "born in", "to": "1952", "width": 1}, {"from": "helen clark", "label": "born in", "to": "1950", "width": 1}, {"from": "1961", "label": "born in", "to": "john key", "width": 1}, {"from": "1980", "label": "born in", "to": "jacinda ardern", "width": 1}, {"from": "1978", "label": "born in", "to": "hipkins", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
