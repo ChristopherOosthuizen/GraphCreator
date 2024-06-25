@@ -93,13 +93,18 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+### Making a new Graph
 ```
 import GraphCreation.GraphCreation as gc
 chunks,g = gc.create_KG_from_url("https://en.wikipedia.org/wiki/Mckenna_Grace")
-
+print(GraphCreation.LLM.graphquestions(g,"Who is Mckenna Grace"))
 ```
-
+### To Use Exiting Graphs
+```
+import Networkx as nx
+g = nx.read_graphml("path to graph")
+print(GraphCreation.LLM.graphquestions(g,"Who is Mckenna Grace"))
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
