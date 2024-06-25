@@ -21,3 +21,11 @@ Issues="https://github.com/ChristopherOosthuizen/GraphCreator/issues"
 [build-system]
 requires=["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.setuptools.packages.find]
+where = ["src","GraphCreation","prompts"]
+include = ["*"]
+exclude = []
+
+[tool.setuptools.package-data]
+"prompts" = ["*"]
