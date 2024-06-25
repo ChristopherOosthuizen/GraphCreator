@@ -1,7 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="prime minister of new zealand">
+<graph edgedefault="undirected"><node id="english wikipedia">
+  <data key="d0">english wikipedia</data>
+</node>
+<node id="prime minister of new zealand">
   <data key="d0">prime minister of new zealand</data>
 </node>
 <node id="government">
@@ -10,62 +13,56 @@
 <node id="party">
   <data key="d0">party</data>
 </node>
-<node id="english wikipedia">
-  <data key="d0">english wikipedia</data>
-</node>
-<node id="2023 general election">
-  <data key="d0">2023 general election</data>
+<node id="christopher luxon">
+  <data key="d0">christopher luxon</data>
 </node>
 <node id="parliament">
   <data key="d0">parliament</data>
 </node>
-<node id="election">
-  <data key="d0">election</data>
-</node>
-<node id="christopher luxon">
-  <data key="d0">christopher luxon</data>
+<node id="2023 general election">
+  <data key="d0">2023 general election</data>
 </node>
 <node id="national party">
   <data key="d0">national party</data>
 </node>
-<node id="nationals">
-  <data key="d0">nationals</data>
-</node>
-<node id="2023">
-  <data key="d0">2023</data>
-</node>
 <node id="global superpower">
   <data key="d0">global superpower</data>
 </node>
-<node id="international power">
-  <data key="d0">international power</data>
+<node id="leader">
+  <data key="d0">leader</data>
 </node>
-<node id="largest economy by gdp">
-  <data key="d0">largest economy by gdp</data>
+<node id="gdp">
+  <data key="d0">gdp</data>
+</node>
+<node id="largest economy">
+  <data key="d0">largest economy</data>
 </node>
 <node id="president">
   <data key="d0">president</data>
 </node>
-<node id="prime minister">
-  <data key="d0">prime minister</data>
+<node id="international power">
+  <data key="d0">international power</data>
+</node>
+<node id="2 february 2020">
+  <data key="d0">2 february 2020</data>
 </node>
 <node id="mike moore">
   <data key="d0">mike moore</data>
 </node>
+<node id="prime minister">
+  <data key="d0">prime minister</data>
+</node>
 <node id="71">
   <data key="d0">71</data>
 </node>
-<node id="february 2">
-  <data key="d0">february 2</data>
+<node id="moore">
+  <data key="d0">moore</data>
 </node>
-<node id="new zealand">
-  <data key="d0">new zealand</data>
+<node id="radio nz">
+  <data key="d0">radio nz</data>
 </node>
-<node id="united states">
-  <data key="d0">united states</data>
-</node>
-<node id="larget economy by g">
-  <data key="d0">larget economy by g</data>
+<node id="february 2020">
+  <data key="d0">february 2020</data>
 </node>
 <node id="geoffrey palmer">
   <data key="d0">geoffrey palmer</data>
@@ -73,11 +70,11 @@
 <node id="1942">
   <data key="d0">1942</data>
 </node>
-<node id="jim bolger">
-  <data key="d0">jim bolger</data>
-</node>
 <node id="1935">
   <data key="d0">1935</data>
+</node>
+<node id="jim bolger">
+  <data key="d0">jim bolger</data>
 </node>
 <node id="jenny shipley">
   <data key="d0">jenny shipley</data>
@@ -85,11 +82,11 @@
 <node id="1952">
   <data key="d0">1952</data>
 </node>
-<node id="helen clark">
-  <data key="d0">helen clark</data>
-</node>
 <node id="1950">
   <data key="d0">1950</data>
+</node>
+<node id="helen clark">
+  <data key="d0">helen clark</data>
 </node>
 <node id="1961">
   <data key="d0">1961</data>
@@ -97,154 +94,115 @@
 <node id="john key">
   <data key="d0">john key</data>
 </node>
+<node id="jacinda ardern">
+  <data key="d0">jacinda ardern</data>
+</node>
 <node id="1980">
   <data key="d0">1980</data>
 </node>
-<node id="jacinda ardern">
-  <data key="d0">jacinda ardern</data>
+<node id="chris hipkins">
+  <data key="d0">chris hipkins</data>
 </node>
 <node id="1978">
   <data key="d0">1978</data>
 </node>
-<node id="hipkins">
-  <data key="d0">hipkins</data>
+<node id="significant influence">
+  <data key="d0">significant influence</data>
 </node>
+<node id="politician">
+  <data key="d0">politician</data>
+</node>
+<edge source="english wikipedia" target="prime minister of new zealand">
+  <data key="d1">states</data>
+</edge>
 <edge source="prime minister of new zealand" target="government">
-  <data key="d1">head of entity</data>
+  <data key="d1">is head of</data>
 </edge>
 <edge source="prime minister of new zealand" target="party">
-  <data key="d1">leader of</data>
-</edge>
-<edge source="prime minister of new zealand" target="english wikipedia">
-  <data key="d1">source of</data>
-</edge>
-<edge source="prime minister of new zealand" target="2023 general election">
-  <data key="d1">elected in</data>
-</edge>
-<edge source="prime minister of new zealand" target="parliament">
-  <data key="d1">member of</data>
-</edge>
-<edge source="prime minister of new zealand" target="election">
-  <data key="d1">source of</data>
+  <data key="d1">is leader of</data>
 </edge>
 <edge source="prime minister of new zealand" target="christopher luxon">
-  <data key="d1">is of</data>
+  <data key="d1">associated with</data>
 </edge>
 <edge source="prime minister of new zealand" target="mike moore">
-  <data key="d1">former leader of</data>
+  <data key="d1">has held by</data>
 </edge>
-<edge source="government" target="english wikipedia">
-  <data key="d1">source of</data>
+<edge source="prime minister of new zealand" target="moore">
+  <data key="d1">position once held</data>
 </edge>
 <edge source="party" target="parliament">
-  <data key="d1">supported by</data>
+  <data key="d1">holds support of</data>
 </edge>
-<edge source="party" target="christopher luxon">
-  <data key="d1">leader of</data>
-</edge>
-<edge source="english wikipedia" target="parliament">
-  <data key="d1">source of</data>
-</edge>
-<edge source="english wikipedia" target="christopher luxon">
-  <data key="d1">source of</data>
-</edge>
-<edge source="2023 general election" target="2023">
-  <data key="d1">held in</data>
-</edge>
-<edge source="2023 general election" target="christopher luxon">
-  <data key="d1">led to election of</data>
-</edge>
-<edge source="parliament" target="national party">
-  <data key="d1">member of</data>
-</edge>
-<edge source="parliament" target="christopher luxon">
-  <data key="d1">supported by</data>
-</edge>
-<edge source="parliament" target="election">
-  <data key="d1">source of</data>
-</edge>
-<edge source="parliament" target="nationals">
-  <data key="d1">supported by</data>
-</edge>
-<edge source="election" target="christopher luxon">
-  <data key="d1">led to</data>
-</edge>
-<edge source="christopher luxon" target="2023">
-  <data key="d1">year of appointment</data>
+<edge source="christopher luxon" target="2023 general election">
+  <data key="d1">preceded by</data>
 </edge>
 <edge source="christopher luxon" target="national party">
-  <data key="d1">member of</data>
+  <data key="d1">belongs to</data>
 </edge>
-<edge source="christopher luxon" target="new zealand">
-  <data key="d1">leader of</data>
+<edge source="global superpower" target="leader">
+  <data key="d1">position of</data>
 </edge>
-<edge source="national party" target="2023">
-  <data key="d1">elected in</data>
-</edge>
-<edge source="global superpower" target="international power">
-  <data key="d1">possesses</data>
-</edge>
-<edge source="global superpower" target="largest economy by gdp">
+<edge source="global superpower" target="gdp">
   <data key="d1">has</data>
 </edge>
 <edge source="global superpower" target="president">
-  <data key="d1">leader of</data>
+  <data key="d1">has leader</data>
 </edge>
-<edge source="global superpower" target="larget economy by g">
-  <data key="d1">has</data>
+<edge source="leader" target="largest economy">
+  <data key="d1">controls</data>
 </edge>
-<edge source="president" target="united states">
-  <data key="d1">leader of</data>
+<edge source="leader" target="prime minister">
+  <data key="d1">is a</data>
 </edge>
-<edge source="prime minister" target="mike moore">
+<edge source="leader" target="president">
+  <data key="d1">can be</data>
+</edge>
+<edge source="president" target="international power">
+  <data key="d1">posseses</data>
+</edge>
+<edge source="international power" target="significant influence">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="2 february 2020" target="mike moore">
+  <data key="d1">date</data>
+</edge>
+<edge source="mike moore" target="prime minister">
+  <data key="d1">name</data>
+</edge>
+<edge source="mike moore" target="radio nz">
+  <data key="d1">reports of death by</data>
+</edge>
+<edge source="mike moore" target="politician">
   <data key="d1">was a</data>
 </edge>
-<edge source="prime minister" target="geoffrey palmer">
-  <data key="d1">was a</data>
-</edge>
-<edge source="prime minister" target="jim bolger">
-  <data key="d1">was a</data>
-</edge>
-<edge source="prime minister" target="jenny shipley">
-  <data key="d1">was a</data>
-</edge>
-<edge source="prime minister" target="helen clark">
-  <data key="d1">was a</data>
-</edge>
-<edge source="prime minister" target="john key">
-  <data key="d1">was a</data>
-</edge>
-<edge source="prime minister" target="jacinda ardern">
-  <data key="d1">was a</data>
-</edge>
-<edge source="prime minister" target="hipkins">
-  <data key="d1">was a</data>
-</edge>
-<edge source="mike moore" target="71">
+<edge source="71" target="moore">
   <data key="d1">age</data>
 </edge>
-<edge source="mike moore" target="february 2">
-  <data key="d1">referenced on</data>
+<edge source="moore" target="radio nz">
+  <data key="d1">reported by</data>
+</edge>
+<edge source="radio nz" target="february 2020">
+  <data key="d1">reported on</data>
 </edge>
 <edge source="geoffrey palmer" target="1942">
   <data key="d1">born in</data>
 </edge>
-<edge source="jim bolger" target="1935">
+<edge source="1935" target="jim bolger">
   <data key="d1">born in</data>
 </edge>
 <edge source="jenny shipley" target="1952">
   <data key="d1">born in</data>
 </edge>
-<edge source="helen clark" target="1950">
+<edge source="1950" target="helen clark">
   <data key="d1">born in</data>
 </edge>
 <edge source="1961" target="john key">
   <data key="d1">born in</data>
 </edge>
-<edge source="1980" target="jacinda ardern">
+<edge source="jacinda ardern" target="1980">
   <data key="d1">born in</data>
 </edge>
-<edge source="1978" target="hipkins">
+<edge source="chris hipkins" target="1978">
   <data key="d1">born in</data>
 </edge>
 </graph></graphml>

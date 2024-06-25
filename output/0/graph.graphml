@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="brand">
-  <data key="d0">brand</data>
+<graph edgedefault="undirected"><node id="millions">
+  <data key="d0">millions</data>
 </node>
 <node id="tom brady">
   <data key="d0">tom brady</data>
@@ -10,14 +10,17 @@
 <node id="beckham">
   <data key="d0">beckham</data>
 </node>
-<node id="nespresso">
-  <data key="d0">nespresso</data>
-</node>
-<node id="clooney">
-  <data key="d0">clooney</data>
+<node id="brand">
+  <data key="d0">brand</data>
 </node>
 <node id="$40 million">
   <data key="d0">$40 million</data>
+</node>
+<node id="george clooney">
+  <data key="d0">george clooney</data>
+</node>
+<node id="nespresso">
+  <data key="d0">nespresso</data>
 </node>
 <node id="$50 million">
   <data key="d0">$50 million</data>
@@ -28,11 +31,11 @@
 <node id="pepsi">
   <data key="d0">pepsi</data>
 </node>
-<node id="$26 million">
-  <data key="d0">$26 million</data>
-</node>
 <node id="taylor swift">
   <data key="d0">taylor swift</data>
+</node>
+<node id="$26 million">
+  <data key="d0">$26 million</data>
 </node>
 <node id="2013">
   <data key="d0">2013</data>
@@ -40,68 +43,56 @@
 <node id="cola">
   <data key="d0">cola</data>
 </node>
+<node id="flat">
+  <data key="d0">flat</data>
+</node>
 <node id="gucci">
   <data key="d0">gucci</data>
 </node>
 <node id="harry styles">
   <data key="d0">harry styles</data>
 </node>
-<node id="world cup final">
-  <data key="d0">world cup final</data>
-</node>
-<node id="lionel messi">
-  <data key="d0">lionel messi</data>
-</node>
 <node id="kylian mbappé">
   <data key="d0">kylian mbappé</data>
 </node>
-<node id="argentine">
-  <data key="d0">argentine</data>
-</node>
-<node id="adidas">
-  <data key="d0">adidas</data>
-</node>
-<node id="argentineteam">
-  <data key="d0">argentineteam</data>
+<node id="world cup final">
+  <data key="d0">world cup final</data>
 </node>
 <node id="frenchman">
   <data key="d0">frenchman</data>
 </node>
-<node id="reality tv">
-  <data key="d0">reality tv</data>
+<node id="adidas">
+  <data key="d0">adidas</data>
 </node>
-<node id="kim kardashian">
-  <data key="d0">kim kardashian</data>
+<node id="lionel messi">
+  <data key="d0">lionel messi</data>
 </node>
-<node id="celebrity">
-  <data key="d0">celebrity</data>
-</node>
-<node id="david beckham">
-  <data key="d0">david beckham</data>
-</node>
-<node id="uk">
-  <data key="d0">uk</data>
-</node>
-<node id="olive oil">
-  <data key="d0">olive oil</data>
-</node>
-<node id="gladiators">
-  <data key="d0">gladiators</data>
-</node>
-<node id="celebrities">
-  <data key="d0">celebrities</data>
+<node id="argentine">
+  <data key="d0">argentine</data>
 </node>
 <node id="nike">
   <data key="d0">nike</data>
 </node>
+<node id="brands">
+  <data key="d0">brands</data>
+</node>
+<node id="kim kardashian">
+  <data key="d0">kim kardashian</data>
+</node>
+<node id="celebrities">
+  <data key="d0">celebrities</data>
+</node>
+<node id="david beckham">
+  <data key="d0">david beckham</data>
+</node>
 <node id="brand endorsements">
   <data key="d0">brand endorsements</data>
 </node>
-<node id="brand endorsement">
-  <data key="d0">brand endorsement</data>
-</node>
 <node id="£150m">
   <data key="d0">£150m</data>
+</node>
+<node id="criticism">
+  <data key="d0">criticism</data>
 </node>
 <node id="brand ambassador">
   <data key="d0">brand ambassador</data>
@@ -112,41 +103,47 @@
 <node id="qatar">
   <data key="d0">qatar</data>
 </node>
+<node id="lgbtq">
+  <data key="d0">lgbtq</data>
+</node>
 <node id="lgbtq activists">
   <data key="d0">lgbtq activists</data>
 </node>
 <node id="foot locker">
   <data key="d0">foot locker</data>
 </node>
-<node id="ftx">
-  <data key="d0">ftx</data>
+<node id="nfl">
+  <data key="d0">nfl</data>
+</node>
+<node id="related to">
+  <data key="d0">related to</data>
+</node>
+<node id="investors">
+  <data key="d0">investors</data>
 </node>
 <node id="bundchen">
   <data key="d0">bundchen</data>
 </node>
-<node id="nfl">
-  <data key="d0">nfl</data>
+<node id="ftx">
+  <data key="d0">ftx</data>
 </node>
 <node id="lgbtq+ activists">
   <data key="d0">lgbtq+ activists</data>
 </node>
+<node id="criticized by">
+  <data key="d0">criticized by</data>
+</node>
+<node id="covid19 insurance plans">
+  <data key="d0">covid19 insurance plans</data>
+</node>
 <node id="travel insurance">
   <data key="d0">travel insurance</data>
 </node>
-<node id="covid19">
-  <data key="d0">covid19</data>
-</node>
-<node id="insurance plans">
-  <data key="d0">insurance plans</data>
-</node>
-<node id="bind">
-  <data key="d0">bind</data>
+<node id="athletes">
+  <data key="d0">athletes</data>
 </node>
 <node id="giana eckhardt">
   <data key="d0">giana eckhardt</data>
-</node>
-<node id="professor of marketing">
-  <data key="d0">professor of marketing</data>
 </node>
 <node id="king’s business school">
   <data key="d0">king’s business school</data>
@@ -157,74 +154,65 @@
 <node id="branding">
   <data key="d0">branding</data>
 </node>
-<node id="endorsements">
-  <data key="d0">endorsements</data>
-</node>
-<node id="brand behavior">
-  <data key="d0">brand behavior</data>
-</node>
-<node id="future risk">
-  <data key="d0">future risk</data>
-</node>
-<node id="celebrity endorsements">
-  <data key="d0">celebrity endorsements</data>
-</node>
-<node id="challenges">
-  <data key="d0">challenges</data>
-</node>
 <node id="donald trump">
   <data key="d0">donald trump</data>
+</node>
+<node id="kanye">
+  <data key="d0">kanye</data>
+</node>
+<node id="brands future risk">
+  <data key="d0">brands future risk</data>
+</node>
+<node id="brands past behavior">
+  <data key="d0">brands past behavior</data>
+</node>
+<node id="gisele bündchen">
+  <data key="d0">gisele bündchen</data>
+</node>
+<node id="covid19 provisions">
+  <data key="d0">covid19 provisions</data>
 </node>
 <node id="kanye west">
   <data key="d0">kanye west</data>
 </node>
-<node id="tweets">
-  <data key="d0">tweets</data>
-</node>
-<node id="past behavior">
-  <data key="d0">past behavior</data>
-</node>
-<node id="professor marketing">
-  <data key="d0">professor marketing</data>
-</node>
 <node id="kings business school">
   <data key="d0">kings business school</data>
 </node>
-<node id="david dubois">
-  <data key="d0">david dubois</data>
+<node id="tweets">
+  <data key="d0">tweets</data>
+</node>
+<node id="humans">
+  <data key="d0">humans</data>
+</node>
+<node id="people">
+  <data key="d0">people</data>
+</node>
+<node id="brand past behavior">
+  <data key="d0">brand past behavior</data>
+</node>
+<node id="future risk">
+  <data key="d0">future risk</data>
 </node>
 <node id="insead">
   <data key="d0">insead</data>
 </node>
-<node id="personal branding">
-  <data key="d0">personal branding</data>
+<node id="david dubois">
+  <data key="d0">david dubois</data>
 </node>
-<node id="marketing field">
-  <data key="d0">marketing field</data>
+<node id="behavior">
+  <data key="d0">behavior</data>
 </node>
-<node id="michael jordan">
-  <data key="d0">michael jordan</data>
+<node id="public persona">
+  <data key="d0">public persona</data>
 </node>
-<node id="basketball">
-  <data key="d0">basketball</data>
-</node>
-<node id="1984">
-  <data key="d0">1984</data>
-</node>
-<node id="riskladen undesirable illness">
-  <data key="d0">riskladen undesirable illness</data>
-</node>
-<node id="brands">
-  <data key="d0">brands</data>
-</node>
-<node id="jordan">
-  <data key="d0">jordan</data>
+<node id="reputation">
+  <data key="d0">reputation</data>
 </node>
 <node id="diminish returns">
   <data key="d0">diminish returns</data>
 </node>
-<node id="human authors">
-  <data key="d0">human authors</data>
+<node id="riskladen undesirable illness">
+  <data key="d0">riskladen undesirable illness</data>
 </node>
 <node id="misconduct">
   <data key="d0">misconduct</data>
@@ -232,65 +220,26 @@
 <node id="reputational challenges">
   <data key="d0">reputational challenges</data>
 </node>
-<node id="risk">
-  <data key="d0">risk</data>
+<node id="jordan">
+  <data key="d0">jordan</data>
 </node>
-<node id="high-profile examples">
-  <data key="d0">high-profile examples</data>
+<node id="basketball">
+  <data key="d0">basketball</data>
 </node>
-<node id="brand complexities">
-  <data key="d0">brand complexities</data>
+<node id="michael jordan">
+  <data key="d0">michael jordan</data>
 </node>
-<node id="basketball   ">
-  <data key="d0">basketball   </data>
+<node id="1984">
+  <data key="d0">1984</data>
 </node>
-<node id="1984   ">
-  <data key="d0">1984   </data>
+<node id="madeshoe">
+  <data key="d0">madeshoe</data>
 </node>
-<node id="brands   ">
-  <data key="d0">brands   </data>
+<node id="reputational damage to nike">
+  <data key="d0">reputational damage to nike</data>
 </node>
-<node id="jordan   ">
-  <data key="d0">jordan   </data>
-</node>
-<node id="misconduct   ">
-  <data key="d0">misconduct   </data>
-</node>
-<node id="reputational challenges   ">
-  <data key="d0">reputational challenges   </data>
-</node>
-<node id="davids">
-  <data key="d0">davids</data>
-</node>
-<node id="qatar   ">
-  <data key="d0">qatar   </data>
-</node>
-<node id="$150 million   ">
-  <data key="d0">$150 million   </data>
-</node>
-<node id="beckham   ">
-  <data key="d0">beckham   </data>
-</node>
-<node id="world cup   ">
-  <data key="d0">world cup   </data>
-</node>
-<node id="rajesh bhargave   ">
-  <data key="d0">rajesh bhargave   </data>
-</node>
-<node id="imperial college business school   ">
-  <data key="d0">imperial college business school   </data>
-</node>
-<node id="nike   ">
-  <data key="d0">nike   </data>
-</node>
-<node id="brand celebrity   ">
-  <data key="d0">brand celebrity   </data>
-</node>
-<node id="brand marketing   ">
-  <data key="d0">brand marketing   </data>
-</node>
-<node id="strategic brand alignment">
-  <data key="d0">strategic brand alignment</data>
+<node id="david">
+  <data key="d0">david</data>
 </node>
 <node id="$150 million">
   <data key="d0">$150 million</data>
@@ -298,8 +247,23 @@
 <node id="rajesh bhargave">
   <data key="d0">rajesh bhargave</data>
 </node>
+<node id="professor of marketing">
+  <data key="d0">professor of marketing</data>
+</node>
 <node id="imperial college business school">
   <data key="d0">imperial college business school</data>
+</node>
+<node id="brand alignment">
+  <data key="d0">brand alignment</data>
+</node>
+<node id="collaboration with nike">
+  <data key="d0">collaboration with nike</data>
+</node>
+<node id="political interests">
+  <data key="d0">political interests</data>
+</node>
+<node id="basketball interests">
+  <data key="d0">basketball interests</data>
 </node>
 <node id="sofia vergara">
   <data key="d0">sofia vergara</data>
@@ -307,11 +271,11 @@
 <node id="head shoulders">
   <data key="d0">head shoulders</data>
 </node>
-<node id="quaker oats">
-  <data key="d0">quaker oats</data>
-</node>
 <node id="$94.5 million">
   <data key="d0">$94.5 million</data>
+</node>
+<node id="quaker oats">
+  <data key="d0">quaker oats</data>
 </node>
 <node id="jayz">
   <data key="d0">jayz</data>
@@ -319,47 +283,29 @@
 <node id="$20 million">
   <data key="d0">$20 million</data>
 </node>
-<node id="$55 million">
-  <data key="d0">$55 million</data>
-</node>
 <node id="charlize theron">
   <data key="d0">charlize theron</data>
 </node>
-<node id="j’adore">
-  <data key="d0">j’adore</data>
+<node id="$55 million">
+  <data key="d0">$55 million</data>
 </node>
 <node id="dior">
   <data key="d0">dior</data>
 </node>
-<node id="brand alignment">
-  <data key="d0">brand alignment</data>
+<node id="j’adore">
+  <data key="d0">j’adore</data>
 </node>
-<node id="importance of brand alignment">
-  <data key="d0">importance of brand alignment</data>
+<node id="">
+  <data key="d0"></data>
 </node>
-<node id="lucrative endorsement deals">
-  <data key="d0">lucrative endorsement deals</data>
-</node>
-<node id="deals">
-  <data key="d0">deals</data>
-</node>
-<node id="financial magnitude">
-  <data key="d0">financial magnitude</data>
-</node>
-<node id="strategic alignment between brands and celebrities">
-  <data key="d0">strategic alignment between brands and celebrities</data>
+<node id="celebrity">
+  <data key="d0">celebrity</data>
 </node>
 <node id="companies">
   <data key="d0">companies</data>
 </node>
-<node id="marketing priorities">
-  <data key="d0">marketing priorities</data>
-</node>
-<node id="balance">
-  <data key="d0">balance</data>
-</node>
-<node id="reaching the audience">
-  <data key="d0">reaching the audience</data>
+<node id="marketing">
+  <data key="d0">marketing</data>
 </node>
 <node id="reach">
   <data key="d0">reach</data>
@@ -367,68 +313,23 @@
 <node id="effectiveness">
   <data key="d0">effectiveness</data>
 </node>
-<node id="critical balance">
-  <data key="d0">critical balance</data>
+<node id="reaching">
+  <data key="d0">reaching</data>
 </node>
-<node id="some companies">
-  <data key="d0">some companies</data>
+<node id="endorsements">
+  <data key="d0">endorsements</data>
 </node>
-<node id="increase effectiveness">
-  <data key="d0">increase effectiveness</data>
+<node id="balance">
+  <data key="d0">balance</data>
 </node>
-<node id="enhance effectiveness">
-  <data key="d0">enhance effectiveness</data>
+<node id="equilibrium">
+  <data key="d0">equilibrium</data>
 </node>
-<node id="balance between reach and effectiveness">
-  <data key="d0">balance between reach and effectiveness</data>
+<node id="marketing priorities">
+  <data key="d0">marketing priorities</data>
 </node>
-<node id="marketing priorities  ">
-  <data key="d0">marketing priorities  </data>
-</node>
-<node id="balance  ">
-  <data key="d0">balance  </data>
-</node>
-<node id="reaching the audience  ">
-  <data key="d0">reaching the audience  </data>
-</node>
-<node id="reach  ">
-  <data key="d0">reach  </data>
-</node>
-<node id="effectiveness  ">
-  <data key="d0">effectiveness  </data>
-</node>
-<node id="critical balance  ">
-  <data key="d0">critical balance  </data>
-</node>
-<node id="some companies  ">
-  <data key="d0">some companies  </data>
-</node>
-<node id="celebrities  ">
-  <data key="d0">celebrities  </data>
-</node>
-<node id="increase effectiveness  ">
-  <data key="d0">increase effectiveness  </data>
-</node>
-<node id="enhance effectiveness  ">
-  <data key="d0">enhance effectiveness  </data>
-</node>
-<node id="david dubois  ">
-  <data key="d0">david dubois  </data>
-</node>
-<node id="reach effectiveness">
-  <data key="d0">reach effectiveness</data>
-</node>
-<node id="companies  ">
-  <data key="d0">companies  </data>
-</node>
-<node id="reach effectiveness  ">
-  <data key="d0">reach effectiveness  </data>
-</node>
-<node id="insead  ">
-  <data key="d0">insead  </data>
-</node>
-<node id="balance between reach and effectiveness  ">
-  <data key="d0">balance between reach and effectiveness  </data>
+<node id="nuanced decisions">
+  <data key="d0">nuanced decisions</data>
 </node>
 <node id="cristiano ronaldo">
   <data key="d0">cristiano ronaldo</data>
@@ -439,17 +340,32 @@
 <node id="513 million">
   <data key="d0">513 million</data>
 </node>
-<node id="$1 billion">
-  <data key="d0">$1 billion</data>
+<node id="513 million followers">
+  <data key="d0">513 million followers</data>
 </node>
-<node id="bargain">
-  <data key="d0">bargain</data>
+<node id="$1 billion deal">
+  <data key="d0">$1 billion deal</data>
+</node>
+<node id="dubois">
+  <data key="d0">dubois</data>
+</node>
+<node id="lowerprofile">
+  <data key="d0">lowerprofile</data>
+</node>
+<node id="closer brand">
+  <data key="d0">closer brand</data>
+</node>
+<node id="dna">
+  <data key="d0">dna</data>
+</node>
+<node id="dubois closer brand">
+  <data key="d0">dubois closer brand</data>
+</node>
+<node id="endorsement">
+  <data key="d0">endorsement</data>
 </node>
 <node id="forbes">
   <data key="d0">forbes</data>
-</node>
-<node id="stakes">
-  <data key="d0">stakes</data>
 </node>
 <node id="social media">
   <data key="d0">social media</data>
@@ -466,119 +382,110 @@
 <node id="disadvantages">
   <data key="d0">disadvantages</data>
 </node>
-<node id="cocacola bottles">
-  <data key="d0">cocacola bottles</data>
+<node id="effective endorsement">
+  <data key="d0">effective endorsement</data>
 </node>
-<node id="drink water">
-  <data key="d0">drink water</data>
-</node>
-<node id="gesture">
-  <data key="d0">gesture</data>
-</node>
-<node id="a key figure in social media">
-  <data key="d0">a key figure in social media</data>
-</node>
-<node id="coca-cola">
-  <data key="d0">coca-cola</data>
-</node>
-<node id="water">
-  <data key="d0">water</data>
-</node>
-<node id="cocacola value">
-  <data key="d0">cocacola value</data>
-</node>
-<node id="due to cr">
-  <data key="d0">due to cr</data>
-</node>
-<node id="shares">
-  <data key="d0">shares</data>
-</node>
-<node id="$4 billion">
-  <data key="d0">$4 billion</data>
+<node id="drinking water">
+  <data key="d0">drinking water</data>
 </node>
 <node id="cocacola">
   <data key="d0">cocacola</data>
 </node>
-<node id="key success in social media">
-  <data key="d0">key success in social media</data>
+<node id="gesture">
+  <data key="d0">gesture</data>
 </node>
-<node id="authenticity">
-  <data key="d0">authenticity</data>
+<node id="drop">
+  <data key="d0">drop</data>
 </node>
-<node id=" $4 billion drop in cocacola value ">
-  <data key="d0"> $4 billion drop in cocacola value </data>
+<node id="value">
+  <data key="d0">value</data>
 </node>
-<node id="cristiano ronaldo's gesture">
-  <data key="d0">cristiano ronaldo's gesture</data>
+<node id="$4 billion">
+  <data key="d0">$4 billion</data>
 </node>
-<node id="consumer behavior ">
-  <data key="d0">consumer behavior </data>
-</node>
-<node id="brand value">
-  <data key="d0">brand value</data>
-</node>
-<node id="mba">
-  <data key="d0">mba</data>
+<node id="cocacolas share">
+  <data key="d0">cocacolas share</data>
 </node>
 <node id="social media content strategy">
   <data key="d0">social media content strategy</data>
 </node>
+<node id="content strategy">
+  <data key="d0">content strategy</data>
+</node>
+<node id="organizational principles">
+  <data key="d0">organizational principles</data>
+</node>
 <node id="content powerhouse">
   <data key="d0">content powerhouse</data>
 </node>
-<node id="powerhouse">
-  <data key="d0">powerhouse</data>
+<node id="new principles">
+  <data key="d0">new principles</data>
+</node>
+<node id="new operational principles">
+  <data key="d0">new operational principles</data>
+</node>
+<node id="new strateg principles">
+  <data key="d0">new strateg principles</data>
+</node>
+<node id="new ational principles">
+  <data key="d0">new ational principles</data>
+</node>
+<node id="media powerhouse">
+  <data key="d0">media powerhouse</data>
+</node>
+<node id="business strategy">
+  <data key="d0">business strategy</data>
 </node>
 <node id="strategic principles">
   <data key="d0">strategic principles</data>
 </node>
-<node id="new operational strategic organizational principles">
-  <data key="d0">new operational strategic organizational principles</data>
+<node id="operational principles">
+  <data key="d0">operational principles</data>
 </node>
-<node id="spin work">
-  <data key="d0">spin work</data>
+<node id="mba student">
+  <data key="d0">mba student</data>
 </node>
-<node id="content">
-  <data key="d0">content</data>
+<node id="masters degree">
+  <data key="d0">masters degree</data>
 </node>
-<node id="social media content">
-  <data key="d0">social media content</data>
+<node id="business administration">
+  <data key="d0">business administration</data>
 </node>
-<node id="cr">
-  <data key="d0">cr</data>
+<node id="students">
+  <data key="d0">students</data>
 </node>
-<node id="cocacola value decrease">
-  <data key="d0">cocacola value decrease</data>
+<node id="influencer">
+  <data key="d0">influencer</data>
 </node>
-<node id="cocacola shares">
-  <data key="d0">cocacola shares</data>
+<node id="corporate finances">
+  <data key="d0">corporate finances</data>
 </node>
-<node id="mba studies">
-  <data key="d0">mba studies</data>
+<node id="importance of contemporary principles">
+  <data key="d0">importance of contemporary principles</data>
 </node>
-<node id="digital marketing">
-  <data key="d0">digital marketing</data>
+<node id="role of social media content strategy">
+  <data key="d0">role of social media content strategy</data>
 </node>
 <node id="brand management">
   <data key="d0">brand management</data>
 </node>
-<node id="paid sponsors">
-  <data key="d0">paid sponsors</data>
-</node>
-<node id="endorsement">
-  <data key="d0">endorsement</data>
-</node>
-<node id="short term">
-  <data key="d0">short term</data>
+<node id="digital marketing">
+  <data key="d0">digital marketing</data>
 </node>
 <node id="risk audit frames">
   <data key="d0">risk audit frames</data>
 </node>
-<node id="teaches">
-  <data key="d0">teaches</data>
+<node id="short-term brand management strategies">
+  <data key="d0">short-term brand management strategies</data>
 </node>
-<node id="matt symonds">
-  <data key="d0">matt symonds</data>
+<node id="paid sponsor endorsements">
+  <data key="d0">paid sponsor endorsements</data>
+</node>
+<node id="world cup in qatar">
+  <data key="d0">world cup in qatar</data>
+</node>
+<node id="service">
+  <data key="d0">service</data>
 </node>
 <node id="power user guidelines">
   <data key="d0">power user guidelines</data>
@@ -586,290 +493,338 @@
 <node id="posting rules">
   <data key="d0">posting rules</data>
 </node>
-<node id="service">
-  <data key="d0">service</data>
+<node id="matt symonds">
+  <data key="d0">matt symonds</data>
 </node>
-<edge source="brand" target="tom brady">
-  <data key="d1">endorses</data>
+<node id="managing brand risk">
+  <data key="d0">managing brand risk</data>
+</node>
+<node id="performing audits">
+  <data key="d0">performing audits</data>
+</node>
+<node id="guidelines for power users">
+  <data key="d0">guidelines for power users</data>
+</node>
+<node id="service management">
+  <data key="d0">service management</data>
+</node>
+<edge source="millions" target="tom brady">
+  <data key="d1">has earnings of</data>
 </edge>
-<edge source="brand" target="beckham">
-  <data key="d1">endorses</data>
+<edge source="tom brady" target="brand endorsements">
+  <data key="d1">involves in</data>
 </edge>
-<edge source="brand" target="tweets">
-  <data key="d1">influence</data>
+<edge source="tom brady" target="bundchen">
+  <data key="d1">married to</data>
 </edge>
-<edge source="brand" target="past behavior">
-  <data key="d1">affected by</data>
+<edge source="tom brady" target="tom brady">
+  <data key="d1">related to</data>
+</edge>
+<edge source="tom brady" target="athletes">
+  <data key="d1">associated with</data>
 </edge>
 <edge source="tom brady" target="nfl">
-  <data key="d1">involves</data>
+  <data key="d1">promoted by</data>
 </edge>
 <edge source="tom brady" target="ftx">
-  <data key="d1">involves</data>
+  <data key="d1">linked to</data>
 </edge>
-<edge source="beckham" target="brand celebrity   ">
+<edge source="beckham" target="brand">
   <data key="d1">enhances</data>
 </edge>
-<edge source="beckham" target="strategic brand alignment">
-  <data key="d1">example of</data>
+<edge source="beckham" target="david">
+  <data key="d1">highlights connection</data>
 </edge>
-<edge source="beckham" target="davids">
-  <data key="d1">involves</data>
+<edge source="beckham" target="world cup">
+  <data key="d1">highlights connection</data>
 </edge>
 <edge source="beckham" target="kim kardashian">
-  <data key="d1">criticized</data>
+  <data key="d1">criticized by</data>
 </edge>
-<edge source="beckham" target="mba studies">
-  <data key="d1">include examples of</data>
+<edge source="beckham" target="paid sponsor endorsements">
+  <data key="d1">involved in</data>
 </edge>
-<edge source="nespresso" target="clooney">
+<edge source="brand" target="future risk">
+  <data key="d1">predicts</data>
+</edge>
+<edge source="brand" target="public persona">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="brand" target="brand past behavior">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="brand" target="tweets">
+  <data key="d1">involves</data>
+</edge>
+<edge source="brand" target="people">
+  <data key="d1">predicts</data>
+</edge>
+<edge source="brand" target="david">
+  <data key="d1">highlights connection</data>
+</edge>
+<edge source="brand" target="world cup">
+  <data key="d1">enhances</data>
+</edge>
+<edge source="brand" target="diminish returns">
+  <data key="d1">impacts</data>
+</edge>
+<edge source="$40 million" target="george clooney">
+  <data key="d1">has earnings of</data>
+</edge>
+<edge source="george clooney" target="nespresso">
   <data key="d1">endorses</data>
 </edge>
-<edge source="clooney" target="$40 million">
-  <data key="d1">earned</data>
-</edge>
 <edge source="$50 million" target="beyoncé">
-  <data key="d1">earned</data>
+  <data key="d1">has earnings of</data>
 </edge>
 <edge source="beyoncé" target="pepsi">
-  <data key="d1">celebrity endorser for</data>
+  <data key="d1">endorses</data>
+</edge>
+<edge source="beyoncé" target="brand endorsements">
+  <data key="d1">involves in</data>
+</edge>
+<edge source="pepsi" target="taylor swift">
+  <data key="d1">earns from</data>
 </edge>
 <edge source="pepsi" target="sofia vergara">
-  <data key="d1">endorse</data>
+  <data key="d1">endorser of</data>
 </edge>
-<edge source="$26 million" target="taylor swift">
-  <data key="d1">earned</data>
-</edge>
-<edge source="taylor swift" target="brand endorsements">
-  <data key="d1">earned from</data>
+<edge source="taylor swift" target="$26 million">
+  <data key="d1">has earnings of</data>
 </edge>
 <edge source="2013" target="cola">
-  <data key="d1">mentioned in</data>
+  <data key="d1">related to</data>
+</edge>
+<edge source="cola" target="flat">
+  <data key="d1">related to</data>
 </edge>
 <edge source="gucci" target="harry styles">
   <data key="d1">associated with</data>
 </edge>
-<edge source="gucci" target="celebrities">
-  <data key="d1">endorses</data>
+<edge source="harry styles" target="celebrities">
+  <data key="d1">participant in</data>
 </edge>
-<edge source="world cup final" target="lionel messi">
-  <data key="d1">participated in</data>
+<edge source="kylian mbappé" target="world cup final">
+  <data key="d1">related to</data>
 </edge>
-<edge source="world cup final" target="kylian mbappé">
-  <data key="d1">participated in</data>
-</edge>
-<edge source="world cup final" target="argentine">
-  <data key="d1">competed in</data>
-</edge>
-<edge source="world cup final" target="adidas">
-  <data key="d1">sponsor of</data>
-</edge>
-<edge source="world cup final" target="david beckham">
-  <data key="d1">involved in</data>
-</edge>
-<edge source="lionel messi" target="argentineteam">
-  <data key="d1">plays for</data>
-</edge>
-<edge source="lionel messi" target="adidas">
-  <data key="d1">endorses</data>
+<edge source="kylian mbappé" target="frenchman">
+  <data key="d1">is a</data>
 </edge>
 <edge source="kylian mbappé" target="nike">
-  <data key="d1">endorses</data>
-</edge>
-<edge source="frenchman" target="reality tv">
   <data key="d1">associated with</data>
 </edge>
-<edge source="kim kardashian" target="celebrity">
-  <data key="d1">is a</data>
+<edge source="kylian mbappé" target="celebrities">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="kim kardashian" target="brand endorsement">
-  <data key="d1">significant for</data>
+<edge source="world cup final" target="adidas">
+  <data key="d1">sponsor</data>
 </edge>
-<edge source="kim kardashian" target="brand ambassador">
-  <data key="d1">can be role of</data>
+<edge source="world cup final" target="lionel messi">
+  <data key="d1">related to</data>
 </edge>
-<edge source="kim kardashian" target="mba studies">
-  <data key="d1">include examples of</data>
+<edge source="world cup final" target="argentine">
+  <data key="d1">won by</data>
 </edge>
-<edge source="celebrity" target="david beckham">
-  <data key="d1">is a</data>
+<edge source="adidas" target="lionel messi">
+  <data key="d1">associated with</data>
 </edge>
-<edge source="celebrity" target="lucrative endorsement deals">
-  <data key="d1">undertakes</data>
+<edge source="lionel messi" target="argentine">
+  <data key="d1">associated with</data>
 </edge>
-<edge source="david beckham" target="uk">
-  <data key="d1">celebrity in</data>
-</edge>
-<edge source="david beckham" target="brand endorsements">
-  <data key="d1">noted for</data>
-</edge>
-<edge source="david beckham" target="£150m">
-  <data key="d1">involves</data>
-</edge>
-<edge source="david beckham" target="brand ambassador">
-  <data key="d1">role</data>
-</edge>
-<edge source="david beckham" target="lgbtq activists">
-  <data key="d1">criticized by</data>
-</edge>
-<edge source="david beckham" target="world cup">
-  <data key="d1">part of</data>
-</edge>
-<edge source="david beckham" target="lgbtq+ activists">
-  <data key="d1">criticism from</data>
-</edge>
-<edge source="david beckham" target="mba">
-  <data key="d1">studies</data>
-</edge>
-<edge source="david beckham" target="david beckham">
-  <data key="d1">mba student</data>
-</edge>
-<edge source="david beckham" target="giana eckhardt">
-  <data key="d1">teaches</data>
-</edge>
-<edge source="david beckham" target="endorsement">
-  <data key="d1">involves</data>
-</edge>
-<edge source="david beckham" target="teaches">
-  <data key="d1">giana eckhardt</data>
-</edge>
-<edge source="david beckham" target="paid sponsors">
-  <data key="d1">involves</data>
-</edge>
-<edge source="olive oil" target="gladiators">
-  <data key="d1">used</data>
-</edge>
-<edge source="celebrities" target="nike">
-  <data key="d1">endorse</data>
-</edge>
-<edge source="celebrities" target="reach">
-  <data key="d1">can be enhanced by</data>
-</edge>
-<edge source="celebrities" target="effectiveness">
-  <data key="d1">can be enhanced by</data>
-</edge>
-<edge source="celebrities" target="increase effectiveness">
-  <data key="d1">involves</data>
-</edge>
-<edge source="celebrities" target="enhance effectiveness">
-  <data key="d1">can be enhanced by</data>
-</edge>
-<edge source="celebrities" target="sofia vergara">
-  <data key="d1">example of</data>
-</edge>
-<edge source="celebrities" target="jayz">
-  <data key="d1">example of</data>
-</edge>
-<edge source="celebrities" target="charlize theron">
-  <data key="d1">example of</data>
-</edge>
-<edge source="celebrities" target="increase effectiveness  ">
-  <data key="d1">involves</data>
-</edge>
-<edge source="celebrities" target="enhance effectiveness  ">
-  <data key="d1">can be enhanced by</data>
-</edge>
-<edge source="celebrities" target="companies  ">
-  <data key="d1">interact with</data>
-</edge>
-<edge source="celebrities" target="david dubois  ">
-  <data key="d1">explored by</data>
-</edge>
-<edge source="celebrities" target="reach effectiveness">
-  <data key="d1">achieves</data>
-</edge>
-<edge source="celebrities" target="companies">
-  <data key="d1">interact with</data>
-</edge>
-<edge source="celebrities" target="cristiano ronaldo">
-  <data key="d1">including</data>
-</edge>
-<edge source="celebrities" target="social media">
-  <data key="d1">affects</data>
-</edge>
-<edge source="celebrities" target="brands">
-  <data key="d1">benefit from</data>
-</edge>
-<edge source="nike" target="jordan">
-  <data key="d1">endorsed by</data>
+<edge source="lionel messi" target="celebrities">
+  <data key="d1">is part of</data>
 </edge>
 <edge source="nike" target="brands">
-  <data key="d1">associated with</data>
+  <data key="d1">changed stakes for</data>
 </edge>
-<edge source="nike" target="jordan   ">
-  <data key="d1">endorsed by</data>
-</edge>
-<edge source="nike" target="brands   ">
-  <data key="d1">associated with</data>
+<edge source="nike" target="jordan">
+  <data key="d1">linked with</data>
 </edge>
 <edge source="nike" target="forbes">
   <data key="d1">mentioned in</data>
 </edge>
-<edge source="brand ambassador" target="world cup">
-  <data key="d1">event</data>
+<edge source="brands" target="david beckham">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="brand ambassador" target="ftx">
-  <data key="d1">labelled_for</data>
+<edge source="brands" target="kim kardashian">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="brands" target="social media">
+  <data key="d1">changed stakes for</data>
+</edge>
+<edge source="brands" target="media">
+  <data key="d1">gives control to</data>
+</edge>
+<edge source="brands" target="giana eckhardt">
+  <data key="d1">discussed by</data>
+</edge>
+<edge source="kim kardashian" target="celebrities">
+  <data key="d1">is a</data>
+</edge>
+<edge source="kim kardashian" target="brand endorsements">
+  <data key="d1">engages in</data>
+</edge>
+<edge source="kim kardashian" target="content powerhouse">
+  <data key="d1">is an</data>
+</edge>
+<edge source="kim kardashian" target="content strategy">
+  <data key="d1">has</data>
+</edge>
+<edge source="kim kardashian" target="influencer">
+  <data key="d1">is an</data>
+</edge>
+<edge source="kim kardashian" target="organizational principles">
+  <data key="d1">is an</data>
+</edge>
+<edge source="kim kardashian" target="new operational principles">
+  <data key="d1">is an</data>
+</edge>
+<edge source="kim kardashian" target="new strateg principles">
+  <data key="d1">is an</data>
+</edge>
+<edge source="kim kardashian" target="new ational principles">
+  <data key="d1">is an</data>
+</edge>
+<edge source="kim kardashian" target="david beckham">
+  <data key="d1">criticized by</data>
+</edge>
+<edge source="celebrities" target="david beckham">
+  <data key="d1">is a</data>
+</edge>
+<edge source="celebrities" target="endorsements">
+  <data key="d1">use</data>
+</edge>
+<edge source="celebrities" target="sofia vergara">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="celebrities" target="jayz">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="celebrities" target="charlize theron">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="celebrities" target="marketing">
+  <data key="d1">involves</data>
+</edge>
+<edge source="celebrities" target="companies">
+  <data key="d1">reach</data>
+</edge>
+<edge source="celebrities" target="branding">
+  <data key="d1">can enhance</data>
+</edge>
+<edge source="celebrities" target="social media">
+  <data key="d1">changed stakes for</data>
+</edge>
+<edge source="celebrities" target="drop">
+  <data key="d1">caused</data>
+</edge>
+<edge source="david beckham" target="£150m">
+  <data key="d1">signed deal worth</data>
+</edge>
+<edge source="david beckham" target="criticism">
+  <data key="d1">faced</data>
+</edge>
+<edge source="david beckham" target="brand ambassador">
+  <data key="d1">accepts</data>
+</edge>
+<edge source="david beckham" target="world cup">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="david beckham" target="qatar">
+  <data key="d1">ambassador for</data>
+</edge>
+<edge source="david beckham" target="lgbtq activists">
+  <data key="d1">criticized by</data>
+</edge>
+<edge source="david beckham" target="gisele bündchen">
+  <data key="d1">criticized for</data>
+</edge>
+<edge source="david beckham" target="social media content strategy">
+  <data key="d1">is an</data>
+</edge>
+<edge source="david beckham" target="mba student">
+  <data key="d1">is an</data>
+</edge>
+<edge source="david beckham" target="organizational principles">
+  <data key="d1">is an</data>
+</edge>
+<edge source="david beckham" target="king’s business school">
+  <data key="d1">teaches at</data>
+</edge>
+<edge source="david beckham" target="brand management">
+  <data key="d1">teaches</data>
+</edge>
+<edge source="david beckham" target="world cup in qatar">
+  <data key="d1">discusses</data>
+</edge>
+<edge source="david beckham" target="david dubois">
+  <data key="d1">referenced by</data>
+</edge>
+<edge source="£150m" target="brand ambassador">
+  <data key="d1">for being</data>
+</edge>
+<edge source="£150m" target="lgbtq+ activists">
+  <data key="d1">opposed to</data>
+</edge>
+<edge source="criticism" target="lgbtq">
+  <data key="d1">comes from</data>
+</edge>
+<edge source="criticism" target="lgbtq activists">
+  <data key="d1">give</data>
+</edge>
+<edge source="brand ambassador" target="world cup">
+  <data key="d1">for</data>
 </edge>
 <edge source="world cup" target="qatar">
-  <data key="d1">held in</data>
+  <data key="d1">in</data>
 </edge>
 <edge source="world cup" target="lgbtq+ activists">
-  <data key="d1">involves</data>
+  <data key="d1">criticized by</data>
 </edge>
-<edge source="world cup" target="davids">
-  <data key="d1">involves</data>
+<edge source="world cup" target="criticized by">
+  <data key="d1">lgbtq+ activists</data>
 </edge>
-<edge source="world cup" target="endorsement">
-  <data key="d1">related to</data>
+<edge source="world cup" target="david">
+  <data key="d1">is associated with</data>
 </edge>
-<edge source="world cup" target="paid sponsors">
-  <data key="d1">related to</data>
-</edge>
-<edge source="world cup" target="king’s business school">
-  <data key="d1">related to</data>
-</edge>
-<edge source="qatar" target="lgbtq activists">
-  <data key="d1">criticism from</data>
-</edge>
-<edge source="qatar" target="world cup   ">
+<edge source="world cup" target="reputational challenges">
   <data key="d1">associated with</data>
 </edge>
-<edge source="qatar" target="davids">
-  <data key="d1">deal with</data>
+<edge source="qatar" target="david">
+  <data key="d1">collaborated with</data>
 </edge>
-<edge source="qatar" target="risk audit frames">
-  <data key="d1">requires</data>
+<edge source="lgbtq" target="lgbtq activists">
+  <data key="d1">are part of</data>
 </edge>
-<edge source="foot locker" target="foot locker">
-  <data key="d1">part of</data>
+<edge source="foot locker" target="nfl">
+  <data key="d1">related to</data>
 </edge>
 <edge source="foot locker" target="ftx">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="nfl" target="related to">
+  <data key="d1">foot locker</data>
+</edge>
+<edge source="investors" target="bundchen">
+  <data key="d1">accused by</data>
+</edge>
+<edge source="investors" target="ftx">
   <data key="d1">involves</data>
 </edge>
-<edge source="ftx" target="bind">
-  <data key="d1">labelled_for</data>
+<edge source="ftx" target="ftx">
+  <data key="d1">involving</data>
 </edge>
-<edge source="ftx" target="bundchen">
-  <data key="d1">involves</data>
+<edge source="covid19 insurance plans" target="travel insurance">
+  <data key="d1">covered by</data>
 </edge>
-<edge source="bundchen" target="nfl">
-  <data key="d1">involves</data>
+<edge source="covid19 insurance plans" target="covid19 insurance plans">
+  <data key="d1">related to</data>
 </edge>
-<edge source="travel insurance" target="covid19">
-  <data key="d1">provides</data>
-</edge>
-<edge source="travel insurance" target="insurance plans">
-  <data key="d1">offers</data>
-</edge>
-<edge source="covid19" target="insurance plans">
-  <data key="d1">covers</data>
-</edge>
-<edge source="giana eckhardt" target="professor of marketing">
-  <data key="d1">position</data>
+<edge source="travel insurance" target="covid19 provisions">
+  <data key="d1">includes</data>
 </edge>
 <edge source="giana eckhardt" target="king’s business school">
-  <data key="d1">member of</data>
+  <data key="d1">teaches at</data>
 </edge>
 <edge source="giana eckhardt" target="consumer behavior">
   <data key="d1">expert in</data>
@@ -877,451 +832,370 @@
 <edge source="giana eckhardt" target="branding">
   <data key="d1">expert in</data>
 </edge>
-<edge source="giana eckhardt" target="brand behavior">
-  <data key="d1">analyzed by</data>
+<edge source="giana eckhardt" target="donald trump">
+  <data key="d1">discusses</data>
 </edge>
-<edge source="giana eckhardt" target="professor marketing">
-  <data key="d1">position</data>
+<edge source="giana eckhardt" target="kanye">
+  <data key="d1">discusses</data>
+</edge>
+<edge source="giana eckhardt" target="brands future risk">
+  <data key="d1">addresses</data>
+</edge>
+<edge source="giana eckhardt" target="brands past behavior">
+  <data key="d1">addresses</data>
 </edge>
 <edge source="giana eckhardt" target="kings business school">
-  <data key="d1">affiliation</data>
+  <data key="d1">professor at</data>
+</edge>
+<edge source="giana eckhardt" target="brand past behavior">
+  <data key="d1">studies</data>
+</edge>
+<edge source="giana eckhardt" target="david dubois">
+  <data key="d1">referenced by</data>
 </edge>
 <edge source="giana eckhardt" target="advantages">
-  <data key="d1">highlights</data>
+  <data key="d1">discusses</data>
 </edge>
 <edge source="giana eckhardt" target="disadvantages">
-  <data key="d1">highlights</data>
+  <data key="d1">discusses</data>
+</edge>
+<edge source="giana eckhardt" target="instagram">
+  <data key="d1">talks about</data>
 </edge>
 <edge source="giana eckhardt" target="digital marketing">
   <data key="d1">teaches</data>
 </edge>
-<edge source="giana eckhardt" target="brand management">
-  <data key="d1">teaches</data>
+<edge source="giana eckhardt" target="world cup in qatar">
+  <data key="d1">discusses</data>
 </edge>
-<edge source="giana eckhardt" target="paid sponsors">
-  <data key="d1">teaches</data>
+<edge source="king’s business school" target="insead">
+  <data key="d1">connected to</data>
 </edge>
-<edge source="professor of marketing" target="rajesh bhargave   ">
-  <data key="d1">title</data>
+<edge source="branding" target="endorsement">
+  <data key="d1">is effective for</data>
 </edge>
-<edge source="professor of marketing" target="imperial college business school   ">
-  <data key="d1">employed at</data>
-</edge>
-<edge source="professor of marketing" target="rajesh bhargave">
-  <data key="d1">title</data>
-</edge>
-<edge source="professor of marketing" target="imperial college business school">
-  <data key="d1">employed at</data>
-</edge>
-<edge source="professor of marketing" target="david dubois">
-  <data key="d1">is a</data>
-</edge>
-<edge source="professor of marketing" target="david dubois  ">
-  <data key="d1">is a</data>
-</edge>
-<edge source="professor of marketing" target="insead  ">
-  <data key="d1">teaches at</data>
-</edge>
-<edge source="king’s business school" target="digital marketing">
-  <data key="d1">part of</data>
-</edge>
-<edge source="king’s business school" target="brand management">
-  <data key="d1">part of</data>
-</edge>
-<edge source="endorsements" target="brand behavior">
-  <data key="d1">related to</data>
-</edge>
-<edge source="endorsements" target="celebrity endorsements">
-  <data key="d1">involves</data>
-</edge>
-<edge source="endorsements" target="donald trump">
-  <data key="d1">affected by</data>
-</edge>
-<edge source="endorsements" target="kanye west">
-  <data key="d1">affected by</data>
-</edge>
-<edge source="brand behavior" target="future risk">
-  <data key="d1">affects</data>
-</edge>
-<edge source="brand behavior" target="donald trump">
-  <data key="d1">affected by</data>
-</edge>
-<edge source="brand behavior" target="kanye west">
-  <data key="d1">affected by</data>
-</edge>
-<edge source="future risk" target="challenges">
-  <data key="d1">involve</data>
-</edge>
-<edge source="future risk" target="past behavior">
-  <data key="d1">indicates</data>
-</edge>
-<edge source="future risk" target="personal branding">
-  <data key="d1">reduced by</data>
-</edge>
-<edge source="future risk" target="high-profile examples">
-  <data key="d1">illustrates</data>
+<edge source="branding" target="cristiano ronaldo">
+  <data key="d1">is effective due to</data>
 </edge>
 <edge source="donald trump" target="kanye west">
-  <data key="d1">associated with</data>
+  <data key="d1">is related to</data>
 </edge>
 <edge source="donald trump" target="tweets">
-  <data key="d1">increases awareness</data>
+  <data key="d1">creates</data>
+</edge>
+<edge source="brands future risk" target="brands past behavior">
+  <data key="d1">influences</data>
 </edge>
 <edge source="kanye west" target="tweets">
-  <data key="d1">increases awareness</data>
+  <data key="d1">creates</data>
 </edge>
-<edge source="tweets" target="personal branding">
-  <data key="d1">impact</data>
+<edge source="tweets" target="humans">
+  <data key="d1">use</data>
 </edge>
-<edge source="tweets" target="risk">
-  <data key="d1">pose</data>
-</edge>
-<edge source="past behavior" target="michael jordan">
-  <data key="d1">includes</data>
-</edge>
-<edge source="professor marketing" target="david dubois">
-  <data key="d1">position</data>
-</edge>
-<edge source="kings business school" target="marketing field">
-  <data key="d1">influences</data>
-</edge>
-<edge source="david dubois" target="insead">
-  <data key="d1">part of</data>
-</edge>
-<edge source="david dubois" target="balance between reach and effectiveness">
-  <data key="d1">discusses</data>
-</edge>
-<edge source="david dubois" target="reach">
-  <data key="d1">effectiveness discussed by</data>
-</edge>
-<edge source="david dubois" target="mba">
-  <data key="d1">studies</data>
-</edge>
-<edge source="david dubois" target="social media content strategy">
-  <data key="d1">develops</data>
-</edge>
-<edge source="david dubois" target="david dubois">
-  <data key="d1">social media</data>
-</edge>
-<edge source="david dubois" target="risk audit frames">
+<edge source="tweets" target="people">
   <data key="d1">used by</data>
 </edge>
-<edge source="david dubois" target="short term">
-  <data key="d1">involves</data>
+<edge source="people" target="brand past behavior">
+  <data key="d1">aware of</data>
 </edge>
-<edge source="insead" target="marketing field">
-  <data key="d1">expertise in</data>
+<edge source="brand past behavior" target="david dubois">
+  <data key="d1">studies</data>
 </edge>
-<edge source="insead" target="david dubois  ">
-  <data key="d1">works at</data>
-</edge>
-<edge source="michael jordan" target="basketball">
-  <data key="d1">plays</data>
-</edge>
-<edge source="michael jordan" target="1984">
-  <data key="d1">active in</data>
-</edge>
-<edge source="michael jordan" target="basketball   ">
-  <data key="d1">plays</data>
-</edge>
-<edge source="michael jordan" target="1984   ">
-  <data key="d1">active in</data>
-</edge>
-<edge source="riskladen undesirable illness" target="brands">
-  <data key="d1">affects</data>
-</edge>
-<edge source="riskladen undesirable illness" target="brands   ">
-  <data key="d1">affects</data>
-</edge>
-<edge source="brands" target="diminish returns">
-  <data key="d1">experience</data>
-</edge>
-<edge source="brands" target="reputational challenges">
-  <data key="d1">face</data>
-</edge>
-<edge source="brands" target="social media">
-  <data key="d1">affects</data>
-</edge>
-<edge source="brands" target="media">
-  <data key="d1">gives control to</data>
-</edge>
-<edge source="brands" target="forbes">
-  <data key="d1">mentioned in</data>
-</edge>
-<edge source="jordan" target="nike   ">
-  <data key="d1">linked to</data>
-</edge>
-<edge source="jordan" target="brand marketing   ">
-  <data key="d1">example of</data>
-</edge>
-<edge source="diminish returns" target="brands   ">
-  <data key="d1">experience</data>
-</edge>
-<edge source="human authors" target="misconduct">
-  <data key="d1">concerned with</data>
-</edge>
-<edge source="human authors" target="reputational challenges">
-  <data key="d1">concerned with</data>
-</edge>
-<edge source="human authors" target="misconduct   ">
-  <data key="d1">concerned with</data>
-</edge>
-<edge source="human authors" target="reputational challenges   ">
-  <data key="d1">concerned with</data>
-</edge>
-<edge source="misconduct" target="reputational challenges">
-  <data key="d1">causes</data>
-</edge>
-<edge source="misconduct" target="reputational challenges   ">
-  <data key="d1">causes</data>
-</edge>
-<edge source="high-profile examples" target="brand complexities">
-  <data key="d1">reflect</data>
-</edge>
-<edge source="davids" target="qatar   ">
-  <data key="d1">deal with</data>
-</edge>
-<edge source="davids" target="$150 million   ">
-  <data key="d1">is worth</data>
-</edge>
-<edge source="davids" target="beckham   ">
-  <data key="d1">involves</data>
-</edge>
-<edge source="davids" target="world cup   ">
-  <data key="d1">involves</data>
-</edge>
-<edge source="davids" target="$150 million">
-  <data key="d1">is worth</data>
-</edge>
-<edge source="davids" target="brand alignment">
-  <data key="d1">demonstrates</data>
-</edge>
-<edge source="rajesh bhargave" target="importance of brand alignment">
-  <data key="d1">highlights</data>
-</edge>
-<edge source="sofia vergara" target="head shoulders">
-  <data key="d1">endorse</data>
-</edge>
-<edge source="sofia vergara" target="quaker oats">
-  <data key="d1">endorse</data>
-</edge>
-<edge source="sofia vergara" target="$94.5 million">
-  <data key="d1">earned</data>
-</edge>
-<edge source="jayz" target="$20 million">
-  <data key="d1">earned</data>
-</edge>
-<edge source="$55 million" target="charlize theron">
-  <data key="d1">earned</data>
-</edge>
-<edge source="charlize theron" target="j’adore">
-  <data key="d1">endorse</data>
-</edge>
-<edge source="charlize theron" target="dior">
-  <data key="d1">endorse</data>
-</edge>
-<edge source="deals" target="financial magnitude">
-  <data key="d1">highlight</data>
-</edge>
-<edge source="deals" target="strategic alignment between brands and celebrities">
-  <data key="d1">demonstrate</data>
-</edge>
-<edge source="companies" target="marketing priorities">
-  <data key="d1">have</data>
-</edge>
-<edge source="companies" target="marketing priorities  ">
-  <data key="d1">have</data>
-</edge>
-<edge source="companies" target="balance between reach and effectiveness  ">
-  <data key="d1">strategically consider</data>
-</edge>
-<edge source="marketing priorities" target="balance">
-  <data key="d1">involve</data>
-</edge>
-<edge source="marketing priorities" target="reaching the audience">
-  <data key="d1">involve</data>
-</edge>
-<edge source="marketing priorities" target="balance  ">
-  <data key="d1">involve</data>
-</edge>
-<edge source="marketing priorities" target="reaching the audience  ">
-  <data key="d1">involve</data>
-</edge>
-<edge source="balance" target="reach">
-  <data key="d1">balance between reach and effectiveness</data>
-</edge>
-<edge source="balance" target="effectiveness">
-  <data key="d1">balance between reach and effectiveness</data>
-</edge>
-<edge source="balance" target="critical balance">
-  <data key="d1">involves</data>
-</edge>
-<edge source="balance" target="reach  ">
-  <data key="d1">balance between reach and effectiveness</data>
-</edge>
-<edge source="balance" target="effectiveness  ">
-  <data key="d1">balance between reach and effectiveness</data>
-</edge>
-<edge source="balance" target="critical balance  ">
-  <data key="d1">involves</data>
-</edge>
-<edge source="balance" target="reach effectiveness  ">
-  <data key="d1">balance involves</data>
-</edge>
-<edge source="reach" target="some companies">
-  <data key="d1">prioritize</data>
-</edge>
-<edge source="reach" target="some companies  ">
-  <data key="d1">prioritize</data>
-</edge>
-<edge source="reach" target="celebrities  ">
-  <data key="d1">can be enhanced by</data>
-</edge>
-<edge source="effectiveness" target="celebrities  ">
-  <data key="d1">can be enhanced by</data>
-</edge>
-<edge source="balance between reach and effectiveness" target="david dubois  ">
-  <data key="d1">discusses</data>
-</edge>
-<edge source="celebrities  " target="reach effectiveness">
-  <data key="d1">achieves</data>
-</edge>
-<edge source="cristiano ronaldo" target="instagram">
-  <data key="d1">mostfollowed on</data>
-</edge>
-<edge source="cristiano ronaldo" target="513 million">
-  <data key="d1">has</data>
-</edge>
-<edge source="cristiano ronaldo" target="$1 billion">
-  <data key="d1">$ deal with</data>
-</edge>
-<edge source="cristiano ronaldo" target="cocacola bottles">
-  <data key="d1">removed</data>
-</edge>
-<edge source="cristiano ronaldo" target="drink water">
-  <data key="d1">encouraged</data>
-</edge>
-<edge source="cristiano ronaldo" target="social media">
-  <data key="d1">is involved in</data>
-</edge>
-<edge source="cristiano ronaldo" target="gesture">
-  <data key="d1">initiated</data>
-</edge>
-<edge source="cristiano ronaldo" target="a key figure in social media">
-  <data key="d1">is</data>
-</edge>
-<edge source="cristiano ronaldo" target="coca-cola">
-  <data key="d1">decreased</data>
-</edge>
-<edge source="cristiano ronaldo" target="water">
-  <data key="d1">promoted</data>
-</edge>
-<edge source="cristiano ronaldo" target=" $4 billion drop in cocacola value ">
-  <data key="d1">caused</data>
-</edge>
-<edge source="cristiano ronaldo" target="key success in social media">
-  <data key="d1">exemplifies</data>
-</edge>
-<edge source="cristiano ronaldo" target="shares">
-  <data key="d1">dropped</data>
-</edge>
-<edge source="cristiano ronaldo" target="cocacola shares">
-  <data key="d1">dropped</data>
-</edge>
-<edge source="bargain" target="forbes">
-  <data key="d1">mentions</data>
-</edge>
-<edge source="stakes" target="social media">
-  <data key="d1">changed</data>
-</edge>
-<edge source="social media" target="cristiano ronaldo's gesture">
-  <data key="d1">illustrated by</data>
-</edge>
-<edge source="social media" target="social media content strategy">
-  <data key="d1">develops</data>
-</edge>
-<edge source="social media" target="strategic principles">
-  <data key="d1">is influenced by</data>
-</edge>
-<edge source="media" target="cultural meaning">
-  <data key="d1">takes control of</data>
-</edge>
-<edge source="media" target="content powerhouse">
-  <data key="d1">powerhouse</data>
-</edge>
-<edge source="media" target="powerhouse">
-  <data key="d1">can be a</data>
-</edge>
-<edge source="gesture" target="cocacola value">
-  <data key="d1">decreased</data>
-</edge>
-<edge source="due to cr" target="shares">
-  <data key="d1">dropped</data>
-</edge>
-<edge source="due to cr" target="cocacola value decrease">
-  <data key="d1">caused</data>
-</edge>
-<edge source="$4 billion" target="cocacola">
-  <data key="d1">has value in</data>
-</edge>
-<edge source="$4 billion" target="cr">
-  <data key="d1">influenced</data>
-</edge>
-<edge source="key success in social media" target="authenticity">
-  <data key="d1">requires</data>
-</edge>
-<edge source="authenticity" target="consumer behavior ">
-  <data key="d1">important for</data>
-</edge>
-<edge source="authenticity" target="brand value">
+<edge source="brand past behavior" target="reputation">
   <data key="d1">influences</data>
 </edge>
-<edge source="social media content strategy" target="content powerhouse">
-  <data key="d1">requires</data>
+<edge source="future risk" target="behavior">
+  <data key="d1">leads to</data>
 </edge>
-<edge source="strategic principles" target="new operational strategic organizational principles">
-  <data key="d1">are part of</data>
+<edge source="future risk" target="public persona">
+  <data key="d1">influences</data>
 </edge>
-<edge source="strategic principles" target="spin work">
-  <data key="d1">requires</data>
+<edge source="future risk" target="riskladen undesirable illness">
+  <data key="d1">predicts</data>
 </edge>
-<edge source="new operational strategic organizational principles" target="content">
-  <data key="d1">requires</data>
+<edge source="insead" target="david dubois">
+  <data key="d1">works at</data>
 </edge>
-<edge source="new operational strategic organizational principles" target="spin work">
-  <data key="d1">requires</data>
+<edge source="david dubois" target="">
+  <data key="d1">is a person</data>
 </edge>
-<edge source="spin work" target="social media content">
-  <data key="d1">requires</data>
+<edge source="david dubois" target="balance">
+  <data key="d1">discusses</data>
 </edge>
-<edge source="digital marketing" target="paid sponsors">
-  <data key="d1">related to</data>
+<edge source="david dubois" target="companies">
+  <data key="d1">explores</data>
 </edge>
-<edge source="digital marketing" target="matt symonds">
-  <data key="d1">related to</data>
+<edge source="david dubois" target="marketing">
+  <data key="d1">explores</data>
 </edge>
-<edge source="brand management" target="paid sponsors">
-  <data key="d1">related to</data>
+<edge source="david dubois" target="equilibrium">
+  <data key="d1">explores</data>
 </edge>
-<edge source="paid sponsors" target="endorsement">
+<edge source="david dubois" target="social media content strategy">
+  <data key="d1">creates</data>
+</edge>
+<edge source="david dubois" target="content strategy">
+  <data key="d1">creates</data>
+</edge>
+<edge source="david dubois" target="organizational principles">
+  <data key="d1">creates</data>
+</edge>
+<edge source="david dubois" target="role of social media content strategy">
+  <data key="d1">emphasizes</data>
+</edge>
+<edge source="david dubois" target="risk audit frames">
+  <data key="d1">suggests</data>
+</edge>
+<edge source="diminish returns" target="riskladen undesirable illness">
+  <data key="d1">causes</data>
+</edge>
+<edge source="riskladen undesirable illness" target="riskladen undesirable illness">
   <data key="d1">involves</data>
 </edge>
-<edge source="short term" target="risk audit frames">
+<edge source="riskladen undesirable illness" target="misconduct">
+  <data key="d1">created by</data>
+</edge>
+<edge source="riskladen undesirable illness" target="reputational challenges">
+  <data key="d1">leads to</data>
+</edge>
+<edge source="reputational challenges" target="reputational damage to nike">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="reputational challenges" target="jordan">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="reputational challenges" target="basketball interests">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="jordan" target="michael jordan">
+  <data key="d1">is associated with</data>
+</edge>
+<edge source="jordan" target="political interests">
+  <data key="d1">promotes</data>
+</edge>
+<edge source="jordan" target="basketball interests">
+  <data key="d1">enhances</data>
+</edge>
+<edge source="basketball" target="michael jordan">
+  <data key="d1">is associated with</data>
+</edge>
+<edge source="1984" target="madeshoe">
+  <data key="d1">in</data>
+</edge>
+<edge source="1984" target="collaboration with nike">
+  <data key="d1">in</data>
+</edge>
+<edge source="david" target="$150 million">
+  <data key="d1">made deal worth</data>
+</edge>
+<edge source="david" target="rajesh bhargave">
+  <data key="d1">is connected to</data>
+</edge>
+<edge source="david" target="sofia vergara">
+  <data key="d1">similar to</data>
+</edge>
+<edge source="rajesh bhargave" target="professor of marketing">
+  <data key="d1">is title of</data>
+</edge>
+<edge source="rajesh bhargave" target="imperial college business school">
+  <data key="d1">works at</data>
+</edge>
+<edge source="imperial college business school" target="brand alignment">
+  <data key="d1">emphasizes</data>
+</edge>
+<edge source="sofia vergara" target="head shoulders">
+  <data key="d1">endorser of</data>
+</edge>
+<edge source="sofia vergara" target="$94.5 million">
+  <data key="d1">earns</data>
+</edge>
+<edge source="sofia vergara" target="quaker oats">
+  <data key="d1">endorser of</data>
+</edge>
+<edge source="jayz" target="$20 million">
+  <data key="d1">earns</data>
+</edge>
+<edge source="jayz" target="celebrity">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="charlize theron" target="$55 million">
+  <data key="d1">earns</data>
+</edge>
+<edge source="charlize theron" target="dior">
+  <data key="d1">endorser of</data>
+</edge>
+<edge source="charlize theron" target="celebrity">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="dior" target="j’adore">
+  <data key="d1">owns</data>
+</edge>
+<edge source="companies" target="marketing">
+  <data key="d1">have priorities</data>
+</edge>
+<edge source="companies" target="reach">
+  <data key="d1">focus on</data>
+</edge>
+<edge source="companies" target="effectiveness">
+  <data key="d1">prioritize</data>
+</edge>
+<edge source="marketing" target="reaching">
+  <data key="d1">involves</data>
+</edge>
+<edge source="balance" target="marketing priorities">
+  <data key="d1">involves</data>
+</edge>
+<edge source="equilibrium" target="nuanced decisions">
+  <data key="d1">emphasizes</data>
+</edge>
+<edge source="cristiano ronaldo" target="instagram">
+  <data key="d1">is mostfollowed</data>
+</edge>
+<edge source="cristiano ronaldo" target="513 million">
+  <data key="d1">has followers</data>
+</edge>
+<edge source="cristiano ronaldo" target="513 million followers">
+  <data key="d1">has followers on</data>
+</edge>
+<edge source="cristiano ronaldo" target="$1 billion deal">
+  <data key="d1">has endorsement worth</data>
+</edge>
+<edge source="cristiano ronaldo" target="endorsement">
+  <data key="d1">is example of</data>
+</edge>
+<edge source="cristiano ronaldo" target="effective endorsement">
+  <data key="d1">is an example of</data>
+</edge>
+<edge source="cristiano ronaldo" target="drinking water">
+  <data key="d1">encouraged</data>
+</edge>
+<edge source="cristiano ronaldo" target="cocacola">
+  <data key="d1">removed</data>
+</edge>
+<edge source="cristiano ronaldo" target="corporate finances">
+  <data key="d1">has significant influence over</data>
+</edge>
+<edge source="instagram" target="513 million followers">
+  <data key="d1">has followers on</data>
+</edge>
+<edge source="$1 billion deal" target="dubois">
+  <data key="d1">has endorsement worth</data>
+</edge>
+<edge source="dubois" target="lowerprofile">
+  <data key="d1">has followers on</data>
+</edge>
+<edge source="dubois" target="closer brand">
+  <data key="d1">is</data>
+</edge>
+<edge source="lowerprofile" target="dubois closer brand">
+  <data key="d1">can offer</data>
+</edge>
+<edge source="dna" target="dubois closer brand">
   <data key="d1">part of</data>
 </edge>
-<edge source="matt symonds" target="power user guidelines">
-  <data key="d1">related to</data>
+<edge source="media" target="cultural meaning">
+  <data key="d1">gives less control over</data>
 </edge>
-<edge source="matt symonds" target="posting rules">
-  <data key="d1">related to</data>
+<edge source="gesture" target="drop">
+  <data key="d1">caused</data>
 </edge>
-<edge source="matt symonds" target="service">
-  <data key="d1">related to</data>
+<edge source="drop" target="value">
+  <data key="d1">in</data>
 </edge>
-<edge source="power user guidelines" target="service">
-  <data key="d1">part of</data>
+<edge source="drop" target="$4 billion">
+  <data key="d1">amount</data>
 </edge>
-<edge source="posting rules" target="service">
-  <data key="d1">part of</data>
+<edge source="drop" target="cocacolas share">
+  <data key="d1">in</data>
+</edge>
+<edge source="content strategy" target="influencer">
+  <data key="d1">operational principles</data>
+</edge>
+<edge source="organizational principles" target="content powerhouse">
+  <data key="d1">requires</data>
+</edge>
+<edge source="organizational principles" target="operational principles">
+  <data key="d1">are part of</data>
+</edge>
+<edge source="organizational principles" target="business strategy">
+  <data key="d1">include</data>
+</edge>
+<edge source="organizational principles" target="strategic principles">
+  <data key="d1">are part of</data>
+</edge>
+<edge source="content powerhouse" target="new principles">
+  <data key="d1">needs</data>
+</edge>
+<edge source="content powerhouse" target="new operational principles">
+  <data key="d1">needs</data>
+</edge>
+<edge source="content powerhouse" target="new strateg principles">
+  <data key="d1">creates</data>
+</edge>
+<edge source="content powerhouse" target="new ational principles">
+  <data key="d1">creates</data>
+</edge>
+<edge source="content powerhouse" target="media powerhouse">
+  <data key="d1">is like</data>
+</edge>
+<edge source="content powerhouse" target="business strategy">
+  <data key="d1">creates</data>
+</edge>
+<edge source="content powerhouse" target="strategic principles">
+  <data key="d1">requires</data>
+</edge>
+<edge source="content powerhouse" target="operational principles">
+  <data key="d1">requires</data>
+</edge>
+<edge source="new principles" target="media powerhouse">
+  <data key="d1">needs</data>
+</edge>
+<edge source="mba student" target="masters degree">
+  <data key="d1">has</data>
+</edge>
+<edge source="mba student" target="business administration">
+  <data key="d1">studies</data>
+</edge>
+<edge source="mba student" target="students">
+  <data key="d1">are part of</data>
+</edge>
+<edge source="mba student" target="importance of contemporary principles">
+  <data key="d1">demonstrates</data>
+</edge>
+<edge source="brand management" target="service">
+  <data key="d1">impacts</data>
+</edge>
+<edge source="brand management" target="paid sponsor endorsements">
+  <data key="d1">affects</data>
+</edge>
+<edge source="brand management" target="managing brand risk">
+  <data key="d1">includes</data>
+</edge>
+<edge source="brand management" target="performing audits">
+  <data key="d1">includes</data>
+</edge>
+<edge source="digital marketing" target="service">
+  <data key="d1">impacts</data>
+</edge>
+<edge source="risk audit frames" target="short-term brand management strategies">
+  <data key="d1">used for</data>
+</edge>
+<edge source="paid sponsor endorsements" target="world cup in qatar">
+  <data key="d1">affects</data>
+</edge>
+<edge source="service" target="power user guidelines">
+  <data key="d1">contains</data>
+</edge>
+<edge source="service" target="posting rules">
+  <data key="d1">contains</data>
+</edge>
+<edge source="service" target="matt symonds">
+  <data key="d1">created</data>
+</edge>
+<edge source="posting rules" target="service management">
+  <data key="d1">impacts</data>
+</edge>
+<edge source="matt symonds" target="guidelines for power users">
+  <data key="d1">provides</data>
 </edge>
 </graph></graphml>

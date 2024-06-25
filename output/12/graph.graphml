@@ -1,26 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="$178 billion market value">
-  <data key="d0">$178 billion market value</data>
-</node>
-<node id="market">
-  <data key="d0">market</data>
+<graph edgedefault="undirected"><node id="stock">
+  <data key="d0">stock</data>
 </node>
 <node id="$178 billion capitalization">
   <data key="d0">$178 billion capitalization</data>
 </node>
-<node id="4thquarter earnings">
-  <data key="d0">4thquarter earnings</data>
+<node id="dow jones">
+  <data key="d0">dow jones</data>
 </node>
-<node id="turnaround">
-  <data key="d0">turnaround</data>
+<node id="nasdaq 100">
+  <data key="d0">nasdaq 100</data>
 </node>
 <node id="s&amp;p 500">
   <data key="d0">s&amp;p 500</data>
 </node>
-<node id="2%">
-  <data key="d0">2%</data>
+<node id="rebound">
+  <data key="d0">rebound</data>
+</node>
+<node id="4thquarter earnings">
+  <data key="d0">4thquarter earnings</data>
+</node>
+<node id="8%">
+  <data key="d0">8%</data>
 </node>
 <node id="apple">
   <data key="d0">apple</data>
@@ -31,17 +34,17 @@
 <node id="$88.64 per share">
   <data key="d0">$88.64 per share</data>
 </node>
-<node id="iphone">
-  <data key="d0">iphone</data>
-</node>
 <node id="$42.63 billion">
   <data key="d0">$42.63 billion</data>
 </node>
-<node id="dow jones">
-  <data key="d0">dow jones</data>
+<node id="iphone">
+  <data key="d0">iphone</data>
 </node>
-<node id="nasdaq 100">
-  <data key="d0">nasdaq 100</data>
+<node id="major indices">
+  <data key="d0">major indices</data>
+</node>
+<node id="tech giants">
+  <data key="d0">tech giants</data>
 </node>
 <node id="meta">
   <data key="d0">meta</data>
@@ -49,11 +52,17 @@
 <node id="amazon">
   <data key="d0">amazon</data>
 </node>
+<node id="10%">
+  <data key="d0">10%</data>
+</node>
 <node id="alphabet">
   <data key="d0">alphabet</data>
 </node>
 <node id="microsoft">
   <data key="d0">microsoft</data>
+</node>
+<node id="$42.63 billion revenue">
+  <data key="d0">$42.63 billion revenue</data>
 </node>
 <node id="apple tv+">
   <data key="d0">apple tv+</data>
@@ -61,86 +70,110 @@
 <node id="music">
   <data key="d0">music</data>
 </node>
-<node id="estimates">
-  <data key="d0">estimates</data>
-</node>
-<node id="tim cook">
-  <data key="d0">tim cook</data>
-</node>
 <node id="$19 billion">
   <data key="d0">$19 billion</data>
-</node>
-<node id="estimated value of">
-  <data key="d0">estimated value of</data>
-</node>
-<node id="ceo">
-  <data key="d0">ceo</data>
-</node>
-<node id="growth">
-  <data key="d0">growth</data>
-</node>
-<node id="warned">
-  <data key="d0">warned</data>
-</node>
-<node id="quarter">
-  <data key="d0">quarter</data>
 </node>
 <node id="holiday quarter">
   <data key="d0">holiday quarter</data>
 </node>
-<node id="results">
-  <data key="d0">results</data>
+<node id="19.97">
+  <data key="d0">19.97</data>
 </node>
-<node id="despite results">
-  <data key="d0">despite results</data>
+<node id="tim cook">
+  <data key="d0">tim cook</data>
 </node>
-<node id="wall street">
-  <data key="d0">wall street</data>
+<node id="decelerated growth">
+  <data key="d0">decelerated growth</data>
 </node>
-<node id="iphone revenue">
-  <data key="d0">iphone revenue</data>
+<node id="disappointing results">
+  <data key="d0">disappointing results</data>
 </node>
-<node id="apple  ">
-  <data key="d0">apple  </data>
+<node id="$19.97 billion">
+  <data key="d0">$19.97 billion</data>
+</node>
+<node id="estimate">
+  <data key="d0">estimate</data>
+</node>
+<node id="valuation">
+  <data key="d0">valuation</data>
+</node>
+<node id="ceo">
+  <data key="d0">ceo</data>
 </node>
 <node id="music  ">
   <data key="d0">music  </data>
 </node>
-<node id="estimates  ">
-  <data key="d0">estimates  </data>
-</node>
-<node id="tim cook  ">
-  <data key="d0">tim cook  </data>
-</node>
 <node id="$19 billion  ">
   <data key="d0">$19 billion  </data>
-</node>
-<node id="estimated value of  ">
-  <data key="d0">estimated value of  </data>
-</node>
-<node id="ceo  ">
-  <data key="d0">ceo  </data>
-</node>
-<node id="growth  ">
-  <data key="d0">growth  </data>
-</node>
-<node id="warned  ">
-  <data key="d0">warned  </data>
 </node>
 <node id="holiday quarter  ">
   <data key="d0">holiday quarter  </data>
 </node>
-<node id="results  ">
-  <data key="d0">results  </data>
+<node id="19.97  ">
+  <data key="d0">19.97  </data>
 </node>
-<node id="wall street  ">
-  <data key="d0">wall street  </data>
+<node id="tim cook  ">
+  <data key="d0">tim cook  </data>
 </node>
-<node id="results manager">
-  <data key="d0">results manager</data>
+<node id="decelerated growth  ">
+  <data key="d0">decelerated growth  </data>
 </node>
-<node id="louis navellier  ">
-  <data key="d0">louis navellier  </data>
+<node id="disappointing results  ">
+  <data key="d0">disappointing results  </data>
+</node>
+<node id="estimate  ">
+  <data key="d0">estimate  </data>
+</node>
+<node id="valuation  ">
+  <data key="d0">valuation  </data>
+</node>
+<node id="has role">
+  <data key="d0">has role</data>
+</node>
+<node id="ceo  ">
+  <data key="d0">ceo  </data>
+</node>
+<node id="louis navellier">
+  <data key="d0">louis navellier</data>
+</node>
+<node id="apple weakness  ">
+  <data key="d0">apple weakness  </data>
+</node>
+<node id="on fr  ">
+  <data key="d0">on fr  </data>
+</node>
+<node id="apple weakness">
+  <data key="d0">apple weakness</data>
+</node>
+<node id="services division  ">
+  <data key="d0">services division  </data>
+</node>
+<node id="us dollar  ">
+  <data key="d0">us dollar  </data>
+</node>
+<node id="quarters  ">
+  <data key="d0">quarters  </data>
+</node>
+<node id="dan ives  ">
+  <data key="d0">dan ives  </data>
+</node>
+<node id="services division">
+  <data key="d0">services division</data>
+</node>
+<node id="usd surge  ">
+  <data key="d0">usd surge  </data>
+</node>
+<node id="us dollar">
+  <data key="d0">us dollar</data>
+</node>
+<node id="weak currency  ">
+  <data key="d0">weak currency  </data>
+</node>
+<node id="weak currency">
+  <data key="d0">weak currency</data>
+</node>
+<node id="app store performance  ">
+  <data key="d0">app store performance  </data>
 </node>
 <node id="dan ives">
   <data key="d0">dan ives</data>
@@ -148,68 +181,53 @@
 <node id="wedbush  ">
   <data key="d0">wedbush  </data>
 </node>
-<node id="december  ">
-  <data key="d0">december  </data>
-</node>
-<node id="weakness">
-  <data key="d0">weakness</data>
-</node>
-<node id="services division  ">
-  <data key="d0">services division  </data>
-</node>
-<node id="services division">
-  <data key="d0">services division</data>
-</node>
-<node id="weak currency  ">
-  <data key="d0">weak currency  </data>
-</node>
-<node id="division">
-  <data key="d0">division</data>
-</node>
-<node id="usd surge  ">
-  <data key="d0">usd surge  </data>
-</node>
-<node id="usd surge">
-  <data key="d0">usd surge</data>
-</node>
-<node id="app store  ">
-  <data key="d0">app store  </data>
-</node>
-<node id="app store">
-  <data key="d0">app store</data>
-</node>
-<node id="march  ">
-  <data key="d0">march  </data>
-</node>
-<node id="disappointing results  ">
-  <data key="d0">disappointing results  </data>
-</node>
-<node id="decreasing growth during holiday quarter  ">
-  <data key="d0">decreasing growth during holiday quarter  </data>
-</node>
-<node id="upcoming results  ">
-  <data key="d0">upcoming results  </data>
-</node>
-<node id="louis navellier">
-  <data key="d0">louis navellier</data>
-</node>
-<node id="dan ives  ">
-  <data key="d0">dan ives  </data>
-</node>
-<node id="wedbush">
-  <data key="d0">wedbush</data>
-</node>
 <node id="december">
   <data key="d0">december</data>
 </node>
-<node id="weak currency">
-  <data key="d0">weak currency</data>
+<node id="macro reacceleration  ">
+  <data key="d0">macro reacceleration  </data>
 </node>
 <node id="march">
   <data key="d0">march</data>
 </node>
+<node id="macro reacceleration">
+  <data key="d0">macro reacceleration</data>
+</node>
+<node id="december  ">
+  <data key="d0">december  </data>
+</node>
+<node id="remarks">
+  <data key="d0">remarks</data>
+</node>
+<node id="analyst for  ">
+  <data key="d0">analyst for  </data>
+</node>
+<node id="on fr">
+  <data key="d0">on fr</data>
+</node>
+<node id="quarters">
+  <data key="d0">quarters</data>
+</node>
+<node id="usd surge">
+  <data key="d0">usd surge</data>
+</node>
+<node id="app store performance">
+  <data key="d0">app store performance</data>
+</node>
+<node id="wedbush">
+  <data key="d0">wedbush</data>
+</node>
+<node id="decembe">
+  <data key="d0">decembe</data>
+</node>
+<node id="analyst for">
+  <data key="d0">analyst for</data>
+</node>
 <node id="indices">
   <data key="d0">indices</data>
+</node>
+<node id="stocks">
+  <data key="d0">stocks</data>
 </node>
 <node id="commodities">
   <data key="d0">commodities</data>
@@ -217,262 +235,286 @@
 <node id="currencies">
   <data key="d0">currencies</data>
 </node>
-<node id="stocks">
-  <data key="d0">stocks</data>
+<node id="iphone 14">
+  <data key="d0">iphone 14</data>
 </node>
-<node id="optout">
-  <data key="d0">optout</data>
+<node id="cook">
+  <data key="d0">cook</data>
 </node>
 <node id="consumer privacy act">
   <data key="d0">consumer privacy act</data>
 </node>
-<node id="iphone 14">
-  <data key="d0">iphone 14</data>
+<node id="optout">
+  <data key="d0">optout</data>
 </node>
-<edge source="$178 billion market value" target="market">
-  <data key="d1">$178 billion market value</data>
+<node id="consumer privacy concerns">
+  <data key="d0">consumer privacy concerns</data>
+</node>
+<edge source="stock" target="$178 billion capitalization">
+  <data key="d1">has a</data>
 </edge>
-<edge source="$178 billion market value" target="4thquarter earnings">
-  <data key="d1">resulted in total capitalization of</data>
+<edge source="stock" target="dow jones">
+  <data key="d1">part of</data>
 </edge>
-<edge source="market" target="$178 billion capitalization">
-  <data key="d1">$178 billion capitalization</data>
+<edge source="stock" target="nasdaq 100">
+  <data key="d1">included in</data>
 </edge>
-<edge source="market" target="4thquarter earnings">
-  <data key="d1">experienced rebound</data>
+<edge source="stock" target="s&amp;p 500">
+  <data key="d1">tracked by</data>
 </edge>
-<edge source="market" target="s&amp;p 500">
-  <data key="d1">reflected across</data>
+<edge source="stock" target="4thquarter earnings">
+  <data key="d1">reflects</data>
 </edge>
-<edge source="market" target="dow jones">
-  <data key="d1">reflected across</data>
+<edge source="stock" target="alphabet">
+  <data key="d1">performs strongly</data>
 </edge>
-<edge source="market" target="nasdaq 100">
-  <data key="d1">reflected across</data>
+<edge source="stock" target="microsoft">
+  <data key="d1">performs strongly</data>
 </edge>
-<edge source="4thquarter earnings" target="turnaround">
-  <data key="d1">4thquarter earnings</data>
+<edge source="$178 billion capitalization" target="major indices">
+  <data key="d1">positively impacts</data>
 </edge>
-<edge source="4thquarter earnings" target="meta">
-  <data key="d1">key companies performance improvements</data>
+<edge source="dow jones" target="major indices">
+  <data key="d1">include</data>
 </edge>
-<edge source="4thquarter earnings" target="amazon">
-  <data key="d1">key companies performance improvements</data>
+<edge source="nasdaq 100" target="major indices">
+  <data key="d1">include</data>
 </edge>
-<edge source="4thquarter earnings" target="alphabet">
-  <data key="d1">key companies performance improvements</data>
+<edge source="s&amp;p 500" target="major indices">
+  <data key="d1">include</data>
 </edge>
-<edge source="4thquarter earnings" target="microsoft">
-  <data key="d1">key companies performance improvements</data>
+<edge source="rebound" target="4thquarter earnings">
+  <data key="d1">leads to</data>
 </edge>
-<edge source="s&amp;p 500" target="s&amp;p 500">
-  <data key="d1">rebound stock</data>
-</edge>
-<edge source="s&amp;p 500" target="2%">
-  <data key="d1">increased by</data>
+<edge source="rebound" target="8%">
+  <data key="d1">results in</data>
 </edge>
 <edge source="apple" target="$90.15 billion">
-  <data key="d1">reported revenue of</data>
+  <data key="d1">q3 revenue</data>
 </edge>
 <edge source="apple" target="$88.64 per share">
-  <data key="d1">reported earnings per share of</data>
+  <data key="d1">revenue per share</data>
 </edge>
-<edge source="apple" target="alphabet">
-  <data key="d1">notable performance improvements</data>
+<edge source="apple" target="holiday quarter">
+  <data key="d1">timed with</data>
 </edge>
-<edge source="apple" target="apple tv+">
-  <data key="d1">service offered by</data>
+<edge source="apple" target="19.97">
+  <data key="d1">associated with</data>
 </edge>
 <edge source="apple" target="tim cook">
-  <data key="d1">runs</data>
+  <data key="d1">ceo of</data>
 </edge>
-<edge source="apple" target="$19 billion">
-  <data key="d1">estimated revenue from services</data>
+<edge source="apple" target="holiday quarter  ">
+  <data key="d1">timed with</data>
+</edge>
+<edge source="apple" target="19.97  ">
+  <data key="d1">associated with</data>
 </edge>
 <edge source="apple" target="tim cook  ">
-  <data key="d1">runs</data>
+  <data key="d1">ceo of</data>
 </edge>
 <edge source="apple" target="december  ">
-  <data key="d1">expected to reaccelerate in</data>
+  <data key="d1">timed with</data>
 </edge>
-<edge source="apple" target="disappointing results  ">
-  <data key="d1">despite</data>
+<edge source="$42.63 billion" target="iphone">
+  <data key="d1">revenue</data>
 </edge>
-<edge source="apple" target="dan ives">
-  <data key="d1">noted weakness in</data>
+<edge source="iphone" target="$42.63 billion revenue">
+  <data key="d1">contributes to</data>
 </edge>
-<edge source="apple" target="december">
-  <data key="d1">expected to reaccelerate in</data>
+<edge source="tech giants" target="meta">
+  <data key="d1">include</data>
 </edge>
-<edge source="apple" target="consumer privacy act">
-  <data key="d1">involves</data>
+<edge source="tech giants" target="amazon">
+  <data key="d1">include</data>
 </edge>
-<edge source="iphone" target="$42.63 billion">
-  <data key="d1">reported revenue of</data>
+<edge source="meta" target="10%">
+  <data key="d1">increase by</data>
+</edge>
+<edge source="amazon" target="10%">
+  <data key="d1">increase by</data>
 </edge>
 <edge source="apple tv+" target="music">
-  <data key="d1">includes</data>
+  <data key="d1">offers</data>
 </edge>
-<edge source="apple tv+" target="estimates">
-  <data key="d1">includes</data>
+<edge source="apple tv+" target="$19 billion">
+  <data key="d1">worth</data>
 </edge>
-<edge source="apple tv+" target="growth">
-  <data key="d1">pertains to</data>
-</edge>
-<edge source="apple tv+" target="apple  ">
-  <data key="d1">service offered by</data>
+<edge source="apple tv+" target="holiday quarter">
+  <data key="d1">involves</data>
 </edge>
 <edge source="apple tv+" target="music  ">
-  <data key="d1">includes</data>
+  <data key="d1">offers</data>
 </edge>
-<edge source="apple tv+" target="estimates  ">
-  <data key="d1">includes</data>
+<edge source="apple tv+" target="$19 billion  ">
+  <data key="d1">worth</data>
 </edge>
-<edge source="estimates" target="$19 billion">
-  <data key="d1">financial value</data>
+<edge source="apple tv+" target="holiday quarter  ">
+  <data key="d1">involves</data>
 </edge>
-<edge source="estimates" target="$19 billion  ">
-  <data key="d1">financial value</data>
+<edge source="holiday quarter" target="tim cook">
+  <data key="d1">warned about</data>
+</edge>
+<edge source="holiday quarter" target="decelerated growth">
+  <data key="d1">caused</data>
+</edge>
+<edge source="holiday quarter" target="disappointing results">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="holiday quarter" target="19.97">
+  <data key="d1">valued at</data>
+</edge>
+<edge source="holiday quarter" target="tim cook  ">
+  <data key="d1">warned about</data>
+</edge>
+<edge source="holiday quarter" target="decelerated growth  ">
+  <data key="d1">caused</data>
+</edge>
+<edge source="holiday quarter" target="disappointing results  ">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="holiday quarter" target="19.97  ">
+  <data key="d1">valued at</data>
+</edge>
+<edge source="19.97" target="estimate">
+  <data key="d1">represents</data>
+</edge>
+<edge source="19.97" target="valuation">
+  <data key="d1">indicates</data>
+</edge>
+<edge source="19.97" target="valuation  ">
+  <data key="d1">indicates</data>
 </edge>
 <edge source="tim cook" target="ceo">
-  <data key="d1">holds position of</data>
+  <data key="d1">has role</data>
 </edge>
-<edge source="tim cook" target="growth">
-  <data key="d1">issues warning about</data>
+<edge source="$19.97 billion" target="estimate">
+  <data key="d1">represents</data>
 </edge>
-<edge source="tim cook" target="ceo  ">
-  <data key="d1">holds position of</data>
+<edge source="$19.97 billion" target="estimate  ">
+  <data key="d1">represents</data>
 </edge>
-<edge source="tim cook" target="growth  ">
-  <data key="d1">issues warning about</data>
+<edge source="estimate" target="19.97  ">
+  <data key="d1">represents</data>
 </edge>
-<edge source="tim cook" target="decreasing growth during holiday quarter  ">
-  <data key="d1">hinted at</data>
+<edge source="19.97  " target="apple weakness">
+  <data key="d1">involves</data>
 </edge>
-<edge source="$19 billion" target="estimated value of">
-  <data key="d1">apple tv+</data>
+<edge source="has role" target="ceo  ">
+  <data key="d1">is</data>
 </edge>
-<edge source="$19 billion" target="estimated value of  ">
-  <data key="d1">apple tv+</data>
+<edge source="louis navellier" target="apple weakness  ">
+  <data key="d1">commented on</data>
 </edge>
-<edge source="ceo" target="iphone revenue">
-  <data key="d1">comments on</data>
+<edge source="louis navellier" target="on fr  ">
+  <data key="d1">results manager</data>
 </edge>
-<edge source="growth" target="warned">
-  <data key="d1">decreased by</data>
+<edge source="louis navellier" target="apple weakness">
+  <data key="d1">commented on</data>
 </edge>
-<edge source="growth" target="warned  ">
-  <data key="d1">decreased by</data>
+<edge source="louis navellier" target="on fr">
+  <data key="d1">results manager</data>
 </edge>
-<edge source="quarter" target="holiday quarter">
-  <data key="d1">affected</data>
+<edge source="apple weakness" target="services division  ">
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="quarter" target="results">
-  <data key="d1">despite</data>
+<edge source="apple weakness" target="us dollar  ">
+  <data key="d1">caused</data>
 </edge>
-<edge source="quarter" target="holiday quarter  ">
-  <data key="d1">affected</data>
+<edge source="apple weakness" target="quarters  ">
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="quarter" target="results  ">
-  <data key="d1">despite</data>
+<edge source="apple weakness" target="dan ives  ">
+  <data key="d1">commented on</data>
 </edge>
-<edge source="holiday quarter" target="iphone revenue">
-  <data key="d1">critical for</data>
+<edge source="apple weakness" target="december  ">
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="results" target="wall street">
-  <data key="d1">analyzed by</data>
+<edge source="apple weakness" target="services division">
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="despite results" target="wall street">
-  <data key="d1">remains upbeat</data>
+<edge source="apple weakness" target="us dollar">
+  <data key="d1">caused</data>
 </edge>
-<edge source="despite results" target="wall street  ">
-  <data key="d1">remains upbeat</data>
+<edge source="apple weakness" target="quarters">
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="wall street" target="upcoming results  ">
-  <data key="d1">optimistic about</data>
+<edge source="apple weakness" target="dan ives">
+  <data key="d1">commented on</data>
 </edge>
-<edge source="apple  " target="dan ives">
-  <data key="d1">noted weakness in</data>
+<edge source="apple weakness" target="macro reacceleration">
+  <data key="d1">linked to</data>
 </edge>
-<edge source="results manager" target="louis navellier  ">
-  <data key="d1">is a</data>
+<edge source="services division" target="usd surge  ">
+  <data key="d1">affected by</data>
 </edge>
-<edge source="results manager" target="louis navellier">
-  <data key="d1">is a</data>
+<edge source="services division" target="app store performance  ">
+  <data key="d1">affected by</data>
 </edge>
-<edge source="dan ives" target="wedbush  ">
-  <data key="d1">is an analyst at</data>
+<edge source="services division" target="usd surge">
+  <data key="d1">affected by</data>
 </edge>
-<edge source="dan ives" target="louis navellier">
-  <data key="d1">and</data>
-</edge>
-<edge source="dan ives" target="wedbush">
-  <data key="d1">is an analyst at</data>
-</edge>
-<edge source="dan ives" target="weak currency">
-  <data key="d1">noticed</data>
-</edge>
-<edge source="december  " target="app store">
-  <data key="d1">expected to reaccelerate in</data>
-</edge>
-<edge source="weakness" target="services division  ">
-  <data key="d1">in</data>
-</edge>
-<edge source="weakness" target="services division">
-  <data key="d1">in</data>
-</edge>
-<edge source="services division" target="weak currency  ">
-  <data key="d1">impacted</data>
-</edge>
-<edge source="services division" target="weak currency">
-  <data key="d1">impacted</data>
-</edge>
-<edge source="weak currency  " target="app store">
-  <data key="d1">impacted</data>
-</edge>
-<edge source="division" target="usd surge  ">
-  <data key="d1">impacted by</data>
-</edge>
-<edge source="division" target="usd surge">
-  <data key="d1">impacted by</data>
-</edge>
-<edge source="usd surge" target="app store  ">
-  <data key="d1">impacted</data>
-</edge>
-<edge source="usd surge" target="app store">
-  <data key="d1">impacted</data>
-</edge>
-<edge source="app store" target="march  ">
-  <data key="d1">expected to reaccelerate in</data>
-</edge>
-<edge source="app store" target="december">
-  <data key="d1">expected to reaccelerate in</data>
-</edge>
-<edge source="app store" target="march">
-  <data key="d1">expected to reaccelerate in</data>
-</edge>
-<edge source="app store" target="weak currency">
-  <data key="d1">impacted</data>
-</edge>
-<edge source="app store" target="iphone 14">
+<edge source="us dollar" target="weak currency  ">
   <data key="d1">related to</data>
 </edge>
-<edge source="louis navellier" target="dan ives  ">
-  <data key="d1">and</data>
+<edge source="us dollar" target="december">
+  <data key="d1">affects</data>
 </edge>
-<edge source="indices" target="commodities">
-  <data key="d1">linked to</data>
+<edge source="us dollar" target="weak currency">
+  <data key="d1">related to</data>
 </edge>
-<edge source="indices" target="currencies">
-  <data key="d1">linked to</data>
+<edge source="weak currency" target="app store performance  ">
+  <data key="d1">impacted</data>
+</edge>
+<edge source="weak currency" target="app store performance">
+  <data key="d1">impacted</data>
+</edge>
+<edge source="dan ives" target="wedbush  ">
+  <data key="d1">has analyst</data>
+</edge>
+<edge source="dan ives" target="wedbush">
+  <data key="d1">has analyst</data>
+</edge>
+<edge source="december" target="macro reacceleration  ">
+  <data key="d1">can occur in</data>
+</edge>
+<edge source="december" target="macro reacceleration">
+  <data key="d1">can occur in</data>
+</edge>
+<edge source="macro reacceleration  " target="march">
+  <data key="d1">can affect</data>
+</edge>
+<edge source="march" target="macro reacceleration">
+  <data key="d1">can affect</data>
+</edge>
+<edge source="macro reacceleration" target="december  ">
+  <data key="d1">can affect</data>
+</edge>
+<edge source="macro reacceleration" target="decembe">
+  <data key="d1">can affect</data>
+</edge>
+<edge source="remarks" target="analyst for  ">
+  <data key="d1">has analyst</data>
+</edge>
+<edge source="remarks" target="analyst for">
+  <data key="d1">has analyst</data>
 </edge>
 <edge source="indices" target="stocks">
-  <data key="d1">linked to</data>
+  <data key="d1">include</data>
 </edge>
-<edge source="optout" target="consumer privacy act">
-  <data key="d1">can</data>
+<edge source="indices" target="commodities">
+  <data key="d1">include</data>
 </edge>
-<edge source="consumer privacy act" target="consumer privacy act">
+<edge source="commodities" target="currencies">
+  <data key="d1">include</data>
+</edge>
+<edge source="iphone 14" target="cook">
+  <data key="d1">created by</data>
+</edge>
+<edge source="consumer privacy act" target="optout">
+  <data key="d1">allows</data>
+</edge>
+<edge source="consumer privacy act" target="consumer privacy concerns">
   <data key="d1">related to</data>
 </edge>
 </graph></graphml>

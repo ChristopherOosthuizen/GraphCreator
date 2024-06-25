@@ -1,29 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="worlds strongest man competition">
-  <data key="d0">worlds strongest man competition</data>
+<graph edgedefault="undirected"><node id="worlds strongest man">
+  <data key="d0">worlds strongest man</data>
 </node>
-<node id="img endeavor">
-  <data key="d0">img endeavor</data>
-</node>
-<node id="us">
-  <data key="d0">us</data>
-</node>
-<node id="uk">
-  <data key="d0">uk</data>
+<node id="competition">
+  <data key="d0">competition</data>
 </node>
 <node id="giants live">
   <data key="d0">giants live</data>
 </node>
-<node id="top three">
-  <data key="d0">top three</data>
-</node>
 <node id="sbd apparel">
   <data key="d0">sbd apparel</data>
-</node>
-<node id="daf trucks">
-  <data key="d0">daf trucks</data>
 </node>
 <node id="coregenx">
   <data key="d0">coregenx</data>
@@ -31,8 +19,29 @@
 <node id="tachi palace">
   <data key="d0">tachi palace</data>
 </node>
-<node id="won">
-  <data key="d0">won</data>
+<node id="hotel casino">
+  <data key="d0">hotel casino</data>
+</node>
+<node id="daf trucks">
+  <data key="d0">daf trucks</data>
+</node>
+<node id="us">
+  <data key="d0">us</data>
+</node>
+<node id="img endeavor">
+  <data key="d0">img endeavor</data>
+</node>
+<node id="uk">
+  <data key="d0">uk</data>
+</node>
+<node id="partypoker">
+  <data key="d0">partypoker</data>
+</node>
+<node id="24">
+  <data key="d0">24</data>
+</node>
+<node id="13">
+  <data key="d0">13</data>
 </node>
 <node id="nationalities">
   <data key="d0">nationalities</data>
@@ -40,20 +49,14 @@
 <node id="bill kazmaier">
   <data key="d0">bill kazmaier</data>
 </node>
-<node id="sports hall fame">
-  <data key="d0">sports hall fame</data>
-</node>
 <node id="björnsson">
   <data key="d0">björnsson</data>
 </node>
-<node id="arnold strongman classic">
-  <data key="d0">arnold strongman classic</data>
+<node id="sports hall of fame">
+  <data key="d0">sports hall of fame</data>
 </node>
-<node id="strongman super series">
-  <data key="d0">strongman super series</data>
-</node>
-<node id="championships">
-  <data key="d0">championships</data>
+<node id="strongman super series championships">
+  <data key="d0">strongman super series championships</data>
 </node>
 <node id="champions league">
   <data key="d0">champions league</data>
@@ -61,32 +64,20 @@
 <node id="ultimate strongman">
   <data key="d0">ultimate strongman</data>
 </node>
-<node id="24 nationalities">
-  <data key="d0">24 nationalities</data>
+<node id="arnold strongman classic">
+  <data key="d0">arnold strongman classic</data>
 </node>
-<node id="13 nationalities">
-  <data key="d0">13 nationalities</data>
-</node>
-<node id="partypoker">
-  <data key="d0">partypoker</data>
-</node>
-<node id="world caber champion">
-  <data key="d0">world caber champion</data>
-</node>
-<node id="man">
-  <data key="d0">man</data>
+<node id="strongest man">
+  <data key="d0">strongest man</data>
 </node>
 <node id="cbs langstar">
   <data key="d0">cbs langstar</data>
 </node>
-<node id="douglas edmunds">
-  <data key="d0">douglas edmunds</data>
-</node>
 <node id="1977">
   <data key="d0">1977</data>
 </node>
-<node id="scottish">
-  <data key="d0">scottish</data>
+<node id="world strongest">
+  <data key="d0">world strongest</data>
 </node>
 <node id="scot obe">
   <data key="d0">scot obe</data>
@@ -94,17 +85,23 @@
 <node id="david webster">
   <data key="d0">david webster</data>
 </node>
-<node id="bill kazmaier ">
-  <data key="d0">bill kazmaier </data>
+<node id="webster">
+  <data key="d0">webster</data>
 </node>
-<node id="björnsson ">
-  <data key="d0">björnsson </data>
+<node id="douglas edmunds">
+  <data key="d0">douglas edmunds</data>
+</node>
+<node id="world caber champion">
+  <data key="d0">world caber champion</data>
+</node>
+<node id="scottish">
+  <data key="d0">scottish</data>
 </node>
 <node id="musburger">
   <data key="d0">musburger</data>
 </node>
-<node id="contests">
-  <data key="d0">contests</data>
+<node id="commentator">
+  <data key="d0">commentator</data>
 </node>
 <node id="tom brookshier">
   <data key="d0">tom brookshier</data>
@@ -112,38 +109,29 @@
 <node id="terry todd">
   <data key="d0">terry todd</data>
 </node>
+<node id="analyst">
+  <data key="d0">analyst</data>
+</node>
 <node id="powerlifting">
   <data key="d0">powerlifting</data>
-</node>
-<node id="lutcher stark center">
-  <data key="d0">lutcher stark center</data>
 </node>
 <node id="1990">
   <data key="d0">1990</data>
 </node>
-<node id="schwarzenegger">
-  <data key="d0">schwarzenegger</data>
+<node id="lutcher stark center">
+  <data key="d0">lutcher stark center</data>
 </node>
 <node id="2002">
   <data key="d0">2002</data>
 </node>
-<node id="schwarzenegger ">
-  <data key="d0">schwarzenegger </data>
-</node>
-<node id="david webster ">
-  <data key="d0">david webster </data>
-</node>
-<node id="football">
-  <data key="d0">football</data>
-</node>
-<node id="ranks">
-  <data key="d0">ranks</data>
-</node>
-<node id="1979">
-  <data key="d0">1979</data>
+<node id="schwarzenegger">
+  <data key="d0">schwarzenegger</data>
 </node>
 <node id="bruce wilhelm">
   <data key="d0">bruce wilhelm</data>
+</node>
+<node id="1979">
+  <data key="d0">1979</data>
 </node>
 <node id="don reinhoudt">
   <data key="d0">don reinhoudt</data>
@@ -151,20 +139,20 @@
 <node id="world records">
   <data key="d0">world records</data>
 </node>
-<node id="reinhoudt">
-  <data key="d0">reinhoudt</data>
+<node id="powerlifter">
+  <data key="d0">powerlifter</data>
 </node>
 <node id="lift">
   <data key="d0">lift</data>
 </node>
-<node id="unbalanced">
-  <data key="d0">unbalanced</data>
+<node id="wsm">
+  <data key="d0">wsm</data>
 </node>
-<node id="earned">
-  <data key="d0">earned</data>
+<node id="hall">
+  <data key="d0">hall</data>
 </node>
-<node id="wsm hall of fame">
-  <data key="d0">wsm hall of fame</data>
+<node id="fame">
+  <data key="d0">fame</data>
 </node>
 <node id="kazmaier">
   <data key="d0">kazmaier</data>
@@ -172,11 +160,11 @@
 <node id="capes">
   <data key="d0">capes</data>
 </node>
-<node id="sigmarsson">
-  <data key="d0">sigmarsson</data>
-</node>
 <node id="pure strength">
   <data key="d0">pure strength</data>
+</node>
+<node id="sigmarsson">
+  <data key="d0">sigmarsson</data>
 </node>
 <node id="1983">
   <data key="d0">1983</data>
@@ -193,176 +181,149 @@
 <node id="1986">
   <data key="d0">1986</data>
 </node>
-<node id="popularity">
-  <data key="d0">popularity</data>
+<node id="reeves">
+  <data key="d0">reeves</data>
 </node>
-<node id="jamie reeves">
-  <data key="d0">jamie reeves</data>
+<node id="title">
+  <data key="d0">title</data>
 </node>
-<node id="4th title">
-  <data key="d0">4th title</data>
+<node id="four titles">
+  <data key="d0">four titles</data>
 </node>
 <node id="wilson">
   <data key="d0">wilson</data>
 </node>
-<node id="first four titles">
-  <data key="d0">first four titles</data>
+<node id="event">
+  <data key="d0">event</data>
 </node>
-<node id="jon pall">
-  <data key="d0">jon pall</data>
+<node id="jamie reeves">
+  <data key="d0">jamie reeves</data>
 </node>
-<node id="jamie reeves title">
-  <data key="d0">jamie reeves title</data>
-</node>
-<node id="sigmarsson died">
-  <data key="d0">sigmarsson died</data>
-</node>
-<node id="page">
-  <data key="d0">page</data>
+<node id="jón páll sigmarsson">
+  <data key="d0">jón páll sigmarsson</data>
 </node>
 <node id="years">
   <data key="d0">years</data>
 </node>
-<node id="granddaddy">
-  <data key="d0">granddaddy</data>
+<node id="granddaddy of strongman contests">
+  <data key="d0">granddaddy of strongman contests</data>
 </node>
 <node id="strongman contests">
   <data key="d0">strongman contests</data>
 </node>
-<node id="strongman scene">
-  <data key="d0">strongman scene</data>
+<node id="contests">
+  <data key="d0">contests</data>
 </node>
-<node id="strongman contest">
-  <data key="d0">strongman contest</data>
+<node id="jámie reeves">
+  <data key="d0">jámie reeves</data>
+</node>
+<node id="granddaddy">
+  <data key="d0">granddaddy</data>
+</node>
+<node id="strongman classic">
+  <data key="d0">strongman classic</data>
+</node>
+<node id="arnold">
+  <data key="d0">arnold</data>
 </node>
 <node id="fortissimus">
   <data key="d0">fortissimus</data>
 </node>
-<node id="wsm">
-  <data key="d0">wsm</data>
+<node id="worlds strongman">
+  <data key="d0">worlds strongman</data>
 </node>
 <node id="leading brand name">
   <data key="d0">leading brand name</data>
 </node>
-<node id="toughest">
-  <data key="d0">toughest</data>
-</node>
-<node id="220 million">
-  <data key="d0">220 million</data>
-</node>
-<node id="million">
-  <data key="d0">million</data>
-</node>
-<node id="7 feet">
-  <data key="d0">7 feet</data>
-</node>
-<node id="ted der parre">
-  <data key="d0">ted der parre</data>
-</node>
-<node id="riku kiri">
-  <data key="d0">riku kiri</data>
-</node>
-<node id="worlds strongest man">
-  <data key="d0">worlds strongest man</data>
-</node>
-<node id="magnús">
-  <data key="d0">magnús</data>
-</node>
-<node id="2nd">
-  <data key="d0">2nd</data>
-</node>
-<node id="6 feet">
-  <data key="d0">6 feet</data>
-</node>
-<node id="gary taylor">
-  <data key="d0">gary taylor</data>
-</node>
-<node id="strongest man">
-  <data key="d0">strongest man</data>
+<node id="strongman">
+  <data key="d0">strongman</data>
 </node>
 <node id="strongest viewership">
   <data key="d0">strongest viewership</data>
 </node>
-<node id="million  ">
-  <data key="d0">million  </data>
+<node id="220 million">
+  <data key="d0">220 million</data>
 </node>
-<node id="ted der parre  ">
-  <data key="d0">ted der parre  </data>
+<node id="ted der parre">
+  <data key="d0">ted der parre</data>
 </node>
-<node id="worlds strongest man  ">
-  <data key="d0">worlds strongest man  </data>
+<node id="tallest">
+  <data key="d0">tallest</data>
 </node>
-<node id="magnus">
-  <data key="d0">magnus</data>
+<node id="7 feet">
+  <data key="d0">7 feet</data>
 </node>
-<node id="2nd  ">
-  <data key="d0">2nd  </data>
+<node id="magus">
+  <data key="d0">magus</data>
 </node>
-<node id="gary taylor  ">
-  <data key="d0">gary taylor  </data>
+<node id="shortest">
+  <data key="d0">shortest</data>
 </node>
-<node id="strongest man  ">
-  <data key="d0">strongest man  </data>
+<node id="gary taylor">
+  <data key="d0">gary taylor</data>
+</node>
+<node id="1993">
+  <data key="d0">1993</data>
+</node>
+<node id="6 feet">
+  <data key="d0">6 feet</data>
+</node>
+<node id="magnús">
+  <data key="d0">magnús</data>
+</node>
+<node id="riku kiri">
+  <data key="d0">riku kiri</data>
+</node>
+<node id="strongman event">
+  <data key="d0">strongman event</data>
+</node>
+<node id="220 million viewers">
+  <data key="d0">220 million viewers</data>
+</node>
+<node id="1990s">
+  <data key="d0">1990s</data>
+</node>
+<node id="scandinavian title">
+  <data key="d0">scandinavian title</data>
+</node>
+<node id="3">
+  <data key="d0">3</data>
 </node>
 <node id="jouko ahola">
   <data key="d0">jouko ahola</data>
 </node>
-<node id="finland  ">
-  <data key="d0">finland  </data>
+<node id="janne virtanen">
+  <data key="d0">janne virtanen</data>
 </node>
-<node id="1990s scandinavian competition  ">
-  <data key="d0">1990s scandinavian competition  </data>
+<node id="1999">
+  <data key="d0">1999</data>
+</node>
+<node id="two titles">
+  <data key="d0">two titles</data>
 </node>
 <node id="magnus samuelsson">
   <data key="d0">magnus samuelsson</data>
 </node>
-<node id="sweden  ">
-  <data key="d0">sweden  </data>
-</node>
-<node id="8 title  ">
-  <data key="d0">8 title  </data>
-</node>
-<node id="after 1998">
-  <data key="d0">after 1998</data>
-</node>
-<node id="ahola  ">
-  <data key="d0">ahola  </data>
-</node>
-<node id="janne virtanen">
-  <data key="d0">janne virtanen</data>
-</node>
-<node id="9 title  ">
-  <data key="d0">9 title  </data>
-</node>
-<node id="magnus  ">
-  <data key="d0">magnus  </data>
-</node>
-<node id="riku kiri  ">
-  <data key="d0">riku kiri  </data>
-</node>
-<node id="jouko ahola  ">
-  <data key="d0">jouko ahola  </data>
-</node>
-<node id="1990s scandinavian competition">
-  <data key="d0">1990s scandinavian competition</data>
-</node>
-<node id="magnus samuelsson  ">
-  <data key="d0">magnus samuelsson  </data>
-</node>
-<node id="finland">
-  <data key="d0">finland</data>
+<node id="1998">
+  <data key="d0">1998</data>
 </node>
 <node id="sweden">
   <data key="d0">sweden</data>
 </node>
-<node id="8 title">
-  <data key="d0">8 title</data>
-</node>
 <node id="ahola">
   <data key="d0">ahola</data>
 </node>
-<node id="9 title">
-  <data key="d0">9 title</data>
+<node id="1992">
+  <data key="d0">1992</data>
+</node>
+<node id="scandinavia">
+  <data key="d0">scandinavia</data>
+</node>
+<node id="won in 1999">
+  <data key="d0">won in 1999</data>
+</node>
+<node id="2005">
+  <data key="d0">2005</data>
 </node>
 <node id="pudzianowski">
   <data key="d0">pudzianowski</data>
@@ -370,11 +331,11 @@
 <node id="2004">
   <data key="d0">2004</data>
 </node>
-<node id="2005">
-  <data key="d0">2005</data>
-</node>
 <node id="2007">
   <data key="d0">2007</data>
+</node>
+<node id="first noneuropean">
+  <data key="d0">first noneuropean</data>
 </node>
 <node id="jesse marunde">
   <data key="d0">jesse marunde</data>
@@ -382,35 +343,32 @@
 <node id="3rd">
   <data key="d0">3rd</data>
 </node>
-<node id="noneuropean">
-  <data key="d0">noneuropean</data>
-</node>
 <node id="wenta">
   <data key="d0">wenta</data>
 </node>
-<node id="podium">
-  <data key="d0">podium</data>
+<node id="2nd">
+  <data key="d0">2nd</data>
 </node>
 <node id="terry hollands">
   <data key="d0">terry hollands</data>
 </node>
-<node id="multiple world's strongest man">
-  <data key="d0">multiple world's strongest man</data>
+<node id="podium">
+  <data key="d0">podium</data>
 </node>
-<node id="world's strongest man">
-  <data key="d0">world's strongest man</data>
+<node id="noneuropean">
+  <data key="d0">noneuropean</data>
+</node>
+<node id="2004-2005">
+  <data key="d0">2004-2005</data>
 </node>
 <node id="2008">
   <data key="d0">2008</data>
 </node>
-<node id="event">
-  <data key="d0">event</data>
-</node>
 <node id="poundstone">
   <data key="d0">poundstone</data>
 </node>
-<node id="atlas stones">
-  <data key="d0">atlas stones</data>
+<node id="events">
+  <data key="d0">events</data>
 </node>
 <node id="stone">
   <data key="d0">stone</data>
@@ -421,11 +379,17 @@
 <node id="plane pull">
   <data key="d0">plane pull</data>
 </node>
+<node id="atlas stones">
+  <data key="d0">atlas stones</data>
+</node>
 <node id="savickas">
   <data key="d0">savickas</data>
 </node>
-<node id="log lift">
-  <data key="d0">log lift</data>
+<node id="world record">
+  <data key="d0">world record</data>
+</node>
+<node id="shaw">
+  <data key="d0">shaw</data>
 </node>
 <node id="brian shaw">
   <data key="d0">brian shaw</data>
@@ -433,32 +397,26 @@
 <node id="koklyaev">
   <data key="d0">koklyaev</data>
 </node>
-<node id="shaw and savickas">
-  <data key="d0">shaw and savickas</data>
-</node>
-<node id="first title">
-  <data key="d0">first title</data>
-</node>
-<node id="shaw">
-  <data key="d0">shaw</data>
-</node>
-<node id="atlantic 2021">
-  <data key="d0">atlantic 2021</data>
-</node>
-<node id="220 kg">
-  <data key="d0">220 kg</data>
-</node>
-<node id="2012">
-  <data key="d0">2012</data>
-</node>
-<node id="savachieved">
-  <data key="d0">savachieved</data>
+<node id="log lift of 210">
+  <data key="d0">log lift of 210</data>
 </node>
 <node id="nerve damage">
   <data key="d0">nerve damage</data>
 </node>
-<node id="world record">
-  <data key="d0">world record</data>
+<node id="fourth">
+  <data key="d0">fourth</data>
+</node>
+<node id="wsm title">
+  <data key="d0">wsm title</data>
+</node>
+<node id="log lift">
+  <data key="d0">log lift</data>
+</node>
+<node id="220 kg">
+  <data key="d0">220 kg</data>
+</node>
+<node id="log lift record">
+  <data key="d0">log lift record</data>
 </node>
 <node id="2017">
   <data key="d0">2017</data>
@@ -475,23 +433,14 @@
 <node id="472 kg">
   <data key="d0">472 kg</data>
 </node>
-<node id="log lift record">
-  <data key="d0">log lift record</data>
-</node>
-<node id="wsm title">
-  <data key="d0">wsm title</data>
-</node>
-<node id="nationality:ic">
-  <data key="d0">nationality:ic</data>
+<node id="uk taylor">
+  <data key="d0">uk taylor</data>
 </node>
 <node id="2018">
   <data key="d0">2018</data>
 </node>
 <node id="icelander">
   <data key="d0">icelander</data>
-</node>
-<node id="1996">
-  <data key="d0">1996</data>
 </node>
 <node id="mateusz kieliszkowski">
   <data key="d0">mateusz kieliszkowski</data>
@@ -508,29 +457,26 @@
 <node id="tenth">
   <data key="d0">tenth</data>
 </node>
+<node id="may">
+  <data key="d0">may</data>
+</node>
 <node id="covid19">
   <data key="d0">covid19</data>
 </node>
 <node id="november">
   <data key="d0">november</data>
 </node>
-<node id="may">
-  <data key="d0">may</data>
+<node id="strongest man home edition series">
+  <data key="d0">strongest man home edition series</data>
 </node>
 <node id="snapchat discover">
   <data key="d0">snapchat discover</data>
 </node>
-<node id="strongest man home edition">
-  <data key="d0">strongest man home edition</data>
-</node>
-<node id="contest">
-  <data key="d0">contest</data>
+<node id="athletes">
+  <data key="d0">athletes</data>
 </node>
 <node id="fans">
   <data key="d0">fans</data>
-</node>
-<node id="athletes">
-  <data key="d0">athletes</data>
 </node>
 <node id="rongo keene">
   <data key="d0">rongo keene</data>
@@ -538,17 +484,14 @@
 <node id="$10">
   <data key="d0">$10</data>
 </node>
-<node id="licis kieliszkowski">
-  <data key="d0">licis kieliszkowski</data>
-</node>
-<node id="">
-  <data key="d0"></data>
+<node id="world's strongest man">
+  <data key="d0">world's strongest man</data>
 </node>
 <node id="novikov">
   <data key="d0">novikov</data>
 </node>
-<node id="537 lbs">
-  <data key="d0">537 lbs</data>
+<node id="licis kieliszkowski">
+  <data key="d0">licis kieliszkowski</data>
 </node>
 <node id="stoltman">
   <data key="d0">stoltman</data>
@@ -556,50 +499,83 @@
 <node id="jean caron">
   <data key="d0">jean caron</data>
 </node>
-<node id="home">
-  <data key="d0">home</data>
+<node id="1">
+  <data key="d0">1</data>
 </node>
-<node id="1st">
-  <data key="d0">1st</data>
+<node id="537">
+  <data key="d0">537</data>
+</node>
+<node id="deadlift weight">
+  <data key="d0">deadlift weight</data>
+</node>
+<node id="loicis kieliszkowski">
+  <data key="d0">loicis kieliszkowski</data>
+</node>
+<node id="november competition">
+  <data key="d0">november competition</data>
+</node>
+<node id="athletes filmed events">
+  <data key="d0">athletes filmed events</data>
 </node>
 <node id="4th">
   <data key="d0">4th</data>
 </node>
+<node id="1st">
+  <data key="d0">1st</data>
+</node>
 <node id="tom stoltman">
   <data key="d0">tom stoltman</data>
 </node>
-<node id="second place">
-  <data key="d0">second place</data>
+<node id="brian">
+  <data key="d0">brian</data>
 </node>
 <node id="first scotsman">
   <data key="d0">first scotsman</data>
 </node>
-<node id="title">
-  <data key="d0">title</data>
+<node id="sacramento">
+  <data key="d0">sacramento</data>
+</node>
+<node id="finals">
+  <data key="d0">finals</data>
+</node>
+<node id="maxime boudreault">
+  <data key="d0">maxime boudreault</data>
 </node>
 <node id="mitchell hooper">
   <data key="d0">mitchell hooper</data>
 </node>
+<node id="first">
+  <data key="d0">first</data>
+</node>
+<node id="4 events">
+  <data key="d0">4 events</data>
+</node>
 <node id="myrtle beach">
   <data key="d0">myrtle beach</data>
-</node>
-<node id="south carolina">
-  <data key="d0">south carolina</data>
 </node>
 <node id="2023">
   <data key="d0">2023</data>
 </node>
-<node id="world’s strongest man">
-  <data key="d0">world’s strongest man</data>
+<node id="south carolina">
+  <data key="d0">south carolina</data>
+</node>
+<node id="usa">
+  <data key="d0">usa</data>
+</node>
+<node id="third in 2023">
+  <data key="d0">third in 2023</data>
 </node>
 <node id="2024">
   <data key="d0">2024</data>
 </node>
-<node id="fame">
-  <data key="d0">fame</data>
+<node id="times">
+  <data key="d0">times</data>
 </node>
-<node id="wsm 2008">
-  <data key="d0">wsm 2008</data>
+<node id="3 times">
+  <data key="d0">3 times</data>
+</node>
+<node id="fame wsm 2008">
+  <data key="d0">fame wsm 2008</data>
 </node>
 <node id="svend karlsen">
   <data key="d0">svend karlsen</data>
@@ -610,26 +586,29 @@
 <node id="samuelsson">
   <data key="d0">samuelsson</data>
 </node>
-<node id="2022">
-  <data key="d0">2022</data>
-</node>
 <node id="jimmy pollock">
   <data key="d0">jimmy pollock</data>
 </node>
 <node id="strongman award">
   <data key="d0">strongman award</data>
 </node>
-<node id="svend karlsen ">
-  <data key="d0">svend karlsen </data>
-</node>
-<node id="strongest man website">
-  <data key="d0">strongest man website</data>
+<node id="website">
+  <data key="d0">website</data>
 </node>
 <node id="24 july 2012">
   <data key="d0">24 july 2012</data>
 </node>
-<node id="2020 strongest man championship">
-  <data key="d0">2020 strongest man championship</data>
+<node id="wsm contributions">
+  <data key="d0">wsm contributions</data>
+</node>
+<node id="strongest man 2017">
+  <data key="d0">strongest man 2017</data>
+</node>
+<node id="schedule">
+  <data key="d0">schedule</data>
+</node>
+<node id="strongest man championship">
+  <data key="d0">strongest man championship</data>
 </node>
 <node id="bradenton">
   <data key="d0">bradenton</data>
@@ -643,8 +622,8 @@
 <node id="december 27">
   <data key="d0">december 27</data>
 </node>
-<node id="strongest man 2017 schedule">
-  <data key="d0">strongest man 2017 schedule</data>
+<node id="19 november 2023">
+  <data key="d0">19 november 2023</data>
 </node>
 <node id="strongest man tournament">
   <data key="d0">strongest man tournament</data>
@@ -652,17 +631,20 @@
 <node id="extraordinary strength">
   <data key="d0">extraordinary strength</data>
 </node>
-<node id="19 november 2023">
-  <data key="d0">19 november 2023</data>
+<node id="11 july 2017">
+  <data key="d0">11 july 2017</data>
 </node>
-<node id="december">
-  <data key="d0">december</data>
-</node>
-<node id="strongest man tournaments">
-  <data key="d0">strongest man tournaments</data>
+<node id="23 december 2017">
+  <data key="d0">23 december 2017</data>
 </node>
 <node id="subhankar">
   <data key="d0">subhankar</data>
+</node>
+<node id="march">
+  <data key="d0">march</data>
+</node>
+<node id="strongest winners">
+  <data key="d0">strongest winners</data>
 </node>
 <node id="sportsgrail">
   <data key="d0">sportsgrail</data>
@@ -673,17 +655,29 @@
 <node id="robert goldman">
   <data key="d0">robert goldman</data>
 </node>
-<node id="17 march">
-  <data key="d0">17 march</data>
+<node id="sports hall fame inductees">
+  <data key="d0">sports hall fame inductees</data>
 </node>
 <node id="hall fame induction ceremony">
   <data key="d0">hall fame induction ceremony</data>
 </node>
-<node id="sports hall fame inductees">
-  <data key="d0">sports hall fame inductees</data>
+<node id="17 march">
+  <data key="d0">17 march</data>
+</node>
+<node id="17 march 2023">
+  <data key="d0">17 march 2023</data>
 </node>
 <node id="pain">
   <data key="d0">pain</data>
+</node>
+<node id="story">
+  <data key="d0">story</data>
+</node>
+<node id="rivalries">
+  <data key="d0">rivalries</data>
+</node>
+<node id="february 2018">
+  <data key="d0">february 2018</data>
 </node>
 <node id="amazon">
   <data key="d0">amazon</data>
@@ -691,29 +685,17 @@
 <node id="13 february 2022">
   <data key="d0">13 february 2022</data>
 </node>
-<node id="strongest man winner story">
-  <data key="d0">strongest man winner story</data>
+<node id="1 april 2021">
+  <data key="d0">1 april 2021</data>
 </node>
 <node id="radio times">
   <data key="d0">radio times</data>
 </node>
-<node id="1 april 2021">
-  <data key="d0">1 april 2021</data>
-</node>
-<node id="strongest man rivalries">
-  <data key="d0">strongest man rivalries</data>
-</node>
-<node id="february 2018">
-  <data key="d0">february 2018</data>
-</node>
-<node id="strongest winners">
-  <data key="d0">strongest winners</data>
+<node id="war games">
+  <data key="d0">war games</data>
 </node>
 <node id="herald">
   <data key="d0">herald</data>
-</node>
-<node id="war games">
-  <data key="d0">war games</data>
 </node>
 <node id="strength">
   <data key="d0">strength</data>
@@ -721,26 +703,50 @@
 <node id="interview">
   <data key="d0">interview</data>
 </node>
-<node id="ironmind">
-  <data key="d0">ironmind</data>
-</node>
 <node id="pall sigmarsson">
   <data key="d0">pall sigmarsson</data>
 </node>
 <node id="charisma">
   <data key="d0">charisma</data>
 </node>
-<node id="competitive rivalries">
-  <data key="d0">competitive rivalries</data>
+<node id="twi">
+  <data key="d0">twi</data>
+</node>
+<node id="wce">
+  <data key="d0">wce</data>
+</node>
+<node id="espn">
+  <data key="d0">espn</data>
+</node>
+<node id="julia">
+  <data key="d0">julia</data>
+</node>
+<node id="3 march 2012">
+  <data key="d0">3 march 2012</data>
+</node>
+<node id="march 2012">
+  <data key="d0">march 2012</data>
+</node>
+<node id="guardian">
+  <data key="d0">guardian</data>
+</node>
+<node id="sm j">
+  <data key="d0">sm j</data>
+</node>
+<node id="event on 3 march 2012">
+  <data key="d0">event on 3 march 2012</data>
 </node>
 <node id="mariusz pudzianowski">
   <data key="d0">mariusz pudzianowski</data>
 </node>
-<node id="strongman">
-  <data key="d0">strongman</data>
+<node id="oxford">
+  <data key="d0">oxford</data>
 </node>
 <node id="strossen randall">
   <data key="d0">strossen randall</data>
+</node>
+<node id="record">
+  <data key="d0">record</data>
 </node>
 <node id="22 march 2017">
   <data key="d0">22 march 2017</data>
@@ -751,23 +757,23 @@
 <node id="7 february 2018">
   <data key="d0">7 february 2018</data>
 </node>
-<node id="bradenton herald">
-  <data key="d0">bradenton herald</data>
-</node>
-<node id="ballogg ryan">
-  <data key="d0">ballogg ryan</data>
-</node>
-<node id="strongest man in">
-  <data key="d0">strongest man in</data>
-</node>
 <node id="anna maria island">
   <data key="d0">anna maria island</data>
 </node>
-<node id="strongest man event">
-  <data key="d0">strongest man event</data>
+<node id="bradenton herald">
+  <data key="d0">bradenton herald</data>
+</node>
+<node id="ryan june">
+  <data key="d0">ryan june</data>
+</node>
+<node id="ballogg">
+  <data key="d0">ballogg</data>
 </node>
 <node id="19 june">
   <data key="d0">19 june</data>
+</node>
+<node id="october">
+  <data key="d0">october</data>
 </node>
 <node id="13 february">
   <data key="d0">13 february</data>
@@ -775,38 +781,92 @@
 <node id="11 november 2020">
   <data key="d0">11 november 2020</data>
 </node>
-<node id="anna maria island competition">
-  <data key="d0">anna maria island competition</data>
+<node id="19 june event">
+  <data key="d0">19 june event</data>
+</node>
+<node id="october event">
+  <data key="d0">october event</data>
+</node>
+<node id="13 february event">
+  <data key="d0">13 february event</data>
+</node>
+<node id="19 june  ">
+  <data key="d0">19 june  </data>
+</node>
+<node id="october  ">
+  <data key="d0">october  </data>
+</node>
+<node id="13 february  ">
+  <data key="d0">13 february  </data>
+</node>
+<node id="anna maria island  ">
+  <data key="d0">anna maria island  </data>
+</node>
+<node id="covid19  ">
+  <data key="d0">covid19  </data>
+</node>
+<node id="keene  ">
+  <data key="d0">keene  </data>
+</node>
+<node id="barbend  ">
+  <data key="d0">barbend  </data>
+</node>
+<node id="edition quarantine">
+  <data key="d0">edition quarantine</data>
+</node>
+<node id="quarantine  ">
+  <data key="d0">quarantine  </data>
 </node>
 <node id="ellis philip">
   <data key="d0">ellis philip</data>
 </node>
-<node id="hall">
-  <data key="d0">hall</data>
-</node>
-<node id="keene">
-  <data key="d0">keene</data>
-</node>
-<node id="strongest man edition">
-  <data key="d0">strongest man edition</data>
+<node id="hall  ">
+  <data key="d0">hall  </data>
 </node>
 <node id="health">
   <data key="d0">health</data>
 </node>
-<node id="men health">
-  <data key="d0">men health</data>
+<node id="men health  ">
+  <data key="d0">men health  </data>
+</node>
+<node id="july">
+  <data key="d0">july</data>
+</node>
+<node id="november  ">
+  <data key="d0">november  </data>
+</node>
+<node id="september  ">
+  <data key="d0">september  </data>
+</node>
+<node id="ellis philip hall">
+  <data key="d0">ellis philip hall</data>
+</node>
+<node id="strongest man  ">
+  <data key="d0">strongest man  </data>
+</node>
+<node id="men's health  ">
+  <data key="d0">men's health  </data>
 </node>
 <node id="barbend">
   <data key="d0">barbend</data>
 </node>
-<node id="philip ellis">
-  <data key="d0">philip ellis</data>
+<node id="july  ">
+  <data key="d0">july  </data>
+</node>
+<node id="keene">
+  <data key="d0">keene</data>
+</node>
+<node id="quarantine">
+  <data key="d0">quarantine</data>
+</node>
+<node id="men health">
+  <data key="d0">men health</data>
+</node>
+<node id="september">
+  <data key="d0">september</data>
 </node>
 <node id="chelsea">
   <data key="d0">chelsea</data>
-</node>
-<node id="november 2020">
-  <data key="d0">november 2020</data>
 </node>
 <node id="2020">
   <data key="d0">2020</data>
@@ -814,44 +874,35 @@
 <node id="canceled">
   <data key="d0">canceled</data>
 </node>
-<node id="1">
-  <data key="d0">1</data>
+<node id="2020 strongest man">
+  <data key="d0">2020 strongest man</data>
 </node>
-<node id="27 november 2020">
-  <data key="d0">27 november 2020</data>
+<node id="victory">
+  <data key="d0">victory</data>
 </node>
-<node id="usa today">
-  <data key="d0">usa today</data>
+<node id="world strongest man">
+  <data key="d0">world strongest man</data>
 </node>
-<node id="news">
-  <data key="d0">news</data>
+<node id="instagram_strong">
+  <data key="d0">instagram_strong</data>
 </node>
-<node id="strongest victory">
-  <data key="d0">strongest victory</data>
-</node>
-<node id="world">
-  <data key="d0">world</data>
-</node>
-<node id="strongest man roster">
-  <data key="d0">strongest man roster</data>
-</node>
-<node id="gutman">
-  <data key="d0">gutman</data>
-</node>
-<node id="andrew">
-  <data key="d0">andrew</data>
-</node>
-<node id="strength contests">
-  <data key="d0">strength contests</data>
+<node id="26 december 2021">
+  <data key="d0">26 december 2021</data>
 </node>
 <node id="gutman andrew">
   <data key="d0">gutman andrew</data>
 </node>
-<node id="2nd title">
-  <data key="d0">2nd title</data>
+<node id="strongest man roster">
+  <data key="d0">strongest man roster</data>
 </node>
-<node id="blechman">
-  <data key="d0">blechman</data>
+<node id="14 april 2021">
+  <data key="d0">14 april 2021</data>
+</node>
+<node id="zucker joseph">
+  <data key="d0">zucker joseph</data>
+</node>
+<node id="bleacher report">
+  <data key="d0">bleacher report</data>
 </node>
 <node id="champion">
   <data key="d0">champion</data>
@@ -859,8 +910,23 @@
 <node id="hooper">
   <data key="d0">hooper</data>
 </node>
-<node id="bleachman">
-  <data key="d0">bleachman</data>
+<node id="dickson">
+  <data key="d0">dickson</data>
+</node>
+<node id="dickson jack">
+  <data key="d0">dickson jack</data>
+</node>
+<node id="april">
+  <data key="d0">april</data>
+</node>
+<node id="august">
+  <data key="d0">august</data>
+</node>
+<node id="competitive landscape">
+  <data key="d0">competitive landscape</data>
+</node>
+<node id="strongman events">
+  <data key="d0">strongman events</data>
 </node>
 <node id="williams brett">
   <data key="d0">williams brett</data>
@@ -868,56 +934,47 @@
 <node id="strongest man 2023">
   <data key="d0">strongest man 2023</data>
 </node>
-<node id="winner">
-  <data key="d0">winner</data>
-</node>
-<node id="jack dickson">
-  <data key="d0">jack dickson</data>
-</node>
-<node id="brett williams">
-  <data key="d0">brett williams</data>
+<node id="hooper winning date">
+  <data key="d0">hooper winning date</data>
 </node>
 <node id="chris bumbaca">
   <data key="d0">chris bumbaca</data>
 </node>
-<node id="december 2019">
-  <data key="d0">december 2019</data>
-</node>
-<node id="6 december 2019">
-  <data key="d0">6 december 2019</data>
-</node>
-<node id="men's health">
-  <data key="d0">men's health</data>
-</node>
-<node id="25 august 2023">
-  <data key="d0">25 august 2023</data>
-</node>
-<node id="usa today via msn news">
-  <data key="d0">usa today via msn news</data>
-</node>
-<node id="significant achievement">
-  <data key="d0">significant achievement</data>
-</node>
-<node id="strongest man competitions">
-  <data key="d0">strongest man competitions</data>
+<node id="stoltman win">
+  <data key="d0">stoltman win</data>
 </node>
 <node id="12 november 2020">
   <data key="d0">12 november 2020</data>
 </node>
+<node id="6 december 2019">
+  <data key="d0">6 december 2019</data>
+</node>
+<node id="race">
+  <data key="d0">race</data>
+</node>
+<node id="december 2019">
+  <data key="d0">december 2019</data>
+</node>
+<node id="winners">
+  <data key="d0">winners</data>
+</node>
 <node id="stones event">
   <data key="d0">stones event</data>
 </node>
-<node id="pull event">
-  <data key="d0">pull event</data>
+<node id="2021">
+  <data key="d0">2021</data>
+</node>
+<node id="january 2007">
+  <data key="d0">january 2007</data>
 </node>
 <node id="11 january 2007">
   <data key="d0">11 january 2007</data>
 </node>
+<node id="pull event">
+  <data key="d0">pull event</data>
+</node>
 <node id="22 december 2011">
   <data key="d0">22 december 2011</data>
-</node>
-<node id="23 december 2017">
-  <data key="d0">23 december 2017</data>
 </node>
 <node id="press">
   <data key="d0">press</data>
@@ -937,17 +994,23 @@
 <node id="stairs">
   <data key="d0">stairs</data>
 </node>
+<node id="december 2006">
+  <data key="d0">december 2006</data>
+</node>
 <node id="29 december 2006">
   <data key="d0">29 december 2006</data>
 </node>
-<node id="toss">
-  <data key="d0">toss</data>
+<node id="toss 2015">
+  <data key="d0">toss 2015</data>
 </node>
-<node id="journal">
-  <data key="d0">journal</data>
+<node id="man">
+  <data key="d0">man</data>
 </node>
-<node id="march 2012">
-  <data key="d0">march 2012</data>
+<node id="toss february 2018">
+  <data key="d0">toss february 2018</data>
+</node>
+<node id="recognition">
+  <data key="d0">recognition</data>
 </node>
 <node id="hercules">
   <data key="d0">hercules</data>
@@ -955,8 +1018,14 @@
 <node id="28 november 2019">
   <data key="d0">28 november 2019</data>
 </node>
+<node id="25 december 2020">
+  <data key="d0">25 december 2020</data>
+</node>
 <node id="drag event">
   <data key="d0">drag event</data>
+</node>
+<node id="december 2020">
+  <data key="d0">december 2020</data>
 </node>
 <node id="walk event">
   <data key="d0">walk event</data>
@@ -967,44 +1036,44 @@
 <node id="strongest man 2001">
   <data key="d0">strongest man 2001</data>
 </node>
-<node id="december 2020">
-  <data key="d0">december 2020</data>
-</node>
 <node id="7 november 2021">
   <data key="d0">7 november 2021</data>
+</node>
+<node id="africa event">
+  <data key="d0">africa event</data>
 </node>
 <node id="super yoke strongman">
   <data key="d0">super yoke strongman</data>
 </node>
+<node id="yoke">
+  <data key="d0">yoke</data>
+</node>
 <node id="17 march 2015">
   <data key="d0">17 march 2015</data>
-</node>
-<node id="africa">
-  <data key="d0">africa</data>
-</node>
-<node id="loaded carries training">
-  <data key="d0">loaded carries training</data>
-</node>
-<node id="training">
-  <data key="d0">training</data>
-</node>
-<node id="july 2013">
-  <data key="d0">july 2013</data>
 </node>
 <node id="13 november 2020">
   <data key="d0">13 november 2020</data>
 </node>
-<node id="rules">
-  <data key="d0">rules</data>
+<node id="december">
+  <data key="d0">december</data>
 </node>
-<node id="african event series">
-  <data key="d0">african event series</data>
+<node id="25 december">
+  <data key="d0">25 december</data>
 </node>
-<node id="competition">
-  <data key="d0">competition</data>
+<node id="loaded carries">
+  <data key="d0">loaded carries</data>
 </node>
-<node id="dumbbell press">
-  <data key="d0">dumbbell press</data>
+<node id="10 loaded carries training">
+  <data key="d0">10 loaded carries training</data>
+</node>
+<node id="july 2013">
+  <data key="d0">july 2013</data>
+</node>
+<node id="2013">
+  <data key="d0">2013</data>
+</node>
+<node id="november 13 2020">
+  <data key="d0">november 13 2020</data>
 </node>
 <node id="strongest man 2015">
   <data key="d0">strongest man 2015</data>
@@ -1012,29 +1081,29 @@
 <node id="norse hammers">
   <data key="d0">norse hammers</data>
 </node>
+<node id="hd 4k">
+  <data key="d0">hd 4k</data>
+</node>
 <node id="circus barbell">
   <data key="d0">circus barbell</data>
+</node>
+<node id="19 june 2019">
+  <data key="d0">19 june 2019</data>
+</node>
+<node id="of fame">
+  <data key="d0">of fame</data>
+</node>
+<node id="22 september 2012">
+  <data key="d0">22 september 2012</data>
 </node>
 <node id="24 july">
   <data key="d0">24 july</data>
 </node>
-<node id="21">
-  <data key="d0">21</data>
-</node>
-<node id="19 september">
-  <data key="d0">19 september</data>
-</node>
-<node id="28">
-  <data key="d0">28</data>
-</node>
-<node id="september">
-  <data key="d0">september</data>
-</node>
 <node id="6 december">
   <data key="d0">6 december</data>
 </node>
-<node id="july">
-  <data key="d0">july</data>
+<node id="19 september">
+  <data key="d0">19 september</data>
 </node>
 <node id="united kingdom">
   <data key="d0">united kingdom</data>
@@ -1060,8 +1129,14 @@
 <node id="bahamas">
   <data key="d0">bahamas</data>
 </node>
+<node id="africa">
+  <data key="d0">africa</data>
+</node>
 <node id="mauritius">
   <data key="d0">mauritius</data>
+</node>
+<node id="finland">
+  <data key="d0">finland</data>
 </node>
 <node id="denmark">
   <data key="d0">denmark</data>
@@ -1075,32 +1150,149 @@
 <node id="malta">
   <data key="d0">malta</data>
 </node>
-<node id="zambia">
-  <data key="d0">zambia</data>
+<node id="netherlands  ">
+  <data key="d0">netherlands  </data>
 </node>
-<node id="russia">
-  <data key="d0">russia</data>
+<node id="france  ">
+  <data key="d0">france  </data>
 </node>
-<node id="poland">
-  <data key="d0">poland</data>
+<node id="iceland  ">
+  <data key="d0">iceland  </data>
 </node>
-<node id="ukraine">
-  <data key="d0">ukraine</data>
+<node id="spain  ">
+  <data key="d0">spain  </data>
 </node>
-<node id="latvia">
-  <data key="d0">latvia</data>
+<node id="austria  ">
+  <data key="d0">austria  </data>
+</node>
+<node id="south africa  ">
+  <data key="d0">south africa  </data>
+</node>
+<node id="bahamas  ">
+  <data key="d0">bahamas  </data>
+</node>
+<node id="africa  ">
+  <data key="d0">africa  </data>
+</node>
+<node id="mauritius  ">
+  <data key="d0">mauritius  </data>
+</node>
+<node id="finland  ">
+  <data key="d0">finland  </data>
+</node>
+<node id="denmark  ">
+  <data key="d0">denmark  </data>
+</node>
+<node id="sweden  ">
+  <data key="d0">sweden  </data>
+</node>
+<node id="morocco  ">
+  <data key="d0">morocco  </data>
+</node>
+<node id="norway  ">
+  <data key="d0">norway  </data>
+</node>
+<node id="malta  ">
+  <data key="d0">malta  </data>
+</node>
+<node id="nordic countries  ">
+  <data key="d0">nordic countries  </data>
+</node>
+<node id="russia  ">
+  <data key="d0">russia  </data>
+</node>
+<node id="european union  ">
+  <data key="d0">european union  </data>
 </node>
 <node id="lithuania">
   <data key="d0">lithuania</data>
 </node>
-<node id="united states">
-  <data key="d0">united states</data>
+<node id="baltic region  ">
+  <data key="d0">baltic region  </data>
+</node>
+<node id="latvia  ">
+  <data key="d0">latvia  </data>
+</node>
+<node id="poland  ">
+  <data key="d0">poland  </data>
+</node>
+<node id="baltic region">
+  <data key="d0">baltic region</data>
+</node>
+<node id="latvia">
+  <data key="d0">latvia</data>
+</node>
+<node id="ukraine">
+  <data key="d0">ukraine</data>
+</node>
+<node id="russia">
+  <data key="d0">russia</data>
+</node>
+<node id="china  ">
+  <data key="d0">china  </data>
+</node>
+<node id="china">
+  <data key="d0">china</data>
+</node>
+<node id="asia  ">
+  <data key="d0">asia  </data>
+</node>
+<node id="italy  ">
+  <data key="d0">italy  </data>
+</node>
+<node id="european union">
+  <data key="d0">european union</data>
+</node>
+<node id="nordic countries">
+  <data key="d0">nordic countries</data>
+</node>
+<node id="greenland  ">
+  <data key="d0">greenland  </data>
+</node>
+<node id="zambia  ">
+  <data key="d0">zambia  </data>
+</node>
+<node id="tanzania">
+  <data key="d0">tanzania</data>
+</node>
+<node id="north america">
+  <data key="d0">north america</data>
+</node>
+<node id="canada  ">
+  <data key="d0">canada  </data>
+</node>
+<node id="united states  ">
+  <data key="d0">united states  </data>
+</node>
+<node id="western hemisphere  ">
+  <data key="d0">western hemisphere  </data>
 </node>
 <node id="canada">
   <data key="d0">canada</data>
 </node>
-<node id="china">
-  <data key="d0">china</data>
+<node id="united kingdom  ">
+  <data key="d0">united kingdom  </data>
+</node>
+<node id="western hemisphere">
+  <data key="d0">western hemisphere</data>
+</node>
+<node id="asia">
+  <data key="d0">asia</data>
+</node>
+<node id="poland">
+  <data key="d0">poland</data>
+</node>
+<node id="italy">
+  <data key="d0">italy</data>
+</node>
+<node id="greenland">
+  <data key="d0">greenland</data>
+</node>
+<node id="zambia">
+  <data key="d0">zambia</data>
+</node>
+<node id="united states">
+  <data key="d0">united states</data>
 </node>
 <node id="foundation">
   <data key="d0">foundation</data>
@@ -1129,9 +1321,6 @@
 <node id="established">
   <data key="d0">established</data>
 </node>
-<node id="3">
-  <data key="d0">3</data>
-</node>
 <node id="1977; 47 years ago">
   <data key="d0">1977; 47 years ago</data>
 </node>
@@ -1152,9 +1341,6 @@
 </node>
 <node id="multi-event competition">
   <data key="d0">multi-event competition</data>
-</node>
-<node id="website">
-  <data key="d0">website</data>
 </node>
 <node id="6">
   <data key="d0">6</data>
@@ -1237,9 +1423,6 @@
 <node id="john gamble">
   <data key="d0">john gamble</data>
 </node>
-<node id="jón páll sigmarsson">
-  <data key="d0">jón páll sigmarsson</data>
-</node>
 <node id="simon wulfse">
   <data key="d0">simon wulfse</data>
 </node>
@@ -1291,9 +1474,6 @@
 <node id="san sebastián">
   <data key="d0">san sebastián</data>
 </node>
-<node id="13">
-  <data key="d0">13</data>
-</node>
 <node id="jón páll sigmarsson (4)">
   <data key="d0">jón páll sigmarsson (4)</data>
 </node>
@@ -1321,9 +1501,6 @@
 <node id="tenerife">
   <data key="d0">tenerife</data>
 </node>
-<node id="1992">
-  <data key="d0">1992</data>
-</node>
 <node id="15">
   <data key="d0">15</data>
 </node>
@@ -1332,9 +1509,6 @@
 </node>
 <node id="reykjavík">
   <data key="d0">reykjavík</data>
-</node>
-<node id="1993">
-  <data key="d0">1993</data>
 </node>
 <node id="16">
   <data key="d0">16</data>
@@ -1375,6 +1549,9 @@
 <node id="nassau">
   <data key="d0">nassau</data>
 </node>
+<node id="1996">
+  <data key="d0">1996</data>
+</node>
 <node id="19">
   <data key="d0">19</data>
 </node>
@@ -1396,17 +1573,14 @@
 <node id="primm valley resort">
   <data key="d0">primm valley resort</data>
 </node>
-<node id="1998">
-  <data key="d0">1998</data>
+<node id="21">
+  <data key="d0">21</data>
 </node>
 <node id="wout zijlstra">
   <data key="d0">wout zijlstra</data>
 </node>
 <node id="tangier">
   <data key="d0">tangier</data>
-</node>
-<node id="1999">
-  <data key="d0">1999</data>
 </node>
 <node id="22">
   <data key="d0">22</data>
@@ -1425,9 +1599,6 @@
 </node>
 <node id="2001">
   <data key="d0">2001</data>
-</node>
-<node id="24">
-  <data key="d0">24</data>
 </node>
 <node id="victoria falls">
   <data key="d0">victoria falls</data>
@@ -1455,6 +1626,9 @@
 </node>
 <node id="27">
   <data key="d0">27</data>
+</node>
+<node id="28">
+  <data key="d0">28</data>
 </node>
 <node id="mariusz pudzianowski (3)">
   <data key="d0">mariusz pudzianowski (3)</data>
@@ -1534,6 +1708,9 @@
 <node id="wingate">
   <data key="d0">wingate</data>
 </node>
+<node id="2012">
+  <data key="d0">2012</data>
+</node>
 <node id="35">
   <data key="d0">35</data>
 </node>
@@ -1548,9 +1725,6 @@
 </node>
 <node id="los angeles">
   <data key="d0">los angeles</data>
-</node>
-<node id="2013">
-  <data key="d0">2013</data>
 </node>
 <node id="36">
   <data key="d0">36</data>
@@ -1618,17 +1792,11 @@
 <node id="jean-françois caron">
   <data key="d0">jean-françois caron</data>
 </node>
-<node id="2021">
-  <data key="d0">2021</data>
-</node>
 <node id="44">
   <data key="d0">44</data>
 </node>
-<node id="maxime boudreault">
-  <data key="d0">maxime boudreault</data>
-</node>
-<node id="sacramento">
-  <data key="d0">sacramento</data>
+<node id="2022">
+  <data key="d0">2022</data>
 </node>
 <node id="45">
   <data key="d0">45</data>
@@ -1735,77 +1903,224 @@
 <node id="see also: strength training weight training power training strength athletics highland games crossfit games">
   <data key="d0">see also: strength training weight training power training strength athletics highland games crossfit games</data>
 </node>
-<edge source="worlds strongest man competition" target="img endeavor">
-  <data key="d1">organized by</data>
+<edge source="worlds strongest man" target="competition">
+  <data key="d1">type of</data>
 </edge>
-<edge source="worlds strongest man competition" target="giants live">
-  <data key="d1">qualify for</data>
+<edge source="worlds strongest man" target="giants live">
+  <data key="d1">qualify top three</data>
 </edge>
-<edge source="worlds strongest man competition" target="coregenx">
-  <data key="d1">hosted by</data>
+<edge source="worlds strongest man" target="sbd apparel">
+  <data key="d1">sponsors</data>
 </edge>
-<edge source="worlds strongest man competition" target="sbd apparel">
-  <data key="d1">link to</data>
+<edge source="worlds strongest man" target="coregenx">
+  <data key="d1">previous event location</data>
 </edge>
-<edge source="img endeavor" target="us">
-  <data key="d1">broadcast in</data>
+<edge source="worlds strongest man" target="tachi palace">
+  <data key="d1">previous event location</data>
 </edge>
-<edge source="img endeavor" target="uk">
-  <data key="d1">broadcast in</data>
+<edge source="worlds strongest man" target="hotel casino">
+  <data key="d1">previous event location</data>
 </edge>
-<edge source="giants live" target="top three">
-  <data key="d1">qualify for</data>
+<edge source="worlds strongest man" target="daf trucks">
+  <data key="d1">previous event partner</data>
 </edge>
-<edge source="giants live" target="sbd apparel">
-  <data key="d1">link to</data>
+<edge source="worlds strongest man" target="strongman super series championships">
+  <data key="d1">rival</data>
 </edge>
-<edge source="giants live" target="daf trucks">
-  <data key="d1">sponsor of</data>
+<edge source="worlds strongest man" target="champions league">
+  <data key="d1">rival</data>
 </edge>
-<edge source="coregenx" target="tachi palace">
-  <data key="d1">hosted by</data>
+<edge source="worlds strongest man" target="ultimate strongman">
+  <data key="d1">rival</data>
+</edge>
+<edge source="worlds strongest man" target="arnold strongman classic">
+  <data key="d1">rival</data>
+</edge>
+<edge source="worlds strongest man" target="bill kazmaier">
+  <data key="d1">famous for</data>
+</edge>
+<edge source="worlds strongest man" target="björnsson">
+  <data key="d1">famous for</data>
+</edge>
+<edge source="worlds strongest man" target="ted der parre">
+  <data key="d1">won</data>
+</edge>
+<edge source="worlds strongest man" target="2008">
+  <data key="d1">competition year</data>
+</edge>
+<edge source="worlds strongest man" target="savickas">
+  <data key="d1">participated in</data>
+</edge>
+<edge source="worlds strongest man" target="shaw">
+  <data key="d1">featured</data>
+</edge>
+<edge source="worlds strongest man" target="koklyaev">
+  <data key="d1">featured</data>
+</edge>
+<edge source="worlds strongest man" target="tom stoltman">
+  <data key="d1">has competitor</data>
+</edge>
+<edge source="worlds strongest man" target="south carolina">
+  <data key="d1">occurs in</data>
+</edge>
+<edge source="competition" target="pudzianowski">
+  <data key="d1">won</data>
+</edge>
+<edge source="competition" target="atlas stones">
+  <data key="d1">came down to</data>
+</edge>
+<edge source="competition" target="2004">
+  <data key="d1">held in</data>
+</edge>
+<edge source="competition" target="2005">
+  <data key="d1">held in</data>
+</edge>
+<edge source="competition" target="2007">
+  <data key="d1">held in</data>
+</edge>
+<edge source="competition" target="2008">
+  <data key="d1">held in</data>
+</edge>
+<edge source="competition" target="novikov">
+  <data key="d1">won event</data>
+</edge>
+<edge source="competition" target="licis kieliszkowski">
+  <data key="d1">injured in</data>
+</edge>
+<edge source="competition" target="björnsson">
+  <data key="d1">retired from</data>
+</edge>
+<edge source="competition" target="stoltman">
+  <data key="d1">placed 2nd in</data>
+</edge>
+<edge source="competition" target="jean caron">
+  <data key="d1">placed 3rd in</data>
+</edge>
+<edge source="competition" target="november">
+  <data key="d1">held in</data>
+</edge>
+<edge source="competition" target="sacramento">
+  <data key="d1">took place in</data>
+</edge>
+<edge source="competition" target="brian">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="competition" target="oxford">
+  <data key="d1">held in</data>
+</edge>
+<edge source="competition" target="tachi palace">
+  <data key="d1">hosted</data>
+</edge>
+<edge source="competition" target="anna maria island">
+  <data key="d1">location</data>
+</edge>
+<edge source="competition" target="bradenton herald">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="competition" target="strossen randall">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="competition" target="ryan june">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="competition" target="strongest man">
+  <data key="d1">is a</data>
+</edge>
+<edge source="competition" target="covid19">
+  <data key="d1">interrupted</data>
 </edge>
 <edge source="tachi palace" target="florida">
-  <data key="d1">strongest man in</data>
-</edge>
-<edge source="tachi palace" target="strongest man">
-  <data key="d1">significant event</data>
+  <data key="d1">location of</data>
 </edge>
 <edge source="tachi palace" target="19 june">
-  <data key="d1">holds events on</data>
+  <data key="d1">has event on</data>
+</edge>
+<edge source="tachi palace" target="october">
+  <data key="d1">has event on</data>
 </edge>
 <edge source="tachi palace" target="13 february">
-  <data key="d1">holds events on</data>
+  <data key="d1">has event on</data>
+</edge>
+<edge source="tachi palace" target="19 june  ">
+  <data key="d1">has event on</data>
+</edge>
+<edge source="tachi palace" target="october  ">
+  <data key="d1">has event on</data>
+</edge>
+<edge source="tachi palace" target="13 february  ">
+  <data key="d1">has event on</data>
 </edge>
 <edge source="tachi palace" target="11 november 2020">
-  <data key="d1">holds events on</data>
+  <data key="d1">event aligns with</data>
 </edge>
-<edge source="won" target="nationalities">
-  <data key="d1">includes</data>
+<edge source="us" target="img endeavor">
+  <data key="d1">broadcasts in</data>
 </edge>
-<edge source="won" target="24 nationalities">
-  <data key="d1">includes</data>
+<edge source="img endeavor" target="uk">
+  <data key="d1">broadcasts in</data>
 </edge>
-<edge source="won" target="13 nationalities">
-  <data key="d1">includes</data>
+<edge source="partypoker" target="24">
+  <data key="d1">won</data>
 </edge>
-<edge source="bill kazmaier" target="sports hall fame">
-  <data key="d1">is part of</data>
+<edge source="partypoker" target="13">
+  <data key="d1">won</data>
 </edge>
-<edge source="bill kazmaier" target="wsm 2008">
-  <data key="d1">had competitor</data>
+<edge source="partypoker" target="nationalities">
+  <data key="d1">won</data>
 </edge>
-<edge source="bill kazmaier" target="2022">
-  <data key="d1">had member</data>
+<edge source="partypoker" target="bill kazmaier">
+  <data key="d1">has winner</data>
 </edge>
-<edge source="bill kazmaier" target="ironmind">
-  <data key="d1">is interviewed by</data>
+<edge source="partypoker" target="björnsson">
+  <data key="d1">has winner</data>
 </edge>
-<edge source="bill kazmaier" target="herald">
-  <data key="d1">discussed in</data>
+<edge source="partypoker" target="sports hall of fame">
+  <data key="d1">part of</data>
+</edge>
+<edge source="partypoker" target="strongman super series championships">
+  <data key="d1">part of</data>
+</edge>
+<edge source="partypoker" target="champions league">
+  <data key="d1">part of</data>
+</edge>
+<edge source="partypoker" target="ultimate strongman">
+  <data key="d1">part of</data>
+</edge>
+<edge source="partypoker" target="arnold strongman classic">
+  <data key="d1">rival</data>
+</edge>
+<edge source="partypoker" target="webster">
+  <data key="d1">promoted</data>
+</edge>
+<edge source="partypoker" target="strongest man">
+  <data key="d1">linked event</data>
+</edge>
+<edge source="24" target="2001">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="13" target="1990">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="13" target="austria">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="bill kazmaier" target="david webster">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="bill kazmaier" target="strongman contests">
+  <data key="d1">finished</data>
+</edge>
+<edge source="bill kazmaier" target="fame wsm 2008">
+  <data key="d1">has competitor</data>
 </edge>
 <edge source="bill kazmaier" target="interview">
-  <data key="d1">highlighted in</data>
+  <data key="d1">relate to</data>
+</edge>
+<edge source="bill kazmaier" target="don reinhoudt">
+  <data key="d1">related to</data>
+</edge>
+<edge source="bill kazmaier" target="charisma">
+  <data key="d1">is related to</data>
 </edge>
 <edge source="bill kazmaier" target="1979">
   <data key="d1">third place</data>
@@ -1828,122 +2143,197 @@
 <edge source="bill kazmaier" target="3">
   <data key="d1">positioninlist</data>
 </edge>
-<edge source="sports hall fame" target="björnsson">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="sports hall fame" target="arnold strongman classic">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="sports hall fame" target="bill kazmaier ">
-  <data key="d1">features</data>
-</edge>
-<edge source="sports hall fame" target="björnsson ">
-  <data key="d1">features</data>
-</edge>
-<edge source="björnsson" target="world caber champion">
-  <data key="d1">features</data>
+<edge source="björnsson" target="2015">
+  <data key="d1">rated second in</data>
 </edge>
 <edge source="björnsson" target="eddie hall">
-  <data key="d1">finished 1 point behind</data>
+  <data key="d1">competed with</data>
 </edge>
-<edge source="björnsson" target="nationality:ic">
-  <data key="d1">is a</data>
+<edge source="björnsson" target="shaw">
+  <data key="d1">competed in same event as</data>
 </edge>
 <edge source="björnsson" target="2018">
-  <data key="d1">won</data>
+  <data key="d1">won in</data>
 </edge>
 <edge source="björnsson" target="icelander">
   <data key="d1">is a</data>
 </edge>
-<edge source="björnsson" target="">
-  <data key="d1">retired</data>
+<edge source="björnsson" target="world's strongest man">
+  <data key="d1">featured</data>
 </edge>
-<edge source="arnold strongman classic" target="strongman super series">
-  <data key="d1">is a rival of</data>
+<edge source="strongman super series championships" target="scot obe">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="ultimate strongman" target="douglas edmunds">
+  <data key="d1">linked competition</data>
 </edge>
 <edge source="arnold strongman classic" target="2002">
-  <data key="d1">part of</data>
-</edge>
-<edge source="arnold strongman classic" target="schwarzenegger ">
-  <data key="d1">introduced by</data>
-</edge>
-<edge source="arnold strongman classic" target="terry todd">
-  <data key="d1">co-founded</data>
+  <data key="d1">occurred</data>
 </edge>
 <edge source="arnold strongman classic" target="schwarzenegger">
-  <data key="d1">associated with</data>
+  <data key="d1">founded</data>
 </edge>
-<edge source="arnold strongman classic" target="strongman contest">
-  <data key="d1">type of</data>
+<edge source="arnold strongman classic" target="terry todd">
+  <data key="d1">contributed to</data>
 </edge>
-<edge source="arnold strongman classic" target="strongman contests">
-  <data key="d1">includes</data>
+<edge source="arnold strongman classic" target="don reinhoudt">
+  <data key="d1">contributed to</data>
 </edge>
-<edge source="arnold strongman classic" target="toughest">
-  <data key="d1">debated as</data>
-</edge>
-<edge source="strongman super series" target="championships">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="strongman super series" target="champions league">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="strongman super series" target="ultimate strongman">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="strongman super series" target="bill kazmaier ">
-  <data key="d1">features</data>
-</edge>
-<edge source="strongman super series" target="björnsson ">
-  <data key="d1">features</data>
-</edge>
-<edge source="champions league" target="rules">
-  <data key="d1">related to</data>
-</edge>
-<edge source="champions league" target="competition">
-  <data key="d1">governed by</data>
-</edge>
-<edge source="champions league" target="strongest man">
-  <data key="d1">oversees</data>
-</edge>
-<edge source="24 nationalities" target="partypoker">
-  <data key="d1">won</data>
-</edge>
-<edge source="13 nationalities" target="partypoker">
-  <data key="d1">won</data>
-</edge>
-<edge source="partypoker" target="bill kazmaier ">
-  <data key="d1">features</data>
-</edge>
-<edge source="partypoker" target="björnsson ">
-  <data key="d1">features</data>
-</edge>
-<edge source="world caber champion" target="man">
-  <data key="d1">strongest</data>
-</edge>
-<edge source="world caber champion" target="cbs langstar">
+<edge source="strongest man" target="cbs langstar">
   <data key="d1">developed by</data>
 </edge>
-<edge source="world caber champion" target="douglas edmunds">
-  <data key="d1">twice</data>
+<edge source="strongest man" target="david webster">
+  <data key="d1">involved in</data>
 </edge>
-<edge source="world caber champion" target="bill kazmaier ">
-  <data key="d1">features</data>
+<edge source="strongest man" target="douglas edmunds">
+  <data key="d1">involved in</data>
 </edge>
-<edge source="man" target="strongest man">
+<edge source="strongest man" target="commentator">
+  <data key="d1">featured in</data>
+</edge>
+<edge source="strongest man" target="analyst">
+  <data key="d1">featured in</data>
+</edge>
+<edge source="strongest man" target="schwarzenegger">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="strongest man" target="website">
   <data key="d1">related to</data>
 </edge>
+<edge source="strongest man" target="fame wsm 2008">
+  <data key="d1">recognized by</data>
+</edge>
+<edge source="strongest man" target="strongest man 2017">
+  <data key="d1">related to</data>
+</edge>
+<edge source="strongest man" target="pain">
+  <data key="d1">is related to</data>
+</edge>
+<edge source="strongest man" target="story">
+  <data key="d1">is</data>
+</edge>
+<edge source="strongest man" target="rivalries">
+  <data key="d1">is related to</data>
+</edge>
+<edge source="strongest man" target="february 2018">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="strongest man" target="subhankar">
+  <data key="d1">linked to</data>
+</edge>
+<edge source="strongest man" target="radio times">
+  <data key="d1">discussed in</data>
+</edge>
+<edge source="strongest man" target="savickas">
+  <data key="d1">record</data>
+</edge>
+<edge source="strongest man" target="22 march 2017">
+  <data key="d1">record</data>
+</edge>
+<edge source="strongest man" target="april 2021">
+  <data key="d1">record</data>
+</edge>
+<edge source="strongest man" target="7 february 2018">
+  <data key="d1">archived in</data>
+</edge>
+<edge source="strongest man" target="strongman">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="strongest man" target="anna maria island">
+  <data key="d1">held in</data>
+</edge>
+<edge source="strongest man" target="ballogg">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="strongest man" target="bradenton herald">
+  <data key="d1">highlighted</data>
+</edge>
+<edge source="strongest man" target="anna maria island  ">
+  <data key="d1">held in</data>
+</edge>
+<edge source="strongest man" target="keene  ">
+  <data key="d1">wins</data>
+</edge>
+<edge source="strongest man" target="barbend  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="strongest man" target="men's health  ">
+  <data key="d1">covered by</data>
+</edge>
+<edge source="strongest man" target="covid19  ">
+  <data key="d1">lenient to</data>
+</edge>
+<edge source="strongest man" target="keene">
+  <data key="d1">wins</data>
+</edge>
+<edge source="strongest man" target="barbend">
+  <data key="d1">related to</data>
+</edge>
+<edge source="strongest man" target="event">
+  <data key="d1">canceled</data>
+</edge>
+<edge source="strongest man" target="novikov">
+  <data key="d1">sets new world record in</data>
+</edge>
+<edge source="strongest man" target="men health">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="strongest man" target="november">
+  <data key="d1">appeared in</data>
+</edge>
+<edge source="strongest man" target="july">
+  <data key="d1">appeared in</data>
+</edge>
+<edge source="strongest man" target="tom stoltman">
+  <data key="d1">wins</data>
+</edge>
+<edge source="strongest man" target="hooper">
+  <data key="d1">another winner of</data>
+</edge>
+<edge source="strongest man" target="12 november 2020">
+  <data key="d1">archived in</data>
+</edge>
+<edge source="strongest man" target="6 december 2019">
+  <data key="d1">archived in</data>
+</edge>
+<edge source="strongest man" target="1 april 2021">
+  <data key="d1">archived in</data>
+</edge>
+<edge source="strongest man" target="winners">
+  <data key="d1">contains</data>
+</edge>
+<edge source="strongest man" target="22 december 2011">
+  <data key="d1">occurred in</data>
+</edge>
+<edge source="strongest man" target="23 december 2017">
+  <data key="d1">occurred in</data>
+</edge>
+<edge source="strongest man" target="stones event">
+  <data key="d1">recognized in</data>
+</edge>
+<edge source="strongest man" target="man">
+  <data key="d1">awarded</data>
+</edge>
+<edge source="strongest man" target="recognition">
+  <data key="d1">strong title of</data>
+</edge>
+<edge source="strongest man" target="6 december">
+  <data key="d1">related to</data>
+</edge>
+<edge source="strongest man" target="19 september">
+  <data key="d1">related to</data>
+</edge>
+<edge source="strongest man" target="strongest man 2015">
+  <data key="d1">related to</data>
+</edge>
+<edge source="strongest man" target="united kingdom">
+  <data key="d1">has participants from</data>
+</edge>
 <edge source="cbs langstar" target="1977">
-  <data key="d1">year</data>
+  <data key="d1">established</data>
 </edge>
-<edge source="cbs langstar" target="david webster ">
-  <data key="d1">coordinator</data>
-</edge>
-<edge source="douglas edmunds" target="scottish">
-  <data key="d1">seventime</data>
-</edge>
-<edge source="douglas edmunds" target="contests">
-  <data key="d1">coord periodic</data>
+<edge source="1977" target="world strongest">
+  <data key="d1">develpoed in</data>
 </edge>
 <edge source="1977" target="0">
   <data key="d1">positioninlist</data>
@@ -1963,41 +2353,53 @@
 <edge source="scot obe" target="david webster">
   <data key="d1">coordinator</data>
 </edge>
-<edge source="musburger" target="contests">
-  <data key="d1">commentator</data>
+<edge source="webster" target="douglas edmunds">
+  <data key="d1">worked with</data>
 </edge>
-<edge source="musburger" target="schwarzenegger ">
-  <data key="d1">analyst</data>
+<edge source="douglas edmunds" target="world caber champion">
+  <data key="d1">twice</data>
 </edge>
-<edge source="contests" target="tom brookshier">
-  <data key="d1">commentator</data>
+<edge source="douglas edmunds" target="scottish">
+  <data key="d1">seventime</data>
 </edge>
-<edge source="contests" target="terry todd">
-  <data key="d1">commentator</data>
+<edge source="musburger" target="commentator">
+  <data key="d1">past activity</data>
+</edge>
+<edge source="commentator" target="tom brookshier">
+  <data key="d1">past activity</data>
+</edge>
+<edge source="commentator" target="terry todd">
+  <data key="d1">past activity</data>
+</edge>
+<edge source="tom brookshier" target="analyst">
+  <data key="d1">past activity</data>
+</edge>
+<edge source="terry todd" target="analyst">
+  <data key="d1">past activity</data>
 </edge>
 <edge source="terry todd" target="powerlifting">
-  <data key="d1">record in</data>
+  <data key="d1">record holder</data>
 </edge>
 <edge source="terry todd" target="lutcher stark center">
-  <data key="d1">founded</data>
+  <data key="d1">affiliated with</data>
 </edge>
-<edge source="powerlifting" target="world records">
-  <data key="d1">involve</data>
-</edge>
-<edge source="lutcher stark center" target="1990">
-  <data key="d1">part of</data>
+<edge source="1990" target="lutcher stark center">
+  <data key="d1">established</data>
 </edge>
 <edge source="1990" target="sigmarsson">
-  <data key="d1">died in</data>
+  <data key="d1">winner of</data>
+</edge>
+<edge source="1990" target="reeves">
+  <data key="d1">suffered injury in</data>
 </edge>
 <edge source="1990" target="jamie reeves">
-  <data key="d1">injured</data>
+  <data key="d1">inured</data>
+</edge>
+<edge source="1990" target="wilson">
+  <data key="d1">achieved</data>
 </edge>
 <edge source="1990" target="1990">
   <data key="d1">year</data>
-</edge>
-<edge source="1990" target="13">
-  <data key="d1">positioninlist</data>
 </edge>
 <edge source="1990" target="jón páll sigmarsson (4)">
   <data key="d1">winner</data>
@@ -2011,14 +2413,8 @@
 <edge source="1990" target="joensuu">
   <data key="d1">host city</data>
 </edge>
-<edge source="schwarzenegger" target="2002">
-  <data key="d1">part of</data>
-</edge>
-<edge source="2002" target="1990s scandinavian competition  ">
-  <data key="d1">ended in</data>
-</edge>
-<edge source="2002" target="1990s scandinavian competition">
-  <data key="d1">ended in</data>
+<edge source="2002" target="1990s">
+  <data key="d1">lasted until</data>
 </edge>
 <edge source="2002" target="2002">
   <data key="d1">year</data>
@@ -2038,29 +2434,11 @@
 <edge source="2002" target="kuala lumpur">
   <data key="d1">host city</data>
 </edge>
-<edge source="football" target="ranks">
-  <data key="d1">involves</data>
-</edge>
-<edge source="1979" target="bruce wilhelm">
+<edge source="bruce wilhelm" target="1979">
   <data key="d1">retired in</data>
 </edge>
-<edge source="1979" target="1979">
-  <data key="d1">year</data>
-</edge>
-<edge source="1979" target="2">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="1979" target="don reinhoudt">
-  <data key="d1">winner</data>
-</edge>
-<edge source="1979" target="lars hedlund">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="1979" target="universal studios">
-  <data key="d1">host city</data>
-</edge>
 <edge source="bruce wilhelm" target="don reinhoudt">
-  <data key="d1">succeeded</data>
+  <data key="d1">succeeded by</data>
 </edge>
 <edge source="bruce wilhelm" target="bruce wilhelm">
   <data key="d1">champion</data>
@@ -2074,62 +2452,146 @@
 <edge source="bruce wilhelm" target="2">
   <data key="d1">times</data>
 </edge>
+<edge source="1979" target="don reinhoudt">
+  <data key="d1">winner</data>
+</edge>
+<edge source="1979" target="1979">
+  <data key="d1">year</data>
+</edge>
+<edge source="1979" target="2">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1979" target="lars hedlund">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="1979" target="universal studios">
+  <data key="d1">host city</data>
+</edge>
 <edge source="don reinhoudt" target="world records">
   <data key="d1">holds</data>
 </edge>
+<edge source="don reinhoudt" target="powerlifter">
+  <data key="d1">has profession</data>
+</edge>
+<edge source="don reinhoudt" target="wsm">
+  <data key="d1">earned membership in</data>
+</edge>
 <edge source="don reinhoudt" target="strength">
-  <data key="d1">is a quality of</data>
+  <data key="d1">attribute of</data>
 </edge>
 <edge source="don reinhoudt" target="amazon">
-  <data key="d1">featured in</data>
+  <data key="d1">related to</data>
 </edge>
 <edge source="don reinhoudt" target="radio times">
-  <data key="d1">highlighted in</data>
-</edge>
-<edge source="don reinhoudt" target="strongest man winner story">
-  <data key="d1">details</data>
-</edge>
-<edge source="don reinhoudt" target="interview">
-  <data key="d1">highlighted in</data>
+  <data key="d1">related to</data>
 </edge>
 <edge source="don reinhoudt" target="1978">
   <data key="d1">runner-up</data>
 </edge>
-<edge source="world records" target="reinhoudt">
-  <data key="d1">holds</data>
+<edge source="world records" target="wsm">
+  <data key="d1">connected to</data>
 </edge>
-<edge source="reinhoudt" target="wsm hall of fame">
-  <data key="d1">has</data>
+<edge source="powerlifter" target="wsm">
+  <data key="d1">associated with</data>
 </edge>
-<edge source="lift" target="unbalanced">
-  <data key="d1">opposite of</data>
+<edge source="lift" target="wsm">
+  <data key="d1">unbalanced</data>
 </edge>
-<edge source="lift" target="wsm hall of fame">
-  <data key="d1">resulted in</data>
+<edge source="lift" target="pure strength">
+  <data key="d1">associated with</data>
 </edge>
 <edge source="lift" target="10 january 2007">
-  <data key="d1">occurred on</data>
+  <data key="d1">occurs on</data>
 </edge>
 <edge source="lift" target="12 april 2021">
-  <data key="d1">occurred on</data>
+  <data key="d1">occurs on</data>
 </edge>
-<edge source="lift" target="29 december 2006">
-  <data key="d1">happened on</data>
+<edge source="lift" target="stairs">
+  <data key="d1">occurred before</data>
 </edge>
-<edge source="earned" target="wsm hall of fame">
-  <data key="d1">resulted in</data>
+<edge source="wsm" target="hall">
+  <data key="d1">earned</data>
+</edge>
+<edge source="wsm" target="fame">
+  <data key="d1">earns membership in</data>
+</edge>
+<edge source="wsm" target="kazmaier">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="capes">
+  <data key="d1">dethroned sigmarsson in</data>
+</edge>
+<edge source="wsm" target="sigmarsson">
+  <data key="d1">won by</data>
+</edge>
+<edge source="wsm" target="reeves">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="strongman">
+  <data key="d1">competes in</data>
+</edge>
+<edge source="wsm" target="ted der parre">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="gary taylor">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="magnús">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="jamie reeves">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="strongman event">
+  <data key="d1">is a type of</data>
+</edge>
+<edge source="wsm" target="savickas">
+  <data key="d1">winner of</data>
+</edge>
+<edge source="wsm" target="brian shaw">
+  <data key="d1">runner up in</data>
+</edge>
+<edge source="wsm" target="koklyaev">
+  <data key="d1">third place in</data>
+</edge>
+<edge source="wsm" target="shaw">
+  <data key="d1">won</data>
+</edge>
+<edge source="wsm" target="maxime boudreault">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="2018">
+  <data key="d1">year</data>
+</edge>
+<edge source="wsm" target="tom stoltman">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="brian">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="novikov">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="wsm" target="espn">
+  <data key="d1">strongest</data>
+</edge>
+<edge source="wsm" target="mariusz pudzianowski">
+  <data key="d1">has member</data>
+</edge>
+<edge source="wsm" target="wce">
+  <data key="d1">similar to</data>
+</edge>
+<edge source="hall" target="ellis philip">
+  <data key="d1">related to</data>
 </edge>
 <edge source="kazmaier" target="capes">
   <data key="d1">traded wins with</data>
 </edge>
-<edge source="kazmaier" target="sigmarsson">
-  <data key="d1">traded wins with</data>
-</edge>
 <edge source="kazmaier" target="pure strength">
-  <data key="d1">appeared in</data>
+  <data key="d1">participated in</data>
 </edge>
 <edge source="capes" target="sigmarsson">
-  <data key="d1">dethroned</data>
+  <data key="d1">traded wins with</data>
 </edge>
 <edge source="capes" target="1983">
   <data key="d1">winner of</data>
@@ -2138,46 +2600,31 @@
   <data key="d1">winner of</data>
 </edge>
 <edge source="capes" target="pure strength">
-  <data key="d1">appeared in</data>
+  <data key="d1">participated in</data>
 </edge>
 <edge source="capes" target="1988">
-  <data key="d1">dethroned in</data>
+  <data key="d1">winner of</data>
 </edge>
-<edge source="capes" target="popularity">
-  <data key="d1">increased</data>
+<edge source="pure strength" target="sigmarsson">
+  <data key="d1">competed in</data>
 </edge>
 <edge source="sigmarsson" target="1984">
-  <data key="d1">winner of</data>
+  <data key="d1">won in</data>
 </edge>
 <edge source="sigmarsson" target="1986">
-  <data key="d1">winner of</data>
+  <data key="d1">won in</data>
 </edge>
-<edge source="sigmarsson" target="popularity">
-  <data key="d1">raised</data>
+<edge source="sigmarsson" target="1988">
+  <data key="d1">dethroned in</data>
 </edge>
-<edge source="sigmarsson" target="pure strength">
-  <data key="d1">appeared in</data>
-</edge>
-<edge source="sigmarsson" target="4th title">
+<edge source="sigmarsson" target="title">
   <data key="d1">won</data>
 </edge>
-<edge source="sigmarsson" target="wilson">
-  <data key="d1">won over</data>
+<edge source="sigmarsson" target="four titles">
+  <data key="d1">won</data>
 </edge>
-<edge source="sigmarsson" target="jamie reeves title">
-  <data key="d1">claimed</data>
-</edge>
-<edge source="sigmarsson" target="granddaddy">
-  <data key="d1">is known as</data>
-</edge>
-<edge source="sigmarsson" target="strongman scene">
-  <data key="d1">became prominent in</data>
-</edge>
-<edge source="sigmarsson" target="wsm 2008">
-  <data key="d1">had competitor</data>
-</edge>
-<edge source="sigmarsson" target="2022">
-  <data key="d1">had member</data>
+<edge source="sigmarsson" target="fame wsm 2008">
+  <data key="d1">competed in</data>
 </edge>
 <edge source="1983" target="1983">
   <data key="d1">year</data>
@@ -2266,131 +2713,182 @@
 <edge source="1986" target="nice">
   <data key="d1">host city</data>
 </edge>
-<edge source="jamie reeves" target="2nd">
-  <data key="d1">placed</data>
+<edge source="title" target="jón páll sigmarsson">
+  <data key="d1">won</data>
 </edge>
-<edge source="jamie reeves" target="wsm">
-  <data key="d1">competed in</data>
+<edge source="title" target="savickas">
+  <data key="d1">won</data>
 </edge>
-<edge source="jamie reeves" target="magnús">
-  <data key="d1">narrowly beaten by</data>
+<edge source="title" target="tom stoltman">
+  <data key="d1">won</data>
 </edge>
-<edge source="jamie reeves" target="2nd  ">
-  <data key="d1">placed</data>
+<edge source="four titles" target="jón páll sigmarsson">
+  <data key="d1">won</data>
 </edge>
-<edge source="jamie reeves" target="1989">
-  <data key="d1">winner</data>
+<edge source="wilson" target="event">
+  <data key="d1">finished</data>
+</edge>
+<edge source="event" target="website">
+  <data key="d1">updated on</data>
+</edge>
+<edge source="event" target="24 july 2012">
+  <data key="d1">date</data>
+</edge>
+<edge source="event" target="11 july 2017">
+  <data key="d1">date</data>
+</edge>
+<edge source="event" target="23 december 2017">
+  <data key="d1">date</data>
+</edge>
+<edge source="event" target="strongest man tournament">
+  <data key="d1">related to</data>
+</edge>
+<edge source="event" target="12 november 2020">
+  <data key="d1">is an</data>
+</edge>
+<edge source="event" target="6 december 2019">
+  <data key="d1">is an</data>
+</edge>
+<edge source="event" target="1 april 2021">
+  <data key="d1">is an</data>
+</edge>
+<edge source="event" target="7 february 2018">
+  <data key="d1">is an</data>
+</edge>
+<edge source="event" target="race">
+  <data key="d1">linked to</data>
+</edge>
+<edge source="jamie reeves" target="magus">
+  <data key="d1">following</data>
 </edge>
 <edge source="jamie reeves" target="1992">
   <data key="d1">third place</data>
 </edge>
-<edge source="4th title" target="sigmarsson died">
-  <data key="d1">won before</data>
+<edge source="jamie reeves" target="1989">
+  <data key="d1">winner</data>
 </edge>
-<edge source="wilson" target="jon pall">
-  <data key="d1">competed against</data>
+<edge source="jón páll sigmarsson" target="strongman contests">
+  <data key="d1">notable in</data>
 </edge>
-<edge source="first four titles" target="jon pall">
-  <data key="d1">won</data>
+<edge source="jón páll sigmarsson" target="1989">
+  <data key="d1">third place</data>
 </edge>
-<edge source="page" target="years">
-  <data key="d1">contains</data>
+<edge source="jón páll sigmarsson" target="jón páll sigmarsson">
+  <data key="d1">champion</data>
 </edge>
-<edge source="granddaddy" target="strongman contests">
-  <data key="d1">competes in</data>
+<edge source="jón páll sigmarsson" target="1">
+  <data key="d1">positioninlist</data>
 </edge>
-<edge source="strongman contests" target="fortissimus">
-  <data key="d1">includes</data>
+<edge source="jón páll sigmarsson" target="iceland">
+  <data key="d1">country</data>
 </edge>
-<edge source="strongman contests" target="wsm">
-  <data key="d1">includes</data>
+<edge source="jón páll sigmarsson" target="4">
+  <data key="d1">times</data>
 </edge>
-<edge source="strongman contest" target="fortissimus">
-  <data key="d1">type of</data>
+<edge source="jón páll sigmarsson" target="0">
+  <data key="d1">positioninlist</data>
 </edge>
-<edge source="strongman contest" target="wsm">
-  <data key="d1">highest viewership</data>
-</edge>
-<edge source="fortissimus" target="toughest">
-  <data key="d1">debated as</data>
-</edge>
-<edge source="wsm" target="leading brand name">
-  <data key="d1">is</data>
-</edge>
-<edge source="wsm" target="toughest">
-  <data key="d1">debated as</data>
-</edge>
-<edge source="wsm" target="strongest viewership">
+<edge source="years" target="granddaddy of strongman contests">
   <data key="d1">has</data>
 </edge>
-<edge source="wsm" target="220 million">
-  <data key="d1">viewership</data>
+<edge source="years" target="granddaddy">
+  <data key="d1">has</data>
 </edge>
-<edge source="wsm" target="ted der parre">
-  <data key="d1">competed in</data>
+<edge source="granddaddy of strongman contests" target="strongman contests">
+  <data key="d1">participates in</data>
 </edge>
-<edge source="wsm" target="gary taylor">
-  <data key="d1">competed in</data>
+<edge source="strongman contests" target="contests">
+  <data key="d1">type of</data>
 </edge>
-<edge source="wsm" target="worlds strongest man">
-  <data key="d1">event of</data>
-</edge>
-<edge source="wsm" target="savickas">
-  <data key="d1">secured victory in</data>
-</edge>
-<edge source="wsm" target="brian shaw">
-  <data key="d1">second place in</data>
-</edge>
-<edge source="wsm" target="koklyaev">
-  <data key="d1">third place in</data>
-</edge>
-<edge source="wsm" target="shaw">
-  <data key="d1">competed in</data>
-</edge>
-<edge source="wsm" target="2018">
-  <data key="d1">third at</data>
-</edge>
-<edge source="wsm" target="novikov">
-  <data key="d1">achieved at</data>
-</edge>
-<edge source="wsm" target="tom stoltman">
-  <data key="d1">competed in</data>
-</edge>
-<edge source="wsm" target="mitchell hooper">
-  <data key="d1">competed in</data>
-</edge>
-<edge source="wsm" target="mariusz pudzianowski">
+<edge source="strongman contests" target="jámie reeves">
   <data key="d1">competes in</data>
 </edge>
-<edge source="wsm" target="strongest man">
-  <data key="d1">includes event</data>
+<edge source="strongman contests" target="granddaddy">
+  <data key="d1">participates in</data>
 </edge>
-<edge source="220 million" target="million">
-  <data key="d1">strongest viewership</data>
+<edge source="strongman contests" target="leading brand name">
+  <data key="d1">criticized in</data>
 </edge>
-<edge source="220 million" target="million  ">
-  <data key="d1">strongest viewership</data>
+<edge source="contests" target="granddaddy">
+  <data key="d1">cements place in</data>
 </edge>
-<edge source="7 feet" target="ted der parre">
-  <data key="d1">height</data>
+<edge source="granddaddy" target="leading brand name">
+  <data key="d1">highlighted in</data>
 </edge>
-<edge source="7 feet" target="ted der parre  ">
-  <data key="d1">height</data>
+<edge source="strongman classic" target="arnold">
+  <data key="d1">host of</data>
 </edge>
-<edge source="ted der parre" target="worlds strongest man">
-  <data key="d1">tallest</data>
+<edge source="strongman classic" target="fortissimus">
+  <data key="d1">competes with</data>
 </edge>
-<edge source="ted der parre" target="magnus  ">
-  <data key="d1">beat</data>
+<edge source="arnold" target="strongman event">
+  <data key="d1">is a type of</data>
 </edge>
-<edge source="riku kiri" target="worlds strongest man">
-  <data key="d1">competed in</data>
+<edge source="fortissimus" target="strongman event">
+  <data key="d1">is a type of</data>
 </edge>
-<edge source="riku kiri" target="worlds strongest man  ">
-  <data key="d1">competed in</data>
+<edge source="worlds strongman" target="worlds strongman">
+  <data key="d1">catalogs</data>
 </edge>
-<edge source="riku kiri" target="1993">
+<edge source="worlds strongman" target="leading brand name">
+  <data key="d1">is a</data>
+</edge>
+<edge source="worlds strongman" target="220 million viewers">
+  <data key="d1">has</data>
+</edge>
+<edge source="strongman" target="mariusz pudzianowski">
+  <data key="d1">competes in</data>
+</edge>
+<edge source="strongest viewership" target="220 million">
+  <data key="d1">is</data>
+</edge>
+<edge source="ted der parre" target="tallest">
+  <data key="d1">is</data>
+</edge>
+<edge source="ted der parre" target="7 feet">
+  <data key="d1">is</data>
+</edge>
+<edge source="ted der parre" target="1992">
+  <data key="d1">first place in</data>
+</edge>
+<edge source="shortest" target="gary taylor">
+  <data key="d1">is</data>
+</edge>
+<edge source="gary taylor" target="1993">
+  <data key="d1">winner</data>
+</edge>
+<edge source="gary taylor" target="6 feet">
+  <data key="d1">is</data>
+</edge>
+<edge source="gary taylor" target="1991">
   <data key="d1">third place</data>
+</edge>
+<edge source="1993" target="magnús">
+  <data key="d1">second place in</data>
+</edge>
+<edge source="1993" target="riku kiri">
+  <data key="d1">third place</data>
+</edge>
+<edge source="1993" target="uk taylor">
+  <data key="d1">winner of</data>
+</edge>
+<edge source="1993" target="1993">
+  <data key="d1">year</data>
+</edge>
+<edge source="1993" target="16">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1993" target="magnús ver magnússon">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="1993" target="orange">
+  <data key="d1">host city</data>
+</edge>
+<edge source="magnús" target="riku kiri">
+  <data key="d1">is</data>
+</edge>
+<edge source="magnús" target="1992">
+  <data key="d1">second place in</data>
 </edge>
 <edge source="riku kiri" target="1994">
   <data key="d1">third place</data>
@@ -2398,158 +2896,71 @@
 <edge source="riku kiri" target="1996">
   <data key="d1">runner-up</data>
 </edge>
-<edge source="worlds strongest man" target="magnús">
-  <data key="d1">competed in</data>
+<edge source="1990s" target="scandinavian title">
+  <data key="d1">is a period</data>
 </edge>
-<edge source="worlds strongest man" target="ted der parre  ">
-  <data key="d1">tallest</data>
+<edge source="scandinavian title" target="jouko ahola">
+  <data key="d1">won 2 titles</data>
 </edge>
-<edge source="worlds strongest man" target="poundstone">
-  <data key="d1">competed in</data>
+<edge source="3" target="jouko ahola">
+  <data key="d1">years of success</data>
 </edge>
-<edge source="worlds strongest man" target="pudzianowski">
-  <data key="d1">competed in</data>
+<edge source="3" target="established">
+  <data key="d1">positioninlist</data>
 </edge>
-<edge source="worlds strongest man" target="event">
-  <data key="d1">includes</data>
+<edge source="3" target="1980">
+  <data key="d1">positioninlist</data>
 </edge>
-<edge source="worlds strongest man" target="savickas">
-  <data key="d1">won title</data>
+<edge source="3" target="žydrūnas savickas">
+  <data key="d1">positioninlist</data>
 </edge>
-<edge source="worlds strongest man" target="savachieved">
+<edge source="3" target="tom stoltman">
+  <data key="d1">times</data>
+</edge>
+<edge source="3" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="3">
+  <data key="d1">times</data>
+</edge>
+<edge source="3" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="lars hedlund  ab wolders  jamie reeves  riku kiri  jouko ahola  janne virtanen  svend karlsen  oleksii novikov">
+  <data key="d1">name</data>
+</edge>
+<edge source="3" target="poland">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="3" target="finland">
+  <data key="d1">silver</data>
+</edge>
+<edge source="3" target="ukraine">
+  <data key="d1">bronze</data>
+</edge>
+<edge source="3" target="sweden">
+  <data key="d1">silver</data>
+</edge>
+<edge source="3" target="canada">
+  <data key="d1">bronze</data>
+</edge>
+<edge source="3" target="norway">
+  <data key="d1">total</data>
+</edge>
+<edge source="3" target="steve slater">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="jouko ahola" target="two titles">
   <data key="d1">winner of</data>
 </edge>
-<edge source="magnús" target="jouko ahola  ">
-  <data key="d1">contested with</data>
+<edge source="jouko ahola" target="1999">
+  <data key="d1">retired in</data>
 </edge>
-<edge source="2nd" target="wenta">
-  <data key="d1">placed</data>
+<edge source="jouko ahola" target="scandinavia">
+  <data key="d1">winner in</data>
 </edge>
-<edge source="2nd" target="stoltman">
-  <data key="d1">position</data>
-</edge>
-<edge source="6 feet" target="gary taylor">
-  <data key="d1">height</data>
-</edge>
-<edge source="6 feet" target="gary taylor  ">
-  <data key="d1">height</data>
-</edge>
-<edge source="gary taylor" target="strongest man">
-  <data key="d1">shortest</data>
-</edge>
-<edge source="gary taylor" target="strongest man  ">
-  <data key="d1">shortest</data>
-</edge>
-<edge source="gary taylor" target="magnus  ">
-  <data key="d1">triumphed over</data>
-</edge>
-<edge source="gary taylor" target="riku kiri  ">
-  <data key="d1">triumphed over</data>
-</edge>
-<edge source="gary taylor" target="1991">
-  <data key="d1">third place</data>
-</edge>
-<edge source="gary taylor" target="1993">
-  <data key="d1">winner</data>
-</edge>
-<edge source="strongest man" target="pain">
-  <data key="d1">is characterized by</data>
-</edge>
-<edge source="strongest man" target="amazon">
-  <data key="d1">mentioned in</data>
-</edge>
-<edge source="strongest man" target="radio times">
-  <data key="d1">discussed in</data>
-</edge>
-<edge source="strongest man" target="savickas">
-  <data key="d1">title held by</data>
-</edge>
-<edge source="strongest man" target="22 march 2017">
-  <data key="d1">held on</data>
-</edge>
-<edge source="strongest man" target="february 2018">
-  <data key="d1">held on</data>
-</edge>
-<edge source="strongest man" target="april 2021">
-  <data key="d1">held on</data>
-</edge>
-<edge source="strongest man" target="7 february 2018">
-  <data key="d1">held on</data>
-</edge>
-<edge source="strongest man" target="keene">
-  <data key="d1">discusses</data>
-</edge>
-<edge source="strongest man" target="strongest man edition">
-  <data key="d1">includes</data>
-</edge>
-<edge source="strongest man" target="novikov">
-  <data key="d1">wins</data>
-</edge>
-<edge source="strongest man" target="barbend">
-  <data key="d1">documented by</data>
-</edge>
-<edge source="strongest man" target="strength contests">
-  <data key="d1">in</data>
-</edge>
-<edge source="strongest man" target="news">
-  <data key="d1">about</data>
-</edge>
-<edge source="strongest man" target="tom stoltman">
-  <data key="d1">wins</data>
-</edge>
-<edge source="strongest man" target="hooper">
-  <data key="d1">wins</data>
-</edge>
-<edge source="strongest man" target="gutman andrew">
-  <data key="d1">also cited by</data>
-</edge>
-<edge source="strongest man" target="strongest man 2023">
-  <data key="d1">includes</data>
-</edge>
-<edge source="strongest man" target="pull event">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="strongest man" target="22 december 2011">
-  <data key="d1">held on</data>
-</edge>
-<edge source="strongest man" target="23 december 2017">
-  <data key="d1">precedes</data>
-</edge>
-<edge source="strongest man" target="6 december 2019">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="strongest man" target="strongest man 2015">
-  <data key="d1">won</data>
-</edge>
-<edge source="strongest man" target="21">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="strongest man" target="19 september">
-  <data key="d1">participant in</data>
-</edge>
-<edge source="strongest man" target="28">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="strongest man" target="6 december">
-  <data key="d1">participant in</data>
-</edge>
-<edge source="worlds strongest man  " target="magnus">
-  <data key="d1">competed in</data>
-</edge>
-<edge source="jouko ahola" target="finland  ">
-  <data key="d1">from</data>
-</edge>
-<edge source="jouko ahola" target="1990s scandinavian competition  ">
-  <data key="d1">winner of</data>
-</edge>
-<edge source="jouko ahola" target="finland">
-  <data key="d1">country</data>
-</edge>
-<edge source="jouko ahola" target="1990s scandinavian competition">
-  <data key="d1">winner of</data>
-</edge>
-<edge source="jouko ahola" target="janne virtanen">
-  <data key="d1">replaced by</data>
+<edge source="jouko ahola" target="magnus samuelsson">
+  <data key="d1">took title from</data>
 </edge>
 <edge source="jouko ahola" target="1997">
   <data key="d1">years</data>
@@ -2563,32 +2974,53 @@
 <edge source="jouko ahola" target="9">
   <data key="d1">positioninlist</data>
 </edge>
+<edge source="jouko ahola" target="finland">
+  <data key="d1">country</data>
+</edge>
 <edge source="jouko ahola" target="2">
   <data key="d1">times</data>
 </edge>
 <edge source="jouko ahola" target="910">
   <data key="d1">positioninlist</data>
 </edge>
-<edge source="magnus samuelsson" target="sweden  ">
-  <data key="d1">from</data>
+<edge source="janne virtanen" target="1999">
+  <data key="d1">runner-up</data>
 </edge>
-<edge source="magnus samuelsson" target="8 title  ">
-  <data key="d1">winner of</data>
+<edge source="janne virtanen" target="won in 1999">
+  <data key="d1">during scandinavian dominance</data>
 </edge>
-<edge source="magnus samuelsson" target="janne virtanen">
-  <data key="d1">predecessor to</data>
+<edge source="janne virtanen" target="ahola">
+  <data key="d1">passed the torch</data>
+</edge>
+<edge source="janne virtanen" target="2000">
+  <data key="d1">winner</data>
+</edge>
+<edge source="janne virtanen" target="2001">
+  <data key="d1">third place</data>
+</edge>
+<edge source="1999" target="1999">
+  <data key="d1">year</data>
+</edge>
+<edge source="1999" target="22">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1999" target="jouko ahola (2)">
+  <data key="d1">winner</data>
+</edge>
+<edge source="1999" target="svend karlsen">
+  <data key="d1">third place</data>
+</edge>
+<edge source="1999" target="valletta">
+  <data key="d1">host city</data>
+</edge>
+<edge source="magnus samuelsson" target="1998">
+  <data key="d1">winner</data>
 </edge>
 <edge source="magnus samuelsson" target="sweden">
   <data key="d1">from</data>
 </edge>
-<edge source="magnus samuelsson" target="8 title">
-  <data key="d1">winner of</data>
-</edge>
 <edge source="magnus samuelsson" target="1997">
   <data key="d1">third place</data>
-</edge>
-<edge source="magnus samuelsson" target="1998">
-  <data key="d1">winner</data>
 </edge>
 <edge source="magnus samuelsson" target="2000">
   <data key="d1">third place</data>
@@ -2608,74 +3040,41 @@
 <edge source="magnus samuelsson" target="2017.0">
   <data key="d1">year</data>
 </edge>
-<edge source="after 1998" target="ahola  ">
-  <data key="d1">retired in</data>
+<edge source="1998" target="ahola">
+  <data key="d1">won from</data>
 </edge>
-<edge source="after 1998" target="ahola">
-  <data key="d1">retired in</data>
+<edge source="1998" target="1998">
+  <data key="d1">year</data>
 </edge>
-<edge source="janne virtanen" target="9 title  ">
-  <data key="d1">winner of</data>
-</edge>
-<edge source="janne virtanen" target="9 title">
-  <data key="d1">winner of</data>
-</edge>
-<edge source="janne virtanen" target="1999">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="janne virtanen" target="2000">
-  <data key="d1">winner</data>
-</edge>
-<edge source="janne virtanen" target="2001">
-  <data key="d1">third place</data>
-</edge>
-<edge source="1990s scandinavian competition" target="magnus samuelsson  ">
-  <data key="d1">successor</data>
-</edge>
-<edge source="finland" target="united kingdom">
-  <data key="d1">related to</data>
-</edge>
-<edge source="finland" target="sweden">
-  <data key="d1">borders</data>
-</edge>
-<edge source="finland" target="united states">
-  <data key="d1">context includes</data>
-</edge>
-<edge source="finland" target="finland">
-  <data key="d1">country</data>
-</edge>
-<edge source="finland" target="5">
+<edge source="1998" target="21">
   <data key="d1">positioninlist</data>
 </edge>
-<edge source="finland" target="3">
-  <data key="d1">silver</data>
+<edge source="1998" target="wout zijlstra">
+  <data key="d1">third place</data>
 </edge>
-<edge source="finland" target="11">
-  <data key="d1">total</data>
+<edge source="1998" target="tangier">
+  <data key="d1">host city</data>
 </edge>
 <edge source="sweden" target="united kingdom">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
-<edge source="sweden" target="lithuania">
-  <data key="d1">common countries</data>
+<edge source="sweden" target="finland  ">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="sweden" target="iceland">
-  <data key="d1">common countries</data>
+<edge source="sweden" target="nordic countries  ">
+  <data key="d1">part of</data>
 </edge>
-<edge source="sweden" target="china">
-  <data key="d1">common countries</data>
+<edge source="sweden" target="norway  ">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="sweden" target="united states">
-  <data key="d1">context includes</data>
+<edge source="sweden" target="finland">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="sweden" target="poland">
-  <data key="d1">common countries</data>
+<edge source="sweden" target="nordic countries">
+  <data key="d1">part of</data>
 </edge>
-<edge source="sweden" target="ukraine">
-  <data key="d1">common countries</data>
-</edge>
-<edge source="sweden" target="canada">
-  <data key="d1">common countries</data>
+<edge source="sweden" target="norway">
+  <data key="d1">neighbor of</data>
 </edge>
 <edge source="sweden" target="sweden">
   <data key="d1">country</data>
@@ -2686,32 +3085,62 @@
 <edge source="sweden" target="1">
   <data key="d1">gold</data>
 </edge>
-<edge source="sweden" target="3">
-  <data key="d1">silver</data>
-</edge>
 <edge source="sweden" target="4">
   <data key="d1">bronze</data>
 </edge>
 <edge source="sweden" target="8">
   <data key="d1">total</data>
 </edge>
-<edge source="pudzianowski" target="2004">
+<edge source="1992" target="1992">
+  <data key="d1">year</data>
+</edge>
+<edge source="1992" target="15">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1992" target="ted van der parre">
+  <data key="d1">winner</data>
+</edge>
+<edge source="1992" target="magnús ver magnússon">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="1992" target="reykjavík">
+  <data key="d1">host city</data>
+</edge>
+<edge source="2005" target="pudzianowski">
   <data key="d1">won</data>
 </edge>
-<edge source="pudzianowski" target="2005">
+<edge source="2005" target="jesse marunde">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="2005" target="2005">
+  <data key="d1">year</data>
+</edge>
+<edge source="2005" target="28">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2005" target="mariusz pudzianowski (3)">
+  <data key="d1">winner</data>
+</edge>
+<edge source="2005" target="dominic filiou">
+  <data key="d1">third place</data>
+</edge>
+<edge source="2005" target="chengdu">
+  <data key="d1">host city</data>
+</edge>
+<edge source="pudzianowski" target="2004">
   <data key="d1">won</data>
 </edge>
 <edge source="pudzianowski" target="2007">
   <data key="d1">regained</data>
 </edge>
-<edge source="pudzianowski" target="multiple world's strongest man">
-  <data key="d1">won</data>
-</edge>
-<edge source="pudzianowski" target="event">
-  <data key="d1">tied in</data>
+<edge source="pudzianowski" target="2004-2005">
+  <data key="d1">dominant in</data>
 </edge>
 <edge source="pudzianowski" target="poundstone">
-  <data key="d1">tied with</data>
+  <data key="d1">competed with</data>
+</edge>
+<edge source="pudzianowski" target="events">
+  <data key="d1">tied in</data>
 </edge>
 <edge source="pudzianowski" target="deadlift">
   <data key="d1">won</data>
@@ -2719,14 +3148,11 @@
 <edge source="pudzianowski" target="plane pull">
   <data key="d1">won</data>
 </edge>
-<edge source="pudzianowski" target="atlas stones">
+<edge source="pudzianowski" target="2008">
+  <data key="d1">featured</data>
+</edge>
+<edge source="pudzianowski" target="fame wsm 2008">
   <data key="d1">competed in</data>
-</edge>
-<edge source="pudzianowski" target="wsm 2008">
-  <data key="d1">had competitor</data>
-</edge>
-<edge source="pudzianowski" target="2022">
-  <data key="d1">had member</data>
 </edge>
 <edge source="2004" target="2004">
   <data key="d1">year</data>
@@ -2743,23 +3169,11 @@
 <edge source="2004" target="nassau">
   <data key="d1">host city</data>
 </edge>
-<edge source="2005" target="2005">
-  <data key="d1">year</data>
+<edge source="2007" target="wenta">
+  <data key="d1">competed in</data>
 </edge>
-<edge source="2005" target="28">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2005" target="mariusz pudzianowski (3)">
-  <data key="d1">winner</data>
-</edge>
-<edge source="2005" target="jesse marunde">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="2005" target="dominic filiou">
+<edge source="2007" target="terry hollands">
   <data key="d1">third place</data>
-</edge>
-<edge source="2005" target="chengdu">
-  <data key="d1">host city</data>
 </edge>
 <edge source="2007" target="2007">
   <data key="d1">year</data>
@@ -2773,32 +3187,23 @@
 <edge source="2007" target="sebastian wenta">
   <data key="d1">runner-up</data>
 </edge>
-<edge source="2007" target="terry hollands">
-  <data key="d1">third place</data>
-</edge>
 <edge source="2007" target="anaheim">
   <data key="d1">host city</data>
 </edge>
+<edge source="first noneuropean" target="jesse marunde">
+  <data key="d1">was</data>
+</edge>
 <edge source="jesse marunde" target="3rd">
-  <data key="d1">finished</data>
+  <data key="d1">placed</data>
 </edge>
 <edge source="jesse marunde" target="noneuropean">
-  <data key="d1">is</data>
+  <data key="d1">placed on podium</data>
 </edge>
-<edge source="jesse marunde" target="world's strongest man">
-  <data key="d1">competed in</data>
+<edge source="wenta" target="2nd">
+  <data key="d1">took</data>
 </edge>
-<edge source="jesse marunde" target="podium">
+<edge source="terry hollands" target="podium">
   <data key="d1">reached</data>
-</edge>
-<edge source="3rd" target="jean caron">
-  <data key="d1">position</data>
-</edge>
-<edge source="podium" target="terry hollands">
-  <data key="d1">achieved</data>
-</edge>
-<edge source="terry hollands" target="world's strongest man">
-  <data key="d1">competed in</data>
 </edge>
 <edge source="terry hollands" target="2011">
   <data key="d1">third place</data>
@@ -2812,8 +3217,14 @@
 <edge source="terry hollands" target="2021">
   <data key="d1">year</data>
 </edge>
-<edge source="2008" target="event">
-  <data key="d1">year of</data>
+<edge source="2008" target="poundstone">
+  <data key="d1">featured</data>
+</edge>
+<edge source="2008" target="atlas stones">
+  <data key="d1">included</data>
+</edge>
+<edge source="2008" target="shaw">
+  <data key="d1">competed in</data>
 </edge>
 <edge source="2008" target="2008">
   <data key="d1">year</data>
@@ -2833,68 +3244,65 @@
 <edge source="2008" target="charleston">
   <data key="d1">host city</data>
 </edge>
-<edge source="event" target="poundstone">
+<edge source="poundstone" target="events">
   <data key="d1">tied in</data>
-</edge>
-<edge source="event" target="atlas stones">
-  <data key="d1">is event</data>
-</edge>
-<edge source="event" target="shaw and savickas">
-  <data key="d1">tied in</data>
-</edge>
-<edge source="event" target="journal">
-  <data key="d1">published in</data>
-</edge>
-<edge source="event" target="march 2012">
-  <data key="d1">happened on</data>
-</edge>
-<edge source="event" target="april 2021">
-  <data key="d1">happened on</data>
-</edge>
-<edge source="poundstone" target="atlas stones">
-  <data key="d1">competed in</data>
 </edge>
 <edge source="poundstone" target="stone">
   <data key="d1">dropped</data>
 </edge>
-<edge source="atlas stones" target="stone">
-  <data key="d1">is object</data>
+<edge source="events" target="may">
+  <data key="d1">occur in</data>
 </edge>
-<edge source="atlas stones" target="shaw">
-  <data key="d1">victory in</data>
+<edge source="events" target="august">
+  <data key="d1">occur in</data>
 </edge>
-<edge source="atlas stones" target="brian shaw">
-  <data key="d1">competed in</data>
+<edge source="events" target="strongman events">
+  <data key="d1">includes</data>
 </edge>
 <edge source="deadlift" target="novikov">
   <data key="d1">set record</data>
 </edge>
-<edge source="deadlift" target="537 lbs">
-  <data key="d1">weight</data>
+<edge source="atlas stones" target="shaw">
+  <data key="d1">victory with</data>
+</edge>
+<edge source="savickas" target="world record">
+  <data key="d1">set</data>
+</edge>
+<edge source="savickas" target="shaw">
+  <data key="d1">competed in same event as</data>
+</edge>
+<edge source="savickas" target="wsm title">
+  <data key="d1">has</data>
 </edge>
 <edge source="savickas" target="log lift">
   <data key="d1">set record</data>
 </edge>
-<edge source="savickas" target="shaw">
-  <data key="d1">finished behind</data>
-</edge>
-<edge source="savickas" target="koklyaev">
-  <data key="d1">competed against</data>
-</edge>
-<edge source="savickas" target="world record">
-  <data key="d1">lifted by</data>
+<edge source="savickas" target="log lift record">
+  <data key="d1">held</data>
 </edge>
 <edge source="savickas" target="2017">
   <data key="d1">winner of</data>
 </edge>
 <edge source="savickas" target="strossen randall">
-  <data key="d1">record held by</data>
+  <data key="d1">related to</data>
 </edge>
-<edge source="savickas" target="mariusz pudzianowski">
-  <data key="d1">competes against</data>
+<edge source="savickas" target="record">
+  <data key="d1">achieved</data>
 </edge>
-<edge source="log lift" target="220 kg">
-  <data key="d1">lifted</data>
+<edge source="world record" target="log lift of 210">
+  <data key="d1">with</data>
+</edge>
+<edge source="shaw" target="nerve damage">
+  <data key="d1">suffered</data>
+</edge>
+<edge source="shaw" target="fourth">
+  <data key="d1">finished</data>
+</edge>
+<edge source="shaw" target="2017">
+  <data key="d1">winner of</data>
+</edge>
+<edge source="shaw" target="uk taylor">
+  <data key="d1">competed in same event as</data>
 </edge>
 <edge source="brian shaw" target="third">
   <data key="d1">placed</data>
@@ -2902,8 +3310,8 @@
 <edge source="brian shaw" target="2018">
   <data key="d1">third place</data>
 </edge>
-<edge source="brian shaw" target="title">
-  <data key="d1">wins</data>
+<edge source="brian shaw" target="world's strongest man">
+  <data key="d1">featured</data>
 </edge>
 <edge source="brian shaw" target="2009">
   <data key="d1">third place</data>
@@ -2932,59 +3340,14 @@
 <edge source="brian shaw" target="united states">
   <data key="d1">country</data>
 </edge>
-<edge source="koklyaev" target="shaw">
-  <data key="d1">ranked ahead of</data>
+<edge source="wsm title" target="2015">
+  <data key="d1">awarded in</data>
 </edge>
-<edge source="first title" target="shaw">
-  <data key="d1">earned</data>
+<edge source="wsm title" target="2017">
+  <data key="d1">awarded in</data>
 </edge>
-<edge source="first title" target="atlantic 2021">
-  <data key="d1">event</data>
-</edge>
-<edge source="first title" target="tom stoltman">
-  <data key="d1">secured by</data>
-</edge>
-<edge source="shaw" target="nerve damage">
-  <data key="d1">sustained</data>
-</edge>
-<edge source="shaw" target="savachieved">
-  <data key="d1">finished ahead of</data>
-</edge>
-<edge source="shaw" target="2017">
-  <data key="d1">winner of</data>
-</edge>
-<edge source="shaw" target="strongman deadlift world record">
-  <data key="d1">record holder of</data>
-</edge>
-<edge source="2012" target="savachieved">
-  <data key="d1">third world title</data>
-</edge>
-<edge source="2012" target="2012">
-  <data key="d1">year</data>
-</edge>
-<edge source="2012" target="35">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2012" target="žydrūnas savickas (3)">
-  <data key="d1">winner</data>
-</edge>
-<edge source="2012" target="vytautas lalas">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="2012" target="hafþór júlíus björnsson">
-  <data key="d1">third place</data>
-</edge>
-<edge source="2012" target="los angeles">
-  <data key="d1">host city</data>
-</edge>
-<edge source="savachieved" target="log lift record">
-  <data key="d1">has</data>
-</edge>
-<edge source="savachieved" target="wsm title">
-  <data key="d1">won</data>
-</edge>
-<edge source="world record" target="novikov">
-  <data key="d1">set by</data>
+<edge source="log lift" target="220 kg">
+  <data key="d1">lifted by</data>
 </edge>
 <edge source="2017" target="2017">
   <data key="d1">year</data>
@@ -3007,20 +3370,14 @@
 <edge source="eddie hall" target="strongman deadlift world record">
   <data key="d1">holds</data>
 </edge>
-<edge source="eddie hall" target="472 kg">
-  <data key="d1">deadlifted</data>
-</edge>
-<edge source="eddie hall" target="strongest man home edition">
-  <data key="d1">hosted by</data>
-</edge>
-<edge source="eddie hall" target="contest">
+<edge source="eddie hall" target="strongest man home edition series">
   <data key="d1">hosted</data>
 </edge>
 <edge source="eddie hall" target="2016">
   <data key="d1">third place</data>
 </edge>
-<edge source="2015" target="toss">
-  <data key="d1">happened on</data>
+<edge source="2015" target="toss 2015">
+  <data key="d1">connected to</data>
 </edge>
 <edge source="2015" target="2015">
   <data key="d1">year</data>
@@ -3041,19 +3398,22 @@
   <data key="d1">host city</data>
 </edge>
 <edge source="strongman deadlift world record" target="472 kg">
-  <data key="d1">is</data>
+  <data key="d1">weight</data>
 </edge>
 <edge source="2018" target="mateusz kieliszkowski">
   <data key="d1">runner-up</data>
 </edge>
 <edge source="2018" target="žydrūnas savickas">
-  <data key="d1">includes</data>
+  <data key="d1">tenth place</data>
 </edge>
-<edge source="2018" target="strongest man home edition">
-  <data key="d1">linked to</data>
+<edge source="2018" target="world's strongest man">
+  <data key="d1">held in</data>
 </edge>
-<edge source="2018" target="2023">
-  <data key="d1">subsequent placement to</data>
+<edge source="2018" target="maxime boudreault">
+  <data key="d1">year</data>
+</edge>
+<edge source="2018" target="february 2018">
+  <data key="d1">month of</data>
 </edge>
 <edge source="2018" target="2018">
   <data key="d1">year</data>
@@ -3067,32 +3427,29 @@
 <edge source="2018" target="manila">
   <data key="d1">host city</data>
 </edge>
-<edge source="icelander" target="1996">
-  <data key="d1">winner since</data>
-</edge>
-<edge source="1996" target="1996">
-  <data key="d1">year</data>
-</edge>
-<edge source="1996" target="19">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="1996" target="magnús ver magnússon (4)">
-  <data key="d1">winner</data>
-</edge>
-<edge source="1996" target="gerrit badenhorst">
-  <data key="d1">third place</data>
-</edge>
-<edge source="1996" target="port louis">
-  <data key="d1">host city</data>
-</edge>
 <edge source="mateusz kieliszkowski" target="second">
   <data key="d1">placed</data>
+</edge>
+<edge source="mateusz kieliszkowski" target="world's strongest man">
+  <data key="d1">featured</data>
 </edge>
 <edge source="mateusz kieliszkowski" target="2019">
   <data key="d1">runner-up</data>
 </edge>
+<edge source="second" target="tom stoltman">
+  <data key="d1">position</data>
+</edge>
+<edge source="third" target="maxime boudreault">
+  <data key="d1">position</data>
+</edge>
+<edge source="third" target="novikov">
+  <data key="d1">position</data>
+</edge>
 <edge source="žydrūnas savickas" target="tenth">
   <data key="d1">placed</data>
+</edge>
+<edge source="žydrūnas savickas" target="world's strongest man">
+  <data key="d1">featured</data>
 </edge>
 <edge source="žydrūnas savickas" target="2003">
   <data key="d1">runner-up</data>
@@ -3109,532 +3466,121 @@
 <edge source="žydrūnas savickas" target="žydrūnas savickas">
   <data key="d1">champion</data>
 </edge>
-<edge source="žydrūnas savickas" target="3">
-  <data key="d1">positioninlist</data>
-</edge>
 <edge source="žydrūnas savickas" target="lithuania">
   <data key="d1">country</data>
 </edge>
 <edge source="žydrūnas savickas" target="4">
   <data key="d1">times</data>
 </edge>
+<edge source="may" target="covid19">
+  <data key="d1">postponed from</data>
+</edge>
+<edge source="may" target="hooper">
+  <data key="d1">won in</data>
+</edge>
 <edge source="covid19" target="november">
   <data key="d1">postponed to</data>
 </edge>
-<edge source="covid19" target="may">
-  <data key="d1">postponed from</data>
-</edge>
-<edge source="covid19" target="snapchat discover">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="covid19" target="contest">
+<edge source="covid19" target="11 november 2020">
   <data key="d1">related to</data>
 </edge>
-<edge source="november" target="contest">
-  <data key="d1">official</data>
-</edge>
-<edge source="november" target="interview">
-  <data key="d1">from</data>
-</edge>
-<edge source="may" target="strongest man home edition">
-  <data key="d1">introduced in</data>
-</edge>
-<edge source="snapchat discover" target="strongest man home edition">
-  <data key="d1">on</data>
-</edge>
-<edge source="strongest man home edition" target="contest">
-  <data key="d1">type of</data>
-</edge>
-<edge source="contest" target="novikov">
-  <data key="d1">competed in</data>
-</edge>
-<edge source="fans" target="athletes">
-  <data key="d1">voted for</data>
-</edge>
-<edge source="athletes" target="home">
-  <data key="d1">performed from</data>
-</edge>
-<edge source="rongo keene" target="$10">
-  <data key="d1">winner of</data>
-</edge>
-<edge source="licis kieliszkowski" target="">
-  <data key="d1">injured</data>
-</edge>
-<edge source="" target="novikov">
-  <data key="d1">won</data>
-</edge>
-<edge source="novikov" target="1st">
-  <data key="d1">position</data>
-</edge>
-<edge source="novikov" target="4th">
+<edge source="november" target="september  ">
   <data key="d1">related to</data>
 </edge>
-<edge source="novikov" target="2023">
-  <data key="d1">3rd at</data>
+<edge source="november" target="july">
+  <data key="d1">related to</data>
 </edge>
-<edge source="novikov" target="world’s strongest man">
-  <data key="d1">in</data>
+<edge source="november" target="september">
+  <data key="d1">related to</data>
 </edge>
-<edge source="novikov" target="2020">
-  <data key="d1">accomplished in</data>
+<edge source="november" target="chelsea">
+  <data key="d1">participates in</data>
 </edge>
-<edge source="novikov" target="men health">
-  <data key="d1">features</data>
-</edge>
-<edge source="novikov" target="1">
-  <data key="d1">performs</data>
-</edge>
-<edge source="novikov" target="27 november 2020">
-  <data key="d1">published on</data>
-</edge>
-<edge source="novikov" target="usa today">
+<edge source="november" target="barbend">
   <data key="d1">reported by</data>
 </edge>
-<edge source="novikov" target="strongest victory">
-  <data key="d1">has</data>
+<edge source="november" target="2020">
+  <data key="d1">related to</data>
+</edge>
+<edge source="november" target="13 november 2020">
+  <data key="d1">happens on</data>
+</edge>
+<edge source="strongest man home edition series" target="snapchat discover">
+  <data key="d1">hosted on</data>
+</edge>
+<edge source="strongest man home edition series" target="athletes">
+  <data key="d1">participated in</data>
+</edge>
+<edge source="strongest man home edition series" target="fans">
+  <data key="d1">voted in</data>
+</edge>
+<edge source="strongest man home edition series" target="rongo keene">
+  <data key="d1">won</data>
+</edge>
+<edge source="rongo keene" target="$10">
+  <data key="d1">received</data>
+</edge>
+<edge source="novikov" target="4th">
+  <data key="d1">close to</data>
+</edge>
+<edge source="novikov" target="1st">
+  <data key="d1">behind</data>
+</edge>
+<edge source="novikov" target="tom stoltman">
+  <data key="d1">competed against</data>
+</edge>
+<edge source="novikov" target="stoltman">
+  <data key="d1">behind in competition</data>
+</edge>
+<edge source="novikov" target="finals">
+  <data key="d1">placed 4th in</data>
+</edge>
+<edge source="novikov" target="myrtle beach">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="novikov" target="third in 2023">
+  <data key="d1">position</data>
+</edge>
+<edge source="novikov" target="2023">
+  <data key="d1">year</data>
+</edge>
+<edge source="novikov" target="2020">
+  <data key="d1">wins</data>
+</edge>
+<edge source="novikov" target="canceled">
+  <data key="d1">attended event</data>
+</edge>
+<edge source="novikov" target="2020 strongest man">
+  <data key="d1">won</data>
+</edge>
+<edge source="novikov" target="1">
+  <data key="d1">achieved</data>
+</edge>
+<edge source="novikov" target="victory">
+  <data key="d1">achieved</data>
+</edge>
+<edge source="novikov" target="barbend">
+  <data key="d1">victory related to</data>
+</edge>
+<edge source="novikov" target="strongest man roster">
+  <data key="d1">part of</data>
+</edge>
+<edge source="stoltman" target="tom stoltman">
+  <data key="d1">won title from</data>
 </edge>
 <edge source="stoltman" target="strongest man 2023">
   <data key="d1">wins</data>
 </edge>
-<edge source="stoltman" target="hooper">
-  <data key="d1">competitor of</data>
-</edge>
-<edge source="stoltman" target="williams brett">
-  <data key="d1">competitor of</data>
-</edge>
-<edge source="stoltman" target="usa today via msn news">
-  <data key="d1">highlighted by</data>
-</edge>
-<edge source="tom stoltman" target="second place">
-  <data key="d1">placed in</data>
-</edge>
-<edge source="tom stoltman" target="first scotsman">
-  <data key="d1">is</data>
-</edge>
-<edge source="tom stoltman" target="2023">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="tom stoltman" target="gutman andrew">
-  <data key="d1">strongest</data>
-</edge>
-<edge source="tom stoltman" target="2nd title">
-  <data key="d1">wins</data>
-</edge>
-<edge source="tom stoltman" target="strongest man roster">
-  <data key="d1">includes</data>
-</edge>
-<edge source="tom stoltman" target="blechman">
-  <data key="d1">reports</data>
-</edge>
-<edge source="tom stoltman" target="chris bumbaca">
-  <data key="d1">reports</data>
-</edge>
-<edge source="tom stoltman" target="tom stoltman">
-  <data key="d1">champion</data>
-</edge>
-<edge source="tom stoltman" target="8">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="tom stoltman" target="2020">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="tom stoltman" target="2021">
-  <data key="d1">years</data>
-</edge>
-<edge source="tom stoltman" target="6">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="tom stoltman" target="united kingdom">
-  <data key="d1">country</data>
-</edge>
-<edge source="tom stoltman" target="3">
-  <data key="d1">times</data>
-</edge>
-<edge source="mitchell hooper" target="myrtle beach">
-  <data key="d1">won</data>
-</edge>
-<edge source="mitchell hooper" target="south carolina">
-  <data key="d1">won</data>
-</edge>
-<edge source="mitchell hooper" target="2023">
-  <data key="d1">winner</data>
-</edge>
-<edge source="mitchell hooper" target="2024">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="myrtle beach" target="2024">
-  <data key="d1">host city</data>
-</edge>
-<edge source="myrtle beach" target="south carolina">
-  <data key="d1">located in</data>
-</edge>
-<edge source="myrtle beach" target="2023">
-  <data key="d1">host city</data>
-</edge>
-<edge source="2023" target="2023">
-  <data key="d1">year</data>
-</edge>
-<edge source="2023" target="46">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2023" target="oleksii novikov">
-  <data key="d1">third place</data>
-</edge>
-<edge source="2023" target="steve slater">
-  <data key="d1">year</data>
-</edge>
-<edge source="2024" target="2024">
-  <data key="d1">year</data>
-</edge>
-<edge source="2024" target="47">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2024" target="tom stoltman (3)">
-  <data key="d1">winner</data>
-</edge>
-<edge source="2024" target="evan singleton">
-  <data key="d1">third place</data>
-</edge>
-<edge source="2024" target="47mariusz pudzianowski">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2024" target="eddie williams">
-  <data key="d1">year</data>
-</edge>
-<edge source="2024" target="rob kearney">
-  <data key="d1">year</data>
-</edge>
-<edge source="fame" target="wsm 2008">
-  <data key="d1">occurred in year</data>
-</edge>
-<edge source="wsm 2008" target="svend karlsen">
-  <data key="d1">had competitor</data>
-</edge>
-<edge source="wsm 2008" target="magnusson">
-  <data key="d1">had competitor</data>
-</edge>
-<edge source="wsm 2008" target="samuelsson">
-  <data key="d1">had competitor</data>
-</edge>
-<edge source="wsm 2008" target="strongman award">
-  <data key="d1">had award</data>
-</edge>
-<edge source="wsm 2008" target="strongest man website">
-  <data key="d1">included in</data>
-</edge>
-<edge source="svend karlsen" target="2022">
-  <data key="d1">had member</data>
-</edge>
-<edge source="svend karlsen" target="1999">
-  <data key="d1">third place</data>
-</edge>
-<edge source="svend karlsen" target="2000">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="svend karlsen" target="2001">
-  <data key="d1">winner</data>
-</edge>
-<edge source="magnusson" target="2022">
-  <data key="d1">had member</data>
-</edge>
-<edge source="samuelsson" target="2022">
-  <data key="d1">had member</data>
-</edge>
-<edge source="2022" target="svend karlsen ">
-  <data key="d1">acknowledged</data>
-</edge>
-<edge source="2022" target="2022">
-  <data key="d1">year</data>
-</edge>
-<edge source="2022" target="45">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2022" target="tom stoltman (2)">
-  <data key="d1">winner</data>
-</edge>
-<edge source="2022" target="martins licis">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="2022" target="oleksii novikov">
-  <data key="d1">third place</data>
-</edge>
-<edge source="2022" target="sacramento">
-  <data key="d1">host city</data>
-</edge>
-<edge source="2022" target="mark felix">
-  <data key="d1">year</data>
-</edge>
-<edge source="jimmy pollock" target="strongman award">
-  <data key="d1">awarded</data>
-</edge>
-<edge source="strongman award" target="strongest man website">
-  <data key="d1">mentioned in</data>
-</edge>
-<edge source="strongest man website" target="24 july 2012">
-  <data key="d1">published on</data>
-</edge>
-<edge source="strongest man website" target="2020 strongest man championship">
-  <data key="d1">covers competitions</data>
-</edge>
-<edge source="strongest man website" target="strongest man 2017 schedule">
-  <data key="d1">details schedule</data>
-</edge>
-<edge source="strongest man website" target="19 november 2023">
-  <data key="d1">highlights event</data>
-</edge>
-<edge source="2020 strongest man championship" target="bradenton">
-  <data key="d1">held in</data>
-</edge>
-<edge source="2020 strongest man championship" target="florida">
-  <data key="d1">held in</data>
-</edge>
-<edge source="2020 strongest man championship" target="january">
-  <data key="d1">starts in</data>
-</edge>
-<edge source="2020 strongest man championship" target="december 27">
-  <data key="d1">ends in</data>
-</edge>
-<edge source="2020 strongest man championship" target="strongest man tournament">
-  <data key="d1">in</data>
-</edge>
-<edge source="bradenton" target="2019">
-  <data key="d1">host city</data>
-</edge>
-<edge source="bradenton" target="2020">
-  <data key="d1">host city</data>
-</edge>
-<edge source="florida" target="anna maria island">
-  <data key="d1">competition in</data>
-</edge>
-<edge source="florida" target="bradenton herald">
-  <data key="d1">reported event in</data>
-</edge>
-<edge source="strongest man 2017 schedule" target="strongest man tournament">
-  <data key="d1">part of</data>
-</edge>
-<edge source="strongest man 2017 schedule" target="december">
-  <data key="d1">part of</data>
-</edge>
-<edge source="strongest man tournament" target="extraordinary strength">
-  <data key="d1">features</data>
-</edge>
-<edge source="19 november 2023" target="december">
-  <data key="d1">held in</data>
-</edge>
-<edge source="19 november 2023" target="strongest man tournaments">
-  <data key="d1">features competition dates</data>
-</edge>
-<edge source="december" target="6 december">
-  <data key="d1">occurs on</data>
-</edge>
-<edge source="subhankar" target="sportsgrail">
-  <data key="d1">strongest winners</data>
-</edge>
-<edge source="subhankar" target="strongest winners">
-  <data key="d1">features</data>
-</edge>
-<edge source="sportsgrail" target="sportsgrail">
-  <data key="d1">by</data>
-</edge>
-<edge source="sportsgrail" target="november 2023">
-  <data key="d1">conducted in</data>
-</edge>
-<edge source="sportsgrail" target="robert goldman">
-  <data key="d1">sportshall</data>
-</edge>
-<edge source="robert goldman" target="sports hall fame inductees">
-  <data key="d1">includes</data>
-</edge>
-<edge source="robert goldman" target="17 march">
-  <data key="d1">inducted on</data>
-</edge>
-<edge source="17 march" target="hall fame induction ceremony">
-  <data key="d1">on</data>
-</edge>
-<edge source="hall fame induction ceremony" target="sports hall fame inductees">
-  <data key="d1">takes place in</data>
-</edge>
-<edge source="amazon" target="strongest man winner story">
-  <data key="d1">carried a story on</data>
-</edge>
-<edge source="13 february 2022" target="strongest man winner story">
-  <data key="d1">was published on</data>
-</edge>
-<edge source="strongest man winner story" target="strongest man rivalries">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="radio times" target="1 april 2021">
-  <data key="d1">was published on</data>
-</edge>
-<edge source="1 april 2021" target="strongest man competitions">
-  <data key="d1">associated dates</data>
-</edge>
-<edge source="strongest man rivalries" target="february 2018">
-  <data key="d1">was published in</data>
-</edge>
-<edge source="february 2018" target="competitive rivalries">
-  <data key="d1">discussed in</data>
-</edge>
-<edge source="february 2018" target="7 february 2018">
-  <data key="d1">is on</data>
-</edge>
-<edge source="february 2018" target="stones event">
-  <data key="d1">held on</data>
-</edge>
-<edge source="february 2018" target="december 2019">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="february 2018" target="toss">
-  <data key="d1">happened on</data>
-</edge>
-<edge source="february 2018" target="loaded carries training">
-  <data key="d1">mentioned in</data>
-</edge>
-<edge source="february 2018" target="hercules">
-  <data key="d1">notable activities on</data>
-</edge>
-<edge source="herald" target="war games">
-  <data key="d1">includes</data>
-</edge>
-<edge source="herald" target="pall sigmarsson">
-  <data key="d1">discussed in</data>
-</edge>
-<edge source="strength" target="interview">
-  <data key="d1">is noted in</data>
-</edge>
-<edge source="interview" target="ironmind">
-  <data key="d1">publishes</data>
-</edge>
-<edge source="interview" target="pall sigmarsson">
-  <data key="d1">highlighted in</data>
-</edge>
-<edge source="interview" target="mariusz pudzianowski">
-  <data key="d1">highlighted in</data>
-</edge>
-<edge source="ironmind" target="pall sigmarsson">
-  <data key="d1">covers</data>
-</edge>
-<edge source="pall sigmarsson" target="charisma">
-  <data key="d1">exhibits</data>
-</edge>
-<edge source="mariusz pudzianowski" target="strongman">
-  <data key="d1">is a</data>
-</edge>
-<edge source="mariusz pudzianowski" target="strossen randall">
-  <data key="d1">commented on</data>
-</edge>
-<edge source="mariusz pudzianowski" target="2006">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="mariusz pudzianowski" target="2009">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="mariusz pudzianowski" target="0">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="mariusz pudzianowski" target="poland">
-  <data key="d1">country</data>
-</edge>
-<edge source="mariusz pudzianowski" target="5">
-  <data key="d1">times</data>
-</edge>
-<edge source="mariusz pudzianowski" target="mariusz pudzianowski">
-  <data key="d1">member</data>
-</edge>
-<edge source="mariusz pudzianowski" target="1">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="april 2021" target="stairs">
-  <data key="d1">occurred on</data>
-</edge>
-<edge source="april 2021" target="12 april 2021">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="april 2021" target="toss">
-  <data key="d1">happened on</data>
-</edge>
-<edge source="april 2021" target="loaded carries training">
-  <data key="d1">mentioned in</data>
-</edge>
-<edge source="april 2021" target="hercules">
-  <data key="d1">notable activities on</data>
-</edge>
-<edge source="7 february 2018" target="7 february 2018">
-  <data key="d1">is on</data>
-</edge>
-<edge source="7 february 2018" target="6 december 2019">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="bradenton herald" target="ballogg ryan">
-  <data key="d1">mentioned in</data>
-</edge>
-<edge source="bradenton herald" target="anna maria island">
-  <data key="d1">covered by</data>
-</edge>
-<edge source="ballogg ryan" target="strongest man event">
-  <data key="d1">covered</data>
-</edge>
-<edge source="ballogg ryan" target="anna maria island competition">
-  <data key="d1">won</data>
-</edge>
-<edge source="ballogg ryan" target="strongest man in">
-  <data key="d1">awarded to</data>
-</edge>
-<edge source="strongest man in" target="anna maria island">
-  <data key="d1">held in</data>
-</edge>
-<edge source="ellis philip" target="hall">
-  <data key="d1">features</data>
-</edge>
-<edge source="ellis philip" target="men health">
-  <data key="d1">features</data>
-</edge>
-<edge source="hall" target="keene">
-  <data key="d1">interviews</data>
-</edge>
-<edge source="hall" target="strongest man edition">
-  <data key="d1">is an edition of</data>
-</edge>
-<edge source="hall" target="philip ellis">
-  <data key="d1">features</data>
-</edge>
-<edge source="keene" target="barbend">
-  <data key="d1">reports on</data>
-</edge>
-<edge source="health" target="men health">
-  <data key="d1">focuses on</data>
-</edge>
-<edge source="barbend" target="strongest victory">
-  <data key="d1">documented by</data>
-</edge>
-<edge source="chelsea" target="november 2020">
-  <data key="d1">took place in</data>
-</edge>
-<edge source="2020" target="canceled">
-  <data key="d1">strongest man</data>
-</edge>
-<edge source="2020" target="hercules">
-  <data key="d1">happened in</data>
-</edge>
-<edge source="2020" target="2020">
-  <data key="d1">year</data>
-</edge>
-<edge source="2020" target="43">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2020" target="oleksii novikov">
-  <data key="d1">winner</data>
-</edge>
-<edge source="2020" target="jean-françois caron">
-  <data key="d1">third place</data>
+<edge source="stoltman" target="april">
+  <data key="d1">won in</data>
+</edge>
+<edge source="1" target="537">
+  <data key="d1">is equivalent to</data>
 </edge>
 <edge source="1" target="tournament information">
   <data key="d1">positioninlist</data>
 </edge>
 <edge source="1" target="1978">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="1" target="jón páll sigmarsson">
   <data key="d1">positioninlist</data>
 </edge>
 <edge source="1" target="8">
@@ -3664,263 +3610,707 @@
 <edge source="1" target="russia">
   <data key="d1">total</data>
 </edge>
+<edge source="1" target="mariusz pudzianowski">
+  <data key="d1">positioninlist</data>
+</edge>
 <edge source="1" target="rob kearney">
   <data key="d1">positioninlist</data>
 </edge>
 <edge source="1" target="see also: strength training weight training power training strength athletics highland games crossfit games">
   <data key="d1">positioninlist</data>
 </edge>
-<edge source="usa today" target="news">
-  <data key="d1">publishes</data>
+<edge source="537" target="deadlift weight">
+  <data key="d1">is</data>
 </edge>
-<edge source="world" target="strongest man roster">
-  <data key="d1">includes</data>
+<edge source="loicis kieliszkowski" target="november competition">
+  <data key="d1">injuries</data>
 </edge>
-<edge source="world" target="andrew">
-  <data key="d1">includes</data>
+<edge source="november competition" target="athletes filmed events">
+  <data key="d1">strongest man home edition series</data>
 </edge>
-<edge source="strongest man roster" target="strongest man roster">
-  <data key="d1">in</data>
+<edge source="1st" target="tom stoltman">
+  <data key="d1">ranked</data>
 </edge>
-<edge source="strongest man roster" target="gutman">
-  <data key="d1">includes</data>
+<edge source="tom stoltman" target="brian">
+  <data key="d1">second</data>
 </edge>
-<edge source="gutman" target="andrew">
-  <data key="d1">includes</data>
+<edge source="tom stoltman" target="first scotsman">
+  <data key="d1">belongs to</data>
 </edge>
-<edge source="2nd title" target="bleachman">
+<edge source="tom stoltman" target="myrtle beach">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="tom stoltman" target="times">
+  <data key="d1">won</data>
+</edge>
+<edge source="tom stoltman" target="3 times">
+  <data key="d1">won</data>
+</edge>
+<edge source="tom stoltman" target="2024">
+  <data key="d1">year</data>
+</edge>
+<edge source="tom stoltman" target="gutman andrew">
+  <data key="d1">stronger than</data>
+</edge>
+<edge source="tom stoltman" target="barbend">
+  <data key="d1">won competition organized by</data>
+</edge>
+<edge source="tom stoltman" target="zucker joseph">
   <data key="d1">reported by</data>
 </edge>
-<edge source="blechman" target="champion">
+<edge source="tom stoltman" target="bleacher report">
+  <data key="d1">won title from</data>
+</edge>
+<edge source="tom stoltman" target="instagram_strong">
+  <data key="d1">highlighted achievements of</data>
+</edge>
+<edge source="tom stoltman" target="strongest man roster">
+  <data key="d1">competitor in</data>
+</edge>
+<edge source="tom stoltman" target="champion">
   <data key="d1">retains</data>
 </edge>
-<edge source="blechman" target="hooper">
-  <data key="d1">highlighted by</data>
+<edge source="tom stoltman" target="dickson">
+  <data key="d1">recognized by</data>
 </edge>
-<edge source="champion" target="winner">
-  <data key="d1">is a</data>
+<edge source="tom stoltman" target="tom stoltman">
+  <data key="d1">champion</data>
+</edge>
+<edge source="tom stoltman" target="8">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="tom stoltman" target="2020">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="tom stoltman" target="2021">
+  <data key="d1">years</data>
+</edge>
+<edge source="tom stoltman" target="2023">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="tom stoltman" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="tom stoltman" target="united kingdom">
+  <data key="d1">country</data>
+</edge>
+<edge source="sacramento" target="2021">
+  <data key="d1">host city</data>
+</edge>
+<edge source="sacramento" target="2022">
+  <data key="d1">host city</data>
+</edge>
+<edge source="maxime boudreault" target="2021">
+  <data key="d1">third place</data>
+</edge>
+<edge source="mitchell hooper" target="first">
+  <data key="d1">position</data>
+</edge>
+<edge source="mitchell hooper" target="4 events">
+  <data key="d1">won</data>
+</edge>
+<edge source="mitchell hooper" target="myrtle beach">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="mitchell hooper" target="2023">
+  <data key="d1">winner</data>
+</edge>
+<edge source="mitchell hooper" target="2024">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="myrtle beach" target="south carolina">
+  <data key="d1">located in</data>
+</edge>
+<edge source="myrtle beach" target="2023">
+  <data key="d1">host city</data>
+</edge>
+<edge source="myrtle beach" target="2024">
+  <data key="d1">host city</data>
+</edge>
+<edge source="2023" target="2023">
+  <data key="d1">year</data>
+</edge>
+<edge source="2023" target="46">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2023" target="oleksii novikov">
+  <data key="d1">third place</data>
+</edge>
+<edge source="2023" target="steve slater">
+  <data key="d1">year</data>
+</edge>
+<edge source="south carolina" target="usa">
+  <data key="d1">location</data>
+</edge>
+<edge source="2024" target="2024">
+  <data key="d1">year</data>
+</edge>
+<edge source="2024" target="47">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2024" target="tom stoltman (3)">
+  <data key="d1">winner</data>
+</edge>
+<edge source="2024" target="evan singleton">
+  <data key="d1">third place</data>
+</edge>
+<edge source="2024" target="47mariusz pudzianowski">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2024" target="eddie williams">
+  <data key="d1">year</data>
+</edge>
+<edge source="2024" target="rob kearney">
+  <data key="d1">year</data>
+</edge>
+<edge source="fame wsm 2008" target="svend karlsen">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="fame wsm 2008" target="magnusson">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="fame wsm 2008" target="samuelsson">
+  <data key="d1">competed in</data>
+</edge>
+<edge source="svend karlsen" target="2000">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="svend karlsen" target="2001">
+  <data key="d1">winner</data>
+</edge>
+<edge source="jimmy pollock" target="strongman award">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="jimmy pollock" target="wsm contributions">
+  <data key="d1">recognized for</data>
+</edge>
+<edge source="website" target="website">
+  <data key="d1">0</data>
+</edge>
+<edge source="website" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="website" target="theworldsstrongestman.com">
+  <data key="d1">1</data>
+</edge>
+<edge source="strongest man 2017" target="schedule">
+  <data key="d1">event</data>
+</edge>
+<edge source="strongest man championship" target="bradenton">
+  <data key="d1">held in</data>
+</edge>
+<edge source="strongest man championship" target="florida">
+  <data key="d1">takes place in</data>
+</edge>
+<edge source="strongest man championship" target="january">
+  <data key="d1">takes place in</data>
+</edge>
+<edge source="strongest man championship" target="december 27">
+  <data key="d1">takes place in</data>
+</edge>
+<edge source="strongest man championship" target="19 november 2023">
+  <data key="d1">takes place in</data>
+</edge>
+<edge source="strongest man championship" target="strongest man tournament">
+  <data key="d1">related to</data>
+</edge>
+<edge source="strongest man championship" target="extraordinary strength">
+  <data key="d1">showcases</data>
+</edge>
+<edge source="bradenton" target="2019">
+  <data key="d1">host city</data>
+</edge>
+<edge source="bradenton" target="2020">
+  <data key="d1">host city</data>
+</edge>
+<edge source="strongest man tournament" target="extraordinary strength">
+  <data key="d1">demonstrates</data>
+</edge>
+<edge source="subhankar" target="march">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="subhankar" target="strongest winners">
+  <data key="d1">included in</data>
+</edge>
+<edge source="subhankar" target="sportsgrail">
+  <data key="d1">involved with</data>
+</edge>
+<edge source="subhankar" target="november 2023">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="subhankar" target="robert goldman">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="subhankar" target="sports hall fame inductees">
+  <data key="d1">included in</data>
+</edge>
+<edge source="march" target="hall fame induction ceremony">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="march" target="17 march">
+  <data key="d1">is on</data>
+</edge>
+<edge source="march" target="robert goldman">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="march" target="17 march 2015">
+  <data key="d1">occurs on</data>
+</edge>
+<edge source="strongest winners" target="sportsgrail">
+  <data key="d1">recognized by</data>
+</edge>
+<edge source="strongest winners" target="sports hall fame inductees">
+  <data key="d1">to be inducted in</data>
+</edge>
+<edge source="robert goldman" target="amazon">
+  <data key="d1">featured in</data>
+</edge>
+<edge source="robert goldman" target="radio times">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="sports hall fame inductees" target="17 march 2023">
+  <data key="d1">induction ceremony scheduled for</data>
+</edge>
+<edge source="february 2018" target="race">
+  <data key="d1">happened in</data>
+</edge>
+<edge source="february 2018" target="stones event">
+  <data key="d1">occurred in</data>
+</edge>
+<edge source="february 2018" target="7 february 2018">
+  <data key="d1">linked to</data>
+</edge>
+<edge source="february 2018" target="hercules">
+  <data key="d1">notable events in</data>
+</edge>
+<edge source="february 2018" target="super yoke strongman">
+  <data key="d1">occur date</data>
+</edge>
+<edge source="amazon" target="13 february 2022">
+  <data key="d1">related to</data>
+</edge>
+<edge source="1 april 2021" target="radio times">
+  <data key="d1">is related to</data>
+</edge>
+<edge source="war games" target="herald">
+  <data key="d1">mention</data>
+</edge>
+<edge source="interview" target="pall sigmarsson">
+  <data key="d1">discuss</data>
+</edge>
+<edge source="pall sigmarsson" target="charisma">
+  <data key="d1">relate to</data>
+</edge>
+<edge source="twi" target="wce">
+  <data key="d1">strongest</data>
+</edge>
+<edge source="twi" target="mariusz pudzianowski">
+  <data key="d1">featured on</data>
+</edge>
+<edge source="julia" target="3 march 2012">
+  <data key="d1">day</data>
+</edge>
+<edge source="julia" target="event on 3 march 2012">
+  <data key="d1">is related to</data>
+</edge>
+<edge source="julia" target="guardian">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="3 march 2012" target="march 2012">
+  <data key="d1">march 2012</data>
+</edge>
+<edge source="guardian" target="sm j">
+  <data key="d1">strongest man</data>
+</edge>
+<edge source="mariusz pudzianowski" target="oxford">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="mariusz pudzianowski" target="2006">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="mariusz pudzianowski" target="2009">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="mariusz pudzianowski" target="0">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="mariusz pudzianowski" target="poland">
+  <data key="d1">country</data>
+</edge>
+<edge source="mariusz pudzianowski" target="5">
+  <data key="d1">times</data>
+</edge>
+<edge source="mariusz pudzianowski" target="mariusz pudzianowski">
+  <data key="d1">member</data>
+</edge>
+<edge source="april 2021" target="stairs">
+  <data key="d1">occurs on</data>
+</edge>
+<edge source="april 2021" target="2021">
+  <data key="d1">month of</data>
+</edge>
+<edge source="april 2021" target="hercules">
+  <data key="d1">continues until</data>
+</edge>
+<edge source="april 2021" target="super yoke strongman">
+  <data key="d1">occur date</data>
+</edge>
+<edge source="april 2021" target="strongest man 2015">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="anna maria island" target="19 june event">
+  <data key="d1">holding</data>
+</edge>
+<edge source="anna maria island" target="october event">
+  <data key="d1">holding</data>
+</edge>
+<edge source="anna maria island" target="13 february event">
+  <data key="d1">holding</data>
+</edge>
+<edge source="ryan june" target="ballogg">
+  <data key="d1">competitor</data>
+</edge>
+<edge source="11 november 2020" target="covid19  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="keene  " target="edition quarantine">
+  <data key="d1">wins</data>
+</edge>
+<edge source="edition quarantine" target="quarantine  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="edition quarantine" target="keene">
+  <data key="d1">wins</data>
+</edge>
+<edge source="edition quarantine" target="quarantine">
+  <data key="d1">related to</data>
+</edge>
+<edge source="ellis philip" target="hall  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="health" target="men health  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="health" target="men health">
+  <data key="d1">related to</data>
+</edge>
+<edge source="july" target="november  ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="november  " target="barbend">
+  <data key="d1">reported</data>
+</edge>
+<edge source="ellis philip hall" target="strongest man  ">
+  <data key="d1">highlighted during</data>
+</edge>
+<edge source="barbend" target="july  ">
+  <data key="d1">reported</data>
+</edge>
+<edge source="barbend" target="victory">
+  <data key="d1">reported by</data>
+</edge>
+<edge source="barbend" target="world strongest man">
+  <data key="d1">documented victories of</data>
+</edge>
+<edge source="chelsea" target="2020">
+  <data key="d1">participates in</data>
+</edge>
+<edge source="2020" target="2020">
+  <data key="d1">year</data>
+</edge>
+<edge source="2020" target="43">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2020" target="oleksii novikov">
+  <data key="d1">winner</data>
+</edge>
+<edge source="2020" target="jean-françois caron">
+  <data key="d1">third place</data>
+</edge>
+<edge source="2020 strongest man" target="instagram_strong">
+  <data key="d1">featured in</data>
+</edge>
+<edge source="2020 strongest man" target="26 december 2021">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="2020 strongest man" target="gutman andrew">
+  <data key="d1">involved</data>
+</edge>
+<edge source="world strongest man" target="instagram_strong">
+  <data key="d1">highlighted on</data>
+</edge>
+<edge source="world strongest man" target="26 december 2021">
+  <data key="d1">announced on</data>
+</edge>
+<edge source="world strongest man" target="gutman andrew">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="world strongest man" target="strongest man roster">
+  <data key="d1">listed on</data>
+</edge>
+<edge source="gutman andrew" target="strongest man roster">
+  <data key="d1">included in</data>
+</edge>
+<edge source="gutman andrew" target="zucker joseph">
+  <data key="d1">reported on</data>
+</edge>
+<edge source="strongest man roster" target="14 april 2021">
+  <data key="d1">updated on</data>
+</edge>
+<edge source="hooper" target="competitive landscape">
+  <data key="d1">added to</data>
 </edge>
 <edge source="hooper" target="strongest man 2023">
   <data key="d1">wins</data>
 </edge>
-<edge source="hooper" target="jack dickson">
-  <data key="d1">reports</data>
+<edge source="dickson" target="dickson jack">
+  <data key="d1">name of</data>
 </edge>
-<edge source="hooper" target="brett williams">
-  <data key="d1">reports</data>
-</edge>
-<edge source="hooper" target="williams brett">
-  <data key="d1">competitor of</data>
+<edge source="dickson" target="april">
+  <data key="d1">related to</data>
 </edge>
 <edge source="williams brett" target="strongest man 2023">
   <data key="d1">wins</data>
 </edge>
-<edge source="strongest man 2023" target="men's health">
-  <data key="d1">highlighted by</data>
+<edge source="williams brett" target="hooper winning date">
+  <data key="d1">highlighted</data>
 </edge>
-<edge source="strongest man 2023" target="25 august 2023">
-  <data key="d1">event date</data>
-</edge>
-<edge source="december 2019" target="6 december 2019">
-  <data key="d1">is on</data>
-</edge>
-<edge source="6 december 2019" target="6 december 2019">
-  <data key="d1">is on</data>
+<edge source="chris bumbaca" target="stoltman win">
+  <data key="d1">covered</data>
 </edge>
 <edge source="6 december 2019" target="stones event">
-  <data key="d1">precedes</data>
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="usa today via msn news" target="significant achievement">
-  <data key="d1">reports</data>
+<edge source="race" target="december 2019">
+  <data key="d1">happened in</data>
 </edge>
-<edge source="strongest man competitions" target="12 november 2020">
-  <data key="d1">associated dates</data>
+<edge source="stones event" target="2021">
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="strongest man competitions" target="dumbbell press">
-  <data key="d1">crucial strength test in</data>
+<edge source="stones event" target="january 2007">
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="stones event" target="22 december 2011">
-  <data key="d1">associated on</data>
+<edge source="stones event" target="pull event">
+  <data key="d1">has notable event</data>
 </edge>
-<edge source="pull event" target="11 january 2007">
-  <data key="d1">held on</data>
+<edge source="stones event" target="press">
+  <data key="d1">part of</data>
 </edge>
-<edge source="pull event" target="press">
-  <data key="d1">link to</data>
+<edge source="stones event" target="fingers">
+  <data key="d1">part of</data>
 </edge>
-<edge source="pull event" target="12 april 2021">
-  <data key="d1">associated on</data>
+<edge source="stones event" target="stairs">
+  <data key="d1">part of</data>
 </edge>
-<edge source="11 january 2007" target="10 january 2007">
-  <data key="d1">precedes</data>
+<edge source="2021" target="2021">
+  <data key="d1">year</data>
+</edge>
+<edge source="2021" target="44">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="11 january 2007" target="pull event">
+  <data key="d1">occurred in</data>
 </edge>
 <edge source="press" target="10 january 2007">
-  <data key="d1">occurred on</data>
-</edge>
-<edge source="12 april 2021" target="stairs">
-  <data key="d1">link to</data>
-</edge>
-<edge source="12 april 2021" target="26 january 2021">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="12 april 2021" target="toss">
-  <data key="d1">related to</data>
+  <data key="d1">occurs on</data>
 </edge>
 <edge source="fingers" target="26 january 2021">
-  <data key="d1">occurred on</data>
+  <data key="d1">occurs on</data>
+</edge>
+<edge source="fingers" target="stairs">
+  <data key="d1">related to</data>
+</edge>
+<edge source="december 2006" target="29 december 2006">
+  <data key="d1">linked to</data>
+</edge>
+<edge source="toss 2015" target="toss february 2018">
+  <data key="d1">additional instance of</data>
 </edge>
 <edge source="hercules" target="28 november 2019">
-  <data key="d1">took place on</data>
+  <data key="d1">related to</data>
+</edge>
+<edge source="hercules" target="25 december 2020">
+  <data key="d1">related to</data>
 </edge>
 <edge source="hercules" target="drag event">
-  <data key="d1">participated in</data>
+  <data key="d1">related to</data>
+</edge>
+<edge source="hercules" target="december 2020">
+  <data key="d1">related to</data>
 </edge>
 <edge source="hercules" target="walk event">
   <data key="d1">related to</data>
 </edge>
 <edge source="hercules" target="total enhancements training center">
-  <data key="d1">trained at</data>
+  <data key="d1">associated with</data>
 </edge>
 <edge source="hercules" target="strongest man 2001">
-  <data key="d1">won</data>
+  <data key="d1">earned</data>
 </edge>
 <edge source="hercules" target="7 november 2021">
-  <data key="d1">happened on</data>
+  <data key="d1">related to</data>
 </edge>
-<edge source="hercules" target="super yoke strongman">
-  <data key="d1">participated in</data>
+<edge source="25 december 2020" target="super yoke strongman">
+  <data key="d1">competed in</data>
 </edge>
-<edge source="hercules" target="loaded carries training">
-  <data key="d1">involved in</data>
+<edge source="total enhancements training center" target="strongest man 2001">
+  <data key="d1">linked to</data>
 </edge>
-<edge source="hercules" target="13 november 2020">
-  <data key="d1">notable activities on</data>
+<edge source="africa event" target="super yoke strongman">
+  <data key="d1">competes in</data>
 </edge>
-<edge source="drag event" target="december 2020">
-  <data key="d1">took place in</data>
+<edge source="super yoke strongman" target="yoke">
+  <data key="d1">instance of</data>
 </edge>
-<edge source="walk event" target="total enhancements training center">
-  <data key="d1">organized by</data>
+<edge source="super yoke strongman" target="november 13 2020">
+  <data key="d1">competed in</data>
 </edge>
-<edge source="walk event" target="7 november 2021">
-  <data key="d1">took place on</data>
+<edge source="super yoke strongman" target="10 loaded carries training">
+  <data key="d1">focuses on</data>
 </edge>
 <edge source="super yoke strongman" target="17 march 2015">
-  <data key="d1">mentioned in</data>
+  <data key="d1">occur date</data>
 </edge>
-<edge source="super yoke strongman" target="africa">
-  <data key="d1">occurred in</data>
+<edge source="super yoke strongman" target="13 november 2020">
+  <data key="d1">occur date</data>
 </edge>
-<edge source="super yoke strongman" target="african event series">
-  <data key="d1">part of</data>
+<edge source="super yoke strongman" target="25 december">
+  <data key="d1">occur date</data>
 </edge>
-<edge source="africa" target="united kingdom">
-  <data key="d1">related to</data>
+<edge source="super yoke strongman" target="july 2013">
+  <data key="d1">occur date</data>
 </edge>
-<edge source="loaded carries training" target="training">
-  <data key="d1">involves</data>
+<edge source="december" target="25 december">
+  <data key="d1">celebrated on</data>
 </edge>
-<edge source="loaded carries training" target="july 2013">
-  <data key="d1">mentioned in</data>
+<edge source="loaded carries" target="10 loaded carries training">
+  <data key="d1">focuses on</data>
 </edge>
-<edge source="loaded carries training" target="african event series">
-  <data key="d1">highlighted in</data>
+<edge source="july 2013" target="2013">
+  <data key="d1">month of</data>
 </edge>
-<edge source="loaded carries training" target="competition">
-  <data key="d1">part of</data>
+<edge source="2013" target="2013">
+  <data key="d1">year</data>
 </edge>
-<edge source="13 november 2020" target="african event series">
-  <data key="d1">continues through</data>
-</edge>
-<edge source="rules" target="norse hammers">
-  <data key="d1">governs</data>
-</edge>
-<edge source="strongest man 2015" target="norse hammers">
-  <data key="d1">won</data>
-</edge>
-<edge source="strongest man 2015" target="circus barbell">
-  <data key="d1">won</data>
-</edge>
-<edge source="strongest man 2015" target="24 july">
-  <data key="d1">won</data>
-</edge>
-<edge source="strongest man 2015" target="6 december">
-  <data key="d1">related to</data>
-</edge>
-<edge source="24 july" target="july">
-  <data key="d1">occurs on</data>
-</edge>
-<edge source="21" target="1998">
+<edge source="2013" target="36">
   <data key="d1">positioninlist</data>
 </edge>
-<edge source="21" target="iceland">
-  <data key="d1">total</data>
+<edge source="2013" target="brian shaw (2)">
+  <data key="d1">winner</data>
 </edge>
-<edge source="19 september" target="september">
-  <data key="d1">occurs on</data>
+<edge source="2013" target="hafþór júlíus björnsson">
+  <data key="d1">third place</data>
+</edge>
+<edge source="2013" target="sanya">
+  <data key="d1">host city</data>
+</edge>
+<edge source="strongest man 2015" target="norse hammers">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="strongest man 2015" target="hd 4k">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="strongest man 2015" target="circus barbell">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="strongest man 2015" target="19 june 2019">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="strongest man 2015" target="of fame">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="strongest man 2015" target="22 september 2012">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="strongest man 2015" target="24 july">
+  <data key="d1">mentioned in</data>
 </edge>
 <edge source="united kingdom" target="netherlands">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="france">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="iceland">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="spain">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="austria">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="south africa">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="bahamas">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
+</edge>
+<edge source="united kingdom" target="africa">
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="mauritius">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
+</edge>
+<edge source="united kingdom" target="finland">
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="denmark">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="morocco">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="norway">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="malta">
-  <data key="d1">related to</data>
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="zambia">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="netherlands  ">
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="poland">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="france  ">
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="lithuania">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="iceland  ">
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="latvia">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="spain  ">
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="ukraine">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="austria  ">
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="united states">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="south africa  ">
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="canada">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="bahamas  ">
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="china">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="africa  ">
+  <data key="d1">contains</data>
 </edge>
-<edge source="united kingdom" target="russia">
-  <data key="d1">related to</data>
+<edge source="united kingdom" target="mauritius  ">
+  <data key="d1">contains</data>
+</edge>
+<edge source="united kingdom" target="finland  ">
+  <data key="d1">contains</data>
+</edge>
+<edge source="united kingdom" target="denmark  ">
+  <data key="d1">contains</data>
+</edge>
+<edge source="united kingdom" target="sweden  ">
+  <data key="d1">contains</data>
+</edge>
+<edge source="united kingdom" target="morocco  ">
+  <data key="d1">contains</data>
+</edge>
+<edge source="united kingdom" target="norway  ">
+  <data key="d1">contains</data>
+</edge>
+<edge source="united kingdom" target="malta  ">
+  <data key="d1">contains</data>
 </edge>
 <edge source="united kingdom" target="geoff capes">
   <data key="d1">country</data>
@@ -3940,8 +4330,8 @@
 <edge source="united kingdom" target="20">
   <data key="d1">total</data>
 </edge>
-<edge source="netherlands" target="united states">
-  <data key="d1">context includes</data>
+<edge source="netherlands" target="poland">
+  <data key="d1">mentioned with</data>
 </edge>
 <edge source="netherlands" target="netherlands">
   <data key="d1">country</data>
@@ -3958,25 +4348,28 @@
 <edge source="netherlands" target="7">
   <data key="d1">total</data>
 </edge>
-<edge source="iceland" target="russia">
-  <data key="d1">borders</data>
+<edge source="iceland" target="greenland  ">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="iceland" target="ukraine">
-  <data key="d1">borders</data>
+<edge source="iceland" target="nordic countries">
+  <data key="d1">part of</data>
 </edge>
-<edge source="iceland" target="zambia">
-  <data key="d1">common countries</data>
-</edge>
-<edge source="iceland" target="iceland">
-  <data key="d1">country</data>
+<edge source="iceland" target="greenland">
+  <data key="d1">neighbor of</data>
 </edge>
 <edge source="iceland" target="united states">
-  <data key="d1">context includes</data>
+  <data key="d1">mentioned with</data>
 </edge>
-<edge source="iceland" target="jón páll sigmarsson">
-  <data key="d1">country</data>
+<edge source="iceland" target="lithuania">
+  <data key="d1">mentioned with</data>
+</edge>
+<edge source="iceland" target="poland">
+  <data key="d1">mentioned with</data>
 </edge>
 <edge source="iceland" target="magnús ver magnússon">
+  <data key="d1">country</data>
+</edge>
+<edge source="iceland" target="iceland">
   <data key="d1">country</data>
 </edge>
 <edge source="iceland" target="9">
@@ -3988,20 +4381,32 @@
 <edge source="iceland" target="5">
   <data key="d1">bronze</data>
 </edge>
+<edge source="iceland" target="21">
+  <data key="d1">total</data>
+</edge>
 <edge source="austria" target="austria">
   <data key="d1">country</data>
-</edge>
-<edge source="austria" target="13">
-  <data key="d1">positioninlist</data>
 </edge>
 <edge source="austria" target="0">
   <data key="d1">bronze</data>
 </edge>
-<edge source="south africa" target="zambia">
-  <data key="d1">borders</data>
+<edge source="south africa" target="africa  ">
+  <data key="d1">part of</data>
 </edge>
-<edge source="south africa" target="united states">
-  <data key="d1">context includes</data>
+<edge source="south africa" target="zambia  ">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="south africa" target="africa">
+  <data key="d1">part of</data>
+</edge>
+<edge source="south africa" target="zambia">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="south africa" target="poland">
+  <data key="d1">mentioned with</data>
+</edge>
+<edge source="south africa" target="ukraine">
+  <data key="d1">mentioned with</data>
 </edge>
 <edge source="south africa" target="south africa">
   <data key="d1">country</data>
@@ -4013,6 +4418,54 @@
   <data key="d1">gold</data>
 </edge>
 <edge source="south africa" target="2">
+  <data key="d1">total</data>
+</edge>
+<edge source="bahamas" target="united states  ">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="bahamas" target="united states">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="africa" target="zambia  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="africa" target="mauritius  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="africa" target="zambia">
+  <data key="d1">part of</data>
+</edge>
+<edge source="finland" target="nordic countries  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="finland" target="russia  ">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="finland" target="european union  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="finland" target="nordic countries">
+  <data key="d1">part of</data>
+</edge>
+<edge source="finland" target="russia">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="finland" target="european union">
+  <data key="d1">part of</data>
+</edge>
+<edge source="finland" target="poland">
+  <data key="d1">mentioned with</data>
+</edge>
+<edge source="finland" target="canada">
+  <data key="d1">mentioned with</data>
+</edge>
+<edge source="finland" target="finland">
+  <data key="d1">country</data>
+</edge>
+<edge source="finland" target="5">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="finland" target="11">
   <data key="d1">total</data>
 </edge>
 <edge source="denmark" target="denmark">
@@ -4027,8 +4480,11 @@
 <edge source="denmark" target="2">
   <data key="d1">total</data>
 </edge>
+<edge source="norway" target="ukraine">
+  <data key="d1">mentioned with</data>
+</edge>
 <edge source="norway" target="united states">
-  <data key="d1">context includes</data>
+  <data key="d1">related to</data>
 </edge>
 <edge source="norway" target="norway">
   <data key="d1">country</data>
@@ -4036,98 +4492,62 @@
 <edge source="norway" target="10">
   <data key="d1">positioninlist</data>
 </edge>
-<edge source="norway" target="3">
-  <data key="d1">total</data>
+<edge source="malta" target="european union  ">
+  <data key="d1">part of</data>
 </edge>
-<edge source="zambia" target="lithuania">
-  <data key="d1">common countries</data>
+<edge source="malta" target="italy  ">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="zambia" target="china">
-  <data key="d1">common countries</data>
+<edge source="malta" target="european union">
+  <data key="d1">part of</data>
 </edge>
-<edge source="zambia" target="united states">
-  <data key="d1">common countries</data>
+<edge source="malta" target="italy">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="zambia" target="poland">
-  <data key="d1">common countries</data>
+<edge source="iceland  " target="nordic countries">
+  <data key="d1">part of</data>
 </edge>
-<edge source="zambia" target="ukraine">
-  <data key="d1">common countries</data>
+<edge source="bahamas  " target="western hemisphere">
+  <data key="d1">contains</data>
 </edge>
-<edge source="zambia" target="canada">
-  <data key="d1">common countries</data>
+<edge source="sweden  " target="nordic countries">
+  <data key="d1">part of</data>
 </edge>
-<edge source="russia" target="russia">
-  <data key="d1">country</data>
+<edge source="russia  " target="ukraine">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="russia" target="15">
-  <data key="d1">positioninlist</data>
+<edge source="european union  " target="latvia">
+  <data key="d1">part of</data>
 </edge>
-<edge source="russia" target="0">
-  <data key="d1">silver</data>
+<edge source="lithuania" target="baltic region  ">
+  <data key="d1">part of</data>
 </edge>
-<edge source="russia" target="15jón páll sigmarsson">
-  <data key="d1">positioninlist</data>
+<edge source="lithuania" target="latvia  ">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="poland" target="ukraine">
-  <data key="d1">borders</data>
+<edge source="lithuania" target="poland  ">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="poland" target="united states">
-  <data key="d1">context includes</data>
+<edge source="lithuania" target="baltic region">
+  <data key="d1">part of</data>
 </edge>
-<edge source="poland" target="poland">
-  <data key="d1">country</data>
+<edge source="lithuania" target="latvia">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="poland" target="3">
-  <data key="d1">positioninlist</data>
+<edge source="lithuania" target="poland">
+  <data key="d1">neighbor of</data>
 </edge>
-<edge source="poland" target="5">
-  <data key="d1">silver</data>
+<edge source="lithuania" target="united states">
+  <data key="d1">mentioned with</data>
 </edge>
-<edge source="poland" target="0">
-  <data key="d1">bronze</data>
+<edge source="lithuania" target="canada">
+  <data key="d1">mentioned with</data>
 </edge>
-<edge source="poland" target="10">
-  <data key="d1">total</data>
-</edge>
-<edge source="ukraine" target="united states">
-  <data key="d1">context includes</data>
-</edge>
-<edge source="ukraine" target="ukraine">
-  <data key="d1">country</data>
-</edge>
-<edge source="ukraine" target="6">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="ukraine" target="2">
-  <data key="d1">gold</data>
-</edge>
-<edge source="ukraine" target="0">
-  <data key="d1">silver</data>
-</edge>
-<edge source="ukraine" target="3">
-  <data key="d1">bronze</data>
-</edge>
-<edge source="ukraine" target="5">
-  <data key="d1">total</data>
-</edge>
-<edge source="latvia" target="lithuania">
-  <data key="d1">borders</data>
-</edge>
-<edge source="latvia" target="latvia">
-  <data key="d1">country</data>
-</edge>
-<edge source="latvia" target="14">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="latvia" target="0">
-  <data key="d1">silver</data>
+<edge source="lithuania" target="ukraine">
+  <data key="d1">neighbor of</data>
 </edge>
 <edge source="lithuania" target="lithuania">
   <data key="d1">country</data>
-</edge>
-<edge source="lithuania" target="united states">
-  <data key="d1">context includes</data>
 </edge>
 <edge source="lithuania" target="4">
   <data key="d1">positioninlist</data>
@@ -4141,17 +4561,146 @@
 <edge source="lithuania" target="11">
   <data key="d1">total</data>
 </edge>
-<edge source="united states" target="united states">
-  <data key="d1">is a state of</data>
+<edge source="latvia  " target="baltic region">
+  <data key="d1">part of</data>
 </edge>
-<edge source="united states" target="canada">
-  <data key="d1">context includes</data>
+<edge source="poland  " target="european union">
+  <data key="d1">part of</data>
 </edge>
-<edge source="united states" target="foundation">
-  <data key="d1">belongs to</data>
+<edge source="poland  " target="baltic region">
+  <data key="d1">contact with</data>
+</edge>
+<edge source="baltic region" target="latvia">
+  <data key="d1">part of</data>
+</edge>
+<edge source="latvia" target="european union">
+  <data key="d1">part of</data>
+</edge>
+<edge source="latvia" target="latvia">
+  <data key="d1">country</data>
+</edge>
+<edge source="latvia" target="14">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="latvia" target="0">
+  <data key="d1">silver</data>
+</edge>
+<edge source="ukraine" target="russia">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="ukraine" target="ukraine">
+  <data key="d1">country</data>
+</edge>
+<edge source="ukraine" target="6">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="ukraine" target="2">
+  <data key="d1">gold</data>
+</edge>
+<edge source="ukraine" target="0">
+  <data key="d1">silver</data>
+</edge>
+<edge source="ukraine" target="5">
+  <data key="d1">total</data>
+</edge>
+<edge source="russia" target="china  ">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="russia" target="asia">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="russia" target="china">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="russia" target="russia">
+  <data key="d1">country</data>
+</edge>
+<edge source="russia" target="15">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="russia" target="0">
+  <data key="d1">silver</data>
+</edge>
+<edge source="russia" target="15jón páll sigmarsson">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="china" target="asia  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="china" target="asia">
+  <data key="d1">part of</data>
+</edge>
+<edge source="european union" target="united kingdom  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="european union" target="poland">
+  <data key="d1">part of</data>
+</edge>
+<edge source="european union" target="asia">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="zambia  " target="tanzania">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="tanzania" target="zambia">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="north america" target="canada  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="north america" target="united states  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="north america" target="western hemisphere  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="north america" target="united kingdom  ">
+  <data key="d1">segment of</data>
+</edge>
+<edge source="north america" target="canada">
+  <data key="d1">part of</data>
+</edge>
+<edge source="north america" target="united states">
+  <data key="d1">part of</data>
+</edge>
+<edge source="north america" target="western hemisphere">
+  <data key="d1">part of</data>
+</edge>
+<edge source="united states  " target="canada">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="canada" target="united states">
+  <data key="d1">neighbor of</data>
+</edge>
+<edge source="canada" target="canada">
+  <data key="d1">country</data>
+</edge>
+<edge source="canada" target="9">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="canada" target="2">
+  <data key="d1">silver</data>
+</edge>
+<edge source="canada" target="6">
+  <data key="d1">total</data>
+</edge>
+<edge source="poland" target="poland">
+  <data key="d1">country</data>
+</edge>
+<edge source="poland" target="5">
+  <data key="d1">silver</data>
+</edge>
+<edge source="poland" target="0">
+  <data key="d1">bronze</data>
+</edge>
+<edge source="poland" target="10">
+  <data key="d1">total</data>
 </edge>
 <edge source="united states" target="mediawiki">
-  <data key="d1">is supported by</data>
+  <data key="d1">is part of</data>
+</edge>
+<edge source="united states" target="foundation">
+  <data key="d1">connected to</data>
 </edge>
 <edge source="united states" target="0">
   <data key="d1">positioninlist</data>
@@ -4168,23 +4717,11 @@
 <edge source="united states" target="32">
   <data key="d1">total</data>
 </edge>
-<edge source="canada" target="canada">
-  <data key="d1">country</data>
-</edge>
-<edge source="canada" target="9">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="canada" target="2">
-  <data key="d1">silver</data>
-</edge>
-<edge source="canada" target="3">
-  <data key="d1">bronze</data>
-</edge>
-<edge source="canada" target="6">
-  <data key="d1">total</data>
-</edge>
 <edge source="foundation" target="mediawiki">
-  <data key="d1">belongs to</data>
+  <data key="d1">is part of</data>
+</edge>
+<edge source="mediawiki" target="mediawiki">
+  <data key="d1">constitutes</data>
 </edge>
 <edge source="the world's strongest man official logo" target="the world's strongest man official logo">
   <data key="d1">1</data>
@@ -4193,9 +4730,6 @@
   <data key="d1">positioninlist</data>
 </edge>
 <edge source="0" target="10">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="0" target="jón páll sigmarsson">
   <data key="d1">positioninlist</data>
 </edge>
 <edge source="0" target="luke stoltman">
@@ -4252,29 +4786,8 @@
 <edge source="established" target="established">
   <data key="d1">0</data>
 </edge>
-<edge source="established" target="3">
-  <data key="d1">positioninlist</data>
-</edge>
 <edge source="established" target="1977; 47 years ago">
   <data key="d1">1</data>
-</edge>
-<edge source="3" target="1980">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="3" target="6">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="3" target="3">
-  <data key="d1">times</data>
-</edge>
-<edge source="3" target="5">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="3" target="lars hedlund  ab wolders  jamie reeves  riku kiri  jouko ahola  janne virtanen  svend karlsen  oleksii novikov">
-  <data key="d1">name</data>
-</edge>
-<edge source="3" target="steve slater">
-  <data key="d1">positioninlist</data>
 </edge>
 <edge source="number of tournaments" target="number of tournaments">
   <data key="d1">0</data>
@@ -4287,9 +4800,6 @@
 </edge>
 <edge source="4" target="1981">
   <data key="d1">positioninlist</data>
-</edge>
-<edge source="4" target="jón páll sigmarsson">
-  <data key="d1">times</data>
 </edge>
 <edge source="4" target="magnús ver magnússon">
   <data key="d1">times</data>
@@ -4320,15 +4830,6 @@
 </edge>
 <edge source="5" target="magnus ver magnusson">
   <data key="d1">positioninlist</data>
-</edge>
-<edge source="website" target="website">
-  <data key="d1">0</data>
-</edge>
-<edge source="website" target="6">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="website" target="theworldsstrongestman.com">
-  <data key="d1">1</data>
 </edge>
 <edge source="6" target="6">
   <data key="d1">times</data>
@@ -4435,12 +4936,6 @@
 <edge source="1982" target="john gamble">
   <data key="d1">third place</data>
 </edge>
-<edge source="jón páll sigmarsson" target="1989">
-  <data key="d1">third place</data>
-</edge>
-<edge source="jón páll sigmarsson" target="jón páll sigmarsson">
-  <data key="d1">champion</data>
-</edge>
 <edge source="ab wolders" target="1989">
   <data key="d1">runner-up</data>
 </edge>
@@ -4474,35 +4969,8 @@
 <edge source="1991" target="tenerife">
   <data key="d1">host city</data>
 </edge>
-<edge source="magnús ver magnússon" target="1992">
-  <data key="d1">runner-up</data>
-</edge>
-<edge source="magnús ver magnússon" target="1993">
-  <data key="d1">runner-up</data>
-</edge>
 <edge source="magnús ver magnússon" target="magnús ver magnússon">
   <data key="d1">champion</data>
-</edge>
-<edge source="1992" target="1992">
-  <data key="d1">year</data>
-</edge>
-<edge source="1992" target="15">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="1992" target="ted van der parre">
-  <data key="d1">winner</data>
-</edge>
-<edge source="1992" target="reykjavík">
-  <data key="d1">host city</data>
-</edge>
-<edge source="1993" target="1993">
-  <data key="d1">year</data>
-</edge>
-<edge source="1993" target="16">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="1993" target="orange">
-  <data key="d1">host city</data>
 </edge>
 <edge source="1994" target="1994">
   <data key="d1">year</data>
@@ -4543,6 +5011,21 @@
 <edge source="1995" target="nassau">
   <data key="d1">host city</data>
 </edge>
+<edge source="gerrit badenhorst" target="1996">
+  <data key="d1">third place</data>
+</edge>
+<edge source="1996" target="1996">
+  <data key="d1">year</data>
+</edge>
+<edge source="1996" target="19">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1996" target="magnús ver magnússon (4)">
+  <data key="d1">winner</data>
+</edge>
+<edge source="1996" target="port louis">
+  <data key="d1">host city</data>
+</edge>
 <edge source="1997" target="1997">
   <data key="d1">year</data>
 </edge>
@@ -4553,27 +5036,6 @@
   <data key="d1">runner-up</data>
 </edge>
 <edge source="1997" target="primm valley resort">
-  <data key="d1">host city</data>
-</edge>
-<edge source="1998" target="1998">
-  <data key="d1">year</data>
-</edge>
-<edge source="1998" target="wout zijlstra">
-  <data key="d1">third place</data>
-</edge>
-<edge source="1998" target="tangier">
-  <data key="d1">host city</data>
-</edge>
-<edge source="1999" target="1999">
-  <data key="d1">year</data>
-</edge>
-<edge source="1999" target="22">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="1999" target="jouko ahola (2)">
-  <data key="d1">winner</data>
-</edge>
-<edge source="1999" target="valletta">
   <data key="d1">host city</data>
 </edge>
 <edge source="valletta" target="2009">
@@ -4587,9 +5049,6 @@
 </edge>
 <edge source="2001" target="2001">
   <data key="d1">year</data>
-</edge>
-<edge source="2001" target="24">
-  <data key="d1">positioninlist</data>
 </edge>
 <edge source="2001" target="victoria falls">
   <data key="d1">host city</data>
@@ -4624,9 +5083,6 @@
 <edge source="2006" target="sanya">
   <data key="d1">host city</data>
 </edge>
-<edge source="sanya" target="2013">
-  <data key="d1">host city</data>
-</edge>
 <edge source="2009" target="2009">
   <data key="d1">year</data>
 </edge>
@@ -4654,8 +5110,23 @@
 <edge source="2011" target="wingate">
   <data key="d1">host city</data>
 </edge>
-<edge source="hafþór júlíus björnsson" target="2013">
+<edge source="2012" target="2012">
+  <data key="d1">year</data>
+</edge>
+<edge source="2012" target="35">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2012" target="žydrūnas savickas (3)">
+  <data key="d1">winner</data>
+</edge>
+<edge source="2012" target="vytautas lalas">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="2012" target="hafþór júlíus björnsson">
   <data key="d1">third place</data>
+</edge>
+<edge source="2012" target="los angeles">
+  <data key="d1">host city</data>
 </edge>
 <edge source="hafþór júlíus björnsson" target="2014">
   <data key="d1">runner-up</data>
@@ -4668,15 +5139,6 @@
 </edge>
 <edge source="los angeles" target="2014">
   <data key="d1">host city</data>
-</edge>
-<edge source="2013" target="2013">
-  <data key="d1">year</data>
-</edge>
-<edge source="2013" target="36">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2013" target="brian shaw (2)">
-  <data key="d1">winner</data>
 </edge>
 <edge source="2014" target="2014">
   <data key="d1">year</data>
@@ -4711,17 +5173,23 @@
 <edge source="2019" target="luke stoltman">
   <data key="d1">year</data>
 </edge>
-<edge source="2021" target="2021">
-  <data key="d1">year</data>
-</edge>
-<edge source="2021" target="44">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="2021" target="maxime boudreault">
+<edge source="oleksii novikov" target="2022">
   <data key="d1">third place</data>
 </edge>
-<edge source="2021" target="sacramento">
-  <data key="d1">host city</data>
+<edge source="2022" target="2022">
+  <data key="d1">year</data>
+</edge>
+<edge source="2022" target="45">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="2022" target="tom stoltman (2)">
+  <data key="d1">winner</data>
+</edge>
+<edge source="2022" target="martins licis">
+  <data key="d1">runner-up</data>
+</edge>
+<edge source="2022" target="mark felix">
+  <data key="d1">year</data>
 </edge>
 <edge source="svend karlson" target="svend karlson">
   <data key="d1">member</data>
