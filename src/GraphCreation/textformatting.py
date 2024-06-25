@@ -23,13 +23,13 @@ if torch.cuda.is_available():
 else:
     torch.set_default_device("mps")
     device_map = "mps"
-
+print('llmstart')
 llm_lingua = PromptCompressor(
     model_name="microsoft/llmlingua-2-xlm-roberta-large-meetingbank",
     use_llmlingua2=True,
     device_map=device_map,
 )
-
+print("llmend")
 def extract_relevant_text(html: str) -> str:
     # Parse the HTML
     soup = BeautifulSoup(html, 'html.parser')
