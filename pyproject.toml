@@ -23,9 +23,9 @@ requires=["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.setuptools.packages.find]
-where = ["src","GraphCreation","prompts"]
+where = ["src"]
 include = ["*"]
 exclude = []
 
 [tool.setuptools.package-data]
-"*" = ["*", "prompts/*"]
+"GraphCreation" = ["prompts/*"]
