@@ -23,7 +23,6 @@ import colorsys
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir, '..', 'prompts')
-tagger = None
 def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, ner_type="flair", num=10):
     """
     Creates knowledge triplets from a given text chunk.
@@ -36,19 +35,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
         str: The generated knowledge triplets in JSON format.
     """
     system_prompt = ""
-    if ner:
-        if ner_type == "flair":
-            global tagger
-            if tagger is None:
-                tagger = Classifier.load("ner-ontonotes-fast")
-            sentence= Sentence(text_chunk)
-            tagger.predict(sentence)
-            sentence = str(sentence).replace(text_chunk,"")
-            system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read().replace("<num>",str(num))+sentence
-        else:
-            system_prompt = open(os.path.join(prompts_dir,"NERTripletCreation")).read()+ LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read().replace("<num>",str(num)), text_chunk, model_id=model_id)
-    else:
-        system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
+    system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
     shorthand_list = LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read(), text_chunk, model_id=model_id).split("\n")
     shorthands = textformatting.token_compression(shorthand_list)
     shorthand_dict = shorthands
