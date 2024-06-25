@@ -239,16 +239,18 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     nt.show(output_file + "/graph.html", notebook=False)
     
     # Cluster nodes using Leiden algorithm
-    leiden_communities = algorithms.leiden(Graph)
+    try:
+        leiden_communities = algorithms.leiden(Graph)
 
-    num_clusters = len(leiden_communities.communities)
-    colors = generate_colors(num_clusters)
-    for i, community in enumerate(leiden_communities.communities):
-        for o, node in enumerate(community):
-            nt.get_node(node)['color'] = colors[i % num_clusters]
-    # Save clustered graph as HTML
-    nt.show(output_file + "/clustered_graph.html", notebook=False)
-    
+        num_clusters = len(leiden_communities.communities)
+        colors = generate_colors(num_clusters)
+        for i, community in enumerate(leiden_communities.communities):
+            for o, node in enumerate(community):
+                nt.get_node(node)['color'] = colors[i % num_clusters]
+        # Save clustered graph as HTML
+        nt.show(output_file + "/clustered_graph.html", notebook=False)
+    except:
+        print("Could not cluster graph.")
     return chunks, Graph
 def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
     text = textformatting.url_to_md(url)
