@@ -16,11 +16,18 @@ def format_text(prompt, url, pipeline_id=0):
 
 from llmlingua import PromptCompressor
 import torch 
-torch.set_default_device("mps")
+device_map = ""
+if torch.cuda.is_available():
+    torch.set_default_device("cuda")
+    device_map = "cuda"
+else:
+    torch.set_default_device("mps")
+    device_map = "mps"
+
 llm_lingua = PromptCompressor(
     model_name="microsoft/llmlingua-2-xlm-roberta-large-meetingbank",
     use_llmlingua2=True,
-    device_map="mps"
+    device_map=device_map,
 )
 
 def extract_relevant_text(html: str) -> str:
