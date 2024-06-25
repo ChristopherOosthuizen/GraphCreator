@@ -6,7 +6,7 @@ import os
 from . import LLMFunctions as LLM
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
-prompts_dir = os.path.join(current_dir, '..', 'prompts')
+prompts_dir = os.path.join(current_dir, 'prompts')
 import re
 def _triplets_to_json(triplets):
     data = []

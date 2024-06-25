@@ -12,7 +12,7 @@ from . import textformatting as tx
 from . import LinkPrediction as lp
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
-prompts_dir = os.path.join(current_dir, '..', 'prompts')
+prompts_dir = os.path.join(current_dir, 'prompts')
 def chunks_to_questions(chunks):
     result = []
     for chunk in chunks:

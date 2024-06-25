@@ -7,10 +7,11 @@ from pdfminer.high_level import extract_text
 from . import LLMFunctions as LLM
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
-prompts_dir = os.path.join(current_dir, '..', 'prompts')
+prompts_dir = os.path.join(current_dir, 'prompts')
 import tiktoken
 from bs4 import BeautifulSoup
 import pandas as pd
+os.environ['TOKENIZERS_PARALLELISM'] = "true"
 def format_text(prompt, url, pipeline_id=0):
     return LLM.generate_chat_response( open( os.path.join(prompts_dir,"formatting")).read(),prompt, pipeline_id)
 

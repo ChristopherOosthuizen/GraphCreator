@@ -22,7 +22,7 @@ import re
 import colorsys
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
-prompts_dir = os.path.join(current_dir, '..', 'prompts')
+prompts_dir = os.path.join(current_dir,'prompts')
 def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, ner_type="flair", num=10):
     """
     Creates knowledge triplets from a given text chunk.
