@@ -7,11 +7,14 @@
 <node id="critical">
   <data key="d0">critical</data>
 </node>
-<node id="bills">
-  <data key="d0">bills</data>
-</node>
 <node id="bengals">
   <data key="d0">bengals</data>
+</node>
+<node id="condition">
+  <data key="d0">condition</data>
+</node>
+<node id="bills">
+  <data key="d0">bills</data>
 </node>
 <node id="allen">
   <data key="d0">allen</data>
@@ -22,29 +25,44 @@
 <node id="burrow">
   <data key="d0">burrow</data>
 </node>
-<node id="game">
-  <data key="d0">game</data>
-</node>
-<node id="8:55 p">
-  <data key="d0">8:55 p</data>
-</node>
-<node id="ambulance">
-  <data key="d0">ambulance</data>
-</node>
-<node id="locker rooms">
-  <data key="d0">locker rooms</data>
-</node>
-<node id="players">
-  <data key="d0">players</data>
-</node>
-<node id="first quarter">
-  <data key="d0">first quarter</data>
+<node id="8:55 p.m.">
+  <data key="d0">8:55 p.m.</data>
 </node>
 <node id="7-3">
   <data key="d0">7-3</data>
 </node>
+<node id="aiyuk">
+  <data key="d0">aiyuk</data>
+</node>
+<node id="taylor swift">
+  <data key="d0">taylor swift</data>
+</node>
+<node id="packers">
+  <data key="d0">packers</data>
+</node>
+<node id="jefferson">
+  <data key="d0">jefferson</data>
+</node>
+<node id="travis kelce">
+  <data key="d0">travis kelce</data>
+</node>
+<node id="ed policy">
+  <data key="d0">ed policy</data>
+</node>
+<node id="murphy">
+  <data key="d0">murphy</data>
+</node>
+<node id="helmets">
+  <data key="d0">helmets</data>
+</node>
 <node id="ravens">
   <data key="d0">ravens</data>
+</node>
+<node id="joe burrow">
+  <data key="d0">joe burrow</data>
+</node>
+<node id="week 2024">
+  <data key="d0">week 2024</data>
 </node>
 <node id="rising">
   <data key="d0">rising</data>
@@ -52,71 +70,26 @@
 <node id="super bowl">
   <data key="d0">super bowl</data>
 </node>
-<node id="helmets">
-  <data key="d0">helmets</data>
-</node>
-<node id="2025">
-  <data key="d0">2025</data>
+<node id="49ers">
+  <data key="d0">49ers</data>
 </node>
 <node id="chiefs">
   <data key="d0">chiefs</data>
 </node>
-<node id="12">
-  <data key="d0">12</data>
+<node id="202425">
+  <data key="d0">202425</data>
 </node>
 <node id="stroud">
   <data key="d0">stroud</data>
 </node>
-<node id="helmetsjson">
-  <data key="d0">helmetsjson</data>
+<node id="2025">
+  <data key="d0">2025</data>
 </node>
-<node id="bowl">
-  <data key="d0">bowl</data>
+<node id="2026">
+  <data key="d0">2026</data>
 </node>
-<node id="202425">
-  <data key="d0">202425</data>
-</node>
-<node id="mahomes">
-  <data key="d0">mahomes</data>
-</node>
-<node id="mvp">
-  <data key="d0">mvp</data>
-</node>
-<node id="super">
-  <data key="d0">super</data>
-</node>
-<node id="2025 super bowl">
-  <data key="d0">2025 super bowl</data>
-</node>
-<node id="49ers">
-  <data key="d0">49ers</data>
-</node>
-<node id="2024-25 season">
-  <data key="d0">2024-25 season</data>
-</node>
-<node id="anticipation">
-  <data key="d0">anticipation</data>
-</node>
-<node id="nfl">
-  <data key="d0">nfl</data>
-</node>
-<node id="germany">
-  <data key="d0">germany</data>
-</node>
-<node id="nfl kickoff rules">
-  <data key="d0">nfl kickoff rules</data>
-</node>
-<node id="xfl">
-  <data key="d0">xfl</data>
-</node>
-<node id="barry sanders">
-  <data key="d0">barry sanders</data>
-</node>
-<node id="frankfurt">
-  <data key="d0">frankfurt</data>
-</node>
-<node id="euro 2024">
-  <data key="d0">euro 2024</data>
+<node id="2027">
+  <data key="d0">2027</data>
 </node>
 <node id="bo nix">
   <data key="d0">bo nix</data>
@@ -124,41 +97,35 @@
 <node id="offensive rookie">
   <data key="d0">offensive rookie</data>
 </node>
-<node id="sportsbook">
-  <data key="d0">sportsbook</data>
+<node id="49er">
+  <data key="d0">49er</data>
 </node>
-<node id="12 quarterbacks">
-  <data key="d0">12 quarterbacks</data>
+<node id="mvp">
+  <data key="d0">mvp</data>
 </node>
-<node id="c.j. stroud">
-  <data key="d0">c.j. stroud</data>
+<node id="mahomes">
+  <data key="d0">mahomes</data>
 </node>
-<node id="field">
-  <data key="d0">field</data>
+<node id="mahmones">
+  <data key="d0">mahmones</data>
 </node>
-<node id="scare">
-  <data key="d0">scare</data>
+<node id="kelce">
+  <data key="d0">kelce</data>
 </node>
-<node id="kickoff rules">
-  <data key="d0">kickoff rules</data>
+<node id="paris fashion week">
+  <data key="d0">paris fashion week</data>
 </node>
-<node id="returns">
-  <data key="d0">returns</data>
+<node id="2024">
+  <data key="d0">2024</data>
 </node>
-<node id="bowlers kennel">
-  <data key="d0">bowlers kennel</data>
+<node id="swift">
+  <data key="d0">swift</data>
 </node>
-<node id="fiba">
-  <data key="d0">fiba</data>
+<node id="minicamps">
+  <data key="d0">minicamps</data>
 </node>
-<node id="baseball">
-  <data key="d0">baseball</data>
-</node>
-<node id="cardinals">
-  <data key="d0">cardinals</data>
-</node>
-<node id="falcons">
-  <data key="d0">falcons</data>
+<node id="page_content">
+  <data key="d0">page_content</data>
 </node>
 <node id="buffalo bills">
   <data key="d0">buffalo bills</data>
@@ -175,14 +142,11 @@
 <node id="cowboys">
   <data key="d0">cowboys</data>
 </node>
-<node id="def">
-  <data key="d0">def</data>
+<node id="denver broncos">
+  <data key="d0">denver broncos</data>
 </node>
 <node id="lions">
   <data key="d0">lions</data>
-</node>
-<node id="packers">
-  <data key="d0">packers</data>
 </node>
 <node id="texans">
   <data key="d0">texans</data>
@@ -190,17 +154,26 @@
 <node id="indianapolis colts">
   <data key="d0">indianapolis colts</data>
 </node>
-<node id=" nfl">
-  <data key="d0"> nfl</data>
+<node id="bowlers kennel">
+  <data key="d0">bowlers kennel</data>
+</node>
+<node id="fiba">
+  <data key="d0">fiba</data>
+</node>
+<node id="baseball">
+  <data key="d0">baseball</data>
+</node>
+<node id="cardinals">
+  <data key="d0">cardinals</data>
+</node>
+<node id="falcons">
+  <data key="d0">falcons</data>
 </node>
 <node id="jaguars">
   <data key="d0">jaguars</data>
 </node>
 <node id="raiders">
   <data key="d0">raiders</data>
-</node>
-<node id="angeles">
-  <data key="d0">angeles</data>
 </node>
 <node id="chargers">
   <data key="d0">chargers</data>
@@ -229,9 +202,6 @@
 <node id="steelers">
   <data key="d0">steelers</data>
 </node>
-<node id="francisco">
-  <data key="d0">francisco</data>
-</node>
 <node id="seahawks">
   <data key="d0">seahawks</data>
 </node>
@@ -244,119 +214,191 @@
 <node id="reddit">
   <data key="d0">reddit</data>
 </node>
-<node id="2024">
-  <data key="d0">2024</data>
+<node id="packers president">
+  <data key="d0">packers president</data>
 </node>
-<node id="ravens rising">
-  <data key="d0">ravens rising</data>
+<node id="retirement">
+  <data key="d0">retirement</data>
 </node>
-<node id="quarterbacks">
-  <data key="d0">quarterbacks</data>
-</node>
-<node id="minicamps">
-  <data key="d0">minicamps</data>
-</node>
-<node id="coach">
-  <data key="d0">coach</data>
-</node>
-<node id="season">
-  <data key="d0">season</data>
-</node>
-<node id="risk">
-  <data key="d0">risk</data>
+<node id="bowl lix">
+  <data key="d0">bowl lix</data>
 </node>
 <node id="cincinnati bengals">
   <data key="d0">cincinnati bengals</data>
 </node>
-<node id="damar hamlin">
-  <data key="d0">damar hamlin</data>
+<node id="buggs">
+  <data key="d0">buggs</data>
 </node>
-<node id="qb schedule">
-  <data key="d0">qb schedule</data>
+<node id="mahom ">
+  <data key="d0">mahom </data>
 </node>
-<node id="2026">
-  <data key="d0">2026</data>
+<node id="burglary">
+  <data key="d0">burglary</data>
 </node>
-<node id="2027">
-  <data key="d0">2027</data>
+<node id="majson">
+  <data key="d0">majson</data>
 </node>
-<node id="2024 season">
-  <data key="d0">2024 season</data>
+<node id="justin jefferson">
+  <data key="d0">justin jefferson</data>
+</node>
+<node id="paris">
+  <data key="d0">paris</data>
+</node>
+<node id="super">
+  <data key="d0">super</data>
+</node>
+<node id="7">
+  <data key="d0">7</data>
+</node>
+<node id="favorites minicamps">
+  <data key="d0">favorites minicamps</data>
+</node>
+<node id="herd">
+  <data key="d0">herd</data>
 </node>
 <node id="colin cowherd">
   <data key="d0">colin cowherd</data>
 </node>
-<node id="college herd">
-  <data key="d0">college herd</data>
-</node>
-<node id="riot rules">
-  <data key="d0">riot rules</data>
-</node>
-<node id="avg">
-  <data key="d0">avg</data>
-</node>
 <node id="bats">
   <data key="d0">bats</data>
-</node>
-<node id="a κουτσομπόλης">
-  <data key="d0">a κουτσομπόλης</data>
 </node>
 <node id="ben verlander">
   <data key="d0">ben verlander</data>
 </node>
-<node id="fox sports">
-  <data key="d0">fox sports</data>
-</node>
-<node id="upcoming super bowls">
-  <data key="d0">upcoming super bowls</data>
-</node>
 <node id="copa america">
   <data key="d0">copa america</data>
 </node>
-<node id="concurrently">
-  <data key="d0">concurrently</data>
+<node id="fox sports">
+  <data key="d0">fox sports</data>
 </node>
 <edge source="hamlin" target="critical">
-  <data key="d1">condition is</data>
+  <data key="d1">condition of</data>
 </edge>
-<edge source="hamlin" target="bills">
-  <data key="d1">related to</data>
+<edge source="hamlin" target="bengals">
+  <data key="d1">plays against</data>
 </edge>
-<edge source="hamlin" target="8:55 p">
-  <data key="d1">collapsed</data>
+<edge source="hamlin" target="allen">
+  <data key="d1">showed concern along with</data>
 </edge>
-<edge source="hamlin" target="ambulance">
-  <data key="d1">transported</data>
+<edge source="hamlin" target="burrow">
+  <data key="d1">showed concern along with</data>
+</edge>
+<edge source="hamlin" target="8:55 p.m.">
+  <data key="d1">game occurred at time</data>
+</edge>
+<edge source="hamlin" target="jaguars">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="chiefs">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="raiders">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="chargers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="rams">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="dolphins">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="vikings">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="patriots">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="49ers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="hamlin" target="buccaneers">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="hamlin" target="titans">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="bills" target="bengals">
+<edge source="hamlin" target="bills">
+  <data key="d1">include</data>
+</edge>
+<edge source="critical" target="condition">
+  <data key="d1">state of</data>
+</edge>
+<edge source="bengals" target="bills">
   <data key="d1">led</data>
 </edge>
-<edge source="bills" target="allen">
-  <data key="d1">is a player of</data>
-</edge>
-<edge source="bills" target="game">
-  <data key="d1">featured</data>
-</edge>
-<edge source="bills" target="locker rooms">
-  <data key="d1">returned to</data>
+<edge source="bengals" target="7-3">
+  <data key="d1">were leading with score</data>
 </edge>
 <edge source="bengals" target="burrow">
-  <data key="d1">is a player of</data>
+  <data key="d1">plays for</data>
 </edge>
-<edge source="bengals" target="locker rooms">
-  <data key="d1">returned to</data>
-</edge>
-<edge source="bengals" target="game">
-  <data key="d1">featured</data>
-</edge>
-<edge source="bengals" target="fiba">
+<edge source="bengals" target="page_content">
   <data key="d1">is part of</data>
 </edge>
-<edge source="bengals" target="patriots">
-  <data key="d1">connected to</data>
+<edge source="bills" target="jaguars">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="chiefs">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="raiders">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="chargers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="rams">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="dolphins">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="vikings">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="patriots">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="49ers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="bills" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="allen" target="quarterback">
   <data key="d1">position</data>
@@ -364,457 +406,712 @@
 <edge source="allen" target="burrow">
   <data key="d1">embraced</data>
 </edge>
-<edge source="allen" target="game">
-  <data key="d1">played during</data>
-</edge>
 <edge source="quarterback" target="burrow">
   <data key="d1">position</data>
 </edge>
-<edge source="quarterback" target="12">
-  <data key="d1">plays as</data>
+<edge source="aiyuk" target="taylor swift">
+  <data key="d1">is associated with</data>
 </edge>
-<edge source="quarterback" target="bo nix">
-  <data key="d1">plays as</data>
+<edge source="aiyuk" target="packers">
+  <data key="d1">plays for</data>
 </edge>
-<edge source="burrow" target="game">
-  <data key="d1">played during</data>
+<edge source="aiyuk" target="jefferson">
+  <data key="d1">has rivalry with</data>
 </edge>
-<edge source="game" target="first quarter">
-  <data key="d1">was in</data>
+<edge source="aiyuk" target="travis kelce">
+  <data key="d1">has rivalry with</data>
 </edge>
-<edge source="game" target="7-3">
-  <data key="d1">score was</data>
+<edge source="aiyuk" target="chiefs">
+  <data key="d1">includes</data>
 </edge>
-<edge source="8:55 p" target="first quarter">
-  <data key="d1">occurred during</data>
+<edge source="aiyuk" target="49er">
+  <data key="d1">includes</data>
 </edge>
-<edge source="locker rooms" target="players">
-  <data key="d1">left</data>
+<edge source="aiyuk" target="49ers">
+  <data key="d1">teams includes</data>
 </edge>
-<edge source="ravens" target="rising">
-  <data key="d1">rising</data>
+<edge source="aiyuk" target="super bowl">
+  <data key="d1">plays in</data>
 </edge>
-<edge source="ravens" target="super bowl">
-  <data key="d1">related to</data>
+<edge source="taylor swift" target="travis kelce">
+  <data key="d1">dating</data>
 </edge>
-<edge source="ravens" target="helmets">
-  <data key="d1">introduce</data>
+<edge source="taylor swift" target="49ers">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="ravens" target="2025">
-  <data key="d1">expected to rise</data>
+<edge source="packers" target="travis kelce">
+  <data key="d1">plays for</data>
 </edge>
-<edge source="ravens" target="germany">
-  <data key="d1">participates in</data>
+<edge source="packers" target="ed policy">
+  <data key="d1">works for</data>
 </edge>
-<edge source="ravens" target="mahomes">
-  <data key="d1">related to</data>
+<edge source="packers" target="murphy">
+  <data key="d1">linked to</data>
 </edge>
-<edge source="ravens" target="c.j. stroud">
-  <data key="d1">related to</data>
+<edge source="packers" target="helmets">
+  <data key="d1">is used in</data>
 </edge>
-<edge source="ravens" target="fiba">
+<edge source="packers" target="joe burrow">
   <data key="d1">is part of</data>
 </edge>
-<edge source="ravens" target="chargers">
-  <data key="d1">connected to</data>
+<edge source="packers" target="page_content">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="rising" target="2025">
-  <data key="d1">occurs in</data>
+<edge source="packers" target="packers president">
+  <data key="d1">leads</data>
 </edge>
-<edge source="super bowl" target="chiefs">
-  <data key="d1">involves</data>
-</edge>
-<edge source="super bowl" target="12">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="super bowl" target="stroud">
-  <data key="d1">involves</data>
-</edge>
-<edge source="super bowl" target="2025">
-  <data key="d1">takes place in</data>
-</edge>
-<edge source="super bowl" target="49ers">
-  <data key="d1">involves</data>
-</edge>
-<edge source="super bowl" target="mahomes">
-  <data key="d1">key figures</data>
-</edge>
-<edge source="super bowl" target="12 quarterbacks">
-  <data key="d1">includes</data>
-</edge>
-<edge source="super bowl" target="ravens rising">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="super bowl" target="mvp">
-  <data key="d1">winner of</data>
-</edge>
-<edge source="super bowl" target="quarterbacks">
+<edge source="packers" target="49ers">
   <data key="d1">related to</data>
 </edge>
-<edge source="super bowl" target="reddit">
+<edge source="jefferson" target="ravens">
+  <data key="d1">plays for</data>
+</edge>
+<edge source="jefferson" target="super bowl">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="jefferson" target="paris fashion week">
+  <data key="d1">involved in</data>
+</edge>
+<edge source="travis kelce" target="chiefs">
+  <data key="d1">plays for</data>
+</edge>
+<edge source="travis kelce" target="paris fashion week">
+  <data key="d1">attends</data>
+</edge>
+<edge source="travis kelce" target="49ers">
+  <data key="d1">involves</data>
+</edge>
+<edge source="ed policy" target="packers president">
+  <data key="d1">position</data>
+</edge>
+<edge source="ed policy" target="49ers">
+  <data key="d1">concerns</data>
+</edge>
+<edge source="murphy" target="retirement">
+  <data key="d1">announced</data>
+</edge>
+<edge source="murphy" target="packers president">
+  <data key="d1">previously was</data>
+</edge>
+<edge source="murphy" target="49ers">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="helmets" target="rising">
+  <data key="d1">uses</data>
+</edge>
+<edge source="helmets" target="2025">
+  <data key="d1">will change in</data>
+</edge>
+<edge source="helmets" target="ravens">
+  <data key="d1">wearing</data>
+</edge>
+<edge source="helmets" target="49ers">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="ravens" target="joe burrow">
+  <data key="d1">plays for</data>
+</edge>
+<edge source="ravens" target="week 2024">
+  <data key="d1">is associated with</data>
+</edge>
+<edge source="ravens" target="super bowl">
+  <data key="d1">compete in</data>
+</edge>
+<edge source="ravens" target="49ers">
+  <data key="d1">faces against</data>
+</edge>
+<edge source="ravens" target="page_content">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="ravens" target="raiders">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="ravens" target="paris fashion week">
+  <data key="d1">showcased at</data>
+</edge>
+<edge source="joe burrow" target="super bowl">
+  <data key="d1">competes in</data>
+</edge>
+<edge source="joe burrow" target="page_content">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="joe burrow" target="49ers">
+  <data key="d1">connected to</data>
+</edge>
+<edge source="rising" target="49ers">
+  <data key="d1">covers</data>
+</edge>
+<edge source="super bowl" target="49ers">
+  <data key="d1">participates in</data>
+</edge>
+<edge source="super bowl" target="chiefs">
+  <data key="d1">event for</data>
+</edge>
+<edge source="super bowl" target="202425">
+  <data key="d1">will feature</data>
+</edge>
+<edge source="super bowl" target="stroud">
+  <data key="d1">plays in</data>
+</edge>
+<edge source="super bowl" target="2025">
+  <data key="d1">held in</data>
+</edge>
+<edge source="super bowl" target="2026">
+  <data key="d1">held in</data>
+</edge>
+<edge source="super bowl" target="2027">
+  <data key="d1">held in</data>
+</edge>
+<edge source="super bowl" target="mahmones">
+  <data key="d1">plays in</data>
+</edge>
+<edge source="super bowl" target="kelce">
+  <data key="d1">competes in</data>
+</edge>
+<edge source="super bowl" target="mahomes">
+  <data key="d1">involves</data>
+</edge>
+<edge source="super bowl" target="paris fashion week">
+  <data key="d1">associated with</data>
+</edge>
+<edge source="super bowl" target="bowl lix">
+  <data key="d1">participant of</data>
+</edge>
+<edge source="super bowl" target="super">
+  <data key="d1">held in</data>
+</edge>
+<edge source="49ers" target="jaguars">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="chiefs">
+  <data key="d1">plays against</data>
+</edge>
+<edge source="49ers" target="raiders">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="chargers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="rams">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="dolphins">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="vikings">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="patriots">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="titans">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="49ers" target="reddit">
   <data key="d1">discusses</data>
 </edge>
-<edge source="super bowl" target="offensive rookie">
-  <data key="d1">highlighted in</data>
-</edge>
-<edge source="super bowl" target="2024 season">
-  <data key="d1">leads to</data>
-</edge>
-<edge source="helmets" target="2025 super bowl">
-  <data key="d1">out for</data>
-</edge>
-<edge source="helmets" target="chiefs">
-  <data key="d1">wears</data>
-</edge>
-<edge source="helmets" target="xfl">
-  <data key="d1">used in</data>
-</edge>
-<edge source="helmets" target="ravens rising">
-  <data key="d1">wear</data>
-</edge>
-<edge source="2025" target="202425">
-  <data key="d1">occurs in</data>
-</edge>
-<edge source="2025" target="mahomes">
-  <data key="d1">makes</data>
-</edge>
-<edge source="2025" target="49ers">
+<edge source="49ers" target="bowl lix">
   <data key="d1">includes</data>
 </edge>
-<edge source="2025" target="chiefs">
-  <data key="d1">includes</data>
+<edge source="49ers" target="minicamps">
+  <data key="d1">held by</data>
 </edge>
-<edge source="2025" target="stroud">
-  <data key="d1">year</data>
+<edge source="49ers" target="justin jefferson">
+  <data key="d1">involves</data>
 </edge>
-<edge source="2025" target="qb schedule">
-  <data key="d1">includes</data>
+<edge source="49ers" target="paris">
+  <data key="d1">related to</data>
 </edge>
-<edge source="2025" target="cincinnati bengals">
-  <data key="d1">preparing for</data>
+<edge source="49ers" target="2025">
+  <data key="d1">relevant to</data>
 </edge>
-<edge source="2025" target="buffalo bills">
-  <data key="d1">preparing for</data>
+<edge source="chiefs" target="bo nix">
+  <data key="d1">player for</data>
 </edge>
-<edge source="chiefs" target="helmetsjson">
-  <data key="d1">wears</data>
+<edge source="chiefs" target="kelce">
+  <data key="d1">plays for</data>
 </edge>
-<edge source="chiefs" target="2024-25 season">
-  <data key="d1">highlight</data>
+<edge source="chiefs" target="swift">
+  <data key="d1">related to</data>
+</edge>
+<edge source="chiefs" target="minicamps">
+  <data key="d1">held by</data>
 </edge>
 <edge source="chiefs" target="mahomes">
   <data key="d1">plays for</data>
 </edge>
-<edge source="chiefs" target="euro 2024">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="chiefs" target="frankfurt">
-  <data key="d1">related to</data>
-</edge>
 <edge source="chiefs" target="jaguars">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="chiefs" target="raiders">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="chiefs" target="baseball">
-  <data key="d1">connected to</data>
+<edge source="chiefs" target="chargers">
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="chiefs" target="49ers">
-  <data key="d1">competes with</data>
+<edge source="chiefs" target="rams">
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="chiefs" target="qb schedule">
-  <data key="d1">part of</data>
+<edge source="chiefs" target="dolphins">
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="stroud" target="bowl">
-  <data key="d1">participates in</data>
+<edge source="chiefs" target="vikings">
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="stroud" target="super">
-  <data key="d1">participates in</data>
+<edge source="chiefs" target="patriots">
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="stroud" target="anticipation">
-  <data key="d1">building around</data>
+<edge source="chiefs" target="saints">
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="stroud" target="quarterbacks">
-  <data key="d1">related to</data>
+<edge source="chiefs" target="giants">
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="stroud" target="mvp">
-  <data key="d1">contender for</data>
+<edge source="chiefs" target="eagles">
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="mahomes" target="mvp">
+<edge source="chiefs" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chiefs" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chiefs" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chiefs" target="titans">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chiefs" target="falcons">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chiefs" target="bowl lix">
+  <data key="d1">includes</data>
+</edge>
+<edge source="chiefs" target="buggs">
+  <data key="d1">includes</data>
+</edge>
+<edge source="202425" target="minicamps">
+  <data key="d1">held in</data>
+</edge>
+<edge source="202425" target="favorites minicamps">
+  <data key="d1">list players for</data>
+</edge>
+<edge source="stroud" target="offensive rookie">
   <data key="d1">awarded</data>
 </edge>
-<edge source="mahomes" target="kickoff rules">
-  <data key="d1">related to</data>
+<edge source="stroud" target="cincinnati bengals">
+  <data key="d1">quarterback of</data>
 </edge>
-<edge source="mahomes" target="barry sanders">
-  <data key="d1">has experience with</data>
+<edge source="2025" target="bowl lix">
+  <data key="d1">year of</data>
 </edge>
-<edge source="mahomes" target="quarterbacks">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="mahomes" target="qb schedule">
-  <data key="d1">featured in</data>
-</edge>
-<edge source="mahomes" target="upcoming super bowls">
-  <data key="d1">feature</data>
-</edge>
-<edge source="mvp" target="barry sanders">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="mvp" target="sportsbook">
-  <data key="d1">related to</data>
-</edge>
-<edge source="49ers" target="2024-25 season">
-  <data key="d1">highlight</data>
-</edge>
-<edge source="49ers" target="germany">
-  <data key="d1">related to</data>
-</edge>
-<edge source="49ers" target="francisco">
-  <data key="d1">related to</data>
-</edge>
-<edge source="49ers" target="seahawks">
-  <data key="d1">related to</data>
-</edge>
-<edge source="49ers" target="indianapolis colts">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="49ers" target="minicamps">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="49ers" target="qb schedule">
-  <data key="d1">part of</data>
-</edge>
-<edge source="2024-25 season" target="c.j. stroud">
-  <data key="d1">emerges in</data>
-</edge>
-<edge source="nfl" target="germany">
-  <data key="d1">includes</data>
-</edge>
-<edge source="nfl" target="nfl kickoff rules">
-  <data key="d1">rules for</data>
-</edge>
-<edge source="nfl" target="xfl">
-  <data key="d1">compares with</data>
-</edge>
-<edge source="nfl" target="barry sanders">
-  <data key="d1">related to</data>
-</edge>
-<edge source="nfl" target="frankfurt">
-  <data key="d1">related to</data>
-</edge>
-<edge source="nfl" target="field">
+<edge source="2025" target="burglary">
   <data key="d1">involved in</data>
 </edge>
-<edge source="nfl" target="scare">
-  <data key="d1">involves</data>
+<edge source="2026" target="bowl lix">
+  <data key="d1">year of</data>
 </edge>
-<edge source="nfl" target="kickoff rules">
-  <data key="d1">takes place with</data>
-</edge>
-<edge source="nfl" target="bowlers kennel">
-  <data key="d1">related to</data>
-</edge>
-<edge source="germany" target="frankfurt">
-  <data key="d1">coach</data>
-</edge>
-<edge source="germany" target="euro 2024">
-  <data key="d1">related to</data>
-</edge>
-<edge source="nfl kickoff rules" target="barry sanders">
-  <data key="d1">was scared by</data>
-</edge>
-<edge source="xfl" target="returns">
-  <data key="d1">happens with</data>
-</edge>
-<edge source="xfl" target="riot rules">
-  <data key="d1">follow</data>
-</edge>
-<edge source="frankfurt" target="field">
-  <data key="d1">related to</data>
-</edge>
-<edge source="frankfurt" target="euro 2024">
-  <data key="d1">location of</data>
-</edge>
-<edge source="frankfurt" target="2024 season">
-  <data key="d1">location of</data>
-</edge>
-<edge source="euro 2024" target="bo nix">
-  <data key="d1">plays for</data>
-</edge>
-<edge source="euro 2024" target="field">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="euro 2024" target="scare">
-  <data key="d1">object of</data>
+<edge source="2027" target="bowl lix">
+  <data key="d1">year of</data>
 </edge>
 <edge source="bo nix" target="offensive rookie">
-  <data key="d1">contender for</data>
+  <data key="d1">recognized as</data>
 </edge>
-<edge source="bo nix" target="field">
-  <data key="d1">plays in</data>
+<edge source="bo nix" target="cincinnati bengals">
+  <data key="d1">player for</data>
 </edge>
-<edge source="offensive rookie" target="sportsbook">
-  <data key="d1">category</data>
+<edge source="bo nix" target="favorites minicamps">
+  <data key="d1">participates in</data>
 </edge>
-<edge source="field" target="risk">
+<edge source="mvp" target="mahomes">
+  <data key="d1">winner of</data>
+</edge>
+<edge source="mvp" target="mahom ">
   <data key="d1">associated with</data>
 </edge>
-<edge source="kickoff rules" target=" nfl">
-  <data key="d1"> regulated by</data>
+<edge source="mvp" target="majson">
+  <data key="d1">associated with</data>
 </edge>
-<edge source="bowlers kennel" target="fiba">
-  <data key="d1">is part of</data>
+<edge source="mahomes" target="bowl lix">
+  <data key="d1">participant of</data>
 </edge>
-<edge source="fiba" target="baseball">
-  <data key="d1">is part of</data>
+<edge source="kelce" target="paris fashion week">
+  <data key="d1">involved in</data>
 </edge>
-<edge source="fiba" target="cardinals">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="falcons">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="buffalo bills">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="panthers">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="bears">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="browns">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="cowboys">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="def">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="lions">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="packers">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="texans">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="fiba" target="indianapolis colts">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="cardinals" target="raiders">
+<edge source="kelce" target="swift">
   <data key="d1">connected to</data>
 </edge>
-<edge source="falcons" target="angeles">
-  <data key="d1">connected to</data>
+<edge source="kelce" target="page_content">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="buffalo bills" target="rams">
-  <data key="d1">connected to</data>
+<edge source="paris fashion week" target="2024">
+  <data key="d1">occurs in</data>
 </edge>
-<edge source="buffalo bills" target="damar hamlin">
-  <data key="d1">team of</data>
+<edge source="paris fashion week" target="swift">
+  <data key="d1">involved in</data>
 </edge>
-<edge source="panthers" target="dolphins">
-  <data key="d1">connected to</data>
+<edge source="paris fashion week" target="page_content">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="bears" target="vikings">
-  <data key="d1">connected to</data>
+<edge source="page_content" target="buffalo bills">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="browns" target="saints">
-  <data key="d1">connected to</data>
+<edge source="page_content" target="panthers">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="cowboys" target="giants">
-  <data key="d1">connected to</data>
+<edge source="page_content" target="bears">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="def" target="jaguars">
-  <data key="d1">connected to</data>
+<edge source="page_content" target="browns">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="lions" target="eagles">
-  <data key="d1">connected to</data>
+<edge source="page_content" target="cowboys">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="packers" target="steelers">
-  <data key="d1">connected to</data>
+<edge source="page_content" target="denver broncos">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="texans" target="francisco">
-  <data key="d1">connected to</data>
+<edge source="page_content" target="lions">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="raiders" target="angeles">
-  <data key="d1">related to</data>
+<edge source="page_content" target="texans">
+  <data key="d1">is part of</data>
 </edge>
-<edge source="angeles" target="chargers">
-  <data key="d1">related to</data>
+<edge source="page_content" target="indianapolis colts">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="page_content" target="bowlers kennel">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="page_content" target="fiba">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="page_content" target="baseball">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="page_content" target="cardinals">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="page_content" target="falcons">
+  <data key="d1">is part of</data>
+</edge>
+<edge source="buffalo bills" target="chargers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="cardinals" target="jaguars">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="raiders">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="chargers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="rams">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="dolphins">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="vikings">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="patriots">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="jaguars" target="titans">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="chargers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="rams">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="dolphins">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="vikings">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="patriots">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="raiders" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="chargers" target="rams">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="dolphins">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="vikings">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="patriots">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="chargers" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="rams" target="dolphins">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="vikings">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="patriots">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="rams" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="dolphins" target="vikings">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="dolphins" target="patriots">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="dolphins" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="dolphins" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="dolphins" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="dolphins" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="dolphins" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="dolphins" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="dolphins" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="vikings" target="patriots">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="vikings" target="saints">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="vikings" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="vikings" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="vikings" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="vikings" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="vikings" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="vikings" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="patriots" target="saints">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="patriots" target="giants">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="patriots" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="patriots" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="patriots" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="patriots" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="patriots" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="saints" target="giants">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="saints" target="eagles">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="saints" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="saints" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="saints" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="saints" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="giants" target="eagles">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="giants" target="steelers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="giants" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="giants" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="giants" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="eagles" target="steelers">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="steelers" target="francisco">
-  <data key="d1">related to</data>
+<edge source="eagles" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="eagles" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="eagles" target="titans">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="steelers" target="seahawks">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="steelers" target="buccaneers">
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="steelers" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="seahawks" target="buccaneers">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
+</edge>
+<edge source="seahawks" target="titans">
+  <data key="d1">are opponents of</data>
 </edge>
 <edge source="buccaneers" target="titans">
-  <data key="d1">related to</data>
+  <data key="d1">are opponents of</data>
 </edge>
-<edge source="reddit" target="2024">
-  <data key="d1">year</data>
-</edge>
-<edge source="2024" target="ravens rising">
-  <data key="d1">release year</data>
-</edge>
-<edge source="coach" target="season">
-  <data key="d1">operates in</data>
-</edge>
-<edge source="season" target="damar hamlin">
-  <data key="d1">plays in</data>
-</edge>
-<edge source="cincinnati bengals" target="damar hamlin">
+<edge source="bowl lix" target="cincinnati bengals">
   <data key="d1">team of</data>
 </edge>
-<edge source="qb schedule" target="2026">
-  <data key="d1">includes</data>
+<edge source="buggs" target="burglary">
+  <data key="d1">associated with</data>
 </edge>
-<edge source="qb schedule" target="2027">
-  <data key="d1">includes</data>
+<edge source="super" target="7">
+  <data key="d1">held in</data>
 </edge>
-<edge source="colin cowherd" target="college herd">
-  <data key="d1">part of</data>
+<edge source="herd" target="colin cowherd">
+  <data key="d1">hosted by</data>
 </edge>
-<edge source="avg" target="bats">
-  <data key="d1">opposed to</data>
-</edge>
-<edge source="a κουτσομπόλης" target="ben verlander">
-  <data key="d1">opposer</data>
+<edge source="bats" target="ben verlander">
+  <data key="d1">reported by</data>
 </edge>
 <edge source="ben verlander" target="fox sports">
-  <data key="d1">analyst</data>
+  <data key="d1">analyst for</data>
 </edge>
-<edge source="copa america" target="concurrently">
-  <data key="d1">occurs</data>
+<edge source="copa america" target="fox sports">
+  <data key="d1">covers</data>
 </edge>
 </graph></graphml>

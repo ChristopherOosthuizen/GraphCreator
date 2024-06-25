@@ -46,7 +46,6 @@ def extract_relevant_text(html: str) -> str:
         alt = img.get('alt')
         if alt:
             relevant_text.append(alt)
-    print(relevant_text)
     splitter = MarkdownTextSplitter(chunk_size=512, chunk_overlap=0)
     result_text = " ".join(relevant_text)
     splits = splitter.create_documents([result_text])

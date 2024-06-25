@@ -121,6 +121,26 @@ def _converge_lists(lists, summaries, repeats=.5):
     for thread in threads:
         thread.join()
     return combinations, summaries
+def threadsOptimized(triplets,x,chunks,ner,ner_type,num):
+    threads = []
+    for x in range(len(chunks)):
+        if x%10 == 0:
+            for thread in threads:
+                thread.join()
+            threads = []
+        thread = threading.Thread(target=_make_one_triplet, args=(triplets,x,chunks[x],ner,ner_type,num))
+        threads.append(thread)
+        thread.start()
+    for thread in threads:
+        thread.join()
+def threadsFull(triplets,x,chunks,ner,ner_type,num):
+    threads = []
+    for x in range(len(chunks)):
+        thread = threading.Thread(target=_make_one_triplet, args=(triplets,x,chunks[x],ner,ner_type,num))
+        threads.append(thread)
+        thread.start()
+    for thread in threads:
+        thread.join()
 def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, ner_type="flair",num=10):
     """
     Creates a knowledge graph from a list of text chunks.
@@ -144,12 +164,10 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     summaries = []
     threads = []
     triplets = [""]*len(chunks)
-    for x in range(len(chunks)):
-        thread = threading.Thread(target=_make_one_triplet, args=(triplets,x,chunks[x],ner,ner_type,num))
-        threads.append(thread)
-        thread.start()
-    for thread in threads:
-        thread.join()
+    if os.environ.get("HF_HOME") is not None:
+        threadsOptimized(triplets,0,chunks,ner,ner_type,num)
+    else:
+        threadsFull(triplets,0,chunks,ner,ner_type,num)
     combinations = triplets
     summaries = chunks
     new_combinations = [] 
