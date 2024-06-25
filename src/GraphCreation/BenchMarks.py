@@ -169,7 +169,7 @@ def bench_mark_from_dataset(dataframe, source_column, answer_column, question_co
     for x in range(len(dataframe)):
         try:
             url = dataframe[source_column].iloc[x]
-            chunks, graph = gc.create_KG_from_url(url, output_file+str(x), eliminate_all_islands=eliminate_all_islands, inital_repeats=inital_repeats, chunks_precentage_linked=chunks_precentage_linked, ner=ner, ner_type=ner_type)
+            chunks, graph = gc.create_KG_from_url(url, output_file+str(x), eliminate_all_islands=eliminate_all_islands, inital_repeats=inital_repeats, chunks_precentage_linked=chunks_precentage_linked, ner=ner, ner_type=ner_type,llm_formatting=False)
             question = dataframe[question_column].iloc[x]
             answer = dataframe[answer_column].iloc[x]
             base_line = lm.generate_chat_response("", question)
