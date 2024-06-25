@@ -1,1117 +1,1213 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="hamlin">
-  <data key="d0">hamlin</data>
+<graph edgedefault="undirected"><node id="wikipedia">
+  <data key="d0">wikipedia</data>
 </node>
-<node id="critical">
-  <data key="d0">critical</data>
+<node id="knight">
+  <data key="d0">knight</data>
 </node>
-<node id="bengals">
-  <data key="d0">bengals</data>
+<node id="shire">
+  <data key="d0">shire</data>
 </node>
-<node id="condition">
-  <data key="d0">condition</data>
+<node id="title">
+  <data key="d0">title</data>
 </node>
-<node id="bills">
-  <data key="d0">bills</data>
+<node id="comitatus">
+  <data key="d0">comitatus</data>
 </node>
-<node id="allen">
-  <data key="d0">allen</data>
+<node id="milites">
+  <data key="d0">milites</data>
 </node>
-<node id="quarterback">
-  <data key="d0">quarterback</data>
+<node id="member">
+  <data key="d0">member</data>
 </node>
-<node id="burrow">
-  <data key="d0">burrow</data>
+<node id="parliament">
+  <data key="d0">parliament</data>
 </node>
-<node id="8:55 p.m.">
-  <data key="d0">8:55 p.m.</data>
+<node id="constituency">
+  <data key="d0">constituency</data>
 </node>
-<node id="7-3">
-  <data key="d0">7-3</data>
+<node id="county">
+  <data key="d0">county</data>
 </node>
-<node id="aiyuk">
-  <data key="d0">aiyuk</data>
+<node id="commons">
+  <data key="d0">commons</data>
 </node>
-<node id="taylor swift">
-  <data key="d0">taylor swift</data>
+<node id="house">
+  <data key="d0">house</data>
 </node>
-<node id="packers">
-  <data key="d0">packers</data>
+<node id="redistribution seats act 1885">
+  <data key="d0">redistribution seats act 1885</data>
 </node>
-<node id="jefferson">
-  <data key="d0">jefferson</data>
+<node id="boroughs">
+  <data key="d0">boroughs</data>
 </node>
-<node id="travis kelce">
-  <data key="d0">travis kelce</data>
+<node id="cinque ports">
+  <data key="d0">cinque ports</data>
 </node>
-<node id="ed policy">
-  <data key="d0">ed policy</data>
+<node id="burgess">
+  <data key="d0">burgess</data>
 </node>
-<node id="murphy">
-  <data key="d0">murphy</data>
+<node id="borough">
+  <data key="d0">borough</data>
 </node>
-<node id="helmets">
-  <data key="d0">helmets</data>
+<node id="citizen">
+  <data key="d0">citizen</data>
 </node>
-<node id="ravens">
-  <data key="d0">ravens</data>
+<node id="baron">
+  <data key="d0">baron</data>
 </node>
-<node id="joe burrow">
-  <data key="d0">joe burrow</data>
+<node id="constituency ">
+  <data key="d0">constituency </data>
 </node>
-<node id="week 2024">
-  <data key="d0">week 2024</data>
+<node id="commons ">
+  <data key="d0">commons </data>
 </node>
-<node id="rising">
-  <data key="d0">rising</data>
+<node id="parliament ">
+  <data key="d0">parliament </data>
 </node>
-<node id="super bowl">
-  <data key="d0">super bowl</data>
+<node id="shire  ">
+  <data key="d0">shire  </data>
 </node>
-<node id="49ers">
-  <data key="d0">49ers</data>
+<node id="milites  ">
+  <data key="d0">milites  </data>
 </node>
-<node id="chiefs">
-  <data key="d0">chiefs</data>
+<node id="parliament  ">
+  <data key="d0">parliament  </data>
 </node>
-<node id="202425">
-  <data key="d0">202425</data>
+<node id="county  ">
+  <data key="d0">county  </data>
 </node>
-<node id="stroud">
-  <data key="d0">stroud</data>
+<node id="house  ">
+  <data key="d0">house  </data>
 </node>
-<node id="2025">
-  <data key="d0">2025</data>
+<node id="boroughs  ">
+  <data key="d0">boroughs  </data>
 </node>
-<node id="2026">
-  <data key="d0">2026</data>
+<node id="cinque ports  ">
+  <data key="d0">cinque ports  </data>
 </node>
-<node id="2027">
-  <data key="d0">2027</data>
+<node id="borough  ">
+  <data key="d0">borough  </data>
 </node>
-<node id="bo nix">
-  <data key="d0">bo nix</data>
+<node id="citizen  ">
+  <data key="d0">citizen  </data>
 </node>
-<node id="offensive rookie">
-  <data key="d0">offensive rookie</data>
+<node id="baron  ">
+  <data key="d0">baron  </data>
 </node>
-<node id="49er">
-  <data key="d0">49er</data>
+<node id="knight shire">
+  <data key="d0">knight shire</data>
 </node>
-<node id="mvp">
-  <data key="d0">mvp</data>
+<node id="representative writ  ">
+  <data key="d0">representative writ  </data>
 </node>
-<node id="mahomes">
-  <data key="d0">mahomes</data>
+<node id="belted knight  ">
+  <data key="d0">belted knight  </data>
 </node>
-<node id="mahmones">
-  <data key="d0">mahmones</data>
+<node id="degree yeoman  ">
+  <data key="d0">degree yeoman  </data>
 </node>
-<node id="kelce">
-  <data key="d0">kelce</data>
+<node id="act henry vi  ">
+  <data key="d0">act henry vi  </data>
 </node>
-<node id="paris fashion week">
-  <data key="d0">paris fashion week</data>
+<node id="henry vi  ">
+  <data key="d0">henry vi  </data>
 </node>
-<node id="2024">
-  <data key="d0">2024</data>
+<node id="representative writ">
+  <data key="d0">representative writ</data>
 </node>
-<node id="swift">
-  <data key="d0">swift</data>
+<node id="belted knight">
+  <data key="d0">belted knight</data>
 </node>
-<node id="minicamps">
-  <data key="d0">minicamps</data>
+<node id="19th century  ">
+  <data key="d0">19th century  </data>
+</node>
+<node id="14th century  ">
+  <data key="d0">14th century  </data>
+</node>
+<node id="election process  ">
+  <data key="d0">election process  </data>
+</node>
+<node id="19th century">
+  <data key="d0">19th century</data>
+</node>
+<node id="ken knight  ">
+  <data key="d0">ken knight  </data>
+</node>
+<node id="knights">
+  <data key="d0">knights</data>
+</node>
+<node id="eligible election  ">
+  <data key="d0">eligible election  </data>
+</node>
+<node id="estates  ">
+  <data key="d0">estates  </data>
+</node>
+<node id="estate  ">
+  <data key="d0">estate  </data>
+</node>
+<node id="writ of kn  ">
+  <data key="d0">writ of kn  </data>
+</node>
+<node id="act henry vi">
+  <data key="d0">act henry vi</data>
+</node>
+<node id="knights eligibility  ">
+  <data key="d0">knights eligibility  </data>
+</node>
+<node id="estates">
+  <data key="d0">estates</data>
+</node>
+<node id="estate">
+  <data key="d0">estate</data>
+</node>
+<node id="right  ">
+  <data key="d0">right  </data>
+</node>
+<node id="henry vi">
+  <data key="d0">henry vi</data>
+</node>
+<node id="right14  ">
+  <data key="d0">right14  </data>
+</node>
+<node id="writ of kn">
+  <data key="d0">writ of kn</data>
+</node>
+<node id="hknight shire">
+  <data key="d0">hknight shire</data>
+</node>
+<node id="ryjson  ">
+  <data key="d0">ryjson  </data>
+</node>
+<node id="knight shire  ">
+  <data key="d0">knight shire  </data>
+</node>
+<node id="commons  ">
+  <data key="d0">commons  </data>
+</node>
+<node id="house of commons  ">
+  <data key="d0">house of commons  </data>
+</node>
+<node id="house of commons">
+  <data key="d0">house of commons</data>
+</node>
+<node id="degree yeoman">
+  <data key="d0">degree yeoman</data>
+</node>
+<node id="14th century">
+  <data key="d0">14th century</data>
+</node>
+<node id="election process">
+  <data key="d0">election process</data>
+</node>
+<node id="ken knight">
+  <data key="d0">ken knight</data>
+</node>
+<node id="eligible election">
+  <data key="d0">eligible election</data>
+</node>
+<node id="knights eligibility">
+  <data key="d0">knights eligibility</data>
+</node>
+<node id="right">
+  <data key="d0">right</data>
+</node>
+<node id="right14">
+  <data key="d0">right14</data>
+</node>
+<node id="ryjson">
+  <data key="d0">ryjson</data>
+</node>
+<node id="simon montfort">
+  <data key="d0">simon montfort</data>
+</node>
+<node id="1265">
+  <data key="d0">1265</data>
+</node>
+<node id="two knights">
+  <data key="d0">two knights</data>
+</node>
+<node id="1826">
+  <data key="d0">1826</data>
+</node>
+<node id="yorkshire">
+  <data key="d0">yorkshire</data>
+</node>
+<node id="representation people act">
+  <data key="d0">representation people act</data>
+</node>
+<node id="1832">
+  <data key="d0">1832</data>
+</node>
+<node id="singleseat">
+  <data key="d0">singleseat</data>
+</node>
+<node id="redistribution seats act">
+  <data key="d0">redistribution seats act</data>
+</node>
+<node id="franchise">
+  <data key="d0">franchise</data>
+</node>
+<node id="1885">
+  <data key="d0">1885</data>
+</node>
+<node id="rural">
+  <data key="d0">rural</data>
+</node>
+<node id="senior">
+  <data key="d0">senior</data>
+</node>
+<node id="conservative party">
+  <data key="d0">conservative party</data>
+</node>
+<node id="officer">
+  <data key="d0">officer</data>
+</node>
+<node id="county borough">
+  <data key="d0">county borough</data>
+</node>
+<node id="expenses">
+  <data key="d0">expenses</data>
+</node>
+<node id="returning officer">
+  <data key="d0">returning officer</data>
+</node>
+<node id="acting year">
+  <data key="d0">acting year</data>
+</node>
+<node id="ages">
+  <data key="d0">ages</data>
+</node>
+<node id="peers">
+  <data key="d0">peers</data>
+</node>
+<node id="ecclesiastics">
+  <data key="d0">ecclesiastics</data>
+</node>
+<node id="king">
+  <data key="d0">king</data>
+</node>
+<node id="1264">
+  <data key="d0">1264</data>
+</node>
+<node id="representatives">
+  <data key="d0">representatives</data>
+</node>
+<node id="legislative powers">
+  <data key="d0">legislative powers</data>
+</node>
+<node id="boroughss">
+  <data key="d0">boroughss</data>
+</node>
+<node id="model parliament">
+  <data key="d0">model parliament</data>
+</node>
+<node id="magnum concilium">
+  <data key="d0">magnum concilium</data>
+</node>
+<node id="english parliamentary mag">
+  <data key="d0">english parliamentary mag</data>
+</node>
+<node id="1295">
+  <data key="d0">1295</data>
+</node>
+<node id="edward iii">
+  <data key="d0">edward iii</data>
+</node>
+<node id="lords">
+  <data key="d0">lords</data>
+</node>
+<node id="peter de la mare">
+  <data key="d0">peter de la mare</data>
+</node>
+<node id="taxes">
+  <data key="d0">taxes</data>
+</node>
+<node id="royal expenditures">
+  <data key="d0">royal expenditures</data>
+</node>
+<node id="military">
+  <data key="d0">military</data>
+</node>
+<node id="la mare">
+  <data key="d0">la mare</data>
+</node>
+<node id="representative">
+  <data key="d0">representative</data>
+</node>
+<node id="voice">
+  <data key="d0">voice</data>
+</node>
+<node id="county franchise">
+  <data key="d0">county franchise</data>
+</node>
+<node id="act 1429">
+  <data key="d0">act 1429</data>
+</node>
+<node id="uniform county franchise">
+  <data key="d0">uniform county franchise</data>
+</node>
+<node id="act 1432">
+  <data key="d0">act 1432</data>
+</node>
+<node id="resident fortyshilling freehold voter">
+  <data key="d0">resident fortyshilling freehold voter</data>
+</node>
+<node id="military taxation">
+  <data key="d0">military taxation</data>
+</node>
+<node id="backbenchers">
+  <data key="d0">backbenchers</data>
+</node>
+<node id="members parliament">
+  <data key="d0">members parliament</data>
+</node>
+<node id="knighthood">
+  <data key="d0">knighthood</data>
+</node>
+<node id="tomlins">
+  <data key="d0">tomlins</data>
+</node>
+<node id="edlyne granger colpitts">
+  <data key="d0">edlyne granger colpitts</data>
+</node>
+<node id="london clarke">
+  <data key="d0">london clarke</data>
+</node>
+<node id="lawdictionary">
+  <data key="d0">lawdictionary</data>
+</node>
+<node id="british law">
+  <data key="d0">british law</data>
+</node>
+<node id="7 april 2017">
+  <data key="d0">7 april 2017</data>
+</node>
+<node id="retrieved">
+  <data key="d0">retrieved</data>
+</node>
+<node id="fortyshilling freehold voter">
+  <data key="d0">fortyshilling freehold voter</data>
+</node>
+<node id="british law dictionary">
+  <data key="d0">british law dictionary</data>
+</node>
+<node id="roskell">
+  <data key="d0">roskell</data>
+</node>
+<node id="electoral practice">
+  <data key="d0">electoral practice</data>
+</node>
+<node id="edlyne">
+  <data key="d0">edlyne</data>
+</node>
+<node id="granger">
+  <data key="d0">granger</data>
+</node>
+<node id="colpitts">
+  <data key="d0">colpitts</data>
+</node>
+<node id="parliamentary practice">
+  <data key="d0">parliamentary practice</data>
+</node>
+<node id="london">
+  <data key="d0">london</data>
 </node>
 <node id="page_content">
   <data key="d0">page_content</data>
 </node>
-<node id="buffalo bills">
-  <data key="d0">buffalo bills</data>
+<node id="2017">
+  <data key="d0">2017</data>
 </node>
-<node id="panthers">
-  <data key="d0">panthers</data>
+<node id="blackstone william">
+  <data key="d0">blackstone william</data>
 </node>
-<node id="bears">
-  <data key="d0">bears</data>
+<node id="commentaries laws england">
+  <data key="d0">commentaries laws england</data>
 </node>
-<node id="browns">
-  <data key="d0">browns</data>
+<node id="vol.">
+  <data key="d0">vol.</data>
 </node>
-<node id="cowboys">
-  <data key="d0">cowboys</data>
+<node id="23 hen">
+  <data key="d0">23 hen</data>
 </node>
-<node id="denver broncos">
-  <data key="d0">denver broncos</data>
+<node id="1765">
+  <data key="d0">1765</data>
 </node>
-<node id="lions">
-  <data key="d0">lions</data>
+<node id="knights shires parliament">
+  <data key="d0">knights shires parliament</data>
 </node>
-<node id="texans">
-  <data key="d0">texans</data>
+<node id="retrieved 7 april 2017">
+  <data key="d0">retrieved 7 april 2017</data>
 </node>
-<node id="indianapolis colts">
-  <data key="d0">indianapolis colts</data>
+<node id="15">
+  <data key="d0">15</data>
 </node>
-<node id="bowlers kennel">
-  <data key="d0">bowlers kennel</data>
+<node id="14 knights shires parliament">
+  <data key="d0">14 knights shires parliament</data>
 </node>
-<node id="fiba">
-  <data key="d0">fiba</data>
+<node id="shires">
+  <data key="d0">shires</data>
 </node>
-<node id="baseball">
-  <data key="d0">baseball</data>
+<node id="yeoman">
+  <data key="d0">yeoman</data>
 </node>
-<node id="cardinals">
-  <data key="d0">cardinals</data>
+<node id="voy">
+  <data key="d0">voy</data>
 </node>
-<node id="falcons">
-  <data key="d0">falcons</data>
+<node id="6">
+  <data key="d0">6</data>
 </node>
-<node id="jaguars">
-  <data key="d0">jaguars</data>
+<node id="engel matthew">
+  <data key="d0">engel matthew</data>
 </node>
-<node id="raiders">
-  <data key="d0">raiders</data>
+<node id="financial times">
+  <data key="d0">financial times</data>
 </node>
-<node id="chargers">
-  <data key="d0">chargers</data>
+<node id="chronicles medieval england">
+  <data key="d0">chronicles medieval england</data>
 </node>
-<node id="rams">
-  <data key="d0">rams</data>
+<node id="role old knights society">
+  <data key="d0">role old knights society</data>
 </node>
-<node id="dolphins">
-  <data key="d0">dolphins</data>
+<node id=" historical insights">
+  <data key="d0"> historical insights</data>
 </node>
-<node id="vikings">
-  <data key="d0">vikings</data>
+<node id="matthew engel">
+  <data key="d0">matthew engel</data>
 </node>
-<node id="patriots">
-  <data key="d0">patriots</data>
+<node id="chris wilson">
+  <data key="d0">chris wilson</data>
 </node>
-<node id="saints">
-  <data key="d0">saints</data>
+<node id="davies">
+  <data key="d0">davies</data>
 </node>
-<node id="giants">
-  <data key="d0">giants</data>
+<node id="english parliament">
+  <data key="d0">english parliament</data>
 </node>
-<node id="eagles">
-  <data key="d0">eagles</data>
+<node id="denton">
+  <data key="d0">denton</data>
 </node>
-<node id="steelers">
-  <data key="d0">steelers</data>
+<node id="middle ages">
+  <data key="d0">middle ages</data>
 </node>
-<node id="seahawks">
-  <data key="d0">seahawks</data>
+<node id="manchester university press">
+  <data key="d0">manchester university press</data>
 </node>
-<node id="buccaneers">
-  <data key="d0">buccaneers</data>
+<node id="bbc worldwide">
+  <data key="d0">bbc worldwide</data>
 </node>
-<node id="titans">
-  <data key="d0">titans</data>
+<node id="history britain">
+  <data key="d0">history britain</data>
 </node>
-<node id="reddit">
-  <data key="d0">reddit</data>
+<node id="schama">
+  <data key="d0">schama</data>
 </node>
-<node id="packers president">
-  <data key="d0">packers president</data>
+<node id="3000 bc">
+  <data key="d0">3000 bc</data>
 </node>
-<node id="retirement">
-  <data key="d0">retirement</data>
+<node id="1603">
+  <data key="d0">1603</data>
 </node>
-<node id="bowl lix">
-  <data key="d0">bowl lix</data>
+<node id="medieval england">
+  <data key="d0">medieval england</data>
 </node>
-<node id="cincinnati bengals">
-  <data key="d0">cincinnati bengals</data>
+<node id="medieval times">
+  <data key="d0">medieval times</data>
 </node>
-<node id="buggs">
-  <data key="d0">buggs</data>
+<node id="ancient to early modern british history">
+  <data key="d0">ancient to early modern british history</data>
 </node>
-<node id="mahom ">
-  <data key="d0">mahom </data>
+<node id="seymour charles">
+  <data key="d0">seymour charles</data>
 </node>
-<node id="burglary">
-  <data key="d0">burglary</data>
+<node id="yale university">
+  <data key="d0">yale university</data>
 </node>
-<node id="majson">
-  <data key="d0">majson</data>
-</node>
-<node id="justin jefferson">
-  <data key="d0">justin jefferson</data>
-</node>
-<node id="paris">
-  <data key="d0">paris</data>
-</node>
-<node id="super">
-  <data key="d0">super</data>
-</node>
-<node id="7">
-  <data key="d0">7</data>
-</node>
-<node id="favorites minicamps">
-  <data key="d0">favorites minicamps</data>
-</node>
-<node id="herd">
-  <data key="d0">herd</data>
-</node>
-<node id="colin cowherd">
-  <data key="d0">colin cowherd</data>
-</node>
-<node id="bats">
-  <data key="d0">bats</data>
-</node>
-<node id="ben verlander">
-  <data key="d0">ben verlander</data>
-</node>
-<node id="copa america">
-  <data key="d0">copa america</data>
-</node>
-<node id="fox sports">
-  <data key="d0">fox sports</data>
-</node>
-<edge source="hamlin" target="critical">
-  <data key="d1">condition of</data>
+<edge source="wikipedia" target="knight">
+  <data key="d1">has a page for</data>
 </edge>
-<edge source="hamlin" target="bengals">
-  <data key="d1">plays against</data>
+<edge source="wikipedia" target="shire">
+  <data key="d1">describes</data>
 </edge>
-<edge source="hamlin" target="allen">
-  <data key="d1">showed concern along with</data>
+<edge source="knight" target="comitatus">
+  <data key="d1">related to</data>
 </edge>
-<edge source="hamlin" target="burrow">
-  <data key="d1">showed concern along with</data>
-</edge>
-<edge source="hamlin" target="8:55 p.m.">
-  <data key="d1">game occurred at time</data>
-</edge>
-<edge source="hamlin" target="jaguars">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="chiefs">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="raiders">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="chargers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="rams">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="dolphins">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="vikings">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="patriots">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="saints">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="49ers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="hamlin" target="bills">
+<edge source="knight" target="knights">
   <data key="d1">include</data>
 </edge>
-<edge source="critical" target="condition">
-  <data key="d1">state of</data>
+<edge source="knight" target="degree yeoman">
+  <data key="d1">cannot be</data>
 </edge>
-<edge source="bengals" target="bills">
-  <data key="d1">led</data>
+<edge source="knight" target="knight">
+  <data key="d1">is a rank of</data>
 </edge>
-<edge source="bengals" target="7-3">
-  <data key="d1">were leading with score</data>
+<edge source="shire" target="title">
+  <data key="d1">subset of</data>
 </edge>
-<edge source="bengals" target="burrow">
-  <data key="d1">plays for</data>
+<edge source="shire" target="constituency">
+  <data key="d1">related to</data>
 </edge>
-<edge source="bengals" target="page_content">
-  <data key="d1">is part of</data>
+<edge source="shire" target="county">
+  <data key="d1">related to</data>
 </edge>
-<edge source="bills" target="jaguars">
-  <data key="d1">are opponents of</data>
+<edge source="shire" target="belted knight">
+  <data key="d1">represents</data>
 </edge>
-<edge source="bills" target="chiefs">
-  <data key="d1">are opponents of</data>
+<edge source="shire" target="two knights">
+  <data key="d1">sent</data>
 </edge>
-<edge source="bills" target="raiders">
-  <data key="d1">are opponents of</data>
+<edge source="shire" target="rural">
+  <data key="d1">term used in</data>
 </edge>
-<edge source="bills" target="chargers">
-  <data key="d1">are opponents of</data>
+<edge source="shire" target="parliament">
+  <data key="d1">included in</data>
 </edge>
-<edge source="bills" target="rams">
-  <data key="d1">are opponents of</data>
+<edge source="shire" target="london clarke">
+  <data key="d1">contains</data>
 </edge>
-<edge source="bills" target="dolphins">
-  <data key="d1">are opponents of</data>
+<edge source="title" target="shire  ">
+  <data key="d1">subset of</data>
 </edge>
-<edge source="bills" target="vikings">
-  <data key="d1">are opponents of</data>
+<edge source="comitatus" target="milites">
+  <data key="d1">part of</data>
 </edge>
-<edge source="bills" target="patriots">
-  <data key="d1">are opponents of</data>
+<edge source="comitatus" target="milites  ">
+  <data key="d1">part of</data>
 </edge>
-<edge source="bills" target="saints">
-  <data key="d1">are opponents of</data>
+<edge source="member" target="parliament">
+  <data key="d1">part of</data>
 </edge>
-<edge source="bills" target="giants">
-  <data key="d1">are opponents of</data>
+<edge source="member" target="parliament  ">
+  <data key="d1">part of</data>
 </edge>
-<edge source="bills" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="bills" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="bills" target="49ers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="bills" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="bills" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="bills" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="allen" target="quarterback">
-  <data key="d1">position</data>
-</edge>
-<edge source="allen" target="burrow">
-  <data key="d1">embraced</data>
-</edge>
-<edge source="quarterback" target="burrow">
-  <data key="d1">position</data>
-</edge>
-<edge source="aiyuk" target="taylor swift">
-  <data key="d1">is associated with</data>
-</edge>
-<edge source="aiyuk" target="packers">
-  <data key="d1">plays for</data>
-</edge>
-<edge source="aiyuk" target="jefferson">
-  <data key="d1">has rivalry with</data>
-</edge>
-<edge source="aiyuk" target="travis kelce">
-  <data key="d1">has rivalry with</data>
-</edge>
-<edge source="aiyuk" target="chiefs">
+<edge source="parliament" target="commons ">
   <data key="d1">includes</data>
 </edge>
-<edge source="aiyuk" target="49er">
+<edge source="parliament" target="simon montfort">
+  <data key="d1">established</data>
+</edge>
+<edge source="parliament" target="1265">
+  <data key="d1">held in</data>
+</edge>
+<edge source="parliament" target="representative writ">
+  <data key="d1">involves</data>
+</edge>
+<edge source="parliament" target="representation people act">
+  <data key="d1">involves</data>
+</edge>
+<edge source="parliament" target="redistribution seats act">
+  <data key="d1">influenced by</data>
+</edge>
+<edge source="parliament" target="ages">
+  <data key="d1">preceded</data>
+</edge>
+<edge source="parliament" target="1264">
+  <data key="d1">started in</data>
+</edge>
+<edge source="parliament" target="representatives">
+  <data key="d1">included</data>
+</edge>
+<edge source="parliament" target="legislative powers">
+  <data key="d1">has</data>
+</edge>
+<edge source="parliament" target="boroughss">
+  <data key="d1">represented in</data>
+</edge>
+<edge source="parliament" target="model parliament">
+  <data key="d1">evolved into</data>
+</edge>
+<edge source="parliament" target="boroughs">
+  <data key="d1">represented in</data>
+</edge>
+<edge source="parliament" target="edward iii">
+  <data key="d1">split</data>
+</edge>
+<edge source="parliament" target="commons">
+  <data key="d1">divided into</data>
+</edge>
+<edge source="parliament" target="lords">
+  <data key="d1">divided into</data>
+</edge>
+<edge source="parliament" target="la mare">
+  <data key="d1">included</data>
+</edge>
+<edge source="parliament" target="county franchise">
+  <data key="d1">legislated</data>
+</edge>
+<edge source="parliament" target="act 1429">
+  <data key="d1">passed</data>
+</edge>
+<edge source="parliament" target="uniform county franchise">
+  <data key="d1">legislated</data>
+</edge>
+<edge source="parliament" target="peter de la mare">
+  <data key="d1">involved</data>
+</edge>
+<edge source="parliament" target="backbenchers">
+  <data key="d1">comprises</data>
+</edge>
+<edge source="parliament" target="electoral practice">
+  <data key="d1">related to</data>
+</edge>
+<edge source="parliament" target="knights">
+  <data key="d1">serve in</data>
+</edge>
+<edge source="constituency" target="county">
+  <data key="d1">part of</data>
+</edge>
+<edge source="constituency" target="county  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="commons" target="house">
+  <data key="d1">part of</data>
+</edge>
+<edge source="commons" target="redistribution seats act 1885">
+  <data key="d1">changed</data>
+</edge>
+<edge source="commons" target="house  ">
+  <data key="d1">part of</data>
+</edge>
+<edge source="commons" target="parliament  ">
+  <data key="d1">represents</data>
+</edge>
+<edge source="commons" target="peter de la mare">
+  <data key="d1">led by</data>
+</edge>
+<edge source="commons" target="voice">
+  <data key="d1">included</data>
+</edge>
+<edge source="commons" target="taxes">
+  <data key="d1">raised concerns about</data>
+</edge>
+<edge source="house" target="parliament ">
+  <data key="d1">included by</data>
+</edge>
+<edge source="redistribution seats act 1885" target="boroughs">
+  <data key="d1">affected</data>
+</edge>
+<edge source="redistribution seats act 1885" target="boroughs  ">
+  <data key="d1">affected</data>
+</edge>
+<edge source="redistribution seats act 1885" target="cinque ports  ">
+  <data key="d1">affected</data>
+</edge>
+<edge source="boroughs" target="cinque ports">
+  <data key="d1">included</data>
+</edge>
+<edge source="boroughs" target="borough">
+  <data key="d1">related to</data>
+</edge>
+<edge source="boroughs" target="cinque ports  ">
+  <data key="d1">included</data>
+</edge>
+<edge source="boroughs" target="representatives">
+  <data key="d1">included</data>
+</edge>
+<edge source="boroughs" target="model parliament">
+  <data key="d1">included</data>
+</edge>
+<edge source="cinque ports" target="house of commons">
+  <data key="d1">send to</data>
+</edge>
+<edge source="burgess" target="borough">
   <data key="d1">includes</data>
 </edge>
-<edge source="aiyuk" target="49ers">
-  <data key="d1">teams includes</data>
+<edge source="burgess" target="borough  ">
+  <data key="d1">includes</data>
 </edge>
-<edge source="aiyuk" target="super bowl">
-  <data key="d1">plays in</data>
+<edge source="burgess" target="cinque ports  ">
+  <data key="d1">represents</data>
 </edge>
-<edge source="taylor swift" target="travis kelce">
-  <data key="d1">dating</data>
+<edge source="borough" target="citizen">
+  <data key="d1">includes</data>
 </edge>
-<edge source="taylor swift" target="49ers">
+<edge source="borough" target="baron">
+  <data key="d1">includes</data>
+</edge>
+<edge source="borough" target="constituency ">
+  <data key="d1">related to</data>
+</edge>
+<edge source="borough" target="citizen  ">
+  <data key="d1">includes</data>
+</edge>
+<edge source="borough" target="baron  ">
+  <data key="d1">includes</data>
+</edge>
+<edge source="borough" target="house of commons  ">
+  <data key="d1">has representation</data>
+</edge>
+<edge source="shire  " target="belted knight">
+  <data key="d1">represents</data>
+</edge>
+<edge source="parliament  " target="knight shire">
+  <data key="d1">influence</data>
+</edge>
+<edge source="borough  " target="estates">
+  <data key="d1">relate to</data>
+</edge>
+<edge source="knight shire" target="representative writ  ">
+  <data key="d1">implied</data>
+</edge>
+<edge source="knight shire" target="belted knight  ">
+  <data key="d1">involves</data>
+</edge>
+<edge source="knight shire" target="degree yeoman  ">
+  <data key="d1">includes</data>
+</edge>
+<edge source="knight shire" target="act henry vi  ">
+  <data key="d1">establishes</data>
+</edge>
+<edge source="knight shire" target="henry vi  ">
   <data key="d1">linked with</data>
 </edge>
-<edge source="packers" target="travis kelce">
-  <data key="d1">plays for</data>
+<edge source="knight shire" target="commons  ">
+  <data key="d1">influence</data>
 </edge>
-<edge source="packers" target="ed policy">
-  <data key="d1">works for</data>
+<edge source="knight shire" target="representative writ">
+  <data key="d1">implied</data>
 </edge>
-<edge source="packers" target="murphy">
-  <data key="d1">linked to</data>
-</edge>
-<edge source="packers" target="helmets">
-  <data key="d1">is used in</data>
-</edge>
-<edge source="packers" target="joe burrow">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="packers" target="page_content">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="packers" target="packers president">
-  <data key="d1">leads</data>
-</edge>
-<edge source="packers" target="49ers">
-  <data key="d1">related to</data>
-</edge>
-<edge source="jefferson" target="ravens">
-  <data key="d1">plays for</data>
-</edge>
-<edge source="jefferson" target="super bowl">
-  <data key="d1">involved in</data>
-</edge>
-<edge source="jefferson" target="paris fashion week">
-  <data key="d1">involved in</data>
-</edge>
-<edge source="travis kelce" target="chiefs">
-  <data key="d1">plays for</data>
-</edge>
-<edge source="travis kelce" target="paris fashion week">
-  <data key="d1">attends</data>
-</edge>
-<edge source="travis kelce" target="49ers">
+<edge source="knight shire" target="belted knight">
   <data key="d1">involves</data>
 </edge>
-<edge source="ed policy" target="packers president">
-  <data key="d1">position</data>
+<edge source="knight shire" target="degree yeoman">
+  <data key="d1">includes</data>
 </edge>
-<edge source="ed policy" target="49ers">
-  <data key="d1">concerns</data>
+<edge source="knight shire" target="act henry vi">
+  <data key="d1">establishes</data>
 </edge>
-<edge source="murphy" target="retirement">
-  <data key="d1">announced</data>
+<edge source="knight shire" target="henry vi">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="murphy" target="packers president">
-  <data key="d1">previously was</data>
+<edge source="knight shire" target="two knights">
+  <data key="d1">includes</data>
 </edge>
-<edge source="murphy" target="49ers">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="helmets" target="rising">
-  <data key="d1">uses</data>
-</edge>
-<edge source="helmets" target="2025">
-  <data key="d1">will change in</data>
-</edge>
-<edge source="helmets" target="ravens">
-  <data key="d1">wearing</data>
-</edge>
-<edge source="helmets" target="49ers">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="ravens" target="joe burrow">
-  <data key="d1">plays for</data>
-</edge>
-<edge source="ravens" target="week 2024">
-  <data key="d1">is associated with</data>
-</edge>
-<edge source="ravens" target="super bowl">
-  <data key="d1">compete in</data>
-</edge>
-<edge source="ravens" target="49ers">
-  <data key="d1">faces against</data>
-</edge>
-<edge source="ravens" target="page_content">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="ravens" target="raiders">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="ravens" target="paris fashion week">
-  <data key="d1">showcased at</data>
-</edge>
-<edge source="joe burrow" target="super bowl">
-  <data key="d1">competes in</data>
-</edge>
-<edge source="joe burrow" target="page_content">
-  <data key="d1">is part of</data>
-</edge>
-<edge source="joe burrow" target="49ers">
-  <data key="d1">connected to</data>
-</edge>
-<edge source="rising" target="49ers">
-  <data key="d1">covers</data>
-</edge>
-<edge source="super bowl" target="49ers">
-  <data key="d1">participates in</data>
-</edge>
-<edge source="super bowl" target="chiefs">
-  <data key="d1">event for</data>
-</edge>
-<edge source="super bowl" target="202425">
-  <data key="d1">will feature</data>
-</edge>
-<edge source="super bowl" target="stroud">
-  <data key="d1">plays in</data>
-</edge>
-<edge source="super bowl" target="2025">
-  <data key="d1">held in</data>
-</edge>
-<edge source="super bowl" target="2026">
-  <data key="d1">held in</data>
-</edge>
-<edge source="super bowl" target="2027">
-  <data key="d1">held in</data>
-</edge>
-<edge source="super bowl" target="mahmones">
-  <data key="d1">plays in</data>
-</edge>
-<edge source="super bowl" target="kelce">
-  <data key="d1">competes in</data>
-</edge>
-<edge source="super bowl" target="mahomes">
+<edge source="degree yeoman  " target="knights">
   <data key="d1">involves</data>
 </edge>
-<edge source="super bowl" target="paris fashion week">
-  <data key="d1">associated with</data>
+<edge source="degree yeoman  " target="estates">
+  <data key="d1">part of</data>
 </edge>
-<edge source="super bowl" target="bowl lix">
-  <data key="d1">participant of</data>
+<edge source="act henry vi  " target="representative writ">
+  <data key="d1">implies</data>
 </edge>
-<edge source="super bowl" target="super">
-  <data key="d1">held in</data>
+<edge source="act henry vi  " target="knights">
+  <data key="d1">elected in</data>
 </edge>
-<edge source="49ers" target="jaguars">
-  <data key="d1">are opponents of</data>
+<edge source="henry vi  " target="knights">
+  <data key="d1">referred to</data>
 </edge>
-<edge source="49ers" target="chiefs">
-  <data key="d1">plays against</data>
+<edge source="representative writ" target="knights eligibility  ">
+  <data key="d1">requires</data>
 </edge>
-<edge source="49ers" target="raiders">
-  <data key="d1">are opponents of</data>
+<edge source="representative writ" target="act henry vi">
+  <data key="d1">implies</data>
 </edge>
-<edge source="49ers" target="chargers">
-  <data key="d1">are opponents of</data>
+<edge source="belted knight" target="19th century  ">
+  <data key="d1">exists in</data>
 </edge>
-<edge source="49ers" target="rams">
-  <data key="d1">are opponents of</data>
+<edge source="belted knight" target="14th century  ">
+  <data key="d1">exists in</data>
 </edge>
-<edge source="49ers" target="dolphins">
-  <data key="d1">are opponents of</data>
+<edge source="belted knight" target="election process  ">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="49ers" target="vikings">
-  <data key="d1">are opponents of</data>
+<edge source="belted knight" target="knight shire  ">
+  <data key="d1">is a</data>
 </edge>
-<edge source="49ers" target="patriots">
-  <data key="d1">are opponents of</data>
+<edge source="belted knight" target="19th century">
+  <data key="d1">exists in</data>
 </edge>
-<edge source="49ers" target="saints">
-  <data key="d1">are opponents of</data>
+<edge source="belted knight" target="14th century">
+  <data key="d1">exists in</data>
 </edge>
-<edge source="49ers" target="giants">
-  <data key="d1">are opponents of</data>
+<edge source="belted knight" target="election process">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="49ers" target="eagles">
-  <data key="d1">are opponents of</data>
+<edge source="election process  " target="knights">
+  <data key="d1">includes</data>
 </edge>
-<edge source="49ers" target="steelers">
-  <data key="d1">are opponents of</data>
+<edge source="19th century" target="ken knight  ">
+  <data key="d1">represents</data>
 </edge>
-<edge source="49ers" target="seahawks">
-  <data key="d1">are opponents of</data>
+<edge source="19th century" target="ken knight">
+  <data key="d1">represents</data>
 </edge>
-<edge source="49ers" target="buccaneers">
-  <data key="d1">are opponents of</data>
+<edge source="knights" target="eligible election  ">
+  <data key="d1">includes</data>
 </edge>
-<edge source="49ers" target="titans">
-  <data key="d1">are opponents of</data>
+<edge source="knights" target="estates  ">
+  <data key="d1">holds</data>
 </edge>
-<edge source="49ers" target="reddit">
+<edge source="knights" target="estate  ">
+  <data key="d1">involves</data>
+</edge>
+<edge source="knights" target="writ of kn  ">
+  <data key="d1">elected by</data>
+</edge>
+<edge source="knights" target="act henry vi">
+  <data key="d1">elected in</data>
+</edge>
+<edge source="knights" target="eligible election">
+  <data key="d1">includes</data>
+</edge>
+<edge source="knights" target="estates">
+  <data key="d1">holds</data>
+</edge>
+<edge source="knights" target="estate">
+  <data key="d1">involves</data>
+</edge>
+<edge source="knights" target="degree yeoman">
+  <data key="d1">involves</data>
+</edge>
+<edge source="knights" target="henry vi">
+  <data key="d1">referred to</data>
+</edge>
+<edge source="knights" target="writ of kn">
+  <data key="d1">elected by</data>
+</edge>
+<edge source="knights" target="election process">
+  <data key="d1">includes</data>
+</edge>
+<edge source="knights" target="magnum concilium">
+  <data key="d1">comprised of</data>
+</edge>
+<edge source="knights" target="english parliamentary mag">
+  <data key="d1">included</data>
+</edge>
+<edge source="knights" target="23 hen">
+  <data key="d1">includes</data>
+</edge>
+<edge source="knights" target="shires">
+  <data key="d1">serve in</data>
+</edge>
+<edge source="knights" target="knights shires parliament">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="knights" target="matthew engel">
+  <data key="d1">cites</data>
+</edge>
+<edge source="knights" target="financial times">
   <data key="d1">discusses</data>
 </edge>
-<edge source="49ers" target="bowl lix">
-  <data key="d1">includes</data>
-</edge>
-<edge source="49ers" target="minicamps">
-  <data key="d1">held by</data>
-</edge>
-<edge source="49ers" target="justin jefferson">
+<edge source="writ of kn  " target="act henry vi">
   <data key="d1">involves</data>
 </edge>
-<edge source="49ers" target="paris">
+<edge source="act henry vi" target="knights eligibility  ">
+  <data key="d1">recognizes</data>
+</edge>
+<edge source="act henry vi" target="knights eligibility">
+  <data key="d1">recognizes</data>
+</edge>
+<edge source="act henry vi" target="writ of kn">
+  <data key="d1">involves</data>
+</edge>
+<edge source="estates" target="degree yeoman">
+  <data key="d1">part of</data>
+</edge>
+<edge source="estate" target="right  ">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="estate" target="right">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="right  " target="writ of kn">
+  <data key="d1">implies</data>
+</edge>
+<edge source="henry vi" target="right14  ">
+  <data key="d1">involves</data>
+</edge>
+<edge source="henry vi" target="right14">
+  <data key="d1">involves</data>
+</edge>
+<edge source="writ of kn" target="right">
+  <data key="d1">implies</data>
+</edge>
+<edge source="hknight shire" target="ryjson  ">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="hknight shire" target="ryjson">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="degree yeoman" target="yeoman">
+  <data key="d1">is a rank of</data>
+</edge>
+<edge source="knights eligibility" target="franchise">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="1826" target="yorkshire">
+  <data key="d1">included</data>
+</edge>
+<edge source="representation people act" target="1832">
+  <data key="d1">enacted in</data>
+</edge>
+<edge source="1832" target="acting year">
   <data key="d1">related to</data>
 </edge>
-<edge source="49ers" target="2025">
+<edge source="singleseat" target="redistribution seats act">
+  <data key="d1">resulted from</data>
+</edge>
+<edge source="redistribution seats act" target="franchise">
+  <data key="d1">standardised by</data>
+</edge>
+<edge source="redistribution seats act" target="1885">
+  <data key="d1">enacted in</data>
+</edge>
+<edge source="senior" target="conservative party">
+  <data key="d1">represented by</data>
+</edge>
+<edge source="officer" target="county borough">
+  <data key="d1">term used in</data>
+</edge>
+<edge source="officer" target="expenses">
+  <data key="d1">to manage</data>
+</edge>
+<edge source="county borough" target="returning officer">
+  <data key="d1">had</data>
+</edge>
+<edge source="expenses" target="returning officer">
+  <data key="d1">covered by</data>
+</edge>
+<edge source="ages" target="peers">
+  <data key="d1">comprised of</data>
+</edge>
+<edge source="ages" target="ecclesiastics">
+  <data key="d1">comprised of</data>
+</edge>
+<edge source="ages" target="king">
+  <data key="d1">comprised of</data>
+</edge>
+<edge source="ages" target="1264">
+  <data key="d1">during</data>
+</edge>
+<edge source="peers" target="magnum concilium">
+  <data key="d1">comprised of</data>
+</edge>
+<edge source="peers" target="english parliamentary mag">
+  <data key="d1">included</data>
+</edge>
+<edge source="ecclesiastics" target="magnum concilium">
+  <data key="d1">comprised of</data>
+</edge>
+<edge source="ecclesiastics" target="english parliamentary mag">
+  <data key="d1">included</data>
+</edge>
+<edge source="king" target="magnum concilium">
+  <data key="d1">comprised of</data>
+</edge>
+<edge source="king" target="english parliamentary mag">
+  <data key="d1">chamber of</data>
+</edge>
+<edge source="king" target="taxes">
+  <data key="d1">raised by</data>
+</edge>
+<edge source="king" target="la mare">
+  <data key="d1">imprisoned by</data>
+</edge>
+<edge source="representatives" target="model parliament">
+  <data key="d1">included</data>
+</edge>
+<edge source="representatives" target="boroughss">
+  <data key="d1">included</data>
+</edge>
+<edge source="representatives" target="taxes">
+  <data key="d1">related to</data>
+</edge>
+<edge source="model parliament" target="1295">
+  <data key="d1">formed in</data>
+</edge>
+<edge source="peter de la mare" target="uniform county franchise">
   <data key="d1">relevant to</data>
 </edge>
-<edge source="chiefs" target="bo nix">
-  <data key="d1">player for</data>
-</edge>
-<edge source="chiefs" target="kelce">
-  <data key="d1">plays for</data>
-</edge>
-<edge source="chiefs" target="swift">
+<edge source="taxes" target="royal expenditures">
   <data key="d1">related to</data>
 </edge>
-<edge source="chiefs" target="minicamps">
-  <data key="d1">held by</data>
+<edge source="taxes" target="military">
+  <data key="d1">supported by</data>
 </edge>
-<edge source="chiefs" target="mahomes">
-  <data key="d1">plays for</data>
+<edge source="royal expenditures" target="la mare">
+  <data key="d1">voiced complaints about</data>
 </edge>
-<edge source="chiefs" target="jaguars">
-  <data key="d1">are opponents of</data>
+<edge source="la mare" target="representative">
+  <data key="d1">was</data>
 </edge>
-<edge source="chiefs" target="raiders">
-  <data key="d1">are opponents of</data>
+<edge source="la mare" target="voice">
+  <data key="d1">had</data>
 </edge>
-<edge source="chiefs" target="chargers">
-  <data key="d1">are opponents of</data>
+<edge source="la mare" target="act 1429">
+  <data key="d1">linked to</data>
 </edge>
-<edge source="chiefs" target="rams">
-  <data key="d1">are opponents of</data>
+<edge source="county franchise" target="military taxation">
+  <data key="d1">involved in</data>
 </edge>
-<edge source="chiefs" target="dolphins">
-  <data key="d1">are opponents of</data>
+<edge source="act 1429" target="act 1432">
+  <data key="d1">is a type of</data>
 </edge>
-<edge source="chiefs" target="vikings">
-  <data key="d1">are opponents of</data>
+<edge source="act 1429" target="act 1429">
+  <data key="d1">is a type of</data>
 </edge>
-<edge source="chiefs" target="patriots">
-  <data key="d1">are opponents of</data>
+<edge source="act 1429" target="fortyshilling freehold voter">
+  <data key="d1">defined by</data>
 </edge>
-<edge source="chiefs" target="saints">
-  <data key="d1">are opponents of</data>
+<edge source="uniform county franchise" target="resident fortyshilling freehold voter">
+  <data key="d1">defined by</data>
 </edge>
-<edge source="chiefs" target="giants">
-  <data key="d1">are opponents of</data>
+<edge source="act 1432" target="british law dictionary">
+  <data key="d1">references</data>
 </edge>
-<edge source="chiefs" target="eagles">
-  <data key="d1">are opponents of</data>
+<edge source="backbenchers" target="members parliament">
+  <data key="d1">are a type of</data>
 </edge>
-<edge source="chiefs" target="steelers">
-  <data key="d1">are opponents of</data>
+<edge source="members parliament" target="knighthood">
+  <data key="d1">can receive</data>
 </edge>
-<edge source="chiefs" target="seahawks">
-  <data key="d1">are opponents of</data>
+<edge source="members parliament" target="fortyshilling freehold voter">
+  <data key="d1">is a type of</data>
 </edge>
-<edge source="chiefs" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chiefs" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chiefs" target="falcons">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chiefs" target="bowl lix">
+<edge source="members parliament" target="tomlins">
   <data key="d1">includes</data>
 </edge>
-<edge source="chiefs" target="buggs">
+<edge source="members parliament" target="edlyne">
   <data key="d1">includes</data>
 </edge>
-<edge source="202425" target="minicamps">
-  <data key="d1">held in</data>
+<edge source="members parliament" target="granger">
+  <data key="d1">includes</data>
 </edge>
-<edge source="202425" target="favorites minicamps">
-  <data key="d1">list players for</data>
+<edge source="members parliament" target="colpitts">
+  <data key="d1">includes</data>
 </edge>
-<edge source="stroud" target="offensive rookie">
-  <data key="d1">awarded</data>
+<edge source="tomlins" target="edlyne granger colpitts">
+  <data key="d1">is</data>
 </edge>
-<edge source="stroud" target="cincinnati bengals">
-  <data key="d1">quarterback of</data>
+<edge source="lawdictionary" target="british law">
+  <data key="d1">found in</data>
 </edge>
-<edge source="2025" target="bowl lix">
-  <data key="d1">year of</data>
+<edge source="lawdictionary" target="london">
+  <data key="d1">mentioned in</data>
 </edge>
-<edge source="2025" target="burglary">
-  <data key="d1">involved in</data>
+<edge source="lawdictionary" target="page_content">
+  <data key="d1">mentioned in</data>
 </edge>
-<edge source="2026" target="bowl lix">
-  <data key="d1">year of</data>
+<edge source="7 april 2017" target="retrieved">
+  <data key="d1">is the date</data>
 </edge>
-<edge source="2027" target="bowl lix">
-  <data key="d1">year of</data>
+<edge source="roskell" target="electoral practice">
+  <data key="d1">described in</data>
 </edge>
-<edge source="bo nix" target="offensive rookie">
-  <data key="d1">recognized as</data>
+<edge source="roskell" target="2017">
+  <data key="d1">mentioned in</data>
 </edge>
-<edge source="bo nix" target="cincinnati bengals">
-  <data key="d1">player for</data>
+<edge source="roskell" target="blackstone william">
+  <data key="d1">is linked with</data>
 </edge>
-<edge source="bo nix" target="favorites minicamps">
-  <data key="d1">participates in</data>
+<edge source="roskell" target="english parliament">
+  <data key="d1">is a part of</data>
 </edge>
-<edge source="mvp" target="mahomes">
-  <data key="d1">winner of</data>
+<edge source="roskell" target="schama">
+  <data key="d1">wrote about</data>
 </edge>
-<edge source="mvp" target="mahom ">
-  <data key="d1">associated with</data>
+<edge source="electoral practice" target="parliamentary practice">
+  <data key="d1">mentioned in</data>
 </edge>
-<edge source="mvp" target="majson">
-  <data key="d1">associated with</data>
+<edge source="page_content" target="2017">
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="mahomes" target="bowl lix">
-  <data key="d1">participant of</data>
+<edge source="blackstone william" target="commentaries laws england">
+  <data key="d1">wrote</data>
 </edge>
-<edge source="kelce" target="paris fashion week">
-  <data key="d1">involved in</data>
+<edge source="commentaries laws england" target="commentaries laws england">
+  <data key="d1">entitled</data>
 </edge>
-<edge source="kelce" target="swift">
-  <data key="d1">connected to</data>
+<edge source="commentaries laws england" target="vol.">
+  <data key="d1">includes</data>
 </edge>
-<edge source="kelce" target="page_content">
-  <data key="d1">is part of</data>
+<edge source="commentaries laws england" target="23 hen">
+  <data key="d1">cites</data>
 </edge>
-<edge source="paris fashion week" target="2024">
-  <data key="d1">occurs in</data>
+<edge source="commentaries laws england" target="1765">
+  <data key="d1">issued in</data>
 </edge>
-<edge source="paris fashion week" target="swift">
-  <data key="d1">involved in</data>
+<edge source="commentaries laws england" target="knights shires parliament">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="paris fashion week" target="page_content">
-  <data key="d1">is part of</data>
+<edge source="vol." target="retrieved 7 april 2017">
+  <data key="d1">retrieved on</data>
 </edge>
-<edge source="page_content" target="buffalo bills">
-  <data key="d1">is part of</data>
+<edge source="23 hen" target="15">
+  <data key="d1">refers to</data>
 </edge>
-<edge source="page_content" target="panthers">
-  <data key="d1">is part of</data>
+<edge source="23 hen" target="14 knights shires parliament">
+  <data key="d1">refers to</data>
 </edge>
-<edge source="page_content" target="bears">
-  <data key="d1">is part of</data>
+<edge source="voy" target="6">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="page_content" target="browns">
-  <data key="d1">is part of</data>
+<edge source="engel matthew" target="financial times">
+  <data key="d1">author of</data>
 </edge>
-<edge source="page_content" target="cowboys">
-  <data key="d1">is part of</data>
+<edge source="engel matthew" target="chronicles medieval england">
+  <data key="d1">wrote</data>
 </edge>
-<edge source="page_content" target="denver broncos">
-  <data key="d1">is part of</data>
+<edge source="financial times" target="role old knights society">
+  <data key="d1">discusses</data>
 </edge>
-<edge source="page_content" target="lions">
-  <data key="d1">is part of</data>
+<edge source="chronicles medieval england" target=" historical insights">
+  <data key="d1">provides further</data>
 </edge>
-<edge source="page_content" target="texans">
-  <data key="d1">is part of</data>
+<edge source="chronicles medieval england" target="chris wilson">
+  <data key="d1">wrote</data>
 </edge>
-<edge source="page_content" target="indianapolis colts">
-  <data key="d1">is part of</data>
+<edge source="chronicles medieval england" target="medieval england">
+  <data key="d1">takes place in</data>
 </edge>
-<edge source="page_content" target="bowlers kennel">
-  <data key="d1">is part of</data>
+<edge source="davies" target="english parliament">
+  <data key="d1">is a part of</data>
 </edge>
-<edge source="page_content" target="fiba">
-  <data key="d1">is part of</data>
+<edge source="davies" target="schama">
+  <data key="d1">wrote about</data>
 </edge>
-<edge source="page_content" target="baseball">
-  <data key="d1">is part of</data>
+<edge source="english parliament" target="denton">
+  <data key="d1">is a part of</data>
 </edge>
-<edge source="page_content" target="cardinals">
-  <data key="d1">is part of</data>
+<edge source="english parliament" target="middle ages">
+  <data key="d1">takes place in</data>
 </edge>
-<edge source="page_content" target="falcons">
-  <data key="d1">is part of</data>
+<edge source="english parliament" target="schama">
+  <data key="d1">wrote about</data>
 </edge>
-<edge source="buffalo bills" target="chargers">
-  <data key="d1">are opponents of</data>
+<edge source="denton" target="manchester university press">
+  <data key="d1">studied at</data>
 </edge>
-<edge source="cardinals" target="jaguars">
-  <data key="d1">are opponents of</data>
+<edge source="denton" target="schama">
+  <data key="d1">wrote about</data>
 </edge>
-<edge source="jaguars" target="raiders">
-  <data key="d1">are opponents of</data>
+<edge source="middle ages" target="manchester university press">
+  <data key="d1">book published by</data>
 </edge>
-<edge source="jaguars" target="chargers">
-  <data key="d1">are opponents of</data>
+<edge source="middle ages" target="medieval times">
+  <data key="d1">connected with</data>
 </edge>
-<edge source="jaguars" target="rams">
-  <data key="d1">are opponents of</data>
+<edge source="manchester university press" target="bbc worldwide">
+  <data key="d1">published by</data>
 </edge>
-<edge source="jaguars" target="dolphins">
-  <data key="d1">are opponents of</data>
+<edge source="manchester university press" target="seymour charles">
+  <data key="d1">published by</data>
 </edge>
-<edge source="jaguars" target="vikings">
-  <data key="d1">are opponents of</data>
+<edge source="history britain" target="schama">
+  <data key="d1">wrote</data>
 </edge>
-<edge source="jaguars" target="patriots">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="jaguars" target="saints">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="jaguars" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="jaguars" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="jaguars" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="jaguars" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="jaguars" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="jaguars" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="chargers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="rams">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="dolphins">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="vikings">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="patriots">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="saints">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="raiders" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="rams">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="dolphins">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="vikings">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="patriots">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="saints">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="chargers" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="dolphins">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="vikings">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="patriots">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="saints">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="rams" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="vikings">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="patriots">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="saints">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="dolphins" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="vikings" target="patriots">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="vikings" target="saints">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="vikings" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="vikings" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="vikings" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="vikings" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="vikings" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="vikings" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="patriots" target="saints">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="patriots" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="patriots" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="patriots" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="patriots" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="patriots" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="patriots" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="saints" target="giants">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="saints" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="saints" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="saints" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="saints" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="saints" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="giants" target="eagles">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="giants" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="giants" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="giants" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="giants" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="eagles" target="steelers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="eagles" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="eagles" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="eagles" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="steelers" target="seahawks">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="steelers" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="steelers" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="seahawks" target="buccaneers">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="seahawks" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="buccaneers" target="titans">
-  <data key="d1">are opponents of</data>
-</edge>
-<edge source="bowl lix" target="cincinnati bengals">
-  <data key="d1">team of</data>
-</edge>
-<edge source="buggs" target="burglary">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="super" target="7">
-  <data key="d1">held in</data>
-</edge>
-<edge source="herd" target="colin cowherd">
-  <data key="d1">hosted by</data>
-</edge>
-<edge source="bats" target="ben verlander">
-  <data key="d1">reported by</data>
-</edge>
-<edge source="ben verlander" target="fox sports">
-  <data key="d1">analyst for</data>
-</edge>
-<edge source="copa america" target="fox sports">
+<edge source="history britain" target="3000 bc">
   <data key="d1">covers</data>
+</edge>
+<edge source="history britain" target="1603">
+  <data key="d1">covers</data>
+</edge>
+<edge source="history britain" target="ancient to early modern british history">
+  <data key="d1">includes periods from</data>
+</edge>
+<edge source="seymour charles" target="yale university">
+  <data key="d1">studied at</data>
 </edge>
 </graph></graphml>

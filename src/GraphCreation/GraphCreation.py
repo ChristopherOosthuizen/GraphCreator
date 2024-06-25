@@ -194,7 +194,7 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     return combinations
 
 
-def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, llm_formatting=True, ner=False, ner_type="flair",num=10,additional=""):
+def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, llm_formatting=False, ner=False, ner_type="flair",num=5,additional=""):
     """
     Creates a knowledge graph (KG) from the given text.
 
@@ -226,7 +226,7 @@ def generate_colors(num_clusters):
     return colors
     
 
-def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair",num=10, additional=""):
+def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, ner=False, ner_type="flair",num=5, additional=""):
     if not os.path.exists(output_file):
         os.makedirs(output_file)
     repeats = chunks_precentage_linked
@@ -270,7 +270,7 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     except:
         print("Could not cluster graph.")
     return chunks, Graph
-def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
+def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5):
     text = textformatting.url_to_md(url)
     table_data = textformatting.get_tables_from_url(url)
     additional = ""
