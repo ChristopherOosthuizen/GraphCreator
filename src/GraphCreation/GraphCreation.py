@@ -279,12 +279,12 @@ def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num,additional=additional)
 
     return jsons
-def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
+def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5):
     text = textformatting.pdf_to_md(pdf)
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
     return jsons
 
-def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5,llm_formatting=True, ner=False, ner_type="flair",num=10):
+def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5):
     files = os.listdir(folder)
     text = ""
     for file in files:
