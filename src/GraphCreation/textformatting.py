@@ -107,7 +107,25 @@ def url_to_md(url):
     html= extract_relevant_text(html)
     return html
 def pdf_to_md(file):
-    return extract_text(file)
+    relevant_text = extract_text(file)
+    splitter = MarkdownTextSplitter(chunk_size=510, chunk_overlap=0)
+    result_text = " ".join(relevant_text)
+    splits = splitter.create_documents([result_text])
+    for x in range(len(splits)):
+        splits[x] = str(splits[x])
+    if len(splits) == 0:
+        return ""
+    
+    if len(splits) == 1:
+        return splits[0]
+    compressed_prompt = llm_lingua.compress_prompt(
+        context=list(splits),
+        rate=0.33,
+        force_tokens=["!", ".", "?", "\n"],
+        drop_consecutive=True,
+    )
+    prompt = "\n\n".join([compressed_prompt["compressed_prompt"]])
+    return prompt
 def chunk_text(text):
     splitter = MarkdownTextSplitter(chunk_size=200, chunk_overlap=25)
     splits = splitter.create_documents([text])

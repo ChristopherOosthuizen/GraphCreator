@@ -270,7 +270,7 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     except:
         print("Could not cluster graph.")
     return chunks, Graph
-def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5):
+def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5):
     text = textformatting.url_to_md(url)
     table_data = textformatting.get_tables_from_url(url)
     additional = ""
@@ -279,7 +279,7 @@ def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num,additional=additional)
 
     return jsons
-def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5):
+def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5):
     text = textformatting.pdf_to_md(pdf)
     jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
     return jsons
