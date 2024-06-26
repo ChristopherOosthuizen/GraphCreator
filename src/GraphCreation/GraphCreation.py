@@ -272,14 +272,6 @@ def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False
     return jsons
 
 def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5):
-    files = os.listdir(folder)
-    text = ""
-    for file in files:
-        if file.endswith(".pdf"):
-            create_KG_from_pdf(folder + file, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
-        elif file.endswith(".html"):
-            create_KG_from_url(folder + file, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
-        else:
-            with open(folder + file, "r") as f:
-                text = f.read()
-                create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
+    text = textformatting.folder_to_md(folder)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
+    return jsons

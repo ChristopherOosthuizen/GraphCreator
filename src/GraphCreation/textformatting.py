@@ -125,6 +125,14 @@ def pdf_to_md(file):
     )
     prompt = "\n\n".join([compressed_prompt["compressed_prompt"]])
     return prompt
+
+def folder_to_md(folder):
+    files = os.listdir(folder)
+    result = []
+    for file in files:
+        if file.endswith(".pdf"):
+            result.append(pdf_to_md(folder+"/"+file))
+    return "\n\n".join(result)
 def chunk_text(text):
     splitter = MarkdownTextSplitter(chunk_size=200, chunk_overlap=25)
     splits = splitter.create_documents([text])
