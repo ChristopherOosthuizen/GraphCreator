@@ -181,7 +181,7 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     return combinations
 
 
-def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, llm_formatting=False, ner=False, ner_type="flair",num=5,additional=""):
+def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, llm_formatting=False, ner=False, ner_type="flair",num=5,compression=0.33,additional=""):
     """
     Creates a knowledge graph (KG) from the given text.
 
@@ -198,7 +198,7 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
         chunks = textformatting.get_text_chunks(text)
     else:
         chunks = textformatting.chunk_text(text)
-    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num, additional)
+    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num, compression, additional)
 
     # Assign colors to nodes based on clusters
 def generate_colors(num_clusters):
@@ -213,7 +213,7 @@ def generate_colors(num_clusters):
     return colors
     
 
-def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, ner=False, ner_type="flair",num=5, additional=""):
+def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, ner=False, ner_type="flair",num=5, compression=0.33, additional=""):
     if not os.path.exists(output_file):
         os.makedirs(output_file)
     repeats = chunks_precentage_linked
@@ -257,21 +257,21 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     except:
         print("Could not cluster graph.")
     return chunks, Graph
-def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5):
-    text = textformatting.url_to_md(url)
+def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5, compression=0.33):
+    text = textformatting.url_to_md(url,compression=compression)
     table_data = textformatting.get_tables_from_url(url)
     additional = ""
     for table in table_data:
         additional += textformatting.get_triplets_from_table(table)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num,additional=additional)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num,compression=compression,additional=additional)
 
     return jsons
-def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5):
-    text = textformatting.pdf_to_md(pdf)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
+def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5,compression=0.33):
+    text = textformatting.pdf_to_md(pdf,compression=compression)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num,compression)
     return jsons
 
-def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5):
-    text = textformatting.folder_to_md(folder)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num)
+def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5,compression=0.33):
+    text = textformatting.folder_to_md(folder,compression=compression)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num,compression)
     return jsons

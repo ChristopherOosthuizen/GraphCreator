@@ -32,7 +32,7 @@ llm_lingua = PromptCompressor(
     use_llmlingua2=True,
     device_map=device_map,
 )
-def extract_relevant_text(html: str) -> str:
+def extract_relevant_text(html: str, compression=0.33) -> str:
     # Parse the HTML
     soup = BeautifulSoup(html, 'html.parser')
 
@@ -67,7 +67,7 @@ def extract_relevant_text(html: str) -> str:
         return splits[0]
     compressed_prompt = llm_lingua.compress_prompt(
         context=list(splits),
-        rate=0.33,
+        rate=compression,
         force_tokens=["!", ".", "?", "\n"],
         drop_consecutive=True,
     )
@@ -104,11 +104,11 @@ def get_triplets_from_table(df):
     
     return "\n".join(triplets).lower()
             
-def url_to_md(url):
+def url_to_md(url,compression=0.33):
     html = urllib.request.urlopen(url).read().decode('utf-8')
-    html= extract_relevant_text(html)
+    html= extract_relevant_text(html,compression)
     return html
-def pdf_to_md(file):
+def pdf_to_md(file,compression=0.33):
     relevant_text = extract_text(file)
     splitter = MarkdownTextSplitter(chunk_size=510, chunk_overlap=0)
     result_text = " ".join(relevant_text)
@@ -122,19 +122,19 @@ def pdf_to_md(file):
         return splits[0]
     compressed_prompt = llm_lingua.compress_prompt(
         context=list(splits),
-        rate=0.33,
+        rate=compression,
         force_tokens=["!", ".", "?", "\n"],
         drop_consecutive=True,
     )
     prompt = "\n\n".join([compressed_prompt["compressed_prompt"]])
     return prompt
 
-def folder_to_md(folder):
+def folder_to_md(folder,compression=0.33):
     files = os.listdir(folder)
     result = []
     for file in files:
         if file.endswith(".pdf"):
-            result.append(pdf_to_md(folder+"/"+file))
+            result.append(pdf_to_md(folder+"/"+file,compression))
     return "\n\n".join(result)
 def chunk_text(text):
     splitter = MarkdownTextSplitter(chunk_size=200, chunk_overlap=25)
