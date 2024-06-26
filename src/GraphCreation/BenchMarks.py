@@ -164,12 +164,12 @@ def create_DPO_folder(folder, output_file="./output/"):
     pd.DataFrame(resulter).to_csv(output_file+"results.csv")
     return resulter
     
-def bench_mark_from_dataset(dataframe, source_column, answer_column, question_column,  output_file="./output/",eliminate_all_islands=False, inital_repeats=2, chunks_precentage_linked=0.5, ner=False, ner_type="flair" ):
+def bench_mark_from_dataset(dataframe, source_column, answer_column, question_column,  output_file="./output/",eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, ner=False, num=5, ner_type="flair" ):
     result = []
     for x in range(len(dataframe)):
         try:
             url = dataframe[source_column].iloc[x]
-            chunks, graph = gc.create_KG_from_url(url, output_file+str(x), eliminate_all_islands=eliminate_all_islands, inital_repeats=inital_repeats, chunks_precentage_linked=chunks_precentage_linked, ner=ner, ner_type=ner_type,llm_formatting=False)
+            chunks, graph = gc.create_KG_from_url(url, output_file+str(x), eliminate_all_islands=eliminate_all_islands, inital_repeats=inital_repeats, chunks_precentage_linked=chunks_precentage_linked, num=num, ner=ner, ner_type=ner_type,llm_formatting=False)
             question = dataframe[question_column].iloc[x]
             answer = dataframe[answer_column].iloc[x]
             base_line = lm.generate_chat_response("", question)
