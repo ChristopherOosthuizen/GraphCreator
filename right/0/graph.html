@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 1000px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "white"}, "id": "brand endorsement billions", "label": "brand endorsement billions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "tom brady", "label": "tom brady", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "beckham", "label": "beckham", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "agostini", "label": "agostini", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "clooney", "label": "clooney", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "nespresso", "label": "nespresso", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "beyonc\u00e9", "label": "beyonc\u00e9", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "pepsi", "label": "pepsi", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "taylor swift", "label": "taylor swift", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "celebrities", "label": "celebrities", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "famous_person", "label": "famous_person", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "world cup", "label": "world cup", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "jordan", "label": "jordan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "criticism", "label": "criticism", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "sofia vergara", "label": "sofia vergara", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "cola", "label": "cola", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "2013", "label": "2013", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "beverage", "label": "beverage", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "harry styles", "label": "harry styles", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "gucci", "label": "gucci", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "world cup final", "label": "world cup final", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "clothing", "label": "clothing", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "lionel messi", "label": "lionel messi", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "argentine", "label": "argentine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "adidas", "label": "adidas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "frenchman", "label": "frenchman", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "kylian mbapp\u00e9", "label": "kylian mbapp\u00e9", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "david beckham", "label": "david beckham", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "shoes", "label": "shoes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "gap", "label": "gap", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "kanye west", "label": "kanye west", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "sportswear", "label": "sportswear", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "effectiveness", "label": "effectiveness", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "brands", "label": "brands", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "companies", "label": "companies", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "endorsementbranding", "label": "endorsementbranding", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "brands identity", "label": "brands identity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "cultural meaning", "label": "cultural meaning", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "kim kardashian", "label": "kim kardashian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "authentic content", "label": "authentic content", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "media powerhouse", "label": "media powerhouse", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "world cup qatar", "label": "world cup qatar", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "\u00a3150m", "label": "\u00a3150m", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "lgbtq activists", "label": "lgbtq activists", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ftx news", "label": "ftx news", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "$150 million", "label": "$150 million", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "mba student", "label": "mba student", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "david dubois", "label": "david dubois", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "brand management", "label": "brand management", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "digital marketing", "label": "digital marketing", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "paid sponsors", "label": "paid sponsors", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "brand management  ", "label": "brand management  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "digital marketing  ", "label": "digital marketing  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "paid sponsors  ", "label": "paid sponsors  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "world cup  ", "label": "world cup  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "service", "label": "service", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "nike", "label": "nike", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "kelly kline", "label": "kelly kline", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "michael jordan", "label": "michael jordan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "forbes", "label": "forbes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "social media", "label": "social media", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "getty images", "label": "getty images", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "david ramos", "label": "david ramos", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "social media authenticity", "label": "social media authenticity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "balenciaga", "label": "balenciaga", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "adidas news", "label": "adidas news", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "donald trump", "label": "donald trump", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "giana eckhardt", "label": "giana eckhardt", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "brand", "label": "brand", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "foot locker", "label": "foot locker", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "nfl", "label": "nfl", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "tom brady bundchen", "label": "tom brady bundchen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ftx", "label": "ftx", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "investors", "label": "investors", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "lgbtq+", "label": "lgbtq+", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "qatar", "label": "qatar", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "endorsement", "label": "endorsement", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "qatar  ", "label": "qatar  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "travel insurance", "label": "travel insurance", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "covid19", "label": "covid19", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "professor", "label": "professor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "king\u2019s business school", "label": "king\u2019s business school", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "consumer behavior", "label": "consumer behavior", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "branding", "label": "branding", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "nfl endorsements", "label": "nfl endorsements", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "professor marketing", "label": "professor marketing", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "kings business school", "label": "kings business school", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "individual", "label": "individual", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "brand and media influence", "label": "brand and media influence", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "kanye", "label": "kanye", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "people", "label": "people", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "tweets", "label": "tweets", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "humans", "label": "humans", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "future risk", "label": "future risk", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "past behavior", "label": "past behavior", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "insead", "label": "insead", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "page_content", "label": "page_content", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "lucrative deals", "label": "lucrative deals", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "balance", "label": "balance", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "reach", "label": "reach", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "jayz", "label": "jayz", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "charlize theron", "label": "charlize theron", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "professor  ", "label": "professor  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "insead  ", "label": "insead  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "social media content", "label": "social media content", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "risk audit", "label": "risk audit", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "risk audit  ", "label": "risk audit  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "matt symonds  ", "label": "matt symonds  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "david dubois  ", "label": "david dubois  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "marketing", "label": "marketing", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "priorities", "label": "priorities", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "reach  ", "label": "reach  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "returns", "label": "returns", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "risk", "label": "risk", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "undesirable illness", "label": "undesirable illness", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "misconduct", "label": "misconduct", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "reputational challenges", "label": "reputational challenges", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "basketball", "label": "basketball", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "political", "label": "political", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "1984", "label": "1984", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "david", "label": "david", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "rajesh bhargave", "label": "rajesh bhargave", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "imperial college business school", "label": "imperial college business school", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "brand alignment", "label": "brand alignment", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "professor rajesh bhargave", "label": "professor rajesh bhargave", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "head \u0026 shoulders", "label": "head \u0026 shoulders", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "quaker oats", "label": "quaker oats", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "$94.5 million", "label": "$94.5 million", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "celebrity", "label": "celebrity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "$20 million", "label": "$20 million", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "samsung", "label": "samsung", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "sam", "label": "sam", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "$55 million", "label": "$55 million", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "dior", "label": "dior", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "j\u2019adore", "label": "j\u2019adore", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "marketing  ", "label": "marketing  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "balance  ", "label": "balance  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "celebrities  ", "label": "celebrities  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "effectiveness  ", "label": "effectiveness  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "media", "label": "media", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "social media impact", "label": "social media impact", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "lowerprofile brand", "label": "lowerprofile brand", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "dubois", "label": "dubois", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "513 million followers", "label": "513 million followers", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "cristiano ronaldo", "label": "cristiano ronaldo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "on instagram", "label": "on instagram", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "deal value", "label": "deal value", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "deals", "label": "deals", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "brandendorsement", "label": "brandendorsement", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "cocacola bottles", "label": "cocacola bottles", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "drink water", "label": "drink water", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "effective", "label": "effective", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "deal", "label": "deal", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "is $1 billion", "label": "is $1 billion", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "stakes", "label": "stakes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "gesture", "label": "gesture", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "$4 billion cocacola value shares dropped", "label": "$4 billion cocacola value shares dropped", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "new content strategy", "label": "new content strategy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "content powerhouse", "label": "content powerhouse", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "operational strategic organizational principles", "label": "operational strategic organizational principles", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "giana eckhardt  ", "label": "giana eckhardt  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "king\u2019s business school  ", "label": "king\u2019s business school  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "guidelines  ", "label": "guidelines  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "posting rules  ", "label": "posting rules  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "endorsement  ", "label": "endorsement  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "matt symonds", "label": "matt symonds", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "service  ", "label": "service  ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "guidelines", "label": "guidelines", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "brand endorsement billions", "label": "endorsed by", "to": "tom brady", "width": 1}, {"from": "brand endorsement billions", "label": "endorsed by", "to": "beckham", "width": 1}, {"from": "brand endorsement billions", "label": "endorsed by", "to": "agostini", "width": 1}, {"from": "brand endorsement billions", "label": "endorsed by", "to": "clooney", "width": 1}, {"from": "brand endorsement billions", "label": "endorsed by", "to": "nespresso", "width": 1}, {"from": "brand endorsement billions", "label": "endorsed by", "to": "beyonc\u00e9", "width": 1}, {"from": "brand endorsement billions", "label": "endorsed by", "to": "pepsi", "width": 1}, {"from": "brand endorsement billions", "label": "endorsed by", "to": "taylor swift", "width": 1}, {"from": "brand endorsement billions", "label": "endorse", "to": "celebrities", "width": 1}, {"from": "tom brady", "label": "associated with", "to": "famous_person", "width": 1}, {"from": "beckham", "label": "associated with", "to": "world cup", "width": 1}, {"from": "beckham", "label": "associated with", "to": "jordan", "width": 1}, {"from": "beckham", "label": "received", "to": "criticism", "width": 1}, {"from": "clooney", "label": "associated with", "to": "famous_person", "width": 1}, {"from": "beyonc\u00e9", "label": "associated with", "to": "famous_person", "width": 1}, {"from": "pepsi", "label": "endorser of", "to": "sofia vergara", "width": 1}, {"from": "taylor swift", "label": "associated with", "to": "famous_person", "width": 1}, {"from": "cola", "label": "mentions", "to": "2013", "width": 1}, {"from": "cola", "label": "is a type of", "to": "beverage", "width": 1}, {"from": "cola", "label": "endorse", "to": "celebrities", "width": 1}, {"from": "harry styles", "label": "associated with", "to": "gucci", "width": 1}, {"from": "harry styles", "label": "associated with", "to": "famous_person", "width": 1}, {"from": "harry styles", "label": "mentioned in", "to": "world cup final", "width": 1}, {"from": "gucci", "label": "makes", "to": "clothing", "width": 1}, {"from": "clothing", "label": "endorse", "to": "celebrities", "width": 1}, {"from": "lionel messi", "label": "involved in", "to": "world cup final", "width": 1}, {"from": "lionel messi", "label": "represents", "to": "argentine", "width": 1}, {"from": "lionel messi", "label": "associated with", "to": "famous_person", "width": 1}, {"from": "lionel messi", "label": "associated with", "to": "adidas", "width": 1}, {"from": "world cup final", "label": "competed in", "to": "argentine", "width": 1}, {"from": "world cup final", "label": "participated in", "to": "frenchman", "width": 1}, {"from": "world cup final", "label": "involved in", "to": "kylian mbapp\u00e9", "width": 1}, {"from": "world cup final", "label": "involved in", "to": "david beckham", "width": 1}, {"from": "adidas", "label": "makes", "to": "shoes", "width": 1}, {"from": "adidas", "label": "partners with", "to": "gap", "width": 1}, {"from": "adidas", "label": "associated with", "to": "kanye west", "width": 1}, {"from": "adidas", "label": "endorsed", "to": "david beckham", "width": 1}, {"from": "shoes", "label": "endorse", "to": "celebrities", "width": 1}, {"from": "celebrities", "label": "associated with", "to": "famous_person", "width": 1}, {"from": "celebrities", "label": "endorse", "to": "sportswear", "width": 1}, {"from": "celebrities", "label": "transfer", "to": "effectiveness", "width": 1}, {"from": "celebrities", "label": "associated with", "to": "brands", "width": 1}, {"from": "celebrities", "label": "reach", "to": "companies", "width": 1}, {"from": "celebrities", "label": "enhance", "to": "endorsementbranding", "width": 1}, {"from": "celebrities", "label": "aligns with", "to": "brands identity", "width": 1}, {"from": "celebrities", "label": "impact", "to": "cultural meaning", "width": 1}, {"from": "famous_person", "label": "associated with", "to": "david beckham", "width": 1}, {"from": "famous_person", "label": "associated with", "to": "kylian mbapp\u00e9", "width": 1}, {"from": "famous_person", "label": "associated with", "to": "kanye west", "width": 1}, {"from": "kim kardashian", "label": "associated with", "to": "david beckham", "width": 1}, {"from": "kim kardashian", "label": "exemplified by", "to": "authentic content", "width": 1}, {"from": "kim kardashian", "label": "received", "to": "criticism", "width": 1}, {"from": "kim kardashian", "label": "part of", "to": "media powerhouse", "width": 1}, {"from": "david beckham", "label": "ambassador of", "to": "world cup qatar", "width": 1}, {"from": "david beckham", "label": "signed contract worth", "to": "\u00a3150m", "width": 1}, {"from": "david beckham", "label": "criticized by", "to": "lgbtq activists", "width": 1}, {"from": "david beckham", "label": "related to", "to": "world cup", "width": 1}, {"from": "david beckham", "label": "mentioned in", "to": "ftx news", "width": 1}, {"from": "david beckham", "label": "supports", "to": "$150 million", "width": 1}, {"from": "david beckham", "label": "is", "to": "mba student", "width": 1}, {"from": "david beckham", "label": "exemplified by", "to": "authentic content", "width": 1}, {"from": "david beckham", "label": "works with", "to": "david dubois", "width": 1}, {"from": "david beckham", "label": "teaches", "to": "brand management", "width": 1}, {"from": "david beckham", "label": "taught by", "to": "digital marketing", "width": 1}, {"from": "david beckham", "label": "teaches", "to": "paid sponsors", "width": 1}, {"from": "david beckham", "label": "teaches", "to": "brand management  ", "width": 1}, {"from": "david beckham", "label": "taught by", "to": "digital marketing  ", "width": 1}, {"from": "david beckham", "label": "teaches", "to": "paid sponsors  ", "width": 1}, {"from": "david beckham", "label": "involved in", "to": "world cup  ", "width": 1}, {"from": "david beckham", "label": "connected with", "to": "service", "width": 1}, {"from": "nike", "label": "makes", "to": "sportswear", "width": 1}, {"from": "nike", "label": "is associated with", "to": "kelly kline", "width": 1}, {"from": "nike", "label": "related to", "to": "michael jordan", "width": 1}, {"from": "nike", "label": "is associated with", "to": "world cup", "width": 1}, {"from": "nike", "label": "mentioned in", "to": "forbes", "width": 1}, {"from": "nike", "label": "benefitsfrom", "to": "endorsementbranding", "width": 1}, {"from": "nike", "label": "gains control from", "to": "social media", "width": 1}, {"from": "world cup qatar", "label": "criticized by", "to": "lgbtq activists", "width": 1}, {"from": "world cup qatar", "label": "related to", "to": "world cup", "width": 1}, {"from": "getty images", "label": "affiliated with", "to": "david ramos", "width": 1}, {"from": "getty images", "label": "key to success in", "to": "social media authenticity", "width": 1}, {"from": "balenciaga", "label": "collaborates with", "to": "kanye west", "width": 1}, {"from": "kanye west", "label": "mentioned in", "to": "adidas news", "width": 1}, {"from": "kanye west", "label": "associated with", "to": "donald trump", "width": 1}, {"from": "kanye west", "label": "highlights", "to": "giana eckhardt", "width": 1}, {"from": "kanye west", "label": "impacts", "to": "brand", "width": 1}, {"from": "foot locker", "label": "related to", "to": "nfl", "width": 1}, {"from": "nfl", "label": "related to", "to": "tom brady bundchen", "width": 1}, {"from": "ftx", "label": "associated with", "to": "tom brady bundchen", "width": 1}, {"from": "ftx", "label": "criticized by", "to": "investors", "width": 1}, {"from": "world cup", "label": "criticized by", "to": "lgbtq+", "width": 1}, {"from": "world cup", "label": "hosts", "to": "qatar", "width": 1}, {"from": "world cup", "label": "related to", "to": "endorsement", "width": 1}, {"from": "world cup", "label": "hosts", "to": "qatar  ", "width": 1}, {"from": "travel insurance", "label": "highlighted", "to": "covid19", "width": 1}, {"from": "giana eckhardt", "label": "position", "to": "professor", "width": 1}, {"from": "giana eckhardt", "label": "affiliated with", "to": "king\u2019s business school", "width": 1}, {"from": "giana eckhardt", "label": "expert in", "to": "consumer behavior", "width": 1}, {"from": "giana eckhardt", "label": "expert in", "to": "branding", "width": 1}, {"from": "giana eckhardt", "label": "offers insights", "to": "nfl endorsements", "width": 1}, {"from": "giana eckhardt", "label": "highlights", "to": "donald trump", "width": 1}, {"from": "giana eckhardt", "label": "cooperates with", "to": "david dubois", "width": 1}, {"from": "giana eckhardt", "label": "is a", "to": "professor marketing", "width": 1}, {"from": "giana eckhardt", "label": "works at", "to": "kings business school", "width": 1}, {"from": "giana eckhardt", "label": "comments on", "to": "individual", "width": 1}, {"from": "giana eckhardt", "label": "analyzed", "to": "brand and media influence", "width": 1}, {"from": "giana eckhardt", "label": "taught by", "to": "brand management", "width": 1}, {"from": "giana eckhardt", "label": "taught by", "to": "digital marketing", "width": 1}, {"from": "professor", "label": "is a", "to": "david dubois", "width": 1}, {"from": "king\u2019s business school", "label": "offers courses in", "to": "brand management", "width": 1}, {"from": "king\u2019s business school", "label": "offers courses in", "to": "digital marketing", "width": 1}, {"from": "consumer behavior", "label": "linked to", "to": "branding", "width": 1}, {"from": "kanye", "label": "related to", "to": "people", "width": 1}, {"from": "people", "label": "related to", "to": "donald trump", "width": 1}, {"from": "donald trump", "label": "impacts", "to": "brand", "width": 1}, {"from": "tweets", "label": "mention", "to": "brand", "width": 1}, {"from": "tweets", "label": "know", "to": "humans", "width": 1}, {"from": "tweets", "label": "pose", "to": "future risk", "width": 1}, {"from": "brand", "label": "relates to", "to": "future risk", "width": 1}, {"from": "brand", "label": "relates to", "to": "past behavior", "width": 1}, {"from": "brand", "label": "studies", "to": "professor marketing", "width": 1}, {"from": "brand", "label": "utilizes", "to": "michael jordan", "width": 1}, {"from": "future risk", "label": "impacts", "to": "individual", "width": 1}, {"from": "david dubois", "label": "is a", "to": "professor marketing", "width": 1}, {"from": "david dubois", "label": "works with", "to": "insead", "width": 1}, {"from": "david dubois", "label": "comments on", "to": "individual", "width": 1}, {"from": "david dubois", "label": "is mentioned in", "to": "page_content", "width": 1}, {"from": "david dubois", "label": "noted by", "to": "lucrative deals", "width": 1}, {"from": "david dubois", "label": "studies", "to": "balance", "width": 1}, {"from": "david dubois", "label": "studies", "to": "effectiveness", "width": 1}, {"from": "david dubois", "label": "studies", "to": "reach", "width": 1}, {"from": "david dubois", "label": "studies", "to": "sofia vergara", "width": 1}, {"from": "david dubois", "label": "studies", "to": "jayz", "width": 1}, {"from": "david dubois", "label": "studies", "to": "charlize theron", "width": 1}, {"from": "david dubois", "label": "is a", "to": "professor  ", "width": 1}, {"from": "david dubois", "label": "works at", "to": "insead  ", "width": 1}, {"from": "david dubois", "label": "strategy of", "to": "social media content", "width": 1}, {"from": "david dubois", "label": "highlights", "to": "authentic content", "width": 1}, {"from": "david dubois", "label": "teaches", "to": "brand management", "width": 1}, {"from": "david dubois", "label": "teaches", "to": "digital marketing", "width": 1}, {"from": "david dubois", "label": "expert in", "to": "risk audit", "width": 1}, {"from": "david dubois", "label": "expert in", "to": "risk audit  ", "width": 1}, {"from": "david dubois", "label": "connected with", "to": "matt symonds  ", "width": 1}, {"from": "insead", "label": "offers courses in", "to": "brand management", "width": 1}, {"from": "insead", "label": "offers courses in", "to": "digital marketing", "width": 1}, {"from": "insead", "label": "works with", "to": "david dubois  ", "width": 1}, {"from": "individual", "label": "should avoid", "to": "marketing", "width": 1}, {"from": "marketing", "label": "has", "to": "priorities", "width": 1}, {"from": "marketing", "label": "help to", "to": "reach  ", "width": 1}, {"from": "marketing", "label": "aim for", "to": "effectiveness", "width": 1}, {"from": "returns", "label": "affects", "to": "risk", "width": 1}, {"from": "risk", "label": "is associated with", "to": "undesirable illness", "width": 1}, {"from": "risk", "label": "is associated with", "to": "misconduct", "width": 1}, {"from": "risk", "label": "is associated with", "to": "reputational challenges", "width": 1}, {"from": "risk", "label": "associated with", "to": "basketball", "width": 1}, {"from": "basketball", "label": "is known for", "to": "michael jordan", "width": 1}, {"from": "michael jordan", "label": "is related to", "to": "political", "width": 1}, {"from": "jordan", "label": "began in", "to": "1984", "width": 1}, {"from": "david", "label": "made deal worth", "to": "$150 million", "width": 1}, {"from": "david", "label": "associated with", "to": "rajesh bhargave", "width": 1}, {"from": "$150 million", "label": "from", "to": "qatar", "width": 1}, {"from": "imperial college business school", "label": "professor at", "to": "rajesh bhargave", "width": 1}, {"from": "rajesh bhargave", "label": "emphasizes", "to": "brand alignment", "width": 1}, {"from": "brand alignment", "label": "highlighted by", "to": "professor rajesh bhargave", "width": 1}, {"from": "sofia vergara", "label": "endorser of", "to": "head \u0026 shoulders", "width": 1}, {"from": "sofia vergara", "label": "endorser of", "to": "quaker oats", "width": 1}, {"from": "sofia vergara", "label": "earns", "to": "$94.5 million", "width": 1}, {"from": "sofia vergara", "label": "is a", "to": "celebrity", "width": 1}, {"from": "sofia vergara", "label": "linked to", "to": "effectiveness", "width": 1}, {"from": "jayz", "label": "earns", "to": "$20 million", "width": 1}, {"from": "jayz", "label": "is a", "to": "celebrity", "width": 1}, {"from": "jayz", "label": "linked to", "to": "effectiveness", "width": 1}, {"from": "samsung", "label": "endorser of", "to": "sam", "width": 1}, {"from": "charlize theron", "label": "earns", "to": "$55 million", "width": 1}, {"from": "charlize theron", "label": "is endorsed by", "to": "dior", "width": 1}, {"from": "charlize theron", "label": "endorser of", "to": "j\u2019adore", "width": 1}, {"from": "charlize theron", "label": "is a", "to": "celebrity", "width": 1}, {"from": "charlize theron", "label": "linked to", "to": "effectiveness", "width": 1}, {"from": "priorities", "label": "has", "to": "marketing  ", "width": 1}, {"from": "companies", "label": "seek", "to": "balance", "width": 1}, {"from": "companies", "label": "go for", "to": "reach", "width": 1}, {"from": "companies", "label": "seek", "to": "balance  ", "width": 1}, {"from": "companies", "label": "go for", "to": "reach  ", "width": 1}, {"from": "companies", "label": "reach", "to": "celebrities  ", "width": 1}, {"from": "balance", "label": "required for", "to": "effectiveness", "width": 1}, {"from": "balance", "label": "required for", "to": "effectiveness  ", "width": 1}, {"from": "balance", "label": "studies", "to": "david dubois  ", "width": 1}, {"from": "reach", "label": "studies", "to": "david dubois  ", "width": 1}, {"from": "effectiveness", "label": "transfer", "to": "celebrities  ", "width": 1}, {"from": "effectiveness", "label": "studies", "to": "david dubois  ", "width": 1}, {"from": "brands", "label": "gives control to", "to": "media", "width": 1}, {"from": "brands", "label": "influenced by", "to": "social media impact", "width": 1}, {"from": "david dubois  ", "label": "teaches", "to": "brand management", "width": 1}, {"from": "david dubois  ", "label": "teaches", "to": "digital marketing", "width": 1}, {"from": "insead  ", "label": "offers courses in", "to": "brand management", "width": 1}, {"from": "insead  ", "label": "offers courses in", "to": "digital marketing", "width": 1}, {"from": "lowerprofile brand", "label": "has", "to": "dubois", "width": 1}, {"from": "lowerprofile brand", "label": "aligns with", "to": "endorsementbranding", "width": 1}, {"from": "513 million followers", "label": "has", "to": "cristiano ronaldo", "width": 1}, {"from": "cristiano ronaldo", "label": "mostfollowed", "to": "on instagram", "width": 1}, {"from": "cristiano ronaldo", "label": "justifies", "to": "deal value", "width": 1}, {"from": "cristiano ronaldo", "label": "secures", "to": "deals", "width": 1}, {"from": "cristiano ronaldo", "label": "influences", "to": "brandendorsement", "width": 1}, {"from": "cristiano ronaldo", "label": "removed", "to": "cocacola bottles", "width": 1}, {"from": "cristiano ronaldo", "label": "encouraged", "to": "drink water", "width": 1}, {"from": "cristiano ronaldo", "label": "demonstrated", "to": "social media impact", "width": 1}, {"from": "cristiano ronaldo", "label": "demonstrates", "to": "social media authenticity", "width": 1}, {"from": "endorsementbranding", "label": "is", "to": "effective", "width": 1}, {"from": "deal", "label": "value", "to": "is $1 billion", "width": 1}, {"from": "social media", "label": "changed", "to": "stakes", "width": 1}, {"from": "social media", "label": "linkedwith", "to": "brandendorsement", "width": 1}, {"from": "media", "label": "gives less control to", "to": "cultural meaning", "width": 1}, {"from": "gesture", "label": "resulted in", "to": "$4 billion cocacola value shares dropped", "width": 1}, {"from": "$4 billion cocacola value shares dropped", "label": "illustrates", "to": "social media authenticity", "width": 1}, {"from": "social media content", "label": "strategy of", "to": "authentic content", "width": 1}, {"from": "social media content", "label": "requires", "to": "new content strategy", "width": 1}, {"from": "media powerhouse", "label": "synonym of", "to": "content powerhouse", "width": 1}, {"from": "new content strategy", "label": "needed for", "to": "operational strategic organizational principles", "width": 1}, {"from": "brand management", "label": "subject of", "to": "risk audit", "width": 1}, {"from": "brand management", "label": "taught by", "to": "giana eckhardt  ", "width": 1}, {"from": "brand management", "label": "offers courses in", "to": "king\u2019s business school  ", "width": 1}, {"from": "brand management", "label": "subject of", "to": "risk audit  ", "width": 1}, {"from": "brand management", "label": "includes", "to": "guidelines  ", "width": 1}, {"from": "digital marketing", "label": "taught by", "to": "giana eckhardt  ", "width": 1}, {"from": "digital marketing", "label": "offers courses in", "to": "king\u2019s business school  ", "width": 1}, {"from": "digital marketing", "label": "includes", "to": "posting rules  ", "width": 1}, {"from": "paid sponsors", "label": "involves", "to": "endorsement", "width": 1}, {"from": "paid sponsors", "label": "involves", "to": "endorsement  ", "width": 1}, {"from": "matt symonds", "label": "related to", "to": "service  ", "width": 1}, {"from": "guidelines", "label": "related to", "to": "posting rules  ", "width": 1}, {"from": "guidelines  ", "label": "includes", "to": "service", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -21,9 +21,12 @@ device_map = ""
 if torch.cuda.is_available():
     torch.set_default_device("cuda")
     device_map = "cuda"
-else:
+elif torch.backends.mps.is_available():
     torch.set_default_device("mps")
     device_map = "mps"
+else:
+    torch.set_default_device("cpu")
+    device_map = "cpu"
 llm_lingua = PromptCompressor(
     model_name="microsoft/llmlingua-2-xlm-roberta-large-meetingbank",
     use_llmlingua2=True,

@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#4c8999", "font": {"color": "white"}, "id": "dow", "label": "dow", "shape": "dot", "size": 10}, {"color": "#4c8999", "font": {"color": "white"}, "id": "included in", "label": "included in", "shape": "dot", "size": 10}, {"color": "#4c8999", "font": {"color": "white"}, "id": "s\u0026p 500", "label": "s\u0026p 500", "shape": "dot", "size": 10}, {"color": "#4c8999", "font": {"color": "white"}, "id": "nasdaq 100", "label": "nasdaq 100", "shape": "dot", "size": 10}, {"color": "#3d76cc", "font": {"color": "white"}, "id": "stock", "label": "stock", "shape": "dot", "size": 10}, {"color": "#3d76cc", "font": {"color": "white"}, "id": "nas:is", "label": "nas:is", "shape": "dot", "size": 10}, {"color": "#3d76cc", "font": {"color": "white"}, "id": "s:is", "label": "s:is", "shape": "dot", "size": 10}, {"color": "#582d99", "font": {"color": "white"}, "id": "amazon", "label": "amazon", "shape": "dot", "size": 10}, {"color": "#582d99", "font": {"color": "white"}, "id": "meta", "label": "meta", "shape": "dot", "size": 10}, {"color": "#b766cc", "font": {"color": "white"}, "id": "microsoft", "label": "microsoft", "shape": "dot", "size": 10}, {"color": "#b766cc", "font": {"color": "white"}, "id": "alphabet", "label": "alphabet", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "apple", "label": "apple", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "q3", "label": "q3", "shape": "dot", "size": 10}, {"color": "#5959b2", "font": {"color": "white"}, "id": "net income", "label": "net income", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "revenue", "label": "revenue", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "apple tv+", "label": "apple tv+", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "wall street", "label": "wall street", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "sales", "label": "sales", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "$90.15 billion", "label": "$90.15 billion", "shape": "dot", "size": 10}, {"color": "#66cc8e", "font": {"color": "white"}, "id": "holiday quarter", "label": "holiday quarter", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "tim cook", "label": "tim cook", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "sales  ", "label": "sales  ", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "weakness services division  ", "label": "weakness services division  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "app store  ", "label": "app store  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "us dollar  ", "label": "us dollar  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "december  ", "label": "december  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "march  ", "label": "march  ", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "dan ives", "label": "dan ives", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "weakness services division", "label": "weakness services division", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "app store", "label": "app store", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "us dollar", "label": "us dollar", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "december", "label": "december", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "march", "label": "march", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "louis navellier", "label": "louis navellier", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "iphone 14", "label": "iphone 14", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "67 billion", "label": "67 billion", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "63 billion", "label": "63 billion", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "$90", "label": "$90", "shape": "dot", "size": 10}, {"color": "#7cb259", "font": {"color": "white"}, "id": "$42.63 billion", "label": "$42.63 billion", "shape": "dot", "size": 10}, {"color": "#5959b2", "font": {"color": "white"}, "id": "$88", "label": "$88", "shape": "dot", "size": 10}, {"color": "#5959b2", "font": {"color": "white"}, "id": "15 billion", "label": "15 billion", "shape": "dot", "size": 10}, {"color": "#b23599", "font": {"color": "white"}, "id": "64", "label": "64", "shape": "dot", "size": 10}, {"color": "#b23599", "font": {"color": "white"}, "id": "$1", "label": "$1", "shape": "dot", "size": 10}, {"color": "#35b299", "font": {"color": "white"}, "id": "26iphone", "label": "26iphone", "shape": "dot", "size": 10}, {"color": "#35b299", "font": {"color": "white"}, "id": "$42", "label": "$42", "shape": "dot", "size": 10}, {"color": "#35b299", "font": {"color": "white"}, "id": "iphone", "label": "iphone", "shape": "dot", "size": 10}, {"color": "#35b299", "font": {"color": "white"}, "id": "iphone revenue", "label": "iphone revenue", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "music", "label": "music", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "$19. billion", "label": "$19. billion", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "music  ", "label": "music  ", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "$19. billion  ", "label": "$19. billion  ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "apple  ", "label": "apple  ", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "$19. 97 billion", "label": "$19. 97 billion", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "$19. 97 billion  ", "label": "$19. 97 billion  ", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "19. 97", "label": "19. 97", "shape": "dot", "size": 10}, {"color": "#99894c", "font": {"color": "white"}, "id": "19. 97  ", "label": "19. 97  ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "results", "label": "results", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "results  ", "label": "results  ", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "ceo", "label": "ceo", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "tim cook  ", "label": "tim cook  ", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "cook", "label": "cook", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "decelerated growth", "label": "decelerated growth", "shape": "dot", "size": 10}, {"color": "#66cc8e", "font": {"color": "white"}, "id": "growth", "label": "growth", "shape": "dot", "size": 10}, {"color": "#66cc8e", "font": {"color": "white"}, "id": "quarter", "label": "quarter", "shape": "dot", "size": 10}, {"color": "#66cc8e", "font": {"color": "white"}, "id": "quarter  ", "label": "quarter  ", "shape": "dot", "size": 10}, {"color": "#66cc8e", "font": {"color": "white"}, "id": "growth  ", "label": "growth  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "q3 revenue", "label": "q3 revenue", "shape": "dot", "size": 10}, {"color": "#994c6b", "font": {"color": "white"}, "id": "services", "label": "services", "shape": "dot", "size": 10}, {"color": "#994c6b", "font": {"color": "white"}, "id": "$19 billion", "label": "$19 billion", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "results manager", "label": "results manager", "shape": "dot", "size": 10}, {"color": "#b26735", "font": {"color": "white"}, "id": "louis navellier  ", "label": "louis navellier  ", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "analyst  ", "label": "analyst  ", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "wedbush  ", "label": "wedbush  ", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "analyst", "label": "analyst", "shape": "dot", "size": 10}, {"color": "#2d992d", "font": {"color": "white"}, "id": "wedbush", "label": "wedbush", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "quarters  ", "label": "quarters  ", "shape": "dot", "size": 10}, {"color": "#cc6666", "font": {"color": "white"}, "id": "quarters", "label": "quarters", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "consumer privacy act", "label": "consumer privacy act", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "indices", "label": "indices", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "page_content", "label": "page_content", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "commodities", "label": "commodities", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "currencies", "label": "currencies", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "stocks", "label": "stocks", "shape": "dot", "size": 10}, {"color": "#afcc3d", "font": {"color": "white"}, "id": "optout", "label": "optout", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "dow", "label": "is", "to": "included in", "width": 1}, {"from": "dow", "label": "includes", "to": "s\u0026p 500", "width": 1}, {"from": "dow", "label": "includes", "to": "nasdaq 100", "width": 1}, {"from": "stock", "label": "included in", "to": "nas:is", "width": 1}, {"from": "stock", "label": "included in", "to": "s:is", "width": 1}, {"from": "amazon", "label": "decreased by", "to": "meta", "width": 1}, {"from": "microsoft", "label": "decreased by", "to": "alphabet", "width": 1}, {"from": "apple", "label": "involves", "to": "q3", "width": 1}, {"from": "apple", "label": "measured by", "to": "net income", "width": 1}, {"from": "apple", "label": "reported by", "to": "revenue", "width": 1}, {"from": "apple", "label": "produced", "to": "apple tv+", "width": 1}, {"from": "apple", "label": "disappointed", "to": "wall street", "width": 1}, {"from": "apple", "label": "reported", "to": "sales", "width": 1}, {"from": "apple", "label": "has revenue", "to": "$90.15 billion", "width": 1}, {"from": "apple", "label": "impacts", "to": "holiday quarter", "width": 1}, {"from": "apple", "label": "related to", "to": "tim cook", "width": 1}, {"from": "apple", "label": "reported", "to": "sales  ", "width": 1}, {"from": "apple", "label": "has", "to": "weakness services division  ", "width": 1}, {"from": "apple", "label": "part of", "to": "app store  ", "width": 1}, {"from": "apple", "label": "surge", "to": "us dollar  ", "width": 1}, {"from": "apple", "label": "recovers in", "to": "december  ", "width": 1}, {"from": "apple", "label": "recovers in", "to": "march  ", "width": 1}, {"from": "apple", "label": "analyze", "to": "dan ives", "width": 1}, {"from": "apple", "label": "has", "to": "weakness services division", "width": 1}, {"from": "apple", "label": "part of", "to": "app store", "width": 1}, {"from": "apple", "label": "surge", "to": "us dollar", "width": 1}, {"from": "apple", "label": "recovers in", "to": "december", "width": 1}, {"from": "apple", "label": "recovers in", "to": "march", "width": 1}, {"from": "apple", "label": "discussed", "to": "louis navellier", "width": 1}, {"from": "apple", "label": "produced by", "to": "iphone 14", "width": 1}, {"from": "q3", "label": "showed", "to": "revenue", "width": 1}, {"from": "67 billion", "label": "is worth", "to": "revenue", "width": 1}, {"from": "revenue", "label": "is worth", "to": "63 billion", "width": 1}, {"from": "revenue", "label": "amounts to", "to": "$90", "width": 1}, {"from": "revenue", "label": "from iphone", "to": "$42.63 billion", "width": 1}, {"from": "$88", "label": "decreased to", "to": "15 billion", "width": 1}, {"from": "$88", "label": "reports", "to": "net income", "width": 1}, {"from": "64", "label": "decreased by", "to": "$1", "width": 1}, {"from": "26iphone", "label": "decreased to", "to": "$42", "width": 1}, {"from": "$42", "label": "generates revenue", "to": "iphone", "width": 1}, {"from": "iphone", "label": "contributed by", "to": "iphone revenue", "width": 1}, {"from": "apple tv+", "label": "related to", "to": "music", "width": 1}, {"from": "apple tv+", "label": "estimated to be worth", "to": "$19. billion", "width": 1}, {"from": "apple tv+", "label": "related to", "to": "music  ", "width": 1}, {"from": "apple tv+", "label": "estimated to be worth", "to": "$19. billion  ", "width": 1}, {"from": "apple tv+", "label": "produced", "to": "apple  ", "width": 1}, {"from": "$19. billion", "label": "worth", "to": "$19. 97 billion", "width": 1}, {"from": "$19. billion", "label": "worth", "to": "$19. 97 billion  ", "width": 1}, {"from": "$19. 97 billion", "label": "increased to", "to": "19. 97", "width": 1}, {"from": "$19. 97 billion", "label": "increased to", "to": "19. 97  ", "width": 1}, {"from": "wall street", "label": "reacted to", "to": "results", "width": 1}, {"from": "wall street", "label": "reacted to", "to": "results  ", "width": 1}, {"from": "wall street", "label": "disappointed", "to": "apple  ", "width": 1}, {"from": "ceo", "label": "is", "to": "tim cook", "width": 1}, {"from": "ceo", "label": "is", "to": "tim cook  ", "width": 1}, {"from": "ceo", "label": "guide", "to": "apple  ", "width": 1}, {"from": "ceo", "label": "is", "to": "cook", "width": 1}, {"from": "tim cook", "label": "cautions about", "to": "decelerated growth", "width": 1}, {"from": "tim cook", "label": "leaders of", "to": "apple  ", "width": 1}, {"from": "tim cook", "label": "relate to", "to": "growth", "width": 1}, {"from": "decelerated growth", "label": "warned of", "to": "tim cook  ", "width": 1}, {"from": "holiday quarter", "label": "pertains to", "to": "quarter", "width": 1}, {"from": "holiday quarter", "label": "decelerated", "to": "growth", "width": 1}, {"from": "holiday quarter", "label": "pertains to", "to": "quarter  ", "width": 1}, {"from": "holiday quarter", "label": "decelerated", "to": "growth  ", "width": 1}, {"from": "$90.15 billion", "label": "corresponds to", "to": "q3 revenue", "width": 1}, {"from": "services", "label": "earn", "to": "$19 billion", "width": 1}, {"from": "apple  ", "label": "analyze", "to": "dan ives", "width": 1}, {"from": "apple  ", "label": "analyze", "to": "louis navellier", "width": 1}, {"from": "results manager", "label": "title", "to": "louis navellier  ", "width": 1}, {"from": "results manager", "label": "title", "to": "louis navellier", "width": 1}, {"from": "dan ives", "label": "title", "to": "analyst  ", "width": 1}, {"from": "dan ives", "label": "work for", "to": "wedbush  ", "width": 1}, {"from": "dan ives", "label": "analyze", "to": "weakness services division  ", "width": 1}, {"from": "dan ives", "label": "title", "to": "analyst", "width": 1}, {"from": "dan ives", "label": "work for", "to": "wedbush", "width": 1}, {"from": "dan ives", "label": "analyze", "to": "weakness services division", "width": 1}, {"from": "app store  ", "label": "impacts", "to": "weakness services division", "width": 1}, {"from": "app store  ", "label": "affected by", "to": "us dollar", "width": 1}, {"from": "december  ", "label": "surge", "to": "us dollar", "width": 1}, {"from": "december  ", "label": "recover in", "to": "app store", "width": 1}, {"from": "march  ", "label": "surge", "to": "us dollar", "width": 1}, {"from": "march  ", "label": "relates to", "to": "december", "width": 1}, {"from": "weakness services division", "label": "impacts", "to": "app store", "width": 1}, {"from": "us dollar", "label": "surge", "to": "quarters  ", "width": 1}, {"from": "us dollar", "label": "surge", "to": "quarters", "width": 1}, {"from": "us dollar", "label": "surge", "to": "december", "width": 1}, {"from": "us dollar", "label": "surge", "to": "march", "width": 1}, {"from": "us dollar", "label": "affected by", "to": "app store", "width": 1}, {"from": "app store", "label": "recover in", "to": "december", "width": 1}, {"from": "app store", "label": "affects", "to": "consumer privacy act", "width": 1}, {"from": "december", "label": "relates to", "to": "march", "width": 1}, {"from": "indices", "label": "part of", "to": "page_content", "width": 1}, {"from": "page_content", "label": "part of", "to": "commodities", "width": 1}, {"from": "page_content", "label": "part of", "to": "currencies", "width": 1}, {"from": "page_content", "label": "part of", "to": "stocks", "width": 1}, {"from": "page_content", "label": "part of", "to": "iphone 14", "width": 1}, {"from": "page_content", "label": "part of", "to": "cook", "width": 1}, {"from": "page_content", "label": "part of", "to": "consumer privacy act", "width": 1}, {"from": "page_content", "label": "part of", "to": "optout", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

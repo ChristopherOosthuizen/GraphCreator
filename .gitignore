@@ -8,3 +8,5 @@ output/
 animals/
 folder/
 fresh.csv
+lib/
+__pycache__/
