@@ -101,9 +101,19 @@ print(GraphCreation.LLM.graphquestions(g,"Who is Mckenna Grace"))
 ```
 ### To Use Exiting Graphs
 ```
-import Networkx as nx
+import networkx as nx
 g = nx.read_graphml("path to graph")
 print(GraphCreation.LLM.graphquestions(g,"Who is Mckenna Grace"))
+```
+### Make Graph from pdf
+```
+chunks,g = gc.create_KG_from_pdf("file.pdf",output_file="file to output")
+print(GraphCreation.LLM.graphquestions(g,"question about graph"))
+```
+### Make graph from folder
+```
+chunks,g = gc.create_KG_from_pdf("file.pdf",output_file="file to output")
+print(GraphCreation.LLM.graphquestions(g,"question about graph"))
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
