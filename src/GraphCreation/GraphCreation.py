@@ -178,7 +178,7 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     return combinations
 
 
-def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, llm_formatting=False, ner=False, ner_type="flair",num=5,compression=0.33,additional=""):
+def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, llm_formatting=False, ner=False, ner_type="flair",num=5,compression=0.33,thread_count=30, additional=""):
     """
     Creates a knowledge graph (KG) from the given text.
 
@@ -195,7 +195,7 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
         chunks = textformatting.get_text_chunks(text)
     else:
         chunks = textformatting.chunk_text(text)
-    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num, compression, additional)
+    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num, compression, thread_count additional)
 
     # Assign colors to nodes based on clusters
 def generate_colors(num_clusters):
