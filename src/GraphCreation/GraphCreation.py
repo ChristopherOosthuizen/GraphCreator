@@ -195,7 +195,7 @@ def create_KG_from_text(text, output_file="./output/", eliminate_all_islands=Fal
         chunks = textformatting.get_text_chunks(text)
     else:
         chunks = textformatting.chunk_text(text)
-    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num, compression, thread_count additional)
+    return create_KG_from_chunks(chunks, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, ner, ner_type,num, compression, thread_count, additional)
 
     # Assign colors to nodes based on clusters
 def generate_colors(num_clusters):
