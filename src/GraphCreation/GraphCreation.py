@@ -108,10 +108,10 @@ def _converge_lists(lists, summaries, repeats=.5):
     for thread in threads:
         thread.join()
     return combinations, summaries
-def threadsOptimized(triplets,x,chunks,ner,ner_type,num):
+def threadsOptimized(triplets,x,chunks,ner,ner_type,num,thread_count=5):
     threads = []
     for x in range(len(chunks)):
-        if x%5 == 0:
+        if x%thread_count == 0:
             for thread in threads:
                 thread.join()
             threads = []
@@ -128,7 +128,7 @@ def threadsFull(triplets,x,chunks,ner,ner_type,num):
         thread.start()
     for thread in threads:
         thread.join()
-def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, ner_type="flair",num=10):
+def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, ner_type="flair",num=10,thread_count=5):
     """
     Creates a knowledge graph from a list of text chunks.
 
@@ -151,10 +151,7 @@ def _create_kg(chunks, repeats=.5, converge=True, inital_repeats=2, ner=False, n
     summaries = []
     threads = []
     triplets = [""]*len(chunks)
-    if os.environ.get("HF_HOME") is not None:
-        threadsOptimized(triplets,0,chunks,ner,ner_type,num)
-    else:
-        threadsFull(triplets,0,chunks,ner,ner_type,num)
+    threadsOptimized(triplets,0,chunks,ner,ner_type,num,thread_count)
     combinations = triplets
     summaries = chunks
     new_combinations = [] 
@@ -213,11 +210,11 @@ def generate_colors(num_clusters):
     return colors
     
 
-def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, ner=False, ner_type="flair",num=5, compression=0.33, additional=""):
+def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0, ner=False, ner_type="flair",num=5, compression=0.33, thread_count=30, additional=""):
     if not os.path.exists(output_file):
         os.makedirs(output_file)
     repeats = chunks_precentage_linked
-    jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner, ner_type=ner_type,num=num)
+    jsons = _create_kg(chunks=chunks, converge=eliminate_all_islands, repeats=repeats, inital_repeats=inital_repeats, ner=ner, ner_type=ner_type,num=num,thread_count=thread_count)
     jsons.append(additional)
     Graph = nx.Graph()
     for x in jsons:
@@ -257,21 +254,21 @@ def create_KG_from_chunks(chunks, output_file="./output/", eliminate_all_islands
     except:
         print("Could not cluster graph.")
     return chunks, Graph
-def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5, compression=0.33):
+def create_KG_from_url(url, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5, compression=0.33, thread_count=30):
     text = textformatting.url_to_md(url,compression=compression)
     table_data = textformatting.get_tables_from_url(url)
     additional = ""
     for table in table_data:
         additional += textformatting.get_triplets_from_table(table)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num,compression=compression,additional=additional)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands,inital_repeats, chunks_precentage_linked, llm_formatting,ner, ner_type,num,compression=compression,thread_count=thread_count,additional=additional)
 
     return jsons
-def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5,compression=0.33):
+def create_KG_from_pdf(pdf, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="llm",num=5,compression=0.33, thread_count=30):
     text = textformatting.pdf_to_md(pdf,compression=compression)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num,compression)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num,compression,thread_count=thread_count)
     return jsons
 
-def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5,compression=0.33):
+def create_KG_from_folder(folder, output_file="./output/", eliminate_all_islands=False, inital_repeats=30, chunks_precentage_linked=0,llm_formatting=False, ner=False, ner_type="flair",num=5,compression=0.33, thread_count=30):
     text = textformatting.folder_to_md(folder,compression=compression)
-    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num,compression)
+    jsons = create_KG_from_text(text, output_file, eliminate_all_islands, inital_repeats, chunks_precentage_linked, llm_formatting, ner, ner_type,num,compression,thread_count=thread_count)
     return jsons

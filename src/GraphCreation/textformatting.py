@@ -65,6 +65,8 @@ def extract_relevant_text(html: str, compression=0.33) -> str:
     
     if len(splits) == 1:
         return splits[0]
+    if compression == 1:
+        return "\n\n".join(splits)
     compressed_prompt = llm_lingua.compress_prompt(
         context=list(splits),
         rate=compression,
@@ -120,6 +122,8 @@ def pdf_to_md(file,compression=0.33):
     
     if len(splits) == 1:
         return splits[0]
+    if compression == 1:
+        return "\n\n".join(splits)
     compressed_prompt = llm_lingua.compress_prompt(
         context=list(splits),
         rate=compression,
