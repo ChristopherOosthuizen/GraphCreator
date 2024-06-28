@@ -13,7 +13,7 @@ from llama_index.core import SummaryIndex
 from llama_index.readers.web import SimpleWebPageReader
 from llama_index.llms.ollama import Ollama
 
-llm = Ollama(model="llama3", request_timeout=60.0)
+llm = Ollama(model="llama3", request_timeout=10000.0)
 pipelines = []
 gpus = []
 model_id = ""
