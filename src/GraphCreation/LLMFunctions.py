@@ -11,7 +11,9 @@ from llama_index.llms.huggingface import HuggingFaceLLM
 
 from llama_index.core import SummaryIndex
 from llama_index.readers.web import SimpleWebPageReader
+from llama_index.llms.ollama import Ollama
 
+llm = Ollama(model="llama3", request_timeout=60.0)
 pipelines = []
 gpus = []
 model_id = ""
@@ -58,36 +60,7 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ]
-    if not "HF_HOME" in os.environ:
-        client = OpenAI()
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            messages=messages,
-        )
-        return response.choices[0].message.content.lower().strip()
-    global index
-    model_id = pick_gpu(index)
-    index += 1
-    pipeline = pipelines[model_id]
-    prompter = pipeline.tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=True
-    )
-
-    terminators = [
-        pipeline.tokenizer.eos_token_id,
-        pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
-    ]
-    outputs = pipeline(
-        prompter,
-        max_new_tokens=5000,
-        eos_token_id=terminators,
-        do_sample=True,
-        temperature=0.1,
-        repetition_penalty=1.1,
-    )
-    return outputs[0]["generated_text"][len(prompter):].lower().strip()
+    return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"]))
 
 def graphquestions(graph, prompt, pipeline_id=0):
     """
@@ -106,6 +79,7 @@ def graphquestions(graph, prompt, pipeline_id=0):
         index += 1
         pipeline = pipelines[pipeline_id]
         Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
+    Settings.llm = llm
     graph_store = SimpleGraphStore()
     for node_1, node_2, data in graph.edges(data=True):
         graph_store.upsert_triplet(node_1, data['label'], node_2)
@@ -143,6 +117,7 @@ def doRag(url, question, pipeline_id=0):
         index += 1
         pipeline = pipelines[pipeline_id]
         Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
+    Settings.llm = llm
     documents = SimpleWebPageReader(html_to_text=True).load_data([url])
     
     index = SummaryIndex.from_documents(documents)

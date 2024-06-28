@@ -1,26 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="undirected"><node id="1996">
-  <data key="d0">1996</data>
+<graph edgedefault="undirected"><node id="82nd academy awards">
+  <data key="d0">82nd academy awards</data>
 </node>
 <node id="animated feature">
   <data key="d0">animated feature</data>
 </node>
-<node id="best picture">
-  <data key="d0">best picture</data>
-</node>
-<node id="2009">
-  <data key="d0">2009</data>
-</node>
-<node id="82nd academy awards">
-  <data key="d0">82nd academy awards</data>
-</node>
-<node id="ten slots">
-  <data key="d0">ten slots</data>
-</node>
 <node id="toy story 3">
   <data key="d0">toy story 3</data>
+</node>
+<node id="academy award">
+  <data key="d0">academy award</data>
+</node>
+<node id="film">
+  <data key="d0">film</data>
+</node>
+<node id="best picture">
+  <data key="d0">best picture</data>
 </node>
 <node id="disney">
   <data key="d0">disney</data>
@@ -28,29 +25,29 @@
 <node id="beauty beast">
   <data key="d0">beauty beast</data>
 </node>
-<node id="1991">
-  <data key="d0">1991</data>
+<node id="ten">
+  <data key="d0">ten</data>
+</node>
+<node id="nominee slots">
+  <data key="d0">nominee slots</data>
 </node>
 <node id="walle">
   <data key="d0">walle</data>
 </node>
+<node id="best picture category">
+  <data key="d0">best picture category</data>
+</node>
+<node id="expansion of picture category">
+  <data key="d0">expansion of picture category</data>
+</node>
 <node id="dark knight">
   <data key="d0">dark knight</data>
 </node>
-<node id="expansion of best picture category">
-  <data key="d0">expansion of best picture category</data>
-</node>
-<node id="academy award">
-  <data key="d0">academy award</data>
-</node>
-<node id="nominations for best picture">
-  <data key="d0">nominations for best picture</data>
+<node id="in best picture category">
+  <data key="d0">in best picture category</data>
 </node>
 <node id="milestones studios">
   <data key="d0">milestones studios</data>
-</node>
-<node id="superlatives">
-  <data key="d0">superlatives</data>
 </node>
 <node id="animated movies">
   <data key="d0">animated movies</data>
@@ -58,20 +55,11 @@
 <node id="oscars">
   <data key="d0">oscars</data>
 </node>
-<node id="screen rant">
-  <data key="d0">screen rant</data>
-</node>
-<node id="references">
-  <data key="d0">references</data>
-</node>
 <node id="february 2017">
   <data key="d0">february 2017</data>
 </node>
-<node id="december 3 2008">
-  <data key="d0">december 3 2008</data>
-</node>
-<node id="wins">
-  <data key="d0">wins</data>
+<node id="screen rant">
+  <data key="d0">screen rant</data>
 </node>
 <node id="march 25 2002">
   <data key="d0">march 25 2002</data>
@@ -79,122 +67,155 @@
 <node id="usa">
   <data key="d0">usa</data>
 </node>
-<node id="nomination milestones">
-  <data key="d0">nomination milestones</data>
+<node id="milestones">
+  <data key="d0">milestones</data>
 </node>
-<node id="animated feature type">
-  <data key="d0">animated feature type</data>
+<node id="animated movies  ">
+  <data key="d0">animated movies  </data>
 </node>
-<node id="best picture nominations">
-  <data key="d0">best picture nominations</data>
+<node id="screen rant  ">
+  <data key="d0">screen rant  </data>
 </node>
-<node id="best picture category">
-  <data key="d0">best picture category</data>
+<node id="usa  ">
+  <data key="d0">usa  </data>
 </node>
 <node id="greatest movies tv shows">
   <data key="d0">greatest movies tv shows</data>
 </node>
-<node id="entertainment weekly">
-  <data key="d0">entertainment weekly</data>
+<node id="entertainment weekly  ">
+  <data key="d0">entertainment weekly  </data>
 </node>
-<node id="page_content">
-  <data key="d0">page_content</data>
+<node id="december 2009  ">
+  <data key="d0">december 2009  </data>
 </node>
-<node id="december 2009">
-  <data key="d0">december 2009</data>
-</node>
-<node id="june 5 2011">
-  <data key="d0">june 5 2011</data>
-</node>
-<node id="april 26">
-  <data key="d0">april 26</data>
+<node id="seven animated feature film award  ">
+  <data key="d0">seven animated feature film award  </data>
 </node>
 <node id="seven animated feature film award">
   <data key="d0">seven animated feature film award</data>
 </node>
-<node id="osbourne">
-  <data key="d0">osbourne</data>
+<node id="academy motion picture arts  ">
+  <data key="d0">academy motion picture arts  </data>
+</node>
+<node id="april 26">
+  <data key="d0">april 26</data>
+</node>
+<node id="june 5 2011  ">
+  <data key="d0">june 5 2011  </data>
+</node>
+<node id="osbourne  ">
+  <data key="d0">osbourne  </data>
+</node>
+<node id="oscars  ">
+  <data key="d0">oscars  </data>
+</node>
+<node id="greatest movies tv shows  ">
+  <data key="d0">greatest movies tv shows  </data>
+</node>
+<node id="entertainment weekly">
+  <data key="d0">entertainment weekly</data>
+</node>
+<node id="milestones studios  ">
+  <data key="d0">milestones studios  </data>
+</node>
+<node id="december 2009">
+  <data key="d0">december 2009</data>
 </node>
 <node id="academy motion picture arts">
   <data key="d0">academy motion picture arts</data>
 </node>
-<node id="march">
-  <data key="d0">march</data>
+<node id="june 5 2011">
+  <data key="d0">june 5 2011</data>
 </node>
-<node id="anniversary">
-  <data key="d0">anniversary</data>
-</node>
-<node id="beauty">
-  <data key="d0">beauty</data>
-</node>
-<node id="january 14 2020">
-  <data key="d0">january 14 2020</data>
+<node id="osbourne">
+  <data key="d0">osbourne</data>
 </node>
 <node id="beast">
   <data key="d0">beast</data>
 </node>
-<node id="70mm">
-  <data key="d0">70mm</data>
-</node>
-<node id="lambs">
-  <data key="d0">lambs</data>
-</node>
-<node id="silence">
-  <data key="d0">silence</data>
-</node>
-<node id="1992">
-  <data key="d0">1992</data>
-</node>
-<node id="february 2024">
-  <data key="d0">february 2024</data>
-</node>
-<node id="academy">
-  <data key="d0">academy</data>
-</node>
-<node id="november 24 2010">
-  <data key="d0">november 24 2010</data>
+<node id="beauty">
+  <data key="d0">beauty</data>
 </node>
 <node id="motion">
   <data key="d0">motion</data>
 </node>
+<node id="academy">
+  <data key="d0">academy</data>
+</node>
+<node id="january 14 2020">
+  <data key="d0">january 14 2020</data>
+</node>
+<node id="1992">
+  <data key="d0">1992</data>
+</node>
+<node id="silence">
+  <data key="d0">silence</data>
+</node>
+<node id="lambs">
+  <data key="d0">lambs</data>
+</node>
+<node id="november 24 2010">
+  <data key="d0">november 24 2010</data>
+</node>
+<node id="2010">
+  <data key="d0">2010</data>
+</node>
+<node id="february 2024">
+  <data key="d0">february 2024</data>
+</node>
+<node id="2024">
+  <data key="d0">2024</data>
+</node>
+<node id="chunk 2">
+  <data key="d0">chunk 2</data>
+</node>
+<node id="tense">
+  <data key="d0">tense</data>
+</node>
+<node id="april 26 2011">
+  <data key="d0">april 26 2011</data>
+</node>
+<node id="rules">
+  <data key="d0">rules</data>
+</node>
+<node id="92nd oscars">
+  <data key="d0">92nd oscars</data>
+</node>
 <node id="animated feature film award">
   <data key="d0">animated feature film award</data>
 </node>
-<node id="fleischer camp dean">
-  <data key="d0">fleischer camp dean</data>
+<node id="silence of the lambs">
+  <data key="d0">silence of the lambs</data>
 </node>
-<node id="giardina camp carolyn">
-  <data key="d0">giardina camp carolyn</data>
-</node>
-<node id="shoes oscars">
-  <data key="d0">shoes oscars</data>
+<node id="july 11 2019">
+  <data key="d0">july 11 2019</data>
 </node>
 <node id="hollywood reporter">
   <data key="d0">hollywood reporter</data>
 </node>
-<node id="2008 top tens">
-  <data key="d0">2008 top tens</data>
+<node id="shoes oscars">
+  <data key="d0">shoes oscars</data>
+</node>
+<node id="2008">
+  <data key="d0">2008</data>
+</node>
+<node id="giardina camp carolyn">
+  <data key="d0">giardina camp carolyn</data>
 </node>
 <node id="may 2009">
   <data key="d0">may 2009</data>
 </node>
-<node id="keegan winters rebecca">
-  <data key="d0">keegan winters rebecca</data>
-</node>
-<node id="walle best">
-  <data key="d0">walle best</data>
+<node id="top tens">
+  <data key="d0">top tens</data>
 </node>
 <node id="april 13">
   <data key="d0">april 13</data>
 </node>
-<node id="2014">
-  <data key="d0">2014</data>
+<node id="walle best">
+  <data key="d0">walle best</data>
 </node>
-<node id="july 20 2022">
-  <data key="d0">july 20 2022</data>
-</node>
-<node id="april 24 2019">
-  <data key="d0">april 24 2019</data>
+<node id="keegan winters rebecca">
+  <data key="d0">keegan winters rebecca</data>
 </node>
 <node id="april 13 2014">
   <data key="d0">april 13 2014</data>
@@ -205,11 +226,17 @@
 <node id="best oscar">
   <data key="d0">best oscar</data>
 </node>
-<node id="usa today">
-  <data key="d0">usa today</data>
+<node id="us">
+  <data key="d0">us</data>
 </node>
 <node id="oscar">
   <data key="d0">oscar</data>
+</node>
+<node id="breznican anthony">
+  <data key="d0">breznican anthony</data>
+</node>
+<node id="usa today">
+  <data key="d0">usa today</data>
 </node>
 <node id="april 9 2014">
   <data key="d0">april 9 2014</data>
@@ -217,56 +244,23 @@
 <node id="buchanan kyle">
   <data key="d0">buchanan kyle</data>
 </node>
-<node id="breznican anthony">
-  <data key="d0">breznican anthony</data>
-</node>
-<node id="us">
-  <data key="d0">us</data>
-</node>
-<node id="8 2024">
-  <data key="d0">8 2024</data>
-</node>
 <node id="new york times">
   <data key="d0">new york times</data>
 </node>
-<node id="oscar experiment">
-  <data key="d0">oscar experiment</data>
+<node id="oscar significance">
+  <data key="d0">oscar significance</data>
 </node>
-<node id="wall-e">
-  <data key="d0">wall-e</data>
+<node id="best movie">
+  <data key="d0">best movie</data>
 </node>
-<node id="top film">
-  <data key="d0">top film</data>
+<node id="walle success">
+  <data key="d0">walle success</data>
 </node>
-<node id="carolyn giardina's top tens">
-  <data key="d0">carolyn giardina's top tens</data>
+<node id="oscar trends">
+  <data key="d0">oscar trends</data>
 </node>
-<node id="carolyn giardina">
-  <data key="d0">carolyn giardina</data>
-</node>
-<node id="rebecca winters keegan">
-  <data key="d0">rebecca winters keegan</data>
-</node>
-<node id="wall-e's standout qualities">
-  <data key="d0">wall-e's standout qualities</data>
-</node>
-<node id="matthew bandyk">
-  <data key="d0">matthew bandyk</data>
-</node>
-<node id="wall-e as oscar contender">
-  <data key="d0">wall-e as oscar contender</data>
-</node>
-<node id="anthony breznican">
-  <data key="d0">anthony breznican</data>
-</node>
-<node id="similar sentiments about wall-e">
-  <data key="d0">similar sentiments about wall-e</data>
-</node>
-<node id="kyle buchanan">
-  <data key="d0">kyle buchanan</data>
-</node>
-<node id="oscar trajectory in new york times">
-  <data key="d0">oscar trajectory in new york times</data>
+<node id="oscar trendsexpected by 2024">
+  <data key="d0">oscar trendsexpected by 2024</data>
 </node>
 <node id="russell calum">
   <data key="d0">russell calum</data>
@@ -274,8 +268,17 @@
 <node id="2023">
   <data key="d0">2023</data>
 </node>
-<node id="lasseter">
-  <data key="d0">lasseter</data>
+<node id="three animated movies">
+  <data key="d0">three animated movies</data>
+</node>
+<node id="fired lasseter">
+  <data key="d0">fired lasseter</data>
+</node>
+<node id="picture">
+  <data key="d0">picture</data>
+</node>
+<node id="date of">
+  <data key="d0">date of</data>
 </node>
 <node id="february 21">
   <data key="d0">february 21</data>
@@ -286,11 +289,23 @@
 <node id="75th academy awards">
   <data key="d0">75th academy awards</data>
 </node>
+<node id="winners">
+  <data key="d0">winners</data>
+</node>
+<node id="end of cycle">
+  <data key="d0">end of cycle</data>
+</node>
 <node id="2017">
   <data key="d0">2017</data>
 </node>
-<node id="winners">
-  <data key="d0">winners</data>
+<node id="event date">
+  <data key="d0">event date</data>
+</node>
+<node id="august 27">
+  <data key="d0">august 27</data>
+</node>
+<node id="calum russell">
+  <data key="d0">calum russell</data>
 </node>
 <node id="76th academy awards">
   <data key="d0">76th academy awards</data>
@@ -298,23 +313,44 @@
 <node id="2004">
   <data key="d0">2004</data>
 </node>
+<node id="april 2015">
+  <data key="d0">april 2015</data>
+</node>
+<node id="2015">
+  <data key="d0">2015</data>
+</node>
+<node id="2013">
+  <data key="d0">2013</data>
+</node>
+<node id="august 2013">
+  <data key="d0">august 2013</data>
+</node>
 <node id="2005">
   <data key="d0">2005</data>
 </node>
 <node id="77th academy awards">
   <data key="d0">77th academy awards</data>
 </node>
-<node id="2013">
-  <data key="d0">2013</data>
+<node id="may 2 2017">
+  <data key="d0">may 2 2017</data>
 </node>
-<node id="2015">
-  <data key="d0">2015</data>
+<node id="the year of">
+  <data key="d0">the year of</data>
+</node>
+<node id="2014">
+  <data key="d0">2014</data>
+</node>
+<node id="2006">
+  <data key="d0">2006</data>
 </node>
 <node id="78th academy awards">
   <data key="d0">78th academy awards</data>
 </node>
-<node id="2006">
-  <data key="d0">2006</data>
+<node id="november 9 2014">
+  <data key="d0">november 9 2014</data>
+</node>
+<node id="date">
+  <data key="d0">date</data>
 </node>
 <node id="79th academy awards">
   <data key="d0">79th academy awards</data>
@@ -322,47 +358,23 @@
 <node id="2007">
   <data key="d0">2007</data>
 </node>
-<node id="november 9 2014">
-  <data key="d0">november 9 2014</data>
-</node>
-<node id="event">
-  <data key="d0">event</data>
-</node>
-<node id="april 2015">
-  <data key="d0">april 2015</data>
-</node>
-<node id="80th academy awards">
-  <data key="d0">80th academy awards</data>
-</node>
-<node id="2008">
-  <data key="d0">2008</data>
-</node>
-<node id="81st academy awards">
-  <data key="d0">81st academy awards</data>
+<node id="november 2014">
+  <data key="d0">november 2014</data>
 </node>
 <node id="august 27 2013">
   <data key="d0">august 27 2013</data>
 </node>
-<node id="november 10 2014">
-  <data key="d0">november 10 2014</data>
+<node id="80th academy awards">
+  <data key="d0">80th academy awards</data>
 </node>
-<node id="2010">
-  <data key="d0">2010</data>
+<node id="81st academy awards">
+  <data key="d0">81st academy awards</data>
 </node>
-<node id="83rd academy awards">
-  <data key="d0">83rd academy awards</data>
+<node id="2009">
+  <data key="d0">2009</data>
 </node>
-<node id="2011">
-  <data key="d0">2011</data>
-</node>
-<node id="april">
-  <data key="d0">april</data>
-</node>
-<node id="august 27">
-  <data key="d0">august 27</data>
-</node>
-<node id="november 10">
-  <data key="d0">november 10</data>
+<node id="">
+  <data key="d0"></data>
 </node>
 <node id="september 2012">
   <data key="d0">september 2012</data>
@@ -370,26 +382,26 @@
 <node id="may 2011">
   <data key="d0">may 2011</data>
 </node>
+<node id="point of time">
+  <data key="d0">point of time</data>
+</node>
+<node id="83rd academy awards">
+  <data key="d0">83rd academy awards</data>
+</node>
+<node id="2011">
+  <data key="d0">2011</data>
+</node>
+<node id="november 10">
+  <data key="d0">november 10</data>
+</node>
 <node id="84th academy awards">
   <data key="d0">84th academy awards</data>
 </node>
 <node id="2012">
   <data key="d0">2012</data>
 </node>
-<node id="october 2014">
-  <data key="d0">october 2014</data>
-</node>
 <node id="85th academy awards">
   <data key="d0">85th academy awards</data>
-</node>
-<node id="date">
-  <data key="d0">date</data>
-</node>
-<node id="october">
-  <data key="d0">october</data>
-</node>
-<node id="announced in oktober">
-  <data key="d0">announced in oktober</data>
 </node>
 <node id="86th academy awards">
   <data key="d0">86th academy awards</data>
@@ -409,17 +421,23 @@
 <node id="january 15">
   <data key="d0">january 15</data>
 </node>
+<node id="academy awards">
+  <data key="d0">academy awards</data>
+</node>
+<node id="october 2014">
+  <data key="d0">october 2014</data>
+</node>
+<node id="october">
+  <data key="d0">october</data>
+</node>
 <node id="88th academy awards">
   <data key="d0">88th academy awards</data>
-</node>
-<node id="2016">
-  <data key="d0">2016</data>
 </node>
 <node id="january 25 2016">
   <data key="d0">january 25 2016</data>
 </node>
-<node id="89th academy awards">
-  <data key="d0">89th academy awards</data>
+<node id="inner">
+  <data key="d0">inner</data>
 </node>
 <node id="march 3 2017">
   <data key="d0">march 3 2017</data>
@@ -430,14 +448,14 @@
 <node id="2018">
   <data key="d0">2018</data>
 </node>
-<node id="april 1">
-  <data key="d0">april 1</data>
-</node>
 <node id="91st academy awards">
   <data key="d0">91st academy awards</data>
 </node>
-<node id="march 14">
-  <data key="d0">march 14</data>
+<node id="march 14 2023">
+  <data key="d0">march 14 2023</data>
+</node>
+<node id="isses between the 88th academy awards and the 90th academy awards">
+  <data key="d0">isses between the 88th academy awards and the 90th academy awards</data>
 </node>
 <node id="92nd academy awards">
   <data key="d0">92nd academy awards</data>
@@ -445,26 +463,26 @@
 <node id="february 16 2020">
   <data key="d0">february 16 2020</data>
 </node>
-<node id="93rd academy awards">
-  <data key="d0">93rd academy awards</data>
-</node>
 <node id="may 1 2021">
   <data key="d0">may 1 2021</data>
 </node>
-<node id="94th academy awards">
-  <data key="d0">94th academy awards</data>
+<node id="93rd academy awards">
+  <data key="d0">93rd academy awards</data>
+</node>
+<node id="94th academy awards nominees winners">
+  <data key="d0">94th academy awards nominees winners</data>
+</node>
+<node id="95th academy awards nominees winners">
+  <data key="d0">95th academy awards nominees winners</data>
+</node>
+<node id="march 2023">
+  <data key="d0">march 2023</data>
 </node>
 <node id="april 1 2022">
   <data key="d0">april 1 2022</data>
 </node>
-<node id="95th academy awards">
-  <data key="d0">95th academy awards</data>
-</node>
-<node id="march 14 2023">
-  <data key="d0">march 14 2023</data>
-</node>
-<node id="march 2023">
-  <data key="d0">march 2023</data>
+<node id="event">
+  <data key="d0">event</data>
 </node>
 <node id="96th academy awards">
   <data key="d0">96th academy awards</data>
@@ -472,14 +490,17 @@
 <node id="january">
   <data key="d0">january</data>
 </node>
-<node id="pixar">
-  <data key="d0">pixar</data>
+<node id="perry spencer">
+  <data key="d0">perry spencer</data>
 </node>
 <node id="onward">
   <data key="d0">onward</data>
 </node>
-<node id="academy picture">
-  <data key="d0">academy picture</data>
+<node id="pixar">
+  <data key="d0">pixar</data>
+</node>
+<node id="comicbook">
+  <data key="d0">comicbook</data>
 </node>
 <node id="beautiful mind">
   <data key="d0">beautiful mind</data>
@@ -487,14 +508,11 @@
 <node id="2002">
   <data key="d0">2002</data>
 </node>
-<node id="best picture oscar">
-  <data key="d0">best picture oscar</data>
+<node id="clockwork orange">
+  <data key="d0">clockwork orange</data>
 </node>
 <node id="national film registry">
   <data key="d0">national film registry</data>
-</node>
-<node id="clockwork orange">
-  <data key="d0">clockwork orange</data>
 </node>
 <node id="joy luck club">
   <data key="d0">joy luck club</data>
@@ -502,32 +520,38 @@
 <node id="reporter">
   <data key="d0">reporter</data>
 </node>
-<node id="25 films">
-  <data key="d0">25 films</data>
-</node>
 <node id="jedi">
   <data key="d0">jedi</data>
 </node>
 <node id="animated">
   <data key="d0">animated</data>
 </node>
-<node id="docomentary">
-  <data key="d0">docomentary</data>
-</node>
-<node id="international">
-  <data key="d0">international</data>
-</node>
 <node id="documentary">
   <data key="d0">documentary</data>
-</node>
-<node id="in">
-  <data key="d0">in</data>
 </node>
 <node id="cartoon">
   <data key="d0">cartoon</data>
 </node>
 <node id="boin adriano">
   <data key="d0">boin adriano</data>
+</node>
+<node id="2023 oscar">
+  <data key="d0">2023 oscar</data>
+</node>
+<node id="bibliography">
+  <data key="d0">bibliography</data>
+</node>
+<node id="diario">
+  <data key="d0">diario</data>
+</node>
+<node id="march 13">
+  <data key="d0">march 13</data>
+</node>
+<node id="national film registry's 25 films list">
+  <data key="d0">national film registry's 25 films list</data>
+</node>
+<node id="international films">
+  <data key="d0">international films</data>
 </node>
 <node id="2023 co-recipient: hayao miyazaki">
   <data key="d0">2023 co-recipient: hayao miyazaki</data>
@@ -837,6 +861,9 @@
 </node>
 <node id="23">
   <data key="d0">23</data>
+</node>
+<node id="wall-e">
+  <data key="d0">wall-e</data>
 </node>
 <node id="[31]">
   <data key="d0">[31]</data>
@@ -1438,6 +1465,9 @@
 <node id="multiple nominations[edit] nominations individual 4 pete docter hayao miyazaki 3 brad bird ron clements dean deblois byron howard travis knight phil lord christopher miller rich moore tomm moore chris sanders clark spencer toshio suzuki chris williams 2 wes anderson bonnie arnold chris buck tim burton chris butler sylvain chomet don hall john lasseter john musker yoshiaki nishimura jonas rivera osnat shurer andrew stanton arianne sutner lee unkrich peter del vecho paul young">
   <data key="d0">multiple nominations[edit] nominations individual 4 pete docter hayao miyazaki 3 brad bird ron clements dean deblois byron howard travis knight phil lord christopher miller rich moore tomm moore chris sanders clark spencer toshio suzuki chris williams 2 wes anderson bonnie arnold chris buck tim burton chris butler sylvain chomet don hall john lasseter john musker yoshiaki nishimura jonas rivera osnat shurer andrew stanton arianne sutner lee unkrich peter del vecho paul young</data>
 </node>
+<node id="wins">
+  <data key="d0">wins</data>
+</node>
 <node id="individual">
   <data key="d0">individual</data>
 </node>
@@ -1798,65 +1828,47 @@
 <node id="3awards">
   <data key="d0">3awards</data>
 </node>
-<edge source="1996" target="animated feature">
-  <data key="d1">feature of</data>
-</edge>
-<edge source="1996" target="best picture">
-  <data key="d1">nomination for</data>
-</edge>
-<edge source="animated feature" target="2009">
-  <data key="d1">feature of</data>
-</edge>
-<edge source="animated feature" target="82nd academy awards">
-  <data key="d1">part of</data>
-</edge>
-<edge source="animated feature" target="walle">
-  <data key="d1">part of</data>
-</edge>
-<edge source="animated feature" target="best picture">
-  <data key="d1">has category</data>
-</edge>
-<edge source="animated feature" target="onward">
-  <data key="d1">is a type of</data>
-</edge>
-<edge source="animated feature" target="winners">
-  <data key="d1">include</data>
-</edge>
-<edge source="animated feature" target="96th academy awards">
-  <data key="d1">is a category in</data>
-</edge>
-<edge source="best picture" target="walle">
-  <data key="d1">nominated for</data>
-</edge>
-<edge source="best picture" target="dark knight">
-  <data key="d1">nominated for</data>
-</edge>
-<edge source="best picture" target="toy story 3">
-  <data key="d1">nominated for</data>
-</edge>
-<edge source="best picture" target="beauty beast">
-  <data key="d1">nominated for</data>
-</edge>
-<edge source="best picture" target="academy award">
-  <data key="d1">influenced</data>
-</edge>
-<edge source="2009" target="ten slots">
-  <data key="d1">expanded to</data>
-</edge>
-<edge source="2009" target="81st academy awards">
-  <data key="d1">occurs in</data>
+<edge source="82nd academy awards" target="animated feature">
+  <data key="d1">in conjunction with</data>
 </edge>
 <edge source="82nd academy awards" target="toy story 3">
-  <data key="d1">featured</data>
+  <data key="d1">inducted by</data>
+</edge>
+<edge source="82nd academy awards" target="expansion of picture category">
+  <data key="d1">influenced</data>
 </edge>
 <edge source="82nd academy awards" target="2010">
-  <data key="d1">has winners</data>
+  <data key="d1">occurred in</data>
 </edge>
 <edge source="82nd academy awards" target="september 2012">
-  <data key="d1">announced in</data>
+  <data key="d1">point of time</data>
 </edge>
-<edge source="82nd academy awards" target="august 27">
-  <data key="d1">mentioned in</data>
+<edge source="animated feature" target="academy award">
+  <data key="d1">awarded by</data>
+</edge>
+<edge source="animated feature" target="toy story 3">
+  <data key="d1">type of</data>
+</edge>
+<edge source="animated feature" target="beauty beast">
+  <data key="d1">type of</data>
+</edge>
+<edge source="animated feature" target="best picture">
+  <data key="d1">nominated for</data>
+</edge>
+<edge source="animated feature" target="in best picture category">
+  <data key="d1">can be</data>
+</edge>
+<edge source="animated feature" target="onward">
+  <data key="d1">genre</data>
+</edge>
+<edge source="animated feature" target="oscars">
+  <data key="d1">has category</data>
+</edge>
+<edge source="animated feature" target="96th academy awards">
+  <data key="d1">related to</data>
+</edge>
+<edge source="toy story 3" target="best picture category">
+  <data key="d1">nominated for</data>
 </edge>
 <edge source="toy story 3" target="2010 (83rd)">
   <data key="d1">film</data>
@@ -1864,575 +1876,590 @@
 <edge source="toy story 3" target="toy story">
   <data key="d1">films</data>
 </edge>
+<edge source="academy award" target="best picture category">
+  <data key="d1">regulates</data>
+</edge>
+<edge source="film" target="best picture">
+  <data key="d1">nominated for</data>
+</edge>
+<edge source="best picture" target="three animated movies">
+  <data key="d1">nominated for</data>
+</edge>
 <edge source="disney" target="beauty beast">
-  <data key="d1">made by</data>
-</edge>
-<edge source="disney" target="lasseter">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="beauty beast" target="1991">
-  <data key="d1">feature of</data>
-</edge>
-<edge source="walle" target="oscar">
-  <data key="d1">awarded to</data>
-</edge>
-<edge source="walle" target="april 9 2014">
-  <data key="d1">released on</data>
-</edge>
-<edge source="walle" target="buchanan kyle">
-  <data key="d1">reviewed by</data>
-</edge>
-<edge source="dark knight" target="expansion of best picture category">
-  <data key="d1">caused</data>
-</edge>
-<edge source="dark knight" target="best picture category">
-  <data key="d1">influenced by</data>
-</edge>
-<edge source="dark knight" target="national film registry">
-  <data key="d1">is in</data>
-</edge>
-<edge source="academy award" target="nominations for best picture">
-  <data key="d1">regulated</data>
-</edge>
-<edge source="milestones studios" target="superlatives">
   <data key="d1">created by</data>
 </edge>
+<edge source="disney" target="three animated movies">
+  <data key="d1">produced by</data>
+</edge>
+<edge source="disney" target="fired lasseter">
+  <data key="d1">fired lasseter</data>
+</edge>
+<edge source="ten" target="nominee slots">
+  <data key="d1">increased to</data>
+</edge>
+<edge source="walle" target="best picture category">
+  <data key="d1">nominated for</data>
+</edge>
+<edge source="walle" target="oscar">
+  <data key="d1">receives</data>
+</edge>
+<edge source="walle" target="breznican anthony">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="walle" target="usa today">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="walle" target="bandyk matthew">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="best picture category" target="animated movies">
+  <data key="d1">nomination facilitated by</data>
+</edge>
+<edge source="expansion of picture category" target="dark knight">
+  <data key="d1">influenced</data>
+</edge>
+<edge source="dark knight" target="clockwork orange">
+  <data key="d1">in</data>
+</edge>
+<edge source="dark knight" target="new york times">
+  <data key="d1">is recognized by</data>
+</edge>
 <edge source="milestones studios" target="animated movies">
-  <data key="d1">produced</data>
+  <data key="d1">produces</data>
 </edge>
-<edge source="milestones studios" target="oscars">
-  <data key="d1">significant for</data>
-</edge>
-<edge source="milestones studios" target="references">
-  <data key="d1">is mentioned in</data>
-</edge>
-<edge source="milestones studios" target="entertainment weekly">
-  <data key="d1">recognized</data>
-</edge>
-<edge source="milestones studios" target="june 5 2011">
-  <data key="d1">received award</data>
-</edge>
-<edge source="milestones studios" target="seven animated feature film award">
-  <data key="d1">received award</data>
+<edge source="milestones studios" target="animated movies  ">
+  <data key="d1">produces</data>
 </edge>
 <edge source="animated movies" target="oscars">
-  <data key="d1">won</data>
+  <data key="d1">recognized by</data>
 </edge>
-<edge source="oscars" target="seven animated feature film award">
-  <data key="d1">related to</data>
+<edge source="animated movies" target="greatest movies tv shows  ">
+  <data key="d1">mentioned in</data>
 </edge>
-<edge source="oscars" target="silence">
-  <data key="d1">won multiple awards including</data>
-</edge>
-<edge source="oscars" target="1992">
-  <data key="d1">held in</data>
-</edge>
-<edge source="oscars" target="animated feature film award">
-  <data key="d1">eligibility requirements for</data>
-</edge>
-<edge source="oscars" target="fleischer camp dean">
-  <data key="d1">document submission by</data>
-</edge>
-<edge source="oscars" target="academy">
-  <data key="d1">hosts</data>
-</edge>
-<edge source="oscars" target="beautiful mind">
+<edge source="oscars" target="animated movies  ">
   <data key="d1">wins</data>
 </edge>
-<edge source="screen rant" target="references">
-  <data key="d1">published</data>
+<edge source="oscars" target="entertainment weekly">
+  <data key="d1">mentioned in</data>
 </edge>
-<edge source="screen rant" target="nomination milestones">
-  <data key="d1">discussed</data>
+<edge source="oscars" target="silence">
+  <data key="d1">won</data>
 </edge>
-<edge source="references" target="february 2017">
+<edge source="oscars" target="silence of the lambs">
+  <data key="d1">won by</data>
+</edge>
+<edge source="oscars" target="academy">
+  <data key="d1">presents</data>
+</edge>
+<edge source="oscars" target="breznican anthony">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="oscars" target="buchanan kyle">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="oscars" target="beautiful mind">
+  <data key="d1">received</data>
+</edge>
+<edge source="oscars" target="perry spencer">
+  <data key="d1">received</data>
+</edge>
+<edge source="february 2017" target="screen rant">
+  <data key="d1">publishes</data>
+</edge>
+<edge source="february 2017" target="screen rant  ">
+  <data key="d1">publishes</data>
+</edge>
+<edge source="february 2017" target="oscars  ">
+  <data key="d1">covers</data>
+</edge>
+<edge source="screen rant" target="milestones">
+  <data key="d1">highlights</data>
+</edge>
+<edge source="screen rant" target="oscars  ">
+  <data key="d1">mentions</data>
+</edge>
+<edge source="march 25 2002" target="usa">
+  <data key="d1">made</data>
+</edge>
+<edge source="march 25 2002" target="usa  ">
+  <data key="d1">made</data>
+</edge>
+<edge source="animated movies  " target="greatest movies tv shows">
   <data key="d1">includes</data>
 </edge>
-<edge source="references" target="march 25 2002">
-  <data key="d1">includes</data>
+<edge source="greatest movies tv shows" target="entertainment weekly  ">
+  <data key="d1">published by</data>
 </edge>
-<edge source="references" target="december 3 2008">
-  <data key="d1">includes</data>
+<edge source="greatest movies tv shows" target="december 2009  ">
+  <data key="d1">published in</data>
 </edge>
-<edge source="references" target="march">
-  <data key="d1">includes</data>
-</edge>
-<edge source="december 3 2008" target="wins">
-  <data key="d1">occurred on</data>
-</edge>
-<edge source="wins" target="march 25 2002">
-  <data key="d1">occurred on</data>
-</edge>
-<edge source="wins" target="usa">
-  <data key="d1">occurred in</data>
-</edge>
-<edge source="wins" target="1992">
-  <data key="d1">related to</data>
-</edge>
-<edge source="wins" target="wins">
-  <data key="d1">0</data>
-</edge>
-<edge source="wins" target="1">
-  <data key="d1">positioninlist</data>
-</edge>
-<edge source="wins" target="individual">
-  <data key="d1">1</data>
-</edge>
-<edge source="animated feature type" target="best picture nominations">
-  <data key="d1">included in</data>
+<edge source="greatest movies tv shows" target="seven animated feature film award  ">
+  <data key="d1">winner of</data>
 </edge>
 <edge source="greatest movies tv shows" target="entertainment weekly">
-  <data key="d1">is published in</data>
+  <data key="d1">published by</data>
 </edge>
-<edge source="entertainment weekly" target="page_content">
-  <data key="d1">mentioned in</data>
+<edge source="greatest movies tv shows" target="december 2009">
+  <data key="d1">published in</data>
 </edge>
-<edge source="page_content" target="december 2009">
-  <data key="d1">mentions</data>
+<edge source="greatest movies tv shows" target="seven animated feature film award">
+  <data key="d1">winner of</data>
 </edge>
-<edge source="page_content" target="june 5 2011">
-  <data key="d1">mentions</data>
-</edge>
-<edge source="page_content" target="april 26">
-  <data key="d1">mentions</data>
-</edge>
-<edge source="page_content" target="seven animated feature film award">
-  <data key="d1">mentions</data>
-</edge>
-<edge source="page_content" target="osbourne">
-  <data key="d1">is associated with</data>
-</edge>
-<edge source="page_content" target="lambs">
-  <data key="d1">mentioned in</data>
+<edge source="seven animated feature film award" target="academy motion picture arts  ">
+  <data key="d1">awarded by</data>
 </edge>
 <edge source="seven animated feature film award" target="academy motion picture arts">
-  <data key="d1">held</data>
+  <data key="d1">awarded by</data>
 </edge>
-<edge source="anniversary" target="beauty">
+<edge source="april 26" target="june 5 2011  ">
+  <data key="d1">mentioned on</data>
+</edge>
+<edge source="april 26" target="osbourne  ">
+  <data key="d1">mentioned along with</data>
+</edge>
+<edge source="april 26" target="june 5 2011">
+  <data key="d1">mentioned on</data>
+</edge>
+<edge source="april 26" target="osbourne">
+  <data key="d1">mentioned along with</data>
+</edge>
+<edge source="april 26" target="entertainment weekly">
+  <data key="d1">published on</data>
+</edge>
+<edge source="entertainment weekly" target="milestones studios  ">
+  <data key="d1">highlights</data>
+</edge>
+<edge source="entertainment weekly" target="chunk 2">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="beast" target="beauty">
   <data key="d1">related to</data>
 </edge>
-<edge source="anniversary" target="january 14 2020">
-  <data key="d1">marks the date of</data>
+<edge source="beast" target="silence">
+  <data key="d1">won award</data>
 </edge>
-<edge source="beauty" target="beast">
+<edge source="beast" target="january 14 2020">
+  <data key="d1">celebrated on</data>
+</edge>
+<edge source="beauty" target="january 14 2020">
+  <data key="d1">event on</data>
+</edge>
+<edge source="motion" target="academy">
   <data key="d1">related to</data>
 </edge>
-<edge source="beauty" target="70mm">
-  <data key="d1">is connected to</data>
-</edge>
-<edge source="beauty" target="academy">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="beauty" target="february 2024">
-  <data key="d1">mentioned with</data>
-</edge>
-<edge source="january 14 2020" target="lambs">
-  <data key="d1">associated with</data>
-</edge>
-<edge source="lambs" target="silence">
+<edge source="january 14 2020" target="1992">
   <data key="d1">related to</data>
 </edge>
-<edge source="lambs" target="1992">
-  <data key="d1">received award in</data>
-</edge>
-<edge source="february 2024" target="academy">
-  <data key="d1">held annually in</data>
-</edge>
-<edge source="february 2024" target="november 24 2010">
-  <data key="d1">precedes</data>
-</edge>
-<edge source="academy" target="motion">
+<edge source="silence" target="lambs">
   <data key="d1">related to</data>
 </edge>
-<edge source="animated feature film award" target="july 20 2022">
-  <data key="d1">updated rules set on</data>
+<edge source="november 24 2010" target="2010">
+  <data key="d1">related to</data>
 </edge>
-<edge source="fleischer camp dean" target="hollywood reporter">
-  <data key="d1">has authors</data>
+<edge source="2010" target="2011">
+  <data key="d1">preceded by</data>
 </edge>
-<edge source="fleischer camp dean" target="april 24 2019">
-  <data key="d1">document submission by</data>
+<edge source="february 2024" target="2024">
+  <data key="d1">related to</data>
 </edge>
-<edge source="giardina camp carolyn" target="shoes oscars">
+<edge source="2024" target="2023">
+  <data key="d1">future of</data>
+</edge>
+<edge source="tense" target="april 26 2011">
+  <data key="d1">suggests</data>
+</edge>
+<edge source="rules" target="92nd oscars">
+  <data key="d1">governs eligibility for</data>
+</edge>
+<edge source="rules" target="animated feature film award">
+  <data key="d1">define requirements for</data>
+</edge>
+<edge source="92nd oscars" target="july 11 2019">
+  <data key="d1">announced on</data>
+</edge>
+<edge source="animated feature film award" target="hollywood reporter">
+  <data key="d1">discussed by</data>
+</edge>
+<edge source="hollywood reporter" target="shoes oscars">
   <data key="d1">mentioned in</data>
 </edge>
-<edge source="giardina camp carolyn" target="hollywood reporter">
-  <data key="d1">mentioned in</data>
+<edge source="hollywood reporter" target="2008">
+  <data key="d1">published on</data>
 </edge>
-<edge source="giardina camp carolyn" target="2008 top tens">
-  <data key="d1">mentioned in</data>
+<edge source="hollywood reporter" target="oscar significance">
+  <data key="d1">highlights</data>
 </edge>
-<edge source="giardina camp carolyn" target="may 2009">
-  <data key="d1">mentioned in</data>
+<edge source="shoes oscars" target="giardina camp carolyn">
+  <data key="d1">related to</data>
 </edge>
-<edge source="giardina camp carolyn" target="keegan winters rebecca">
-  <data key="d1">mentioned in</data>
+<edge source="2008" target="80th academy awards">
+  <data key="d1">winners of</data>
 </edge>
 <edge source="giardina camp carolyn" target="walle best">
-  <data key="d1">mentioned in</data>
+  <data key="d1">published article on</data>
 </edge>
-<edge source="giardina camp carolyn" target="april 13">
-  <data key="d1">mentioned in</data>
+<edge source="may 2009" target="top tens">
+  <data key="d1">related to</data>
 </edge>
-<edge source="giardina camp carolyn" target="2014">
-  <data key="d1">mentioned in</data>
+<edge source="top tens" target="walle best">
+  <data key="d1">highly rated on</data>
 </edge>
-<edge source="hollywood reporter" target="may 2009">
-  <data key="d1">listed top tens in</data>
+<edge source="april 13" target="walle best">
+  <data key="d1">mentioned on</data>
 </edge>
-<edge source="hollywood reporter" target="keegan winters rebecca">
-  <data key="d1">has authors</data>
+<edge source="april 13" target="april 13 2014">
+  <data key="d1">part of</data>
 </edge>
-<edge source="hollywood reporter" target="carolyn giardina's top tens">
-  <data key="d1">published</data>
+<edge source="walle best" target="keegan winters rebecca">
+  <data key="d1">related to</data>
 </edge>
-<edge source="walle best" target="april 13 2014">
-  <data key="d1">recognized on</data>
-</edge>
-<edge source="2014" target="2013">
-  <data key="d1">precedes</data>
-</edge>
-<edge source="2014" target="2015">
-  <data key="d1">precedes</data>
-</edge>
-<edge source="2014" target="86th academy awards">
-  <data key="d1">occurred in</data>
+<edge source="keegan winters rebecca" target="best movie">
+  <data key="d1">mentions</data>
 </edge>
 <edge source="bandyk matthew" target="best oscar">
   <data key="d1">awards</data>
 </edge>
-<edge source="bandyk matthew" target="usa today">
-  <data key="d1">released by</data>
+<edge source="bandyk matthew" target="us">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="usa today" target="oscar">
-  <data key="d1">released by</data>
+<edge source="bandyk matthew" target="best movie">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="usa today" target="april 9 2014">
-  <data key="d1">reported by</data>
+<edge source="us" target="breznican anthony">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="oscar" target="breznican anthony">
-  <data key="d1">awarded</data>
+<edge source="us" target="buchanan kyle">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="oscar" target="academy picture">
-  <data key="d1">part of</data>
+<edge source="oscar" target="april 9 2014">
+  <data key="d1">awarded on</data>
 </edge>
-<edge source="oscar" target="onward">
-  <data key="d1">won</data>
+<edge source="oscar" target="buchanan kyle">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="oscar" target="animated">
-  <data key="d1">wins</data>
-</edge>
-<edge source="oscar" target="boin adriano">
-  <data key="d1">wins</data>
-</edge>
-<edge source="april 9 2014" target="us">
-  <data key="d1">date of</data>
-</edge>
-<edge source="april 9 2014" target="8 2024">
-  <data key="d1">year of</data>
-</edge>
-<edge source="buchanan kyle" target="breznican anthony">
-  <data key="d1">interviewed by</data>
-</edge>
-<edge source="buchanan kyle" target="oscar experiment">
-  <data key="d1">reported by</data>
-</edge>
-<edge source="buchanan kyle" target="new york times">
-  <data key="d1">published in</data>
-</edge>
-<edge source="breznican anthony" target="new york times">
-  <data key="d1">mentioned in</data>
-</edge>
-<edge source="breznican anthony" target="february 21">
-  <data key="d1">reported</data>
-</edge>
-<edge source="new york times" target="oscar experiment">
+<edge source="oscar" target="new york times">
   <data key="d1">covered by</data>
 </edge>
-<edge source="new york times" target="national film registry">
-  <data key="d1">reports in</data>
+<edge source="oscar" target="onward">
+  <data key="d1">awarded</data>
 </edge>
-<edge source="new york times" target="boin adriano">
-  <data key="d1">featured in</data>
+<edge source="oscar" target="animated">
+  <data key="d1">in</data>
 </edge>
-<edge source="oscar experiment" target="russell calum">
-  <data key="d1">highlighted</data>
+<edge source="breznican anthony" target="walle success">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="wall-e" target="top film">
-  <data key="d1">recognized as</data>
+<edge source="buchanan kyle" target="oscar trendsexpected by 2024">
+  <data key="d1">discusses</data>
 </edge>
-<edge source="wall-e" target="carolyn giardina">
-  <data key="d1">reviewed</data>
+<edge source="new york times" target="oscar trends">
+  <data key="d1">mentions</data>
 </edge>
-<edge source="wall-e" target="2008 (81st)">
-  <data key="d1">film</data>
+<edge source="new york times" target="jedi">
+  <data key="d1">is recognized by</data>
 </edge>
-<edge source="rebecca winters keegan" target="wall-e's standout qualities">
-  <data key="d1">acknowledged</data>
+<edge source="new york times" target="clockwork orange">
+  <data key="d1">is recognized by</data>
 </edge>
-<edge source="matthew bandyk" target="wall-e as oscar contender">
-  <data key="d1">highlighted</data>
-</edge>
-<edge source="anthony breznican" target="similar sentiments about wall-e">
-  <data key="d1">echoed</data>
-</edge>
-<edge source="kyle buchanan" target="oscar trajectory in new york times">
-  <data key="d1">discussed</data>
+<edge source="new york times" target="joy luck club">
+  <data key="d1">is recognized by</data>
 </edge>
 <edge source="russell calum" target="2023">
-  <data key="d1">released in</data>
-</edge>
-<edge source="2023" target="2017">
-  <data key="d1">preceded</data>
-</edge>
-<edge source="2023" target="91st academy awards">
   <data key="d1">year</data>
 </edge>
-<edge source="2023" target="march 14">
-  <data key="d1">happened on</data>
+<edge source="russell calum" target="three animated movies">
+  <data key="d1">worked on</data>
 </edge>
-<edge source="lasseter" target="february 21">
-  <data key="d1">term ended</data>
+<edge source="three animated movies" target="picture">
+  <data key="d1">type of</data>
+</edge>
+<edge source="fired lasseter" target="date of">
+  <data key="d1">was on</data>
+</edge>
+<edge source="date of" target="february 21">
+  <data key="d1">2014</data>
+</edge>
+<edge source="date of" target="the year of">
+  <data key="d1">within</data>
 </edge>
 <edge source="nominees" target="75th academy awards">
-  <data key="d1">occurred in</data>
+  <data key="d1">part of</data>
 </edge>
-<edge source="nominees" target="2017">
-  <data key="d1">occurred in</data>
+<edge source="nominees" target="inner">
+  <data key="d1">related to</data>
 </edge>
-<edge source="nominees" target="85th academy awards">
-  <data key="d1">lists</data>
-</edge>
-<edge source="nominees" target="92nd academy awards">
-  <data key="d1">had</data>
-</edge>
-<edge source="nominees" target="94th academy awards">
+<edge source="nominees" target="90th academy awards">
   <data key="d1">includes</data>
 </edge>
-<edge source="nominees" target="95th academy awards">
+<edge source="nominees" target="91st academy awards">
+  <data key="d1">includes</data>
+</edge>
+<edge source="nominees" target="92nd academy awards">
+  <data key="d1">includes</data>
+</edge>
+<edge source="nominees" target="93rd academy awards">
+  <data key="d1">includes</data>
+</edge>
+<edge source="nominees" target="94th academy awards nominees winners">
   <data key="d1">includes</data>
 </edge>
 <edge source="nominees" target="96th academy awards">
-  <data key="d1">has</data>
+  <data key="d1">has category</data>
 </edge>
 <edge source="75th academy awards" target="winners">
-  <data key="d1">occurred in</data>
+  <data key="d1">part of</data>
 </edge>
-<edge source="2017" target="winners">
-  <data key="d1">occurred in</data>
+<edge source="75th academy awards" target="end of cycle">
+  <data key="d1">date</data>
 </edge>
-<edge source="2017" target="89th academy awards">
+<edge source="75th academy awards" target="calum russell">
+  <data key="d1">mentioned by</data>
+</edge>
+<edge source="winners" target="90th academy awards">
   <data key="d1">includes</data>
 </edge>
-<edge source="2017" target="march 3 2017">
+<edge source="winners" target="91st academy awards">
   <data key="d1">includes</data>
-</edge>
-<edge source="winners" target="84th academy awards">
-  <data key="d1">lists</data>
 </edge>
 <edge source="winners" target="92nd academy awards">
-  <data key="d1">had</data>
+  <data key="d1">includes</data>
 </edge>
 <edge source="winners" target="93rd academy awards">
-  <data key="d1">had</data>
+  <data key="d1">includes</data>
 </edge>
-<edge source="winners" target="94th academy awards">
-  <data key="d1">involves</data>
-</edge>
-<edge source="winners" target="95th academy awards">
-  <data key="d1">involves</data>
+<edge source="winners" target="94th academy awards nominees winners">
+  <data key="d1">includes</data>
 </edge>
 <edge source="winners" target="96th academy awards">
-  <data key="d1">has</data>
+  <data key="d1">has category</data>
 </edge>
-<edge source="winners" target="onward">
-  <data key="d1">include</data>
+<edge source="end of cycle" target="2017">
+  <data key="d1">year</data>
 </edge>
-<edge source="winners" target="beautiful mind">
-  <data key="d1">include</data>
+<edge source="2017" target="may 2 2017">
+  <data key="d1">within the year of</data>
+</edge>
+<edge source="event date" target="august 27">
+  <data key="d1">2013</data>
+</edge>
+<edge source="august 27" target="date">
+  <data key="d1">mentioned as</data>
+</edge>
+<edge source="august 27" target="point of time">
+  <data key="d1">2013</data>
+</edge>
+<edge source="august 27" target="2013">
+  <data key="d1">point of time</data>
 </edge>
 <edge source="76th academy awards" target="2004">
-  <data key="d1">held in</data>
+  <data key="d1">year of</data>
 </edge>
-<edge source="76th academy awards" target="77th academy awards">
-  <data key="d1">preceded</data>
+<edge source="76th academy awards" target="april 2015">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="2005" target="77th academy awards">
-  <data key="d1">held in</data>
+<edge source="76th academy awards" target="august 2013">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="77th academy awards" target="78th academy awards">
-  <data key="d1">preceded</data>
+<edge source="april 2015" target="2015">
+  <data key="d1">within the year of</data>
 </edge>
-<edge source="2013" target="85th academy awards">
-  <data key="d1">occurred in</data>
+<edge source="april 2015" target="date">
+  <data key="d1">mentioned as</data>
 </edge>
-<edge source="2013" target="2012">
-  <data key="d1">precedes</data>
+<edge source="april 2015" target="79th academy awards">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="2015" target="79th academy awards">
+  <data key="d1">mentioned in</data>
 </edge>
 <edge source="2015" target="87th academy awards">
+  <data key="d1">occurs in</data>
+</edge>
+<edge source="2013" target="august 2013">
+  <data key="d1">within the year of</data>
+</edge>
+<edge source="2013" target="2014">
+  <data key="d1">preceded by</data>
+</edge>
+<edge source="2013" target="80th academy awards">
+  <data key="d1">point of time</data>
+</edge>
+<edge source="2013" target="85th academy awards">
+  <data key="d1">held in</data>
+</edge>
+<edge source="2013" target="2012">
+  <data key="d1">preceded by</data>
+</edge>
+<edge source="2005" target="77th academy awards">
+  <data key="d1">year of</data>
+</edge>
+<edge source="77th academy awards" target="may 2 2017">
+  <data key="d1">linked with</data>
+</edge>
+<edge source="2014" target="78th academy awards">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="2014" target="86th academy awards">
+  <data key="d1">occurs in</data>
+</edge>
+<edge source="2006" target="78th academy awards">
   <data key="d1">occurred in</data>
 </edge>
-<edge source="78th academy awards" target="2006">
-  <data key="d1">occurred in</data>
+<edge source="78th academy awards" target="november 2014">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="78th academy awards" target="79th academy awards">
-  <data key="d1">preceded</data>
+<edge source="78th academy awards" target="august 27 2013">
+  <data key="d1">linked with</data>
 </edge>
-<edge source="78th academy awards" target="november 9 2014">
-  <data key="d1">reference</data>
+<edge source="november 9 2014" target="date">
+  <data key="d1">mentioned as</data>
 </edge>
 <edge source="79th academy awards" target="2007">
   <data key="d1">occurred in</data>
 </edge>
-<edge source="november 9 2014" target="event">
-  <data key="d1">date of</data>
+<edge source="november 2014" target="81st academy awards">
+  <data key="d1">recorded in</data>
 </edge>
-<edge source="event" target="april 2015">
-  <data key="d1">date of</data>
-</edge>
-<edge source="80th academy awards" target="2008">
-  <data key="d1">occurs in</data>
-</edge>
-<edge source="80th academy awards" target="august 27 2013">
-  <data key="d1">reference</data>
-</edge>
-<edge source="80th academy awards" target="april">
-  <data key="d1">has winners</data>
-</edge>
-<edge source="80th academy awards" target="august 27">
-  <data key="d1">mentioned in</data>
-</edge>
-<edge source="81st academy awards" target="november 10 2014">
-  <data key="d1">reference</data>
+<edge source="81st academy awards" target="2009">
+  <data key="d1">winners of</data>
 </edge>
 <edge source="81st academy awards" target="november 10">
-  <data key="d1">mentioned in</data>
+  <data key="d1">point of time</data>
+</edge>
+<edge source="" target="september 2012">
+  <data key="d1">point of time</data>
+</edge>
+<edge source="" target="may 2011">
+  <data key="d1">point of time</data>
+</edge>
+<edge source="" target="point of time">
+  <data key="d1">may 2011</data>
+</edge>
+<edge source="may 2011" target="83rd academy awards">
+  <data key="d1">point of time</data>
 </edge>
 <edge source="83rd academy awards" target="2011">
-  <data key="d1">has winners</data>
+  <data key="d1">occurred in</data>
 </edge>
-<edge source="83rd academy awards" target="may 2011">
-  <data key="d1">announced in</data>
-</edge>
-<edge source="august 27" target="date">
-  <data key="d1"> 2013</data>
+<edge source="2011" target="2012">
+  <data key="d1">preceded by</data>
 </edge>
 <edge source="84th academy awards" target="2012">
-  <data key="d1">occurred in</data>
+  <data key="d1">held in</data>
 </edge>
-<edge source="84th academy awards" target="85th academy awards">
-  <data key="d1">precedes</data>
-</edge>
-<edge source="2012" target="october 2014">
-  <data key="d1">date</data>
+<edge source="84th academy awards" target="october 2014">
+  <data key="d1">mentioned in</data>
 </edge>
 <edge source="85th academy awards" target="october">
-  <data key="d1">announced winners in</data>
-</edge>
-<edge source="85th academy awards" target="announced in oktober">
-  <data key="d1">included nominees and winners</data>
-</edge>
-<edge source="85th academy awards" target="86th academy awards">
-  <data key="d1">precedes</data>
+  <data key="d1">mentioned in</data>
 </edge>
 <edge source="86th academy awards" target="october 14">
-  <data key="d1">announced winners on</data>
+  <data key="d1">dates</data>
 </edge>
 <edge source="86th academy awards" target="april 10">
-  <data key="d1">announced winners on</data>
+  <data key="d1">dates</data>
 </edge>
 <edge source="86th academy awards" target="87th academy awards">
-  <data key="d1">is followed by</data>
+  <data key="d1">precedes</data>
+</edge>
+<edge source="october 14" target="academy awards">
+  <data key="d1">records</data>
+</edge>
+<edge source="april 10" target="academy awards">
+  <data key="d1">records</data>
 </edge>
 <edge source="87th academy awards" target="march 10">
-  <data key="d1">announced winners on</data>
+  <data key="d1">dates</data>
 </edge>
 <edge source="87th academy awards" target="january 15">
-  <data key="d1">announced winners on</data>
+  <data key="d1">dates</data>
 </edge>
 <edge source="87th academy awards" target="88th academy awards">
-  <data key="d1">is followed by</data>
+  <data key="d1">precedes</data>
 </edge>
-<edge source="88th academy awards" target="2016">
-  <data key="d1">occurred in</data>
+<edge source="march 10" target="academy awards">
+  <data key="d1">records</data>
+</edge>
+<edge source="january 15" target="academy awards">
+  <data key="d1">records</data>
+</edge>
+<edge source="academy awards" target="october 2014">
+  <data key="d1">records</data>
 </edge>
 <edge source="88th academy awards" target="january 25 2016">
+  <data key="d1">occurred on</data>
+</edge>
+<edge source="88th academy awards" target="inner">
+  <data key="d1">precedes</data>
+</edge>
+<edge source="88th academy awards" target="90th academy awards">
+  <data key="d1">precedes</data>
+</edge>
+<edge source="inner" target="march 3 2017">
   <data key="d1">announced on</data>
 </edge>
-<edge source="88th academy awards" target="89th academy awards">
-  <data key="d1">preceded by</data>
-</edge>
-<edge source="2016" target="january 25 2016">
-  <data key="d1">includes</data>
-</edge>
-<edge source="89th academy awards" target="march 3 2017">
-  <data key="d1">will announce winners on</data>
-</edge>
-<edge source="89th academy awards" target="90th academy awards">
-  <data key="d1">preceded by</data>
+<edge source="inner" target="isses between the 88th academy awards and the 90th academy awards">
+  <data key="d1">winners</data>
 </edge>
 <edge source="90th academy awards" target="2018">
-  <data key="d1">year</data>
+  <data key="d1">held in</data>
 </edge>
 <edge source="90th academy awards" target="91st academy awards">
-  <data key="d1">is followed by</data>
+  <data key="d1">precedes</data>
 </edge>
-<edge source="2018" target="april 1">
-  <data key="d1">happened on</data>
+<edge source="91st academy awards" target="march 14 2023">
+  <data key="d1">held in</data>
 </edge>
-<edge source="91st academy awards" target="92nd academy awards">
-  <data key="d1">is followed by</data>
+<edge source="march 14 2023" target="may 1 2021">
+  <data key="d1">preceded by</data>
+</edge>
+<edge source="march 14 2023" target="april 1 2022">
+  <data key="d1">precedes</data>
+</edge>
+<edge source="march 14 2023" target="event">
+  <data key="d1">occurs on</data>
 </edge>
 <edge source="92nd academy awards" target="february 16 2020">
-  <data key="d1">occurred on</data>
+  <data key="d1">has event</data>
+</edge>
+<edge source="92nd academy awards" target="may 1 2021">
+  <data key="d1">follows</data>
 </edge>
 <edge source="92nd academy awards" target="93rd academy awards">
-  <data key="d1">is followed by</data>
-</edge>
-<edge source="92nd academy awards" target="march 14 2023">
-  <data key="d1">final confirmation date</data>
-</edge>
-<edge source="93rd academy awards" target="may 1 2021">
-  <data key="d1">occurred on</data>
-</edge>
-<edge source="93rd academy awards" target="april 1 2022">
-  <data key="d1">additional winner announcement date</data>
-</edge>
-<edge source="94th academy awards" target="april 1 2022">
-  <data key="d1">has event date</data>
-</edge>
-<edge source="94th academy awards" target="march 14 2023">
-  <data key="d1">also mentioned on</data>
-</edge>
-<edge source="94th academy awards" target="95th academy awards">
   <data key="d1">precedes</data>
 </edge>
-<edge source="95th academy awards" target="march 14 2023">
-  <data key="d1">has event date</data>
+<edge source="may 1 2021" target="93rd academy awards">
+  <data key="d1">has event</data>
 </edge>
-<edge source="95th academy awards" target="march 2023">
-  <data key="d1">has followup event date</data>
-</edge>
-<edge source="95th academy awards" target="96th academy awards">
+<edge source="93rd academy awards" target="94th academy awards nominees winners">
   <data key="d1">precedes</data>
 </edge>
-<edge source="96th academy awards" target="january">
-  <data key="d1">is the month of</data>
+<edge source="94th academy awards nominees winners" target="95th academy awards nominees winners">
+  <data key="d1">precedes</data>
 </edge>
-<edge source="96th academy awards" target="academy picture">
+<edge source="95th academy awards nominees winners" target="march 2023">
+  <data key="d1">held on</data>
+</edge>
+<edge source="march 2023" target="96th academy awards">
   <data key="d1">includes</data>
 </edge>
+<edge source="april 1 2022" target="event">
+  <data key="d1">occurs on</data>
+</edge>
+<edge source="96th academy awards" target="january">
+  <data key="d1">has performance</data>
+</edge>
+<edge source="96th academy awards" target="perry spencer">
+  <data key="d1">related to</data>
+</edge>
 <edge source="96th academy awards" target="onward">
-  <data key="d1">is a part of</data>
+  <data key="d1">awarded</data>
 </edge>
-<edge source="96th academy awards" target="docomentary">
-  <data key="d1">is a category in</data>
+<edge source="onward" target="pixar">
+  <data key="d1">produced by</data>
 </edge>
-<edge source="96th academy awards" target="international">
-  <data key="d1">is a category in</data>
-</edge>
-<edge source="pixar" target="onward">
-  <data key="d1">created</data>
+<edge source="onward" target="2020 (93rd)">
+  <data key="d1">film</data>
 </edge>
 <edge source="pixar" target="0">
   <data key="d1">positioninlist</data>
@@ -2446,47 +2473,56 @@
 <edge source="pixar" target="monsters">
   <data key="d1">films</data>
 </edge>
-<edge source="onward" target="2020 (93rd)">
-  <data key="d1">film</data>
+<edge source="comicbook" target="beautiful mind">
+  <data key="d1">related to</data>
 </edge>
 <edge source="beautiful mind" target="2002">
-  <data key="d1">wins</data>
+  <data key="d1">won in</data>
 </edge>
-<edge source="beautiful mind" target="best picture oscar">
-  <data key="d1">wins</data>
+<edge source="beautiful mind" target="national film registry">
+  <data key="d1">in</data>
 </edge>
-<edge source="national film registry" target="clockwork orange">
-  <data key="d1">is in</data>
+<edge source="clockwork orange" target="national film registry">
+  <data key="d1">in</data>
 </edge>
 <edge source="national film registry" target="joy luck club">
-  <data key="d1">is in</data>
+  <data key="d1">in</data>
 </edge>
 <edge source="national film registry" target="reporter">
-  <data key="d1">is in</data>
+  <data key="d1">in</data>
 </edge>
-<edge source="national film registry" target="25 films">
-  <data key="d1">is in</data>
+<edge source="national film registry" target="national film registry's 25 films list">
+  <data key="d1">included titles</data>
 </edge>
-<edge source="national film registry" target="jedi">
-  <data key="d1">is in</data>
+<edge source="reporter" target="jedi">
+  <data key="d1">in</data>
 </edge>
-<edge source="national film registry" target="documentary">
-  <data key="d1">related to</data>
+<edge source="animated" target="documentary">
+  <data key="d1">in</data>
 </edge>
-<edge source="national film registry" target="cartoon">
-  <data key="d1">related to</data>
+<edge source="animated" target="national film registry's 25 films list">
+  <data key="d1">in</data>
 </edge>
-<edge source="national film registry" target="international">
-  <data key="d1">related to</data>
+<edge source="documentary" target="cartoon">
+  <data key="d1">in</data>
 </edge>
-<edge source="international" target="in">
-  <data key="d1">is</data>
+<edge source="documentary" target="national film registry's 25 films list">
+  <data key="d1">in</data>
 </edge>
-<edge source="documentary" target="in">
-  <data key="d1">is</data>
+<edge source="boin adriano" target="2023 oscar">
+  <data key="d1">wins</data>
 </edge>
-<edge source="in" target="cartoon">
-  <data key="d1">is</data>
+<edge source="boin adriano" target="bibliography">
+  <data key="d1">contains</data>
+</edge>
+<edge source="2023 oscar" target="bibliography">
+  <data key="d1">contains</data>
+</edge>
+<edge source="diario" target="march 13">
+  <data key="d1">mentioned in</data>
+</edge>
+<edge source="national film registry's 25 films list" target="international films">
+  <data key="d1">in</data>
 </edge>
 <edge source="2023 co-recipient: hayao miyazaki" target="2023 co-recipient: hayao miyazaki">
   <data key="d1">academy award for best animated feature.1</data>
@@ -2609,6 +2645,9 @@
   <data key="d1">positioninlist</data>
 </edge>
 <edge source="1" target="2020 (93rd)">
+  <data key="d1">positioninlist</data>
+</edge>
+<edge source="1" target="wins">
   <data key="d1">positioninlist</data>
 </edge>
 <edge source="1" target="2">
@@ -3766,6 +3805,9 @@
 <edge source="2008 (81st)" target="23">
   <data key="d1">positioninlist</data>
 </edge>
+<edge source="2008 (81st)" target="wall-e">
+  <data key="d1">film</data>
+</edge>
 <edge source="2008 (81st)" target="[31]">
   <data key="d1">ref.</data>
 </edge>
@@ -4436,6 +4478,12 @@
   <data key="d1">film</data>
 </edge>
 <edge source="multiple wins[edit] wins individual 3 pete docter 2 brad bird byron howard hayao miyazaki jonas rivera clark spencer andrew stanton lee unkrich" target="multiple nominations[edit] nominations individual 4 pete docter hayao miyazaki 3 brad bird ron clements dean deblois byron howard travis knight phil lord christopher miller rich moore tomm moore chris sanders clark spencer toshio suzuki chris williams 2 wes anderson bonnie arnold chris buck tim burton chris butler sylvain chomet don hall john lasseter john musker yoshiaki nishimura jonas rivera osnat shurer andrew stanton arianne sutner lee unkrich peter del vecho paul young">
+  <data key="d1">1</data>
+</edge>
+<edge source="wins" target="wins">
+  <data key="d1">0</data>
+</edge>
+<edge source="wins" target="individual">
   <data key="d1">1</data>
 </edge>
 <edge source="individual" target="nominations">
