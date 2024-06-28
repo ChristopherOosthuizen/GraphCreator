@@ -29,6 +29,7 @@ dependencies = [
 "protobuf",
 "PySocks",
 "pyvis==0.3.2",
+"llama-index-llms-ollama",
 ]
 [project.urls]
 Homepage="https://github.com/ChristopherOosthuizen/GraphCreator"
