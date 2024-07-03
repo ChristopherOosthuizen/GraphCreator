@@ -19,12 +19,6 @@ pipelines = []
 gpus = []
 model_id = ""
 import os
-if "HF_HOME" in os.environ:
-    gpus = os.environ['KG_GPUS'].split(",")
-    model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-    for x in gpus:
-        pipelines.append(
-            ))
 def set_model(model_name: str):
     if model_name.startswith("gpt"):
         assert 'OPENAI_API_KEY' in os.environ, "The OpenAI API key must be set in the environment variables. This can be done by os.environ['OPENAI_API_KEY'] = 'your_key_here'"
@@ -34,13 +28,15 @@ def set_model(model_name: str):
         genai.configure(api_key=os.environ['GENAI_API_KEY'])
         llm = genai.GenerativeModel(model_name)
     elif model_name.find("/") != -1:
+        assert 'HF_HOME' in os.environ, "The Hugging Face API key must be set in the environment variables. This can be done by os.environ['HF_HOME'] = 'your_key_here'"
         llm = pipeline(
             "text-generation",
             model=model_id,
-            model_kwargs={"torch_dtype": torch.bfloat16},
-            device_map=int(x))
+            model_kwargs={"torch_dtype": torch.bfloat16})
     else:
-        llm = Ollama(model_name)
+        assert model_name.startswith("phi3") or model_name.startswith("llama3") or model_name.startswith("mistral") or model_name.startswith("gemma2"), "The model name must start with 'phi3' or 'llama3' or 'mistral' or 'gemma2'"
+        llm = Ollama(model=model_name)
+
     global model
     model = model_name
 
