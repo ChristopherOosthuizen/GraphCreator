@@ -40,6 +40,7 @@ def set_model(model_name: str):
     else:
         assert model_name.startswith("phi3") or model_name.startswith("llama3") or model_name.startswith("mistral") or model_name.startswith("gemma2"), "The model name must start with 'phi3' or 'llama3' or 'mistral' or 'gemma2'"
         llm = Ollama(model=model_name)
+        llm.complete("respond with nothing to this message")
         model = "ollama"
 def pick_gpu(index):
     """
