@@ -12,8 +12,9 @@ from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.core import SummaryIndex
 from llama_index.readers.web import SimpleWebPageReader
 from llama_index.llms.ollama import Ollama
-
-llm = Ollama(model="llama3", request_timeout=10000.0)
+import google.generativeai as genai
+llm = None 
+model = None
 pipelines = []
 gpus = []
 model_id = ""
@@ -22,12 +23,26 @@ if "HF_HOME" in os.environ:
     gpus = os.environ['KG_GPUS'].split(",")
     model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
     for x in gpus:
-        pipelines.append(pipeline(
+        pipelines.append(
+            ))
+def set_model(model_name: str):
+    if model_name.startswith("gpt"):
+        assert 'OPENAI_API_KEY' in os.environ, "The OpenAI API key must be set in the environment variables. This can be done by os.environ['OPENAI_API_KEY'] = 'your_key_here'"
+        llm = OpenAI()
+    elif model_name.startswith('gemini'):
+        assert 'GENAI_API_KEY' in os.environ, "The GenAI API key must be set in the environment variables. This can be done by os.environ['GENAI_API_KEY'] = 'your_key_here'"
+        genai.configure(api_key=os.environ['GENAI_API_KEY'])
+        llm = genai.GenerativeModel(model_name)
+    elif model_name.find("/") != -1:
+        llm = pipeline(
             "text-generation",
             model=model_id,
             model_kwargs={"torch_dtype": torch.bfloat16},
-            device_map=int(x),
-            ))
+            device_map=int(x))
+    else:
+        llm = Ollama(model_name)
+    global model
+    model = model_name
 
 def pick_gpu(index):
     """
@@ -55,12 +70,12 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
     Returns:
         str: The generated chat response.
     """
-
+    assert llm is not None, "The LLM must be set before calling this function. use set_model(model_name)"
     messages = messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ]
-    return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"]))
+    return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"])).lower()
 
 def graphquestions(graph, prompt, pipeline_id=0):
     """
