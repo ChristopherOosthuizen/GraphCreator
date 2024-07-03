@@ -20,26 +20,27 @@ gpus = []
 model_id = ""
 import os
 def set_model(model_name: str):
+    global model
     if model_name.startswith("gpt"):
         assert 'OPENAI_API_KEY' in os.environ, "The OpenAI API key must be set in the environment variables. This can be done by os.environ['OPENAI_API_KEY'] = 'your_key_here'"
         llm = OpenAI()
+        model = model_name
     elif model_name.startswith('gemini'):
         assert 'GENAI_API_KEY' in os.environ, "The GenAI API key must be set in the environment variables. This can be done by os.environ['GENAI_API_KEY'] = 'your_key_here'"
         genai.configure(api_key=os.environ['GENAI_API_KEY'])
         llm = genai.GenerativeModel(model_name)
+        model = "genai"
     elif model_name.find("/") != -1:
         assert 'HF_HOME' in os.environ, "The Hugging Face API key must be set in the environment variables. This can be done by os.environ['HF_HOME'] = 'your_key_here'"
         llm = pipeline(
             "text-generation",
             model=model_id,
             model_kwargs={"torch_dtype": torch.bfloat16})
+        model = "huggingface"
     else:
         assert model_name.startswith("phi3") or model_name.startswith("llama3") or model_name.startswith("mistral") or model_name.startswith("gemma2"), "The model name must start with 'phi3' or 'llama3' or 'mistral' or 'gemma2'"
         llm = Ollama(model=model_name)
-
-    global model
-    model = model_name
-
+        model = "ollama"
 def pick_gpu(index):
     """
     Function to pick a GPU for the pipeline.
@@ -71,7 +72,14 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ]
-    return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"])).lower()
+    assert model.startswith("gpt") or model == 'genai' or model == 'huggingface' or model=='ollama', "Invalid model name. Must be 'gpt' or 'genai' or 'huggingface' or 'ollama'"
+    if model.startswith("gpt"):
+        return str(llm.chat.completions.create(messages=messages, model=model)).lower()
+    elif model == 'genai':
+        return str(llm.generate_content(messages[0]["content"]+" "+ messages[1]["content"])).lower()
+    elif model == 'ollama':
+        return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"])).lower()
+    return str(pipelines[model_id](messages[0]["content"]+" "+ messages[1]["content"])).lower()
 
 def graphquestions(graph, prompt, pipeline_id=0):
     """
