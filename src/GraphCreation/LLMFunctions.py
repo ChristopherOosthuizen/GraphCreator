@@ -21,6 +21,7 @@ model_id = ""
 import os
 def set_model(model_name: str):
     global model
+    global llm
     if model_name.startswith("gpt"):
         assert 'OPENAI_API_KEY' in os.environ, "The OpenAI API key must be set in the environment variables. This can be done by os.environ['OPENAI_API_KEY'] = 'your_key_here'"
         llm = OpenAI()
@@ -75,11 +76,12 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
         ]
     assert model.startswith("gpt") or model == 'genai' or model == 'huggingface' or model=='ollama', "Invalid model name. Must be 'gpt' or 'genai' or 'huggingface' or 'ollama'"
     if model.startswith("gpt"):
-        return str(llm.chat.completions.create(messages=messages, model=model)).lower()
+        right = str(llm.chat.completions.create(messages=messages, model=model).choices[0].message.content).lower()
+        return right
     elif model == 'genai':
-        return str(llm.generate_content(messages[0]["content"]+" "+ messages[1]["content"])).lower()
+        return str(llm.generate_content(messages[0]["content"]+" "+ messages[1]["content"]).text).lower()
     elif model == 'ollama':
-        return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"])).lower()
+        return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"])['message']['content']).lower()
     return str(pipelines[model_id](messages[0]["content"]+" "+ messages[1]["content"])).lower()
 
 def graphquestions(graph, prompt, pipeline_id=0):
