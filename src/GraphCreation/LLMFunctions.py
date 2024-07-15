@@ -101,7 +101,9 @@ def graphquestions(graph, prompt, pipeline_id=0):
         index += 1
         pipeline = pipelines[pipeline_id]
         Settings.llm = HuggingFaceLLM(model_name=model_id, model=pipeline.model,tokenizer=pipeline.tokenizer)
-    Settings.llm = llm
+    elif model.startswith("gpt"):
+        from llama_index.llms.openai import OpenAI as op
+        Settings.llm=op(model=model)
     graph_store = SimpleGraphStore()
     for node_1, node_2, data in graph.edges(data=True):
         graph_store.upsert_triplet(node_1, data['label'], node_2)

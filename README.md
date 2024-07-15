@@ -80,8 +80,6 @@ The only issue is that Knowledge Graphs take a long time to make and are difficu
 ## Getting Started
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
 1. Clone the repo
    ```sh
    pip install git+https://github.com/ChristopherOosthuizen/GraphCreator.git
@@ -96,6 +94,9 @@ _Below is an example of how you can instruct your audience on installing and set
 ### Making a new Graph
 ```
 import GraphCreation.GraphCreation as gc
+import os
+os.environ['OPENAI_API_KEY']= <APIKEY>
+GraphCreation.LLM.set_model("gpt-4o")
 chunks,g = gc.create_KG_from_url("https://en.wikipedia.org/wiki/Mckenna_Grace")
 print(GraphCreation.LLM.graphquestions(g,"Who is Mckenna Grace"))
 ```
