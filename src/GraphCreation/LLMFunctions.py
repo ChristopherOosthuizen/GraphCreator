@@ -81,7 +81,7 @@ def generate_chat_response(system_prompt, user_prompt, model_id=0):
     elif model == 'genai':
         return str(llm.generate_content(messages[0]["content"]+" "+ messages[1]["content"]).text).lower()
     elif model == 'ollama':
-        return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"])['message']['content']).lower()
+        return str(llm.complete(messages[0]["content"]+" "+ messages[1]["content"])).lower()
     return str(pipelines[model_id](messages[0]["content"]+" "+ messages[1]["content"])).lower()
 
 def graphquestions(graph, prompt, pipeline_id=0):
