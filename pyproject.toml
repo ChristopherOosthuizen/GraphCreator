@@ -30,6 +30,7 @@ dependencies = [
 "PySocks",
 "pyvis==0.3.2",
 "llama-index-llms-ollama",
+'scipy==1.10.1',
 ]
 [project.urls]
 Homepage="https://github.com/ChristopherOosthuizen/GraphCreator"
