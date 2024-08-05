@@ -23,6 +23,10 @@ import colorsys
 current_file_path = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file_path)
 prompts_dir = os.path.join(current_dir,'prompts')
+
+def _ner(text_chunk, model_id=1):
+    return LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read(), text_chunk, model_id=model_id).split("\n")
+
 def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, ner_type="flair", num=10):
     """
     Creates knowledge triplets from a given text chunk.
@@ -36,7 +40,7 @@ def create_knowledge_triplets(text_chunk="", repeats=5, ner=False, model_id=0, n
     """
     system_prompt = ""
     system_prompt = open(os.path.join(prompts_dir,"TripletCreationSystem")).read().replace("<num>",str(num))
-    shorthand_list = LLM.generate_chat_response(open(os.path.join(prompts_dir,"NERprompt")).read(), text_chunk, model_id=model_id).split("\n")
+    shorthand_list = _ner(text_chunk, model_id=model_id)
     shorthands = textformatting.token_compression(shorthand_list)
     shorthand_dict = shorthands
     shorthands = [x+":"+shorthands[x] for x in shorthands.keys()]
